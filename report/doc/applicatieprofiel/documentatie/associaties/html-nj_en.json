@@ -1,0 +1,3214 @@
+{
+  "metadata": {
+    "title": "Associations",
+    "uri": "https://data.vlaanderen.be/ns/mijndomein",
+    "issued": "2019-10-09",
+    "baseURI": "https://data.vlaanderen.be/ns/mijndomein#",
+    "filename": "associaties",
+    "navigation": {
+      "self": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties"
+    },
+    "license": "TODO",
+    "documenttype": "ap",
+    "documentconfig": {},
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "statuslabel": "Ontwerpdocument",
+    "repositoryurl": "https://github.com/informatievlaanderen/OSLOthema-toolchainTestbed /tree/8366cc16dd5d8b9a77052f4026946c41fb487e16",
+    "changelogurl": "https://github.com/informatievlaanderen/OSLOthema-toolchainTestbed /blob/8366cc16dd5d8b9a77052f4026946c41fb487e16/CHANGELOG",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-toolchainTestbed/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/",
+    "usesVocs": [],
+    "usesAPs": []
+  },
+  "classes": [
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
+      "name": "Heeft04",
+      "label": {},
+      "sort": "Heeft04",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "Heeft 04",
+        "definition-nl": "Definitie Heeft04 (associatieklasse) etc.",
+        "usageNote-nl": "Gebruik Heeft04 (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a04",
+          "name": "a04",
+          "sort": "a04",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft04",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 04",
+            "definition-nl": "Definitie a04 etc.",
+            "usageNote-nl": "Gebruik a04 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B",
+          "name": "k04b",
+          "sort": "k04b",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft04",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K04B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K04B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K04B",
+              "range_label": {
+                "nl": "K 04B"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "k 04B",
+            "definition-nl": "Definitie k04B etc.",
+            "rev-label-nl": "heeft 04",
+            "rev-definition-nl": "Definitie heeft04 (in K04B) etc.",
+            "name": "Heeft04.k04B",
+            "rev-name": "K04B.heeft04",
+            "rev-usageNote-nl": "Gebruik heeft04 (in K04B) etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A",
+          "name": "k04a",
+          "sort": "k04a",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft04",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K04A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K04A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K04A",
+              "range_label": {
+                "nl": "K 04A"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "k 04A",
+            "definition-nl": "Definitie k04A etc.",
+            "name": "Heeft04.k04A"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05",
+      "name": "Heeft05",
+      "label": {},
+      "sort": "Heeft05",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "Heeft 05",
+        "definition-nl": "Definitie Heeft05 (associatieklasse) etc.",
+        "usageNote-nl": "Gebruik Heeft05 (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a05",
+          "name": "a05",
+          "sort": "a05",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft05",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 05",
+            "definition-nl": "Definitie a05 etc.",
+            "usageNote-nl": "Gebruik a05 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B",
+          "name": "k05b",
+          "sort": "k05b",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft05",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K05B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K05B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K05B",
+              "range_label": {
+                "nl": "K 05B"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A",
+          "name": "k05a",
+          "sort": "k05a",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft05",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K05A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K05A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K05A",
+              "range_label": {
+                "nl": "K 05A"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06",
+      "name": "Heeft06",
+      "label": {},
+      "sort": "Heeft06",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "Heeft 06",
+        "definition-nl": "Definitie Heeft06 (associatieklasse) etc.",
+        "usageNote-nl": "Gebruik Heeft06 (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a06",
+          "name": "a06",
+          "sort": "a06",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft06",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 06",
+            "definition-nl": "Definitie a06 etc.",
+            "usageNote-nl": "Gebruik a06 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B",
+          "name": "k06b",
+          "sort": "k06b",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft06",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K06B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K06B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06B",
+              "range_label": {
+                "nl": "K 06B"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A",
+          "name": "k06a",
+          "sort": "k06a",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft06",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K06A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K06A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+              "range_label": {
+                "nl": "K 06A"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07",
+      "name": "Heeft07",
+      "label": {},
+      "sort": "Heeft07",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie Heeft07 (associatieklasse) etc.",
+        "label-nl": "Heeft 07",
+        "usageNote-nl": "Gebruik Heeft07 (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a07",
+          "name": "a07",
+          "sort": "a07",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft07",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 07",
+            "definition-nl": "Definitie a07 etc.",
+            "usageNote-nl": "Gebruik a07 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B",
+          "name": "k07b",
+          "sort": "k07b",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft07",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K07B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+              "range_label": {
+                "nl": "K 07B"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A",
+          "name": "k07a",
+          "sort": "k07a",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft07",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K07A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+              "range_label": {
+                "nl": "K 07A"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b",
+      "name": "Heeft07b",
+      "label": {},
+      "sort": "Heeft07b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "Heeft 07b",
+        "definition-nl": "Definitie Heeft07b (associatieklasse) etc.",
+        "usageNote-nl": "Gebruik Heeft07b (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a07b",
+          "name": "a07b",
+          "sort": "a07b",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft07b",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 07b",
+            "definition-nl": "Definitie a07b etc.",
+            "usageNote-nl": "Gebruik a07b etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B",
+          "name": "k07b",
+          "sort": "k07b",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft07b",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K07B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+              "range_label": {
+                "nl": "K 07B"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A",
+          "name": "k07a",
+          "sort": "k07a",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft07b",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K07A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+              "range_label": {
+                "nl": "K 07A"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25",
+      "name": "Heeft25",
+      "label": {},
+      "sort": "Heeft25",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie Heeft25 (associatieklasse) etc.",
+        "label-nl": "Heeft 25",
+        "usageNote-nl": "Gebruik Heeft25 (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a25",
+          "name": "a25",
+          "sort": "a25",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft25",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 25",
+            "definition-nl": "Definitie a25 etc.",
+            "usageNote-nl": "Gebruik a25 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target",
+          "name": "k25(target)",
+          "sort": "k25(target)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft25",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K25",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K25",
+              "range_label": {
+                "nl": "K 25"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source",
+          "name": "k25(source)",
+          "sort": "k25(source)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft25",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K25",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K25",
+              "range_label": {
+                "nl": "K 25"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26",
+      "name": "Heeft26",
+      "label": {},
+      "sort": "Heeft26",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie Heeft26 (associatieklasse) etc.",
+        "label-nl": "Heeft 26",
+        "usageNote-nl": "Gebruik Heeft26 (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a26",
+          "name": "a26",
+          "sort": "a26",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft26",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 26",
+            "definition-nl": "Definitie a26 etc.",
+            "usageNote-nl": "Gebruik a26 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target",
+          "name": "k26(target)",
+          "sort": "k26(target)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft26",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K26",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
+              "range_label": {
+                "nl": "K 26"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source",
+          "name": "k26(source)",
+          "sort": "k26(source)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft26",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K26",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
+              "range_label": {
+                "nl": "K 26"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27",
+      "name": "Heeft27",
+      "label": {},
+      "sort": "Heeft27",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie Heeft27 (associatieklasse) etc.",
+        "label-nl": "Heeft 27",
+        "usageNote-nl": "Gebruik Heeft27 (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a27",
+          "name": "a27",
+          "sort": "a27",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft27",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 27",
+            "definition-nl": "Definitie a27 etc.",
+            "usageNote-nl": "Gebruik a27 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target",
+          "name": "k27(target)",
+          "sort": "k27(target)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft27",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K27",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+              "range_label": {
+                "nl": "K 27"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source",
+          "name": "k27(source)",
+          "sort": "k27(source)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft27",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K27",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+              "range_label": {
+                "nl": "K 27"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b",
+      "name": "Heeft27b",
+      "label": {},
+      "sort": "Heeft27b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "Heeft 27b",
+        "definition-nl": "Definitie Heeft27b (associatieklasse) etc.",
+        "usageNote-nl": "Gebruik Heeft27b (associatieklasse) etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#a27b",
+          "name": "a27b",
+          "sort": "a27b",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft27b",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "a 27b",
+            "definition-nl": "Definitie a27b etc.",
+            "usageNote-nl": "Gebruik a27b etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target",
+          "name": "k27(target)",
+          "sort": "k27(target)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft27b",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K27",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+              "range_label": {
+                "nl": "K 27"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source",
+          "name": "k27(source)",
+          "sort": "k27(source)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Heeft27b",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K27",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+              "range_label": {
+                "nl": "K 27"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "",
+            "ap-definition-nl": "",
+            "usageNote-nl": "",
+            "ap-usageNote-nl": "",
+            "package": ""
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K01A",
+      "name": "K01a",
+      "label": {},
+      "sort": "K01a",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K01A etc.",
+        "label-nl": "K 01A",
+        "usageNote-nl": "Gebruik K01A etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft01",
+          "name": "heeft01",
+          "sort": "heeft01",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K01A",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K01A"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K01B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K01B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K01B",
+              "range_label": {
+                "nl": "K 01B"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 01",
+            "definition-nl": "Definitie Heeft01 etc.",
+            "usageNote-nl": "Gebruik Heeft01 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K01B",
+      "name": "K01b",
+      "label": {},
+      "sort": "K01b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 01B",
+        "definition-nl": "Definitie K01B etc.",
+        "usageNote-nl": "Gebruik K01B etc."
+      },
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K02A",
+      "name": "K02a",
+      "label": {},
+      "sort": "K02a",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 02A",
+        "definition-nl": "Definitie K02A etc.",
+        "usageNote-nl": "Gebruik K02A etc."
+      },
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B",
+      "name": "K02b",
+      "label": {},
+      "sort": "K02b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 02B",
+        "definition-nl": "Definitie K02B etc.",
+        "usageNote-nl": "Gebruik K02B etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
+          "name": "heeft02",
+          "sort": "heeft02",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K02B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K02A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K02A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K02A",
+              "range_label": {
+                "nl": "K 02A"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 02",
+            "definition-nl": "Definitie Heeft02 etc.",
+            "usageNote-nl": "Gebruik Heeft02 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
+          "name": "heeft02",
+          "sort": "heeft02",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K02B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K02A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K02A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K02A",
+              "range_label": {
+                "nl": "K 02A"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 02",
+            "definition-nl": "Definitie Heeft02 etc.",
+            "usageNote-nl": "Gebruik Heeft02 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A",
+      "name": "K03a",
+      "label": {},
+      "sort": "K03a",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 03A",
+        "definition-nl": "Definitie K03A etc.",
+        "usageNote-nl": "Gebruik K03A etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede",
+          "name": "k03bRolTweede",
+          "sort": "k03bRolTweede",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K03A",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K03B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03B",
+              "range_label": {
+                "nl": "K 03B"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k03BrolTweede etc.",
+            "usageNote-nl": "Gebruik k03BrolTweede etc.",
+            "label-nl": "k 03B rol Tweede"
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Brol",
+          "name": "k03bRol",
+          "sort": "k03bRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K03A",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K03B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03B",
+              "range_label": {
+                "nl": "K 03B"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k03Brol etc.",
+            "usageNote-nl": "Gebruik k03Brol etc.",
+            "label-nl": "k 03B rol"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B",
+      "name": "K03b",
+      "label": {},
+      "sort": "K03b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 03B",
+        "definition-nl": "Definitie K03B etc.",
+        "usageNote-nl": "Gebruik K03B etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede",
+          "name": "k03aRolTweede",
+          "sort": "k03aRolTweede",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K03B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K03A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03A",
+              "range_label": {
+                "nl": "K 03A"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "usageNote-nl": "Gebruik k03ArolTweede etc.",
+            "label-nl": "k 03A rol Tweede",
+            "definition-nl": "Definitie k03ArolTweede etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Arol",
+          "name": "k03aRol",
+          "sort": "k03aRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K03B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K03A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K03A",
+              "range_label": {
+                "nl": "K 03A"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "k 03A rol",
+            "definition-nl": "Definitie k03Arol etc.",
+            "usageNote-nl": "Gebruik k03Arol etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K04A",
+      "name": "K04a",
+      "label": {},
+      "sort": "K04a",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 04A",
+        "definition-nl": "Definitie K04A etc.",
+        "usageNote-nl": "Gebruik K04A etc."
+      },
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B",
+      "name": "K04b",
+      "label": {},
+      "sort": "K04b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 04B",
+        "definition-nl": "Definitie K04B etc.",
+        "usageNote-nl": "Gebruik K04B etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
+          "name": "heeft04",
+          "sort": "heeft04",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K04B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Heeft04",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
+              "range_label": {
+                "nl": "Heeft 04"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "heeft 04",
+            "definition-nl": "Definitie heeft04 (in K04B) etc.",
+            "name": "K04B.heeft04",
+            "usageNote-nl": "Gebruik heeft04 (in K04B) etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
+          "name": "heeft04",
+          "sort": "heeft04",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K04B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Heeft04",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
+              "range_label": {
+                "nl": "Heeft 04"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "heeft 04",
+            "definition-nl": "Definitie heeft04 (in K04B) etc.",
+            "name": "K04B.heeft04",
+            "usageNote-nl": "Gebruik heeft04 (in K04B) etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K05A",
+      "name": "K05a",
+      "label": {},
+      "sort": "K05a",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 05A",
+        "definition-nl": "Definitie K05A etc.",
+        "usageNote-nl": "Gebruik K05A etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft05",
+          "name": "heeft05",
+          "sort": "heeft05",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K05A",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K05A"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K05B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K05B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K05B",
+              "range_label": {
+                "nl": "K 05B"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 05",
+            "definition-nl": "Definitie Heeft05 etc.",
+            "usageNote-nl": "Gebruik Heeft05 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K05B",
+      "name": "K05b",
+      "label": {},
+      "sort": "K05b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 05B",
+        "definition-nl": "Definitie K05B etc.",
+        "usageNote-nl": "Gebruik K05B etc."
+      },
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+      "name": "K06a",
+      "label": {},
+      "sort": "K06a",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 06A",
+        "definition-nl": "Definitie K06A etc.",
+        "usageNote-nl": "Gebruik K06A etc."
+      },
+      "properties": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B",
+      "name": "K06b",
+      "label": {},
+      "sort": "K06b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-nl": "K 06B",
+        "definition-nl": "Definitie K06B etc.",
+        "usageNote-nl": "Gebruik K06B etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
+          "name": "heeft06",
+          "sort": "heeft06",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K06B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K06A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K06A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+              "range_label": {
+                "nl": "K 06A"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 06",
+            "definition-nl": "Definitie Heeft06 etc.",
+            "usageNote-nl": "Gebruik Heeft06 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
+          "name": "heeft06",
+          "sort": "heeft06",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K06B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K06A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K06A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+              "range_label": {
+                "nl": "K 06A"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 06",
+            "definition-nl": "Definitie Heeft06 etc.",
+            "usageNote-nl": "Gebruik Heeft06 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+      "name": "K07a",
+      "label": {},
+      "sort": "K07a",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K07A etc.",
+        "label-nl": "K 07A",
+        "usageNote-nl": "Gebruik K07A etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede",
+          "name": "k07bRolTweede",
+          "sort": "k07bRolTweede",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K07A",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K07B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+              "range_label": {
+                "nl": "K 07B"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k07BrolTweede etc.",
+            "label-nl": "k 07B rol Tweede",
+            "usageNote-nl": "Gebruik k07BrolTweede etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Brol",
+          "name": "k07bRol",
+          "sort": "k07bRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K07A",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K07B",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+              "range_label": {
+                "nl": "K 07B"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k07Brol etc.",
+            "label-nl": "k 07B rol",
+            "usageNote-nl": "Gebruik k07Brol etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+      "name": "K07b",
+      "label": {},
+      "sort": "K07b",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K07B etc.",
+        "label-nl": "K 07B",
+        "usageNote-nl": "Gebruik K07B etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Arol",
+          "name": "k07aRol",
+          "sort": "k07aRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K07B",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K07B"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K07A",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K07A"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+              "range_label": {
+                "nl": "K 07A"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k07Arol etc.",
+            "label-nl": "k 07A rol",
+            "usageNote-nl": "Gebruik k07Arol etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K21",
+      "name": "K21",
+      "label": {},
+      "sort": "K21",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K21 etc.",
+        "label-nl": "K 21",
+        "usageNote-nl": "Gebruik K21 etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft21",
+          "name": "heeft21",
+          "sort": "heeft21",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K21",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K21"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K21",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K21"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K21",
+              "range_label": {
+                "nl": "K 21"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 21",
+            "definition-nl": "Definitie Heeft21 etc.",
+            "usageNote-nl": "Gebruik Heeft21 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K22",
+      "name": "K22",
+      "label": {},
+      "sort": "K22",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K22 etc.",
+        "label-nl": "K 22",
+        "usageNote-nl": "Gebruik K22 etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target",
+          "name": "heeft22(target)",
+          "sort": "heeft22(target)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K22",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K22",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K22",
+              "range_label": {
+                "nl": "K 22"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "Definitie Heeft22 etc.",
+            "usageNote-nl": "Gebruik Heeft22 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source",
+          "name": "heeft22(source)",
+          "sort": "heeft22(source)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K22",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K22",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K22"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K22",
+              "range_label": {
+                "nl": "K 22"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "",
+            "definition-nl": "Definitie Heeft22 etc.",
+            "usageNote-nl": "Gebruik Heeft22 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K23",
+      "name": "K23",
+      "label": {},
+      "sort": "K23",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K23 etc.",
+        "label-nl": "K 23",
+        "usageNote-nl": "Gebruik K23 etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede",
+          "name": "k23bRolTweede",
+          "sort": "k23bRolTweede",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K23",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K23",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
+              "range_label": {
+                "nl": "K 23"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k23BrolTweede etc.",
+            "label-nl": "k 23B rol Tweede",
+            "usageNote-nl": "Gebruik k23BrolTweede etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Brol",
+          "name": "k23bRol",
+          "sort": "k23bRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K23",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K23",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
+              "range_label": {
+                "nl": "K 23"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k23Brol etc.",
+            "label-nl": "k 23B rol",
+            "usageNote-nl": "Gebruik k23Brol etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede",
+          "name": "k23aRolTweede",
+          "sort": "k23aRolTweede",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K23",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K23",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
+              "range_label": {
+                "nl": "K 23"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "k 23A rol Tweede",
+            "definition-nl": "Definitie k23ArolTweede etc.",
+            "usageNote-nl": "Gebruik k23ArolTweede etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Arol",
+          "name": "k23aRol",
+          "sort": "k23aRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K23",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K23",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K23"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K23",
+              "range_label": {
+                "nl": "K 23"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "k 23A rol",
+            "definition-nl": "Definitie k23Arol etc.",
+            "usageNote-nl": "Gebruik k23Arol etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K25",
+      "name": "K25",
+      "label": {},
+      "sort": "K25",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K25 etc.",
+        "label-nl": "K 25",
+        "usageNote-nl": "Gebruik K25 etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft25",
+          "name": "heeft25",
+          "sort": "heeft25",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K25",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K25",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K25"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K25",
+              "range_label": {
+                "nl": "K 25"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "Heeft 25",
+            "definition-nl": "Definitie Heeft25 etc.",
+            "usageNote-nl": "Gebruik Heeft25 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K26",
+      "name": "K26",
+      "label": {},
+      "sort": "K26",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K26 etc.",
+        "label-nl": "K 26",
+        "usageNote-nl": "Gebruik K26 etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target",
+          "name": "heeft26(target)",
+          "sort": "heeft26(target)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K26",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K26",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
+              "range_label": {
+                "nl": "K 26"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie Heeft26 etc.",
+            "label-nl": "",
+            "usageNote-nl": "Gebruik Heeft26 etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source",
+          "name": "heeft26(source)",
+          "sort": "heeft26(source)",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K26",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K26",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K26"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K26",
+              "range_label": {
+                "nl": "K 26"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie Heeft26 etc.",
+            "label-nl": "",
+            "usageNote-nl": "Gebruik Heeft26 etc."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+      "name": "K27",
+      "label": {},
+      "sort": "K27",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "definition-nl": "Definitie K27 etc.",
+        "label-nl": "K 27",
+        "usageNote-nl": "Gebruik K27 etc."
+      },
+      "properties": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede",
+          "name": "k27bRolTweede",
+          "sort": "k27bRolTweede",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K27",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K27",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+              "range_label": {
+                "nl": "K 27"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "k 27B rol Tweede",
+            "usageNote-nl": "Gebruik k27BrolTweede etc.",
+            "definition-nl": "Definitie k27BrolTweede etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Brol",
+          "name": "k27bRol",
+          "sort": "k27bRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K27",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K27",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+              "range_label": {
+                "nl": "K 27"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k27Brol etc.",
+            "label-nl": "k 27B rol",
+            "usageNote-nl": "Gebruik k27Brol etc."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Arol",
+          "name": "k27aRol",
+          "sort": "k27aRol",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "K27",
+              "uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "K27",
+              "range_uri": "https://data.vlaanderen.be/ns/mijndomein#K27"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#undefined",
+              "range_puri": "https://data.vlaanderen.be/ns/mijndomein#K27",
+              "range_label": {
+                "nl": "K 27"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-nl": "Definitie k27Arol etc.",
+            "usageNote-nl": "Gebruik k27Arol etc.",
+            "label-nl": "k 27A rol"
+          }
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede",
+      "name": {
+        "nl": "k 27B rol Tweede",
+        "undefined": "k27bRolTweede"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Brol",
+      "name": {
+        "nl": "k 27B rol",
+        "undefined": "k27bRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k27Arol",
+      "name": {
+        "nl": "k 27A rol",
+        "undefined": "k27aRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede",
+      "name": {
+        "nl": "k 23B rol Tweede",
+        "undefined": "k23bRolTweede"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Brol",
+      "name": {
+        "nl": "k 23B rol",
+        "undefined": "k23bRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede",
+      "name": {
+        "nl": "k 23A rol Tweede",
+        "undefined": "k23aRolTweede"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k23Arol",
+      "name": {
+        "nl": "k 23A rol",
+        "undefined": "k23aRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede",
+      "name": {
+        "nl": "k 07B rol Tweede",
+        "undefined": "k07bRolTweede"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Brol",
+      "name": {
+        "nl": "k 07B rol",
+        "undefined": "k07bRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k07Arol",
+      "name": {
+        "nl": "k 07A rol",
+        "undefined": "k07aRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede",
+      "name": {
+        "nl": "k 03B rol Tweede",
+        "undefined": "k03bRolTweede"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Brol",
+      "name": {
+        "nl": "k 03B rol",
+        "undefined": "k03bRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede",
+      "name": {
+        "nl": "k 03A rol Tweede",
+        "undefined": "k03aRolTweede"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#k03Arol",
+      "name": {
+        "nl": "k 03A rol",
+        "undefined": "k03aRol"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft25",
+      "name": {
+        "nl": "Heeft 25",
+        "undefined": "heeft25"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft21",
+      "name": {
+        "nl": "Heeft 21",
+        "undefined": "heeft21"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft05",
+      "name": {
+        "nl": "Heeft 05",
+        "undefined": "heeft05"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#heeft01",
+      "name": {
+        "nl": "Heeft 01",
+        "undefined": "heeft01"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target",
+      "name": {
+        "nl": "Heeft 26 (target)",
+        "undefined": "heeft26(target)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source",
+      "name": {
+        "nl": "Heeft 26 (source)",
+        "undefined": "heeft26(source)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target",
+      "name": {
+        "nl": "Heeft 22 (target)",
+        "undefined": "heeft22(target)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source",
+      "name": {
+        "nl": "Heeft 22 (source)",
+        "undefined": "heeft22(source)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
+      "name": {
+        "nl": "Heeft 06",
+        "undefined": "heeft06"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06",
+      "name": {
+        "nl": "Heeft 06",
+        "undefined": "heeft06"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
+      "name": {
+        "nl": "heeft 04",
+        "undefined": "heeft04"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04",
+      "name": {
+        "nl": "heeft 04",
+        "undefined": "heeft04"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
+      "name": {
+        "nl": "Heeft 02",
+        "undefined": "heeft02"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02",
+      "name": {
+        "nl": "Heeft 02",
+        "undefined": "heeft02"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target",
+      "name": {
+        "nl": "K 27 (target)",
+        "undefined": "k27(target)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source",
+      "name": {
+        "nl": "K 27 (source)",
+        "undefined": "k27(source)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target",
+      "name": {
+        "nl": "K 27 (target)",
+        "undefined": "k27(target)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source",
+      "name": {
+        "nl": "K 27 (source)",
+        "undefined": "k27(source)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target",
+      "name": {
+        "nl": "K 26 (target)",
+        "undefined": "k26(target)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source",
+      "name": {
+        "nl": "K 26 (source)",
+        "undefined": "k26(source)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target",
+      "name": {
+        "nl": "K 25 (target)",
+        "undefined": "k25(target)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source",
+      "name": {
+        "nl": "K 25 (source)",
+        "undefined": "k25(source)"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B",
+      "name": {
+        "nl": "K 07B",
+        "undefined": "k07b"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A",
+      "name": {
+        "nl": "K 07A",
+        "undefined": "k07a"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B",
+      "name": {
+        "nl": "K 07B",
+        "undefined": "k07b"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A",
+      "name": {
+        "nl": "K 07A",
+        "undefined": "k07a"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B",
+      "name": {
+        "nl": "K 06B",
+        "undefined": "k06b"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A",
+      "name": {
+        "nl": "K 06A",
+        "undefined": "k06a"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B",
+      "name": {
+        "nl": "K 05B",
+        "undefined": "k05b"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A",
+      "name": {
+        "nl": "K 05A",
+        "undefined": "k05a"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B",
+      "name": {
+        "nl": "k 04B",
+        "undefined": "k04b"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A",
+      "name": {
+        "nl": "k 04A",
+        "undefined": "k04a"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    }
+  ],
+  "contributors": [],
+  "datatypes": [],
+  "parents": [],
+  "documentroot": "/doc/applicatieprofiel/documentatie/associaties"
+}

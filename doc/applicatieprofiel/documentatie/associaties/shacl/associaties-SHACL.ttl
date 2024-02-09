@@ -1,0 +1,530 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties> <https://belgif.github.io//doc/applicatieprofiel/documentatie/associatiesshapes> <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft04Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft05Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft06Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft07Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft07bShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft25Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft26Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft27Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft27bShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K01AShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K01BShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K02AShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K02BShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K03AShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K03BShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K04AShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K04BShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K05AShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K05BShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K06AShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K06BShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K07AShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K07BShape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K21Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K22Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K23Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K25Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K26Shape>,
+    <https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K27Shape> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft04Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K04B>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K04A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a04>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft05Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K05A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K05B>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a05>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#heeft05> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft06Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K06A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K06B>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a06>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft07Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K07A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K07B>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a07>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft07> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft07bShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K07A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K07B>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a07b>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft07b> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft25Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K25>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K25>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a25>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#heeft25> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft26Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K26>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K26>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a26>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft27Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a27>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft27bShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#a27b>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27b> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K01AShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K01B>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#heeft01>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K01A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K01BShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K01B> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K02AShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K02A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K02BShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K02A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K02A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K02B> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K03AShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K03B>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k03Brol>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K03B>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K03A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K03BShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K03A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k03Arol>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K03A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K03B> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K04AShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K04A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K04BShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#Heeft04>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#Heeft04>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K04B> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K05AShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K05B>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#heeft05>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K05BShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K06AShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K06BShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K06A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K06A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K07AShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K07B>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k07Brol>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K07B>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K07BShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K07A>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k07Arol>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K21Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K21>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#heeft21>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K21> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K22Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K22>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K22>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K22> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K23Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K23>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k23Arol>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K23>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K23>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k23Brol>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K23>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#K23> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K25Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K25>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#heeft25>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K26Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K26>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K26>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source> .
+
+<https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K27Shape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    shacl:description ""@en;
+    shacl:maxCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k27Arol>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k27Brol>
+  ], [
+    shacl:class <https://data.vlaanderen.be/ns/mijndomein#K27>;
+    shacl:description ""@en;
+    shacl:minCount 1;
+    shacl:name ""@en;
+    shacl:path <https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede>
+  ];
+  shacl:targetClass <https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source> .

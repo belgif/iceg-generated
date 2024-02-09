@@ -1,0 +1,903 @@
+{
+  "@context": {
+    "@vocab": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:description": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    },
+    "vl": "https://purl.eu/ns/shacl#"
+  },
+  "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties",
+  "shapes": [
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft04Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K04B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04B"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K04A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a04"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft04.k04A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft05Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K05A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K05B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a05"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#heeft05"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft06Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K06B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a06"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft07Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a07"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft07"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft07bShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07A"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b.k07B"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a07b"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft07b"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft25Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K25",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.target"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K25",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a25"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#heeft25"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft26Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K26",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.target"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K26",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a26"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft27Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K27",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.target"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K27",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a27"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft27"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#Heeft27bShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K27",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.target"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K27",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b.k27.source"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#a27b"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft27b"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K01AShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K01B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#heeft01"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K01A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K01BShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K01B"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K02AShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K02A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K02BShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K02A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K02A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K02B.heeft02"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K02B"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K03AShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K03B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k03Brol"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K03B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k03BrolTweede"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K03A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K03BShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K03A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k03Arol"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K03A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k03ArolTweede"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K03B"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K04AShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K04A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K04BShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#Heeft04",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K04B.heeft04"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K04B"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K05AShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K05B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#heeft05"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K05BShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft05.k05B"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K06AShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K06BShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K06A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K06B.heeft06"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft06.k06B"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K07AShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k07Brol"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K07B",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k07BrolTweede"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07A"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K07BShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K07A",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k07Arol"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft07.k07B"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K21Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K21",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#heeft21"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K21"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K22Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K22",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.target"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K22",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K22.heeft22.source"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K22"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K23Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K23",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k23Arol"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K23",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k23ArolTweede"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K23",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k23Brol"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K23",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k23BrolTweede"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#K23"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K25Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K25",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#heeft25"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft25.k25.source"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K26Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K26",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.target"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K26",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#K26.heeft26.source"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft26.k26.source"
+    },
+    {
+      "@id": "https://belgif.github.io//doc/applicatieprofiel/documentatie/associaties#K27Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K27",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k27Arol"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K27",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k27Brol"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/mijndomein#K27",
+          "sh:description": {
+            "en": ""
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": ""
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/mijndomein#k27BrolTweede"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/mijndomein#Heeft27.k27.source"
+    }
+  ]
+}
