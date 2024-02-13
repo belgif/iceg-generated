@@ -23,9 +23,11 @@
   "classes": [
     {
       "uri": "http://data.europa.eu/88u/dataset/atu-type",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "AdministrativeTerritorialUnits",
+      "label": {
+        "en": "Administrative Territorial Units"
+      },
+      "sort": "Administrative Territorial Units",
       "description": {},
       "usage": {},
       "parents": [],
@@ -37,9 +39,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#geometry",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "geometry",
+          "sort": "geometry",
+          "label": {
+            "en": "geometry"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -76,18 +80,20 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/FoundationEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "FoundationEvent",
+      "label": {
+        "en": "Foundation Event"
+      },
+      "sort": "Foundation Event",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "ChangeEvent",
+          "label": "Change Event",
           "name": "ChangeEvent",
           "package": "org",
           "uri": "http://www.w3.org/ns/org#ChangeEvent",
-          "scoped_uri": "#ChangeEvent"
+          "scoped_uri": "#Change Event"
         }
       ],
       "rawTags": {
@@ -99,9 +105,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/PublicOrganisation",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicOrganization",
+      "label": {
+        "en": "Public Organization"
+      },
+      "sort": "Public Organization",
       "description": {},
       "usage": {},
       "parents": [
@@ -122,9 +130,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#legalForm",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "legalForm",
+          "sort": "legal form",
+          "label": {
+            "en": "legal form"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -158,9 +168,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/spatial",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "jurisdiction",
+          "sort": "jurisdiction",
+          "label": {
+            "en": "jurisdiction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -177,10 +189,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#AdministrativeTerritorialUnit",
+              "range_uri": "#Administrative Territorial Units",
               "range_puri": "http://data.europa.eu/88u/dataset/atu-type",
               "range_label": {
-                "en": "AdministrativeTerritorialUnit"
+                "en": "Administrative Territorial Units"
               }
             }
           ],
@@ -197,9 +209,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/ReferenceFramework",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ReferenceFramework",
+      "label": {
+        "en": "Reference Framework"
+      },
+      "sort": "Reference Framework",
       "description": {},
       "usage": {},
       "parents": [],
@@ -212,9 +226,11 @@
       "properties": [
         {
           "uri": "http://purl.org/vocab/cpsv#implements",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "implements",
+          "sort": "implements",
+          "label": {
+            "en": "implements"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -231,10 +247,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ChangeEvent",
+              "range_uri": "#Change Event",
               "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
               "range_label": {
-                "en": "ChangeEvent"
+                "en": "Change Event"
               }
             }
           ],
@@ -248,9 +264,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -281,50 +299,16 @@
             "definition-en": "An unambiguous reference to a Reference Framework.",
             "uri": "http://purl.org/dc/terms/identifier"
           }
-        },
-        {
-          "uri": "http://purl.org/vocab/cpsv#implements",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ReferenceFramework",
-              "uri": "http://data.europa.eu/m8g/ReferenceFramework"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ChangeEvent",
-              "range_uri": "http://www.w3.org/ns/org#ChangeEvent"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#ChangeEvent",
-              "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
-              "range_label": {
-                "en": "ChangeEvent"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://purl.org/vocab/cpsv#implements",
-            "label-en": "implements",
-            "definition-en": "NOTE$ea_notes=The implements property links a Change Event to relevant legislation or policy documents i.e. the formal framework under which the Change Event is defined."
-          }
         }
       ]
     },
     {
       "uri": "http://www.w3.org/ns/adms#Identifier",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Identifier",
+      "label": {
+        "en": "Identifier"
+      },
+      "sort": "Identifier",
       "description": {},
       "usage": {},
       "parents": [],
@@ -337,9 +321,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/adms#schemeAgency",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "issuingAuthorityName",
+          "sort": "issuing authority name",
+          "label": {
+            "en": "issuing authority name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -374,9 +360,11 @@
         },
         {
           "uri": "http://www.w3.org/2004/02/skos/core#notation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -411,9 +399,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/issued",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dateOfIssue",
+          "sort": "date of issue",
+          "label": {
+            "en": "date of issue"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -447,9 +437,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/creator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "issuingAuthorityUri",
+          "sort": "issuing authority URI",
+          "label": {
+            "en": "issuing authority URI"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -483,45 +475,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/conformsTo",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Identifier",
-              "uri": "http://www.w3.org/ns/adms#Identifier"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Text",
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_label": {
-                "en": "Text"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://purl.org/dc/terms/conformsTo",
-            "label-en": "scheme name",
-            "definition-en": "Name of the scheme used to construct the identifier."
-          }
-        },
-        {
-          "uri": "http://purl.org/dc/terms/conformsTo",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "schemeUri",
+          "sort": "scheme URI",
+          "label": {
+            "en": "scheme URI"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -552,14 +510,54 @@
             "label-en": "scheme URI",
             "uri": "http://purl.org/dc/terms/conformsTo"
           }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/conformsTo",
+          "name": "schemeName",
+          "sort": "scheme name",
+          "label": {
+            "en": "scheme name"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Identifier",
+              "uri": "http://www.w3.org/ns/adms#Identifier"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "Text"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://purl.org/dc/terms/conformsTo",
+            "label-en": "scheme name",
+            "definition-en": "Name of the scheme used to construct the identifier."
+          }
         }
       ]
     },
     {
       "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Address",
+      "label": {
+        "en": "Address"
+      },
+      "sort": "Address",
       "description": {},
       "usage": {},
       "parents": [],
@@ -572,9 +570,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#thoroughfare",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "thoroughfare",
+          "sort": "thoroughfare",
+          "label": {
+            "en": "thoroughfare"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -609,9 +609,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postName(city)",
+          "sort": "post name (city)",
+          "label": {
+            "en": "post name (city)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -645,9 +647,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postCode",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postCode",
+          "sort": "post code",
+          "label": {
+            "en": "post code"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -682,9 +686,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#poBox",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postOfficeBox",
+          "sort": "post office box",
+          "label": {
+            "en": "post office box"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -719,9 +725,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorName",
+          "sort": "locator name",
+          "label": {
+            "en": "locator name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -756,9 +764,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorDesignator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorDesignator",
+          "sort": "locator designator",
+          "label": {
+            "en": "locator designator"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -793,9 +803,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#fullAddress",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "fullAddress",
+          "sort": "full address",
+          "label": {
+            "en": "full address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -830,9 +842,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL2",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel2(country/region/state)",
+          "sort": "administrative unit level 2 (country/region/state)",
+          "label": {
+            "en": "administrative unit level 2 (country/region/state)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -867,9 +881,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL1",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel1(country)",
+          "sort": "administrative unit level 1 (country)",
+          "label": {
+            "en": "administrative unit level 1 (country)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -904,9 +920,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressID",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressId",
+          "sort": "address ID",
+          "label": {
+            "en": "address ID"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -928,9 +946,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressArea",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressArea",
+          "sort": "address area",
+          "label": {
+            "en": "address area"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -967,9 +987,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/locn#Geometry",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Geometry",
+      "label": {
+        "en": "Geometry"
+      },
+      "sort": "Geometry",
       "description": {},
       "usage": {},
       "parents": [],
@@ -982,9 +1004,11 @@
       "properties": [
         {
           "uri": "https://schema.org/longitude",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "longitude",
+          "sort": "longitude",
+          "label": {
+            "en": "longitude"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1018,9 +1042,11 @@
         },
         {
           "uri": "https://schema.org/latitude",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "latitude",
+          "sort": "latitude",
+          "label": {
+            "en": "latitude"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1054,9 +1080,11 @@
         },
         {
           "uri": "http://www.opengis.net/ont/geosparql#asWKT",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "wkt",
+          "sort": "wkt",
+          "label": {
+            "en": "wkt"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1091,9 +1119,11 @@
         },
         {
           "uri": "http://www.opengis.net/ont/geosparql#asGML",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "gml",
+          "sort": "gml",
+          "label": {
+            "en": "gml"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1128,9 +1158,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/geometryType",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "geometryType",
+          "sort": "geometry type",
+          "label": {
+            "en": "geometry type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1164,9 +1196,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/crs",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "crs",
+          "sort": "crs",
+          "label": {
+            "en": "crs"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1200,9 +1234,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/coordinates",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "coordinates",
+          "sort": "coordinates",
+          "label": {
+            "en": "coordinates"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1238,9 +1274,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#ChangeEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ChangeEvent",
+      "label": {
+        "en": "Change Event"
+      },
+      "sort": "Change Event",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1252,9 +1290,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/prov#startedAtTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "startedAtTime",
+          "sort": "started at time",
+          "label": {
+            "en": "started at time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1289,9 +1329,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/prov#endedAtTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "endedAtTime",
+          "sort": "ended at time",
+          "label": {
+            "en": "ended at time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1325,45 +1367,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#resultingOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ChangeEvent",
-              "uri": "http://www.w3.org/ns/org#ChangeEvent"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "en": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://www.w3.org/ns/org#resultingOrganization",
-            "definition-en": "This property links a Change Event or a Foundation Event to the Organization that resulted from it.",
-            "label-en": "resulting organization"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#resultingOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "resultingOrganization",
+          "sort": "resulting organization",
+          "label": {
+            "en": "resulting organization"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1397,45 +1405,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#originalOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ChangeEvent",
-              "uri": "http://www.w3.org/ns/org#ChangeEvent"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "en": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "definition-en": "NOTE$ea_notes=The original organization property links a Change Event to the Organization that existed before the change. Although the Foundation Event class is defined as a subclass of Change Event, it is inappropriate to use the original organization property with the Foundation Event class.",
-            "uri": "http://www.w3.org/ns/org#originalOrganization",
-            "label-en": "original organization"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#originalOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "originalOrganization",
+          "sort": "original organization",
+          "label": {
+            "en": "original organization"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1469,9 +1443,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1502,14 +1478,54 @@
             "uri": "http://purl.org/dc/terms/description",
             "definition-en": "A textual description of the event."
           }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/hasFormalFramework",
+          "name": "hasFormalFramework",
+          "sort": "has formal framework",
+          "label": {
+            "en": "has formal framework"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ChangeEvent",
+              "uri": "http://www.w3.org/ns/org#ChangeEvent"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ReferenceFramework",
+              "range_uri": "http://data.europa.eu/m8g/ReferenceFramework"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Reference Framework",
+              "range_puri": "http://data.europa.eu/m8g/ReferenceFramework",
+              "range_label": {
+                "en": "Reference Framework"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://data.europa.eu/m8g/hasFormalFramework",
+            "label-en": "has formal framework",
+            "definition-en": "The property hasFormalFramework links a Change Event or Foundation Event to a piece of legislation or a policy document that prompted the change."
+          }
         }
       ]
     },
     {
       "uri": "http://www.w3.org/ns/org#Organization",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Organization",
+      "label": {
+        "en": "Organization"
+      },
+      "sort": "Organization",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1521,9 +1537,11 @@
       "properties": [
         {
           "uri": "https://www.w3.org/ns/adms#Identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1557,9 +1575,11 @@
         },
         {
           "uri": "https://schema.org/logo",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "logo",
+          "sort": "logo",
+          "label": {
+            "en": "logo"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1576,10 +1596,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ImageObject",
+              "range_uri": "#Image Object",
               "range_puri": "https://schema.org/ImageObject",
               "range_label": {
-                "en": "ImageObject"
+                "en": "Image Object"
               }
             }
           ],
@@ -1594,9 +1614,11 @@
         },
         {
           "uri": "https://schema.org/contactPoint",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "contactPoint",
+          "sort": "contact point",
+          "label": {
+            "en": "contact point"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1613,10 +1635,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ContactPoint",
+              "range_uri": "#Contact Point",
               "range_puri": "https://schema.org/ContactPoint",
               "range_label": {
-                "en": "ContactPoint"
+                "en": "Contact Point"
               }
             }
           ],
@@ -1631,9 +1653,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#subOrganizationOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "subOrganizationOf",
+          "sort": "sub organization of",
+          "label": {
+            "en": "sub organization of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1666,10 +1690,50 @@
           }
         },
         {
+          "uri": "http://www.w3.org/ns/org#resultedFrom",
+          "name": "resultedFrom",
+          "sort": "resulted from",
+          "label": {
+            "en": "resulted from"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ChangeEvent",
+              "range_uri": "http://www.w3.org/ns/org#ChangeEvent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Change Event",
+              "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
+              "range_label": {
+                "en": "Change Event"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "This property link an Organization to the Change Event it resulted from.",
+            "label-en": "resulted from",
+            "uri": "http://www.w3.org/ns/org#resultedFrom"
+          }
+        },
+        {
           "uri": "http://www.w3.org/ns/org#memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "memberOf",
+          "sort": "member of",
+          "label": {
+            "en": "member of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1703,10 +1767,51 @@
           }
         },
         {
-          "uri": "http://www.w3.org/ns/org#subOrganizationOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://www.w3.org/ns/org#hasUnit",
+          "name": "hasUnit",
+          "sort": "has unit",
+          "label": {
+            "en": "has unit"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "OrganizationalUnit",
+              "range_uri": "http://www.w3.org/ns/org#OrganizationalUnit"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Organizational Unit",
+              "range_puri": "http://www.w3.org/ns/org#OrganizationalUnit",
+              "range_label": {
+                "en": "Organizational Unit"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/ns/org#hasUnit",
+            "label-en": "has unit",
+            "usageNote-en": "NOTE$ea_notes=Organizations typically comprise many departments, units, teams etc. Each of these\r\nis modelled in the CPOV as a unit that is linked from the parent Organization with\r\nhasUnit and to the parent with unitOf.",
+            "definition-en": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/ns/org#hasSubOrganization",
+          "name": "hasSubOrganization",
+          "sort": "has sub organization",
+          "label": {
+            "en": "has sub organization"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1733,16 +1838,18 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "sub organization of",
             "definition-en": "NOTE$ea_notes=Public Organizations are often large and complex and may be a collection of smaller\r\nOrganizations, each of which has a specific identity that may be legally defined. The\r\nhasSubOrganization and subOrganizationOf properties express the relationships\r\nbetween Organizations in a hierarchical structure. ",
-            "uri": "http://www.w3.org/ns/org#subOrganizationOf"
+            "label-en": "has sub organization",
+            "uri": "http://www.w3.org/ns/org#hasSubOrganization"
           }
         },
         {
           "uri": "http://www.w3.org/ns/org#hasSite",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasSite",
+          "sort": "has site",
+          "label": {
+            "en": "has site"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1775,10 +1882,50 @@
           }
         },
         {
-          "uri": "http://www.w3.org/ns/org#memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://www.w3.org/ns/org#hasPost",
+          "name": "hasPost",
+          "sort": "has post",
+          "label": {
+            "en": "has post"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Post",
+              "range_uri": "http://www.w3.org/ns/org#Post"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Post",
+              "range_puri": "http://www.w3.org/ns/org#Post",
+              "range_label": {
+                "en": "Post"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/ns/org#hasPost",
+            "label-en": "has post",
+            "definition-en": "Indicates the post that belongs to the Organization."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/ns/org#hasMember",
+          "name": "hasMember",
+          "sort": "has member",
+          "label": {
+            "en": "has member"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1805,17 +1952,57 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "usageNote-en": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
-            "uri": "http://www.w3.org/ns/org#memberOf",
             "definition-en": "One Organization may be a member of another without being a sub organization, i.e.\r\nthey are independent entities.",
-            "label-en": "member of"
+            "uri": "http://www.w3.org/ns/org#hasMember",
+            "usageNote-en": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
+            "label-en": "has member"
+          }
+        },
+        {
+          "uri": "http://www.w3.org/ns/org#changedBy",
+          "name": "changedBy",
+          "sort": "changed by",
+          "label": {
+            "en": "changed by"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ChangeEvent",
+              "range_uri": "http://www.w3.org/ns/org#ChangeEvent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Change Event",
+              "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
+              "range_label": {
+                "en": "Change Event"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "NOTE$ea_notes=The changed by organization property links an Organization to the Change Event that changed the Organization.",
+            "uri": "http://www.w3.org/ns/org#changedBy",
+            "label-en": "changed by"
           }
         },
         {
           "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "preferredLabel",
+          "sort": "preferred label",
+          "label": {
+            "en": "preferred label"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1850,9 +2037,11 @@
         },
         {
           "uri": "http://www.w3.org/2004/02/skos/core#altLabel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "alternativeLabel",
+          "sort": "alternative label",
+          "label": {
+            "en": "alternative label"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1886,9 +2075,11 @@
         },
         {
           "uri": "http://www.w3.org/1999/xhtml/vocab#prev",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "prev",
+          "sort": "prev",
+          "label": {
+            "en": "prev"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1921,10 +2112,12 @@
           }
         },
         {
-          "uri": "http://www.w3.org/1999/xhtml/vocab#prev",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://www.w3.org/1999/xhtml/vocab#next",
+          "name": "next",
+          "sort": "next",
+          "label": {
+            "en": "next"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1951,16 +2144,56 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "uri": "http://www.w3.org/1999/xhtml/vocab#prev",
-            "label-en": "prev",
+            "uri": "http://www.w3.org/1999/xhtml/vocab#next",
+            "label-en": "next",
             "definition-en": "NOTE$ea_notes=In some cases, it is necessary to be able to create an ordered sequence of\r\norganizations that precede and succeed each other. To support this, the CPOV\r\nincludes the well-known relationships of previous and next to allow such sequences\r\nto be captured and computed."
+          }
+        },
+        {
+          "uri": "http://www.iceg.be/Organization.hasMember",
+          "name": "hasMember",
+          "sort": "has member",
+          "label": {
+            "en": "has member"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Person",
+              "range_uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Person",
+              "range_puri": "http://www.w3.org/ns/person#Person",
+              "range_label": {
+                "en": "Person"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "Indicates that Person is a member of the Organization with no indication of the nature of that membership or the role played",
+            "label-en": "has member",
+            "uri": "http://www.iceg.be/Organization.hasMember"
           }
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#status",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "status",
+          "sort": "status",
+          "label": {
+            "en": "status"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1994,9 +2227,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#startDateOfThisData",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "startDateOfThisData",
+          "sort": "start date of this data",
+          "label": {
+            "en": "start date of this data"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2030,9 +2265,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#linksToDatabase",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "linksToDatabase",
+          "sort": "links to database",
+          "label": {
+            "en": "links to database"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2066,9 +2303,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#exOfficioStrikingOff",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "exOfficioStrikingOff",
+          "sort": "ex officio striking off",
+          "label": {
+            "en": "ex officio striking off"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2103,9 +2342,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#certification",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "certification",
+          "sort": "certification",
+          "label": {
+            "en": "certification"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2139,9 +2380,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2177,9 +2420,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#OrganizationalUnit",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "OrganizationalUnit",
+      "label": {
+        "en": "Organizational Unit"
+      },
+      "sort": "Organizational Unit",
       "description": {},
       "usage": {},
       "parents": [
@@ -2200,46 +2445,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/org#unitOf",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "OrganizationalUnit",
-              "uri": "http://www.w3.org/ns/org#OrganizationalUnit"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "en": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "definition-en": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right.",
-            "usageNote-en": "NOTE$ea_notes=Organizations typically comprise many departments, units, teams etc. Each of these\r\nis modelled in the CPOV as a unit that is linked from the parent Organization with\r\nhasUnit and to the parent with unitOf.",
-            "uri": "http://www.w3.org/ns/org#unitOf",
-            "label-en": "unit of"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#unitOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "unitOf",
+          "sort": "unit of",
+          "label": {
+            "en": "unit of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2276,9 +2486,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Post",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Post",
+      "label": {
+        "en": "Post"
+      },
+      "sort": "Post",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2290,9 +2502,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/org#role",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "role",
+          "sort": "role",
+          "label": {
+            "en": "role"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2326,45 +2540,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#postIn",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Post",
-              "uri": "http://www.w3.org/ns/org#Post"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "en": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://www.w3.org/ns/org#postIn",
-            "definition-en": "Indicates the Organization whose post belongs to.",
-            "label-en": "post in"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#postIn",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postIn",
+          "sort": "post in",
+          "label": {
+            "en": "post in"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2400,9 +2580,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Role",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Role",
+      "label": {
+        "en": "Role"
+      },
+      "sort": "Role",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2415,9 +2597,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Site",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Site",
+      "label": {
+        "en": "Site"
+      },
+      "sort": "Site",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2429,9 +2613,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "address",
+          "sort": "address",
+          "label": {
+            "en": "address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2468,9 +2654,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/person#Person",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Person",
+      "label": {
+        "en": "Person"
+      },
+      "sort": "Person",
       "description": {},
       "usage": {},
       "parents": [
@@ -2491,9 +2679,11 @@
       "properties": [
         {
           "uri": "https://www.w3.org/ns/org#holds",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "holds",
+          "sort": "holds",
+          "label": {
+            "en": "holds"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2527,9 +2717,11 @@
         },
         {
           "uri": "https://schema.org/memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "memberOf",
+          "sort": "member of",
+          "label": {
+            "en": "member of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2563,9 +2755,11 @@
         },
         {
           "uri": "https://schema.org/deathDate",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dateOfDeath",
+          "sort": "date of death",
+          "label": {
+            "en": "date of death"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2599,9 +2793,11 @@
         },
         {
           "uri": "https://schema.org/birthDate",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dateOfBirth",
+          "sort": "date of birth",
+          "label": {
+            "en": "date of birth"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2635,9 +2831,11 @@
         },
         {
           "uri": "https://dublincore.org/specifications/dublin-core/dcmi-terms/#identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2671,9 +2869,11 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "title",
+          "sort": "title",
+          "label": {
+            "en": "title"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2707,9 +2907,11 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/name",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "fullName",
+          "sort": "full name",
+          "label": {
+            "en": "full name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2744,9 +2946,11 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/givenName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "givenName(forename)",
+          "sort": "given name (forename)",
+          "label": {
+            "en": "given name (forename)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2781,9 +2985,11 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/familyName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "familyName(surname)",
+          "sort": "family name (surname)",
+          "label": {
+            "en": "family name (surname)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2818,9 +3024,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#patronymicName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "patronymicName",
+          "sort": "patronymic name",
+          "label": {
+            "en": "patronymic name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2855,9 +3063,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#birthName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "birthName",
+          "sort": "birth name",
+          "label": {
+            "en": "birth name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2892,9 +3102,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "registeredAddress\r\n",
+          "sort": "registered address\r\n",
+          "label": {
+            "en": "registered address\r\n"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2927,46 +3139,12 @@
           }
         },
         {
-          "uri": "https://schema.org/memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Person",
-              "uri": "http://www.w3.org/ns/person#Person"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "en": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "member of",
-            "definition-en": "Indicates a Person who is a member of the subject Organization",
-            "uri": "https://schema.org/memberOf"
-          }
-        },
-        {
           "uri": "http://purl.org/dc/terms/alternative",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "alternativeName",
+          "sort": "alternative name",
+          "label": {
+            "en": "alternative name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3003,9 +3181,11 @@
     },
     {
       "uri": "https://schema.org/ContactPoint",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ContactPoint",
+      "label": {
+        "en": "Contact Point"
+      },
+      "sort": "Contact Point",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3018,9 +3198,11 @@
       "properties": [
         {
           "uri": "https://schema.org/telephone",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasTelephone",
+          "sort": "has telephone",
+          "label": {
+            "en": "has telephone"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3054,9 +3236,11 @@
         },
         {
           "uri": "https://schema.org/openingHours",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "openingHours",
+          "sort": "opening hours",
+          "label": {
+            "en": "opening hours"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3091,9 +3275,11 @@
         },
         {
           "uri": "https://schema.org/hoursAvailable",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "availabilityRestriction",
+          "sort": "availability restriction",
+          "label": {
+            "en": "availability restriction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3110,10 +3296,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#OpeningHoursSpecification",
+              "range_uri": "#Opening Hours Specification",
               "range_puri": "https://schema.org/OpeningHoursSpecification",
               "range_label": {
-                "en": "OpeningHoursSpecification"
+                "en": "Opening Hours Specification"
               }
             }
           ],
@@ -3127,9 +3313,11 @@
         },
         {
           "uri": "https://schema.org/email",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasEmail",
+          "sort": "has email",
+          "label": {
+            "en": "has email"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3163,9 +3351,11 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/#term_page",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "page",
+          "sort": "page",
+          "label": {
+            "en": "page"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3201,9 +3391,11 @@
     },
     {
       "uri": "https://schema.org/ImageObject",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ImageObject",
+      "label": {
+        "en": "Image Object"
+      },
+      "sort": "Image Object",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3216,9 +3408,11 @@
     },
     {
       "uri": "https://schema.org/OpeningHoursSpecification",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "OpeningHoursSpecification",
+      "label": {
+        "en": "Opening Hours Specification"
+      },
+      "sort": "Opening Hours Specification",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3231,9 +3425,11 @@
       "properties": [
         {
           "uri": "https://schema.org/validThrough",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validThrough",
+          "sort": "valid through",
+          "label": {
+            "en": "valid through"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3267,9 +3463,11 @@
         },
         {
           "uri": "https://schema.org/validFrom",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validFrom",
+          "sort": "valid from",
+          "label": {
+            "en": "valid from"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3303,9 +3501,11 @@
         },
         {
           "uri": "https://schema.org/dayOfWeek",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dayOfWeek",
+          "sort": "day of week",
+          "label": {
+            "en": "day of week"
+          },
           "description": {},
           "usage": {},
           "domain": [

@@ -188,15 +188,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "holds",
-        "label": "",
+        "label": {
+          "en": "holds"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "holds"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "holds",
       "range": [
         {
           "EA-GUID": "{387F9F1F-9EA6-4d5d-BFEC-9566059238D0}",
@@ -278,15 +284,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "identifier",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{4252FD49-50E1-4fa8-AE37-1FE59010D3AB}",
@@ -348,14 +360,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "valid through"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "valid through"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "validThrough",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -416,14 +434,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "valid from"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "valid from"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "validFrom",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -484,14 +508,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "has telephone"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has telephone"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasTelephone",
       "range": [
         {
           "EA-Name": "Literal",
@@ -557,14 +587,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "opening hours"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "opening hours"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "openingHours",
       "range": [
         {
           "EA-Name": "Literal",
@@ -645,15 +681,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "memberOf",
-        "label": "",
+        "label": {
+          "en": "member of"
+        },
         "sourceRole": "hasMember",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "member of"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "memberOf",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -715,14 +757,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "longitude"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "longitude"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "longitude",
       "range": [
         {
           "EA-Name": "String",
@@ -813,15 +861,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "logo",
-        "label": "",
+        "label": {
+          "en": "logo"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "logo"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "logo",
       "range": [
         {
           "EA-GUID": "{59DC33BF-0FC0-4809-B8EE-F1BD0A448485}",
@@ -883,14 +937,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "latitude"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "latitude"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "latitude",
       "range": [
         {
           "EA-Name": "String",
@@ -971,15 +1031,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "availabilityRestriction",
-        "label": "",
+        "label": {
+          "en": "availability restriction"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "availability restriction"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "availabilityRestriction",
       "range": [
         {
           "EA-GUID": "{A06EFBB4-8E64-475d-86BE-E8BA72BC1096}",
@@ -1041,14 +1107,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "has email"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has email"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasEmail",
       "range": [
         {
           "EA-Name": "Literal",
@@ -1109,14 +1181,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of death"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "date of death"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfDeath",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -1177,14 +1255,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "day of week"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "day of week"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "dayOfWeek",
       "range": [
         {
           "EA-Name": "URI",
@@ -1275,15 +1359,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "contactPoint",
-        "label": "",
+        "label": {
+          "en": "contact point"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "contact point"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "contactPoint",
       "range": [
         {
           "EA-GUID": "{6954994D-2205-40c1-8615-BCEC693F47D9}",
@@ -1345,14 +1435,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of birth"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "date of birth"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfBirth",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -1433,15 +1529,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "identifier",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{4252FD49-50E1-4fa8-AE37-1FE59010D3AB}",
@@ -1504,14 +1606,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "title"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "title"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "title",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -1578,14 +1686,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "full name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "full name"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "fullName",
       "range": [
         {
           "EA-Name": "String",
@@ -1651,14 +1765,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "given name (forename)"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "given name (forename)"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "givenName(forename)",
       "range": [
         {
           "EA-Name": "String",
@@ -1724,14 +1844,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "family name (surname)"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "family name (surname)"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "familyName(surname)",
       "range": [
         {
           "EA-Name": "String",
@@ -1793,14 +1919,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "page"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "page"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "page",
       "range": [
         {
           "EA-GUID": "{D9703388-830C-4eef-AB06-2FA60C5AB21B}",
@@ -1867,14 +1999,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "started at time"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "started at time"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "startedAtTime",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -1935,14 +2073,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "ended at time"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "ended at time"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "endedAtTime",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -2008,14 +2152,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "patronymic name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "patronymic name"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "patronymicName",
       "range": [
         {
           "EA-Name": "String",
@@ -2081,14 +2231,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "birth name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "birth name"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "birthName",
       "range": [
         {
           "EA-Name": "String",
@@ -2179,15 +2335,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "unitOf",
-        "label": "",
+        "label": {
+          "en": "unit of"
+        },
         "sourceRole": "hasUnit",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "unit of"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "unitOf",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -2269,15 +2431,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "subOrganizationOf",
-        "label": "",
+        "label": {
+          "en": "sub organization of"
+        },
         "sourceRole": "hasSubOrganization",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "sub organization of"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "subOrganizationOf",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -2359,15 +2527,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "role",
-        "label": "",
+        "label": {
+          "en": "role"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "role"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "role",
       "range": [
         {
           "EA-GUID": "{B991438D-8E58-496f-9379-5357FCC93BDD}",
@@ -2449,15 +2623,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "resultingOrganization",
-        "label": "",
+        "label": {
+          "en": "resulting organization"
+        },
         "sourceRole": "resultedFrom",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "resulting organization"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "resultingOrganization",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -2468,7 +2648,7 @@
       ]
     },
     {
-      "@id": "http://www.w3.org/ns/org#resultingOrganization",
+      "@id": "http://www.w3.org/ns/org#resultedFrom",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{09B5D430-07B5-464a-BDAB-163DC5717A0F}",
       "ap-definition-nl": {
@@ -2477,55 +2657,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "ChangeEvent",
-          "uri": "http://www.w3.org/ns/org#ChangeEvent"
+          "EA-Name": "Organization",
+          "uri": "http://www.w3.org/ns/org#Organization"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/org#resultingOrganization",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
-            "note": "This property links a Change Event or a Foundation Event to the Organization that resulted from it.",
+            "note": "This property link an Organization to the Change Event it resulted from.",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "resulting organization",
+            "note": "resulted from",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/org#resultedFrom",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "ChangeEvent",
-        "EA-Domain-Guid": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
+        "EA-Domain": "Organization",
+        "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{09B5D430-07B5-464a-BDAB-163DC5717A0F}",
-        "EA-Name": "resultingOrganization",
+        "EA-Name": "resultedFrom",
         "EA-Package": "",
-        "EA-Range": "Organization",
+        "EA-Range": "ChangeEvent",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
+          "EA-Name": "ChangeEvent",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#ChangeEvent"
         },
         "RawTags": [
           {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/org#resultingOrganization",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
-            "note": "This property links a Change Event or a Foundation Event to the Organization that resulted from it.",
+            "note": "This property link an Organization to the Change Event it resulted from.",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "resulting organization",
+            "note": "resulted from",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/org#resultedFrom",
             "value": "NOTE"
           }
         ],
@@ -2538,22 +2718,28 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "resultingOrganization",
-        "label": "",
-        "sourceRole": "resultedFrom",
+        "destRole": "resultedFrom",
+        "label": {
+          "en": "resulted from"
+        },
+        "sourceRole": "resultingOrganization",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "resulted from"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "resultedFrom",
       "range": [
         {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
+          "EA-Name": "ChangeEvent",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#ChangeEvent"
         }
       ]
     },
@@ -2629,15 +2815,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "postIn",
-        "label": "",
+        "label": {
+          "en": "post in"
+        },
         "sourceRole": "hasPost",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "post in"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "postIn",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -2719,15 +2911,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "originalOrganization",
-        "label": "",
+        "label": {
+          "en": "original organization"
+        },
         "sourceRole": "changedBy",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "original organization"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "originalOrganization",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -2819,15 +3017,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "memberOf",
-        "label": "",
+        "label": {
+          "en": "member of"
+        },
         "sourceRole": "hasMember",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "member of"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "memberOf",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -2838,7 +3042,7 @@
       ]
     },
     {
-      "@id": "http://www.w3.org/ns/org#unitOf",
+      "@id": "http://www.w3.org/ns/org#hasUnit",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{C63527BF-0061-4b09-9B4C-8C92446A0D54}",
       "ap-definition-nl": {
@@ -2847,15 +3051,20 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "OrganizationalUnit",
-          "uri": "http://www.w3.org/ns/org#OrganizationalUnit"
+          "EA-Name": "Organization",
+          "uri": "http://www.w3.org/ns/org#Organization"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
-            "key": "definition-en",
-            "note": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right.",
+            "key": "uri",
+            "note": "http://www.w3.org/ns/org#hasUnit",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "has unit",
             "value": "NOTE"
           },
           {
@@ -2864,33 +3073,33 @@
             "value": "NOTE"
           },
           {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/org#unitOf",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "unit of",
+            "key": "definition-en",
+            "note": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right.",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "OrganizationalUnit",
-        "EA-Domain-Guid": "{1F697E30-1157-451e-9C25-0B54DE574371}",
+        "EA-Domain": "Organization",
+        "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{C63527BF-0061-4b09-9B4C-8C92446A0D54}",
-        "EA-Name": "unitOf",
+        "EA-Name": "hasUnit",
         "EA-Package": "",
-        "EA-Range": "Organization",
+        "EA-Range": "OrganizationalUnit",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{1F697E30-1157-451e-9C25-0B54DE574371}",
+          "EA-Name": "OrganizationalUnit",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#OrganizationalUnit"
         },
         "RawTags": [
           {
-            "key": "definition-en",
-            "note": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right.",
+            "key": "uri",
+            "note": "http://www.w3.org/ns/org#hasUnit",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "has unit",
             "value": "NOTE"
           },
           {
@@ -2899,13 +3108,8 @@
             "value": "NOTE"
           },
           {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/org#unitOf",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "unit of",
+            "key": "definition-en",
+            "note": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right.",
             "value": "NOTE"
           }
         ],
@@ -2918,27 +3122,33 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "unitOf",
-        "label": "",
-        "sourceRole": "hasUnit",
+        "destRole": "hasUnit",
+        "label": {
+          "en": "has unit"
+        },
+        "sourceRole": "unitOf",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has unit"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasUnit",
       "range": [
         {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{1F697E30-1157-451e-9C25-0B54DE574371}",
+          "EA-Name": "OrganizationalUnit",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#OrganizationalUnit"
         }
       ]
     },
     {
-      "@id": "http://www.w3.org/ns/org#subOrganizationOf",
+      "@id": "http://www.w3.org/ns/org#hasSubOrganization",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{0E299849-FCD8-4ef8-AD49-80AEEC58AD6D}",
       "ap-definition-nl": {
@@ -2954,25 +3164,25 @@
       "extra": {
         "DestRoleTags": [
           {
-            "key": "label-en",
-            "note": "sub organization of",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
             "note": "NOTE$ea_notes=Public Organizations are often large and complex and may be a collection of smaller\r\nOrganizations, each of which has a specific identity that may be legally defined. The\r\nhasSubOrganization and subOrganizationOf properties express the relationships\r\nbetween Organizations in a hierarchical structure. ",
             "value": "NOTE"
           },
           {
+            "key": "label-en",
+            "note": "has sub organization",
+            "value": "NOTE"
+          },
+          {
             "key": "uri",
-            "note": "http://www.w3.org/ns/org#subOrganizationOf",
+            "note": "http://www.w3.org/ns/org#hasSubOrganization",
             "value": "NOTE"
           }
         ],
         "EA-Domain": "Organization",
         "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{0E299849-FCD8-4ef8-AD49-80AEEC58AD6D}",
-        "EA-Name": "subOrganizationOf",
+        "EA-Name": "hasSubOrganization",
         "EA-Package": "",
         "EA-Range": "Organization",
         "EA-Type": "connector",
@@ -2984,18 +3194,18 @@
         },
         "RawTags": [
           {
-            "key": "label-en",
-            "note": "sub organization of",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
             "note": "NOTE$ea_notes=Public Organizations are often large and complex and may be a collection of smaller\r\nOrganizations, each of which has a specific identity that may be legally defined. The\r\nhasSubOrganization and subOrganizationOf properties express the relationships\r\nbetween Organizations in a hierarchical structure. ",
             "value": "NOTE"
           },
           {
+            "key": "label-en",
+            "note": "has sub organization",
+            "value": "NOTE"
+          },
+          {
             "key": "uri",
-            "note": "http://www.w3.org/ns/org#subOrganizationOf",
+            "note": "http://www.w3.org/ns/org#hasSubOrganization",
             "value": "NOTE"
           }
         ],
@@ -3008,16 +3218,22 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "subOrganizationOf",
-        "label": "",
-        "sourceRole": "hasSubOrganization",
+        "destRole": "hasSubOrganization",
+        "label": {
+          "en": "has sub organization"
+        },
+        "sourceRole": "subOrganizationOf",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has sub organization"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasSubOrganization",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -3099,15 +3315,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasSite",
-        "label": "",
+        "label": {
+          "en": "has site"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has site"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasSite",
       "range": [
         {
           "EA-GUID": "{82FB79C4-117B-412b-8BF1-4A81AC532A96}",
@@ -3118,7 +3340,7 @@
       ]
     },
     {
-      "@id": "http://www.w3.org/ns/org#postIn",
+      "@id": "http://www.w3.org/ns/org#hasPost",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{0DB08851-677B-43f5-AB99-09B08DA71DF6}",
       "ap-definition-nl": {
@@ -3127,55 +3349,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Post",
-          "uri": "http://www.w3.org/ns/org#Post"
+          "EA-Name": "Organization",
+          "uri": "http://www.w3.org/ns/org#Organization"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
             "key": "uri",
-            "note": "http://www.w3.org/ns/org#postIn",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "Indicates the Organization whose post belongs to.",
+            "note": "http://www.w3.org/ns/org#hasPost",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "post in",
+            "note": "has post",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Indicates the post that belongs to the Organization.",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Post",
-        "EA-Domain-Guid": "{387F9F1F-9EA6-4d5d-BFEC-9566059238D0}",
+        "EA-Domain": "Organization",
+        "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{0DB08851-677B-43f5-AB99-09B08DA71DF6}",
-        "EA-Name": "postIn",
+        "EA-Name": "hasPost",
         "EA-Package": "",
-        "EA-Range": "Organization",
+        "EA-Range": "Post",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{387F9F1F-9EA6-4d5d-BFEC-9566059238D0}",
+          "EA-Name": "Post",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#Post"
         },
         "RawTags": [
           {
             "key": "uri",
-            "note": "http://www.w3.org/ns/org#postIn",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "Indicates the Organization whose post belongs to.",
+            "note": "http://www.w3.org/ns/org#hasPost",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "post in",
+            "note": "has post",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Indicates the post that belongs to the Organization.",
             "value": "NOTE"
           }
         ],
@@ -3188,27 +3410,33 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "postIn",
-        "label": "",
-        "sourceRole": "hasPost",
+        "destRole": "hasPost",
+        "label": {
+          "en": "has post"
+        },
+        "sourceRole": "postIn",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has post"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasPost",
       "range": [
         {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{387F9F1F-9EA6-4d5d-BFEC-9566059238D0}",
+          "EA-Name": "Post",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#Post"
         }
       ]
     },
     {
-      "@id": "http://www.w3.org/ns/org#memberOf",
+      "@id": "http://www.w3.org/ns/org#hasMember",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{D6E1FD66-9083-4eda-BB4F-920E8715429C}",
       "ap-definition-nl": {
@@ -3224,30 +3452,30 @@
       "extra": {
         "DestRoleTags": [
           {
-            "key": "usageNote-en",
-            "note": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/org#memberOf",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
             "note": "One Organization may be a member of another without being a sub organization, i.e.\r\nthey are independent entities.",
             "value": "NOTE"
           },
           {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/org#hasMember",
+            "value": "NOTE"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
+            "value": "NOTE"
+          },
+          {
             "key": "label-en",
-            "note": "member of",
+            "note": "has member",
             "value": "NOTE"
           }
         ],
         "EA-Domain": "Organization",
         "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{D6E1FD66-9083-4eda-BB4F-920E8715429C}",
-        "EA-Name": "memberOf",
+        "EA-Name": "hasMember",
         "EA-Package": "",
         "EA-Range": "Organization",
         "EA-Type": "connector",
@@ -3259,23 +3487,23 @@
         },
         "RawTags": [
           {
-            "key": "usageNote-en",
-            "note": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/org#memberOf",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
             "note": "One Organization may be a member of another without being a sub organization, i.e.\r\nthey are independent entities.",
             "value": "NOTE"
           },
           {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/org#hasMember",
+            "value": "NOTE"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
+            "value": "NOTE"
+          },
+          {
             "key": "label-en",
-            "note": "member of",
+            "note": "has member",
             "value": "NOTE"
           }
         ],
@@ -3288,16 +3516,22 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "memberOf",
-        "label": "",
-        "sourceRole": "hasMember",
+        "destRole": "hasMember",
+        "label": {
+          "en": "has member"
+        },
+        "sourceRole": "memberOf",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has member"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasMember",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -3308,7 +3542,7 @@
       ]
     },
     {
-      "@id": "http://www.w3.org/ns/org#originalOrganization",
+      "@id": "http://www.w3.org/ns/org#changedBy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{A558A17E-8D20-4cbd-AB97-AE9161FA6C8D}",
       "ap-definition-nl": {
@@ -3317,55 +3551,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "ChangeEvent",
-          "uri": "http://www.w3.org/ns/org#ChangeEvent"
+          "EA-Name": "Organization",
+          "uri": "http://www.w3.org/ns/org#Organization"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=The original organization property links a Change Event to the Organization that existed before the change. Although the Foundation Event class is defined as a subclass of Change Event, it is inappropriate to use the original organization property with the Foundation Event class.",
+            "note": "NOTE$ea_notes=The changed by organization property links an Organization to the Change Event that changed the Organization.",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "http://www.w3.org/ns/org#originalOrganization",
+            "note": "http://www.w3.org/ns/org#changedBy",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "original organization",
+            "note": "changed by",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "ChangeEvent",
-        "EA-Domain-Guid": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
+        "EA-Domain": "Organization",
+        "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{A558A17E-8D20-4cbd-AB97-AE9161FA6C8D}",
-        "EA-Name": "originalOrganization",
+        "EA-Name": "changedBy",
         "EA-Package": "",
-        "EA-Range": "Organization",
+        "EA-Range": "ChangeEvent",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
+          "EA-Name": "ChangeEvent",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#ChangeEvent"
         },
         "RawTags": [
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=The original organization property links a Change Event to the Organization that existed before the change. Although the Foundation Event class is defined as a subclass of Change Event, it is inappropriate to use the original organization property with the Foundation Event class.",
+            "note": "NOTE$ea_notes=The changed by organization property links an Organization to the Change Event that changed the Organization.",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "http://www.w3.org/ns/org#originalOrganization",
+            "note": "http://www.w3.org/ns/org#changedBy",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "original organization",
+            "note": "changed by",
             "value": "NOTE"
           }
         ],
@@ -3378,22 +3612,28 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "originalOrganization",
-        "label": "",
-        "sourceRole": "changedBy",
+        "destRole": "changedBy",
+        "label": {
+          "en": "changed by"
+        },
+        "sourceRole": "originalOrganization",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "changed by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "changedBy",
       "range": [
         {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
+          "EA-GUID": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
+          "EA-Name": "ChangeEvent",
           "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "uri": "http://www.w3.org/ns/org#ChangeEvent"
         }
       ]
     },
@@ -3455,14 +3695,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "thoroughfare"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "thoroughfare"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "thoroughfare",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -3525,14 +3771,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "post name (city)"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "post name (city)"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "postName(city)",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -3599,14 +3851,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "post code"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "post code"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "postCode",
       "range": [
         {
           "EA-Name": "String",
@@ -3672,14 +3930,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "post office box"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "post office box"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "postOfficeBox",
       "range": [
         {
           "EA-Name": "String",
@@ -3746,14 +4010,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "locator name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "locator name"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "locatorName",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -3820,14 +4090,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "locator designator"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "locator designator"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "locatorDesignator",
       "range": [
         {
           "EA-Name": "String",
@@ -3918,15 +4194,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "geometry",
-        "label": "",
+        "label": {
+          "en": "geometry"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "geometry"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "geometry",
       "range": [
         {
           "EA-GUID": "{64FACE70-D1C3-42f6-BAB3-BEC548411487}",
@@ -3994,14 +4276,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "full address"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "full address"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "fullAddress",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -4069,14 +4357,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "administrative unit level 2 (country/region/state)"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "administrative unit level 2 (country/region/state)"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "administrativeUnitLevel2(country/region/state)",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -4144,14 +4438,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "administrative unit level 1 (country)"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "administrative unit level 1 (country)"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "administrativeUnitLevel1(country)",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -4218,14 +4518,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "address ID"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "address ID"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "addressId",
       "range": []
     },
     {
@@ -4286,20 +4592,122 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "address area"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "address area"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "addressArea",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
           "EA-Name": "Text",
           "EA-Package": "Core Vocabulary",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.w3.org/ns/locn#address",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{BB5550B9-4800-4789-8054-9AB93453A414}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "definition-en",
+            "note": "The registered address of the Person.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "registered address\r\n",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/locn#address",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{A0ECD6E2-3D19-4928-8FAC-33C504817515}",
+        "EA-Guid": "{BB5550B9-4800-4789-8054-9AB93453A414}",
+        "EA-Name": "registeredAddress",
+        "EA-Package": "",
+        "EA-Range": "Address",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
+          "EA-Name": "Address",
+          "EA-Package": "Core Location",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        },
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "note": "The registered address of the Person.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "registered address\r\n",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://www.w3.org/ns/locn#address",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "registeredAddress",
+        "label": {
+          "en": "registered address\r\n"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "registered address\r\n"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "registeredAddress\r\n",
+      "range": [
+        {
+          "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
+          "EA-Name": "Address",
+          "EA-Package": "Core Location",
+          "uri": "http://www.w3.org/ns/locn#Address"
         }
       ]
     },
@@ -4385,105 +4793,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "address",
-        "label": "",
+        "label": {
+          "en": "address"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "address"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
-          "EA-Name": "Address",
-          "EA-Package": "Core Location",
-          "uri": "http://www.w3.org/ns/locn#Address"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.w3.org/ns/locn#address",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{BB5550B9-4800-4789-8054-9AB93453A414}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Person",
-          "uri": "http://www.w3.org/ns/person#Person"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "definition-en",
-            "note": "The registered address of the Person.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "registered address\r\n",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/locn#address",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Person",
-        "EA-Domain-Guid": "{A0ECD6E2-3D19-4928-8FAC-33C504817515}",
-        "EA-Guid": "{BB5550B9-4800-4789-8054-9AB93453A414}",
-        "EA-Name": "registeredAddress",
-        "EA-Package": "",
-        "EA-Range": "Address",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
-          "EA-Name": "Address",
-          "EA-Package": "Core Location",
-          "uri": "http://www.w3.org/ns/locn#Address"
-        },
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "note": "The registered address of the Person.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "registered address\r\n",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://www.w3.org/ns/locn#address",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "derived": "false",
-        "destRole": "registeredAddress",
-        "label": "",
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "UNKNOWN",
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "",
+      "name": "address",
       "range": [
         {
           "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
@@ -4551,14 +4875,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "issuing authority name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "issuing authority name"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "issuingAuthorityName",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -4626,14 +4956,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "preferred label"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "preferred label"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "preferredLabel",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -4700,14 +5036,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-Name": "Literal",
@@ -4769,14 +5111,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "alternative label"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "alternative label"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "alternativeLabel",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -4858,15 +5206,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "prev",
-        "label": "",
+        "label": {
+          "en": "prev"
+        },
         "sourceRole": "next",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "prev"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "prev",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -4877,7 +5231,7 @@
       ]
     },
     {
-      "@id": "http://www.w3.org/1999/xhtml/vocab#prev",
+      "@id": "http://www.w3.org/1999/xhtml/vocab#next",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{621BB9F9-09F8-466a-9888-30657DB2507F}",
       "ap-definition-nl": {
@@ -4894,12 +5248,12 @@
         "DestRoleTags": [
           {
             "key": "uri",
-            "note": "http://www.w3.org/1999/xhtml/vocab#prev",
+            "note": "http://www.w3.org/1999/xhtml/vocab#next",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "prev",
+            "note": "next",
             "value": "NOTE"
           },
           {
@@ -4911,7 +5265,7 @@
         "EA-Domain": "Organization",
         "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{621BB9F9-09F8-466a-9888-30657DB2507F}",
-        "EA-Name": "prev",
+        "EA-Name": "next",
         "EA-Package": "",
         "EA-Range": "Organization",
         "EA-Type": "connector",
@@ -4924,12 +5278,12 @@
         "RawTags": [
           {
             "key": "uri",
-            "note": "http://www.w3.org/1999/xhtml/vocab#prev",
+            "note": "http://www.w3.org/1999/xhtml/vocab#next",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "prev",
+            "note": "next",
             "value": "NOTE"
           },
           {
@@ -4947,16 +5301,22 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "prev",
-        "label": "",
-        "sourceRole": "next",
+        "destRole": "next",
+        "label": {
+          "en": "next"
+        },
+        "sourceRole": "prev",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "next"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "next",
       "range": [
         {
           "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
@@ -5023,14 +5383,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "wkt"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "wkt"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "wkt",
       "range": [
         {
           "EA-Name": "Literal",
@@ -5096,14 +5462,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "gml"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "gml"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "gml",
       "range": [
         {
           "EA-Name": "Literal",
@@ -5113,7 +5485,7 @@
       ]
     },
     {
-      "@id": "https://schema.org/memberOf",
+      "@id": "http://www.iceg.be/Organization.hasMember",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{48FE810D-2F43-450c-8694-7E54E6D0B900}",
       "ap-definition-nl": {
@@ -5122,55 +5494,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Person",
-          "uri": "http://www.w3.org/ns/person#Person"
+          "EA-Name": "Organization",
+          "uri": "http://www.w3.org/ns/org#Organization"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
-            "key": "label-en",
-            "note": "member of",
+            "key": "definition-en",
+            "note": "Indicates that Person is a member of the Organization with no indication of the nature of that membership or the role played",
             "value": "NOTE"
           },
           {
-            "key": "definition-en",
-            "note": "Indicates a Person who is a member of the subject Organization",
+            "key": "label-en",
+            "note": "has member",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "https://schema.org/memberOf",
+            "note": "http://www.iceg.be/Organization.hasMember",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Person",
-        "EA-Domain-Guid": "{A0ECD6E2-3D19-4928-8FAC-33C504817515}",
+        "EA-Domain": "Organization",
+        "EA-Domain-Guid": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
         "EA-Guid": "{48FE810D-2F43-450c-8694-7E54E6D0B900}",
-        "EA-Name": "memberOf",
+        "EA-Name": "hasMember",
         "EA-Package": "",
-        "EA-Range": "Organization",
+        "EA-Range": "Person",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
-          "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "EA-GUID": "{A0ECD6E2-3D19-4928-8FAC-33C504817515}",
+          "EA-Name": "Person",
+          "EA-Package": "Core Person",
+          "uri": "http://www.w3.org/ns/person#Person"
         },
         "RawTags": [
           {
-            "key": "label-en",
-            "note": "member of",
+            "key": "definition-en",
+            "note": "Indicates that Person is a member of the Organization with no indication of the nature of that membership or the role played",
             "value": "NOTE"
           },
           {
-            "key": "definition-en",
-            "note": "Indicates a Person who is a member of the subject Organization",
+            "key": "label-en",
+            "note": "has member",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "https://schema.org/memberOf",
+            "note": "http://www.iceg.be/Organization.hasMember",
             "value": "NOTE"
           }
         ],
@@ -5183,22 +5555,28 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "memberOf",
-        "label": "",
-        "sourceRole": "hasMember",
+        "destRole": "hasMember",
+        "label": {
+          "en": "has member"
+        },
+        "sourceRole": "memberOf",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has member"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasMember",
       "range": [
         {
-          "EA-GUID": "{96BE0369-702D-412d-A0C3-5A84E0A5F38A}",
-          "EA-Name": "Organization",
-          "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
+          "EA-GUID": "{A0ECD6E2-3D19-4928-8FAC-33C504817515}",
+          "EA-Name": "Person",
+          "EA-Package": "Core Person",
+          "uri": "http://www.w3.org/ns/person#Person"
         }
       ]
     },
@@ -5255,14 +5633,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "status"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "status"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "status",
       "range": [
         {
           "EA-GUID": "{59076C66-77EA-4c2f-86C2-F26E7B5933F1}",
@@ -5324,14 +5708,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "start date of this data"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "start date of this data"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "startDateOfThisData",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -5393,14 +5783,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "links to database"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "links to database"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "linksToDatabase",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -5463,14 +5859,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "legal form"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "legal form"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "legalForm",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -5538,14 +5940,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "ex officio striking off"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "ex officio striking off"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "exOfficioStrikingOff",
       "range": [
         {
           "EA-GUID": "{59076C66-77EA-4c2f-86C2-F26E7B5933F1}",
@@ -5608,14 +6016,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "certification"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "certification"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "certification",
       "range": [
         {
           "EA-GUID": "{59076C66-77EA-4c2f-86C2-F26E7B5933F1}",
@@ -5697,15 +6111,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "implements",
-        "label": "",
+        "label": {
+          "en": "implements"
+        },
         "sourceRole": "hasFormalFramework",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "implements"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "implements",
       "range": [
         {
           "EA-GUID": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
@@ -5797,15 +6217,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "spatial",
-        "label": "",
+        "label": {
+          "en": "jurisdiction"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "jurisdiction"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "jurisdiction",
       "range": [
         {
           "EA-GUID": "{F50C1BB6-825E-43bc-BF21-8A1AC51AC0CA}",
@@ -5867,14 +6293,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of issue"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "date of issue"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfIssue",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -5935,14 +6367,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-Name": "Literal",
@@ -6004,14 +6442,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -6074,14 +6518,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
@@ -6143,14 +6593,94 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "issuing authority URI"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "issuing authority URI"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "issuingAuthorityUri",
+      "range": [
+        {
+          "EA-Name": "URI",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/conformsTo",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{A145710E-6B8F-4a53-B0F3-3AB50C244C08}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Identifier",
+          "uri": "http://www.w3.org/ns/adms#Identifier"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Identifier",
+        "EA-Domain-Guid": "{4252FD49-50E1-4fa8-AE37-1FE59010D3AB}",
+        "EA-Guid": "{A145710E-6B8F-4a53-B0F3-3AB50C244C08}",
+        "EA-Name": "schemeURI",
+        "EA-Package": "adms",
+        "EA-Range": "URI",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "URI",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
+        },
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "URI of the scheme used to construct the identifier."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "scheme URI"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/conformsTo"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "label": {
+          "en": "scheme URI"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "scheme URI"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "schemeUri",
       "range": [
         {
           "EA-Name": "URI",
@@ -6212,88 +6742,26 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "scheme name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "scheme name"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "schemeName",
       "range": [
         {
           "EA-GUID": "{01DDF84E-BA04-467c-B657-9A8877C293F9}",
           "EA-Name": "Text",
           "EA-Package": "Core Vocabulary",
           "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/conformsTo",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{A145710E-6B8F-4a53-B0F3-3AB50C244C08}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Identifier",
-          "uri": "http://www.w3.org/ns/adms#Identifier"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Identifier",
-        "EA-Domain-Guid": "{4252FD49-50E1-4fa8-AE37-1FE59010D3AB}",
-        "EA-Guid": "{A145710E-6B8F-4a53-B0F3-3AB50C244C08}",
-        "EA-Name": "schemeURI",
-        "EA-Package": "adms",
-        "EA-Range": "URI",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "URI",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
-        },
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "URI of the scheme used to construct the identifier."
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "scheme URI"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/conformsTo"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "label": "",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "",
-      "range": [
-        {
-          "EA-Name": "URI",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
         }
       ]
     },
@@ -6354,14 +6822,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "alternative name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "alternative name"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "alternativeName",
       "range": [
         {
           "EA-Name": "String",
@@ -6371,7 +6845,7 @@
       ]
     },
     {
-      "@id": "http://purl.org/vocab/cpsv#implements",
+      "@id": "http://data.europa.eu/m8g/hasFormalFramework",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{B5E19A26-4C9F-4aa2-ACF6-9282613B49A7}",
       "ap-definition-nl": {
@@ -6380,55 +6854,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "ReferenceFramework",
-          "uri": "http://data.europa.eu/m8g/ReferenceFramework"
+          "EA-Name": "ChangeEvent",
+          "uri": "http://www.w3.org/ns/org#ChangeEvent"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
             "key": "uri",
-            "note": "http://purl.org/vocab/cpsv#implements",
+            "note": "http://data.europa.eu/m8g/hasFormalFramework",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "implements",
+            "note": "has formal framework",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=The implements property links a Change Event to relevant legislation or policy documents i.e. the formal framework under which the Change Event is defined.",
+            "note": "The property hasFormalFramework links a Change Event or Foundation Event to a piece of legislation or a policy document that prompted the change.",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "ReferenceFramework",
-        "EA-Domain-Guid": "{21C7916B-3091-4a57-8AD5-03FD0D92E2B2}",
+        "EA-Domain": "ChangeEvent",
+        "EA-Domain-Guid": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
         "EA-Guid": "{B5E19A26-4C9F-4aa2-ACF6-9282613B49A7}",
-        "EA-Name": "implements",
+        "EA-Name": "hasFormalFramework",
         "EA-Package": "",
-        "EA-Range": "ChangeEvent",
+        "EA-Range": "ReferenceFramework",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
-          "EA-Name": "ChangeEvent",
-          "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#ChangeEvent"
+          "EA-GUID": "{21C7916B-3091-4a57-8AD5-03FD0D92E2B2}",
+          "EA-Name": "ReferenceFramework",
+          "EA-Package": "cccev",
+          "uri": "http://data.europa.eu/m8g/ReferenceFramework"
         },
         "RawTags": [
           {
             "key": "uri",
-            "note": "http://purl.org/vocab/cpsv#implements",
+            "note": "http://data.europa.eu/m8g/hasFormalFramework",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "implements",
+            "note": "has formal framework",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=The implements property links a Change Event to relevant legislation or policy documents i.e. the formal framework under which the Change Event is defined.",
+            "note": "The property hasFormalFramework links a Change Event or Foundation Event to a piece of legislation or a policy document that prompted the change.",
             "value": "NOTE"
           }
         ],
@@ -6441,22 +6915,28 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "implements",
-        "label": "",
-        "sourceRole": "hasFormalFramework",
+        "destRole": "hasFormalFramework",
+        "label": {
+          "en": "has formal framework"
+        },
+        "sourceRole": "implements",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has formal framework"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasFormalFramework",
       "range": [
         {
-          "EA-GUID": "{75DF1976-9716-4594-A10F-19509CAB3DCE}",
-          "EA-Name": "ChangeEvent",
-          "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#ChangeEvent"
+          "EA-GUID": "{21C7916B-3091-4a57-8AD5-03FD0D92E2B2}",
+          "EA-Name": "ReferenceFramework",
+          "EA-Package": "cccev",
+          "uri": "http://data.europa.eu/m8g/ReferenceFramework"
         }
       ]
     },
@@ -6513,14 +6993,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "geometry type"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "geometry type"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "geometryType",
       "range": [
         {
           "EA-GUID": "{59076C66-77EA-4c2f-86C2-F26E7B5933F1}",
@@ -6582,14 +7068,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "crs"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "crs"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "crs",
       "range": [
         {
           "EA-Name": "URI",
@@ -6650,14 +7142,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "coordinates"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "coordinates"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "coordinates",
       "range": [
         {
           "EA-Name": "String",
@@ -6707,12 +7205,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Administrative Territorial Units"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Administrative Territorial Units"
+      },
+      "name": "AdministrativeTerritorialUnits"
     },
     {
       "@id": "http://data.europa.eu/m8g/FoundationEvent",
@@ -6728,7 +7232,7 @@
         "EA-Parents": "ChangeEvent",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Change Event",
             "name": "ChangeEvent",
             "package": "org",
             "uri": "http://www.w3.org/ns/org#ChangeEvent"
@@ -6760,12 +7264,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Foundation Event"
+        },
         "parentclasses": "http://www.w3.org/ns/org#ChangeEvent",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Foundation Event"
+      },
+      "name": "FoundationEvent"
     },
     {
       "@id": "http://data.europa.eu/m8g/PublicOrganisation",
@@ -6781,7 +7291,7 @@
         "EA-Parents": "Organization",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Organization",
             "name": "Organization",
             "package": "org",
             "uri": "http://www.w3.org/ns/org#Organization"
@@ -6818,12 +7328,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Public Organization"
+        },
         "parentclasses": "http://www.w3.org/ns/org#Organization",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Organization"
+      },
+      "name": "PublicOrganization"
     },
     {
       "@id": "http://data.europa.eu/m8g/ReferenceFramework",
@@ -6869,12 +7385,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Reference Framework"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Reference Framework"
+      },
+      "name": "ReferenceFramework"
     },
     {
       "@id": "http://www.w3.org/ns/adms#Identifier",
@@ -6920,12 +7442,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Identifier"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Identifier"
+      },
+      "name": "Identifier"
     },
     {
       "@id": "http://www.w3.org/ns/locn#Address",
@@ -6971,12 +7499,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Address"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Address"
+      },
+      "name": "Address"
     },
     {
       "@id": "http://www.w3.org/ns/locn#Geometry",
@@ -7022,12 +7556,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Geometry"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Geometry"
+      },
+      "name": "Geometry"
     },
     {
       "@id": "http://www.w3.org/ns/org#ChangeEvent",
@@ -7068,12 +7608,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Change Event"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Change Event"
+      },
+      "name": "ChangeEvent"
     },
     {
       "@id": "http://www.w3.org/ns/org#Organization",
@@ -7114,12 +7660,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Organization"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Organization"
+      },
+      "name": "Organization"
     },
     {
       "@id": "http://www.w3.org/ns/org#OrganizationalUnit",
@@ -7135,7 +7687,7 @@
         "EA-Parents": "Organization",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Organization",
             "name": "Organization",
             "package": "org",
             "uri": "http://www.w3.org/ns/org#Organization"
@@ -7172,12 +7724,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Organizational Unit"
+        },
         "parentclasses": "http://www.w3.org/ns/org#Organization",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Organizational Unit"
+      },
+      "name": "OrganizationalUnit"
     },
     {
       "@id": "http://www.w3.org/ns/org#Post",
@@ -7218,12 +7776,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Post"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Post"
+      },
+      "name": "Post"
     },
     {
       "@id": "http://www.w3.org/ns/org#Role",
@@ -7264,12 +7828,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Role"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Role"
+      },
+      "name": "Role"
     },
     {
       "@id": "http://www.w3.org/ns/org#Site",
@@ -7310,12 +7880,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Site"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Site"
+      },
+      "name": "Site"
     },
     {
       "@id": "http://www.w3.org/ns/person#Person",
@@ -7331,7 +7907,7 @@
         "EA-Parents": "",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Person",
             "name": "Person",
             "package": "foaf",
             "uri": "http://xmlns.com/foaf/0.1/Person"
@@ -7368,12 +7944,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Person"
+        },
         "parentclasses": "http://xmlns.com/foaf/0.1/Person",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Person"
+      },
+      "name": "Person"
     },
     {
       "@id": "https://schema.org/ContactPoint",
@@ -7419,12 +8001,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Contact Point"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Contact Point"
+      },
+      "name": "ContactPoint"
     },
     {
       "@id": "https://schema.org/ImageObject",
@@ -7465,12 +8053,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Image Object"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Image Object"
+      },
+      "name": "ImageObject"
     },
     {
       "@id": "https://schema.org/OpeningHoursSpecification",
@@ -7516,12 +8110,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Opening Hours Specification"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Opening Hours Specification"
+      },
+      "name": "OpeningHoursSpecification"
     }
   ],
   "extra": {
@@ -7558,7 +8158,7 @@
   "standaardregisterurl": "TODO",
   "template": "iceg-public-organisation_de.j2",
   "title": "Public Organization",
-  "toolchaincommit": "f71364141ba810e2bc5191afcaaf7f8016452eff",
+  "toolchaincommit": "efab23d701fc79878b385458ea340dbc77e14ada",
   "translation": [
     {
       "language": "en",

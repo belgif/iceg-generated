@@ -1,0 +1,1124 @@
+{
+  "@context": {
+    "@vocab": "https://belgif.github.io//thematic/models/public-service",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:description": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    },
+    "vl": "https://purl.eu/ns/shacl#"
+  },
+  "@id": "https://belgif.github.io//thematic/models/public-service",
+  "shapes": [
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#LegalResourceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://data.europa.eu/eli/ontology#LegalResource",
+          "sh:name": {
+            "en": "related"
+          },
+          "sh:path": "http://purl.org/dc/terms/relation"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/eli/ontology#LegalResource"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#BusinessEventShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://data.europa.eu/m8g/BusinessEvent"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#ChannelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://schema.org/OpeningHoursSpecification",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "availability restriction"
+          },
+          "sh:path": "https://schema.org/hoursAvailable"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/publicservice#Purpose",
+          "sh:name": {
+            "en": "has purpose"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#hasPurpose"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:name": {
+            "en": "opening hours"
+          },
+          "sh:path": "https://schema.org/openingHours"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
+          "sh:name": {
+            "en": "owned by"
+          },
+          "sh:path": "http://data.europa.eu/m8g/ownedBy"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Evidence",
+          "sh:name": {
+            "en": "via channel"
+          },
+          "sh:path": "http://purl.org/vocab/cpsv#hasInput"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/Channel"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#CostShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "cost breakdown"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#costBreakdown"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "currency"
+          },
+          "sh:path": "http://data.europa.eu/m8g/currency"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Channel",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "if accessed through"
+          },
+          "sh:path": "http://data.europa.eu/m8g/ifAccessedThrough"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
+          "sh:name": {
+            "en": "is defined by"
+          },
+          "sh:path": "http://data.europa.eu/m8g/isDefinedBy"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "http://data.europa.eu/m8g/value"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/Cost"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#EventShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        },
+        {
+          "sh:class": "http://purl.org/vocab/cpsv#PublicService",
+          "sh:name": {
+            "en": "related service"
+          },
+          "sh:path": "http://purl.org/dc/terms/relation"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://purl.org/dc/terms/type"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/Event"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#EvidenceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://data.europa.eu/m8g/Output",
+          "sh:name": {
+            "en": "comes from"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#comesFrom"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "confidentiality level type"
+          },
+          "sh:path": "http://data.europa.eu/m8g/confidentialityLevelType"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "country"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:name": {
+            "en": "is about"
+          },
+          "sh:path": "http://purl.org/dc/terms/subject"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:name": {
+            "en": "is created by"
+          },
+          "sh:path": "http://purl.org/dc/terms/creator"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:name": {
+            "en": "is issued by"
+          },
+          "sh:path": "http://purl.org/dc/terms/publisher"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:name": {
+            "en": "is provided by"
+          },
+          "sh:path": "http://purl.org/dc/terms/provenance"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/LinguisticSystem",
+          "sh:name": {
+            "en": "language"
+          },
+          "sh:path": "http://purl.org/dc/terms/language"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Requirement",
+          "sh:name": {
+            "en": "supports Requirement"
+          },
+          "sh:path": "http://data.europa.eu/m8g/supportsRequirement"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/Evidence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#LifeEventShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://data.europa.eu/m8g/LifeEvent"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#OutputShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://data.europa.eu/eli/ontology#LegalResource",
+          "sh:name": {
+            "en": "has legal resource"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#hasLegalResource"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:name": {
+            "en": "is about"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#isAbout"
+        },
+        {
+          "sh:class": "http://data.europa.eu/eli/ontology#LegalResource",
+          "sh:name": {
+            "en": "is legal resource"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#isLegalResource"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Evidence",
+          "sh:name": {
+            "en": "is used as"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#isUsedAs"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "response time"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#responseTime"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://purl.org/dc/terms/type"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/Output"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#ParticipationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "role"
+          },
+          "sh:path": "http://data.europa.eu/m8g/role"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/Participation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#PublicOrganizationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://data.europa.eu/m8g/Channel",
+          "sh:name": {
+            "en": "has channel"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#hasChannel"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/org#Site",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "has site"
+          },
+          "sh:path": "http://www.w3.org/ns/org#hasSite"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "legal form"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#legalForm"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/PublicOrganisation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#PublicServiceDatasetShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "publisher"
+          },
+          "sh:path": "http://purl.org/dc/terms/publisher"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "title"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/PublicServiceDataset"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#RequirementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Requirement",
+          "sh:name": {
+            "en": "has qualified relation"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasQualifiedRelation"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Requirement",
+          "sh:name": {
+            "en": "has requirement"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasRequirement"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Evidence",
+          "sh:name": {
+            "en": "has Supporting Evidence"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasSupportingEvidence"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:class": "http://data.europa.eu/eli/ontology#LegalResource",
+          "sh:name": {
+            "en": "is derived from"
+          },
+          "sh:path": "http://data.europa.eu/m8g/isDerivedFrom"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:name": {
+            "en": "is issued by"
+          },
+          "sh:path": "http://purl.org/dc/terms/publisher"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Requirement",
+          "sh:name": {
+            "en": "is requirement of"
+          },
+          "sh:path": "http://data.europa.eu/m8g/isRequirementOf"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/Requirement"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#PublicServiceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://purl.org/vocab/cpsv#Rule",
+          "sh:name": {
+            "en": "follows"
+          },
+          "sh:path": "http://purl.org/vocab/cpsv#follows"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Channel",
+          "sh:name": {
+            "en": "has channel"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasChannel"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/PublicOrganisation",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "has competent authority"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasCompetentAuthority"
+        },
+        {
+          "sh:class": "https://schema.org/ContactPoint",
+          "sh:name": {
+            "en": "has contact point"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasContactPoint"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Cost",
+          "sh:name": {
+            "en": "has cost"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasCost"
+        },
+        {
+          "sh:class": "http://data.europa.eu/eli/ontology#LegalResource",
+          "sh:name": {
+            "en": "has legal resource"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasLegalResource"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Participation",
+          "sh:name": {
+            "en": "has participation"
+          },
+          "sh:path": "http://data.europa.eu/m8g/hasParticipation"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Channel",
+          "sh:name": {
+            "en": "has preferred channel"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#hasPreferredChannel"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Requirement",
+          "sh:name": {
+            "en": "has requirement"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#hasRequirement"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "en": "is classified by"
+          },
+          "sh:path": "http://data.europa.eu/m8g/isClassifiedBy"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/PublicServiceDataset",
+          "sh:name": {
+            "en": "is described at"
+          },
+          "sh:path": "http://data.europa.eu/m8g/isDescribedAt"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Event",
+          "sh:name": {
+            "en": "is grouped by"
+          },
+          "sh:path": "http://data.europa.eu/m8g/isGroupedBy"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:name": {
+            "en": "keyword"
+          },
+          "sh:path": "http://www.w3.org/ns/dcat#keyword"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/LinguisticSystem",
+          "sh:name": {
+            "en": "language"
+          },
+          "sh:path": "http://purl.org/dc/terms/language"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "en": "lifecycle status"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#lifecycleStatus"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#duration",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "processing time"
+          },
+          "sh:path": "http://data.europa.eu/m8g/processingTime"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Output",
+          "sh:name": {
+            "en": "produces"
+          },
+          "sh:path": "http://purl.org/vocab/cpsv#produces"
+        },
+        {
+          "sh:class": "http://purl.org/vocab/cpsv#PublicService",
+          "sh:name": {
+            "en": "related"
+          },
+          "sh:path": "http://purl.org/dc/terms/relation"
+        },
+        {
+          "sh:class": "http://purl.org/vocab/cpsv#PublicService",
+          "sh:name": {
+            "en": "requires"
+          },
+          "sh:path": "http://purl.org/dc/terms/requires"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "en": "sector"
+          },
+          "sh:path": "http://data.europa.eu/m8g/sector"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/Location",
+          "sh:name": {
+            "en": "spatial"
+          },
+          "sh:path": "http://purl.org/dc/terms/spatial"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "status"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#status"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "en": "thematic area"
+          },
+          "sh:path": "http://data.europa.eu/m8g/thematicArea"
+        }
+      ],
+      "sh:targetClass": "http://purl.org/vocab/cpsv#PublicService"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#RuleShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/terms/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:class": "http://data.europa.eu/eli/ontology#LegalResource",
+          "sh:name": {
+            "en": "implements"
+          },
+          "sh:path": "http://purl.org/vocab/cpsv#implements"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/LinguisticSystem",
+          "sh:name": {
+            "en": "language"
+          },
+          "sh:path": "http://purl.org/dc/terms/language"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        }
+      ],
+      "sh:targetClass": "http://purl.org/vocab/cpsv#Rule"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#PurposeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://data.europa.eu/m8g/Channel",
+          "sh:name": {
+            "en": "has channel"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#hasChannel"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/publicservice#Purpose"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#CollectionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "en": "member"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#member"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#ConceptShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "classification"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/publicservice#classification"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#AddressShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "address area"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "address ID"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressId"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administrative unit level 1 (country)"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administrative unit level 2 (country/region/state)"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "full address"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "locator designator"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "locator name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "post office box"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#poBox"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "post code"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postCode"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "post name (city)"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "thoroughfare"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Address"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#SiteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "address"
+          },
+          "sh:path": "http://w3.org/ns/locn#address"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/org#Site"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#AgentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "has address"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#address"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://purl.org/dc/terms/identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        },
+        {
+          "sh:class": "http://data.europa.eu/m8g/Participation",
+          "sh:name": {
+            "en": "plays role"
+          },
+          "sh:path": "http://data.europa.eu/m8g/playsRole"
+        }
+      ],
+      "sh:targetClass": "http://xmlns.com/foaf/0.1/Agent"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#GroupShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Agent",
+          "sh:name": {
+            "en": "member"
+          },
+          "sh:path": "http://xmlns.com/foaf/0.1/member"
+        }
+      ],
+      "sh:targetClass": "http://xmlns.com/foaf/0.1/Group"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#ContactPointShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://schema.org/OpeningHoursSpecification",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "availability restriction"
+          },
+          "sh:path": "https://schema.org/hoursAvailable"
+        },
+        {
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "has email"
+          },
+          "sh:path": "https://schema.org/email"
+        },
+        {
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "has telephone"
+          },
+          "sh:path": "https://schema.org/telephone"
+        },
+        {
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "opening hours"
+          },
+          "sh:path": "https://schema.org/openingHours"
+        },
+        {
+          "sh:datatype": "http://schema.org/url",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "website"
+          },
+          "sh:path": "https://schema.org/WebSite"
+        }
+      ],
+      "sh:targetClass": "https://schema.org/ContactPoint"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/public-service#OpeningHoursSpecificationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "day of week"
+          },
+          "sh:path": "https://schema.org/dayOfWeek"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "valid from"
+          },
+          "sh:path": "https://schema.org/validFrom"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "valid through"
+          },
+          "sh:path": "https://schema.org/validThrough"
+        }
+      ],
+      "sh:targetClass": "https://schema.org/OpeningHoursSpecification"
+    }
+  ]
+}

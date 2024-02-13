@@ -23,9 +23,12 @@
   "classes": [
     {
       "uri": "http://data.europa.eu/88u/dataset/atu-type",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "AdministrativeTerritorialUnits",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Administrative Territorial Units"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -37,9 +40,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#geometry",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "geometry",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "geometry"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -56,10 +62,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Geometry",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/locn#Geometry",
               "range_label": {
-                "de": "Geometry"
+                "de": "Enter your translation here",
+                "en": "Geometry"
               }
             }
           ],
@@ -76,18 +83,21 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/FoundationEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "FoundationEvent",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Foundation Event"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "ChangeEvent",
+          "label": "Change Event",
           "name": "ChangeEvent",
           "package": "org",
           "uri": "http://www.w3.org/ns/org#ChangeEvent",
-          "scoped_uri": "#ChangeEvent"
+          "scoped_uri": "#Change Event"
         }
       ],
       "rawTags": {
@@ -99,9 +109,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/PublicOrganisation",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicOrganization",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Organization"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [
@@ -122,9 +135,12 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#legalForm",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "legalForm",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "legal form"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -158,9 +174,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/spatial",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "jurisdiction",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "jurisdiction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -177,10 +196,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#AdministrativeTerritorialUnit",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/88u/dataset/atu-type",
               "range_label": {
-                "de": "AdministrativeTerritorialUnit"
+                "de": "Enter your translation here",
+                "en": "Administrative Territorial Units"
               }
             }
           ],
@@ -197,9 +217,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/ReferenceFramework",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ReferenceFramework",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Reference Framework"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -212,9 +235,12 @@
       "properties": [
         {
           "uri": "http://purl.org/vocab/cpsv#implements",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "implements",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "implements"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -231,10 +257,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ChangeEvent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
               "range_label": {
-                "de": "ChangeEvent"
+                "de": "Enter your translation here",
+                "en": "Change Event"
               }
             }
           ],
@@ -248,9 +275,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -281,50 +311,17 @@
             "definition-en": "An unambiguous reference to a Reference Framework.",
             "uri": "http://purl.org/dc/terms/identifier"
           }
-        },
-        {
-          "uri": "http://purl.org/vocab/cpsv#implements",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ReferenceFramework",
-              "uri": "http://data.europa.eu/m8g/ReferenceFramework"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ChangeEvent",
-              "range_uri": "http://www.w3.org/ns/org#ChangeEvent"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#ChangeEvent",
-              "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
-              "range_label": {
-                "de": "ChangeEvent"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://purl.org/vocab/cpsv#implements",
-            "label-en": "implements",
-            "definition-en": "NOTE$ea_notes=The implements property links a Change Event to relevant legislation or policy documents i.e. the formal framework under which the Change Event is defined."
-          }
         }
       ]
     },
     {
       "uri": "http://www.w3.org/ns/adms#Identifier",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Identifier",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Identifier"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -337,9 +334,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/adms#schemeAgency",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "issuingAuthorityName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "issuing authority name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -374,9 +374,12 @@
         },
         {
           "uri": "http://www.w3.org/2004/02/skos/core#notation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -411,9 +414,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/issued",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dateOfIssue",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "date of issue"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -447,9 +453,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/creator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "issuingAuthorityUri",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "issuing authority URI"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -483,45 +492,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/conformsTo",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Identifier",
-              "uri": "http://www.w3.org/ns/adms#Identifier"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Text",
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_label": {
-                "de": "Text"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://purl.org/dc/terms/conformsTo",
-            "label-en": "scheme name",
-            "definition-en": "Name of the scheme used to construct the identifier."
-          }
-        },
-        {
-          "uri": "http://purl.org/dc/terms/conformsTo",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "schemeUri",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "scheme URI"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -552,14 +528,56 @@
             "label-en": "scheme URI",
             "uri": "http://purl.org/dc/terms/conformsTo"
           }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/conformsTo",
+          "name": "schemeName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "scheme name"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Identifier",
+              "uri": "http://www.w3.org/ns/adms#Identifier"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Text",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "de": "Text"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://purl.org/dc/terms/conformsTo",
+            "label-en": "scheme name",
+            "definition-en": "Name of the scheme used to construct the identifier."
+          }
         }
       ]
     },
     {
       "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Address",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Address"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -572,9 +590,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#thoroughfare",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "thoroughfare",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "thoroughfare"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -609,9 +630,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postName(city)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "post name (city)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -645,9 +669,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postCode",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postCode",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "post code"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -682,9 +709,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#poBox",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postOfficeBox",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "post office box"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -719,9 +749,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "locator name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -756,9 +789,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorDesignator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorDesignator",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "locator designator"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -793,9 +829,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#fullAddress",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "fullAddress",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "full address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -830,9 +869,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL2",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel2(country/region/state)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "administrative unit level 2 (country/region/state)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -867,9 +909,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL1",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel1(country)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "administrative unit level 1 (country)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -904,9 +949,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressID",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressId",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "address ID"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -928,9 +976,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressArea",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressArea",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "address area"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -967,9 +1018,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/locn#Geometry",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Geometry",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Geometry"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -982,9 +1036,12 @@
       "properties": [
         {
           "uri": "https://schema.org/longitude",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "longitude",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "longitude"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1018,9 +1075,12 @@
         },
         {
           "uri": "https://schema.org/latitude",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "latitude",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "latitude"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1054,9 +1114,12 @@
         },
         {
           "uri": "http://www.opengis.net/ont/geosparql#asWKT",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "wkt",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "wkt"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1091,9 +1154,12 @@
         },
         {
           "uri": "http://www.opengis.net/ont/geosparql#asGML",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "gml",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "gml"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1128,9 +1194,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/geometryType",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "geometryType",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "geometry type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1164,9 +1233,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/crs",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "crs",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "crs"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1200,9 +1272,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/coordinates",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "coordinates",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "coordinates"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1238,9 +1313,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#ChangeEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ChangeEvent",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Change Event"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1252,9 +1330,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/prov#startedAtTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "startedAtTime",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "started at time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1289,9 +1370,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/prov#endedAtTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "endedAtTime",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "ended at time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1325,9 +1409,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#resultingOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "resultingOrganization",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "resulting organization"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1344,46 +1431,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://www.w3.org/ns/org#resultingOrganization",
-            "definition-en": "This property links a Change Event or a Foundation Event to the Organization that resulted from it.",
-            "label-en": "resulting organization"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#resultingOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ChangeEvent",
-              "uri": "http://www.w3.org/ns/org#ChangeEvent"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -1397,9 +1449,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#originalOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "originalOrganization",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "original organization"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1416,46 +1471,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "definition-en": "NOTE$ea_notes=The original organization property links a Change Event to the Organization that existed before the change. Although the Foundation Event class is defined as a subclass of Change Event, it is inappropriate to use the original organization property with the Foundation Event class.",
-            "uri": "http://www.w3.org/ns/org#originalOrganization",
-            "label-en": "original organization"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#originalOrganization",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ChangeEvent",
-              "uri": "http://www.w3.org/ns/org#ChangeEvent"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -1469,9 +1489,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1502,14 +1525,57 @@
             "uri": "http://purl.org/dc/terms/description",
             "definition-en": "A textual description of the event."
           }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/hasFormalFramework",
+          "name": "hasFormalFramework",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has formal framework"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ChangeEvent",
+              "uri": "http://www.w3.org/ns/org#ChangeEvent"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ReferenceFramework",
+              "range_uri": "http://data.europa.eu/m8g/ReferenceFramework"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/ReferenceFramework",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Reference Framework"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://data.europa.eu/m8g/hasFormalFramework",
+            "label-en": "has formal framework",
+            "definition-en": "The property hasFormalFramework links a Change Event or Foundation Event to a piece of legislation or a policy document that prompted the change."
+          }
         }
       ]
     },
     {
       "uri": "http://www.w3.org/ns/org#Organization",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Organization",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Organization"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1521,9 +1587,12 @@
       "properties": [
         {
           "uri": "https://www.w3.org/ns/adms#Identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1540,10 +1609,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Identifier",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/adms#Identifier",
               "range_label": {
-                "de": "Identifier"
+                "de": "Enter your translation here",
+                "en": "Identifier"
               }
             }
           ],
@@ -1557,9 +1627,12 @@
         },
         {
           "uri": "https://schema.org/logo",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "logo",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "logo"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1576,10 +1649,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ImageObject",
+              "range_uri": "#Enter your translation here",
               "range_puri": "https://schema.org/ImageObject",
               "range_label": {
-                "de": "ImageObject"
+                "de": "Enter your translation here",
+                "en": "Image Object"
               }
             }
           ],
@@ -1594,9 +1668,12 @@
         },
         {
           "uri": "https://schema.org/contactPoint",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "contactPoint",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "contact point"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1613,10 +1690,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ContactPoint",
+              "range_uri": "#Enter your translation here",
               "range_puri": "https://schema.org/ContactPoint",
               "range_label": {
-                "de": "ContactPoint"
+                "de": "Enter your translation here",
+                "en": "Contact Point"
               }
             }
           ],
@@ -1631,9 +1709,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#subOrganizationOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "subOrganizationOf",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "sub organization of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1650,10 +1731,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -1666,10 +1748,53 @@
           }
         },
         {
+          "uri": "http://www.w3.org/ns/org#resultedFrom",
+          "name": "resultedFrom",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "resulted from"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ChangeEvent",
+              "range_uri": "http://www.w3.org/ns/org#ChangeEvent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Change Event"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "This property link an Organization to the Change Event it resulted from.",
+            "label-en": "resulted from",
+            "uri": "http://www.w3.org/ns/org#resultedFrom"
+          }
+        },
+        {
           "uri": "http://www.w3.org/ns/org#memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "memberOf",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "member of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1686,10 +1811,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -1703,10 +1829,54 @@
           }
         },
         {
-          "uri": "http://www.w3.org/ns/org#subOrganizationOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://www.w3.org/ns/org#hasUnit",
+          "name": "hasUnit",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has unit"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "OrganizationalUnit",
+              "range_uri": "http://www.w3.org/ns/org#OrganizationalUnit"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/ns/org#OrganizationalUnit",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Organizational Unit"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/ns/org#hasUnit",
+            "label-en": "has unit",
+            "usageNote-en": "NOTE$ea_notes=Organizations typically comprise many departments, units, teams etc. Each of these\r\nis modelled in the CPOV as a unit that is linked from the parent Organization with\r\nhasUnit and to the parent with unitOf.",
+            "definition-en": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/ns/org#hasSubOrganization",
+          "name": "hasSubOrganization",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has sub organization"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1723,26 +1893,30 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "sub organization of",
             "definition-en": "NOTE$ea_notes=Public Organizations are often large and complex and may be a collection of smaller\r\nOrganizations, each of which has a specific identity that may be legally defined. The\r\nhasSubOrganization and subOrganizationOf properties express the relationships\r\nbetween Organizations in a hierarchical structure. ",
-            "uri": "http://www.w3.org/ns/org#subOrganizationOf"
+            "label-en": "has sub organization",
+            "uri": "http://www.w3.org/ns/org#hasSubOrganization"
           }
         },
         {
           "uri": "http://www.w3.org/ns/org#hasSite",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasSite",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has site"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1759,10 +1933,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Site",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Site",
               "range_label": {
-                "de": "Site"
+                "de": "Enter your translation here",
+                "en": "Site"
               }
             }
           ],
@@ -1775,10 +1950,53 @@
           }
         },
         {
-          "uri": "http://www.w3.org/ns/org#memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://www.w3.org/ns/org#hasPost",
+          "name": "hasPost",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has post"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Post",
+              "range_uri": "http://www.w3.org/ns/org#Post"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/ns/org#Post",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Post"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/ns/org#hasPost",
+            "label-en": "has post",
+            "definition-en": "Indicates the post that belongs to the Organization."
+          }
+        },
+        {
+          "uri": "http://www.w3.org/ns/org#hasMember",
+          "name": "hasMember",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has member"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1795,27 +2013,71 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "usageNote-en": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
-            "uri": "http://www.w3.org/ns/org#memberOf",
             "definition-en": "One Organization may be a member of another without being a sub organization, i.e.\r\nthey are independent entities.",
-            "label-en": "member of"
+            "uri": "http://www.w3.org/ns/org#hasMember",
+            "usageNote-en": "NOTE$ea_notes=The memberOf and hasMember properties are very simple and don't support\r\nstatements describing the nature of the membership. The W3C Organization Ontology\r\nprovides both this simple method and a more sophisticated model25 that does make\r\nit possible to, for example, provide information about the period of time in which one\r\nOrganization was a member of another, the level of membership etc. That more\r\nsophisticated model should be used where necessary and may be used in addition to\r\nthe simple memberOf/hasMember properties.",
+            "label-en": "has member"
+          }
+        },
+        {
+          "uri": "http://www.w3.org/ns/org#changedBy",
+          "name": "changedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "changed by"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "ChangeEvent",
+              "range_uri": "http://www.w3.org/ns/org#ChangeEvent"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/ns/org#ChangeEvent",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Change Event"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "NOTE$ea_notes=The changed by organization property links an Organization to the Change Event that changed the Organization.",
+            "uri": "http://www.w3.org/ns/org#changedBy",
+            "label-en": "changed by"
           }
         },
         {
           "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "preferredLabel",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "preferred label"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1850,9 +2112,12 @@
         },
         {
           "uri": "http://www.w3.org/2004/02/skos/core#altLabel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "alternativeLabel",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "alternative label"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1886,9 +2151,12 @@
         },
         {
           "uri": "http://www.w3.org/1999/xhtml/vocab#prev",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "prev",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "prev"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1905,10 +2173,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -1921,10 +2190,13 @@
           }
         },
         {
-          "uri": "http://www.w3.org/1999/xhtml/vocab#prev",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://www.w3.org/1999/xhtml/vocab#next",
+          "name": "next",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "next"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1941,26 +2213,70 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "uri": "http://www.w3.org/1999/xhtml/vocab#prev",
-            "label-en": "prev",
+            "uri": "http://www.w3.org/1999/xhtml/vocab#next",
+            "label-en": "next",
             "definition-en": "NOTE$ea_notes=In some cases, it is necessary to be able to create an ordered sequence of\r\norganizations that precede and succeed each other. To support this, the CPOV\r\nincludes the well-known relationships of previous and next to allow such sequences\r\nto be captured and computed."
+          }
+        },
+        {
+          "uri": "http://www.iceg.be/Organization.hasMember",
+          "name": "hasMember",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has member"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Organization",
+              "uri": "http://www.w3.org/ns/org#Organization"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Person",
+              "range_uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://www.w3.org/ns/person#Person",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Person"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "Indicates that Person is a member of the Organization with no indication of the nature of that membership or the role played",
+            "label-en": "has member",
+            "uri": "http://www.iceg.be/Organization.hasMember"
           }
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#status",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "status",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "status"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1994,9 +2310,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#startDateOfThisData",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "startDateOfThisData",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "start date of this data"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2030,9 +2349,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#linksToDatabase",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "linksToDatabase",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "links to database"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2066,9 +2388,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#exOfficioStrikingOff",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "exOfficioStrikingOff",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "ex officio striking off"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2103,9 +2428,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicorganization#certification",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "certification",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "certification"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2139,9 +2467,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2177,9 +2508,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#OrganizationalUnit",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "OrganizationalUnit",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Organizational Unit"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [
@@ -2200,9 +2534,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/org#unitOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "unitOf",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "unit of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2219,47 +2556,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "definition-en": "NOTE$ea_notes=The properties hasUnit and unitOf are used to link to operational departments within an Organization that may not generally exist in their own right.",
-            "usageNote-en": "NOTE$ea_notes=Organizations typically comprise many departments, units, teams etc. Each of these\r\nis modelled in the CPOV as a unit that is linked from the parent Organization with\r\nhasUnit and to the parent with unitOf.",
-            "uri": "http://www.w3.org/ns/org#unitOf",
-            "label-en": "unit of"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#unitOf",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "OrganizationalUnit",
-              "uri": "http://www.w3.org/ns/org#OrganizationalUnit"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -2276,9 +2577,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Post",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Post",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Post"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2290,9 +2594,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/org#role",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "role",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "role"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2309,10 +2616,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Role",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Role",
               "range_label": {
-                "de": "Role"
+                "de": "Enter your translation here",
+                "en": "Role"
               }
             }
           ],
@@ -2326,9 +2634,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/org#postIn",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postIn",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "post in"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2345,46 +2656,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "uri": "http://www.w3.org/ns/org#postIn",
-            "definition-en": "Indicates the Organization whose post belongs to.",
-            "label-en": "post in"
-          }
-        },
-        {
-          "uri": "http://www.w3.org/ns/org#postIn",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Post",
-              "uri": "http://www.w3.org/ns/org#Post"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -2400,9 +2676,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Role",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Role",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Role"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2415,9 +2694,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Site",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Site",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Site"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2429,9 +2711,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "address",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2448,10 +2733,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Address",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/locn#Address",
               "range_label": {
-                "de": "Address"
+                "de": "Enter your translation here",
+                "en": "Address"
               }
             }
           ],
@@ -2468,9 +2754,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/person#Person",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Person",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Person"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [
@@ -2491,9 +2780,12 @@
       "properties": [
         {
           "uri": "https://www.w3.org/ns/org#holds",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "holds",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "holds"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2510,10 +2802,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Post",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Post",
               "range_label": {
-                "de": "Post"
+                "de": "Enter your translation here",
+                "en": "Post"
               }
             }
           ],
@@ -2527,9 +2820,12 @@
         },
         {
           "uri": "https://schema.org/memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "memberOf",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "member of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2546,10 +2842,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Organization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Organization",
               "range_label": {
-                "de": "Organization"
+                "de": "Enter your translation here",
+                "en": "Organization"
               }
             }
           ],
@@ -2563,9 +2860,12 @@
         },
         {
           "uri": "https://schema.org/deathDate",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dateOfDeath",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "date of death"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2599,9 +2899,12 @@
         },
         {
           "uri": "https://schema.org/birthDate",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dateOfBirth",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "date of birth"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2635,9 +2938,12 @@
         },
         {
           "uri": "https://dublincore.org/specifications/dublin-core/dcmi-terms/#identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2654,10 +2960,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Identifier",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/adms#Identifier",
               "range_label": {
-                "de": "Identifier"
+                "de": "Enter your translation here",
+                "en": "Identifier"
               }
             }
           ],
@@ -2671,9 +2978,12 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "title",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "title"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2707,9 +3017,12 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/name",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "fullName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "full name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2744,9 +3057,12 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/givenName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "givenName(forename)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "given name (forename)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2781,9 +3097,12 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/familyName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "familyName(surname)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "family name (surname)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2818,9 +3137,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#patronymicName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "patronymicName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "patronymic name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2855,9 +3177,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#birthName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "birthName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "birth name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2892,9 +3217,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "registeredAddress\r\n",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "registered address\r\n"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2911,10 +3239,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Address",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/locn#Address",
               "range_label": {
-                "de": "Address"
+                "de": "Enter your translation here",
+                "en": "Address"
               }
             }
           ],
@@ -2927,46 +3256,13 @@
           }
         },
         {
-          "uri": "https://schema.org/memberOf",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Person",
-              "uri": "http://www.w3.org/ns/person#Person"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Organization",
-              "range_uri": "http://www.w3.org/ns/org#Organization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Organization",
-              "range_puri": "http://www.w3.org/ns/org#Organization",
-              "range_label": {
-                "de": "Organization"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "member of",
-            "definition-en": "Indicates a Person who is a member of the subject Organization",
-            "uri": "https://schema.org/memberOf"
-          }
-        },
-        {
           "uri": "http://purl.org/dc/terms/alternative",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "alternativeName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "alternative name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3003,9 +3299,12 @@
     },
     {
       "uri": "https://schema.org/ContactPoint",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ContactPoint",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Contact Point"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3018,9 +3317,12 @@
       "properties": [
         {
           "uri": "https://schema.org/telephone",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasTelephone",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has telephone"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3054,9 +3356,12 @@
         },
         {
           "uri": "https://schema.org/openingHours",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "openingHours",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "opening hours"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3091,9 +3396,12 @@
         },
         {
           "uri": "https://schema.org/hoursAvailable",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "availabilityRestriction",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "availability restriction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3110,10 +3418,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#OpeningHoursSpecification",
+              "range_uri": "#Enter your translation here",
               "range_puri": "https://schema.org/OpeningHoursSpecification",
               "range_label": {
-                "de": "OpeningHoursSpecification"
+                "de": "Enter your translation here",
+                "en": "Opening Hours Specification"
               }
             }
           ],
@@ -3127,9 +3436,12 @@
         },
         {
           "uri": "https://schema.org/email",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasEmail",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has email"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3163,9 +3475,12 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/#term_page",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "page",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "page"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3201,9 +3516,12 @@
     },
     {
       "uri": "https://schema.org/ImageObject",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ImageObject",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Image Object"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3216,9 +3534,12 @@
     },
     {
       "uri": "https://schema.org/OpeningHoursSpecification",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "OpeningHoursSpecification",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Opening Hours Specification"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3231,9 +3552,12 @@
       "properties": [
         {
           "uri": "https://schema.org/validThrough",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validThrough",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "valid through"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3267,9 +3591,12 @@
         },
         {
           "uri": "https://schema.org/validFrom",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validFrom",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "valid from"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3303,9 +3630,12 @@
         },
         {
           "uri": "https://schema.org/dayOfWeek",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dayOfWeek",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "day of week"
+          },
           "description": {},
           "usage": {},
           "domain": [

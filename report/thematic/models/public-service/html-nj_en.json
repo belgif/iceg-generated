@@ -23,9 +23,11 @@
   "classes": [
     {
       "uri": "http://data.europa.eu/eli/ontology#LegalResource",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "LegalResource",
+      "label": {
+        "en": "Legal Resource"
+      },
+      "sort": "Legal Resource",
       "description": {},
       "usage": {},
       "parents": [],
@@ -38,9 +40,11 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/relation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "related",
+          "sort": "related",
+          "label": {
+            "en": "related"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -57,10 +61,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Legal Resource",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "en": "LegalResource"
+                "en": "Legal Resource"
               }
             }
           ],
@@ -76,9 +80,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/BusinessEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "BusinessEvent",
+      "label": {
+        "en": "Business Event"
+      },
+      "sort": "Business Event",
       "description": {},
       "usage": {},
       "parents": [
@@ -99,9 +105,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Channel",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Channel",
+      "label": {
+        "en": "Channel"
+      },
+      "sort": "Channel",
       "description": {},
       "usage": {},
       "parents": [],
@@ -113,9 +121,11 @@
       "properties": [
         {
           "uri": "https://schema.org/openingHours",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "openingHours",
+          "sort": "opening hours",
+          "label": {
+            "en": "opening hours"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -150,9 +160,11 @@
         },
         {
           "uri": "https://schema.org/hoursAvailable",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "availabilityRestriction",
+          "sort": "availability restriction",
+          "label": {
+            "en": "availability restriction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -169,10 +181,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#OpeningHoursSpecification",
+              "range_uri": "#Opening Hours Specification",
               "range_puri": "https://schema.org/OpeningHoursSpecification",
               "range_label": {
-                "en": "OpeningHoursSpecification"
+                "en": "Opening Hours Specification"
               }
             }
           ],
@@ -186,46 +198,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Channel",
-              "uri": "http://data.europa.eu/m8g/Channel"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Purpose",
-              "range_uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Purpose",
-              "range_puri": "http://vocab.belgif.be/ns/publicservice#Purpose",
-              "range_label": {
-                "en": "Purpose"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "has purpose",
-            "definition-en": "This property describes the relationship between a purpose and a channel. ",
-            "uri": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-            "usageNote-en": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ..."
-          }
-        },
-        {
-          "uri": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasPurpose",
+          "sort": "has purpose",
+          "label": {
+            "en": "has purpose"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -260,9 +237,11 @@
         },
         {
           "uri": "http://purl.org/vocab/cpsv#hasInput",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "viaChannel",
+          "sort": "via channel",
+          "label": {
+            "en": "via channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -296,9 +275,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -332,9 +313,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -365,14 +348,54 @@
             "label-en": "description",
             "uri": "http://purl.org/dc/terms/description"
           }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/ownedBy",
+          "name": "ownedBy",
+          "sort": "owned by",
+          "label": {
+            "en": "owned by"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Channel",
+              "uri": "http://data.europa.eu/m8g/Channel"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PublicOrganization",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Public Organization",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "en": "Public Organization"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "owned by",
+            "uri": "http://data.europa.eu/m8g/ownedBy",
+            "definition-en": "NOTE$ea_notes=This property indicates the owner of a specific Channel through which a Public Service is being delivered."
+          }
         }
       ]
     },
     {
       "uri": "http://data.europa.eu/m8g/Cost",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Cost",
+      "label": {
+        "en": "Cost"
+      },
+      "sort": "Cost",
       "description": {},
       "usage": {},
       "parents": [],
@@ -384,9 +407,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#costBreakdown",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "costBreakdown",
+          "sort": "cost breakdown",
+          "label": {
+            "en": "cost breakdown"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -421,9 +446,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -457,9 +484,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -493,9 +522,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/value",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "value",
+          "sort": "value",
+          "label": {
+            "en": "value"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -529,9 +560,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isDefinedBy",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isDefinedBy",
+          "sort": "is defined by",
+          "label": {
+            "en": "is defined by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -548,10 +581,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicOrganization",
+              "range_uri": "#Public Organization",
               "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
               "range_label": {
-                "en": "PublicOrganization"
+                "en": "Public Organization"
               }
             }
           ],
@@ -565,9 +598,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/ifAccessedThrough",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "ifAccessedThrough",
+          "sort": "if accessed through",
+          "label": {
+            "en": "if accessed through"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -601,9 +636,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/currency",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "currency",
+          "sort": "currency",
+          "label": {
+            "en": "currency"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -639,9 +676,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Event",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Event",
+      "label": {
+        "en": "Event"
+      },
+      "sort": "Event",
       "description": {},
       "usage": {},
       "parents": [],
@@ -653,9 +692,11 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/type",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "type",
+          "sort": "type",
+          "label": {
+            "en": "type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -689,9 +730,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -725,9 +768,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/relation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "relatedService",
+          "sort": "related service",
+          "label": {
+            "en": "related service"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -744,10 +789,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicService",
+              "range_uri": "#Public Service",
               "range_puri": "http://purl.org/vocab/cpsv#PublicService",
               "range_label": {
-                "en": "PublicService"
+                "en": "Public Service"
               }
             }
           ],
@@ -761,9 +806,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -797,9 +844,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -835,9 +884,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Evidence",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Evidence",
+      "label": {
+        "en": "Evidence"
+      },
+      "sort": "Evidence",
       "description": {},
       "usage": {},
       "parents": [],
@@ -850,9 +901,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL1",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "country",
+          "sort": "country",
+          "label": {
+            "en": "country"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -886,10 +939,50 @@
           }
         },
         {
+          "uri": "http://vocab.belgif.be/ns/publicservice#comesFrom",
+          "name": "comesFrom",
+          "sort": "comes from",
+          "label": {
+            "en": "comes from"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Evidence",
+              "uri": "http://data.europa.eu/m8g/Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Output",
+              "range_uri": "http://data.europa.eu/m8g/Output"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Output",
+              "range_puri": "http://data.europa.eu/m8g/Output",
+              "range_label": {
+                "en": "Output"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://vocab.belgif.be/ns/publicservice#comesFrom",
+            "label-en": "comes from",
+            "definition-en": "NOTE$ea_notes=This property describes the case where an Evidence is considered as one or multiple Output. \r\nThis property might be used when a Public Service consumes its own Output as Evidence."
+          }
+        },
+        {
           "uri": "http://purl.org/dc/terms/subject",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isAbout",
+          "sort": "is about",
+          "label": {
+            "en": "is about"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -923,9 +1016,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/publisher",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isIssuedBy",
+          "sort": "is issued by",
+          "label": {
+            "en": "is issued by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -959,9 +1054,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/provenance",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isProvidedBy",
+          "sort": "is provided by",
+          "label": {
+            "en": "is provided by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -995,9 +1092,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/language",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "language",
+          "sort": "language",
+          "label": {
+            "en": "language"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1031,9 +1130,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/creator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isCreatedBy",
+          "sort": "is created by",
+          "label": {
+            "en": "is created by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1067,45 +1168,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/supportsRequirement",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Evidence",
-              "uri": "http://data.europa.eu/m8g/Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://data.europa.eu/m8g/Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Requirement",
-              "range_puri": "http://data.europa.eu/m8g/Requirement",
-              "range_label": {
-                "en": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "supports Requirement",
-            "definition-en": "The Requirement for which the Evidence provides information (proof, support).",
-            "uri": "http://data.europa.eu/m8g/supportsRequirement"
-          }
-        },
-        {
-          "uri": "http://data.europa.eu/m8g/supportsRequirement",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "supportsRequirement",
+          "sort": "supports Requirement",
+          "label": {
+            "en": "supports Requirement"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1139,9 +1206,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/confidentialityLevelType",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "confidentialityLevelType",
+          "sort": "confidentiality level type",
+          "label": {
+            "en": "confidentiality level type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1177,9 +1246,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/LifeEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "LifeEvent",
+      "label": {
+        "en": "Life Event"
+      },
+      "sort": "Life Event",
       "description": {},
       "usage": {},
       "parents": [
@@ -1200,9 +1271,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Output",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Output",
+      "label": {
+        "en": "Output"
+      },
+      "sort": "Output",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1215,9 +1288,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#responseTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "responseTime",
+          "sort": "response time",
+          "label": {
+            "en": "response time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1251,9 +1326,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isUsedAs",
+          "sort": "is used as",
+          "label": {
+            "en": "is used as"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1287,9 +1364,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#isLegalResource",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isLegalResource",
+          "sort": "is legal resource",
+          "label": {
+            "en": "is legal resource"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1306,10 +1385,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Legal Resource",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "en": "LegalResource"
+                "en": "Legal Resource"
               }
             }
           ],
@@ -1323,9 +1402,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#isAbout",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isAbout",
+          "sort": "is about",
+          "label": {
+            "en": "is about"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1359,9 +1440,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasLegalResource",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasLegalResource",
+          "sort": "has legal resource",
+          "label": {
+            "en": "has legal resource"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1378,10 +1461,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Legal Resource",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "en": "LegalResource"
+                "en": "Legal Resource"
               }
             }
           ],
@@ -1394,46 +1477,12 @@
           }
         },
         {
-          "uri": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Output",
-              "uri": "http://data.europa.eu/m8g/Output"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Evidence",
-              "range_uri": "http://data.europa.eu/m8g/Evidence"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Evidence",
-              "range_puri": "http://data.europa.eu/m8g/Evidence",
-              "range_label": {
-                "en": "Evidence"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "is used as",
-            "uri": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
-            "definition-en": "NOTE$ea_notes=This property describes the case where an Output is considered as one or multiple Evidence. \r\nThis property might be used when a Public Service consumes its own Output as Evidence."
-          }
-        },
-        {
           "uri": "http://purl.org/dc/terms/type",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "type",
+          "sort": "type",
+          "label": {
+            "en": "type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1467,9 +1516,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1503,9 +1554,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1539,9 +1592,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1577,9 +1632,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Participation",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Participation",
+      "label": {
+        "en": "Participation"
+      },
+      "sort": "Participation",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1591,9 +1648,11 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1627,9 +1686,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1663,9 +1724,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/role",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "role",
+          "sort": "role",
+          "label": {
+            "en": "role"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1701,9 +1764,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/PublicOrganisation",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicOrganization",
+      "label": {
+        "en": "Public Organization"
+      },
+      "sort": "Public Organization",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1716,9 +1781,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/org#hasSite",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasSite",
+          "sort": "has site",
+          "label": {
+            "en": "has site"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1752,9 +1819,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#legalForm",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "legalForm",
+          "sort": "legal form",
+          "label": {
+            "en": "legal form"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1788,45 +1857,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "PublicOrganization",
-              "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Channel",
-              "range_uri": "http://data.europa.eu/m8g/Channel"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Channel",
-              "range_puri": "http://data.europa.eu/m8g/Channel",
-              "range_label": {
-                "en": "Channel"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "has channel",
-            "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
-            "definition-en": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-          }
-        },
-        {
-          "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasChannel",
+          "sort": "has channel",
+          "label": {
+            "en": "has channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1862,9 +1897,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/PublicServiceDataset",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicServiceDataset",
+      "label": {
+        "en": "Public Service Dataset"
+      },
+      "sort": "Public Service Dataset",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1876,9 +1913,11 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "title",
+          "sort": "title",
+          "label": {
+            "en": "title"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1913,9 +1952,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/publisher",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "publisher",
+          "sort": "publisher",
+          "label": {
+            "en": "publisher"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1949,9 +1990,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1985,9 +2028,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2023,9 +2068,11 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Requirement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Requirement",
+      "label": {
+        "en": "Requirement"
+      },
+      "sort": "Requirement",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2038,9 +2085,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2074,9 +2123,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/publisher",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isIssuedBy",
+          "sort": "is issued by",
+          "label": {
+            "en": "is issued by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2110,9 +2161,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2146,9 +2199,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2182,9 +2237,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isRequirementOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isRequirementOf",
+          "sort": "is requirement of",
+          "label": {
+            "en": "is requirement of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2219,9 +2276,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isDerivedFrom",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isDerivedFrom",
+          "sort": "is derived from",
+          "label": {
+            "en": "is derived from"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2238,10 +2297,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Legal Resource",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "en": "LegalResource"
+                "en": "Legal Resource"
               }
             }
           ],
@@ -2254,10 +2313,50 @@
           }
         },
         {
-          "uri": "http://data.europa.eu/m8g/isRequirementOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://data.europa.eu/m8g/hasSupportingEvidence",
+          "name": "hasSupportingEvidence",
+          "sort": "has Supporting Evidence",
+          "label": {
+            "en": "has Supporting Evidence"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Evidence",
+              "range_uri": "http://data.europa.eu/m8g/Evidence"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Evidence",
+              "range_puri": "http://data.europa.eu/m8g/Evidence",
+              "range_label": {
+                "en": "Evidence"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "The Evidence that supplies information (proof, support) for this Requirement.",
+            "uri": "http://data.europa.eu/m8g/hasSupportingEvidence",
+            "label-en": "has Supporting Evidence"
+          }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/hasRequirement",
+          "name": "hasRequirement",
+          "sort": "has requirement",
+          "label": {
+            "en": "has requirement"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2284,17 +2383,18 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "definition-en": "A reference between a sub-Requirement and its parent, more general, Requirement.",
-            "usageNote-en": "Inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
-            "uri": "http://data.europa.eu/m8g/isRequirementOf",
-            "label-en": "is requirement of"
+            "uri": "http://data.europa.eu/m8g/hasRequirement",
+            "label-en": "has requirement",
+            "definition-en": "A sub-Requirement."
           }
         },
         {
           "uri": "http://data.europa.eu/m8g/hasQualifiedRelation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasQualifiedRelation",
+          "sort": "has qualified relation",
+          "label": {
+            "en": "has qualified relation"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2330,9 +2430,11 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#PublicService",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicService",
+      "label": {
+        "en": "Public Service"
+      },
+      "sort": "Public Service",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2345,9 +2447,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/dcat#keyword",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "keyword",
+          "sort": "keyword",
+          "label": {
+            "en": "keyword"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2381,9 +2485,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/adms#status",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "status",
+          "sort": "status",
+          "label": {
+            "en": "status"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2417,9 +2523,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#lifecycleStatus",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "lifecycleStatus",
+          "sort": "lifecycle status",
+          "label": {
+            "en": "lifecycle status"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2453,9 +2561,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasRequirement",
+          "sort": "has requirement",
+          "label": {
+            "en": "has requirement"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2489,9 +2599,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasPreferredChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasPreferredChannel",
+          "sort": "has preferred channel",
+          "label": {
+            "en": "has preferred channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2526,9 +2638,11 @@
         },
         {
           "uri": "http://purl.org/vocab/cpsv#produces",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "produces",
+          "sort": "produces",
+          "label": {
+            "en": "produces"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2562,9 +2676,11 @@
         },
         {
           "uri": "http://purl.org/vocab/cpsv#follows",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "follows",
+          "sort": "follows",
+          "label": {
+            "en": "follows"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2598,9 +2714,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2634,9 +2752,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/spatial",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "spatial",
+          "sort": "spatial",
+          "label": {
+            "en": "spatial"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2671,9 +2791,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/requires",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "requires",
+          "sort": "requires",
+          "label": {
+            "en": "requires"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2690,10 +2812,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicService",
+              "range_uri": "#Public Service",
               "range_puri": "http://purl.org/vocab/cpsv#PublicService",
               "range_label": {
-                "en": "PublicService"
+                "en": "Public Service"
               }
             }
           ],
@@ -2707,9 +2829,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/relation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "related",
+          "sort": "related",
+          "label": {
+            "en": "related"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2726,10 +2850,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicService",
+              "range_uri": "#Public Service",
               "range_puri": "http://purl.org/vocab/cpsv#PublicService",
               "range_label": {
-                "en": "PublicService"
+                "en": "Public Service"
               }
             }
           ],
@@ -2744,9 +2868,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/language",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "language",
+          "sort": "language",
+          "label": {
+            "en": "language"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2780,9 +2906,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2816,9 +2944,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2852,9 +2982,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/thematicArea",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "thematicArea",
+          "sort": "thematic area",
+          "label": {
+            "en": "thematic area"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2888,9 +3020,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/sector",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "sector",
+          "sort": "sector",
+          "label": {
+            "en": "sector"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2924,9 +3058,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/processingTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "processingTime",
+          "sort": "processing time",
+          "label": {
+            "en": "processing time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2960,9 +3096,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isGroupedBy",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isGroupedBy",
+          "sort": "is grouped by",
+          "label": {
+            "en": "is grouped by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2996,9 +3134,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isDescribedAt",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isDescribedAt",
+          "sort": "is described at",
+          "label": {
+            "en": "is described at"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3015,10 +3155,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicServiceDataset",
+              "range_uri": "#Public Service Dataset",
               "range_puri": "http://data.europa.eu/m8g/PublicServiceDataset",
               "range_label": {
-                "en": "PublicServiceDataset"
+                "en": "Public Service Dataset"
               }
             }
           ],
@@ -3032,9 +3172,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isClassifiedBy",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isClassifiedBy",
+          "sort": "is classified by",
+          "label": {
+            "en": "is classified by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3068,9 +3210,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasParticipation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasParticipation",
+          "sort": "has participation",
+          "label": {
+            "en": "has participation"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3104,9 +3248,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasLegalResource",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasLegalResource",
+          "sort": "has legal resource",
+          "label": {
+            "en": "has legal resource"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3123,10 +3269,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Legal Resource",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "en": "LegalResource"
+                "en": "Legal Resource"
               }
             }
           ],
@@ -3140,9 +3286,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasCost",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasCost",
+          "sort": "has cost",
+          "label": {
+            "en": "has cost"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3176,9 +3324,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasContactPoint",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasContactPoint",
+          "sort": "has contact point",
+          "label": {
+            "en": "has contact point"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3195,10 +3345,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ContactPoint",
+              "range_uri": "#Contact Point",
               "range_puri": "https://schema.org/ContactPoint",
               "range_label": {
-                "en": "ContactPoint"
+                "en": "Contact Point"
               }
             }
           ],
@@ -3212,9 +3362,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasCompetentAuthority",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasCompetentAuthority",
+          "sort": "has competent authority",
+          "label": {
+            "en": "has competent authority"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3231,10 +3383,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicOrganization",
+              "range_uri": "#Public Organization",
               "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
               "range_label": {
-                "en": "PublicOrganization"
+                "en": "Public Organization"
               }
             }
           ],
@@ -3248,9 +3400,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasChannel",
+          "sort": "has channel",
+          "label": {
+            "en": "has channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3286,9 +3440,11 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#Rule",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Rule",
+      "label": {
+        "en": "Rule"
+      },
+      "sort": "Rule",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3300,9 +3456,11 @@
       "properties": [
         {
           "uri": "http://purl.org/vocab/cpsv#implements",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "implements",
+          "sort": "implements",
+          "label": {
+            "en": "implements"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3319,10 +3477,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Legal Resource",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "en": "LegalResource"
+                "en": "Legal Resource"
               }
             }
           ],
@@ -3336,9 +3494,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3372,9 +3532,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/language",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "language",
+          "sort": "language",
+          "label": {
+            "en": "language"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3408,9 +3570,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3444,9 +3608,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "description",
+          "label": {
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3482,9 +3648,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/publicservice#Purpose",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Purpose",
+      "label": {
+        "en": "Purpose"
+      },
+      "sort": "Purpose",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3494,13 +3662,55 @@
         "usageNote-en": "This class has been added because different channels serve different purposes : information, activation of the service, assistance, appeal, \r\n\r\nMore specifically:\r\n\r\nEach channel could serve several purposes.\r\n \r\nEach purpose can have one or more preferred channels, and one or more \"deprecated\" channels (ex. you can introduce you tax declaration in paper but you're not encouraged to do so)",
         "uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
       },
-      "properties": []
+      "properties": [
+        {
+          "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+          "name": "hasChannel",
+          "sort": "has channel",
+          "label": {
+            "en": "has channel"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Purpose",
+              "uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Channel",
+              "range_uri": "http://data.europa.eu/m8g/Channel"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Channel",
+              "range_puri": "http://data.europa.eu/m8g/Channel",
+              "range_label": {
+                "en": "Channel"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "usageNote-en": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ...",
+            "label-en": "has channel",
+            "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+            "definition-en": "This property describes the relationship between a purpose and a channel. "
+          }
+        }
+      ]
     },
     {
       "uri": "http://www.w3.org/2004/02/skos/core#Collection",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Collection",
+      "label": {
+        "en": "Collection"
+      },
+      "sort": "Collection",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3512,9 +3722,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/2004/02/skos/core#member",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "member",
+          "sort": "member",
+          "label": {
+            "en": "member"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3550,9 +3762,11 @@
     },
     {
       "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Concept",
+      "label": {
+        "en": "Concept"
+      },
+      "sort": "Concept",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3564,9 +3778,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#classification",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "classification",
+          "sort": "classification",
+          "label": {
+            "en": "classification"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3604,9 +3820,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Address",
+      "label": {
+        "en": "Address"
+      },
+      "sort": "Address",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3619,9 +3837,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#thoroughfare",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "thoroughfare",
+          "sort": "thoroughfare",
+          "label": {
+            "en": "thoroughfare"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3656,9 +3876,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postName(city)",
+          "sort": "post name (city)",
+          "label": {
+            "en": "post name (city)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3692,9 +3914,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postCode",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postCode",
+          "sort": "post code",
+          "label": {
+            "en": "post code"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3729,9 +3953,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#poBox",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postOfficeBox",
+          "sort": "post office box",
+          "label": {
+            "en": "post office box"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3766,9 +3992,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorName",
+          "sort": "locator name",
+          "label": {
+            "en": "locator name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3803,9 +4031,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorDesignator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorDesignator",
+          "sort": "locator designator",
+          "label": {
+            "en": "locator designator"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3840,9 +4070,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#fullAddress",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "fullAddress",
+          "sort": "full address",
+          "label": {
+            "en": "full address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3877,9 +4109,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL2",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel2(country/region/state)",
+          "sort": "administrative unit level 2 (country/region/state)",
+          "label": {
+            "en": "administrative unit level 2 (country/region/state)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3914,9 +4148,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL1",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel1(country)",
+          "sort": "administrative unit level 1 (country)",
+          "label": {
+            "en": "administrative unit level 1 (country)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3951,9 +4187,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressId",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressId",
+          "sort": "address ID",
+          "label": {
+            "en": "address ID"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3988,9 +4226,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressArea",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressArea",
+          "sort": "address area",
+          "label": {
+            "en": "address area"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4027,9 +4267,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Site",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Site",
+      "label": {
+        "en": "Site"
+      },
+      "sort": "Site",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4041,9 +4283,11 @@
       "properties": [
         {
           "uri": "http://w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "address",
+          "sort": "address",
+          "label": {
+            "en": "address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4080,9 +4324,11 @@
     },
     {
       "uri": "http://xmlns.com/foaf/0.1/Agent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Agent",
+      "label": {
+        "en": "Agent"
+      },
+      "sort": "Agent",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4094,9 +4340,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasAddress",
+          "sort": "has address",
+          "label": {
+            "en": "has address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4130,9 +4378,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "name",
+          "label": {
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4166,9 +4416,11 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4202,9 +4454,11 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/playsRole",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "playsRole",
+          "sort": "plays role",
+          "label": {
+            "en": "plays role"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4240,9 +4494,11 @@
     },
     {
       "uri": "http://xmlns.com/foaf/0.1/Group",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Group",
+      "label": {
+        "en": "Group"
+      },
+      "sort": "Group",
       "description": {},
       "usage": {},
       "parents": [
@@ -4262,9 +4518,11 @@
       "properties": [
         {
           "uri": "http://xmlns.com/foaf/0.1/member",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "member",
+          "sort": "member",
+          "label": {
+            "en": "member"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4300,9 +4558,11 @@
     },
     {
       "uri": "https://schema.org/ContactPoint",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ContactPoint",
+      "label": {
+        "en": "Contact Point"
+      },
+      "sort": "Contact Point",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4314,9 +4574,11 @@
       "properties": [
         {
           "uri": "https://schema.org/telephone",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasTelephone",
+          "sort": "has telephone",
+          "label": {
+            "en": "has telephone"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4350,9 +4612,11 @@
         },
         {
           "uri": "https://schema.org/openingHours",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "openingHours",
+          "sort": "opening hours",
+          "label": {
+            "en": "opening hours"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4387,9 +4651,11 @@
         },
         {
           "uri": "https://schema.org/hoursAvailable",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "availabilityRestriction",
+          "sort": "availability restriction",
+          "label": {
+            "en": "availability restriction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4406,10 +4672,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#OpeningHoursSpecification",
+              "range_uri": "#Opening Hours Specification",
               "range_puri": "https://schema.org/OpeningHoursSpecification",
               "range_label": {
-                "en": "OpeningHoursSpecification"
+                "en": "Opening Hours Specification"
               }
             }
           ],
@@ -4423,9 +4689,11 @@
         },
         {
           "uri": "https://schema.org/email",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasEmail",
+          "sort": "has email",
+          "label": {
+            "en": "has email"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4459,9 +4727,11 @@
         },
         {
           "uri": "https://schema.org/WebSite",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "website",
+          "sort": "website",
+          "label": {
+            "en": "website"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4497,9 +4767,11 @@
     },
     {
       "uri": "https://schema.org/OpeningHoursSpecification",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "OpeningHoursSpecification",
+      "label": {
+        "en": "Opening Hours Specification"
+      },
+      "sort": "Opening Hours Specification",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4512,9 +4784,11 @@
       "properties": [
         {
           "uri": "https://schema.org/validThrough",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validThrough",
+          "sort": "valid through",
+          "label": {
+            "en": "valid through"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4548,9 +4822,11 @@
         },
         {
           "uri": "https://schema.org/validFrom",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validFrom",
+          "sort": "valid from",
+          "label": {
+            "en": "valid from"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4584,9 +4860,11 @@
         },
         {
           "uri": "https://schema.org/dayOfWeek",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dayOfWeek",
+          "sort": "day of week",
+          "label": {
+            "en": "day of week"
+          },
           "description": {},
           "usage": {},
           "domain": [

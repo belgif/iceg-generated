@@ -168,14 +168,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "valid through"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "valid through"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "validThrough",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -236,14 +242,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "valid from"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "valid from"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "validFrom",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -304,14 +316,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "has telephone"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has telephone"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasTelephone",
       "range": [
         {
           "EA-Name": "Literal",
@@ -378,14 +396,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "opening hours"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "opening hours"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "openingHours",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -452,14 +476,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "opening hours"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "opening hours"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "openingHours",
       "range": [
         {
           "EA-Name": "Literal",
@@ -540,15 +570,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "availabilityRestriction",
-        "label": "",
+        "label": {
+          "en": "availability restriction"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "availability restriction"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "availabilityRestriction",
       "range": [
         {
           "EA-GUID": "{721B11C7-A1B2-43a7-AA41-6E02D6CBBB21}",
@@ -630,15 +666,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "availabilityRestriction",
-        "label": "",
+        "label": {
+          "en": "availability restriction"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "availability restriction"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "availabilityRestriction",
       "range": [
         {
           "EA-GUID": "{721B11C7-A1B2-43a7-AA41-6E02D6CBBB21}",
@@ -700,14 +742,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "has email"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has email"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasEmail",
       "range": [
         {
           "EA-Name": "Literal",
@@ -768,14 +816,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "day of week"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "day of week"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "dayOfWeek",
       "range": [
         {
           "EA-Name": "URI",
@@ -837,14 +891,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "website"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "website"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "website",
       "range": [
         {
           "EA-GUID": "{EC900F3F-E118-481a-A65D-A68A38FF69B3}",
@@ -926,15 +986,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "member",
-        "label": "",
+        "label": {
+          "en": "member"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "member"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "member",
       "range": [
         {
           "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
@@ -1016,15 +1082,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasSite",
-        "label": "",
+        "label": {
+          "en": "has site"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has site"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "hasSite",
       "range": [
         {
           "EA-GUID": "{5CB444A2-393C-45bd-9153-B63F32C49054}",
@@ -1092,14 +1164,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "thoroughfare"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "thoroughfare"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "thoroughfare",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -1162,14 +1240,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "post name (city)"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "post name (city)"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "postName(city)",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -1236,14 +1320,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "post code"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "post code"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "postCode",
       "range": [
         {
           "EA-Name": "String",
@@ -1309,14 +1399,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "post office box"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "post office box"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "postOfficeBox",
       "range": [
         {
           "EA-Name": "String",
@@ -1383,14 +1479,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "locator name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "locator name"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "locatorName",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -1457,14 +1559,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "locator designator"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "locator designator"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "locatorDesignator",
       "range": [
         {
           "EA-Name": "String",
@@ -1531,14 +1639,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "full address"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "full address"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "fullAddress",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -1606,89 +1720,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "administrative unit level 2 (country/region/state)"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "administrative unit level 2 (country/region/state)"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
-          "EA-Name": "Text",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.w3.org/ns/locn#adminUnitL1",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{EFCE2B24-F154-487f-BDC4-0C162CA80935}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Address",
-          "uri": "http://www.w3.org/ns/locn#Address"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Address",
-        "EA-Domain-Guid": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
-        "EA-Guid": "{EFCE2B24-F154-487f-BDC4-0C162CA80935}",
-        "EA-Name": "adminUnitL1",
-        "EA-Package": "Core Location",
-        "EA-Range": "Text",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
-          "EA-Name": "Text",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-        },
-        "RawTags": [
-          {
-            "key": "usageNote-en",
-            "note": "Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'France' or 'FRA' consistently throughout the dataset and avoid mixing the two. The <a href=\"http://publications.europa.eu/resource/dataset/country\">Country controlled vocabulary</a> from the Publications Office can be reused for this.",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/ns/locn#adminUnitL1"
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "administrative unit level 1 (country)"
-          },
-          {
-            "key": "definition-en",
-            "note": "The name or names of a unit of administration where a Member State has and/or exercises jurisdictional rights, for local, regional and national governance. Level 1 refers to the uppermost administrative unit for the address, almost always a country.",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "label": "",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "",
+      "name": "administrativeUnitLevel2(country/region/state)",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -1756,20 +1801,107 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "country"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "country"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "country",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
           "EA-Name": "Code",
           "EA-Package": "DataTypes",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.w3.org/ns/locn#adminUnitL1",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{EFCE2B24-F154-487f-BDC4-0C162CA80935}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Address",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Address",
+        "EA-Domain-Guid": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
+        "EA-Guid": "{EFCE2B24-F154-487f-BDC4-0C162CA80935}",
+        "EA-Name": "adminUnitL1",
+        "EA-Package": "Core Location",
+        "EA-Range": "Text",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Name": "Text",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "RawTags": [
+          {
+            "key": "usageNote-en",
+            "note": "Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'France' or 'FRA' consistently throughout the dataset and avoid mixing the two. The <a href=\"http://publications.europa.eu/resource/dataset/country\">Country controlled vocabulary</a> from the Publications Office can be reused for this.",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#adminUnitL1"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "administrative unit level 1 (country)"
+          },
+          {
+            "key": "definition-en",
+            "note": "The name or names of a unit of administration where a Member State has and/or exercises jurisdictional rights, for local, regional and national governance. Level 1 refers to the uppermost administrative unit for the address, almost always a country.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "label": {
+          "en": "administrative unit level 1 (country)"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "administrative unit level 1 (country)"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "administrativeUnitLevel1(country)",
+      "range": [
+        {
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Name": "Text",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         }
       ]
     },
@@ -1830,14 +1962,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "address ID"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "address ID"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "addressId",
       "range": [
         {
           "EA-Name": "String",
@@ -1904,14 +2042,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "address area"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "address area"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "addressArea",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -1993,15 +2137,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasAdress",
-        "label": "",
+        "label": {
+          "en": "has address"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has address"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasAddress",
       "range": [
         {
           "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
@@ -2064,14 +2214,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "keyword"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "keyword"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "keyword",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -2134,14 +2290,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "status"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "status"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "status",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -2204,14 +2366,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "name"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "name",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -2293,15 +2461,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "member",
-        "label": "",
+        "label": {
+          "en": "member"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "member"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "member",
       "range": [
         {
           "EA-GUID": "{DD4F46BC-20F9-4af9-8C20-DD47AA3ABD7A}",
@@ -2393,15 +2567,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "address",
-        "label": "",
+        "label": {
+          "en": "address"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "address"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "address",
       "range": [
         {
           "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
@@ -2463,14 +2643,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "response time"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "response time"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "responseTime",
       "range": [
         {
           "EA-Name": "Duration",
@@ -2532,14 +2718,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "lifecycle status"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "lifecycle status"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "lifecycleStatus",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -2602,14 +2794,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "legal form"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "legal form"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "legalForm",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -2691,15 +2889,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isUsedAs",
-        "label": "",
+        "label": {
+          "en": "is used as"
+        },
         "sourceRole": "comesFrom",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is used as"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isUsedAs",
       "range": [
         {
           "EA-GUID": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
@@ -2781,15 +2985,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isLegalResource",
-        "label": "",
+        "label": {
+          "en": "is legal resource"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is legal resource"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isLegalResource",
       "range": [
         {
           "EA-GUID": "{40B93801-41E5-41e7-8189-E830062C1134}",
@@ -2871,15 +3081,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isAbout",
-        "label": "",
+        "label": {
+          "en": "is about"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is about"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isAbout",
       "range": [
         {
           "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
@@ -2961,15 +3177,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasRequirement",
-        "label": "",
+        "label": {
+          "en": "has requirement"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has requirement"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasRequirement",
       "range": [
         {
           "EA-GUID": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
@@ -3061,15 +3283,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasPurpose",
-        "label": "",
+        "label": {
+          "en": "has purpose"
+        },
         "sourceRole": "hasChannel",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has purpose"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasPurpose",
       "range": [
         {
           "EA-GUID": "{BBB9949B-6AFA-4dbf-B8B0-6FE35C0B3EF9}",
@@ -3161,15 +3389,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasPreferredChannel",
-        "label": "",
+        "label": {
+          "en": "has preferred channel"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has preferred channel"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasPreferredChannel",
       "range": [
         {
           "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
@@ -3251,15 +3485,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasLegalResource",
-        "label": "",
+        "label": {
+          "en": "has legal resource"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has legal resource"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasLegalResource",
       "range": [
         {
           "EA-GUID": "{40B93801-41E5-41e7-8189-E830062C1134}",
@@ -3341,15 +3581,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasChannel",
-        "label": "",
+        "label": {
+          "en": "has channel"
+        },
         "sourceRole": "ownedBy",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has channel"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasChannel",
       "range": [
         {
           "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
@@ -3360,7 +3606,7 @@
       ]
     },
     {
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasChannel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{4E5B590A-D806-4c2e-A9B5-C0A21D2E1954}",
       "ap-definition-nl": {
@@ -3369,65 +3615,65 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Channel",
-          "uri": "http://data.europa.eu/m8g/Channel"
+          "EA-Name": "Purpose",
+          "uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
+            "key": "usageNote-en",
+            "note": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ...",
+            "value": "NOTE"
+          },
+          {
             "key": "label-en",
-            "note": "has purpose",
+            "note": "has channel",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/publicservice#hasChannel",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
             "note": "This property describes the relationship between a purpose and a channel. ",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-            "value": "NOTE"
-          },
-          {
-            "key": "usageNote-en",
-            "note": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ...",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Channel",
-        "EA-Domain-Guid": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
+        "EA-Domain": "Purpose",
+        "EA-Domain-Guid": "{BBB9949B-6AFA-4dbf-B8B0-6FE35C0B3EF9}",
         "EA-Guid": "{4E5B590A-D806-4c2e-A9B5-C0A21D2E1954}",
-        "EA-Name": "hasPurpose",
+        "EA-Name": "hasChannel",
         "EA-Package": "",
-        "EA-Range": "Purpose",
+        "EA-Range": "Channel",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{BBB9949B-6AFA-4dbf-B8B0-6FE35C0B3EF9}",
-          "EA-Name": "Purpose",
-          "EA-Package": "ISA Core Vocabularies",
-          "uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
+          "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
+          "EA-Name": "Channel",
+          "EA-Package": "cpsv",
+          "uri": "http://data.europa.eu/m8g/Channel"
         },
         "RawTags": [
           {
+            "key": "usageNote-en",
+            "note": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ...",
+            "value": "NOTE"
+          },
+          {
             "key": "label-en",
-            "note": "has purpose",
+            "note": "has channel",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/publicservice#hasChannel",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
             "note": "This property describes the relationship between a purpose and a channel. ",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-            "value": "NOTE"
-          },
-          {
-            "key": "usageNote-en",
-            "note": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ...",
             "value": "NOTE"
           }
         ],
@@ -3440,22 +3686,28 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "hasPurpose",
-        "label": "",
-        "sourceRole": "hasChannel",
+        "destRole": "hasChannel",
+        "label": {
+          "en": "has channel"
+        },
+        "sourceRole": "hasPurpose",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has channel"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasChannel",
       "range": [
         {
-          "EA-GUID": "{BBB9949B-6AFA-4dbf-B8B0-6FE35C0B3EF9}",
-          "EA-Name": "Purpose",
-          "EA-Package": "ISA Core Vocabularies",
-          "uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
+          "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
+          "EA-Name": "Channel",
+          "EA-Package": "cpsv",
+          "uri": "http://data.europa.eu/m8g/Channel"
         }
       ]
     },
@@ -3517,14 +3769,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "cost breakdown"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "cost breakdown"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "costBreakdown",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -3535,7 +3793,7 @@
       ]
     },
     {
-      "@id": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
+      "@id": "http://vocab.belgif.be/ns/publicservice#comesFrom",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{F017EE3A-50BA-49ca-8D97-697B40CCC7DA}",
       "ap-definition-nl": {
@@ -3544,55 +3802,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Output",
-          "uri": "http://data.europa.eu/m8g/Output"
+          "EA-Name": "Evidence",
+          "uri": "http://data.europa.eu/m8g/Evidence"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
-            "key": "label-en",
-            "note": "is used as",
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/publicservice#comesFrom",
             "value": "NOTE"
           },
           {
-            "key": "uri",
-            "note": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
+            "key": "label-en",
+            "note": "comes from",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=This property describes the case where an Output is considered as one or multiple Evidence. \r\nThis property might be used when a Public Service consumes its own Output as Evidence.",
+            "note": "NOTE$ea_notes=This property describes the case where an Evidence is considered as one or multiple Output. \r\nThis property might be used when a Public Service consumes its own Output as Evidence.",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Output",
-        "EA-Domain-Guid": "{A6159426-31DC-49d9-8334-8B84AFE562E3}",
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
         "EA-Guid": "{F017EE3A-50BA-49ca-8D97-697B40CCC7DA}",
-        "EA-Name": "isUsedAs",
+        "EA-Name": "comesFrom",
         "EA-Package": "",
-        "EA-Range": "Evidence",
+        "EA-Range": "Output",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
-          "EA-Name": "Evidence",
-          "EA-Package": "cccev",
-          "uri": "http://data.europa.eu/m8g/Evidence"
+          "EA-GUID": "{A6159426-31DC-49d9-8334-8B84AFE562E3}",
+          "EA-Name": "Output",
+          "EA-Package": "cv",
+          "uri": "http://data.europa.eu/m8g/Output"
         },
         "RawTags": [
           {
-            "key": "label-en",
-            "note": "is used as",
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/publicservice#comesFrom",
             "value": "NOTE"
           },
           {
-            "key": "uri",
-            "note": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
+            "key": "label-en",
+            "note": "comes from",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=This property describes the case where an Output is considered as one or multiple Evidence. \r\nThis property might be used when a Public Service consumes its own Output as Evidence.",
+            "note": "NOTE$ea_notes=This property describes the case where an Evidence is considered as one or multiple Output. \r\nThis property might be used when a Public Service consumes its own Output as Evidence.",
             "value": "NOTE"
           }
         ],
@@ -3605,22 +3863,28 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "isUsedAs",
-        "label": "",
-        "sourceRole": "comesFrom",
+        "destRole": "comesFrom",
+        "label": {
+          "en": "comes from"
+        },
+        "sourceRole": "isUsedAs",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "comes from"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "comesFrom",
       "range": [
         {
-          "EA-GUID": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
-          "EA-Name": "Evidence",
-          "EA-Package": "cccev",
-          "uri": "http://data.europa.eu/m8g/Evidence"
+          "EA-GUID": "{A6159426-31DC-49d9-8334-8B84AFE562E3}",
+          "EA-Name": "Output",
+          "EA-Package": "cv",
+          "uri": "http://data.europa.eu/m8g/Output"
         }
       ]
     },
@@ -3687,14 +3951,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "classification"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "classification"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "classification",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -3776,15 +4046,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "produces",
-        "label": "",
+        "label": {
+          "en": "produces"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "produces"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "produces",
       "range": [
         {
           "EA-GUID": "{A6159426-31DC-49d9-8334-8B84AFE562E3}",
@@ -3850,15 +4126,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "null",
-        "label": "",
+        "label": {
+          "en": "implements"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "implements"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "implements",
       "range": [
         {
           "EA-GUID": "{40B93801-41E5-41e7-8189-E830062C1134}",
@@ -3940,15 +4222,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "viaChannel",
-        "label": "",
+        "label": {
+          "en": "via channel"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "via channel"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "viaChannel",
       "range": [
         {
           "EA-GUID": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
@@ -4030,15 +4318,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "follows",
-        "label": "",
+        "label": {
+          "en": "follows"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "follows"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "follows",
       "range": [
         {
           "EA-GUID": "{22EC3510-EA42-4ed6-8440-5AFAC32063F6}",
@@ -4101,14 +4395,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "type"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "type"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "type",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -4171,20 +4471,107 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "type"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "type"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "type",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
           "EA-Name": "Code",
           "EA-Package": "DataTypes",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/title",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{620119BC-1F82-407e-8C2E-4D4DAF79A509}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "PublicServiceDataset",
+          "uri": "http://data.europa.eu/m8g/PublicServiceDataset"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "PublicServiceDataset",
+        "EA-Domain-Guid": "{4C40BA3A-6C08-4950-8EE2-E9CE8073C616}",
+        "EA-Guid": "{620119BC-1F82-407e-8C2E-4D4DAF79A509}",
+        "EA-Name": "title",
+        "EA-Package": "cpsv",
+        "EA-Range": "Text",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Name": "Text",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "note": "This property contains a name given to the\r\nDataset. This property can be repeated for\r\nparallel language versions of the name.",
+            "value": "This property contains a name given to the Dataset."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/title"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "This property can be repeated for parallel language versions of the name."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "title"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "label": {
+          "en": "title"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "title"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "1",
+      "name": "title",
+      "range": [
+        {
+          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
+          "EA-Name": "Text",
+          "EA-Package": "DataTypes",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         }
       ]
     },
@@ -4241,14 +4628,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "name"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "name",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -4311,14 +4704,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "name"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "name",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -4381,14 +4780,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "name"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "name",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -4451,89 +4856,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "name"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
-          "EA-Name": "Text",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/title",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{620119BC-1F82-407e-8C2E-4D4DAF79A509}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "PublicServiceDataset",
-          "uri": "http://data.europa.eu/m8g/PublicServiceDataset"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "PublicServiceDataset",
-        "EA-Domain-Guid": "{4C40BA3A-6C08-4950-8EE2-E9CE8073C616}",
-        "EA-Guid": "{620119BC-1F82-407e-8C2E-4D4DAF79A509}",
-        "EA-Name": "title",
-        "EA-Package": "cpsv",
-        "EA-Range": "Text",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
-          "EA-Name": "Text",
-          "EA-Package": "DataTypes",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-        },
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "note": "This property contains a name given to the\r\nDataset. This property can be repeated for\r\nparallel language versions of the name.",
-            "value": "This property contains a name given to the Dataset."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/title"
-          },
-          {
-            "key": "usageNote-en",
-            "note": "null",
-            "value": "This property can be repeated for parallel language versions of the name."
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "title"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "label": "",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "*",
-      "minCardinality": "1",
-      "name": "",
+      "name": "name",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -4596,14 +4932,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "name"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "name",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -4685,15 +5027,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isAbout",
-        "label": "",
+        "label": {
+          "en": "is about"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is about"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isAbout",
       "range": [
         {
           "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
@@ -4761,14 +5109,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "spatial"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "spatial"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "spatial",
       "range": [
         {
           "EA-GUID": "{4EA28AE6-3F77-48f9-B6BA-3CA6BB12FC9B}",
@@ -4850,15 +5204,117 @@
         "definition": "",
         "derived": "false",
         "destRole": "requires",
-        "label": "",
+        "label": {
+          "en": "requires"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "requires"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "requires",
+      "range": [
+        {
+          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
+          "EA-Name": "PublicService",
+          "EA-Package": "cpsv",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/relation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{58D1DA3E-E7B4-4eb0-8DB4-3960AF4FB6CF}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Event",
+          "uri": "http://data.europa.eu/m8g/Event"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/relation",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "This property links an event directly to a public service that is related to it.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "related service",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Event",
+        "EA-Domain-Guid": "{D2847FDB-E27B-4057-BF05-089A5CE08EF3}",
+        "EA-Guid": "{58D1DA3E-E7B4-4eb0-8DB4-3960AF4FB6CF}",
+        "EA-Name": "relatedService",
+        "EA-Package": "",
+        "EA-Range": "PublicService",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
+          "EA-Name": "PublicService",
+          "EA-Package": "cpsv",
+          "uri": "http://purl.org/vocab/cpsv#PublicService"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/relation",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "This property links an event directly to a public service that is related to it.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "related service",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "relatedService",
+        "label": {
+          "en": "related service"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "related service"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "relatedService",
       "range": [
         {
           "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
@@ -4950,15 +5406,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "related",
-        "label": "",
+        "label": {
+          "en": "related"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "related"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "related",
       "range": [
         {
           "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
@@ -5040,111 +5502,27 @@
         "definition": "",
         "derived": "false",
         "destRole": "related",
-        "label": "",
+        "label": {
+          "en": "related"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "related"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "related",
       "range": [
         {
           "EA-GUID": "{40B93801-41E5-41e7-8189-E830062C1134}",
           "EA-Name": "LegalResource",
           "EA-Package": "eli",
           "uri": "http://data.europa.eu/eli/ontology#LegalResource"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/relation",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{58D1DA3E-E7B4-4eb0-8DB4-3960AF4FB6CF}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Event",
-          "uri": "http://data.europa.eu/m8g/Event"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/relation",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "This property links an event directly to a public service that is related to it.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "related service",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Event",
-        "EA-Domain-Guid": "{D2847FDB-E27B-4057-BF05-089A5CE08EF3}",
-        "EA-Guid": "{58D1DA3E-E7B4-4eb0-8DB4-3960AF4FB6CF}",
-        "EA-Name": "relatedService",
-        "EA-Package": "",
-        "EA-Range": "PublicService",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-          "EA-Name": "PublicService",
-          "EA-Package": "cpsv",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/relation",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "This property links an event directly to a public service that is related to it.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "related service",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "derived": "false",
-        "destRole": "relatedService",
-        "label": "",
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{3E6701B2-3846-4b67-99C0-43CFA04AE6DB}",
-          "EA-Name": "PublicService",
-          "EA-Package": "cpsv",
-          "uri": "http://purl.org/vocab/cpsv#PublicService"
         }
       ]
     },
@@ -5220,105 +5598,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "publisher",
-        "label": "",
+        "label": {
+          "en": "publisher"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "publisher"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
-          "EA-Name": "Agent",
-          "EA-Package": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/Agent"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/publisher",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{390E7EB8-9BE8-434b-9473-A54E29674610}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Evidence",
-          "uri": "http://data.europa.eu/m8g/Evidence"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "definition-en",
-            "note": "The legal authority responsible for an Evidence.",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/publisher",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "is issued by",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
-        "EA-Guid": "{390E7EB8-9BE8-434b-9473-A54E29674610}",
-        "EA-Name": "isIssuedBy",
-        "EA-Package": "",
-        "EA-Range": "Agent",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
-          "EA-Name": "Agent",
-          "EA-Package": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/Agent"
-        },
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "note": "The legal authority responsible for an Evidence.",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://purl.org/dc/terms/publisher",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "is issued by",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "derived": "false",
-        "destRole": "isIssuedBy",
-        "label": "",
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "UNKNOWN",
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "",
+      "name": "publisher",
       "range": [
         {
           "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
@@ -5400,15 +5694,117 @@
         "definition": "",
         "derived": "false",
         "destRole": "isIssuedBy",
-        "label": "",
+        "label": {
+          "en": "is issued by"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is issued by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isIssuedBy",
+      "range": [
+        {
+          "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
+          "EA-Name": "Agent",
+          "EA-Package": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/Agent"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/publisher",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{390E7EB8-9BE8-434b-9473-A54E29674610}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Evidence",
+          "uri": "http://data.europa.eu/m8g/Evidence"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "definition-en",
+            "note": "The legal authority responsible for an Evidence.",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/publisher",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "is issued by",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Evidence",
+        "EA-Domain-Guid": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
+        "EA-Guid": "{390E7EB8-9BE8-434b-9473-A54E29674610}",
+        "EA-Name": "isIssuedBy",
+        "EA-Package": "",
+        "EA-Range": "Agent",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
+          "EA-Name": "Agent",
+          "EA-Package": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/Agent"
+        },
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "note": "The legal authority responsible for an Evidence.",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://purl.org/dc/terms/publisher",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "is issued by",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "isIssuedBy",
+        "label": {
+          "en": "is issued by"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is issued by"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "isIssuedBy",
       "range": [
         {
           "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
@@ -5490,15 +5886,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isProvidedBy",
-        "label": "",
+        "label": {
+          "en": "is provided by"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is provided by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isProvidedBy",
       "range": [
         {
           "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
@@ -5561,14 +5963,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "language"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "language"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "language",
       "range": [
         {
           "EA-GUID": "{B124ABA3-1C85-4805-BF70-6ABB74762831}",
@@ -5631,14 +6039,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "language"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "language"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "language",
       "range": [
         {
           "EA-GUID": "{B124ABA3-1C85-4805-BF70-6ABB74762831}",
@@ -5701,14 +6115,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "language"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "language"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "language",
       "range": [
         {
           "EA-GUID": "{B124ABA3-1C85-4805-BF70-6ABB74762831}",
@@ -5771,14 +6191,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -5841,14 +6267,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -5911,14 +6343,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -5981,14 +6419,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6051,14 +6495,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -6121,14 +6571,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6191,14 +6647,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -6261,14 +6723,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -6331,14 +6799,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -6401,14 +6875,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{8F052CF7-7A20-444a-A565-2CC6A2DFFF58}",
@@ -6471,14 +6951,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6541,14 +7027,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6611,14 +7103,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6681,14 +7179,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6751,14 +7255,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6821,14 +7331,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6891,14 +7407,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -6961,14 +7483,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -7031,14 +7559,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "description"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "description",
       "range": [
         {
           "EA-GUID": "{E4045FE6-F5D2-4c3f-881E-800F8C9AF85E}",
@@ -7120,15 +7654,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isCreatedBy",
-        "label": "",
+        "label": {
+          "en": "is created by"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is created by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isCreatedBy",
       "range": [
         {
           "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
@@ -7190,14 +7730,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "value"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "value"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "value",
       "range": [
         {
           "EA-Name": "Double",
@@ -7259,14 +7805,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "thematic area"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "thematic area"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "thematicArea",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -7348,15 +7900,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "supportsRequirement",
-        "label": "",
+        "label": {
+          "en": "supports Requirement"
+        },
         "sourceRole": "hasSupportingEvidence",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "supports Requirement"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "supportsRequirement",
       "range": [
         {
           "EA-GUID": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
@@ -7419,14 +7977,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "sector"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "sector"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "sector",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -7489,14 +8053,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "role"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "role"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "role",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -7558,14 +8128,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "processing time"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "processing time"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "processingTime",
       "range": [
         {
           "EA-Name": "Duration",
@@ -7646,15 +8222,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "playsRole",
-        "label": "",
+        "label": {
+          "en": "plays role"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "plays role"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "playsRole",
       "range": [
         {
           "EA-GUID": "{BDC210FC-7313-4aa8-8731-605BDB52137F}",
@@ -7665,7 +8247,7 @@
       ]
     },
     {
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+      "@id": "http://data.europa.eu/m8g/ownedBy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{7D6E26C3-92E9-46e9-AEC5-7A27802D85AD}",
       "ap-definition-nl": {
@@ -7674,55 +8256,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "PublicOrganization",
-          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
+          "EA-Name": "Channel",
+          "uri": "http://data.europa.eu/m8g/Channel"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
             "key": "label-en",
-            "note": "has channel",
+            "note": "owned by",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+            "note": "http://data.europa.eu/m8g/ownedBy",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service.",
+            "note": "NOTE$ea_notes=This property indicates the owner of a specific Channel through which a Public Service is being delivered.",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "PublicOrganization",
-        "EA-Domain-Guid": "{FD2FE27D-2842-467d-A825-12FAF150DE73}",
+        "EA-Domain": "Channel",
+        "EA-Domain-Guid": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
         "EA-Guid": "{7D6E26C3-92E9-46e9-AEC5-7A27802D85AD}",
-        "EA-Name": "hasChannel",
+        "EA-Name": "ownedBy",
         "EA-Package": "",
-        "EA-Range": "Channel",
+        "EA-Range": "PublicOrganization",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
-          "EA-Name": "Channel",
-          "EA-Package": "cpsv",
-          "uri": "http://data.europa.eu/m8g/Channel"
+          "EA-GUID": "{FD2FE27D-2842-467d-A825-12FAF150DE73}",
+          "EA-Name": "PublicOrganization",
+          "EA-Package": "cpov",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
         },
         "RawTags": [
           {
             "key": "label-en",
-            "note": "has channel",
+            "note": "owned by",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+            "note": "http://data.europa.eu/m8g/ownedBy",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service.",
+            "note": "NOTE$ea_notes=This property indicates the owner of a specific Channel through which a Public Service is being delivered.",
             "value": "NOTE"
           }
         ],
@@ -7735,22 +8317,28 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "hasChannel",
-        "label": "",
-        "sourceRole": "ownedBy",
+        "destRole": "ownedBy",
+        "label": {
+          "en": "owned by"
+        },
+        "sourceRole": "hasChannel",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "owned by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "ownedBy",
       "range": [
         {
-          "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
-          "EA-Name": "Channel",
-          "EA-Package": "cpsv",
-          "uri": "http://data.europa.eu/m8g/Channel"
+          "EA-GUID": "{FD2FE27D-2842-467d-A825-12FAF150DE73}",
+          "EA-Name": "PublicOrganization",
+          "EA-Package": "cpov",
+          "uri": "http://data.europa.eu/m8g/PublicOrganisation"
         }
       ]
     },
@@ -7836,15 +8424,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isRequirementOf",
-        "label": "",
+        "label": {
+          "en": "is requirement of"
+        },
         "sourceRole": "hasRequirement",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is requirement of"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isRequirementOf",
       "range": [
         {
           "EA-GUID": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
@@ -7926,15 +8520,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isGroupedBy",
-        "label": "",
+        "label": {
+          "en": "is grouped by"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is grouped by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isGroupedBy",
       "range": [
         {
           "EA-GUID": "{D2847FDB-E27B-4057-BF05-089A5CE08EF3}",
@@ -8016,15 +8616,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isDescribedAt",
-        "label": "",
+        "label": {
+          "en": "is described at"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is described at"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isDescribedAt",
       "range": [
         {
           "EA-GUID": "{4C40BA3A-6C08-4950-8EE2-E9CE8073C616}",
@@ -8106,15 +8712,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "is derived from",
-        "label": "",
+        "label": {
+          "en": "is derived from"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is derived from"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isDerivedFrom",
       "range": [
         {
           "EA-GUID": "{40B93801-41E5-41e7-8189-E830062C1134}",
@@ -8196,15 +8808,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isDefinedBy",
-        "label": "",
+        "label": {
+          "en": "is defined by"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is defined by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isDefinedBy",
       "range": [
         {
           "EA-GUID": "{FD2FE27D-2842-467d-A825-12FAF150DE73}",
@@ -8286,15 +8904,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "isClassifiedBy",
-        "label": "",
+        "label": {
+          "en": "is classified by"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "is classified by"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "isClassifiedBy",
       "range": [
         {
           "EA-GUID": "{DD4F46BC-20F9-4af9-8C20-DD47AA3ABD7A}",
@@ -8376,15 +9000,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "ifAccessedThrough",
-        "label": "",
+        "label": {
+          "en": "if accessed through"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "if accessed through"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "ifAccessedThrough",
       "range": [
         {
           "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
@@ -8395,7 +9025,7 @@
       ]
     },
     {
-      "@id": "http://data.europa.eu/m8g/supportsRequirement",
+      "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{9930792E-5EEE-4bfb-97B3-535E79DC8FC2}",
       "ap-definition-nl": {
@@ -8404,55 +9034,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Evidence",
-          "uri": "http://data.europa.eu/m8g/Evidence"
+          "EA-Name": "Requirement",
+          "uri": "http://data.europa.eu/m8g/Requirement"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
-            "key": "label-en",
-            "note": "supports Requirement",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
-            "note": "The Requirement for which the Evidence provides information (proof, support).",
+            "note": "The Evidence that supplies information (proof, support) for this Requirement.",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "http://data.europa.eu/m8g/supportsRequirement",
+            "note": "http://data.europa.eu/m8g/hasSupportingEvidence",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "has Supporting Evidence",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Evidence",
-        "EA-Domain-Guid": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
+        "EA-Domain": "Requirement",
+        "EA-Domain-Guid": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
         "EA-Guid": "{9930792E-5EEE-4bfb-97B3-535E79DC8FC2}",
-        "EA-Name": "supportsRequirement",
+        "EA-Name": "hasSupportingEvidence",
         "EA-Package": "",
-        "EA-Range": "Requirement",
+        "EA-Range": "Evidence",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
-          "EA-Name": "Requirement",
+          "EA-GUID": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
+          "EA-Name": "Evidence",
           "EA-Package": "cccev",
-          "uri": "http://data.europa.eu/m8g/Requirement"
+          "uri": "http://data.europa.eu/m8g/Evidence"
         },
         "RawTags": [
           {
-            "key": "label-en",
-            "note": "supports Requirement",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-en",
-            "note": "The Requirement for which the Evidence provides information (proof, support).",
+            "note": "The Evidence that supplies information (proof, support) for this Requirement.",
             "value": "NOTE"
           },
           {
             "key": "uri",
-            "note": "http://data.europa.eu/m8g/supportsRequirement",
+            "note": "http://data.europa.eu/m8g/hasSupportingEvidence",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "has Supporting Evidence",
             "value": "NOTE"
           }
         ],
@@ -8465,27 +9095,33 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "supportsRequirement",
-        "label": "",
-        "sourceRole": "hasSupportingEvidence",
+        "destRole": "hasSupportingEvidence",
+        "label": {
+          "en": "has Supporting Evidence"
+        },
+        "sourceRole": "supportsRequirement",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has Supporting Evidence"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasSupportingEvidence",
       "range": [
         {
-          "EA-GUID": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
-          "EA-Name": "Requirement",
+          "EA-GUID": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
+          "EA-Name": "Evidence",
           "EA-Package": "cccev",
-          "uri": "http://data.europa.eu/m8g/Requirement"
+          "uri": "http://data.europa.eu/m8g/Evidence"
         }
       ]
     },
     {
-      "@id": "http://data.europa.eu/m8g/isRequirementOf",
+      "@id": "http://data.europa.eu/m8g/hasRequirement",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{D53AFF09-F4F0-46a5-8113-26C481464C23}",
       "ap-definition-nl": {
@@ -8501,30 +9137,30 @@
       "extra": {
         "DestRoleTags": [
           {
-            "key": "definition-en",
-            "note": "A reference between a sub-Requirement and its parent, more general, Requirement.",
-            "value": "NOTE"
-          },
-          {
-            "key": "usageNote-en",
-            "note": "Inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
-            "value": "NOTE"
-          },
-          {
             "key": "uri",
-            "note": "http://data.europa.eu/m8g/isRequirementOf",
+            "note": "http://data.europa.eu/m8g/hasRequirement",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "is requirement of",
+            "note": "has requirement",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://data.europa.eu/m8g/hasRequirement",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "A sub-Requirement.",
             "value": "NOTE"
           }
         ],
         "EA-Domain": "Requirement",
         "EA-Domain-Guid": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
         "EA-Guid": "{D53AFF09-F4F0-46a5-8113-26C481464C23}",
-        "EA-Name": "isRequirementOf",
+        "EA-Name": "hasRequirement",
         "EA-Package": "",
         "EA-Range": "Requirement",
         "EA-Type": "connector",
@@ -8536,23 +9172,23 @@
         },
         "RawTags": [
           {
-            "key": "definition-en",
-            "note": "A reference between a sub-Requirement and its parent, more general, Requirement.",
-            "value": "NOTE"
-          },
-          {
-            "key": "usageNote-en",
-            "note": "Inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
-            "value": "NOTE"
-          },
-          {
             "key": "uri",
-            "note": "http://data.europa.eu/m8g/isRequirementOf",
+            "note": "http://data.europa.eu/m8g/hasRequirement",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "is requirement of",
+            "note": "has requirement",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://data.europa.eu/m8g/hasRequirement",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "A sub-Requirement.",
             "value": "NOTE"
           }
         ],
@@ -8565,16 +9201,22 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "isRequirementOf",
-        "label": "",
-        "sourceRole": "hasRequirement",
+        "destRole": "hasRequirement",
+        "label": {
+          "en": "has requirement"
+        },
+        "sourceRole": "isRequirementOf",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has requirement"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasRequirement",
       "range": [
         {
           "EA-GUID": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
@@ -8656,15 +9298,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasQualifiedRelation",
-        "label": "",
+        "label": {
+          "en": "has qualified relation"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has qualified relation"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasQualifiedRelation",
       "range": [
         {
           "EA-GUID": "{EFF3F185-7B5E-4ca0-B12A-A9263F809A11}",
@@ -8746,15 +9394,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasParticipation",
-        "label": "",
+        "label": {
+          "en": "has participation"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has participation"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasParticipation",
       "range": [
         {
           "EA-GUID": "{BDC210FC-7313-4aa8-8731-605BDB52137F}",
@@ -8836,15 +9490,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasLegalResource",
-        "label": "",
+        "label": {
+          "en": "has legal resource"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has legal resource"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasLegalResource",
       "range": [
         {
           "EA-GUID": "{40B93801-41E5-41e7-8189-E830062C1134}",
@@ -8926,15 +9586,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasCost",
-        "label": "",
+        "label": {
+          "en": "has cost"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has cost"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasCost",
       "range": [
         {
           "EA-GUID": "{F5796CF3-62ED-4d1d-A2A0-496F9F339946}",
@@ -9016,15 +9682,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasContactPoint",
-        "label": "",
+        "label": {
+          "en": "has contact point"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has contact point"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasContactPoint",
       "range": [
         {
           "EA-GUID": "{AE45F87E-BA1C-4ceb-84AF-69B2FB800CD5}",
@@ -9106,15 +9778,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasCompetentAuthority",
-        "label": "",
+        "label": {
+          "en": "has competent authority"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "UNKNOWN",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has competent authority"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "hasCompetentAuthority",
       "range": [
         {
           "EA-GUID": "{FD2FE27D-2842-467d-A825-12FAF150DE73}",
@@ -9196,15 +9874,21 @@
         "definition": "",
         "derived": "false",
         "destRole": "hasChannel",
-        "label": "",
+        "label": {
+          "en": "has channel"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "has channel"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "hasChannel",
       "range": [
         {
           "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
@@ -9267,14 +9951,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "currency"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "currency"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "currency",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -9337,14 +10027,20 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "confidentiality level type"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "confidentiality level type"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "confidentialityLevelType",
       "range": [
         {
           "EA-GUID": "{C819F639-92F4-4235-BE20-2252B3AAC098}",
@@ -9400,12 +10096,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Legal Resource"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Legal Resource"
+      },
+      "name": "LegalResource"
     },
     {
       "@id": "http://data.europa.eu/m8g/BusinessEvent",
@@ -9421,7 +10123,7 @@
         "EA-Parents": "Event",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Event",
             "name": "Event",
             "package": "cpsv",
             "uri": "http://data.europa.eu/m8g/Event"
@@ -9453,12 +10155,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Business Event"
+        },
         "parentclasses": "http://data.europa.eu/m8g/Event",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Business Event"
+      },
+      "name": "BusinessEvent"
     },
     {
       "@id": "http://data.europa.eu/m8g/Channel",
@@ -9499,12 +10207,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Channel"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Channel"
+      },
+      "name": "Channel"
     },
     {
       "@id": "http://data.europa.eu/m8g/Cost",
@@ -9545,12 +10259,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Cost"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Cost"
+      },
+      "name": "Cost"
     },
     {
       "@id": "http://data.europa.eu/m8g/Event",
@@ -9591,12 +10311,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Event"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Event"
+      },
+      "name": "Event"
     },
     {
       "@id": "http://data.europa.eu/m8g/Evidence",
@@ -9642,12 +10368,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Evidence"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Evidence"
+      },
+      "name": "Evidence"
     },
     {
       "@id": "http://data.europa.eu/m8g/LifeEvent",
@@ -9663,7 +10395,7 @@
         "EA-Parents": "Event",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Event",
             "name": "Event",
             "package": "cpsv",
             "uri": "http://data.europa.eu/m8g/Event"
@@ -9695,12 +10427,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Life Event"
+        },
         "parentclasses": "http://data.europa.eu/m8g/Event",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Life Event"
+      },
+      "name": "LifeEvent"
     },
     {
       "@id": "http://data.europa.eu/m8g/Output",
@@ -9746,12 +10484,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Output"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Output"
+      },
+      "name": "Output"
     },
     {
       "@id": "http://data.europa.eu/m8g/Participation",
@@ -9792,12 +10536,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Participation"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Participation"
+      },
+      "name": "Participation"
     },
     {
       "@id": "http://data.europa.eu/m8g/PublicOrganisation",
@@ -9843,12 +10593,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Public Organization"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Organization"
+      },
+      "name": "PublicOrganization"
     },
     {
       "@id": "http://data.europa.eu/m8g/PublicServiceDataset",
@@ -9889,12 +10645,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Public Service Dataset"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Service Dataset"
+      },
+      "name": "PublicServiceDataset"
     },
     {
       "@id": "http://data.europa.eu/m8g/Requirement",
@@ -9940,12 +10702,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Requirement"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Requirement"
+      },
+      "name": "Requirement"
     },
     {
       "@id": "http://purl.org/vocab/cpsv#PublicService",
@@ -9991,12 +10759,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Public Service"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Service"
+      },
+      "name": "PublicService"
     },
     {
       "@id": "http://purl.org/vocab/cpsv#Rule",
@@ -10037,12 +10811,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Rule"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Rule"
+      },
+      "name": "Rule"
     },
     {
       "@id": "http://vocab.belgif.be/ns/publicservice#Purpose",
@@ -10088,12 +10868,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Purpose"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Purpose"
+      },
+      "name": "Purpose"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Collection",
@@ -10134,12 +10920,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Collection"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Collection"
+      },
+      "name": "Collection"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -10180,12 +10972,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Concept"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Concept"
+      },
+      "name": "Concept"
     },
     {
       "@id": "http://www.w3.org/ns/locn#Address",
@@ -10231,12 +11029,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Address"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Address"
+      },
+      "name": "Address"
     },
     {
       "@id": "http://www.w3.org/ns/org#Site",
@@ -10277,12 +11081,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Site"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Site"
+      },
+      "name": "Site"
     },
     {
       "@id": "http://xmlns.com/foaf/0.1/Agent",
@@ -10323,12 +11133,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Agent"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Agent"
+      },
+      "name": "Agent"
     },
     {
       "@id": "http://xmlns.com/foaf/0.1/Group",
@@ -10344,7 +11160,7 @@
         "EA-Parents": "Agent",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Agent",
             "name": "Agent",
             "package": "foaf",
             "uri": "http://xmlns.com/foaf/0.1/Agent"
@@ -10376,12 +11192,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Group"
+        },
         "parentclasses": "http://xmlns.com/foaf/0.1/Agent",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Group"
+      },
+      "name": "Group"
     },
     {
       "@id": "https://schema.org/ContactPoint",
@@ -10422,12 +11244,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Contact Point"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Contact Point"
+      },
+      "name": "ContactPoint"
     },
     {
       "@id": "https://schema.org/OpeningHoursSpecification",
@@ -10473,12 +11301,18 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Opening Hours Specification"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Opening Hours Specification"
+      },
+      "name": "OpeningHoursSpecification"
     }
   ],
   "extra": {
@@ -10515,7 +11349,7 @@
   "standaardregisterurl": "TODO",
   "template": "iceg-public-service_de.j2",
   "title": "Public Service",
-  "toolchaincommit": "f71364141ba810e2bc5191afcaaf7f8016452eff",
+  "toolchaincommit": "efab23d701fc79878b385458ea340dbc77e14ada",
   "translation": [
     {
       "language": "en",

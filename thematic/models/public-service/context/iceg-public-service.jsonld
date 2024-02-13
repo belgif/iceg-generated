@@ -70,6 +70,11 @@
       "@id": "http://data.europa.eu/m8g/hasLegalResource",
       "@type": "@id"
     },
+    "PublicService.hasRequirement": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
+      "@type": "@id"
+    },
     "PublicService.name": {
       "@container": "@set",
       "@id": "http://purl.org/dc/terms/title",
@@ -77,7 +82,17 @@
     },
     "PublicServiceDataset": "http://data.europa.eu/m8g/PublicServiceDataset",
     "Purpose": "http://vocab.belgif.be/ns/publicservice#Purpose",
+    "Purpose.hasChannel": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+      "@type": "@id"
+    },
     "Requirement": "http://data.europa.eu/m8g/Requirement",
+    "Requirement.hasRequirement": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/hasRequirement",
+      "@type": "@id"
+    },
     "Requirement.name": {
       "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
@@ -114,6 +129,11 @@
     },
     "classification": {
       "@id": "http://vocab.belgif.be/ns/publicservice#classification",
+      "@type": "@id"
+    },
+    "comesFrom": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/publicservice#comesFrom",
       "@type": "@id"
     },
     "confidenceLevelType": {
@@ -192,14 +212,14 @@
       "@id": "http://data.europa.eu/m8g/hasQualifiedRelation",
       "@type": "@id"
     },
-    "hasRequirement": {
-      "@container": "@set",
-      "@id": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-      "@type": "@id"
-    },
     "hasSite": {
       "@container": "@set",
       "@id": "http://www.w3.org/ns/org#hasSite",
+      "@type": "@id"
+    },
+    "hasSupportingEvidence": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/hasSupportingEvidence",
       "@type": "@id"
     },
     "hasTelephone": {
@@ -302,6 +322,11 @@
     },
     "openingHours": {
       "@id": "https://schema.org/openingHours"
+    },
+    "ownedBy": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/ownedBy",
+      "@type": "@id"
     },
     "playsRole": {
       "@container": "@set",

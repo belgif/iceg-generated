@@ -116,12 +116,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Building"
+      },
+      "name": "Building",
       "parents": []
     },
     {
@@ -163,12 +168,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building geometry"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Building geometry"
+      },
+      "name": "BuildingGeometry",
       "parents": []
     },
     {
@@ -185,7 +195,7 @@
         "EA-Parents": "BuildingGeometry",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Building geometry",
             "name": "BuildingGeometry",
             "package": "ICEG-Building",
             "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry"
@@ -222,12 +232,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building geometry 3D LoD"
+        },
         "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Building geometry 3D LoD"
+      },
+      "name": "BuildingGeometry3dLod",
       "parents": [
         "http://vocab.belgif.be/ns/building#BuildingGeometry"
       ]
@@ -246,7 +261,7 @@
         "EA-Parents": "BuildingGeometry3DLoD",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Building geometry 3D LoD",
             "name": "BuildingGeometry3DLoD",
             "package": "ICEG-Building",
             "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
@@ -278,12 +293,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building geometry 3D LoD1"
+        },
         "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Building geometry 3D LoD1"
+      },
+      "name": "BuildingGeometry3dLod1",
       "parents": [
         "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
       ]
@@ -302,7 +322,7 @@
         "EA-Parents": "BuildingGeometry3DLoD",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Building geometry 3D LoD",
             "name": "BuildingGeometry3DLoD",
             "package": "ICEG-Building",
             "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
@@ -339,12 +359,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building geometry 3D LoD2"
+        },
         "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Building geometry 3D LoD2"
+      },
+      "name": "BuildingGeometry3dLod2",
       "parents": [
         "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
       ]
@@ -363,7 +388,7 @@
         "EA-Parents": "BuildingGeometry3DLoD",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Building geometry 3D LoD",
             "name": "BuildingGeometry3DLoD",
             "package": "ICEG-Building",
             "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
@@ -390,12 +415,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building geometry 3D LoD3"
+        },
         "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Building geometry 3D LoD3"
+      },
+      "name": "BuildingGeometry3dLod3",
       "parents": [
         "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
       ]
@@ -414,7 +444,7 @@
         "EA-Parents": "BuildingGeometry3DLoD",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Building geometry 3D LoD",
             "name": "BuildingGeometry3DLoD",
             "package": "ICEG-Building",
             "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
@@ -441,12 +471,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building geometry 3D LoD4"
+        },
         "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Building geometry 3D LoD4"
+      },
+      "name": "BuildingGeometry3dLod4",
       "parents": [
         "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
       ]
@@ -506,16 +541,16 @@
           "nl": "De kleinste eenheid binnen een gebouw die geschikt is voor woon-, bedrijfsmatige, of recreatieve doeleinden en die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde circulatieruimte. Een gebouweenheid is in functioneel opzicht zelfstandig. Daarnaast kan een gebouweenheid ook een gemeenschappelijk deel zijn."
         },
         "label": {
-          "nl": "Gebouweenheid"
+          "en": "Building unit"
         },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "Gebouweenheid"
+        "en": "Building unit"
       },
-      "name": "Gebouweenheid",
+      "name": "BuildingUnit",
       "parents": []
     },
     {
@@ -552,12 +587,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Cadastral parcel"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Cadastral parcel"
+      },
+      "name": "CadastralParcel",
       "parents": []
     },
     {
@@ -594,12 +634,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Current use"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Current use"
+      },
+      "name": "CurrentUse",
       "parents": []
     },
     {
@@ -641,12 +686,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Date of event"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Date of event"
+      },
+      "name": "DateOfEvent",
       "parents": []
     },
     {
@@ -688,12 +738,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Elevation"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Elevation"
+      },
+      "name": "Elevation",
       "parents": []
     },
     {
@@ -735,12 +790,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Entrance location"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Entrance location"
+      },
+      "name": "EntranceLocation",
       "parents": []
     },
     {
@@ -777,12 +837,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "External reference"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "External reference"
+      },
+      "name": "ExternalReference",
       "parents": []
     },
     {
@@ -824,12 +889,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Geographical name"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Geographical name"
+      },
+      "name": "GeographicalName",
       "parents": []
     },
     {
@@ -866,12 +936,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Height above ground"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Height above ground"
+      },
+      "name": "HeightAboveGround",
       "parents": []
     },
     {
@@ -913,12 +988,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "ICEG-Unit"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "ICEG-Unit"
+      },
+      "name": "Iceg-unit",
       "parents": []
     },
     {
@@ -960,12 +1040,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Interior installation"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Interior installation"
+      },
+      "name": "InteriorInstallation",
       "parents": []
     },
     {
@@ -1002,12 +1087,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Lang code"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Lang code"
+      },
+      "name": "LangCode",
       "parents": []
     },
     {
@@ -1044,12 +1134,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Structured identificator"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "name": "",
+      "label": {
+        "en": "Structured identificator"
+      },
+      "name": "StructuredIdentificator",
       "parents": []
     }
   ],
@@ -1445,14 +1540,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "address"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "address"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "address",
       "range": [
         {
           "EA-GUID": "{BAD63A44-40DA-45f2-9A59-B024FC442BDF}",
@@ -1515,14 +1615,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "address"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "address"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "address",
       "range": [
         {
           "EA-GUID": "{BAD63A44-40DA-45f2-9A59-B024FC442BDF}",
@@ -1584,14 +1689,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "value"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "value"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "value",
       "range": [
         {
           "EA-Name": "Double",
@@ -1684,7 +1794,7 @@
           "nl": "Straatnaam vh adres."
         },
         "label": {
-          "nl": "straatnaam"
+          "en": "streetname"
         },
         "usage": {
           "nl": " "
@@ -1693,11 +1803,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "straatnaam"
+        "en": "streetname"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "straatnaam",
+      "name": "streetname",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -1794,7 +1904,7 @@
           "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
         },
         "label": {
-          "nl": "postnaam"
+          "en": "post name"
         },
         "usage": {
           "nl": " "
@@ -1803,11 +1913,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "postnaam"
+        "en": "post name"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "postnaam",
+      "name": "postName",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -1903,7 +2013,7 @@
           "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
         },
         "label": {
-          "nl": "postcode"
+          "en": "postalcode"
         },
         "usage": {
           "nl": " "
@@ -1912,11 +2022,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "postcode"
+        "en": "postalcode"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "postcode",
+      "name": "postalcode",
       "range": [
         {
           "EA-Name": "String",
@@ -2011,7 +2121,7 @@
           "nl": "Postbusnummer in een postkantoor."
         },
         "label": {
-          "nl": "postbus"
+          "en": "po box"
         },
         "usage": {
           "nl": " "
@@ -2020,11 +2130,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "postbus"
+        "en": "po box"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "postbus",
+      "name": "poBox",
       "range": [
         {
           "EA-Name": "String",
@@ -2120,7 +2230,7 @@
           "nl": "Naam of omschrijving vh het geografisch object dat de adreslocator aanduidt."
         },
         "label": {
-          "nl": "locatienaam"
+          "en": "location name"
         },
         "usage": {
           "nl": " "
@@ -2129,11 +2239,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "locatienaam"
+        "en": "location name"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "locatienaam",
+      "name": "locationName",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -2229,7 +2339,7 @@
           "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
         },
         "label": {
-          "nl": "locatieaanduiding"
+          "en": "locator designator"
         },
         "usage": {
           "nl": " "
@@ -2238,11 +2348,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "locatieaanduiding"
+        "en": "locator designator"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "locatieaanduiding",
+      "name": "locatorDesignator",
       "range": [
         {
           "EA-Name": "String",
@@ -2253,6 +2363,81 @@
       "usage": {
         "nl": " "
       }
+    },
+    {
+      "@id": "http://www.w3.org/ns/locn#geometry",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{A812147A-F451-457f-BB14-E80A32F29C66}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "InteriorInstallation",
+          "uri": "http://vocab.belgif.be/ns/building#InteriorInstallation"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "InteriorInstallation",
+        "EA-Domain-Guid": "{9FAB4D87-62A2-4edc-8A69-B6FCD6BBFC39}",
+        "EA-Guid": "{A812147A-F451-457f-BB14-E80A32F29C66}",
+        "EA-Name": "geometry3D",
+        "EA-Package": "ICEG-Building",
+        "EA-Range": "Geometry",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
+          "EA-Name": "Geometry",
+          "EA-Package": "OpenGIS",
+          "uri": "http://www.w3.org/ns/locn#Geometry"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "geometry 3D"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "3D geometric representation of the internal installation."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/locn#geometry"
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "label": {
+          "en": "geometry 3D"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "geometry 3D"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "geometry3d",
+      "range": [
+        {
+          "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
+          "EA-Name": "Geometry",
+          "EA-Package": "OpenGIS",
+          "uri": "http://www.w3.org/ns/locn#Geometry"
+        }
+      ]
     },
     {
       "@id": "http://www.w3.org/ns/locn#geometry",
@@ -2312,14 +2497,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "geometry"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "geometry"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "geometry",
       "range": [
         {
           "EA-GUID": "{5248B62B-9C76-4f77-8455-7B7E96276B54}",
@@ -2387,84 +2577,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "geometry"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "geometry"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
-          "EA-Name": "Geometry",
-          "EA-Package": "OpenGIS",
-          "uri": "http://www.w3.org/ns/locn#Geometry"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.w3.org/ns/locn#geometry",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{A812147A-F451-457f-BB14-E80A32F29C66}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "InteriorInstallation",
-          "uri": "http://vocab.belgif.be/ns/building#InteriorInstallation"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "InteriorInstallation",
-        "EA-Domain-Guid": "{9FAB4D87-62A2-4edc-8A69-B6FCD6BBFC39}",
-        "EA-Guid": "{A812147A-F451-457f-BB14-E80A32F29C66}",
-        "EA-Name": "geometry3D",
-        "EA-Package": "ICEG-Building",
-        "EA-Range": "Geometry",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
-          "EA-Name": "Geometry",
-          "EA-Package": "OpenGIS",
-          "uri": "http://www.w3.org/ns/locn#Geometry"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "geometry 3D"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "3D geometric representation of the internal installation."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.w3.org/ns/locn#geometry"
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "label": "",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "",
+      "name": "geometry",
       "range": [
         {
           "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
@@ -2558,7 +2683,7 @@
           "nl": "Het complete adres in één string, al dan niet geformatteerd."
         },
         "label": {
-          "nl": "volledig adres"
+          "en": "full address"
         },
         "usage": {
           "nl": "Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer."
@@ -2567,11 +2692,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "volledig adres"
+        "en": "full address"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "volledigAdres",
+      "name": "fullAddress",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -2668,7 +2793,7 @@
           "nl": "De regio vh adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
         },
         "label": {
-          "nl": "administratieve eenheid niveau 2"
+          "en": "administrative unit level 2"
         },
         "usage": {
           "nl": " "
@@ -2677,11 +2802,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "administratieve eenheid niveau 2"
+        "en": "administrative unit level 2"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "administratieveEenheidNiveau2",
+      "name": "administrativeUnitLevel2",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -2778,7 +2903,7 @@
           "nl": "Hoogste Administratieve eenheid vh adres, doorgaans een land."
         },
         "label": {
-          "nl": "administratieve eenheid niveau 1"
+          "en": "administrative unit level 1"
         },
         "usage": {
           "nl": " "
@@ -2787,11 +2912,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "administratieve eenheid niveau 1"
+        "en": "administrative unit level 1"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "administratieveEenheidNiveau1",
+      "name": "administrativeUnitLevel1",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -2893,7 +3018,7 @@
           "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
         },
         "label": {
-          "nl": "adresgebied"
+          "en": "address area"
         },
         "usage": {
           "nl": "Bvb de naam vh gehucht waarin het adres ligt."
@@ -2902,11 +3027,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "adresgebied"
+        "en": "address area"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "adresgebied",
+      "name": "addressArea",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -2972,14 +3097,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "position"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "position"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "position",
       "range": [
         {
           "EA-GUID": "{F5F14669-7774-4665-83F7-2B95BE3CB2FD}",
@@ -3042,14 +3172,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "address"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "address"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "address",
       "range": [
         {
           "EA-GUID": "{BAD63A44-40DA-45f2-9A59-B024FC442BDF}",
@@ -3111,14 +3246,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "assigned by string"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "assigned by string"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "assignedByString",
       "range": [
         {
           "EA-Name": "LangString",
@@ -3180,14 +3320,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "identifier"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{3A3A4F9B-DE4B-41c9-8E21-341235DD6D24}",
@@ -3250,14 +3395,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "identifier"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{3A3A4F9B-DE4B-41c9-8E21-341235DD6D24}",
@@ -3320,14 +3470,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "identifier"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{3A3A4F9B-DE4B-41c9-8E21-341235DD6D24}",
@@ -3394,19 +3549,94 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "identifier"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "identifier"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "identifier",
       "range": [
         {
           "EA-Name": "Literal",
           "EA-Package": "",
           "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.opengis.net/ont/sf#method",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{EC02AF8E-EBC7-457b-A5AC-E3A86D7BFAA4}",
+      "ap-definition-nl": {
+        "nl": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Geometry",
+          "uri": "http://www.w3.org/ns/locn#Geometry"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Geometry",
+        "EA-Domain-Guid": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
+        "EA-Guid": "{EC02AF8E-EBC7-457b-A5AC-E3A86D7BFAA4}",
+        "EA-Name": "method",
+        "EA-Package": "OpenGIS",
+        "EA-Range": "MeasuringMethod",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
+          "EA-Name": "MeasuringMethod",
+          "EA-Package": "ICEG-Building",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "The way the point was determined."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "method"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TODO"
+        },
+        "ap-label-nl": "",
+        "ap-usageNote-nl": "",
+        "definition": "",
+        "label": {
+          "en": "method"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "method"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "method",
+      "range": [
+        {
+          "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
+          "EA-Name": "MeasuringMethod",
+          "EA-Package": "ICEG-Building",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
       ]
     },
@@ -3479,182 +3709,24 @@
           "nl": "De manier waarop het punt werd bepaald."
         },
         "label": {
-          "nl": "methode"
+          "en": "method"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "methode"
+        "en": "method"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "methode",
+      "name": "method",
       "range": [
         {
           "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
           "EA-Name": "MeasuringMethod",
           "EA-Package": "ICEG-Building",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.opengis.net/ont/sf#method",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{EC02AF8E-EBC7-457b-A5AC-E3A86D7BFAA4}",
-      "ap-definition-nl": {
-        "nl": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "Geometry",
-          "uri": "http://www.w3.org/ns/locn#Geometry"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Geometry",
-        "EA-Domain-Guid": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
-        "EA-Guid": "{EC02AF8E-EBC7-457b-A5AC-E3A86D7BFAA4}",
-        "EA-Name": "method",
-        "EA-Package": "OpenGIS",
-        "EA-Range": "MeasuringMethod",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
-          "EA-Name": "MeasuringMethod",
-          "EA-Package": "ICEG-Building",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "RawTags": [
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "The way the point was determined."
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "method"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TODO"
-        },
-        "ap-label-nl": "",
-        "ap-usageNote-nl": "",
-        "definition": "",
-        "label": "",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
-          "EA-Name": "MeasuringMethod",
-          "EA-Package": "ICEG-Building",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ]
-    },
-    {
-      "@id": "http://www.opengis.net/ont/geosparql#asWKT",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{1CEB7733-3B1D-4848-8939-55D795D6DF13}",
-      "ap-definition-nl": {
-        "nl": "Directe positie uitgedrukt in wkt-formaat."
-      },
-      "ap-label-nl": {
-        "nl": "wkt"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Directe positie uitgedrukt in wkt-formaat."
-      },
-      "domain": [
-        {
-          "EA-Name": "DirectPosition",
-          "uri": "http://www.opengis.net/ont/sf#DirectPosition"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "DirectPosition",
-        "EA-Domain-Guid": "{F5F14669-7774-4665-83F7-2B95BE3CB2FD}",
-        "EA-Guid": "{1CEB7733-3B1D-4848-8939-55D795D6DF13}",
-        "EA-Name": "wkt",
-        "EA-Package": "OpenGIS",
-        "EA-Range": "Literal",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "wkt"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Directe positie uitgedrukt in wkt-formaat."
-          },
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "wkt"
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "Direct position expressed in wkt format."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://www.opengis.net/ont/geosparql#asWKT"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Directe positie uitgedrukt in wkt-formaat."
-        },
-        "ap-label-nl": {
-          "nl": "wkt"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Directe positie uitgedrukt in wkt-formaat."
-        },
-        "label": {
-          "nl": "wkt"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "nl": "wkt"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "wkt",
-      "range": [
-        {
-          "EA-Name": "Literal",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
         }
       ]
     },
@@ -3741,7 +3813,7 @@
           "nl": "Geometrie uitgedrukt in wkt-formaat."
         },
         "label": {
-          "nl": "als WKT"
+          "en": "wkt"
         },
         "usage": {
           "nl": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype."
@@ -3750,11 +3822,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "als WKT"
+        "en": "wkt"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "alsWkt",
+      "name": "wkt",
       "range": [
         {
           "EA-Name": "Literal",
@@ -3767,18 +3839,18 @@
       }
     },
     {
-      "@id": "http://www.opengis.net/ont/geosparql#asGML",
+      "@id": "http://www.opengis.net/ont/geosparql#asWKT",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "EA-Guid": "{70124F67-571A-4c37-919F-647BC3EC83B9}",
+      "EA-Guid": "{1CEB7733-3B1D-4848-8939-55D795D6DF13}",
       "ap-definition-nl": {
-        "nl": "Directe positie uitgedrukt in gml-formaat."
+        "nl": "Directe positie uitgedrukt in wkt-formaat."
       },
       "ap-label-nl": {
-        "nl": "gml"
+        "nl": "wkt"
       },
       "codelist": [],
       "definition": {
-        "nl": "Directe positie uitgedrukt in gml-formaat."
+        "nl": "Directe positie uitgedrukt in wkt-formaat."
       },
       "domain": [
         {
@@ -3789,8 +3861,8 @@
       "extra": {
         "EA-Domain": "DirectPosition",
         "EA-Domain-Guid": "{F5F14669-7774-4665-83F7-2B95BE3CB2FD}",
-        "EA-Guid": "{70124F67-571A-4c37-919F-647BC3EC83B9}",
-        "EA-Name": "gml",
+        "EA-Guid": "{1CEB7733-3B1D-4848-8939-55D795D6DF13}",
+        "EA-Name": "wkt",
         "EA-Package": "OpenGIS",
         "EA-Range": "Literal",
         "EA-Type": "attribute",
@@ -3803,54 +3875,54 @@
           {
             "key": "label-nl",
             "note": "null",
-            "value": "gml"
+            "value": "wkt"
           },
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "Directe positie uitgedrukt in gml-formaat."
+            "value": "Directe positie uitgedrukt in wkt-formaat."
           },
           {
             "key": "label-en",
             "note": "null",
-            "value": "gml"
+            "value": "wkt"
           },
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Direct position expressed in gml format."
+            "value": "Direct position expressed in wkt format."
           },
           {
             "key": "uri",
             "note": "null",
-            "value": "http://www.opengis.net/ont/geosparql#asGML"
+            "value": "http://www.opengis.net/ont/geosparql#asWKT"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-nl": {
-          "nl": "Directe positie uitgedrukt in gml-formaat."
+          "nl": "Directe positie uitgedrukt in wkt-formaat."
         },
         "ap-label-nl": {
-          "nl": "gml"
+          "nl": "wkt"
         },
         "ap-usageNote-nl": "",
         "definition": {
-          "nl": "Directe positie uitgedrukt in gml-formaat."
+          "nl": "Directe positie uitgedrukt in wkt-formaat."
         },
         "label": {
-          "nl": "gml"
+          "en": "wkt"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "gml"
+        "en": "wkt"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "gml",
+      "name": "wkt",
       "range": [
         {
           "EA-Name": "Literal",
@@ -3942,7 +4014,7 @@
           "nl": "Geometrie uitgedrukt in gml-formaat."
         },
         "label": {
-          "nl": "als GML"
+          "en": "gml"
         },
         "usage": {
           "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
@@ -3951,11 +4023,11 @@
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "als GML"
+        "en": "gml"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "alsGml",
+      "name": "gml",
       "range": [
         {
           "EA-Name": "Literal",
@@ -3966,6 +4038,99 @@
       "usage": {
         "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
       }
+    },
+    {
+      "@id": "http://www.opengis.net/ont/geosparql#asGML",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{70124F67-571A-4c37-919F-647BC3EC83B9}",
+      "ap-definition-nl": {
+        "nl": "Directe positie uitgedrukt in gml-formaat."
+      },
+      "ap-label-nl": {
+        "nl": "gml"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Directe positie uitgedrukt in gml-formaat."
+      },
+      "domain": [
+        {
+          "EA-Name": "DirectPosition",
+          "uri": "http://www.opengis.net/ont/sf#DirectPosition"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "DirectPosition",
+        "EA-Domain-Guid": "{F5F14669-7774-4665-83F7-2B95BE3CB2FD}",
+        "EA-Guid": "{70124F67-571A-4c37-919F-647BC3EC83B9}",
+        "EA-Name": "gml",
+        "EA-Package": "OpenGIS",
+        "EA-Range": "Literal",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "gml"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Directe positie uitgedrukt in gml-formaat."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "gml"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Direct position expressed in gml format."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.opengis.net/ont/geosparql#asGML"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Directe positie uitgedrukt in gml-formaat."
+        },
+        "ap-label-nl": {
+          "nl": "gml"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Directe positie uitgedrukt in gml-formaat."
+        },
+        "label": {
+          "en": "gml"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "gml"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "gml",
+      "range": [
+        {
+          "EA-Name": "Literal",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ]
     },
     {
       "@id": "http://vocab.belgif.be/ns/building#reference",
@@ -4015,14 +4180,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "reference"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "reference",
       "range": [
         {
           "EA-GUID": "{3D912296-9023-438f-B59F-731506067392}",
@@ -4116,7 +4286,7 @@
           "nl": "Gemeentenaam vh adres."
         },
         "label": {
-          "nl": "gemeentenaam"
+          "en": "municipality name"
         },
         "usage": {
           "nl": " "
@@ -4127,11 +4297,11 @@
       ],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "gemeentenaam"
+        "en": "municipality name"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "gemeentenaam",
+      "name": "municipalityName",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -4232,7 +4402,7 @@
           "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
         },
         "label": {
-          "nl": "huisnummer"
+          "en": "housenumber"
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
@@ -4243,11 +4413,11 @@
       ],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "huisnummer"
+        "en": "housenumber"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "huisnummer",
+      "name": "housenumber",
       "range": [
         {
           "EA-Name": "String",
@@ -4343,7 +4513,7 @@
           "nl": "Land waarin het adres gelegen is."
         },
         "label": {
-          "nl": "land"
+          "en": "country"
         },
         "usage": {
           "nl": " "
@@ -4354,11 +4524,11 @@
       ],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "land"
+        "en": "country"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "land",
+      "name": "country",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -4459,7 +4629,7 @@
           "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
         },
         "label": {
-          "nl": "busnummer"
+          "en": "box number"
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
@@ -4470,11 +4640,11 @@
       ],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "busnummer"
+        "en": "box number"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "busnummer",
+      "name": "boxNumber",
       "range": [
         {
           "EA-Name": "String",
@@ -4534,14 +4704,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "admin unit"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "admin unit"
+      },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "",
+      "name": "adminUnit",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -4603,14 +4778,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "assigned on"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "assigned on"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "assignedOn",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -4672,14 +4852,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "assigned by"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "assigned by"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "assignedBy",
       "range": [
         {
           "EA-GUID": "{DB295DEA-FE47-40de-B331-CFE15DCE5566}",
@@ -4714,7 +4899,7 @@
         "EA-Parents": "Geometry",
         "EA-Parents2": [
           {
-            "label": "Geometrie",
+            "label": "Geometry",
             "name": "Geometry",
             "package": "OpenGIS",
             "uri": "http://www.w3.org/ns/locn#Geometry"
@@ -4778,7 +4963,7 @@
           "nl": "Een 3-dimensionele geometrische primitieve."
         },
         "label": {
-          "nl": "3Dobject"
+          "en": "3D object"
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
         "usage": {
@@ -4787,9 +4972,9 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "3Dobject"
+        "en": "3D object"
       },
-      "name": "3dobject",
+      "name": "3dObject",
       "usage": {
         "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. Om een willekeurig punt aan te duiden in de ruimte die het 3Dobject inneemt zijn 3 coördinaten nodig. Een 3DObject heeft daarom lengte, breedte en diepte. Analoog aan de polylijn (di een Curve onstaan door interpolatie tussen twee of meer punten) bestaan er ook in 3 dimensies vormen die gedefinieerd worden door sets van controlepunten. Een 3DObject wordt begrensd door meerdere Vlakken (bv kubus) of door 1 gesloten Vlak (bv bol). Bijkomende grensvlakken vormen mogelijks holtes in het 3DObject. Om binnen- en buitengrenzen te kunnen onderscheiden geldt doorgaans de afspraak dat het 3DObject links ligt van het Vlak waardoor het wordt begrensd."
       }
@@ -4859,7 +5044,7 @@
           "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
         },
         "label": {
-          "nl": "Directe positie"
+          "en": "Direct position"
         },
         "parentclasses": "",
         "usage": {
@@ -4868,9 +5053,9 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Directe positie"
+        "en": "Direct position"
       },
-      "name": "DirectePositie",
+      "name": "DirectPosition",
       "usage": {
         "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak...) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
       }
@@ -4889,7 +5074,7 @@
         "EA-Parents": "Geometry",
         "EA-Parents2": [
           {
-            "label": "Geometrie",
+            "label": "Geometry",
             "name": "Geometry",
             "package": "OpenGIS",
             "uri": "http://www.w3.org/ns/locn#Geometry"
@@ -4926,12 +5111,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Multi curve"
+        },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Multi curve"
+      },
+      "name": "MultiCurve"
     },
     {
       "@id": "http://www.opengis.net/ont/sf#MultiSurface",
@@ -4947,7 +5137,7 @@
         "EA-Parents": "Geometry",
         "EA-Parents2": [
           {
-            "label": "Geometrie",
+            "label": "Geometry",
             "name": "Geometry",
             "package": "OpenGIS",
             "uri": "http://www.w3.org/ns/locn#Geometry"
@@ -4984,12 +5174,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Multi surface"
+        },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Multi surface"
+      },
+      "name": "MultiSurface"
     },
     {
       "@id": "http://www.opengis.net/ont/sf#Point",
@@ -5014,7 +5209,7 @@
         "EA-Parents": "Geometry",
         "EA-Parents2": [
           {
-            "label": "Geometrie",
+            "label": "Geometry",
             "name": "Geometry",
             "package": "OpenGIS",
             "uri": "http://www.w3.org/ns/locn#Geometry"
@@ -5073,7 +5268,7 @@
           "nl": "Een 0-dimensionele geometrische primitieve."
         },
         "label": {
-          "nl": "Punt"
+          "en": "Point"
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
         "usage": {
@@ -5082,9 +5277,9 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Punt"
+        "en": "Point"
       },
-      "name": "Punt",
+      "name": "Point",
       "usage": {
         "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.\r\n"
       }
@@ -5112,7 +5307,7 @@
         "EA-Parents": "Geometry",
         "EA-Parents2": [
           {
-            "label": "Geometrie",
+            "label": "Geometry",
             "name": "Geometry",
             "package": "OpenGIS",
             "uri": "http://www.w3.org/ns/locn#Geometry"
@@ -5171,7 +5366,7 @@
           "nl": "Oppervlak bestaande uit 1 buitengrens en 0 of meer binnengrenzen. Elke binnengrens vormt een gat in de polygoon."
         },
         "label": {
-          "nl": "Polygoon"
+          "en": "Polygon"
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
         "usage": {
@@ -5180,9 +5375,9 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Polygoon"
+        "en": "Polygon"
       },
-      "name": "Polygoon",
+      "name": "Polygon",
       "usage": {
         "nl": "De grenzen zijn zgn lineaire ringen,ttz het zijn gesloten (niet zelfsnijdende) lijnstringen. De buitengrens wordt onderscheiden vd binnengrens door resp de kloksgewijze en tegenkloksgewijze richting waarin de ring loopt."
       }
@@ -5226,12 +5421,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "URI"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "URI"
+      },
+      "name": "Uri"
     },
     {
       "@id": "http://www.w3.org/2001/XMLSchema#string",
@@ -5277,12 +5477,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Text"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Text"
+      },
+      "name": "Text"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -5328,12 +5533,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Building nature value"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Building nature value"
+      },
+      "name": "BuildingNatureValue"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -5379,12 +5589,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Current use value"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Current use value"
+      },
+      "name": "CurrentUseValue"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -5430,12 +5645,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Measuring method"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Measuring method"
+      },
+      "name": "MeasuringMethod"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -5476,12 +5696,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Source status value"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Source status value"
+      },
+      "name": "SourceStatusValue"
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -5522,12 +5747,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Internal installation nature value"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Internal installation nature value"
+      },
+      "name": "InternalInstallationNatureValue"
     },
     {
       "@id": "http://www.w3.org/ns/adms#Identifier",
@@ -5573,12 +5803,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Identifier"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Identifier"
+      },
+      "name": "Identifier"
     },
     {
       "@id": "http://www.w3.org/ns/locn#Address",
@@ -5660,16 +5895,16 @@
           "nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
         },
         "label": {
-          "nl": "Adresvoorstelling"
+          "en": "Address representation"
         },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Adresvoorstelling"
+        "en": "Address representation"
       },
-      "name": "Adresvoorstelling"
+      "name": "AddressRepresentation"
     },
     {
       "@id": "http://www.w3.org/ns/locn#Geometry",
@@ -5746,7 +5981,7 @@
           "nl": "Vorm- en positiekenmerken van een object."
         },
         "label": {
-          "nl": "Geometrie"
+          "en": "Geometry"
         },
         "parentclasses": "",
         "usage": {
@@ -5755,9 +5990,9 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "Geometrie"
+        "en": "Geometry"
       },
-      "name": "Geometrie",
+      "name": "Geometry",
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten."
       }
@@ -5782,7 +6017,7 @@
         "EA-Parents": "BuildingGeometry",
         "EA-Parents2": [
           {
-            "label": "",
+            "label": "Building geometry",
             "name": "BuildingGeometry",
             "package": "ICEG-Building",
             "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry"
@@ -5834,16 +6069,16 @@
           "nl": "Geometrie van het gebouw en metadata over welk deel van het gebouw door de geometrie wordt voorgesteld en hoe deze werd bepaald."
         },
         "label": {
-          "nl": "2D-Gebouwgeometrie"
+          "en": "Building geometry 2D"
         },
         "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "nl": "2D-Gebouwgeometrie"
+        "en": "Building geometry 2D"
       },
-      "name": "2d-gebouwgeometrie"
+      "name": "BuildingGeometry2d"
     },
     {
       "@id": "https://schema.org/DigitalDocument",
@@ -5889,12 +6124,17 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "Document"
+        },
         "parentclasses": "",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
-      "name": ""
+      "label": {
+        "en": "Document"
+      },
+      "name": "Document"
     }
   ],
   "extra": {
@@ -5996,14 +6236,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "vertical geometry reference 3D top"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "vertical geometry reference 3D top"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "verticalGeometryReference3dTop",
       "range": [
         {
           "EA-GUID": "{BA5212CA-5F70-43e7-9C75-147910988CB9}",
@@ -6066,14 +6311,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "vertical geometry reference 3D bottom"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "vertical geometry reference 3D bottom"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "verticalGeometryReference3dBottom",
       "range": [
         {
           "EA-GUID": "{BA5212CA-5F70-43e7-9C75-147910988CB9}",
@@ -6157,18 +6407,18 @@
           "nl": "Aspect van het object dat door de z-coördinaten wordt voorgesteld."
         },
         "label": {
-          "nl": "verticale referentie"
+          "en": "vertical geometry reference"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "verticale referentie"
+        "en": "vertical geometry reference"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "verticaleReferentie",
+      "name": "verticalGeometryReference",
       "range": [
         {
           "EA-GUID": "{BA5212CA-5F70-43e7-9C75-147910988CB9}",
@@ -6231,14 +6481,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "vertical geometry estimated accuracy"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "vertical geometry estimated accuracy"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "verticalGeometryEstimatedAccuracy",
       "range": [
         {
           "EA-GUID": "{40AC52E3-0C47-4477-8DB7-130DE4B27E45}",
@@ -6296,14 +6551,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "value"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "value"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "value",
       "range": [
         {
           "EA-GUID": "{40AC52E3-0C47-4477-8DB7-130DE4B27E45}",
@@ -6370,14 +6630,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "uom"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "uom"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "uom",
       "range": [
         {
           "EA-Name": "URI",
@@ -6439,14 +6704,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "type"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "type"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "type",
       "range": [
         {
           "EA-GUID": "{68A7384F-2131-45aa-8321-CBC5AB757A73}",
@@ -6504,14 +6774,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "terrain intersection"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "terrain intersection"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "terrainIntersection",
       "range": [
         {
           "EA-GUID": "{4FECEEA7-8BB3-41b2-A286-8B96A2E81282}",
@@ -6569,14 +6844,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "structured identificator"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "structured identificator"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "structuredIdentificator",
       "range": [
         {
           "EA-GUID": "{F9CD63A2-5BBB-42a4-A480-6B00254F484D}",
@@ -6634,14 +6914,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "status"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "status"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "status",
       "range": [
         {
           "EA-GUID": "{3D8093C6-024E-4a38-87A0-0E4739EC1336}",
@@ -6698,14 +6983,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "start date"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "start date"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "startDate",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -6761,14 +7051,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "spelling"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "spelling"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "spelling",
       "range": [
         {
           "EA-Name": "LangString",
@@ -6825,14 +7120,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "source status"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "source status"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "sourceStatus",
       "range": [
         {
           "EA-GUID": "{AE08C21F-6269-40f6-BDD1-B82AD8928DFF}",
@@ -6889,14 +7189,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "source of name"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "source of name"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "sourceOfName",
       "range": [
         {
           "EA-Name": "LangString",
@@ -6973,18 +7278,18 @@
           "nl": "Geometrie die moet worden gebruikt bv bij voorstelling op kaart."
         },
         "label": {
-          "nl": "default"
+          "en": "reference geometry"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "default"
+        "en": "reference geometry"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "default",
+      "name": "referenceGeometry",
       "range": [
         {
           "EA-Name": "Boolean",
@@ -7040,14 +7345,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "reference"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "reference",
       "range": [
         {
           "EA-Name": "LangString",
@@ -7103,14 +7413,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "percentage"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "percentage"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "percentage",
       "range": [
         {
           "EA-Name": "Integer",
@@ -7192,18 +7507,18 @@
           "nl": "Totaal van het aantal ondergrondse gebouwlagen, bekeken over alle gebouwdelen heen."
         },
         "label": {
-          "nl": "Number of underground floors"
+          "en": "number of floors under ground"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "Number of underground floors"
+        "en": "number of floors under ground"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "numberOfUndergroundFloors",
+      "name": "numberOfFloorsUnderGround",
       "range": [
         {
           "EA-Name": "Integer",
@@ -7285,14 +7600,14 @@
           "nl": "Totaal van het aantal bovengrondse gebouwlagen, bekeken over alle gebouwdelen heen."
         },
         "label": {
-          "nl": "number of floors above ground"
+          "en": "number of floors above ground"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "number of floors above ground"
+        "en": "number of floors above ground"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -7352,14 +7667,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "number of dwellings"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "number of dwellings"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "numberOfDwellings",
       "range": [
         {
           "EA-Name": "Integer",
@@ -7421,14 +7741,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "nativeness"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "nativeness"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "nativeness",
       "range": [
         {
           "EA-GUID": "{898AF575-410B-4810-9D83-FF4016E571CA}",
@@ -7491,14 +7816,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "name status"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "name status"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "nameStatus",
       "range": [
         {
           "EA-GUID": "{E0C4848C-DC1D-4553-835A-E26D04D4D443}",
@@ -7577,18 +7907,18 @@
           "nl": "Naam van het gebouw."
         },
         "label": {
-          "nl": "gebouwnaam"
+          "en": "name"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "gebouwnaam"
+        "en": "name"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "gebouwnaam",
+      "name": "name",
       "range": [
         {
           "EA-GUID": "{32EE2223-C17B-4936-B709-71920EBF6483}",
@@ -7651,14 +7981,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "low reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "low reference"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "lowReference",
       "range": [
         {
           "EA-GUID": "{BA5212CA-5F70-43e7-9C75-147910988CB9}",
@@ -7716,14 +8051,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "legal use"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "legal use"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "legalUse",
       "range": [
         {
           "EA-GUID": "{CEF271D8-A503-4d32-A9C6-DFAA75B6ECCB}",
@@ -7781,14 +8121,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "legal use"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "legal use"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "legalUse",
       "range": [
         {
           "EA-GUID": "{CEF271D8-A503-4d32-A9C6-DFAA75B6ECCB}",
@@ -7860,15 +8205,20 @@
         "definition": "",
         "derived": "false",
         "destRole": "interiorInstallation",
-        "label": "",
+        "label": {
+          "en": "interior installation"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "interior installation"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "interiorInstallation",
       "range": [
         {
           "EA-GUID": "{9FAB4D87-62A2-4edc-8A69-B6FCD6BBFC39}",
@@ -7926,14 +8276,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "installation nature"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "installation nature"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "installationNature",
       "range": [
         {
           "EA-GUID": "{3AE04C9B-4DBE-408c-821D-907D801FE7D7}",
@@ -7995,14 +8350,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "informationSystemName"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "informationSystemName"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "informationsystemname",
       "range": [
         {
           "EA-Name": "LangString",
@@ -8059,14 +8419,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "information system"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "information system"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "informationSystem",
       "range": [
         {
           "EA-GUID": "{3A3A4F9B-DE4B-41c9-8E21-341235DD6D24}",
@@ -8129,14 +8494,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "horizontal geometry reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "horizontal geometry reference"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "horizontalGeometryReference",
       "range": [
         {
           "EA-GUID": "{7D3AD6B9-A1CA-4158-98A5-336E1027A9FA}",
@@ -8194,14 +8564,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "horizontal geometry estimated accuracy"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "horizontal geometry estimated accuracy"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "horizontalGeometryEstimatedAccuracy",
       "range": [
         {
           "EA-GUID": "{40AC52E3-0C47-4477-8DB7-130DE4B27E45}",
@@ -8264,14 +8639,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "height reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "height reference"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "heightReference",
       "range": [
         {
           "EA-GUID": "{BA5212CA-5F70-43e7-9C75-147910988CB9}",
@@ -8329,14 +8709,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "height above ground"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "height above ground"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "heightAboveGround",
       "range": [
         {
           "EA-GUID": "{EB18DB43-54B7-458f-902C-D8FFC4170746}",
@@ -8394,14 +8779,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "geometry solid"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "geometry solid"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "geometrySolid",
       "range": [
         {
           "EA-GUID": "{C7F57164-AD0A-454f-B78A-B9D5F454F939}",
@@ -8459,14 +8849,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "geometry multi surface"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "geometry multi surface"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "geometryMultiSurface",
       "range": [
         {
           "EA-GUID": "{C0A9B661-4616-4af3-A454-1EE2D71B6EA6}",
@@ -8545,18 +8940,18 @@
           "nl": "2D- of 2.5D-geometrische voorstelling van het gebouw."
         },
         "label": {
-          "nl": "geometrie"
+          "en": "geometry"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "geometrie"
+        "en": "geometry"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "geometrie",
+      "name": "geometry",
       "range": [
         {
           "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
@@ -8614,14 +9009,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "external reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "external reference"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "externalReference",
       "range": [
         {
           "EA-GUID": "{71FE8375-81A3-405a-816F-20C75A523B54}",
@@ -8679,14 +9079,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "entrance location"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "entrance location"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "entranceLocation",
       "range": [
         {
           "EA-GUID": "{066CA9F1-73F9-4dfe-8C6E-BE3D317F518B}",
@@ -8744,14 +9149,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "entrance location"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "entrance location"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "entranceLocation",
       "range": [
         {
           "EA-GUID": "{066CA9F1-73F9-4dfe-8C6E-BE3D317F518B}",
@@ -8808,14 +9218,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "end date"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "end date"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "endDate",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -8872,14 +9287,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "elevation value"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "elevation value"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "elevationValue",
       "range": [
         {
           "EA-GUID": "{F5F14669-7774-4665-83F7-2B95BE3CB2FD}",
@@ -8942,14 +9362,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "elevation reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "elevation reference"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "elevationReference",
       "range": [
         {
           "EA-GUID": "{BA5212CA-5F70-43e7-9C75-147910988CB9}",
@@ -9006,14 +9431,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "document description"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "document description"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "documentDescription",
       "range": [
         {
           "EA-Name": "LangString",
@@ -9070,14 +9500,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "document"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "document"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "document",
       "range": [
         {
           "EA-GUID": "{552F4CC1-723C-4f8f-B17D-BA16ADA9A64F}",
@@ -9135,14 +9570,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "document"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "document"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "document",
       "range": [
         {
           "EA-GUID": "{552F4CC1-723C-4f8f-B17D-BA16ADA9A64F}",
@@ -9204,14 +9644,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "date",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -9273,14 +9718,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "condition of construction"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "condition of construction"
+      },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "",
+      "name": "conditionOfConstruction",
       "range": [
         {
           "EA-GUID": "{E4C7AD4A-69C7-4c3b-81D9-D36D53D67996}",
@@ -9372,15 +9822,20 @@
         "definition": "",
         "derived": "false",
         "destRole": "cadastralParcel",
-        "label": "",
+        "label": {
+          "en": "cadastral parcel"
+        },
         "sourceRole": "building",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "cadastral parcel"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "cadastralParcel",
       "range": [
         {
           "EA-GUID": "{45BF782C-BB10-4139-9761-2A3941852129}",
@@ -9462,15 +9917,20 @@
         "definition": "",
         "derived": "false",
         "destRole": "buildingUnit",
-        "label": "",
+        "label": {
+          "en": "building unit"
+        },
         "sourceRole": "building",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "building unit"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "buildingUnit",
       "range": [
         {
           "EA-GUID": "{D660A66E-C55C-49d5-A9E7-804AF38256A7}",
@@ -9533,14 +9993,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "building nature"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "building nature"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "buildingNature",
       "range": [
         {
           "EA-GUID": "{A7B83E04-6E0D-41aa-963C-78B45552E4D6}",
@@ -9551,7 +10016,7 @@
       ]
     },
     {
-      "@id": "http://vocab.belgif.be/ns/building#buildingUnit",
+      "@id": "http://vocab.belgif.be/ns/building#building",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{95999677-7884-4b97-B53A-8645BB866271}",
       "ap-definition-nl": {
@@ -9560,42 +10025,57 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Building",
-          "uri": "http://vocab.belgif.be/ns/building#Building"
+          "EA-Name": "BuildingUnit",
+          "uri": "http://vocab.belgif.be/ns/building#BuildingUnit"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
+            "key": "usageNote-en",
+            "note": "NOTE$ea_notes=The set of two distinct volumes united by a gallery/walkway is nevertheless considered as a single building. Two volumes separated by a footbridge (which is above a public road) are considered as two separate buildings which are located in different sites (because they are different plots).",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Building of which building unit(s) are being a part.",
+            "value": "NOTE"
+          },
+          {
             "key": "package",
             "note": "ICEG-Building",
             "value": "NOTE"
           },
           {
             "key": "label-en",
-            "note": "building unit",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "Building unit(s) being part of the building.",
+            "note": "building",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Building",
-        "EA-Domain-Guid": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+        "EA-Domain": "BuildingUnit",
+        "EA-Domain-Guid": "{D660A66E-C55C-49d5-A9E7-804AF38256A7}",
         "EA-Guid": "{95999677-7884-4b97-B53A-8645BB866271}",
-        "EA-Name": "buildingUnit",
+        "EA-Name": "building",
         "EA-Package": "",
-        "EA-Range": "BuildingUnit",
+        "EA-Range": "Building",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{D660A66E-C55C-49d5-A9E7-804AF38256A7}",
-          "EA-Name": "BuildingUnit",
+          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+          "EA-Name": "Building",
           "EA-Package": "ICEG-Building",
-          "uri": "http://vocab.belgif.be/ns/building#BuildingUnit"
+          "uri": "http://vocab.belgif.be/ns/building#Building"
         },
         "RawTags": [
+          {
+            "key": "usageNote-en",
+            "note": "NOTE$ea_notes=The set of two distinct volumes united by a gallery/walkway is nevertheless considered as a single building. Two volumes separated by a footbridge (which is above a public road) are considered as two separate buildings which are located in different sites (because they are different plots).",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Building of which building unit(s) are being a part.",
+            "value": "NOTE"
+          },
           {
             "key": "package",
             "note": "ICEG-Building",
@@ -9603,12 +10083,7 @@
           },
           {
             "key": "label-en",
-            "note": "building unit",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "Building unit(s) being part of the building.",
+            "note": "building",
             "value": "NOTE"
           }
         ],
@@ -9621,27 +10096,32 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "buildingUnit",
-        "label": "",
-        "sourceRole": "building",
+        "destRole": "building",
+        "label": {
+          "en": "building"
+        },
+        "sourceRole": "buildingUnit",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "",
+      "label": {
+        "en": "building"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "building",
       "range": [
         {
-          "EA-GUID": "{D660A66E-C55C-49d5-A9E7-804AF38256A7}",
-          "EA-Name": "BuildingUnit",
+          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+          "EA-Name": "Building",
           "EA-Package": "ICEG-Building",
-          "uri": "http://vocab.belgif.be/ns/building#BuildingUnit"
+          "uri": "http://vocab.belgif.be/ns/building#Building"
         }
       ]
     },
     {
-      "@id": "http://vocab.belgif.be/ns/building#cadastralParcel",
+      "@id": "http://vocab.belgif.be/ns/building#building",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{493F20E2-D34F-4a40-B3AC-C8D14577C7F2}",
       "ap-definition-nl": {
@@ -9650,65 +10130,55 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Building",
-          "uri": "http://vocab.belgif.be/ns/building#Building"
+          "EA-Name": "CadastralParcel",
+          "uri": "http://vocab.belgif.be/ns/building#CadastralParcel"
         }
       ],
       "extra": {
         "DestRoleTags": [
           {
-            "key": "definition-en",
-            "note": "The parcel(s) with which the building is officially associated.",
+            "key": "label-en",
+            "note": "building",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "The parcel(s) with which the building is officially associated.\t",
+            "note": "The Building(s) related to the CadastralParcel.",
             "value": "NOTE"
           },
           {
             "key": "package",
             "note": "ICEG-Building",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "cadastral parcel",
             "value": "NOTE"
           }
         ],
-        "EA-Domain": "Building",
-        "EA-Domain-Guid": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+        "EA-Domain": "CadastralParcel",
+        "EA-Domain-Guid": "{45BF782C-BB10-4139-9761-2A3941852129}",
         "EA-Guid": "{493F20E2-D34F-4a40-B3AC-C8D14577C7F2}",
-        "EA-Name": "cadastralParcel",
+        "EA-Name": "building",
         "EA-Package": "",
-        "EA-Range": "CadastralParcel",
+        "EA-Range": "Building",
         "EA-Type": "connector",
         "RangeData": {
-          "EA-GUID": "{45BF782C-BB10-4139-9761-2A3941852129}",
-          "EA-Name": "CadastralParcel",
+          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+          "EA-Name": "Building",
           "EA-Package": "ICEG-Building",
-          "uri": "http://vocab.belgif.be/ns/building#CadastralParcel"
+          "uri": "http://vocab.belgif.be/ns/building#Building"
         },
         "RawTags": [
           {
-            "key": "definition-en",
-            "note": "The parcel(s) with which the building is officially associated.",
+            "key": "label-en",
+            "note": "building",
             "value": "NOTE"
           },
           {
             "key": "definition-en",
-            "note": "The parcel(s) with which the building is officially associated.\t",
+            "note": "The Building(s) related to the CadastralParcel.",
             "value": "NOTE"
           },
           {
             "key": "package",
             "note": "ICEG-Building",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "cadastral parcel",
             "value": "NOTE"
           }
         ],
@@ -9721,22 +10191,27 @@
         "ap-usageNote-nl": "",
         "definition": "",
         "derived": "false",
-        "destRole": "cadastralParcel",
-        "label": "",
-        "sourceRole": "building",
+        "destRole": "building",
+        "label": {
+          "en": "building"
+        },
+        "sourceRole": "cadastralParcel",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "building"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "building",
       "range": [
         {
-          "EA-GUID": "{45BF782C-BB10-4139-9761-2A3941852129}",
-          "EA-Name": "CadastralParcel",
+          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+          "EA-Name": "Building",
           "EA-Package": "ICEG-Building",
-          "uri": "http://vocab.belgif.be/ns/building#CadastralParcel"
+          "uri": "http://vocab.belgif.be/ns/building#Building"
         }
       ]
     },
@@ -9787,14 +10262,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "any point"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "any point"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "anyPoint",
       "range": [
         {
           "EA-Name": "DateTime",
@@ -9861,14 +10341,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "current use"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "current use"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "currentUse",
       "range": [
         {
           "EA-GUID": "{CEF271D8-A503-4d32-A9C6-DFAA75B6ECCB}",
@@ -9931,14 +10416,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of renovation"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date of renovation"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfRenovation",
       "range": [
         {
           "EA-GUID": "{AFF024CF-3FD9-49af-BFD9-43F3075E0457}",
@@ -10001,14 +10491,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of demolition"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date of demolition"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfDemolition",
       "range": [
         {
           "EA-GUID": "{AFF024CF-3FD9-49af-BFD9-43F3075E0457}",
@@ -10071,14 +10566,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of construction"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date of construction"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfConstruction",
       "range": [
         {
           "EA-GUID": "{AFF024CF-3FD9-49af-BFD9-43F3075E0457}",
@@ -10146,14 +10646,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "horizontal geometry reference"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "horizontal geometry reference"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "horizontalGeometryReference",
       "range": [
         {
           "EA-GUID": "{7D3AD6B9-A1CA-4158-98A5-336E1027A9FA}",
@@ -10237,18 +10742,18 @@
           "nl": "Aspect van het object dat door de xy-coördinaten wordt voorgesteld."
         },
         "label": {
-          "nl": "horizontale referentie"
+          "en": "horizontal geometry reference"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "horizontale referentie"
+        "en": "horizontal geometry reference"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
-      "name": "horizontaleReferentie",
+      "name": "horizontalGeometryReference",
       "range": [
         {
           "EA-GUID": "{7D3AD6B9-A1CA-4158-98A5-336E1027A9FA}",
@@ -10311,14 +10816,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "elevation"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "elevation"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "elevation",
       "range": [
         {
           "EA-GUID": "{F9EECA8B-07A4-43be-B4ED-9CAAAE12DE70}",
@@ -10381,14 +10891,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of renovation"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date of renovation"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfRenovation",
       "range": [
         {
           "EA-GUID": "{AFF024CF-3FD9-49af-BFD9-43F3075E0457}",
@@ -10451,14 +10966,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of demolition"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date of demolition"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfDemolition",
       "range": [
         {
           "EA-GUID": "{AFF024CF-3FD9-49af-BFD9-43F3075E0457}",
@@ -10521,14 +11041,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "date of construction"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "date of construction"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "dateOfConstruction",
       "range": [
         {
           "EA-GUID": "{AFF024CF-3FD9-49af-BFD9-43F3075E0457}",
@@ -10596,14 +11121,19 @@
         "ap-label-nl": "",
         "ap-usageNote-nl": "",
         "definition": "",
-        "label": "",
+        "label": {
+          "en": "current use"
+        },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "current use"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "currentUse",
       "range": [
         {
           "EA-GUID": "{CEF271D8-A503-4d32-A9C6-DFAA75B6ECCB}",
@@ -10622,7 +11152,7 @@
   "standaardregisterurl": "TODO",
   "template": "iceg-building_en.j2",
   "title": "Building",
-  "toolchaincommit": "f71364141ba810e2bc5191afcaaf7f8016452eff",
+  "toolchaincommit": "efab23d701fc79878b385458ea340dbc77e14ada",
   "translation": [
     {
       "language": "en",

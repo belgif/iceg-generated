@@ -134,6 +134,9 @@
             "@id": "http://data.europa.eu/88u/dataset/atu-type",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Administrative Territorial Units"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -145,7 +148,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Administrative Territorial Units"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -173,12 +178,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "AdministrativeTerritorialUnits"
         },
         {
             "@id": "http://data.europa.eu/m8g/FoundationEvent",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Foundation Event"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -191,13 +199,15 @@
                 "EA-Parents2": [
                     {
                         "name": "ChangeEvent",
-                        "label": "",
+                        "label": "Change Event",
                         "package": "org",
                         "uri": "http://www.w3.org/ns/org#ChangeEvent"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/org#ChangeEvent",
-                "label": "",
+                "label": {
+                    "en": "Foundation Event"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -225,12 +235,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "FoundationEvent"
         },
         {
             "@id": "http://data.europa.eu/m8g/PublicOrganisation",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Public Organization"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -243,13 +256,15 @@
                 "EA-Parents2": [
                     {
                         "name": "Organization",
-                        "label": "",
+                        "label": "Organization",
                         "package": "org",
                         "uri": "http://www.w3.org/ns/org#Organization"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/org#Organization",
-                "label": "",
+                "label": {
+                    "en": "Public Organization"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -282,12 +297,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "PublicOrganization"
         },
         {
             "@id": "http://data.europa.eu/m8g/ReferenceFramework",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Reference Framework"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -299,7 +317,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Reference Framework"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -332,12 +352,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "ReferenceFramework"
         },
         {
             "@id": "http://www.w3.org/ns/adms#Identifier",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -349,7 +372,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -382,12 +407,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Identifier"
         },
         {
             "@id": "http://www.w3.org/ns/locn#Address",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Address"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -399,7 +427,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Address"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -432,12 +462,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Address"
         },
         {
             "@id": "http://www.w3.org/ns/locn#Geometry",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Geometry"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -449,7 +482,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Geometry"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -482,12 +517,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Geometry"
         },
         {
             "@id": "http://www.w3.org/ns/org#ChangeEvent",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Change Event"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -499,7 +537,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Change Event"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -527,12 +567,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "ChangeEvent"
         },
         {
             "@id": "http://www.w3.org/ns/org#Organization",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Organization"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -544,7 +587,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Organization"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -572,12 +617,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Organization"
         },
         {
             "@id": "http://www.w3.org/ns/org#OrganizationalUnit",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Organizational Unit"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -590,13 +638,15 @@
                 "EA-Parents2": [
                     {
                         "name": "Organization",
-                        "label": "",
+                        "label": "Organization",
                         "package": "org",
                         "uri": "http://www.w3.org/ns/org#Organization"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/org#Organization",
-                "label": "",
+                "label": {
+                    "en": "Organizational Unit"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -629,12 +679,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "OrganizationalUnit"
         },
         {
             "@id": "http://www.w3.org/ns/org#Post",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Post"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -646,7 +699,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Post"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -674,12 +729,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Post"
         },
         {
             "@id": "http://www.w3.org/ns/org#Role",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Role"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -691,7 +749,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Role"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -719,12 +779,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Role"
         },
         {
             "@id": "http://www.w3.org/ns/org#Site",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Site"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -736,7 +799,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Site"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -764,12 +829,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Site"
         },
         {
             "@id": "http://www.w3.org/ns/person#Person",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Person"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -782,13 +850,15 @@
                 "EA-Parents2": [
                     {
                         "name": "Person",
-                        "label": "",
+                        "label": "Person",
                         "package": "foaf",
                         "uri": "http://xmlns.com/foaf/0.1/Person"
                     }
                 ],
                 "parentclasses": "http://xmlns.com/foaf/0.1/Person",
-                "label": "",
+                "label": {
+                    "en": "Person"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -821,12 +891,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Person"
         },
         {
             "@id": "https://schema.org/ContactPoint",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Contact Point"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -838,7 +911,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Contact Point"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -871,12 +946,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "ContactPoint"
         },
         {
             "@id": "https://schema.org/ImageObject",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Image Object"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -888,7 +966,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Image Object"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -916,12 +996,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "ImageObject"
         },
         {
             "@id": "https://schema.org/OpeningHoursSpecification",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Opening Hours Specification"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -933,7 +1016,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Opening Hours Specification"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -966,15 +1051,18 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "OpeningHoursSpecification"
         }
     ],
     "externalproperties": [
         {
             "@id": "https://www.w3.org/ns/org#holds",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "holds",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "holds"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -995,7 +1083,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "holds",
-                "label": "",
+                "label": {
+                    "en": "holds"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1062,8 +1152,11 @@
         {
             "@id": "https://www.w3.org/ns/adms#Identifier",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1084,7 +1177,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "identifier",
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1151,8 +1246,11 @@
         {
             "@id": "https://schema.org/validThrough",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "validThrough",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "valid through"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1169,7 +1267,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "valid through"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1218,8 +1318,11 @@
         {
             "@id": "https://schema.org/validFrom",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "validFrom",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "valid from"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1236,7 +1339,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "valid from"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1285,8 +1390,11 @@
         {
             "@id": "https://schema.org/telephone",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "hasTelephone",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "has telephone"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1303,7 +1411,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "has telephone"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1352,8 +1462,11 @@
         {
             "@id": "https://schema.org/openingHours",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "openingHours",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "opening hours"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1370,7 +1483,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "opening hours"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1424,8 +1539,11 @@
         {
             "@id": "https://schema.org/memberOf",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "memberOf",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "member of"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1446,7 +1564,9 @@
                 },
                 "sourceRole": "hasMember",
                 "destRole": "memberOf",
-                "label": "",
+                "label": {
+                    "en": "member of"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1513,8 +1633,11 @@
         {
             "@id": "https://schema.org/longitude",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "longitude",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "longitude"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1531,7 +1654,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "longitude"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1580,8 +1705,11 @@
         {
             "@id": "https://schema.org/logo",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "logo",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "logo"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1602,7 +1730,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "logo",
-                "label": "",
+                "label": {
+                    "en": "logo"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1679,8 +1809,11 @@
         {
             "@id": "https://schema.org/latitude",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "latitude",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "latitude"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1697,7 +1830,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "latitude"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1746,8 +1881,11 @@
         {
             "@id": "https://schema.org/hoursAvailable",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "availabilityRestriction",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "availability restriction"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1768,7 +1906,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "availabilityRestriction",
-                "label": "",
+                "label": {
+                    "en": "availability restriction"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1835,8 +1975,11 @@
         {
             "@id": "https://schema.org/email",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "hasEmail",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "has email"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1853,7 +1996,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "has email"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1902,8 +2047,11 @@
         {
             "@id": "https://schema.org/deathDate",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfDeath",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "date of death"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1920,7 +2068,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of death"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1969,8 +2119,11 @@
         {
             "@id": "https://schema.org/dayOfWeek",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dayOfWeek",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "day of week"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1987,7 +2140,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
                 },
-                "label": "",
+                "label": {
+                    "en": "day of week"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2036,8 +2191,11 @@
         {
             "@id": "https://schema.org/contactPoint",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "contactPoint",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "contact point"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2058,7 +2216,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "contactPoint",
-                "label": "",
+                "label": {
+                    "en": "contact point"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2135,8 +2295,11 @@
         {
             "@id": "https://schema.org/birthDate",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfBirth",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "date of birth"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2153,7 +2316,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of birth"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2202,8 +2367,11 @@
         {
             "@id": "https://dublincore.org/specifications/dublin-core/dcmi-terms/#identifier",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2224,7 +2392,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "identifier",
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2291,8 +2461,11 @@
         {
             "@id": "http://xmlns.com/foaf/0.1/title",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "title",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "title"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2310,7 +2483,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "title"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2360,8 +2535,11 @@
         {
             "@id": "http://xmlns.com/foaf/0.1/name",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "fullName",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "full name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2378,7 +2556,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "full name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2432,8 +2612,11 @@
         {
             "@id": "http://xmlns.com/foaf/0.1/givenName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "givenName(forename)",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "given name (forename)"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2450,7 +2633,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "given name (forename)"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2504,8 +2689,11 @@
         {
             "@id": "http://xmlns.com/foaf/0.1/familyName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "familyName(surname)",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "family name (surname)"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2522,7 +2710,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "family name (surname)"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2576,8 +2766,11 @@
         {
             "@id": "http://xmlns.com/foaf/0.1/#term_page",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "page",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "page"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2595,7 +2788,9 @@
                     "EA-Package": "foaf",
                     "uri": "http://xmlns.com/foaf/0.1/Document"
                 },
-                "label": "",
+                "label": {
+                    "en": "page"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2645,8 +2840,11 @@
         {
             "@id": "http://www.w3.org/ns/prov#startedAtTime",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "startedAtTime",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "started at time"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2663,7 +2861,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "started at time"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2717,8 +2917,11 @@
         {
             "@id": "http://www.w3.org/ns/prov#endedAtTime",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "endedAtTime",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "ended at time"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2735,7 +2938,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "ended at time"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2784,8 +2989,11 @@
         {
             "@id": "http://www.w3.org/ns/person#patronymicName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "patronymicName",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "patronymic name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2802,7 +3010,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "patronymic name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2856,8 +3066,11 @@
         {
             "@id": "http://www.w3.org/ns/person#birthName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "birthName",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "birth name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2874,7 +3087,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "birth name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2928,8 +3143,11 @@
         {
             "@id": "http://www.w3.org/ns/org#unitOf",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "unitOf",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "unit of"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2950,7 +3168,9 @@
                 },
                 "sourceRole": "hasUnit",
                 "destRole": "unitOf",
-                "label": "",
+                "label": {
+                    "en": "unit of"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3027,8 +3247,11 @@
         {
             "@id": "http://www.w3.org/ns/org#subOrganizationOf",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "subOrganizationOf",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "sub organization of"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3049,7 +3272,9 @@
                 },
                 "sourceRole": "hasSubOrganization",
                 "destRole": "subOrganizationOf",
-                "label": "",
+                "label": {
+                    "en": "sub organization of"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3116,8 +3341,11 @@
         {
             "@id": "http://www.w3.org/ns/org#role",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "role",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "role"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3138,7 +3366,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "role",
-                "label": "",
+                "label": {
+                    "en": "role"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3205,8 +3435,11 @@
         {
             "@id": "http://www.w3.org/ns/org#resultingOrganization",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "resultingOrganization",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "resulting organization"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3227,7 +3460,9 @@
                 },
                 "sourceRole": "resultedFrom",
                 "destRole": "resultingOrganization",
-                "label": "",
+                "label": {
+                    "en": "resulting organization"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3294,8 +3529,11 @@
         {
             "@id": "http://www.w3.org/ns/org#resultedFrom",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "resultedFrom",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "resulted from"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3316,7 +3554,9 @@
                 },
                 "sourceRole": "resultingOrganization",
                 "destRole": "resultedFrom",
-                "label": "",
+                "label": {
+                    "en": "resulted from"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3383,8 +3623,11 @@
         {
             "@id": "http://www.w3.org/ns/org#postIn",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "postIn",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "post in"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3405,7 +3648,9 @@
                 },
                 "sourceRole": "hasPost",
                 "destRole": "postIn",
-                "label": "",
+                "label": {
+                    "en": "post in"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3472,8 +3717,11 @@
         {
             "@id": "http://www.w3.org/ns/org#originalOrganization",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "originalOrganization",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "original organization"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3494,7 +3742,9 @@
                 },
                 "sourceRole": "changedBy",
                 "destRole": "originalOrganization",
-                "label": "",
+                "label": {
+                    "en": "original organization"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3561,8 +3811,11 @@
         {
             "@id": "http://www.w3.org/ns/org#memberOf",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "memberOf",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "member of"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3583,7 +3836,9 @@
                 },
                 "sourceRole": "hasMember",
                 "destRole": "memberOf",
-                "label": "",
+                "label": {
+                    "en": "member of"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3660,8 +3915,11 @@
         {
             "@id": "http://www.w3.org/ns/org#hasUnit",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "hasUnit",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "has unit"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3682,7 +3940,9 @@
                 },
                 "sourceRole": "unitOf",
                 "destRole": "hasUnit",
-                "label": "",
+                "label": {
+                    "en": "has unit"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3759,8 +4019,11 @@
         {
             "@id": "http://www.w3.org/ns/org#hasSubOrganization",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "hasSubOrganization",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "has sub organization"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3781,7 +4044,9 @@
                 },
                 "sourceRole": "subOrganizationOf",
                 "destRole": "hasSubOrganization",
-                "label": "",
+                "label": {
+                    "en": "has sub organization"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3848,8 +4113,11 @@
         {
             "@id": "http://www.w3.org/ns/org#hasSite",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "hasSite",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "has site"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3870,7 +4138,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "hasSite",
-                "label": "",
+                "label": {
+                    "en": "has site"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3937,8 +4207,11 @@
         {
             "@id": "http://www.w3.org/ns/org#hasPost",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "hasPost",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "has post"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3959,7 +4232,9 @@
                 },
                 "sourceRole": "postIn",
                 "destRole": "hasPost",
-                "label": "",
+                "label": {
+                    "en": "has post"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4026,8 +4301,11 @@
         {
             "@id": "http://www.w3.org/ns/org#hasMember",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "hasMember",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "has member"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4048,7 +4326,9 @@
                 },
                 "sourceRole": "memberOf",
                 "destRole": "hasMember",
-                "label": "",
+                "label": {
+                    "en": "has member"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4125,8 +4405,11 @@
         {
             "@id": "http://www.w3.org/ns/org#changedBy",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "changedBy",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "changed by"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4147,7 +4430,9 @@
                 },
                 "sourceRole": "originalOrganization",
                 "destRole": "changedBy",
-                "label": "",
+                "label": {
+                    "en": "changed by"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4214,8 +4499,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#thoroughfare",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "thoroughfare",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "thoroughfare"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4233,7 +4521,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "thoroughfare"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4288,8 +4578,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#postName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "postName(city)",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "post name (city)"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4307,7 +4600,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "post name (city)"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4357,8 +4652,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#postCode",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "postCode",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "post code"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4375,7 +4673,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "post code"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4429,8 +4729,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#poBox",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "postOfficeBox",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "post office box"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4447,7 +4750,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "post office box"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4501,8 +4806,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#locatorName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "locatorName",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "locator name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4520,7 +4828,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "locator name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4575,8 +4885,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#locatorDesignator",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "locatorDesignator",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "locator designator"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4593,7 +4906,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "locator designator"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4647,8 +4962,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#geometry",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "geometry",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "geometry"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4669,7 +4987,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "geometry",
-                "label": "",
+                "label": {
+                    "en": "geometry"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4746,8 +5066,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#fullAddress",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "fullAddress",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "full address"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4765,7 +5088,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "full address"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4820,8 +5145,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#adminUnitL2",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "administrativeUnitLevel2(country/region/state)",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "administrative unit level 2 (country/region/state)"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4839,7 +5167,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "administrative unit level 2 (country/region/state)"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4894,8 +5224,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#adminUnitL1",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "administrativeUnitLevel1(country)",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "administrative unit level 1 (country)"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4913,7 +5246,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "administrative unit level 1 (country)"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4968,8 +5303,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#addressID",
             "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-            "name": "",
+            "name": "addressId",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "address ID"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4986,7 +5324,9 @@
                     "EA-Package": "",
                     "uri": "null"
                 },
-                "label": "",
+                "label": {
+                    "en": "address ID"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5034,8 +5374,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#addressArea",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "addressArea",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "address area"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5053,7 +5396,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "address area"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5108,8 +5453,105 @@
         {
             "@id": "http://www.w3.org/ns/locn#address",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "registeredAddress\r\n",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "registered address\r\n"
+            },
+            "ap-definition-nl": {
+                "nl": "TODO"
+            },
+            "extra": {
+                "EA-Name": "registeredAddress",
+                "EA-Guid": "{BB5550B9-4800-4789-8054-9AB93453A414}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "Person",
+                "EA-Domain-Guid": "{A0ECD6E2-3D19-4928-8FAC-33C504817515}",
+                "EA-Range": "Address",
+                "RangeData": {
+                    "EA-Name": "Address",
+                    "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
+                    "EA-Package": "Core Location",
+                    "uri": "http://www.w3.org/ns/locn#Address"
+                },
+                "sourceRole": "null",
+                "destRole": "registeredAddress",
+                "label": {
+                    "en": "registered address\r\n"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-nl": "",
+                "ap-definition-nl": {
+                    "nl": "TODO"
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The registered address of the Person."
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "registered address\r\n"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://www.w3.org/ns/locn#address"
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The registered address of the Person."
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "registered address\r\n"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://www.w3.org/ns/locn#address"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/person#Person",
+                    "EA-Name": "Person"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Address",
+                    "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
+                    "EA-Package": "Core Location",
+                    "uri": "http://www.w3.org/ns/locn#Address"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://www.w3.org/ns/locn#address",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "address",
+            "inpackage": "UNKNOWN",
+            "label": {
+                "en": "address"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5130,7 +5572,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "address",
-                "label": "",
+                "label": {
+                    "en": "address"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5205,99 +5649,13 @@
             "maxCardinality": "1"
         },
         {
-            "@id": "http://www.w3.org/ns/locn#address",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
-            "inpackage": "UNKNOWN",
-            "ap-definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "registeredAddress",
-                "EA-Guid": "{BB5550B9-4800-4789-8054-9AB93453A414}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "Person",
-                "EA-Domain-Guid": "{A0ECD6E2-3D19-4928-8FAC-33C504817515}",
-                "EA-Range": "Address",
-                "RangeData": {
-                    "EA-Name": "Address",
-                    "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
-                    "EA-Package": "Core Location",
-                    "uri": "http://www.w3.org/ns/locn#Address"
-                },
-                "sourceRole": "null",
-                "destRole": "registeredAddress",
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-nl": "",
-                "ap-definition-nl": {
-                    "nl": "TODO"
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "The registered address of the Person."
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "registered address\r\n"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://www.w3.org/ns/locn#address"
-                    }
-                ],
-                "DestRoleTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "The registered address of the Person."
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "registered address\r\n"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://www.w3.org/ns/locn#address"
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://www.w3.org/ns/person#Person",
-                    "EA-Name": "Person"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Address",
-                    "EA-GUID": "{650BCC62-B5E6-4070-8DC6-A39F0953E191}",
-                    "EA-Package": "Core Location",
-                    "uri": "http://www.w3.org/ns/locn#Address"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
             "@id": "http://www.w3.org/ns/adms#schemeAgency",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "issuingAuthorityName",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "issuing authority name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5315,7 +5673,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "issuing authority name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5370,8 +5730,11 @@
         {
             "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "preferredLabel",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "preferred label"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5389,7 +5752,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "preferred label"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5444,8 +5809,11 @@
         {
             "@id": "http://www.w3.org/2004/02/skos/core#notation",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5462,7 +5830,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5516,8 +5886,11 @@
         {
             "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "alternativeLabel",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "alternative label"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5535,7 +5908,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "alternative label"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5585,8 +5960,11 @@
         {
             "@id": "http://www.w3.org/1999/xhtml/vocab#prev",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "prev",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "prev"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5607,7 +5985,9 @@
                 },
                 "sourceRole": "next",
                 "destRole": "prev",
-                "label": "",
+                "label": {
+                    "en": "prev"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5674,8 +6054,11 @@
         {
             "@id": "http://www.w3.org/1999/xhtml/vocab#next",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "next",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "next"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5696,7 +6079,9 @@
                 },
                 "sourceRole": "prev",
                 "destRole": "next",
-                "label": "",
+                "label": {
+                    "en": "next"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5763,8 +6148,11 @@
         {
             "@id": "http://www.opengis.net/ont/geosparql#asWKT",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "wkt",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "wkt"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5781,7 +6169,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "wkt"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5835,8 +6225,11 @@
         {
             "@id": "http://www.opengis.net/ont/geosparql#asGML",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "gml",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "gml"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5853,7 +6246,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "gml"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5907,8 +6302,11 @@
         {
             "@id": "http://www.iceg.be/Organization.hasMember",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "hasMember",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "has member"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5929,7 +6327,9 @@
                 },
                 "sourceRole": "memberOf",
                 "destRole": "hasMember",
-                "label": "",
+                "label": {
+                    "en": "has member"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5996,8 +6396,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/publicorganization#status",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "status",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "status"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6015,7 +6418,9 @@
                     "EA-Package": "DataTypes",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "status"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6065,8 +6470,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/publicorganization#startDateOfThisData",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "startDateOfThisData",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "start date of this data"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6083,7 +6491,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "start date of this data"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6132,8 +6542,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/publicorganization#linksToDatabase",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "linksToDatabase",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "links to database"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6151,7 +6564,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "links to database"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6201,8 +6616,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/publicorganization#legalForm",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "legalForm",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "legal form"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6220,7 +6638,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "legal form"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6270,8 +6690,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/publicorganization#exOfficioStrikingOff",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "exOfficioStrikingOff",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "ex officio striking off"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6289,7 +6712,9 @@
                     "EA-Package": "DataTypes",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "ex officio striking off"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6344,8 +6769,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/publicorganization#certification",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "certification",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "certification"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6363,7 +6791,9 @@
                     "EA-Package": "DataTypes",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "certification"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6413,8 +6843,11 @@
         {
             "@id": "http://purl.org/vocab/cpsv#implements",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "implements",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "implements"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6435,7 +6868,9 @@
                 },
                 "sourceRole": "hasFormalFramework",
                 "destRole": "implements",
-                "label": "",
+                "label": {
+                    "en": "implements"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6502,8 +6937,11 @@
         {
             "@id": "http://purl.org/dc/terms/spatial",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "jurisdiction",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "jurisdiction"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6524,7 +6962,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "spatial",
-                "label": "",
+                "label": {
+                    "en": "jurisdiction"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6601,8 +7041,11 @@
         {
             "@id": "http://purl.org/dc/terms/issued",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfIssue",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "date of issue"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6619,7 +7062,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of issue"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6668,8 +7113,11 @@
         {
             "@id": "http://purl.org/dc/terms/identifier",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6686,7 +7134,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6735,8 +7185,11 @@
         {
             "@id": "http://purl.org/dc/terms/description",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "description",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "description"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6754,7 +7207,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "description"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6804,8 +7259,11 @@
         {
             "@id": "http://purl.org/dc/terms/description",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "description",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "description"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6823,7 +7281,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "description"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6873,8 +7333,11 @@
         {
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "issuingAuthorityUri",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "issuing authority URI"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6891,7 +7354,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
                 },
-                "label": "",
+                "label": {
+                    "en": "issuing authority URI"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6940,8 +7405,83 @@
         {
             "@id": "http://purl.org/dc/terms/conformsTo",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "schemeUri",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "scheme URI"
+            },
+            "ap-definition-nl": {
+                "nl": "TODO"
+            },
+            "extra": {
+                "EA-Name": "schemeURI",
+                "EA-Guid": "{A145710E-6B8F-4a53-B0F3-3AB50C244C08}",
+                "EA-Package": "adms",
+                "EA-Type": "attribute",
+                "EA-Domain": "Identifier",
+                "EA-Domain-Guid": "{4252FD49-50E1-4fa8-AE37-1FE59010D3AB}",
+                "EA-Range": "URI",
+                "RangeData": {
+                    "EA-Name": "URI",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
+                },
+                "label": {
+                    "en": "scheme URI"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-nl": "",
+                "ap-definition-nl": {
+                    "nl": "TODO"
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "URI of the scheme used to construct the identifier.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "scheme URI",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://purl.org/dc/terms/conformsTo",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/adms#Identifier",
+                    "EA-Name": "Identifier"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "URI",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "schemeName",
+            "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "scheme name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6959,7 +7499,9 @@
                     "EA-Package": "Core Vocabulary",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "scheme name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7007,77 +7549,13 @@
             "maxCardinality": "1"
         },
         {
-            "@id": "http://purl.org/dc/terms/conformsTo",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
-            "inpackage": "OTHER_PACKAGE",
-            "ap-definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "schemeURI",
-                "EA-Guid": "{A145710E-6B8F-4a53-B0F3-3AB50C244C08}",
-                "EA-Package": "adms",
-                "EA-Type": "attribute",
-                "EA-Domain": "Identifier",
-                "EA-Domain-Guid": "{4252FD49-50E1-4fa8-AE37-1FE59010D3AB}",
-                "EA-Range": "URI",
-                "RangeData": {
-                    "EA-Name": "URI",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
-                },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-nl": "",
-                "ap-definition-nl": {
-                    "nl": "TODO"
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "URI of the scheme used to construct the identifier.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "scheme URI",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "http://purl.org/dc/terms/conformsTo",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://www.w3.org/ns/adms#Identifier",
-                    "EA-Name": "Identifier"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "URI",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
             "@id": "http://purl.org/dc/terms/alternative",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "alternativeName",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "alternative name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7094,7 +7572,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "alternative name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7148,8 +7628,11 @@
         {
             "@id": "http://data.europa.eu/m8g/hasFormalFramework",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "hasFormalFramework",
             "inpackage": "UNKNOWN",
+            "label": {
+                "en": "has formal framework"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7170,7 +7653,9 @@
                 },
                 "sourceRole": "implements",
                 "destRole": "hasFormalFramework",
-                "label": "",
+                "label": {
+                    "en": "has formal framework"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7237,8 +7722,11 @@
         {
             "@id": "http://data.europa.eu/m8g/geometryType",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "geometryType",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "geometry type"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7256,7 +7744,9 @@
                     "EA-Package": "DataTypes",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "geometry type"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7306,8 +7796,11 @@
         {
             "@id": "http://data.europa.eu/m8g/crs",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "crs",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "crs"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7324,7 +7817,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
                 },
-                "label": "",
+                "label": {
+                    "en": "crs"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7373,8 +7868,11 @@
         {
             "@id": "http://data.europa.eu/m8g/coordinates",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "coordinates",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "coordinates"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7391,7 +7889,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
-                "label": "",
+                "label": {
+                    "en": "coordinates"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",

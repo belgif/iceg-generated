@@ -24,18 +24,20 @@
   "classes": [
     {
       "uri": "http://vocab.belgif.be/ns/person#Birth",
-      "name": "Geboorte",
-      "label": {},
-      "sort": "Geboorte",
+      "name": "Birth",
+      "label": {
+        "en": "Birth"
+      },
+      "sort": "Birth",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoonsgebeurtenis",
+          "label": "Personal event",
           "name": "PersonalEvent",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#PersonalEvent",
-          "scoped_uri": "#Persoonsgebeurtenis"
+          "scoped_uri": "#Personal event"
         }
       ],
       "rawTags": {
@@ -52,18 +54,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Citizen",
-      "name": "Staatsburger",
-      "label": {},
-      "sort": "Staatsburger",
+      "name": "Citizen",
+      "label": {
+        "en": "Citizen"
+      },
+      "sort": "Citizen",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Staatburgerschap",
+          "label": "Citizenship",
           "name": "Citizenship",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#Citizenship",
-          "scoped_uri": "#Staatburgerschap"
+          "scoped_uri": "#Citizenship"
         }
       ],
       "rawTags": {
@@ -78,9 +82,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Citizenship",
-      "name": "Staatburgerschap",
-      "label": {},
-      "sort": "Staatburgerschap",
+      "name": "Citizenship",
+      "label": {
+        "en": "Citizenship"
+      },
+      "sort": "Citizenship",
       "description": {},
       "usage": {},
       "parents": [],
@@ -98,8 +104,8 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#Citizenship.person",
-          "name": "persoon",
-          "sort": "persoon",
+          "name": "",
+          "sort": "",
           "label": {},
           "description": {},
           "usage": {},
@@ -117,10 +123,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "nl": "Persoon"
+                "en": "Person"
               }
             }
           ],
@@ -137,8 +143,8 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#Citizenship.jurisdiction",
-          "name": "jurisdictie",
-          "sort": "jurisdictie",
+          "name": "",
+          "sort": "",
           "label": {},
           "description": {},
           "usage": {},
@@ -156,10 +162,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Jurisdiction",
               "range_puri": "http://purl.org/dc/terms/Jurisdiction",
               "range_label": {
-                "nl": "Jurisdictie"
+                "en": "Jurisdiction"
               }
             }
           ],
@@ -178,9 +184,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#CivilState",
-      "name": "BurgerlijkeStaat",
-      "label": {},
-      "sort": "BurgerlijkeStaat",
+      "name": "CivilState",
+      "label": {
+        "en": "Civil State"
+      },
+      "sort": "Civil State",
       "description": {},
       "usage": {},
       "parents": [],
@@ -200,7 +208,9 @@
           "uri": "http://vocab.belgif.be/ns/person#type",
           "name": "type",
           "sort": "type",
-          "label": {},
+          "label": {
+            "en": "type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -217,10 +227,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#CivilStateType",
+              "range_uri": "#Civil state type",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "CivilStateType"
+                "en": "Civil state type"
               }
             }
           ],
@@ -241,18 +251,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Cohabitation",
-      "name": "Samenwonen",
-      "label": {},
-      "sort": "Samenwonen",
+      "name": "Cohabitation",
+      "label": {
+        "en": "Cohabitation"
+      },
+      "sort": "Cohabitation",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoonsrelatie",
+          "label": "Personal relation",
           "name": "PersonalRelation",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#PersonalRelation",
-          "scoped_uri": "#Persoonsrelatie"
+          "scoped_uri": "#Personal relation"
         }
       ],
       "rawTags": {
@@ -270,18 +282,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Decease",
-      "name": "Overlijden",
-      "label": {},
-      "sort": "Overlijden",
+      "name": "Decease",
+      "label": {
+        "en": "Decease"
+      },
+      "sort": "Decease",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoonsgebeurtenis",
+          "label": "Personal event",
           "name": "PersonalEvent",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#PersonalEvent",
-          "scoped_uri": "#Persoonsgebeurtenis"
+          "scoped_uri": "#Personal event"
         }
       ],
       "rawTags": {
@@ -297,18 +311,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Descent",
-      "name": "Afstamming",
-      "label": {},
-      "sort": "Afstamming",
+      "name": "Descent",
+      "label": {
+        "en": "Descent"
+      },
+      "sort": "Descent",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoonsrelatie",
+          "label": "Personal relation",
           "name": "PersonalRelation",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#PersonalRelation",
-          "scoped_uri": "#Persoonsrelatie"
+          "scoped_uri": "#Personal relation"
         }
       ],
       "rawTags": {
@@ -325,9 +341,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#descentType",
-          "name": "afstammingstype",
-          "sort": "afstammingstype",
-          "label": {},
+          "name": "descentType",
+          "sort": "descent type",
+          "label": {
+            "en": "descent type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -344,10 +362,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#DescentType",
+              "range_uri": "#Descent type",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "DescentType"
+                "en": "Descent type"
               }
             }
           ],
@@ -367,9 +385,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#dateOfDescent",
-          "name": "datumVanAfstamming",
-          "sort": "datumVanAfstamming",
-          "label": {},
+          "name": "dateOfDescent",
+          "sort": "date of descent",
+          "label": {
+            "en": "date of descent"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -410,18 +430,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Domicilie",
-      "name": "Domicilie",
-      "label": {},
-      "sort": "Domicilie",
+      "name": "Domicile",
+      "label": {
+        "en": "Domicile"
+      },
+      "sort": "Domicile",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Verblijfplaats",
+          "label": "Residence",
           "name": "Residence",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#Residence",
-          "scoped_uri": "#Verblijfplaats"
+          "scoped_uri": "#Residence"
         }
       ],
       "rawTags": {
@@ -439,18 +461,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Foreigner",
-      "name": "Vreemdeling",
-      "label": {},
-      "sort": "Vreemdeling",
+      "name": "Foreigner",
+      "label": {
+        "en": "Foreigner"
+      },
+      "sort": "Foreigner",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Staatburgerschap",
+          "label": "Citizenship",
           "name": "Citizenship",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#Citizenship",
-          "scoped_uri": "#Staatburgerschap"
+          "scoped_uri": "#Citizenship"
         }
       ],
       "rawTags": {
@@ -468,18 +492,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Guardianship",
-      "name": "Voogdij",
-      "label": {},
-      "sort": "Voogdij",
+      "name": "Guardianship",
+      "label": {
+        "en": "Guardianship"
+      },
+      "sort": "Guardianship",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoonsrelatie",
+          "label": "Personal relation",
           "name": "PersonalRelation",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#PersonalRelation",
-          "scoped_uri": "#Persoonsrelatie"
+          "scoped_uri": "#Personal relation"
         }
       ],
       "rawTags": {
@@ -496,18 +522,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Household",
-      "name": "Gezin",
-      "label": {},
-      "sort": "Gezin",
+      "name": "Household",
+      "label": {
+        "en": "Household"
+      },
+      "sort": "Household",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Organisatie",
+          "label": "Organization",
           "name": "Organization",
           "package": "org",
           "uri": "http://www.w3.org/ns/org#Organization",
-          "scoped_uri": "#Organisatie"
+          "scoped_uri": "#Organization"
         }
       ],
       "rawTags": {
@@ -524,9 +552,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#householder",
-          "name": "gezinshoofd",
-          "sort": "gezinshoofd",
-          "label": {},
+          "name": "householder",
+          "sort": "householder",
+          "label": {
+            "en": "householder"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -543,10 +573,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "nl": "Persoon"
+                "en": "Person"
               }
             }
           ],
@@ -563,9 +593,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#householdMember",
-          "name": "gezinslid",
-          "sort": "gezinslid",
-          "label": {},
+          "name": "householdMember",
+          "sort": "household member",
+          "label": {
+            "en": "household member"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -582,10 +614,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "nl": "Persoon"
+                "en": "Person"
               }
             }
           ],
@@ -602,9 +634,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#householdAddress",
-          "name": "gezinsadres",
-          "sort": "gezinsadres",
-          "label": {},
+          "name": "householdAddress",
+          "sort": "household address",
+          "label": {
+            "en": "household address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -621,10 +655,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Address representation",
               "range_puri": "http://www.w3.org/ns/locn#Address",
               "range_label": {
-                "nl": "Adresvoorstelling"
+                "en": "Address representation"
               }
             }
           ],
@@ -646,18 +680,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#HouseholdRelation",
-      "name": "Gezinsrelatie",
-      "label": {},
-      "sort": "Gezinsrelatie",
+      "name": "HouseholdRelation",
+      "label": {
+        "en": "Household relation"
+      },
+      "sort": "Household relation",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoonsrelatie",
+          "label": "Personal relation",
           "name": "PersonalRelation",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#PersonalRelation",
-          "scoped_uri": "#Persoonsrelatie"
+          "scoped_uri": "#Personal relation"
         }
       ],
       "rawTags": {
@@ -674,9 +710,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#typeOfHouseholdRelation",
-          "name": "gezinsrelatietype",
-          "sort": "gezinsrelatietype",
-          "label": {},
+          "name": "typeOfHouseholdRelation",
+          "sort": "type of household relation",
+          "label": {
+            "en": "type of household relation"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -693,10 +731,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#HouseholdRelationType",
+              "range_uri": "#Household relation type",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "HouseholdRelationType"
+                "en": "Household relation type"
               }
             }
           ],
@@ -718,18 +756,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Marriage",
-      "name": "Huwelijk",
-      "label": {},
-      "sort": "Huwelijk",
+      "name": "Marriage",
+      "label": {
+        "en": "Marriage"
+      },
+      "sort": "Marriage",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoonsrelatie",
+          "label": "Personal relation",
           "name": "PersonalRelation",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#PersonalRelation",
-          "scoped_uri": "#Persoonsrelatie"
+          "scoped_uri": "#Personal relation"
         }
       ],
       "rawTags": {
@@ -747,9 +787,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Nationality",
-      "name": "Nationaliteit",
-      "label": {},
-      "sort": "Nationaliteit",
+      "name": "Nationality",
+      "label": {
+        "en": "Nationality"
+      },
+      "sort": "Nationality",
       "description": {},
       "usage": {},
       "parents": [],
@@ -767,9 +809,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#nationality",
-          "name": "nationaliteit",
-          "sort": "nationaliteit",
-          "label": {},
+          "name": "nationality",
+          "sort": "nationality",
+          "label": {
+            "en": "nationality"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -786,10 +830,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#NationalityCode",
+              "range_uri": "#Nationality code",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "NationalityCode"
+                "en": "Nationality code"
               }
             }
           ],
@@ -808,18 +852,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#NonResident",
-      "name": "GeenInwoner",
-      "label": {},
-      "sort": "GeenInwoner",
+      "name": "NonResident",
+      "label": {
+        "en": "Non resident"
+      },
+      "sort": "Non resident",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Inwonerschap",
+          "label": "Residency",
           "name": "Residency",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#Residency",
-          "scoped_uri": "#Inwonerschap"
+          "scoped_uri": "#Residency"
         }
       ],
       "rawTags": {
@@ -837,18 +883,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#PermanentResident",
-      "name": "PermanentInwoner",
-      "label": {},
-      "sort": "PermanentInwoner",
+      "name": "PermantResident",
+      "label": {
+        "en": "Permant resident"
+      },
+      "sort": "Permant resident",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Inwoner",
+          "label": "Resident",
           "name": "Resident",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#Resident",
-          "scoped_uri": "#Inwoner"
+          "scoped_uri": "#Resident"
         }
       ],
       "rawTags": {
@@ -866,9 +914,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#PersonalEvent",
-      "name": "Persoonsgebeurtenis",
-      "label": {},
-      "sort": "Persoonsgebeurtenis",
+      "name": "PersonalEvent",
+      "label": {
+        "en": "Personal event"
+      },
+      "sort": "Personal event",
       "description": {},
       "usage": {},
       "parents": [],
@@ -884,9 +934,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#place",
-          "name": "plaats",
-          "sort": "plaats",
-          "label": {},
+          "name": "place",
+          "sort": "place",
+          "label": {
+            "en": "place"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -903,10 +955,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Place",
               "range_puri": "http://purl.org/dc/terms/Location",
               "range_label": {
-                "nl": "Plaats"
+                "en": "Place"
               }
             }
           ],
@@ -925,9 +977,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#date",
-          "name": "datum",
-          "sort": "datum",
-          "label": {},
+          "name": "date",
+          "sort": "date",
+          "label": {
+            "en": "date"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -966,9 +1020,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#country",
-          "name": "land",
-          "sort": "land",
-          "label": {},
+          "name": "country",
+          "sort": "country",
+          "label": {
+            "en": "country"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -985,10 +1041,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Place",
               "range_puri": "http://purl.org/dc/terms/Location",
               "range_label": {
-                "nl": "Plaats"
+                "en": "Place"
               }
             }
           ],
@@ -1009,9 +1065,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#PersonalRelation",
-      "name": "Persoonsrelatie",
-      "label": {},
-      "sort": "Persoonsrelatie",
+      "name": "PersonalRelation",
+      "label": {
+        "en": "Personal relation"
+      },
+      "sort": "Personal relation",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1029,8 +1087,8 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#PersonalRelation.person.target",
-          "name": "persoon(target)",
-          "sort": "persoon(target)",
+          "name": "",
+          "sort": "",
           "label": {},
           "description": {},
           "usage": {},
@@ -1048,10 +1106,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "nl": "Persoon"
+                "en": "Person"
               }
             }
           ],
@@ -1067,9 +1125,9 @@
           }
         },
         {
-          "uri": "http://vocab.belgif.be/ns/person#PersonalRelation.person.source",
-          "name": "persoon(source)",
-          "sort": "persoon(source)",
+          "uri": "http://vocab.belgif.be/ns/person#PersonalRelation.person.target",
+          "name": "",
+          "sort": "",
           "label": {},
           "description": {},
           "usage": {},
@@ -1087,10 +1145,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "nl": "Persoon"
+                "en": "Person"
               }
             }
           ],
@@ -1109,18 +1167,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#RegisteredPerson",
-      "name": "GeregistreerdPersoon",
-      "label": {},
-      "sort": "GeregistreerdPersoon",
+      "name": "RegisteredPerson",
+      "label": {
+        "en": "Registered person"
+      },
+      "sort": "Registered person",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Persoon",
+          "label": "Person",
           "name": "Person",
           "package": "ICEG-Person",
           "uri": "http://www.w3.org/ns/person#Person",
-          "scoped_uri": "#Persoon"
+          "scoped_uri": "#Person"
         }
       ],
       "rawTags": {
@@ -1137,9 +1197,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#registration",
-          "name": "registratie",
-          "sort": "registratie",
-          "label": {},
+          "name": "registration",
+          "sort": "registration",
+          "label": {
+            "en": "registration"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1156,10 +1218,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Identifier",
               "range_puri": "http://www.w3.org/ns/adms#Identifier",
               "range_label": {
-                "nl": "Identificator"
+                "en": "Identifier"
               }
             }
           ],
@@ -1180,9 +1242,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Residence",
-      "name": "Verblijfplaats",
-      "label": {},
-      "sort": "Verblijfplaats",
+      "name": "Residence",
+      "label": {
+        "en": "Residence"
+      },
+      "sort": "Residence",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1197,9 +1261,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#residenceAddress",
-          "name": "verblijfsadres",
-          "sort": "verblijfsadres",
-          "label": {},
+          "name": "residenceAddress",
+          "sort": "residence address",
+          "label": {
+            "en": "residence address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1216,10 +1282,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Address representation",
               "range_puri": "http://www.w3.org/ns/locn#Address",
               "range_label": {
-                "nl": "Adresvoorstelling"
+                "en": "Address representation"
               }
             }
           ],
@@ -1239,9 +1305,11 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Residency",
-      "name": "Inwonerschap",
-      "label": {},
-      "sort": "Inwonerschap",
+      "name": "Residency",
+      "label": {
+        "en": "Residency"
+      },
+      "sort": "Residency",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1256,9 +1324,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#hasResidence",
-          "name": "heeftVerblijfplaats",
-          "sort": "heeftVerblijfplaats",
-          "label": {},
+          "name": "hasResidence",
+          "sort": "has residence",
+          "label": {
+            "en": "has residence"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1275,10 +1345,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Residence",
               "range_puri": "http://vocab.belgif.be/ns/person#Residence",
               "range_label": {
-                "nl": "Verblijfplaats"
+                "en": "Residence"
               }
             }
           ],
@@ -1295,8 +1365,8 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#Residency.person",
-          "name": "persoon",
-          "sort": "persoon",
+          "name": "",
+          "sort": "",
           "label": {},
           "description": {},
           "usage": {},
@@ -1314,10 +1384,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "nl": "Persoon"
+                "en": "Person"
               }
             }
           ],
@@ -1334,8 +1404,8 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#Residency.jurisdiction",
-          "name": "jurisdictie",
-          "sort": "jurisdictie",
+          "name": "",
+          "sort": "",
           "label": {},
           "description": {},
           "usage": {},
@@ -1353,10 +1423,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Jurisdiction",
               "range_puri": "http://purl.org/dc/terms/Jurisdiction",
               "range_label": {
-                "nl": "Jurisdictie"
+                "en": "Jurisdiction"
               }
             }
           ],
@@ -1375,18 +1445,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Resident",
-      "name": "Inwoner",
-      "label": {},
-      "sort": "Inwoner",
+      "name": "Resident",
+      "label": {
+        "en": "Resident"
+      },
+      "sort": "Resident",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Inwonerschap",
+          "label": "Residency",
           "name": "Residency",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#Residency",
-          "scoped_uri": "#Inwonerschap"
+          "scoped_uri": "#Residency"
         }
       ],
       "rawTags": {
@@ -1404,18 +1476,20 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#TemporaryResident",
-      "name": "TijdelijkInwoner",
-      "label": {},
-      "sort": "TijdelijkInwoner",
+      "name": "TemporaryResident",
+      "label": {
+        "en": "Temporary resident"
+      },
+      "sort": "Temporary resident",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "Inwoner",
+          "label": "Resident",
           "name": "Resident",
           "package": "ICEG-Person",
           "uri": "http://vocab.belgif.be/ns/person#Resident",
-          "scoped_uri": "#Inwoner"
+          "scoped_uri": "#Resident"
         }
       ],
       "rawTags": {
@@ -1434,7 +1508,9 @@
     {
       "uri": "http://purl.org/dc/terms/Agent",
       "name": "Agent",
-      "label": {},
+      "label": {
+        "en": "Agent"
+      },
       "sort": "Agent",
       "description": {},
       "usage": {},
@@ -1451,9 +1527,11 @@
     },
     {
       "uri": "http://purl.org/dc/terms/Jurisdiction",
-      "name": "Jurisdictie",
-      "label": {},
-      "sort": "Jurisdictie",
+      "name": "Jurisdiction",
+      "label": {
+        "en": "Jurisdiction"
+      },
+      "sort": "Jurisdiction",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1471,9 +1549,11 @@
       "properties": [
         {
           "uri": "http://fixme.com#place",
-          "name": "plaats",
-          "sort": "plaats",
-          "label": {},
+          "name": "place",
+          "sort": "place",
+          "label": {
+            "en": "place"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1490,10 +1570,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Place",
               "range_puri": "http://purl.org/dc/terms/Location",
               "range_label": {
-                "nl": "Plaats"
+                "en": "Place"
               }
             }
           ],
@@ -1514,9 +1594,11 @@
     },
     {
       "uri": "http://purl.org/dc/terms/Location",
-      "name": "Plaats",
-      "label": {},
-      "sort": "Plaats",
+      "name": "Place",
+      "label": {
+        "en": "Place"
+      },
+      "sort": "Place",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1534,9 +1616,11 @@
       "properties": [
         {
           "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-          "name": "plaatsnaam",
-          "sort": "plaatsnaam",
-          "label": {},
+          "name": "placeName",
+          "sort": "place name",
+          "label": {
+            "en": "place name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1578,9 +1662,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Organization",
-      "name": "Organisatie",
-      "label": {},
-      "sort": "Organisatie",
+      "name": "Organization",
+      "label": {
+        "en": "Organization"
+      },
+      "sort": "Organization",
       "description": {},
       "usage": {},
       "parents": [
@@ -1605,9 +1691,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/person#Person",
-      "name": "Persoon",
-      "label": {},
-      "sort": "Persoon",
+      "name": "Person",
+      "label": {
+        "en": "Person"
+      },
+      "sort": "Person",
       "description": {},
       "usage": {},
       "parents": [
@@ -1632,9 +1720,11 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/person#memberOf",
-          "name": "isLidVan",
-          "sort": "isLidVan",
-          "label": {},
+          "name": "memberOf",
+          "sort": "member of",
+          "label": {
+            "en": "member of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1651,10 +1741,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Household",
               "range_puri": "http://vocab.belgif.be/ns/person#Household",
               "range_label": {
-                "nl": "Gezin"
+                "en": "Household"
               }
             }
           ],
@@ -1672,9 +1762,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#heeftNationaliteit",
-          "name": "heeftNationaliteit",
-          "sort": "heeftNationaliteit",
-          "label": {},
+          "name": "hasNationality",
+          "sort": "has nationality",
+          "label": {
+            "en": "has nationality"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1691,10 +1783,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Nationality",
               "range_puri": "http://vocab.belgif.be/ns/person#Nationality",
               "range_label": {
-                "nl": "Nationaliteit"
+                "en": "Nationality"
               }
             }
           ],
@@ -1711,9 +1803,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#headOf",
-          "name": "isHoofdVan",
-          "sort": "isHoofdVan",
-          "label": {},
+          "name": "headOf",
+          "sort": "head of",
+          "label": {
+            "en": "head of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1730,10 +1824,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Household",
               "range_puri": "http://vocab.belgif.be/ns/person#Household",
               "range_label": {
-                "nl": "Gezin"
+                "en": "Household"
               }
             }
           ],
@@ -1751,9 +1845,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#hasRelationWith",
-          "name": "heeftRelatieMet",
-          "sort": "heeftRelatieMet",
-          "label": {},
+          "name": "hasRelationWith",
+          "sort": "has relation with",
+          "label": {
+            "en": "has relation with"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1770,10 +1866,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Person",
               "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "nl": "Persoon"
+                "en": "Person"
               }
             }
           ],
@@ -1790,9 +1886,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#hasDecease",
-          "name": "heeftOverlijden",
-          "sort": "heeftOverlijden",
-          "label": {},
+          "name": "hasDecease",
+          "sort": "has decease",
+          "label": {
+            "en": "has decease"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1809,10 +1907,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Decease",
               "range_puri": "http://vocab.belgif.be/ns/person#Decease",
               "range_label": {
-                "nl": "Overlijden"
+                "en": "Decease"
               }
             }
           ],
@@ -1830,9 +1928,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#hasCivilState",
-          "name": "heeftBurgerlijkeStaat",
-          "sort": "heeftBurgerlijkeStaat",
-          "label": {},
+          "name": "hasCivilState",
+          "sort": "has civil state",
+          "label": {
+            "en": "has civil state"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1849,10 +1949,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Civil State",
               "range_puri": "http://vocab.belgif.be/ns/person#CivilState",
               "range_label": {
-                "nl": "Burgerlijke Staat"
+                "en": "Civil State"
               }
             }
           ],
@@ -1870,9 +1970,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#hasBirth",
-          "name": "heeftGeboorte",
-          "sort": "heeftGeboorte",
-          "label": {},
+          "name": "hasBirth",
+          "sort": "has birth",
+          "label": {
+            "en": "has birth"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1889,10 +1991,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Birth",
               "range_puri": "http://vocab.belgif.be/ns/person#Birth",
               "range_label": {
-                "nl": "Geboorte"
+                "en": "Birth"
               }
             }
           ],
@@ -1910,9 +2012,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#gender",
-          "name": "geslacht",
-          "sort": "geslacht",
-          "label": {},
+          "name": "gender",
+          "sort": "gender",
+          "label": {
+            "en": "gender"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1950,9 +2054,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#fullName",
-          "name": "volledigeNaam",
-          "sort": "volledigeNaam",
-          "label": {},
+          "name": "fullName",
+          "sort": "full name",
+          "label": {
+            "en": "full name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1990,9 +2096,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#firstGivenName",
-          "name": "gebruikteVoornaam",
-          "sort": "gebruikteVoornaam",
-          "label": {},
+          "name": "firstGivenName",
+          "sort": "first given name",
+          "label": {
+            "en": "first given name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2030,9 +2138,11 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#alternativeName",
-          "name": "alternatieveNaam",
-          "sort": "alternatieveNaam",
-          "label": {},
+          "name": "alternativeName",
+          "sort": "alternative name",
+          "label": {
+            "en": "alternative name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2072,9 +2182,11 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/givenName",
-          "name": "voornaam",
-          "sort": "voornaam",
-          "label": {},
+          "name": "givenName",
+          "sort": "given name",
+          "label": {
+            "en": "given name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2113,9 +2225,11 @@
         },
         {
           "uri": "http://xmlns.com/foaf/0.1/familyName",
-          "name": "achternaam",
-          "sort": "achternaam",
-          "label": {},
+          "name": "familyName",
+          "sort": "family name",
+          "label": {
+            "en": "family name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2155,9 +2269,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#residency",
-          "name": "inwonerschap",
-          "sort": "inwonerschap",
-          "label": {},
+          "name": "residency",
+          "sort": "residency",
+          "label": {
+            "en": "residency"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2174,10 +2290,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Jurisdiction",
               "range_puri": "http://purl.org/dc/terms/Jurisdiction",
               "range_label": {
-                "nl": "Jurisdictie"
+                "en": "Jurisdiction"
               }
             }
           ],
@@ -2196,9 +2312,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#patronymicName",
-          "name": "patroniem",
-          "sort": "patroniem",
-          "label": {},
+          "name": "patronymic",
+          "sort": "patronymic",
+          "label": {
+            "en": "patronymic"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2236,9 +2354,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#citizenship",
-          "name": "staatsburgerschap",
-          "sort": "staatsburgerschap",
-          "label": {},
+          "name": "citizenship",
+          "sort": "citizenship",
+          "label": {
+            "en": "citizenship"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2255,10 +2375,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Jurisdiction",
               "range_puri": "http://purl.org/dc/terms/Jurisdiction",
               "range_label": {
-                "nl": "Jurisdictie"
+                "en": "Jurisdiction"
               }
             }
           ],
@@ -2277,9 +2397,11 @@
         },
         {
           "uri": "http://www.w3.org/ns/person#birthName",
-          "name": "geboortenaam",
-          "sort": "geboortenaam",
-          "label": {},
+          "name": "birthName",
+          "sort": "birth name",
+          "label": {
+            "en": "birth name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2318,9 +2440,11 @@
         },
         {
           "uri": "http://schema.org/contactPoint",
-          "name": "contactinfo",
-          "sort": "contactinfo",
-          "label": {},
+          "name": "contactInfo",
+          "sort": "contact info",
+          "label": {
+            "en": "contact info"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2337,10 +2461,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#undefined",
+              "range_uri": "#Contact info",
               "range_puri": "https://schema.org/ContactPoint",
               "range_label": {
-                "nl": "Contactinfo"
+                "en": "Contact info"
               }
             }
           ],
@@ -2364,8 +2488,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#typeOfHouseholdRelation",
       "name": {
-        "nl": "gezinsrelatietype",
-        "undefined": "gezinsrelatietype"
+        "en": "type of household relation",
+        "undefined": "typeOfHouseholdRelation"
       },
       "description": {},
       "domain": [
@@ -2379,7 +2503,7 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#type",
       "name": {
-        "nl": "type",
+        "en": "type",
         "undefined": "type"
       },
       "description": {},
@@ -2396,8 +2520,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#residenceAddress",
       "name": {
-        "nl": "verblijfsadres",
-        "undefined": "verblijfsadres"
+        "en": "residence address",
+        "undefined": "residenceAddress"
       },
       "description": {},
       "domain": [
@@ -2411,8 +2535,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#registration",
       "name": {
-        "nl": "registratie",
-        "undefined": "registratie"
+        "en": "registration",
+        "undefined": "registration"
       },
       "description": {},
       "domain": [
@@ -2428,8 +2552,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#place",
       "name": {
-        "nl": "plaats",
-        "undefined": "plaats"
+        "en": "place",
+        "undefined": "place"
       },
       "description": {},
       "domain": [
@@ -2445,8 +2569,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#nationality",
       "name": {
-        "nl": "nationaliteit",
-        "undefined": "nationaliteit"
+        "en": "nationality",
+        "undefined": "nationality"
       },
       "description": {},
       "domain": [
@@ -2460,8 +2584,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#memberOf",
       "name": {
-        "nl": "is lid van",
-        "undefined": "isLidVan"
+        "en": "member of",
+        "undefined": "memberOf"
       },
       "description": {},
       "domain": [
@@ -2477,8 +2601,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#householder",
       "name": {
-        "nl": "gezinshoofd",
-        "undefined": "gezinshoofd"
+        "en": "householder",
+        "undefined": "householder"
       },
       "description": {},
       "domain": [
@@ -2492,8 +2616,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#householdMember",
       "name": {
-        "nl": "gezinslid",
-        "undefined": "gezinslid"
+        "en": "household member",
+        "undefined": "householdMember"
       },
       "description": {},
       "domain": [
@@ -2507,8 +2631,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#householdAddress",
       "name": {
-        "nl": "gezinsadres",
-        "undefined": "gezinsadres"
+        "en": "household address",
+        "undefined": "householdAddress"
       },
       "description": {},
       "domain": [
@@ -2522,8 +2646,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#heeftNationaliteit",
       "name": {
-        "nl": "heeft nationaliteit",
-        "undefined": "heeftNationaliteit"
+        "en": "has nationality",
+        "undefined": "hasNationality"
       },
       "description": {},
       "domain": [
@@ -2537,8 +2661,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#headOf",
       "name": {
-        "nl": "is hoofd van",
-        "undefined": "isHoofdVan"
+        "en": "head of",
+        "undefined": "headOf"
       },
       "description": {},
       "domain": [
@@ -2554,8 +2678,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#hasResidence",
       "name": {
-        "nl": "heeft verblijfplaats",
-        "undefined": "heeftVerblijfplaats"
+        "en": "has residence",
+        "undefined": "hasResidence"
       },
       "description": {},
       "domain": [
@@ -2569,8 +2693,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#hasRelationWith",
       "name": {
-        "nl": "heeft relatie met",
-        "undefined": "heeftRelatieMet"
+        "en": "has relation with",
+        "undefined": "hasRelationWith"
       },
       "description": {},
       "domain": [
@@ -2584,8 +2708,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#hasDecease",
       "name": {
-        "nl": "heeft overlijden",
-        "undefined": "heeftOverlijden"
+        "en": "has decease",
+        "undefined": "hasDecease"
       },
       "description": {},
       "domain": [
@@ -2601,8 +2725,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#hasCivilState",
       "name": {
-        "nl": "heeft burgerlijke staat",
-        "undefined": "heeftBurgerlijkeStaat"
+        "en": "has civil state",
+        "undefined": "hasCivilState"
       },
       "description": {},
       "domain": [
@@ -2616,8 +2740,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#hasBirth",
       "name": {
-        "nl": "heeft geboorte",
-        "undefined": "heeftGeboorte"
+        "en": "has birth",
+        "undefined": "hasBirth"
       },
       "description": {},
       "domain": [
@@ -2633,8 +2757,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#gender",
       "name": {
-        "nl": "geslacht",
-        "undefined": "geslacht"
+        "en": "gender",
+        "undefined": "gender"
       },
       "description": {},
       "domain": [
@@ -2648,8 +2772,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#descentType",
       "name": {
-        "nl": "afstammingstype",
-        "undefined": "afstammingstype"
+        "en": "descent type",
+        "undefined": "descentType"
       },
       "description": {},
       "domain": [
@@ -2663,8 +2787,8 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#country",
       "name": {
-        "nl": "land",
-        "undefined": "land"
+        "en": "country",
+        "undefined": "country"
       },
       "description": {},
       "domain": [
@@ -2680,8 +2804,7 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#Residency.person",
       "name": {
-        "nl": "Persoon",
-        "undefined": "persoon"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2695,8 +2818,7 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#Residency.jurisdiction",
       "name": {
-        "nl": "Jurisdictie",
-        "undefined": "jurisdictie"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2710,8 +2832,7 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#PersonalRelation.person.target",
       "name": {
-        "nl": "Persoon (target)",
-        "undefined": "persoon(target)"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2723,10 +2844,9 @@
       "parents": []
     },
     {
-      "uri": "http://vocab.belgif.be/ns/person#PersonalRelation.person.source",
+      "uri": "http://vocab.belgif.be/ns/person#PersonalRelation.person.target",
       "name": {
-        "nl": "Persoon (source)",
-        "undefined": "persoon(source)"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2740,8 +2860,7 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#Citizenship.person",
       "name": {
-        "nl": "Persoon",
-        "undefined": "persoon"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2755,8 +2874,7 @@
     {
       "uri": "http://vocab.belgif.be/ns/person#Citizenship.jurisdiction",
       "name": {
-        "nl": "Jurisdictie",
-        "undefined": "jurisdictie"
+        "undefined": ""
       },
       "description": {},
       "domain": [
@@ -2789,9 +2907,11 @@
   "datatypes": [
     {
       "uri": "http://www.w3.org/ns/adms#Identifier",
-      "name": "Identificator",
-      "label": {},
-      "sort": "Identificator",
+      "name": "Identifier",
+      "label": {
+        "en": "Identifier"
+      },
+      "sort": "Identifier",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2806,9 +2926,11 @@
     },
     {
       "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "Adresvoorstelling",
-      "label": {},
-      "sort": "Adresvoorstelling",
+      "name": "AddressRepresentation",
+      "label": {
+        "en": "Address representation"
+      },
+      "sort": "Address representation",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2828,9 +2950,11 @@
     },
     {
       "uri": "https://schema.org/ContactPoint",
-      "name": "Contactinfo",
-      "label": {},
-      "sort": "Contactinfo",
+      "name": "ContactInfo",
+      "label": {
+        "en": "Contact info"
+      },
+      "sort": "Contact info",
       "description": {},
       "usage": {},
       "parents": [],

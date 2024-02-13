@@ -13,6 +13,11 @@
     "ImageObject": "https://schema.org/ImageObject",
     "OpeningHoursSpecification": "https://schema.org/OpeningHoursSpecification",
     "Organization": "http://www.w3.org/ns/org#Organization",
+    "Organization.hasMember": {
+      "@container": "@set",
+      "@id": "http://www.iceg.be/Organization.hasMember",
+      "@type": "@id"
+    },
     "Organization.identifier": {
       "@container": "@set",
       "@id": "https://www.w3.org/ns/adms#Identifier",
@@ -83,6 +88,11 @@
       "@container": "@set",
       "@id": "http://vocab.belgif.be/ns/publicorganization#certification",
       "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "changedBy": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#changedBy",
+      "@type": "@id"
     },
     "contactPoint": {
       "@container": "@set",
@@ -156,13 +166,33 @@
     "hasEmail": {
       "@id": "https://schema.org/email"
     },
+    "hasFormalFramework": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/hasFormalFramework",
+      "@type": "@id"
+    },
+    "hasPost": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#hasPost",
+      "@type": "@id"
+    },
     "hasSite": {
       "@container": "@set",
       "@id": "http://www.w3.org/ns/org#hasSite",
       "@type": "@id"
     },
+    "hasSubOrganization": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#hasSubOrganization",
+      "@type": "@id"
+    },
     "hasTelephone": {
       "@id": "https://schema.org/telephone"
+    },
+    "hasUnit": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#hasUnit",
+      "@type": "@id"
     },
     "holds": {
       "@container": "@set",
@@ -214,6 +244,11 @@
       "@id": "https://schema.org/longitude",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
+    "next": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/1999/xhtml/vocab#next",
+      "@type": "@id"
+    },
     "openingHours": {
       "@id": "https://schema.org/openingHours"
     },
@@ -258,6 +293,11 @@
     },
     "registeredAddress": {
       "@id": "http://www.w3.org/ns/locn#address",
+      "@type": "@id"
+    },
+    "resultedFrom": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#resultedFrom",
       "@type": "@id"
     },
     "resultingOrganization": {

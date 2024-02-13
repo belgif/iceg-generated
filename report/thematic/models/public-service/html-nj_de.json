@@ -23,9 +23,12 @@
   "classes": [
     {
       "uri": "http://data.europa.eu/eli/ontology#LegalResource",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "LegalResource",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Legal Resource"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -38,9 +41,12 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/relation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "related",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "related"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -57,10 +63,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "de": "LegalResource"
+                "de": "Enter your translation here",
+                "en": "Legal Resource"
               }
             }
           ],
@@ -76,9 +83,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/BusinessEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "BusinessEvent",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Business Event"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [
@@ -99,9 +109,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Channel",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Channel",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Channel"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -113,9 +126,12 @@
       "properties": [
         {
           "uri": "https://schema.org/openingHours",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "openingHours",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "opening hours"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -150,9 +166,12 @@
         },
         {
           "uri": "https://schema.org/hoursAvailable",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "availabilityRestriction",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "availability restriction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -169,10 +188,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#OpeningHoursSpecification",
+              "range_uri": "#Enter your translation here",
               "range_puri": "https://schema.org/OpeningHoursSpecification",
               "range_label": {
-                "de": "OpeningHoursSpecification"
+                "de": "Enter your translation here",
+                "en": "Opening Hours Specification"
               }
             }
           ],
@@ -186,9 +206,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasPurpose",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has purpose"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -205,47 +228,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Purpose",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://vocab.belgif.be/ns/publicservice#Purpose",
               "range_label": {
-                "de": "Purpose"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "has purpose",
-            "definition-en": "This property describes the relationship between a purpose and a channel. ",
-            "uri": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-            "usageNote-en": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ..."
-          }
-        },
-        {
-          "uri": "http://vocab.belgif.be/ns/publicservice#hasPurpose",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Channel",
-              "uri": "http://data.europa.eu/m8g/Channel"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Purpose",
-              "range_uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Purpose",
-              "range_puri": "http://vocab.belgif.be/ns/publicservice#Purpose",
-              "range_label": {
-                "de": "Purpose"
+                "de": "Enter your translation here",
+                "en": "Purpose"
               }
             }
           ],
@@ -260,9 +247,12 @@
         },
         {
           "uri": "http://purl.org/vocab/cpsv#hasInput",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "viaChannel",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "via channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -279,10 +269,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Evidence",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Evidence",
               "range_label": {
-                "de": "Evidence"
+                "de": "Enter your translation here",
+                "en": "Evidence"
               }
             }
           ],
@@ -296,9 +287,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -332,9 +326,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -365,14 +362,57 @@
             "label-en": "description",
             "uri": "http://purl.org/dc/terms/description"
           }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/ownedBy",
+          "name": "ownedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "owned by"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Channel",
+              "uri": "http://data.europa.eu/m8g/Channel"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PublicOrganization",
+              "range_uri": "http://data.europa.eu/m8g/PublicOrganisation"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Public Organization"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "owned by",
+            "uri": "http://data.europa.eu/m8g/ownedBy",
+            "definition-en": "NOTE$ea_notes=This property indicates the owner of a specific Channel through which a Public Service is being delivered."
+          }
         }
       ]
     },
     {
       "uri": "http://data.europa.eu/m8g/Cost",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Cost",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Cost"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -384,9 +424,12 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#costBreakdown",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "costBreakdown",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "cost breakdown"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -421,9 +464,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -457,9 +503,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -493,9 +542,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/value",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "value",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "value"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -529,9 +581,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isDefinedBy",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isDefinedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is defined by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -548,10 +603,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicOrganization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
               "range_label": {
-                "de": "PublicOrganization"
+                "de": "Enter your translation here",
+                "en": "Public Organization"
               }
             }
           ],
@@ -565,9 +621,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/ifAccessedThrough",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "ifAccessedThrough",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "if accessed through"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -584,10 +643,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Channel",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Channel",
               "range_label": {
-                "de": "Channel"
+                "de": "Enter your translation here",
+                "en": "Channel"
               }
             }
           ],
@@ -601,9 +661,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/currency",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "currency",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "currency"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -639,9 +702,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Event",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Event",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Event"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -653,9 +719,12 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/type",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "type",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -689,9 +758,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -725,9 +797,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/relation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "relatedService",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "related service"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -744,10 +819,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicService",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://purl.org/vocab/cpsv#PublicService",
               "range_label": {
-                "de": "PublicService"
+                "de": "Enter your translation here",
+                "en": "Public Service"
               }
             }
           ],
@@ -761,9 +837,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -797,9 +876,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -835,9 +917,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Evidence",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Evidence",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Evidence"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -850,9 +935,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL1",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "country",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "country"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -886,10 +974,53 @@
           }
         },
         {
+          "uri": "http://vocab.belgif.be/ns/publicservice#comesFrom",
+          "name": "comesFrom",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "comes from"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Evidence",
+              "uri": "http://data.europa.eu/m8g/Evidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Output",
+              "range_uri": "http://data.europa.eu/m8g/Output"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/Output",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Output"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://vocab.belgif.be/ns/publicservice#comesFrom",
+            "label-en": "comes from",
+            "definition-en": "NOTE$ea_notes=This property describes the case where an Evidence is considered as one or multiple Output. \r\nThis property might be used when a Public Service consumes its own Output as Evidence."
+          }
+        },
+        {
           "uri": "http://purl.org/dc/terms/subject",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isAbout",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is about"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -906,10 +1037,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -923,9 +1055,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/publisher",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isIssuedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is issued by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -942,10 +1077,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -959,9 +1095,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/provenance",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isProvidedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is provided by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -978,10 +1117,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -995,9 +1135,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/language",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "language",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "language"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1031,9 +1174,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/creator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isCreatedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is created by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1050,10 +1196,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -1067,9 +1214,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/supportsRequirement",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "supportsRequirement",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "supports Requirement"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1086,46 +1236,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Requirement",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Requirement",
               "range_label": {
-                "de": "Requirement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "supports Requirement",
-            "definition-en": "The Requirement for which the Evidence provides information (proof, support).",
-            "uri": "http://data.europa.eu/m8g/supportsRequirement"
-          }
-        },
-        {
-          "uri": "http://data.europa.eu/m8g/supportsRequirement",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Evidence",
-              "uri": "http://data.europa.eu/m8g/Evidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Requirement",
-              "range_uri": "http://data.europa.eu/m8g/Requirement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Requirement",
-              "range_puri": "http://data.europa.eu/m8g/Requirement",
-              "range_label": {
-                "de": "Requirement"
+                "de": "Enter your translation here",
+                "en": "Requirement"
               }
             }
           ],
@@ -1139,9 +1254,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/confidentialityLevelType",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "confidentialityLevelType",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "confidentiality level type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1177,9 +1295,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/LifeEvent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "LifeEvent",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Life Event"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [
@@ -1200,9 +1321,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Output",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Output",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Output"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1215,9 +1339,12 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#responseTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "responseTime",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "response time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1251,9 +1378,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isUsedAs",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is used as"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1270,10 +1400,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Evidence",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Evidence",
               "range_label": {
-                "de": "Evidence"
+                "de": "Enter your translation here",
+                "en": "Evidence"
               }
             }
           ],
@@ -1287,9 +1418,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#isLegalResource",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isLegalResource",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is legal resource"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1306,10 +1440,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "de": "LegalResource"
+                "de": "Enter your translation here",
+                "en": "Legal Resource"
               }
             }
           ],
@@ -1323,9 +1458,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#isAbout",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isAbout",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is about"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1342,10 +1480,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -1359,9 +1498,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasLegalResource",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasLegalResource",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has legal resource"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1378,10 +1520,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "de": "LegalResource"
+                "de": "Enter your translation here",
+                "en": "Legal Resource"
               }
             }
           ],
@@ -1394,46 +1537,13 @@
           }
         },
         {
-          "uri": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Output",
-              "uri": "http://data.europa.eu/m8g/Output"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Evidence",
-              "range_uri": "http://data.europa.eu/m8g/Evidence"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Evidence",
-              "range_puri": "http://data.europa.eu/m8g/Evidence",
-              "range_label": {
-                "de": "Evidence"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "is used as",
-            "uri": "http://vocab.belgif.be/ns/publicservice#isUsedAs",
-            "definition-en": "NOTE$ea_notes=This property describes the case where an Output is considered as one or multiple Evidence. \r\nThis property might be used when a Public Service consumes its own Output as Evidence."
-          }
-        },
-        {
           "uri": "http://purl.org/dc/terms/type",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "type",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "type"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1467,9 +1577,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1503,9 +1616,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1539,9 +1655,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1577,9 +1696,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Participation",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Participation",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Participation"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1591,9 +1713,12 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1627,9 +1752,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1663,9 +1791,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/role",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "role",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "role"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1701,9 +1832,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/PublicOrganisation",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicOrganization",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Organization"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1716,9 +1850,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/org#hasSite",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasSite",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has site"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1735,10 +1872,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Site",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/org#Site",
               "range_label": {
-                "de": "Site"
+                "de": "Enter your translation here",
+                "en": "Site"
               }
             }
           ],
@@ -1752,9 +1890,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#legalForm",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "legalForm",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "legal form"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1788,9 +1929,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasChannel",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1807,46 +1951,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Channel",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Channel",
               "range_label": {
-                "de": "Channel"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "has channel",
-            "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
-            "definition-en": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-          }
-        },
-        {
-          "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "PublicOrganization",
-              "uri": "http://data.europa.eu/m8g/PublicOrganisation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Channel",
-              "range_uri": "http://data.europa.eu/m8g/Channel"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Channel",
-              "range_puri": "http://data.europa.eu/m8g/Channel",
-              "range_label": {
-                "de": "Channel"
+                "de": "Enter your translation here",
+                "en": "Channel"
               }
             }
           ],
@@ -1862,9 +1971,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/PublicServiceDataset",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicServiceDataset",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Service Dataset"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1876,9 +1988,12 @@
       "properties": [
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "title",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "title"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1913,9 +2028,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/publisher",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "publisher",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "publisher"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1932,10 +2050,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -1949,9 +2068,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -1985,9 +2107,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2023,9 +2148,12 @@
     },
     {
       "uri": "http://data.europa.eu/m8g/Requirement",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Requirement",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Requirement"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2038,9 +2166,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2074,9 +2205,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/publisher",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isIssuedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is issued by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2093,10 +2227,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -2110,9 +2245,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2146,9 +2284,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2182,9 +2323,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isRequirementOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isRequirementOf",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is requirement of"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2201,10 +2345,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Requirement",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Requirement",
               "range_label": {
-                "de": "Requirement"
+                "de": "Enter your translation here",
+                "en": "Requirement"
               }
             }
           ],
@@ -2219,9 +2364,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isDerivedFrom",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isDerivedFrom",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is derived from"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2238,10 +2386,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "de": "LegalResource"
+                "de": "Enter your translation here",
+                "en": "Legal Resource"
               }
             }
           ],
@@ -2254,10 +2403,13 @@
           }
         },
         {
-          "uri": "http://data.europa.eu/m8g/isRequirementOf",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://data.europa.eu/m8g/hasSupportingEvidence",
+          "name": "hasSupportingEvidence",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has Supporting Evidence"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2268,33 +2420,36 @@
           ],
           "range": [
             {
-              "range_label": "Requirement",
-              "range_uri": "http://data.europa.eu/m8g/Requirement"
+              "range_label": "Evidence",
+              "range_uri": "http://data.europa.eu/m8g/Evidence"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Requirement",
-              "range_puri": "http://data.europa.eu/m8g/Requirement",
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/Evidence",
               "range_label": {
-                "de": "Requirement"
+                "de": "Enter your translation here",
+                "en": "Evidence"
               }
             }
           ],
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "definition-en": "A reference between a sub-Requirement and its parent, more general, Requirement.",
-            "usageNote-en": "Inverse relation from hasRequirement. If there is no hierarchy then this relationship is not needed.",
-            "uri": "http://data.europa.eu/m8g/isRequirementOf",
-            "label-en": "is requirement of"
+            "definition-en": "The Evidence that supplies information (proof, support) for this Requirement.",
+            "uri": "http://data.europa.eu/m8g/hasSupportingEvidence",
+            "label-en": "has Supporting Evidence"
           }
         },
         {
-          "uri": "http://data.europa.eu/m8g/hasQualifiedRelation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "uri": "http://data.europa.eu/m8g/hasRequirement",
+          "name": "hasRequirement",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has requirement"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2311,10 +2466,51 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Requirement",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Requirement",
               "range_label": {
-                "de": "Requirement"
+                "de": "Enter your translation here",
+                "en": "Requirement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://data.europa.eu/m8g/hasRequirement",
+            "label-en": "has requirement",
+            "definition-en": "A sub-Requirement."
+          }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/hasQualifiedRelation",
+          "name": "hasQualifiedRelation",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has qualified relation"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Requirement",
+              "uri": "http://data.europa.eu/m8g/Requirement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Requirement",
+              "range_uri": "http://data.europa.eu/m8g/Requirement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/Requirement",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Requirement"
               }
             }
           ],
@@ -2330,9 +2526,12 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#PublicService",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "PublicService",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Public Service"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -2345,9 +2544,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/dcat#keyword",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "keyword",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "keyword"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2381,9 +2583,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/adms#status",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "status",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "status"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2417,9 +2622,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#lifecycleStatus",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "lifecycleStatus",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "lifecycle status"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2453,9 +2661,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasRequirement",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasRequirement",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has requirement"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2472,10 +2683,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Requirement",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Requirement",
               "range_label": {
-                "de": "Requirement"
+                "de": "Enter your translation here",
+                "en": "Requirement"
               }
             }
           ],
@@ -2489,9 +2701,12 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#hasPreferredChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasPreferredChannel",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has preferred channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2508,10 +2723,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Channel",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Channel",
               "range_label": {
-                "de": "Channel"
+                "de": "Enter your translation here",
+                "en": "Channel"
               }
             }
           ],
@@ -2526,9 +2742,12 @@
         },
         {
           "uri": "http://purl.org/vocab/cpsv#produces",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "produces",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "produces"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2545,10 +2764,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Output",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Output",
               "range_label": {
-                "de": "Output"
+                "de": "Enter your translation here",
+                "en": "Output"
               }
             }
           ],
@@ -2562,9 +2782,12 @@
         },
         {
           "uri": "http://purl.org/vocab/cpsv#follows",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "follows",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "follows"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2581,10 +2804,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Rule",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://purl.org/vocab/cpsv#Rule",
               "range_label": {
-                "de": "Rule"
+                "de": "Enter your translation here",
+                "en": "Rule"
               }
             }
           ],
@@ -2598,9 +2822,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2634,9 +2861,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/spatial",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "spatial",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "spatial"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2671,9 +2901,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/requires",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "requires",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "requires"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2690,10 +2923,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicService",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://purl.org/vocab/cpsv#PublicService",
               "range_label": {
-                "de": "PublicService"
+                "de": "Enter your translation here",
+                "en": "Public Service"
               }
             }
           ],
@@ -2707,9 +2941,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/relation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "related",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "related"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2726,10 +2963,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicService",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://purl.org/vocab/cpsv#PublicService",
               "range_label": {
-                "de": "PublicService"
+                "de": "Enter your translation here",
+                "en": "Public Service"
               }
             }
           ],
@@ -2744,9 +2982,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/language",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "language",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "language"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2780,9 +3021,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2816,9 +3060,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2852,9 +3099,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/thematicArea",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "thematicArea",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "thematic area"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2888,9 +3138,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/sector",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "sector",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "sector"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2924,9 +3177,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/processingTime",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "processingTime",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "processing time"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2960,9 +3216,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isGroupedBy",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isGroupedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is grouped by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -2979,10 +3238,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Event",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Event",
               "range_label": {
-                "de": "Event"
+                "de": "Enter your translation here",
+                "en": "Event"
               }
             }
           ],
@@ -2996,9 +3256,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isDescribedAt",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isDescribedAt",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is described at"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3015,10 +3278,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicServiceDataset",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/PublicServiceDataset",
               "range_label": {
-                "de": "PublicServiceDataset"
+                "de": "Enter your translation here",
+                "en": "Public Service Dataset"
               }
             }
           ],
@@ -3032,9 +3296,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/isClassifiedBy",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "isClassifiedBy",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "is classified by"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3051,10 +3318,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Concept",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Concept"
+                "de": "Enter your translation here",
+                "en": "Concept"
               }
             }
           ],
@@ -3068,9 +3336,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasParticipation",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasParticipation",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has participation"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3087,10 +3358,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Participation",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Participation",
               "range_label": {
-                "de": "Participation"
+                "de": "Enter your translation here",
+                "en": "Participation"
               }
             }
           ],
@@ -3104,9 +3376,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasLegalResource",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasLegalResource",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has legal resource"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3123,10 +3398,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "de": "LegalResource"
+                "de": "Enter your translation here",
+                "en": "Legal Resource"
               }
             }
           ],
@@ -3140,9 +3416,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasCost",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasCost",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has cost"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3159,10 +3438,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Cost",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Cost",
               "range_label": {
-                "de": "Cost"
+                "de": "Enter your translation here",
+                "en": "Cost"
               }
             }
           ],
@@ -3176,9 +3456,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasContactPoint",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasContactPoint",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has contact point"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3195,10 +3478,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ContactPoint",
+              "range_uri": "#Enter your translation here",
               "range_puri": "https://schema.org/ContactPoint",
               "range_label": {
-                "de": "ContactPoint"
+                "de": "Enter your translation here",
+                "en": "Contact Point"
               }
             }
           ],
@@ -3212,9 +3496,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasCompetentAuthority",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasCompetentAuthority",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has competent authority"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3231,10 +3518,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#PublicOrganization",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/PublicOrganisation",
               "range_label": {
-                "de": "PublicOrganization"
+                "de": "Enter your translation here",
+                "en": "Public Organization"
               }
             }
           ],
@@ -3248,9 +3536,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/hasChannel",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasChannel",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has channel"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3267,10 +3558,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Channel",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Channel",
               "range_label": {
-                "de": "Channel"
+                "de": "Enter your translation here",
+                "en": "Channel"
               }
             }
           ],
@@ -3286,9 +3578,12 @@
     },
     {
       "uri": "http://purl.org/vocab/cpsv#Rule",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Rule",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Rule"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3300,9 +3595,12 @@
       "properties": [
         {
           "uri": "http://purl.org/vocab/cpsv#implements",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "implements",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "implements"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3319,10 +3617,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#LegalResource",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/eli/ontology#LegalResource",
               "range_label": {
-                "de": "LegalResource"
+                "de": "Enter your translation here",
+                "en": "Legal Resource"
               }
             }
           ],
@@ -3336,9 +3635,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3372,9 +3674,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/language",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "language",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "language"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3408,9 +3713,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3444,9 +3752,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/description",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "description",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "description"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3482,9 +3793,12 @@
     },
     {
       "uri": "http://vocab.belgif.be/ns/publicservice#Purpose",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Purpose",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Purpose"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3494,13 +3808,58 @@
         "usageNote-en": "This class has been added because different channels serve different purposes : information, activation of the service, assistance, appeal, \r\n\r\nMore specifically:\r\n\r\nEach channel could serve several purposes.\r\n \r\nEach purpose can have one or more preferred channels, and one or more \"deprecated\" channels (ex. you can introduce you tax declaration in paper but you're not encouraged to do so)",
         "uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
       },
-      "properties": []
+      "properties": [
+        {
+          "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+          "name": "hasChannel",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has channel"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Purpose",
+              "uri": "http://vocab.belgif.be/ns/publicservice#Purpose"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Channel",
+              "range_uri": "http://data.europa.eu/m8g/Channel"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Enter your translation here",
+              "range_puri": "http://data.europa.eu/m8g/Channel",
+              "range_label": {
+                "de": "Enter your translation here",
+                "en": "Channel"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "usageNote-en": "Different channels serve different purposes : information, activation of the service, assistance, appeal, ...",
+            "label-en": "has channel",
+            "uri": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+            "definition-en": "This property describes the relationship between a purpose and a channel. "
+          }
+        }
+      ]
     },
     {
       "uri": "http://www.w3.org/2004/02/skos/core#Collection",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Collection",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Collection"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3512,9 +3871,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/2004/02/skos/core#member",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "member",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "member"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3531,10 +3893,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Concept",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "de": "Concept"
+                "de": "Enter your translation here",
+                "en": "Concept"
               }
             }
           ],
@@ -3550,9 +3913,12 @@
     },
     {
       "uri": "http://www.w3.org/2004/02/skos/core#Concept",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Concept",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Concept"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3564,9 +3930,12 @@
       "properties": [
         {
           "uri": "http://vocab.belgif.be/ns/publicservice#classification",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "classification",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "classification"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3604,9 +3973,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/locn#Address",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Address",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Address"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -3619,9 +3991,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#thoroughfare",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "thoroughfare",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "thoroughfare"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3656,9 +4031,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postName(city)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "post name (city)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3692,9 +4070,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#postCode",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postCode",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "post code"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3729,9 +4110,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#poBox",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "postOfficeBox",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "post office box"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3766,9 +4150,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorName",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorName",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "locator name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3803,9 +4190,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#locatorDesignator",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "locatorDesignator",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "locator designator"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3840,9 +4230,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#fullAddress",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "fullAddress",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "full address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3877,9 +4270,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL2",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel2(country/region/state)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "administrative unit level 2 (country/region/state)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3914,9 +4310,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL1",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "administrativeUnitLevel1(country)",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "administrative unit level 1 (country)"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3951,9 +4350,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressId",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressId",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "address ID"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -3988,9 +4390,12 @@
         },
         {
           "uri": "http://www.w3.org/ns/locn#addressArea",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "addressArea",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "address area"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4027,9 +4432,12 @@
     },
     {
       "uri": "http://www.w3.org/ns/org#Site",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Site",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Site"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4041,9 +4449,12 @@
       "properties": [
         {
           "uri": "http://w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "address",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4060,10 +4471,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Address",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/locn#Address",
               "range_label": {
-                "de": "Address"
+                "de": "Enter your translation here",
+                "en": "Address"
               }
             }
           ],
@@ -4080,9 +4492,12 @@
     },
     {
       "uri": "http://xmlns.com/foaf/0.1/Agent",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Agent",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Agent"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4094,9 +4509,12 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#address",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasAddress",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has address"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4113,10 +4531,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Address",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://www.w3.org/ns/locn#Address",
               "range_label": {
-                "de": "Address"
+                "de": "Enter your translation here",
+                "en": "Address"
               }
             }
           ],
@@ -4130,9 +4549,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/title",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "name",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "name"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4166,9 +4588,12 @@
         },
         {
           "uri": "http://purl.org/dc/terms/identifier",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "identifier",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "identifier"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4202,9 +4627,12 @@
         },
         {
           "uri": "http://data.europa.eu/m8g/playsRole",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "playsRole",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "plays role"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4221,10 +4649,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Participation",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://data.europa.eu/m8g/Participation",
               "range_label": {
-                "de": "Participation"
+                "de": "Enter your translation here",
+                "en": "Participation"
               }
             }
           ],
@@ -4240,9 +4669,12 @@
     },
     {
       "uri": "http://xmlns.com/foaf/0.1/Group",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "Group",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Group"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [
@@ -4262,9 +4694,12 @@
       "properties": [
         {
           "uri": "http://xmlns.com/foaf/0.1/member",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "member",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "member"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4281,10 +4716,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Agent",
+              "range_uri": "#Enter your translation here",
               "range_puri": "http://xmlns.com/foaf/0.1/Agent",
               "range_label": {
-                "de": "Agent"
+                "de": "Enter your translation here",
+                "en": "Agent"
               }
             }
           ],
@@ -4300,9 +4736,12 @@
     },
     {
       "uri": "https://schema.org/ContactPoint",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "ContactPoint",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Contact Point"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4314,9 +4753,12 @@
       "properties": [
         {
           "uri": "https://schema.org/telephone",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasTelephone",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has telephone"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4350,9 +4792,12 @@
         },
         {
           "uri": "https://schema.org/openingHours",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "openingHours",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "opening hours"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4387,9 +4832,12 @@
         },
         {
           "uri": "https://schema.org/hoursAvailable",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "availabilityRestriction",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "availability restriction"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4406,10 +4854,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#OpeningHoursSpecification",
+              "range_uri": "#Enter your translation here",
               "range_puri": "https://schema.org/OpeningHoursSpecification",
               "range_label": {
-                "de": "OpeningHoursSpecification"
+                "de": "Enter your translation here",
+                "en": "Opening Hours Specification"
               }
             }
           ],
@@ -4423,9 +4872,12 @@
         },
         {
           "uri": "https://schema.org/email",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "hasEmail",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "has email"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4459,9 +4911,12 @@
         },
         {
           "uri": "https://schema.org/WebSite",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "website",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "website"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4497,9 +4952,12 @@
     },
     {
       "uri": "https://schema.org/OpeningHoursSpecification",
-      "name": "",
-      "label": {},
-      "sort": "",
+      "name": "OpeningHoursSpecification",
+      "label": {
+        "de": "Enter your translation here",
+        "en": "Opening Hours Specification"
+      },
+      "sort": "Enter your translation here",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4512,9 +4970,12 @@
       "properties": [
         {
           "uri": "https://schema.org/validThrough",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validThrough",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "valid through"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4548,9 +5009,12 @@
         },
         {
           "uri": "https://schema.org/validFrom",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "validFrom",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "valid from"
+          },
           "description": {},
           "usage": {},
           "domain": [
@@ -4584,9 +5048,12 @@
         },
         {
           "uri": "https://schema.org/dayOfWeek",
-          "name": "",
-          "sort": "",
-          "label": {},
+          "name": "dayOfWeek",
+          "sort": "Enter your translation here",
+          "label": {
+            "de": "Enter your translation here",
+            "en": "day of week"
+          },
           "description": {},
           "usage": {},
           "domain": [

@@ -456,6 +456,9 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#Building",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Building"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -467,7 +470,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Building"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -491,12 +496,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "Building",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Building geometry"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -508,7 +516,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Building geometry"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -537,12 +547,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "BuildingGeometry",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Building geometry 3D LoD"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -555,13 +568,15 @@
                 "EA-Parents2": [
                     {
                         "name": "BuildingGeometry",
-                        "label": "",
+                        "label": "Building geometry",
                         "package": "ICEG-Building",
                         "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry"
                     }
                 ],
                 "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry",
-                "label": "",
+                "label": {
+                    "en": "Building geometry 3D LoD"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -595,7 +610,7 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "BuildingGeometry3dLod",
             "parents": [
                 "http://vocab.belgif.be/ns/building#BuildingGeometry"
             ]
@@ -603,6 +618,9 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD1",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Building geometry 3D LoD1"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -615,13 +633,15 @@
                 "EA-Parents2": [
                     {
                         "name": "BuildingGeometry3DLoD",
-                        "label": "",
+                        "label": "Building geometry 3D LoD",
                         "package": "ICEG-Building",
                         "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
                     }
                 ],
                 "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
-                "label": "",
+                "label": {
+                    "en": "Building geometry 3D LoD1"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -650,7 +670,7 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "BuildingGeometry3dLod1",
             "parents": [
                 "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
             ]
@@ -658,6 +678,9 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD2.horizontalGeometryReference",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Building geometry 3D LoD2"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -670,13 +693,15 @@
                 "EA-Parents2": [
                     {
                         "name": "BuildingGeometry3DLoD",
-                        "label": "",
+                        "label": "Building geometry 3D LoD",
                         "package": "ICEG-Building",
                         "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
                     }
                 ],
                 "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
-                "label": "",
+                "label": {
+                    "en": "Building geometry 3D LoD2"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -710,7 +735,7 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "BuildingGeometry3dLod2",
             "parents": [
                 "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
             ]
@@ -718,6 +743,9 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD3",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Building geometry 3D LoD3"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -730,13 +758,15 @@
                 "EA-Parents2": [
                     {
                         "name": "BuildingGeometry3DLoD",
-                        "label": "",
+                        "label": "Building geometry 3D LoD",
                         "package": "ICEG-Building",
                         "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
                     }
                 ],
                 "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
-                "label": "",
+                "label": {
+                    "en": "Building geometry 3D LoD3"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -760,7 +790,7 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "BuildingGeometry3dLod3",
             "parents": [
                 "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
             ]
@@ -768,6 +798,9 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD4",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Building geometry 3D LoD4"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -780,13 +813,15 @@
                 "EA-Parents2": [
                     {
                         "name": "BuildingGeometry3DLoD",
-                        "label": "",
+                        "label": "Building geometry 3D LoD",
                         "package": "ICEG-Building",
                         "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
                     }
                 ],
                 "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
-                "label": "",
+                "label": {
+                    "en": "Building geometry 3D LoD4"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -810,7 +845,7 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "BuildingGeometry3dLod4",
             "parents": [
                 "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
             ]
@@ -822,7 +857,7 @@
                 "nl": "De kleinste eenheid binnen een gebouw die geschikt is voor woon-, bedrijfsmatige, of recreatieve doeleinden en die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde circulatieruimte. Een gebouweenheid is in functioneel opzicht zelfstandig. Daarnaast kan een gebouweenheid ook een gemeenschappelijk deel zijn."
             },
             "label": {
-                "nl": "Gebouweenheid"
+                "en": "Building unit"
             },
             "ap-label-nl": {
                 "nl": "Gebouweenheid"
@@ -839,7 +874,7 @@
                 "EA-Parents2": [],
                 "parentclasses": "",
                 "label": {
-                    "nl": "Gebouweenheid"
+                    "en": "Building unit"
                 },
                 "definition": {
                     "nl": "De kleinste eenheid binnen een gebouw die geschikt is voor woon-, bedrijfsmatige, of recreatieve doeleinden en die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde circulatieruimte. Een gebouweenheid is in functioneel opzicht zelfstandig. Daarnaast kan een gebouweenheid ook een gemeenschappelijk deel zijn."
@@ -878,12 +913,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "Gebouweenheid",
+            "name": "BuildingUnit",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#CadastralParcel",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Cadastral parcel"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -895,7 +933,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Cadastral parcel"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -919,12 +959,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "CadastralParcel",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#CurrentUse",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Current use"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -936,7 +979,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Current use"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -960,12 +1005,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "CurrentUse",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#DateOfEvent",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Date of event"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -977,7 +1025,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Date of event"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1006,12 +1056,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "DateOfEvent",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#Elevation",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Elevation"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1023,7 +1076,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Elevation"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1052,12 +1107,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "Elevation",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#EntranceLocation",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Entrance location"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1069,7 +1127,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Entrance location"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1098,12 +1158,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "EntranceLocation",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#ExternalReference",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "External reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1115,7 +1178,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "External reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1139,12 +1204,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "ExternalReference",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#GeographicalName",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Geographical name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1156,7 +1224,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Geographical name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1185,12 +1255,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "GeographicalName",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#HeightAboveGround",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Height above ground"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1202,7 +1275,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Height above ground"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1226,12 +1301,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "HeightAboveGround",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#ICEG-Unit",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "ICEG-Unit"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1243,7 +1321,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "ICEG-Unit"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1272,12 +1352,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "Iceg-unit",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#InteriorInstallation",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Interior installation"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1289,7 +1372,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Interior installation"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1318,12 +1403,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "InteriorInstallation",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#LangCode",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Lang code"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1335,7 +1423,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Lang code"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1359,12 +1449,15 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "LangCode",
             "parents": []
         },
         {
             "@id": "http://vocab.belgif.be/ns/building#StructuredIdentificator",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "label": {
+                "en": "Structured identificator"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1376,7 +1469,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Structured identificator"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1400,7 +1495,7 @@
                 "Scope": "FULL_DEFINITON"
             },
             "inpackage": "ACTIVE_PACKAGE",
-            "name": "",
+            "name": "StructuredIdentificator",
             "parents": []
         }
     ],
@@ -1408,8 +1503,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#verticalGeometryReference3DTop",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "verticalGeometryReference3dTop",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "vertical geometry reference 3D top"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1427,7 +1525,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "vertical geometry reference 3D top"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1477,8 +1577,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#verticalGeometryReference3DBottom",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "verticalGeometryReference3dBottom",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "vertical geometry reference 3D bottom"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1496,7 +1599,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "vertical geometry reference 3D bottom"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1546,13 +1651,13 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#verticalGeometryReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "verticaleReferentie",
+            "name": "verticalGeometryReference",
             "inpackage": "ACTIVE_PACKAGE",
             "definition": {
                 "nl": "Aspect van het object dat door de z-coördinaten wordt voorgesteld."
             },
             "label": {
-                "nl": "verticale referentie"
+                "en": "vertical geometry reference"
             },
             "ap-label-nl": {
                 "nl": "verticale referentie"
@@ -1575,7 +1680,7 @@
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
                 "label": {
-                    "nl": "verticale referentie"
+                    "en": "vertical geometry reference"
                 },
                 "definition": {
                     "nl": "Aspect van het object dat door de z-coördinaten wordt voorgesteld."
@@ -1640,8 +1745,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#verticalGeometryEstimatedAccuracy",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "verticalGeometryEstimatedAccuracy",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "vertical geometry estimated accuracy"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1659,7 +1767,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#ICEG-Unit"
                 },
-                "label": "",
+                "label": {
+                    "en": "vertical geometry estimated accuracy"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1709,8 +1819,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#value",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "value",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "value"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1728,7 +1841,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#ICEG-Unit"
                 },
-                "label": "",
+                "label": {
+                    "en": "value"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1773,8 +1888,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#uom",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "uom",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "uom"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1791,7 +1909,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#anyURI"
                 },
-                "label": "",
+                "label": {
+                    "en": "uom"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1845,8 +1965,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#type",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "type",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "type"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1864,7 +1987,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "type"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1914,8 +2039,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#terrainIntersection",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "terrainIntersection",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "terrain intersection"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1933,7 +2061,9 @@
                     "EA-Package": "OpenGIS",
                     "uri": "http://www.opengis.net/ont/sf#MultiCurve"
                 },
-                "label": "",
+                "label": {
+                    "en": "terrain intersection"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -1978,8 +2108,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#structuredIdentificator",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "structuredIdentificator",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "structured identificator"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -1997,7 +2130,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#StructuredIdentificator"
                 },
-                "label": "",
+                "label": {
+                    "en": "structured identificator"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2042,8 +2177,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#status",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "status",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "status"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2061,7 +2199,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#HeightStatusValue"
                 },
-                "label": "",
+                "label": {
+                    "en": "status"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2106,8 +2246,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#startDate",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "startDate",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "start date"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2124,7 +2267,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "start date"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2168,8 +2313,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#spelling",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "spelling",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "spelling"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2186,7 +2334,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "spelling"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2230,8 +2380,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#sourceStatus",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "sourceStatus",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "source status"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2249,7 +2402,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "source status"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2294,8 +2449,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#sourceOfName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "sourceOfName",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "source of name"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2312,7 +2470,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "source of name"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2356,13 +2516,13 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#referenceGeometry",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "default",
+            "name": "referenceGeometry",
             "inpackage": "ACTIVE_PACKAGE",
             "definition": {
                 "nl": "Geometrie die moet worden gebruikt bv bij voorstelling op kaart."
             },
             "label": {
-                "nl": "default"
+                "en": "reference geometry"
             },
             "ap-label-nl": {
                 "nl": "default"
@@ -2384,7 +2544,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#boolean"
                 },
                 "label": {
-                    "nl": "default"
+                    "en": "reference geometry"
                 },
                 "definition": {
                     "nl": "Geometrie die moet worden gebruikt bv bij voorstelling op kaart."
@@ -2443,8 +2603,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#reference",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "reference",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2461,7 +2624,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2505,8 +2670,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#percentage",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "percentage",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "percentage"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2523,7 +2691,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
-                "label": "",
+                "label": {
+                    "en": "percentage"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2567,13 +2737,13 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#numberOfFloorsUnderGround",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "numberOfUndergroundFloors",
+            "name": "numberOfFloorsUnderGround",
             "inpackage": "ACTIVE_PACKAGE",
             "definition": {
                 "nl": "Totaal van het aantal ondergrondse gebouwlagen, bekeken over alle gebouwdelen heen."
             },
             "label": {
-                "nl": "Number of underground floors"
+                "en": "number of floors under ground"
             },
             "ap-label-nl": {
                 "nl": "Number of underground floors"
@@ -2595,7 +2765,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
                 "label": {
-                    "nl": "Number of underground floors"
+                    "en": "number of floors under ground"
                 },
                 "definition": {
                     "nl": "Totaal van het aantal ondergrondse gebouwlagen, bekeken over alle gebouwdelen heen."
@@ -2665,7 +2835,7 @@
                 "nl": "Totaal van het aantal bovengrondse gebouwlagen, bekeken over alle gebouwdelen heen."
             },
             "label": {
-                "nl": "number of floors above ground"
+                "en": "number of floors above ground"
             },
             "ap-label-nl": {
                 "nl": "number of floors above ground"
@@ -2687,7 +2857,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
                 "label": {
-                    "nl": "number of floors above ground"
+                    "en": "number of floors above ground"
                 },
                 "definition": {
                     "nl": "Totaal van het aantal bovengrondse gebouwlagen, bekeken over alle gebouwdelen heen."
@@ -2751,8 +2921,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#numberOfDwellings",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "numberOfDwellings",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "number of dwellings"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2769,7 +2942,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#integer"
                 },
-                "label": "",
+                "label": {
+                    "en": "number of dwellings"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2813,8 +2988,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#nativeness",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "nativeness",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "nativeness"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2832,7 +3010,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "nativeness"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2882,8 +3062,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#nameStatus",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "nameStatus",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "name status"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -2901,7 +3084,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "name status"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -2951,13 +3136,13 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#name",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "gebouwnaam",
+            "name": "name",
             "inpackage": "ACTIVE_PACKAGE",
             "definition": {
                 "nl": "Naam van het gebouw."
             },
             "label": {
-                "nl": "gebouwnaam"
+                "en": "name"
             },
             "ap-label-nl": {
                 "nl": "gebouwnaam"
@@ -2980,7 +3165,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "gebouwnaam"
+                    "en": "name"
                 },
                 "definition": {
                     "nl": "Naam van het gebouw."
@@ -3040,8 +3225,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#lowReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "lowReference",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "low reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3059,7 +3247,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "low reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3109,8 +3299,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#legalUse",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "legalUse",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "legal use"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3128,7 +3321,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#CurrentUse"
                 },
-                "label": "",
+                "label": {
+                    "en": "legal use"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3173,8 +3368,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#legalUse",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "legalUse",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "legal use"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3192,7 +3390,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#CurrentUse"
                 },
-                "label": "",
+                "label": {
+                    "en": "legal use"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3237,8 +3437,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#interiorInstallation",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "interiorInstallation",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "interior installation"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3259,7 +3462,9 @@
                 },
                 "sourceRole": "null",
                 "destRole": "interiorInstallation",
-                "label": "",
+                "label": {
+                    "en": "interior installation"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3316,8 +3521,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#installationNature",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "installationNature",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "installation nature"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3335,7 +3543,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "installation nature"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3380,8 +3590,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#informationSystemName",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "informationsystemname",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "informationSystemName"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3398,7 +3611,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "informationSystemName"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3447,8 +3662,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#informationSystem",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "informationSystem",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "information system"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3466,7 +3684,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/ns/adms#Identifier"
                 },
-                "label": "",
+                "label": {
+                    "en": "information system"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3511,8 +3731,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#horizontalGeometryReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "horizontalGeometryReference",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "horizontal geometry reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3530,7 +3753,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "horizontal geometry reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3580,8 +3805,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#horizontalGeometryEstimatedAccuracy",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "horizontalGeometryEstimatedAccuracy",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "horizontal geometry estimated accuracy"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3599,7 +3827,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#ICEG-Unit"
                 },
-                "label": "",
+                "label": {
+                    "en": "horizontal geometry estimated accuracy"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3644,8 +3874,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#heightReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "heightReference",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "height reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3663,7 +3896,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "height reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3713,8 +3948,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#heightAboveGround",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "heightAboveGround",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "height above ground"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3732,7 +3970,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#HeightAboveGround"
                 },
-                "label": "",
+                "label": {
+                    "en": "height above ground"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3777,8 +4017,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#geometrySolid",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "geometrySolid",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "geometry solid"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3796,7 +4039,9 @@
                     "EA-Package": "OpenGIS",
                     "uri": "http://www.opengis.net/ont/gml#Solid"
                 },
-                "label": "",
+                "label": {
+                    "en": "geometry solid"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3841,8 +4086,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#geometryMultiSurface",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "geometryMultiSurface",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "geometry multi surface"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -3860,7 +4108,9 @@
                     "EA-Package": "OpenGIS",
                     "uri": "http://www.opengis.net/ont/sf#MultiSurface"
                 },
-                "label": "",
+                "label": {
+                    "en": "geometry multi surface"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -3905,13 +4155,13 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#geometry",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "geometrie",
+            "name": "geometry",
             "inpackage": "ACTIVE_PACKAGE",
             "definition": {
                 "nl": "2D- of 2.5D-geometrische voorstelling van het gebouw."
             },
             "label": {
-                "nl": "geometrie"
+                "en": "geometry"
             },
             "ap-label-nl": {
                 "nl": "geometrie"
@@ -3934,7 +4184,7 @@
                     "uri": "http://www.w3.org/ns/locn#Geometry"
                 },
                 "label": {
-                    "nl": "geometrie"
+                    "en": "geometry"
                 },
                 "definition": {
                     "nl": "2D- of 2.5D-geometrische voorstelling van het gebouw."
@@ -3994,8 +4244,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#externalReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "externalReference",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "external reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4013,7 +4266,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#ExternalReference"
                 },
-                "label": "",
+                "label": {
+                    "en": "external reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4058,8 +4313,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#entranceLocation",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "entranceLocation",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "entrance location"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4077,7 +4335,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#EntranceLocation"
                 },
-                "label": "",
+                "label": {
+                    "en": "entrance location"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4122,8 +4382,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#entranceLocation",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "entranceLocation",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "entrance location"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4141,7 +4404,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#EntranceLocation"
                 },
-                "label": "",
+                "label": {
+                    "en": "entrance location"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4186,8 +4451,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#endDate",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "endDate",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "end date"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4204,7 +4472,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "end date"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4248,8 +4518,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#elevationValue",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "elevationValue",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "elevation value"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4267,7 +4540,9 @@
                     "EA-Package": "OpenGIS",
                     "uri": "http://www.opengis.net/ont/sf#DirectPosition"
                 },
-                "label": "",
+                "label": {
+                    "en": "elevation value"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4312,8 +4587,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#elevationReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "elevationReference",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "elevation reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4331,7 +4609,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "elevation reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4381,8 +4661,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#documentDescription",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "documentDescription",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "document description"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4399,7 +4682,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "document description"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4443,8 +4728,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#document",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "document",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "document"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4462,7 +4750,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "https://schema.org/DigitalDocument"
                 },
-                "label": "",
+                "label": {
+                    "en": "document"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4507,8 +4797,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#document",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "document",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "document"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4526,7 +4819,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "https://schema.org/DigitalDocument"
                 },
-                "label": "",
+                "label": {
+                    "en": "document"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4571,8 +4866,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#date",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "date",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "date"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4589,7 +4887,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "date"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4638,8 +4938,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#conditionOfConstruction",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "conditionOfConstruction",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "condition of construction"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4657,7 +4960,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "condition of construction"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4707,8 +5012,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#cadastralParcel",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "cadastralParcel",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "cadastral parcel"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4729,7 +5037,9 @@
                 },
                 "sourceRole": "building",
                 "destRole": "cadastralParcel",
-                "label": "",
+                "label": {
+                    "en": "cadastral parcel"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4806,8 +5116,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#buildingUnit",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "buildingUnit",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "building unit"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4828,7 +5141,9 @@
                 },
                 "sourceRole": "building",
                 "destRole": "buildingUnit",
-                "label": "",
+                "label": {
+                    "en": "building unit"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4895,8 +5210,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#buildingNature",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "buildingNature",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "building nature"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4914,7 +5232,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "building nature"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -4964,8 +5284,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#building",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "building",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "building"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -4986,7 +5309,9 @@
                 },
                 "sourceRole": "buildingUnit",
                 "destRole": "building",
-                "label": "",
+                "label": {
+                    "en": "building"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5063,8 +5388,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#building",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "building",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "building"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5085,7 +5413,9 @@
                 },
                 "sourceRole": "cadastralParcel",
                 "destRole": "building",
-                "label": "",
+                "label": {
+                    "en": "building"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5152,8 +5482,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#anyPoint",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "anyPoint",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "any point"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5170,7 +5503,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "any point"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5214,8 +5549,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#Buildingunit.currentUse",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "currentUse",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "current use"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5233,7 +5571,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#CurrentUse"
                 },
-                "label": "",
+                "label": {
+                    "en": "current use"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5288,8 +5628,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfRenovation",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfRenovation",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "date of renovation"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5307,7 +5650,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#DateOfEvent"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of renovation"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5357,8 +5702,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfDemolition",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfDemolition",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "date of demolition"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5376,7 +5724,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#DateOfEvent"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of demolition"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5426,8 +5776,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfConstruction",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfConstruction",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "date of construction"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5445,7 +5798,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#DateOfEvent"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of construction"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5495,8 +5850,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD1.horizontalGeometryReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "horizontalGeometryReference",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "horizontal geometry reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5514,7 +5872,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
-                "label": "",
+                "label": {
+                    "en": "horizontal geometry reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5569,13 +5929,13 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry2D.horizontalGeometryReference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "horizontaleReferentie",
+            "name": "horizontalGeometryReference",
             "inpackage": "ACTIVE_PACKAGE",
             "definition": {
                 "nl": "Aspect van het object dat door de xy-coördinaten wordt voorgesteld."
             },
             "label": {
-                "nl": "horizontale referentie"
+                "en": "horizontal geometry reference"
             },
             "ap-label-nl": {
                 "nl": "horizontale referentie"
@@ -5598,7 +5958,7 @@
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
                 "label": {
-                    "nl": "horizontale referentie"
+                    "en": "horizontal geometry reference"
                 },
                 "definition": {
                     "nl": "Aspect van het object dat door de xy-coördinaten wordt voorgesteld."
@@ -5663,8 +6023,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#Building.elevation",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "elevation",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "elevation"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5682,7 +6045,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#Elevation"
                 },
-                "label": "",
+                "label": {
+                    "en": "elevation"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5732,8 +6097,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#Building.dateOfRenovation",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfRenovation",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "date of renovation"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5751,7 +6119,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#DateOfEvent"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of renovation"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5801,8 +6171,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#Building.dateOfDemolition",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfDemolition",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "date of demolition"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5820,7 +6193,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#DateOfEvent"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of demolition"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5870,8 +6245,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#Building.dateOfConstruction",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "dateOfConstruction",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "date of construction"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5889,7 +6267,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#DateOfEvent"
                 },
-                "label": "",
+                "label": {
+                    "en": "date of construction"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -5939,8 +6319,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#Building.currentUse",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "currentUse",
             "inpackage": "ACTIVE_PACKAGE",
+            "label": {
+                "en": "current use"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -5958,7 +6341,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#CurrentUse"
                 },
-                "label": "",
+                "label": {
+                    "en": "current use"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6026,7 +6411,7 @@
                 "nl": "Een 3-dimensionele geometrische primitieve."
             },
             "label": {
-                "nl": "3Dobject"
+                "en": "3D object"
             },
             "ap-label-nl": {
                 "nl": "3Dobject"
@@ -6043,14 +6428,14 @@
                 "EA-Parents2": [
                     {
                         "name": "Geometry",
-                        "label": "Geometrie",
+                        "label": "Geometry",
                         "package": "OpenGIS",
                         "uri": "http://www.w3.org/ns/locn#Geometry"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/locn#Geometry",
                 "label": {
-                    "nl": "3Dobject"
+                    "en": "3D object"
                 },
                 "definition": {
                     "nl": "Een 3-dimensionele geometrische primitieve."
@@ -6112,7 +6497,7 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "3dobject"
+            "name": "3dObject"
         },
         {
             "@id": "http://www.opengis.net/ont/sf#DirectPosition",
@@ -6125,7 +6510,7 @@
                 "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
             },
             "label": {
-                "nl": "Directe positie"
+                "en": "Direct position"
             },
             "ap-label-nl": {
                 "nl": "Directe positie"
@@ -6142,7 +6527,7 @@
                 "EA-Parents2": [],
                 "parentclasses": "",
                 "label": {
-                    "nl": "Directe positie"
+                    "en": "Direct position"
                 },
                 "definition": {
                     "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
@@ -6192,12 +6577,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "DirectePositie"
+            "name": "DirectPosition"
         },
         {
             "@id": "http://www.opengis.net/ont/sf#MultiCurve",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Multi curve"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6210,13 +6598,15 @@
                 "EA-Parents2": [
                     {
                         "name": "Geometry",
-                        "label": "Geometrie",
+                        "label": "Geometry",
                         "package": "OpenGIS",
                         "uri": "http://www.w3.org/ns/locn#Geometry"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/locn#Geometry",
-                "label": "",
+                "label": {
+                    "en": "Multi curve"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6249,12 +6639,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "MultiCurve"
         },
         {
             "@id": "http://www.opengis.net/ont/sf#MultiSurface",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Multi surface"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6267,13 +6660,15 @@
                 "EA-Parents2": [
                     {
                         "name": "Geometry",
-                        "label": "Geometrie",
+                        "label": "Geometry",
                         "package": "OpenGIS",
                         "uri": "http://www.w3.org/ns/locn#Geometry"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/locn#Geometry",
-                "label": "",
+                "label": {
+                    "en": "Multi surface"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6306,7 +6701,7 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "MultiSurface"
         },
         {
             "@id": "http://www.opengis.net/ont/sf#Point",
@@ -6322,7 +6717,7 @@
                 "nl": "Een 0-dimensionele geometrische primitieve."
             },
             "label": {
-                "nl": "Punt"
+                "en": "Point"
             },
             "ap-label-nl": {
                 "nl": "Punt"
@@ -6339,14 +6734,14 @@
                 "EA-Parents2": [
                     {
                         "name": "Geometry",
-                        "label": "Geometrie",
+                        "label": "Geometry",
                         "package": "OpenGIS",
                         "uri": "http://www.w3.org/ns/locn#Geometry"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/locn#Geometry",
                 "label": {
-                    "nl": "Punt"
+                    "en": "Point"
                 },
                 "definition": {
                     "nl": "Een 0-dimensionele geometrische primitieve."
@@ -6403,7 +6798,7 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "Punt"
+            "name": "Point"
         },
         {
             "@id": "http://www.opengis.net/ont/sf#Polygon",
@@ -6419,7 +6814,7 @@
                 "nl": "Oppervlak bestaande uit 1 buitengrens en 0 of meer binnengrenzen. Elke binnengrens vormt een gat in de polygoon."
             },
             "label": {
-                "nl": "Polygoon"
+                "en": "Polygon"
             },
             "ap-label-nl": {
                 "nl": "Polygoon"
@@ -6436,14 +6831,14 @@
                 "EA-Parents2": [
                     {
                         "name": "Geometry",
-                        "label": "Geometrie",
+                        "label": "Geometry",
                         "package": "OpenGIS",
                         "uri": "http://www.w3.org/ns/locn#Geometry"
                     }
                 ],
                 "parentclasses": "http://www.w3.org/ns/locn#Geometry",
                 "label": {
-                    "nl": "Polygoon"
+                    "en": "Polygon"
                 },
                 "definition": {
                     "nl": "Oppervlak bestaande uit 1 buitengrens en 0 of meer binnengrenzen. Elke binnengrens vormt een gat in de polygoon."
@@ -6500,12 +6895,15 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "Polygoon"
+            "name": "Polygon"
         },
         {
             "@id": "http://www.w3.org/2001/XMLSchema#anyURI",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "URI"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6517,7 +6915,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "URI"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6545,12 +6945,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "Uri"
         },
         {
             "@id": "http://www.w3.org/2001/XMLSchema#string",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Text"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6562,7 +6965,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Text"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6595,12 +7000,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "Text"
         },
         {
             "@id": "http://www.w3.org/2004/02/skos/core#Concept",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Building nature value"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6612,7 +7020,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Building nature value"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6645,12 +7055,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "BuildingNatureValue"
         },
         {
             "@id": "http://www.w3.org/2004/02/skos/core#Concept",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Current use value"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6662,7 +7075,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Current use value"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6695,12 +7110,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "CurrentUseValue"
         },
         {
             "@id": "http://www.w3.org/2004/02/skos/core#Concept",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Measuring method"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6712,7 +7130,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Measuring method"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6745,12 +7165,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "MeasuringMethod"
         },
         {
             "@id": "http://www.w3.org/2004/02/skos/core#Concept",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Source status value"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6762,7 +7185,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Source status value"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6790,12 +7215,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "SourceStatusValue"
         },
         {
             "@id": "http://www.w3.org/2004/02/skos/core#Concept",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Internal installation nature value"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6807,7 +7235,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Internal installation nature value"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6835,12 +7265,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "InternalInstallationNatureValue"
         },
         {
             "@id": "http://www.w3.org/ns/adms#Identifier",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -6852,7 +7285,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -6885,7 +7320,7 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "Identifier"
         },
         {
             "@id": "http://www.w3.org/ns/locn#Address",
@@ -6895,7 +7330,7 @@
                 "nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
             },
             "label": {
-                "nl": "Adresvoorstelling"
+                "en": "Address representation"
             },
             "ap-label-nl": {
                 "nl": "Adresvoorstelling"
@@ -6912,7 +7347,7 @@
                 "EA-Parents2": [],
                 "parentclasses": "",
                 "label": {
-                    "nl": "Adresvoorstelling"
+                    "en": "Address representation"
                 },
                 "definition": {
                     "nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
@@ -6975,7 +7410,7 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "Adresvoorstelling"
+            "name": "AddressRepresentation"
         },
         {
             "@id": "http://www.w3.org/ns/locn#Geometry",
@@ -6991,7 +7426,7 @@
                 "nl": "Vorm- en positiekenmerken van een object."
             },
             "label": {
-                "nl": "Geometrie"
+                "en": "Geometry"
             },
             "ap-label-nl": {
                 "nl": "Geometrie"
@@ -7008,7 +7443,7 @@
                 "EA-Parents2": [],
                 "parentclasses": "",
                 "label": {
-                    "nl": "Geometrie"
+                    "en": "Geometry"
                 },
                 "definition": {
                     "nl": "Vorm- en positiekenmerken van een object."
@@ -7065,7 +7500,7 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "Geometrie"
+            "name": "Geometry"
         },
         {
             "@id": "https://data.vlaanderen.be/ns/gebouw#2DGebouwgeometrie",
@@ -7075,7 +7510,7 @@
                 "nl": "Geometrie van het gebouw en metadata over welk deel van het gebouw door de geometrie wordt voorgesteld en hoe deze werd bepaald."
             },
             "label": {
-                "nl": "2D-Gebouwgeometrie"
+                "en": "Building geometry 2D"
             },
             "ap-label-nl": {
                 "nl": "2D-Gebouwgeometrie"
@@ -7092,14 +7527,14 @@
                 "EA-Parents2": [
                     {
                         "name": "BuildingGeometry",
-                        "label": "",
+                        "label": "Building geometry",
                         "package": "ICEG-Building",
                         "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry"
                     }
                 ],
                 "parentclasses": "http://vocab.belgif.be/ns/building#BuildingGeometry",
                 "label": {
-                    "nl": "2D-Gebouwgeometrie"
+                    "en": "Building geometry 2D"
                 },
                 "definition": {
                     "nl": "Geometrie van het gebouw en metadata over welk deel van het gebouw door de geometrie wordt voorgesteld en hoe deze werd bepaald."
@@ -7147,12 +7582,15 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": "2d-gebouwgeometrie"
+            "name": "BuildingGeometry2d"
         },
         {
             "@id": "https://schema.org/DigitalDocument",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "Document"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7164,7 +7602,9 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
+                "label": {
+                    "en": "Document"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7197,15 +7637,18 @@
                 ],
                 "Scope": "TRANSLATIONS_ONLY"
             },
-            "name": ""
+            "name": "Document"
         }
     ],
     "externalproperties": [
         {
             "@id": "https://www.w3.org/ns/locn#address",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "address",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "address"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7223,7 +7666,9 @@
                     "EA-Package": "Address",
                     "uri": "http://www.w3.org/ns/locn#Address"
                 },
-                "label": "",
+                "label": {
+                    "en": "address"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7273,8 +7718,11 @@
         {
             "@id": "https://www.w3.org/ns/locn#address",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "address",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "address"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7292,7 +7740,9 @@
                     "EA-Package": "Address",
                     "uri": "http://www.w3.org/ns/locn#Address"
                 },
-                "label": "",
+                "label": {
+                    "en": "address"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7342,8 +7792,11 @@
         {
             "@id": "https://qudt.org/schema/qudt/value",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "value",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "value"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -7360,7 +7813,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#double"
                 },
-                "label": "",
+                "label": {
+                    "en": "value"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -7409,7 +7864,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#thoroughfare",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "straatnaam",
+            "name": "streetname",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -7421,7 +7876,7 @@
                 "nl": "Straatnaam vh adres."
             },
             "label": {
-                "nl": "straatnaam"
+                "en": "streetname"
             },
             "ap-label-nl": {
                 "nl": "straatnaam"
@@ -7444,7 +7899,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "straatnaam"
+                    "en": "streetname"
                 },
                 "definition": {
                     "nl": "Straatnaam vh adres."
@@ -7518,7 +7973,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#postName",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "postnaam",
+            "name": "postName",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -7530,7 +7985,7 @@
                 "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
             },
             "label": {
-                "nl": "postnaam"
+                "en": "post name"
             },
             "ap-label-nl": {
                 "nl": "postnaam"
@@ -7553,7 +8008,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "postnaam"
+                    "en": "post name"
                 },
                 "definition": {
                     "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
@@ -7627,7 +8082,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#postCode",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "postcode",
+            "name": "postalcode",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -7639,7 +8094,7 @@
                 "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
             },
             "label": {
-                "nl": "postcode"
+                "en": "postalcode"
             },
             "ap-label-nl": {
                 "nl": "postcode"
@@ -7661,7 +8116,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
                 "label": {
-                    "nl": "postcode"
+                    "en": "postalcode"
                 },
                 "definition": {
                     "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
@@ -7734,7 +8189,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#poBox",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "postbus",
+            "name": "poBox",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -7746,7 +8201,7 @@
                 "nl": "Postbusnummer in een postkantoor."
             },
             "label": {
-                "nl": "postbus"
+                "en": "po box"
             },
             "ap-label-nl": {
                 "nl": "postbus"
@@ -7768,7 +8223,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
                 "label": {
-                    "nl": "postbus"
+                    "en": "po box"
                 },
                 "definition": {
                     "nl": "Postbusnummer in een postkantoor."
@@ -7841,7 +8296,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#locatorName",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "locatienaam",
+            "name": "locationName",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -7853,7 +8308,7 @@
                 "nl": "Naam of omschrijving vh het geografisch object dat de adreslocator aanduidt."
             },
             "label": {
-                "nl": "locatienaam"
+                "en": "location name"
             },
             "ap-label-nl": {
                 "nl": "locatienaam"
@@ -7876,7 +8331,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "locatienaam"
+                    "en": "location name"
                 },
                 "definition": {
                     "nl": "Naam of omschrijving vh het geografisch object dat de adreslocator aanduidt."
@@ -7950,7 +8405,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#locatorDesignator",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "locatieaanduiding",
+            "name": "locatorDesignator",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -7962,7 +8417,7 @@
                 "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
             },
             "label": {
-                "nl": "locatieaanduiding"
+                "en": "locator designator"
             },
             "ap-label-nl": {
                 "nl": "locatieaanduiding"
@@ -7984,7 +8439,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
                 "label": {
-                    "nl": "locatieaanduiding"
+                    "en": "locator designator"
                 },
                 "definition": {
                     "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
@@ -8057,8 +8512,85 @@
         {
             "@id": "http://www.w3.org/ns/locn#geometry",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "geometry3d",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "geometry 3D"
+            },
+            "ap-definition-nl": {
+                "nl": "TODO"
+            },
+            "extra": {
+                "EA-Name": "geometry3D",
+                "EA-Guid": "{A812147A-F451-457f-BB14-E80A32F29C66}",
+                "EA-Package": "ICEG-Building",
+                "EA-Type": "attribute",
+                "EA-Domain": "InteriorInstallation",
+                "EA-Domain-Guid": "{9FAB4D87-62A2-4edc-8A69-B6FCD6BBFC39}",
+                "EA-Range": "Geometry",
+                "RangeData": {
+                    "EA-Name": "Geometry",
+                    "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
+                    "EA-Package": "OpenGIS",
+                    "uri": "http://www.w3.org/ns/locn#Geometry"
+                },
+                "label": {
+                    "en": "geometry 3D"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-nl": "",
+                "ap-definition-nl": {
+                    "nl": "TODO"
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "geometry 3D",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "3D geometric representation of the internal installation.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://www.w3.org/ns/locn#geometry",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "TRANSLATIONS_ONLY"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://vocab.belgif.be/ns/building#InteriorInstallation",
+                    "EA-Name": "InteriorInstallation"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Geometry",
+                    "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
+                    "EA-Package": "OpenGIS",
+                    "uri": "http://www.w3.org/ns/locn#Geometry"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://www.w3.org/ns/locn#geometry",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "geometry",
+            "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "geometry"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -8076,7 +8608,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#BuildingGeometry"
                 },
-                "label": "",
+                "label": {
+                    "en": "geometry"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -8131,8 +8665,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#geometry",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "geometry",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "geometry"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -8150,7 +8687,9 @@
                     "EA-Package": "OpenGIS",
                     "uri": "http://www.w3.org/ns/locn#Geometry"
                 },
-                "label": "",
+                "label": {
+                    "en": "geometry"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -8203,78 +8742,9 @@
             "maxCardinality": "*"
         },
         {
-            "@id": "http://www.w3.org/ns/locn#geometry",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
-            "inpackage": "OTHER_PACKAGE",
-            "ap-definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "geometry3D",
-                "EA-Guid": "{A812147A-F451-457f-BB14-E80A32F29C66}",
-                "EA-Package": "ICEG-Building",
-                "EA-Type": "attribute",
-                "EA-Domain": "InteriorInstallation",
-                "EA-Domain-Guid": "{9FAB4D87-62A2-4edc-8A69-B6FCD6BBFC39}",
-                "EA-Range": "Geometry",
-                "RangeData": {
-                    "EA-Name": "Geometry",
-                    "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
-                    "EA-Package": "OpenGIS",
-                    "uri": "http://www.w3.org/ns/locn#Geometry"
-                },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-nl": "",
-                "ap-definition-nl": {
-                    "nl": "TODO"
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-en",
-                        "value": "geometry 3D",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-en",
-                        "value": "3D geometric representation of the internal installation.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "http://www.w3.org/ns/locn#geometry",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "TRANSLATIONS_ONLY"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://vocab.belgif.be/ns/building#InteriorInstallation",
-                    "EA-Name": "InteriorInstallation"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Geometry",
-                    "EA-GUID": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
-                    "EA-Package": "OpenGIS",
-                    "uri": "http://www.w3.org/ns/locn#Geometry"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "1"
-        },
-        {
             "@id": "http://www.w3.org/ns/locn#fullAddress",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "volledigAdres",
+            "name": "fullAddress",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": "Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer."
@@ -8286,7 +8756,7 @@
                 "nl": "Het complete adres in één string, al dan niet geformatteerd."
             },
             "label": {
-                "nl": "volledig adres"
+                "en": "full address"
             },
             "ap-label-nl": {
                 "nl": "volledig adres"
@@ -8309,7 +8779,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "volledig adres"
+                    "en": "full address"
                 },
                 "definition": {
                     "nl": "Het complete adres in één string, al dan niet geformatteerd."
@@ -8383,7 +8853,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#adminUnitL2",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "administratieveEenheidNiveau2",
+            "name": "administrativeUnitLevel2",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -8395,7 +8865,7 @@
                 "nl": "De regio vh adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
             },
             "label": {
-                "nl": "administratieve eenheid niveau 2"
+                "en": "administrative unit level 2"
             },
             "ap-label-nl": {
                 "nl": "administratieve eenheid niveau 2"
@@ -8418,7 +8888,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "administratieve eenheid niveau 2"
+                    "en": "administrative unit level 2"
                 },
                 "definition": {
                     "nl": "De regio vh adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
@@ -8492,7 +8962,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#adminUnitL1",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "administratieveEenheidNiveau1",
+            "name": "administrativeUnitLevel1",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -8504,7 +8974,7 @@
                 "nl": "Hoogste Administratieve eenheid vh adres, doorgaans een land."
             },
             "label": {
-                "nl": "administratieve eenheid niveau 1"
+                "en": "administrative unit level 1"
             },
             "ap-label-nl": {
                 "nl": "administratieve eenheid niveau 1"
@@ -8527,7 +8997,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "administratieve eenheid niveau 1"
+                    "en": "administrative unit level 1"
                 },
                 "definition": {
                     "nl": "Hoogste Administratieve eenheid vh adres, doorgaans een land."
@@ -8601,7 +9071,7 @@
         {
             "@id": "http://www.w3.org/ns/locn#addressArea",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "adresgebied",
+            "name": "addressArea",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": "Bvb de naam vh gehucht waarin het adres ligt."
@@ -8613,7 +9083,7 @@
                 "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
             },
             "label": {
-                "nl": "adresgebied"
+                "en": "address area"
             },
             "ap-label-nl": {
                 "nl": "adresgebied"
@@ -8636,7 +9106,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "adresgebied"
+                    "en": "address area"
                 },
                 "definition": {
                     "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
@@ -8715,8 +9185,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#Geometry",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "position",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "position"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -8734,7 +9207,9 @@
                     "EA-Package": "OpenGIS",
                     "uri": "http://www.opengis.net/ont/sf#DirectPosition"
                 },
-                "label": "",
+                "label": {
+                    "en": "position"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -8784,8 +9259,11 @@
         {
             "@id": "http://www.w3.org/ns/locn#Address",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "address",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "address"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -8803,7 +9281,9 @@
                     "EA-Package": "Address",
                     "uri": "http://www.w3.org/ns/locn#Address"
                 },
-                "label": "",
+                "label": {
+                    "en": "address"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -8853,8 +9333,11 @@
         {
             "@id": "http://www.w3.org/ns/adms#schemaAgency",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "assignedByString",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "assigned by string"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -8871,7 +9354,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
                 },
-                "label": "",
+                "label": {
+                    "en": "assigned by string"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -8920,8 +9405,11 @@
         {
             "@id": "http://www.w3.org/ns/adms#identifier",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -8939,7 +9427,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/ns/adms#Identifier"
                 },
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -8989,8 +9479,11 @@
         {
             "@id": "http://www.w3.org/ns/adms#identifier",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -9008,7 +9501,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/ns/adms#Identifier"
                 },
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -9058,8 +9553,11 @@
         {
             "@id": "http://www.w3.org/ns/adms#identifier",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -9077,7 +9575,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://www.w3.org/ns/adms#Identifier"
                 },
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -9127,8 +9627,11 @@
         {
             "@id": "http://www.w3.org/2004/02/skos/core#notation",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "identifier",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "identifier"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -9145,7 +9648,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
-                "label": "",
+                "label": {
+                    "en": "identifier"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -9199,13 +9704,82 @@
         {
             "@id": "http://www.opengis.net/ont/sf#method",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "methode",
+            "name": "method",
+            "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "method"
+            },
+            "ap-definition-nl": {
+                "nl": "TODO"
+            },
+            "extra": {
+                "EA-Name": "method",
+                "EA-Guid": "{EC02AF8E-EBC7-457b-A5AC-E3A86D7BFAA4}",
+                "EA-Package": "OpenGIS",
+                "EA-Type": "attribute",
+                "EA-Domain": "Geometry",
+                "EA-Domain-Guid": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
+                "EA-Range": "MeasuringMethod",
+                "RangeData": {
+                    "EA-Name": "MeasuringMethod",
+                    "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
+                    "EA-Package": "ICEG-Building",
+                    "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+                },
+                "label": {
+                    "en": "method"
+                },
+                "definition": "",
+                "usage": "",
+                "ap-label-nl": "",
+                "ap-definition-nl": {
+                    "nl": "TODO"
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "The way the point was determined.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "method",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.w3.org/ns/locn#Geometry",
+                    "EA-Name": "Geometry"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "MeasuringMethod",
+                    "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
+                    "EA-Package": "ICEG-Building",
+                    "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "1",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "http://www.opengis.net/ont/sf#method",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "method",
             "inpackage": "OTHER_PACKAGE",
             "definition": {
                 "nl": "De manier waarop het punt werd bepaald."
             },
             "label": {
-                "nl": "methode"
+                "en": "method"
             },
             "ap-label-nl": {
                 "nl": "methode"
@@ -9228,7 +9802,7 @@
                     "uri": "http://www.w3.org/2004/02/skos/core#Concept"
                 },
                 "label": {
-                    "nl": "methode"
+                    "en": "method"
                 },
                 "definition": {
                     "nl": "De manier waarop het punt werd bepaald."
@@ -9286,165 +9860,9 @@
             "maxCardinality": "1"
         },
         {
-            "@id": "http://www.opengis.net/ont/sf#method",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
-            "inpackage": "OTHER_PACKAGE",
-            "ap-definition-nl": {
-                "nl": "TODO"
-            },
-            "extra": {
-                "EA-Name": "method",
-                "EA-Guid": "{EC02AF8E-EBC7-457b-A5AC-E3A86D7BFAA4}",
-                "EA-Package": "OpenGIS",
-                "EA-Type": "attribute",
-                "EA-Domain": "Geometry",
-                "EA-Domain-Guid": "{9E16C602-CB7A-4841-8871-EDFAE9E9D52E}",
-                "EA-Range": "MeasuringMethod",
-                "RangeData": {
-                    "EA-Name": "MeasuringMethod",
-                    "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
-                    "EA-Package": "ICEG-Building",
-                    "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-                },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-nl": "",
-                "ap-definition-nl": {
-                    "nl": "TODO"
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "The way the point was determined.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "method",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://www.w3.org/ns/locn#Geometry",
-                    "EA-Name": "Geometry"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "MeasuringMethod",
-                    "EA-GUID": "{F3CF143A-AF4D-4045-BB1E-D719EAF4F30E}",
-                    "EA-Package": "ICEG-Building",
-                    "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "1"
-        },
-        {
             "@id": "http://www.opengis.net/ont/geosparql#asWKT",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
             "name": "wkt",
-            "inpackage": "OTHER_PACKAGE",
-            "definition": {
-                "nl": "Directe positie uitgedrukt in wkt-formaat."
-            },
-            "label": {
-                "nl": "wkt"
-            },
-            "ap-label-nl": {
-                "nl": "wkt"
-            },
-            "ap-definition-nl": {
-                "nl": "Directe positie uitgedrukt in wkt-formaat."
-            },
-            "extra": {
-                "EA-Name": "wkt",
-                "EA-Guid": "{1CEB7733-3B1D-4848-8939-55D795D6DF13}",
-                "EA-Package": "OpenGIS",
-                "EA-Type": "attribute",
-                "EA-Domain": "DirectPosition",
-                "EA-Domain-Guid": "{F5F14669-7774-4665-83F7-2B95BE3CB2FD}",
-                "EA-Range": "Literal",
-                "RangeData": {
-                    "EA-Name": "Literal",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-                },
-                "label": {
-                    "nl": "wkt"
-                },
-                "definition": {
-                    "nl": "Directe positie uitgedrukt in wkt-formaat."
-                },
-                "usage": "",
-                "ap-label-nl": {
-                    "nl": "wkt"
-                },
-                "ap-definition-nl": {
-                    "nl": "Directe positie uitgedrukt in wkt-formaat."
-                },
-                "ap-usageNote-nl": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "wkt",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Directe positie uitgedrukt in wkt-formaat.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "wkt",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-en",
-                        "value": "Direct position expressed in wkt format.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "http://www.opengis.net/ont/geosparql#asWKT",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://www.opengis.net/ont/sf#DirectPosition",
-                    "EA-Name": "DirectPosition"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Literal",
-                    "EA-Package": "",
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "http://www.opengis.net/ont/geosparql#asWKT",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "alsWkt",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype."
@@ -9456,7 +9874,7 @@
                 "nl": "Geometrie uitgedrukt in wkt-formaat."
             },
             "label": {
-                "nl": "als WKT"
+                "en": "wkt"
             },
             "ap-label-nl": {
                 "nl": "als WKT"
@@ -9478,7 +9896,7 @@
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
                 "label": {
-                    "nl": "als WKT"
+                    "en": "wkt"
                 },
                 "definition": {
                     "nl": "Geometrie uitgedrukt in wkt-formaat."
@@ -9549,25 +9967,25 @@
             "maxCardinality": "1"
         },
         {
-            "@id": "http://www.opengis.net/ont/geosparql#asGML",
+            "@id": "http://www.opengis.net/ont/geosparql#asWKT",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "gml",
+            "name": "wkt",
             "inpackage": "OTHER_PACKAGE",
             "definition": {
-                "nl": "Directe positie uitgedrukt in gml-formaat."
+                "nl": "Directe positie uitgedrukt in wkt-formaat."
             },
             "label": {
-                "nl": "gml"
+                "en": "wkt"
             },
             "ap-label-nl": {
-                "nl": "gml"
+                "nl": "wkt"
             },
             "ap-definition-nl": {
-                "nl": "Directe positie uitgedrukt in gml-formaat."
+                "nl": "Directe positie uitgedrukt in wkt-formaat."
             },
             "extra": {
-                "EA-Name": "gml",
-                "EA-Guid": "{70124F67-571A-4c37-919F-647BC3EC83B9}",
+                "EA-Name": "wkt",
+                "EA-Guid": "{1CEB7733-3B1D-4848-8939-55D795D6DF13}",
                 "EA-Package": "OpenGIS",
                 "EA-Type": "attribute",
                 "EA-Domain": "DirectPosition",
@@ -9579,44 +9997,44 @@
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
                 "label": {
-                    "nl": "gml"
+                    "en": "wkt"
                 },
                 "definition": {
-                    "nl": "Directe positie uitgedrukt in gml-formaat."
+                    "nl": "Directe positie uitgedrukt in wkt-formaat."
                 },
                 "usage": "",
                 "ap-label-nl": {
-                    "nl": "gml"
+                    "nl": "wkt"
                 },
                 "ap-definition-nl": {
-                    "nl": "Directe positie uitgedrukt in gml-formaat."
+                    "nl": "Directe positie uitgedrukt in wkt-formaat."
                 },
                 "ap-usageNote-nl": "",
                 "ap-codelist": "",
                 "RawTags": [
                     {
                         "key": "label-nl",
-                        "value": "gml",
+                        "value": "wkt",
                         "note": "null"
                     },
                     {
                         "key": "definition-nl",
-                        "value": "Directe positie uitgedrukt in gml-formaat.",
+                        "value": "Directe positie uitgedrukt in wkt-formaat.",
                         "note": "null"
                     },
                     {
                         "key": "label-en",
-                        "value": "gml",
+                        "value": "wkt",
                         "note": "null"
                     },
                     {
                         "key": "definition-en",
-                        "value": "Direct position expressed in gml format.",
+                        "value": "Direct position expressed in wkt format.",
                         "note": "null"
                     },
                     {
                         "key": "uri",
-                        "value": "http://www.opengis.net/ont/geosparql#asGML",
+                        "value": "http://www.opengis.net/ont/geosparql#asWKT",
                         "note": "null"
                     }
                 ],
@@ -9643,7 +10061,7 @@
         {
             "@id": "http://www.opengis.net/ont/geosparql#asGML",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "alsGml",
+            "name": "gml",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
@@ -9655,7 +10073,7 @@
                 "nl": "Geometrie uitgedrukt in gml-formaat."
             },
             "label": {
-                "nl": "als GML"
+                "en": "gml"
             },
             "ap-label-nl": {
                 "nl": "als GML"
@@ -9677,7 +10095,7 @@
                     "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
                 },
                 "label": {
-                    "nl": "als GML"
+                    "en": "gml"
                 },
                 "definition": {
                     "nl": "Geometrie uitgedrukt in gml-formaat."
@@ -9748,10 +10166,105 @@
             "maxCardinality": "1"
         },
         {
+            "@id": "http://www.opengis.net/ont/geosparql#asGML",
+            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "name": "gml",
+            "inpackage": "OTHER_PACKAGE",
+            "definition": {
+                "nl": "Directe positie uitgedrukt in gml-formaat."
+            },
+            "label": {
+                "en": "gml"
+            },
+            "ap-label-nl": {
+                "nl": "gml"
+            },
+            "ap-definition-nl": {
+                "nl": "Directe positie uitgedrukt in gml-formaat."
+            },
+            "extra": {
+                "EA-Name": "gml",
+                "EA-Guid": "{70124F67-571A-4c37-919F-647BC3EC83B9}",
+                "EA-Package": "OpenGIS",
+                "EA-Type": "attribute",
+                "EA-Domain": "DirectPosition",
+                "EA-Domain-Guid": "{F5F14669-7774-4665-83F7-2B95BE3CB2FD}",
+                "EA-Range": "Literal",
+                "RangeData": {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                },
+                "label": {
+                    "en": "gml"
+                },
+                "definition": {
+                    "nl": "Directe positie uitgedrukt in gml-formaat."
+                },
+                "usage": "",
+                "ap-label-nl": {
+                    "nl": "gml"
+                },
+                "ap-definition-nl": {
+                    "nl": "Directe positie uitgedrukt in gml-formaat."
+                },
+                "ap-usageNote-nl": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-nl",
+                        "value": "gml",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-nl",
+                        "value": "Directe positie uitgedrukt in gml-formaat.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "gml",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "Direct position expressed in gml format.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "http://www.opengis.net/ont/geosparql#asGML",
+                        "note": "null"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://www.opengis.net/ont/sf#DirectPosition",
+                    "EA-Name": "DirectPosition"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Literal",
+                    "EA-Package": "",
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
             "@id": "http://vocab.belgif.be/ns/building#reference",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "reference",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "reference"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -9769,7 +10282,9 @@
                     "EA-Package": "Address",
                     "uri": "http://vocab.belgif.be/ns/building#Address"
                 },
-                "label": "",
+                "label": {
+                    "en": "reference"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -9814,7 +10329,7 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#municipalityName",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "gemeentenaam",
+            "name": "municipalityName",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -9826,7 +10341,7 @@
                 "nl": "Gemeentenaam vh adres."
             },
             "label": {
-                "nl": "gemeentenaam"
+                "en": "municipality name"
             },
             "ap-label-nl": {
                 "nl": "gemeentenaam"
@@ -9849,7 +10364,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "gemeentenaam"
+                    "en": "municipality name"
                 },
                 "definition": {
                     "nl": "Gemeentenaam vh adres."
@@ -9925,7 +10440,7 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#housenumber",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "huisnummer",
+            "name": "housenumber",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
@@ -9937,7 +10452,7 @@
                 "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
             },
             "label": {
-                "nl": "huisnummer"
+                "en": "housenumber"
             },
             "ap-label-nl": {
                 "nl": "huisnummer"
@@ -9959,7 +10474,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
                 "label": {
-                    "nl": "huisnummer"
+                    "en": "housenumber"
                 },
                 "definition": {
                     "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
@@ -10039,7 +10554,7 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#country",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "land",
+            "name": "country",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": " "
@@ -10051,7 +10566,7 @@
                 "nl": "Land waarin het adres gelegen is."
             },
             "label": {
-                "nl": "land"
+                "en": "country"
             },
             "ap-label-nl": {
                 "nl": "land"
@@ -10074,7 +10589,7 @@
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
                 "label": {
-                    "nl": "land"
+                    "en": "country"
                 },
                 "definition": {
                     "nl": "Land waarin het adres gelegen is."
@@ -10150,7 +10665,7 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#boxNumber",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "busnummer",
+            "name": "boxNumber",
             "inpackage": "OTHER_PACKAGE",
             "ap-usageNote-nl": {
                 "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
@@ -10162,7 +10677,7 @@
                 "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
             },
             "label": {
-                "nl": "busnummer"
+                "en": "box number"
             },
             "ap-label-nl": {
                 "nl": "busnummer"
@@ -10184,7 +10699,7 @@
                     "uri": "http://www.w3.org/2001/XMLSchema#string"
                 },
                 "label": {
-                    "nl": "busnummer"
+                    "en": "box number"
                 },
                 "definition": {
                     "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
@@ -10264,8 +10779,11 @@
         {
             "@id": "http://vocab.belgif.be/ns/building#adminUnit",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "adminUnit",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "admin unit"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -10283,7 +10801,9 @@
                     "EA-Package": "ICEG-Building",
                     "uri": "http://vocab.belgif.be/ns/building#GeographicalName"
                 },
-                "label": "",
+                "label": {
+                    "en": "admin unit"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -10328,8 +10848,11 @@
         {
             "@id": "http://purl.org/dc/terms/issued",
             "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-            "name": "",
+            "name": "assignedOn",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "assigned on"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -10346,7 +10869,9 @@
                     "EA-Package": "",
                     "uri": "http://www.w3.org/2001/XMLSchema#dateTime"
                 },
-                "label": "",
+                "label": {
+                    "en": "assigned on"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -10395,8 +10920,11 @@
         {
             "@id": "http://purl.org/dc/terms/creator",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "assignedBy",
             "inpackage": "OTHER_PACKAGE",
+            "label": {
+                "en": "assigned by"
+            },
             "ap-definition-nl": {
                 "nl": "TODO"
             },
@@ -10414,7 +10942,9 @@
                     "EA-Package": "OpenGIS",
                     "uri": "http://purl.org/dc/terms/Agent"
                 },
-                "label": "",
+                "label": {
+                    "en": "assigned by"
+                },
                 "definition": "",
                 "usage": "",
                 "ap-label-nl": "",
@@ -10507,6 +11037,6 @@
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "urlref": "/thematic/models/building",
     "documentcommit": "a3ebf4b1205f1e362922d3c8c4749a6ed5a20952",
-    "toolchaincommit": "f71364141ba810e2bc5191afcaaf7f8016452eff",
+    "toolchaincommit": "efab23d701fc79878b385458ea340dbc77e14ada",
     "hostname": "https://belgif.github.io/"
 }

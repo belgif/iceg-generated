@@ -1,0 +1,1217 @@
+{
+  "@context": {
+    "@vocab": "https://belgif.github.io//thematic/models/building",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:description": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    },
+    "vl": "https://purl.eu/ns/shacl#"
+  },
+  "@id": "https://belgif.github.io//thematic/models/building",
+  "shapes": [
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/ns/locn#Address",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "https://www.w3.org/ns/locn#address"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#buildingNature"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#BuildingUnit",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#buildingUnit"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#CadastralParcel",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#cadastralParcel"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#conditionOfConstruction"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#CurrentUse",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#Building.currentUse"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#DateOfEvent",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#Building.dateOfConstruction"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#DateOfEvent",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#Building.dateOfDemolition"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#DateOfEvent",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#Building.dateOfRenovation"
+        },
+        {
+          "sh:class": "https://schema.org/DigitalDocument",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#document"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#Elevation",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#Building.elevation"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#EntranceLocation",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#entranceLocation"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#ExternalReference",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#externalReference"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#BuildingGeometry",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#HeightAboveGround",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#heightAboveGround"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#identifier"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#InteriorInstallation",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#interiorInstallation"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#CurrentUse",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#legalUse"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#name"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#numberOfDwellings"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#numberOfFloorsAboveGround"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#numberOfFloorsUnderGround"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#Building"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingGeometryShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#ICEG-Unit",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#horizontalGeometryEstimatedAccuracy"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#referenceGeometry"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#ICEG-Unit",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#verticalGeometryEstimatedAccuracy"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#BuildingGeometry"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingGeometry3DLoDShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.opengis.net/ont/sf#MultiSurface",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#geometryMultiSurface"
+        },
+        {
+          "sh:datatype": "http://www.opengis.net/ont/gml#Solid",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#geometrySolid"
+        },
+        {
+          "sh:datatype": "http://www.opengis.net/ont/sf#MultiCurve",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#terrainIntersection"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#verticalGeometryReference3DBottom"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingGeometry3DLoD1Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD1.horizontalGeometryReference"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#verticalGeometryReference3DTop"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD1"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingGeometry3DLoD2Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#horizontalGeometryReference"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD2.horizontalGeometryReference"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingGeometry3DLoD3Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD3"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingGeometry3DLoD4Shape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD4"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingUnitShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/ns/locn#Address",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "https://www.w3.org/ns/locn#address"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#Building",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#building"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#CurrentUse",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#Buildingunit.currentUse"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#DateOfEvent",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfConstruction"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#DateOfEvent",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfDemolition"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#DateOfEvent",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfRenovation"
+        },
+        {
+          "sh:class": "https://schema.org/DigitalDocument",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#document"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#EntranceLocation",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#entranceLocation"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/ns/locn#Geometry",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#identifier"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#CurrentUse",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#legalUse"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#BuildingUnit"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#CadastralParcelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#Building",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#building"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#CadastralParcel"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#CurrentUseShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#percentage"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#type"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#CurrentUse"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#DateOfEventShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#anyPoint"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#endDate"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#startDate"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#DateOfEvent"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#ElevationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#elevationReference"
+        },
+        {
+          "sh:datatype": "http://www.opengis.net/ont/sf#DirectPosition",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#elevationValue"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#Elevation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#EntranceLocationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/ns/locn#Address",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#Address"
+        },
+        {
+          "sh:datatype": "http://www.opengis.net/ont/sf#DirectPosition",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#Geometry"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#EntranceLocation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#ExternalReferenceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#informationSystem"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#informationSystemName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#reference"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#ExternalReference"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#GeographicalNameShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#nameStatus"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#nativeness"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#sourceOfName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#spelling"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#GeographicalName"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#HeightAboveGroundShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#heightReference"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#lowReference"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#HeightStatusValue",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#status"
+        },
+        {
+          "sh:datatype": "http://vocab.belgif.be/ns/building#ICEG-Unit",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#value"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#HeightAboveGround"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#ICEG-UnitShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#uom"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "https://qudt.org/schema/qudt/value"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#ICEG-Unit"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#InteriorInstallationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/ns/locn#Geometry",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#identifier"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#installationNature"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#InteriorInstallation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#LangCodeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#LangCode"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#StructuredIdentificatorShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/building#StructuredIdentificator"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#3DobjectShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/gml#Solid"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#DirectPositionShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.opengis.net/ont/sf#method"
+        },
+        {
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
+        }
+      ],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#DirectPosition"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#MultiCurveShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#MultiCurve"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#MultiSurfaceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#MultiSurface"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#PointShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#Point"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#PolygonShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#Polygon"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#URIShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#TextShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingNatureValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#CurrentUseValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#MeasuringMethodShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#SourceStatusValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#InternalInstallationNatureValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#IdentifierShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://purl.org/dc/terms/Agent",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://purl.org/dc/terms/creator"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#schemaAgency"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://purl.org/dc/terms/issued"
+        },
+        {
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#StructuredIdentificator",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#structuredIdentificator"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#AddressRepresentationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#adminUnit"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#boxNumber"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#country"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#housenumber"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#municipalityName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#poBox"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postCode"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#Address",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#reference"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/building#GeographicalName",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Address"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#GeometryShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.opengis.net/ont/sf#method"
+        },
+        {
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#BuildingGeometry2DShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#BuildingGeometry2D.horizontalGeometryReference"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "de": ""
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#verticalGeometryReference"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/gebouw#2DGebouwgeometrie"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/building#DocumentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#date"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#documentDescription"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "de": "Enter your translation here"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/building#sourceStatus"
+        }
+      ],
+      "sh:targetClass": "https://schema.org/DigitalDocument"
+    }
+  ]
+}

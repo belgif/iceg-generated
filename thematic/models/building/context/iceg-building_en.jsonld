@@ -177,6 +177,11 @@
       "@id": "http://vocab.belgif.be/ns/building#boxNumber",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
+    "building": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#building",
+      "@type": "@id"
+    },
     "buildingNature": {
       "@container": "@set",
       "@id": "http://vocab.belgif.be/ns/building#buildingNature",
