@@ -1,0 +1,441 @@
+{
+  "@context": {
+    "3Dobject": "http://www.opengis.net/ont/gml#Solid",
+    "AddressRepresentation": "http://www.w3.org/ns/locn#Address",
+    "Building": "http://vocab.belgif.be/ns/building#Building",
+    "Building.address": {
+      "@container": "@set",
+      "@id": "https://www.w3.org/ns/locn#address",
+      "@type": "http://www.w3.org/ns/locn#Address"
+    },
+    "Building.currentUse": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#Building.currentUse",
+      "@type": "@id"
+    },
+    "Building.dateOfConstruction": {
+      "@id": "http://vocab.belgif.be/ns/building#Building.dateOfConstruction",
+      "@type": "http://vocab.belgif.be/ns/building#DateOfEvent"
+    },
+    "Building.dateOfDemolition": {
+      "@id": "http://vocab.belgif.be/ns/building#Building.dateOfDemolition",
+      "@type": "http://vocab.belgif.be/ns/building#DateOfEvent"
+    },
+    "Building.dateOfRenovation": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#Building.dateOfRenovation",
+      "@type": "http://vocab.belgif.be/ns/building#DateOfEvent"
+    },
+    "Building.geometry": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/locn#geometry",
+      "@type": "http://vocab.belgif.be/ns/building#BuildingGeometry"
+    },
+    "Building.identifier": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/adms#identifier",
+      "@type": "@id"
+    },
+    "BuildingGeometry": "http://vocab.belgif.be/ns/building#BuildingGeometry",
+    "BuildingGeometry2D": "https://data.vlaanderen.be/ns/gebouw#2DGebouwgeometrie",
+    "BuildingGeometry2D.geometry": {
+      "@id": "http://vocab.belgif.be/ns/building#geometry",
+      "@type": "http://www.w3.org/ns/locn#Geometry"
+    },
+    "BuildingGeometry2D.horizontalGeometryReference": {
+      "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry2D.horizontalGeometryReference",
+      "@type": "@id"
+    },
+    "BuildingGeometry3DLoD": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD",
+    "BuildingGeometry3DLoD1": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD1",
+    "BuildingGeometry3DLoD1.horizontalGeometryReference": {
+      "@id": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD1.horizontalGeometryReference",
+      "@type": "@id"
+    },
+    "BuildingGeometry3DLoD2": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD2.horizontalGeometryReference",
+    "BuildingGeometry3DLoD2.horizontalGeometryReference": {
+      "@id": "http://vocab.belgif.be/ns/building#horizontalGeometryReference",
+      "@type": "@id"
+    },
+    "BuildingGeometry3DLoD3": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD3",
+    "BuildingGeometry3DLoD4": "http://vocab.belgif.be/ns/building#BuildingGeometry3DLoD4",
+    "BuildingNatureValue": "http://www.w3.org/2004/02/skos/core#Concept",
+    "BuildingUnit": "http://vocab.belgif.be/ns/building#BuildingUnit",
+    "BuildingUnit.address": {
+      "@container": "@set",
+      "@id": "https://www.w3.org/ns/locn#address",
+      "@type": "http://www.w3.org/ns/locn#Address"
+    },
+    "BuildingUnit.currentUse": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#Buildingunit.currentUse",
+      "@type": "@id"
+    },
+    "BuildingUnit.dateOfConstruction": {
+      "@id": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfConstruction",
+      "@type": "http://vocab.belgif.be/ns/building#DateOfEvent"
+    },
+    "BuildingUnit.dateOfDemolition": {
+      "@id": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfDemolition",
+      "@type": "http://vocab.belgif.be/ns/building#DateOfEvent"
+    },
+    "BuildingUnit.dateOfRenovation": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#BuildingUnit.dateOfRenovation",
+      "@type": "http://vocab.belgif.be/ns/building#DateOfEvent"
+    },
+    "BuildingUnit.geometry": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/locn#geometry",
+      "@type": "http://www.w3.org/ns/locn#Geometry"
+    },
+    "BuildingUnit.identifier": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/adms#identifier",
+      "@type": "@id"
+    },
+    "CadastralParcel": "http://vocab.belgif.be/ns/building#CadastralParcel",
+    "CurrentUse": "http://vocab.belgif.be/ns/building#CurrentUse",
+    "CurrentUseValue": "http://www.w3.org/2004/02/skos/core#Concept",
+    "DateOfEvent": "http://vocab.belgif.be/ns/building#DateOfEvent",
+    "DirectPosition": "http://www.opengis.net/ont/sf#DirectPosition",
+    "Document": "https://schema.org/DigitalDocument",
+    "Elevation": "http://vocab.belgif.be/ns/building#Elevation",
+    "EntranceLocation": "http://vocab.belgif.be/ns/building#EntranceLocation",
+    "EntranceLocation.address": {
+      "@id": "http://www.w3.org/ns/locn#Address",
+      "@type": "http://www.w3.org/ns/locn#Address"
+    },
+    "ExternalReference": "http://vocab.belgif.be/ns/building#ExternalReference",
+    "GeographicalName": "http://vocab.belgif.be/ns/building#GeographicalName",
+    "Geometry": "http://www.w3.org/ns/locn#Geometry",
+    "HeightAboveGround": "http://vocab.belgif.be/ns/building#HeightAboveGround",
+    "HeightAboveGround.value": {
+      "@id": "http://vocab.belgif.be/ns/building#value",
+      "@type": "http://vocab.belgif.be/ns/building#ICEG-Unit"
+    },
+    "ICEG-Unit": "http://vocab.belgif.be/ns/building#ICEG-Unit",
+    "ICEG-Unit.value": {
+      "@id": "https://qudt.org/schema/qudt/value",
+      "@type": "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "Identifier": "http://www.w3.org/ns/adms#Identifier",
+    "Identifier.identifier": {
+      "@id": "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "InteriorInstallation": "http://vocab.belgif.be/ns/building#InteriorInstallation",
+    "InteriorInstallation.identifier": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/adms#identifier",
+      "@type": "@id"
+    },
+    "InternalInstallationNatureValue": "http://www.w3.org/2004/02/skos/core#Concept",
+    "LangCode": "http://vocab.belgif.be/ns/building#LangCode",
+    "MeasuringMethod": "http://www.w3.org/2004/02/skos/core#Concept",
+    "MultiCurve": "http://www.opengis.net/ont/sf#MultiCurve",
+    "MultiSurface": "http://www.opengis.net/ont/sf#MultiSurface",
+    "Point": "http://www.opengis.net/ont/sf#Point",
+    "Polygon": "http://www.opengis.net/ont/sf#Polygon",
+    "SourceStatusValue": "http://www.w3.org/2004/02/skos/core#Concept",
+    "StructuredIdentificator": "http://vocab.belgif.be/ns/building#StructuredIdentificator",
+    "Text": "http://www.w3.org/2001/XMLSchema#string",
+    "URI": "http://www.w3.org/2001/XMLSchema#anyURI",
+    "addressArea": {
+      "@id": "http://www.w3.org/ns/locn#addressArea",
+      "@type": "@id"
+    },
+    "adminUnit": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#adminUnit",
+      "@type": "@id"
+    },
+    "administrativeUnitLevel1": {
+      "@id": "http://www.w3.org/ns/locn#adminUnitL1",
+      "@type": "@id"
+    },
+    "administrativeUnitLevel2": {
+      "@id": "http://www.w3.org/ns/locn#adminUnitL2",
+      "@type": "@id"
+    },
+    "anyPoint": {
+      "@id": "http://vocab.belgif.be/ns/building#anyPoint",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "assignedBy": {
+      "@id": "http://purl.org/dc/terms/creator",
+      "@type": "@id"
+    },
+    "assignedByString": {
+      "@id": "http://www.w3.org/ns/adms#schemaAgency",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "assignedOn": {
+      "@id": "http://purl.org/dc/terms/issued",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "boxNumber": {
+      "@id": "http://vocab.belgif.be/ns/building#boxNumber",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "building": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#building",
+      "@type": "@id"
+    },
+    "buildingNature": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#buildingNature",
+      "@type": "@id"
+    },
+    "buildingUnit": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#buildingUnit",
+      "@type": "@id"
+    },
+    "cadastralParcel": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#cadastralParcel",
+      "@type": "@id"
+    },
+    "conditionOfConstruction": {
+      "@id": "http://vocab.belgif.be/ns/building#conditionOfConstruction",
+      "@type": "@id"
+    },
+    "country": {
+      "@id": "http://vocab.belgif.be/ns/building#country",
+      "@type": "@id"
+    },
+    "date": {
+      "@id": "http://vocab.belgif.be/ns/building#date",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "document": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#document",
+      "@type": "@id"
+    },
+    "documentDescription": {
+      "@id": "http://vocab.belgif.be/ns/building#documentDescription",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "elevation": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#Building.elevation",
+      "@type": "http://vocab.belgif.be/ns/building#Elevation"
+    },
+    "elevationReference": {
+      "@id": "http://vocab.belgif.be/ns/building#elevationReference",
+      "@type": "@id"
+    },
+    "elevationValue": {
+      "@id": "http://vocab.belgif.be/ns/building#elevationValue",
+      "@type": "http://www.opengis.net/ont/sf#DirectPosition"
+    },
+    "endDate": {
+      "@id": "http://vocab.belgif.be/ns/building#endDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "entranceLocation": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#entranceLocation",
+      "@type": "http://vocab.belgif.be/ns/building#EntranceLocation"
+    },
+    "externalReference": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#externalReference",
+      "@type": "@id"
+    },
+    "fullAddress": {
+      "@id": "http://www.w3.org/ns/locn#fullAddress",
+      "@type": "@id"
+    },
+    "geometry3D": {
+      "@id": "http://www.w3.org/ns/locn#geometry",
+      "@type": "http://www.w3.org/ns/locn#Geometry"
+    },
+    "geometryMultiSurface": {
+      "@id": "http://vocab.belgif.be/ns/building#geometryMultiSurface",
+      "@type": "http://www.opengis.net/ont/sf#MultiSurface"
+    },
+    "geometrySolid": {
+      "@id": "http://vocab.belgif.be/ns/building#geometrySolid",
+      "@type": "http://www.opengis.net/ont/gml#Solid"
+    },
+    "gml": {
+      "@id": "http://www.opengis.net/ont/geosparql#asGML"
+    },
+    "heightAboveGround": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#heightAboveGround",
+      "@type": "@id"
+    },
+    "heightReference": {
+      "@id": "http://vocab.belgif.be/ns/building#heightReference",
+      "@type": "@id"
+    },
+    "horizontalGeometryEstimatedAccuracy": {
+      "@id": "http://vocab.belgif.be/ns/building#horizontalGeometryEstimatedAccuracy",
+      "@type": "http://vocab.belgif.be/ns/building#ICEG-Unit"
+    },
+    "housenumber": {
+      "@id": "http://vocab.belgif.be/ns/building#housenumber",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "informationSystem": {
+      "@id": "http://vocab.belgif.be/ns/building#informationSystem",
+      "@type": "@id"
+    },
+    "informationSystemName": {
+      "@id": "http://vocab.belgif.be/ns/building#informationSystemName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "installationNature": {
+      "@id": "http://vocab.belgif.be/ns/building#installationNature",
+      "@type": "@id"
+    },
+    "interiorInstallation": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#interiorInstallation",
+      "@type": "@id"
+    },
+    "legalUse": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#legalUse",
+      "@type": "@id"
+    },
+    "locationName": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/locn#locatorName",
+      "@type": "@id"
+    },
+    "locatorDesignator": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/locn#locatorDesignator",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "lowReference": {
+      "@id": "http://vocab.belgif.be/ns/building#lowReference",
+      "@type": "@id"
+    },
+    "method": {
+      "@id": "http://www.opengis.net/ont/sf#method",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "municipalityName": {
+      "@id": "http://vocab.belgif.be/ns/building#municipalityName",
+      "@type": "@id"
+    },
+    "name": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/building#name",
+      "@type": "@id"
+    },
+    "nameStatus": {
+      "@id": "http://vocab.belgif.be/ns/building#nameStatus",
+      "@type": "@id"
+    },
+    "nativeness": {
+      "@id": "http://vocab.belgif.be/ns/building#nativeness",
+      "@type": "@id"
+    },
+    "numberOfDwellings": {
+      "@id": "http://vocab.belgif.be/ns/building#numberOfDwellings",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "numberOfFloorsAboveGround": {
+      "@id": "http://vocab.belgif.be/ns/building#numberOfFloorsAboveGround",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "numberOfFloorsUnderGround": {
+      "@id": "http://vocab.belgif.be/ns/building#numberOfFloorsUnderGround",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "percentage": {
+      "@id": "http://vocab.belgif.be/ns/building#percentage",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "poBox": {
+      "@id": "http://www.w3.org/ns/locn#poBox",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "position": {
+      "@id": "http://www.w3.org/ns/locn#Geometry",
+      "@type": "http://www.opengis.net/ont/sf#DirectPosition"
+    },
+    "postName": {
+      "@id": "http://www.w3.org/ns/locn#postName",
+      "@type": "@id"
+    },
+    "postalcode": {
+      "@id": "http://www.w3.org/ns/locn#postCode",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "reference": {
+      "@id": "http://vocab.belgif.be/ns/building#reference",
+      "@type": "@id"
+    },
+    "referenceGeometry": {
+      "@id": "http://vocab.belgif.be/ns/building#referenceGeometry",
+      "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "sourceOfName": {
+      "@id": "http://vocab.belgif.be/ns/building#sourceOfName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "sourceStatus": {
+      "@id": "http://vocab.belgif.be/ns/building#sourceStatus",
+      "@type": "@id"
+    },
+    "spelling": {
+      "@id": "http://vocab.belgif.be/ns/building#spelling",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "startDate": {
+      "@id": "http://vocab.belgif.be/ns/building#startDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "status": {
+      "@id": "http://vocab.belgif.be/ns/building#status",
+      "@type": "@id"
+    },
+    "streetname": {
+      "@id": "http://www.w3.org/ns/locn#thoroughfare",
+      "@type": "@id"
+    },
+    "structuredIdentificator": {
+      "@id": "http://vocab.belgif.be/ns/building#structuredIdentificator",
+      "@type": "@id"
+    },
+    "terrainIntersection": {
+      "@id": "http://vocab.belgif.be/ns/building#terrainIntersection",
+      "@type": "http://www.opengis.net/ont/sf#MultiCurve"
+    },
+    "type": {
+      "@id": "http://vocab.belgif.be/ns/building#type",
+      "@type": "@id"
+    },
+    "uom": {
+      "@id": "http://vocab.belgif.be/ns/building#uom",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "verticalGeometryEstimatedAccuracy": {
+      "@id": "http://vocab.belgif.be/ns/building#verticalGeometryEstimatedAccuracy",
+      "@type": "http://vocab.belgif.be/ns/building#ICEG-Unit"
+    },
+    "verticalGeometryReference": {
+      "@id": "http://vocab.belgif.be/ns/building#verticalGeometryReference",
+      "@type": "@id"
+    },
+    "verticalGeometryReference3DBottom": {
+      "@id": "http://vocab.belgif.be/ns/building#verticalGeometryReference3DBottom",
+      "@type": "@id"
+    },
+    "verticalGeometryReference3DTop": {
+      "@id": "http://vocab.belgif.be/ns/building#verticalGeometryReference3DTop",
+      "@type": "@id"
+    },
+    "wkt": {
+      "@id": "http://www.opengis.net/ont/geosparql#asWKT"
+    }
+  }
+}
