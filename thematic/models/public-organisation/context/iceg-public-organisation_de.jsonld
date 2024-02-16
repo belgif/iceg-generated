@@ -1,0 +1,370 @@
+{
+  "@context": {
+    "Address": "http://www.w3.org/ns/locn#Address",
+    "AdministrativeTerritorialUnit": "http://data.europa.eu/88u/dataset/atu-type",
+    "ChangeEvent": "http://www.w3.org/ns/org#ChangeEvent",
+    "ContactPoint": "https://schema.org/ContactPoint",
+    "FoundationEvent": "http://data.europa.eu/m8g/FoundationEvent",
+    "Geometry": "http://www.w3.org/ns/locn#Geometry",
+    "Identifier": "http://www.w3.org/ns/adms#Identifier",
+    "Identifier.identifier": {
+      "@id": "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "ImageObject": "https://schema.org/ImageObject",
+    "OpeningHoursSpecification": "https://schema.org/OpeningHoursSpecification",
+    "Organization": "http://www.w3.org/ns/org#Organization",
+    "Organization.hasMember": {
+      "@container": "@set",
+      "@id": "http://www.iceg.be/Organization.hasMember",
+      "@type": "@id"
+    },
+    "Organization.identifier": {
+      "@container": "@set",
+      "@id": "https://www.w3.org/ns/adms#Identifier",
+      "@type": "@id"
+    },
+    "Organization.memberOf": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#memberOf",
+      "@type": "@id"
+    },
+    "OrganizationalUnit": "http://www.w3.org/ns/org#OrganizationalUnit",
+    "Person": "http://www.w3.org/ns/person#Person",
+    "Person.identifier": {
+      "@container": "@set",
+      "@id": "https://dublincore.org/specifications/dublin-core/dcmi-terms/#identifier",
+      "@type": "@id"
+    },
+    "Person.memberOf": {
+      "@container": "@set",
+      "@id": "https://schema.org/memberOf",
+      "@type": "@id"
+    },
+    "Post": "http://www.w3.org/ns/org#Post",
+    "PublicOrganization": "http://data.europa.eu/m8g/PublicOrganisation",
+    "ReferenceFramework": "http://data.europa.eu/m8g/ReferenceFramework",
+    "ReferenceFramework.identifier": {
+      "@id": "http://purl.org/dc/terms/identifier"
+    },
+    "Role": "http://www.w3.org/ns/org#Role",
+    "Site": "http://www.w3.org/ns/org#Site",
+    "address": {
+      "@id": "http://www.w3.org/ns/locn#address",
+      "@type": "@id"
+    },
+    "addressArea": {
+      "@id": "http://www.w3.org/ns/locn#addressArea",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "addressID": {
+      "@id": "http://www.w3.org/ns/locn#addressID"
+    },
+    "adminUnitL1": {
+      "@id": "http://www.w3.org/ns/locn#adminUnitL1",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "adminUnitL2": {
+      "@id": "http://www.w3.org/ns/locn#adminUnitL2",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "alternativeLabel": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "alternativeName": {
+      "@id": "http://purl.org/dc/terms/alternative",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "availabilityRestriction": {
+      "@id": "https://schema.org/hoursAvailable",
+      "@type": "@id"
+    },
+    "birthName": {
+      "@id": "http://www.w3.org/ns/person#birthName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "certification": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/publicorganization#certification",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "changedBy": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#changedBy",
+      "@type": "@id"
+    },
+    "contactPoint": {
+      "@container": "@set",
+      "@id": "https://schema.org/contactPoint",
+      "@type": "@id"
+    },
+    "coordinates": {
+      "@id": "http://data.europa.eu/m8g/coordinates",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "crs": {
+      "@id": "http://data.europa.eu/m8g/crs",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "dateOfBirth": {
+      "@id": "https://schema.org/birthDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "dateOfDeath": {
+      "@id": "https://schema.org/deathDate",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "dateOfIssue": {
+      "@id": "http://purl.org/dc/terms/issued",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "dayOfWeek": {
+      "@id": "https://schema.org/dayOfWeek",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "description": {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "endedAtTime": {
+      "@id": "http://www.w3.org/ns/prov#endedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "exOfficioStrikingOff": {
+      "@id": "http://vocab.belgif.be/ns/publicorganization#exOfficioStrikingOff",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "familyName": {
+      "@id": "http://xmlns.com/foaf/0.1/familyName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "fullAddress": {
+      "@id": "http://www.w3.org/ns/locn#fullAddress",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "fullName": {
+      "@id": "http://xmlns.com/foaf/0.1/name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "geometry": {
+      "@id": "http://www.w3.org/ns/locn#geometry",
+      "@type": "@id"
+    },
+    "geometryType": {
+      "@id": "http://data.europa.eu/m8g/geometryType",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "givenName": {
+      "@container": "@set",
+      "@id": "http://xmlns.com/foaf/0.1/givenName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "gml": {
+      "@id": "http://www.opengis.net/ont/geosparql#asGML"
+    },
+    "hasEmail": {
+      "@id": "https://schema.org/email"
+    },
+    "hasFormalFramework": {
+      "@container": "@set",
+      "@id": "http://data.europa.eu/m8g/hasFormalFramework",
+      "@type": "@id"
+    },
+    "hasPost": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#hasPost",
+      "@type": "@id"
+    },
+    "hasSite": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#hasSite",
+      "@type": "@id"
+    },
+    "hasSubOrganization": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#hasSubOrganization",
+      "@type": "@id"
+    },
+    "hasTelephone": {
+      "@id": "https://schema.org/telephone"
+    },
+    "hasUnit": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#hasUnit",
+      "@type": "@id"
+    },
+    "holds": {
+      "@container": "@set",
+      "@id": "https://www.w3.org/ns/org#holds",
+      "@type": "@id"
+    },
+    "implements": {
+      "@container": "@set",
+      "@id": "http://purl.org/vocab/cpsv#implements",
+      "@type": "@id"
+    },
+    "issuingAuthorityName": {
+      "@id": "http://www.w3.org/ns/adms#schemeAgency",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "issuingAuthorityURI": {
+      "@id": "http://purl.org/dc/terms/creator",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "latitude": {
+      "@id": "https://schema.org/latitude",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "legalForm": {
+      "@id": "http://vocab.belgif.be/ns/publicorganization#legalForm",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "linksToDatabase": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/publicorganization#linksToDatabase",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "locatorDesignator": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/locn#locatorDesignator",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "locatorName": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/locn#locatorName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "logo": {
+      "@container": "@set",
+      "@id": "https://schema.org/logo",
+      "@type": "@id"
+    },
+    "longitude": {
+      "@id": "https://schema.org/longitude",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "next": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/1999/xhtml/vocab#next",
+      "@type": "@id"
+    },
+    "openingHours": {
+      "@id": "https://schema.org/openingHours"
+    },
+    "originalOrganization": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#originalOrganization",
+      "@type": "@id"
+    },
+    "page": {
+      "@id": "http://xmlns.com/foaf/0.1/#term_page",
+      "@type": "@id"
+    },
+    "patronymicName": {
+      "@id": "http://www.w3.org/ns/person#patronymicName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "poBox": {
+      "@id": "http://www.w3.org/ns/locn#poBox",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "postCode": {
+      "@id": "http://www.w3.org/ns/locn#postCode",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "postIn": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#postIn",
+      "@type": "@id"
+    },
+    "postName": {
+      "@id": "http://www.w3.org/ns/locn#postName",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "preferredLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "prev": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/1999/xhtml/vocab#prev",
+      "@type": "@id"
+    },
+    "registeredAddress": {
+      "@id": "http://www.w3.org/ns/locn#address",
+      "@type": "@id"
+    },
+    "resultedFrom": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#resultedFrom",
+      "@type": "@id"
+    },
+    "resultingOrganization": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#resultingOrganization",
+      "@type": "@id"
+    },
+    "role": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#role",
+      "@type": "@id"
+    },
+    "schemeName": {
+      "@id": "http://purl.org/dc/terms/conformsTo",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "schemeURI": {
+      "@id": "http://purl.org/dc/terms/conformsTo",
+      "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "spatial": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/spatial",
+      "@type": "@id"
+    },
+    "startDateOfThisData": {
+      "@id": "http://vocab.belgif.be/ns/publicorganization#startDateOfThisData",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "startedAtTime": {
+      "@id": "http://www.w3.org/ns/prov#startedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "status": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/publicorganization#status",
+      "@type": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "subOrganizationOf": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#subOrganizationOf",
+      "@type": "@id"
+    },
+    "thoroughfare": {
+      "@id": "http://www.w3.org/ns/locn#thoroughfare",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "title": {
+      "@container": "@set",
+      "@id": "http://xmlns.com/foaf/0.1/title",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "unitOf": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/org#unitOf",
+      "@type": "@id"
+    },
+    "validFrom": {
+      "@id": "https://schema.org/validFrom",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "validThrough": {
+      "@id": "https://schema.org/validThrough",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "wkt": {
+      "@id": "http://www.opengis.net/ont/geosparql#asWKT"
+    }
+  }
+}
