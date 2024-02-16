@@ -2059,110 +2059,6 @@
             "@id": "https://schema.org/hoursAvailable",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "availabilityRestriction",
-            "inpackage": "OTHER_PACKAGE",
-            "ap-definition-en": {
-                "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
-            },
-            "ap-label-en": {
-                "en": "availability restriction"
-            },
-            "definition": {
-                "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
-            },
-            "label": {
-                "en": "availability restriction"
-            },
-            "extra": {
-                "EA-Name": "availabilityRestriction",
-                "EA-Guid": "{F71C6A06-957F-4a1b-B624-0383D1F13A4E}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "ContactPoint",
-                "EA-Domain-Guid": "{AE45F87E-BA1C-4ceb-84AF-69B2FB800CD5}",
-                "EA-Range": "OpeningHoursSpecification",
-                "RangeData": {
-                    "EA-Name": "OpeningHoursSpecification",
-                    "EA-GUID": "{721B11C7-A1B2-43a7-AA41-6E02D6CBBB21}",
-                    "EA-Package": "schema",
-                    "uri": "https://schema.org/OpeningHoursSpecification"
-                },
-                "sourceRole": "null",
-                "destRole": "availabilityRestriction",
-                "label": {
-                    "en": "availability restriction"
-                },
-                "definition": {
-                    "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
-                },
-                "usage": "",
-                "ap-label-en": {
-                    "en": "availability restriction"
-                },
-                "ap-definition-en": {
-                    "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "https://schema.org/hoursAvailable"
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "availability restriction"
-                    }
-                ],
-                "DestRoleTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "https://schema.org/hoursAvailable"
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "availability restriction"
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://schema.org/ContactPoint",
-                    "EA-Name": "ContactPoint"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "OpeningHoursSpecification",
-                    "EA-GUID": "{721B11C7-A1B2-43a7-AA41-6E02D6CBBB21}",
-                    "EA-Package": "schema",
-                    "uri": "https://schema.org/OpeningHoursSpecification"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
-            "@id": "https://schema.org/hoursAvailable",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "availabilityRestriction",
             "inpackage": "UNKNOWN",
             "ap-definition-en": {
                 "en": "The availability restriction property links a Channel  to details of specific details of its opening hours that override the general case."
@@ -2249,6 +2145,110 @@
                 {
                     "uri": "http://data.europa.eu/m8g/Channel",
                     "EA-Name": "Channel"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "OpeningHoursSpecification",
+                    "EA-GUID": "{721B11C7-A1B2-43a7-AA41-6E02D6CBBB21}",
+                    "EA-Package": "schema",
+                    "uri": "https://schema.org/OpeningHoursSpecification"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "1"
+        },
+        {
+            "@id": "https://schema.org/hoursAvailable",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "availabilityRestriction",
+            "inpackage": "OTHER_PACKAGE",
+            "ap-definition-en": {
+                "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
+            },
+            "ap-label-en": {
+                "en": "availability restriction"
+            },
+            "definition": {
+                "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
+            },
+            "label": {
+                "en": "availability restriction"
+            },
+            "extra": {
+                "EA-Name": "availabilityRestriction",
+                "EA-Guid": "{F71C6A06-957F-4a1b-B624-0383D1F13A4E}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "ContactPoint",
+                "EA-Domain-Guid": "{AE45F87E-BA1C-4ceb-84AF-69B2FB800CD5}",
+                "EA-Range": "OpeningHoursSpecification",
+                "RangeData": {
+                    "EA-Name": "OpeningHoursSpecification",
+                    "EA-GUID": "{721B11C7-A1B2-43a7-AA41-6E02D6CBBB21}",
+                    "EA-Package": "schema",
+                    "uri": "https://schema.org/OpeningHoursSpecification"
+                },
+                "sourceRole": "null",
+                "destRole": "availabilityRestriction",
+                "label": {
+                    "en": "availability restriction"
+                },
+                "definition": {
+                    "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "availability restriction"
+                },
+                "ap-definition-en": {
+                    "en": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "https://schema.org/hoursAvailable"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "availability restriction"
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The availability restriction property links a Contact Point to details of specific details of its opening hours that override the general case."
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "https://schema.org/hoursAvailable"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "availability restriction"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "https://schema.org/ContactPoint",
+                    "EA-Name": "ContactPoint"
                 }
             ],
             "range": [
@@ -5417,6 +5417,110 @@
             "name": "hasChannel",
             "inpackage": "UNKNOWN",
             "ap-definition-en": {
+                "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
+            },
+            "ap-label-en": {
+                "en": "has channel"
+            },
+            "definition": {
+                "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
+            },
+            "label": {
+                "en": "has channel"
+            },
+            "extra": {
+                "EA-Name": "hasChannel",
+                "EA-Guid": "{7D6E26C3-92E9-46e9-AEC5-7A27802D85AD}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "PublicOrganization",
+                "EA-Domain-Guid": "{FD2FE27D-2842-467d-A825-12FAF150DE73}",
+                "EA-Range": "Channel",
+                "RangeData": {
+                    "EA-Name": "Channel",
+                    "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
+                    "EA-Package": "cpsv",
+                    "uri": "http://data.europa.eu/m8g/Channel"
+                },
+                "sourceRole": "ownedBy",
+                "destRole": "hasChannel",
+                "label": {
+                    "en": "has channel"
+                },
+                "definition": {
+                    "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "has channel"
+                },
+                "ap-definition-en": {
+                    "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "has channel"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://vocab.belgif.be/ns/publicservice#hasChannel"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service."
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "has channel"
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://vocab.belgif.be/ns/publicservice#hasChannel"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service."
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://data.europa.eu/m8g/PublicOrganisation",
+                    "EA-Name": "PublicOrganization"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Channel",
+                    "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
+                    "EA-Package": "cpsv",
+                    "uri": "http://data.europa.eu/m8g/Channel"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "http://vocab.belgif.be/ns/publicservice#hasChannel",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "hasChannel",
+            "inpackage": "UNKNOWN",
+            "ap-definition-en": {
                 "en": "This property describes the relationship between a purpose and a channel. "
             },
             "usage": {
@@ -5516,110 +5620,6 @@
                 {
                     "uri": "http://vocab.belgif.be/ns/publicservice#Purpose",
                     "EA-Name": "Purpose"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Channel",
-                    "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
-                    "EA-Package": "cpsv",
-                    "uri": "http://data.europa.eu/m8g/Channel"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://vocab.belgif.be/ns/publicservice#hasChannel",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "hasChannel",
-            "inpackage": "UNKNOWN",
-            "ap-definition-en": {
-                "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-            },
-            "ap-label-en": {
-                "en": "has channel"
-            },
-            "definition": {
-                "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-            },
-            "label": {
-                "en": "has channel"
-            },
-            "extra": {
-                "EA-Name": "hasChannel",
-                "EA-Guid": "{7D6E26C3-92E9-46e9-AEC5-7A27802D85AD}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "PublicOrganization",
-                "EA-Domain-Guid": "{FD2FE27D-2842-467d-A825-12FAF150DE73}",
-                "EA-Range": "Channel",
-                "RangeData": {
-                    "EA-Name": "Channel",
-                    "EA-GUID": "{7CCC2DFE-AAA4-4d1c-ABE6-CB1EE94C7049}",
-                    "EA-Package": "cpsv",
-                    "uri": "http://data.europa.eu/m8g/Channel"
-                },
-                "sourceRole": "ownedBy",
-                "destRole": "hasChannel",
-                "label": {
-                    "en": "has channel"
-                },
-                "definition": {
-                    "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-                },
-                "usage": "",
-                "ap-label-en": {
-                    "en": "has channel"
-                },
-                "ap-definition-en": {
-                    "en": "This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "has channel"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://vocab.belgif.be/ns/publicservice#hasChannel"
-                    },
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-                    }
-                ],
-                "DestRoleTags": [
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "has channel"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://vocab.belgif.be/ns/publicservice#hasChannel"
-                    },
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "NOTE$ea_notes=This property indicates the specific Channel through which a Public Organization delivers a Public Service."
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://data.europa.eu/m8g/PublicOrganisation",
-                    "EA-Name": "PublicOrganization"
                 }
             ],
             "range": [
@@ -7752,110 +7752,6 @@
             "name": "isIssuedBy",
             "inpackage": "UNKNOWN",
             "ap-definition-en": {
-                "en": "The legal authority responsible for an Evidence."
-            },
-            "ap-label-en": {
-                "en": "is issued by"
-            },
-            "definition": {
-                "en": "The legal authority responsible for an Evidence."
-            },
-            "label": {
-                "en": "is issued by"
-            },
-            "extra": {
-                "EA-Name": "isIssuedBy",
-                "EA-Guid": "{390E7EB8-9BE8-434b-9473-A54E29674610}",
-                "derived": "false",
-                "EA-Package": "",
-                "EA-Type": "connector",
-                "EA-Domain": "Evidence",
-                "EA-Domain-Guid": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
-                "EA-Range": "Agent",
-                "RangeData": {
-                    "EA-Name": "Agent",
-                    "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
-                    "EA-Package": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/Agent"
-                },
-                "sourceRole": "null",
-                "destRole": "isIssuedBy",
-                "label": {
-                    "en": "is issued by"
-                },
-                "definition": {
-                    "en": "The legal authority responsible for an Evidence."
-                },
-                "usage": "",
-                "ap-label-en": {
-                    "en": "is issued by"
-                },
-                "ap-definition-en": {
-                    "en": "The legal authority responsible for an Evidence."
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "The legal authority responsible for an Evidence."
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://purl.org/dc/terms/publisher"
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "is issued by"
-                    }
-                ],
-                "DestRoleTags": [
-                    {
-                        "key": "definition-en",
-                        "value": "NOTE",
-                        "note": "The legal authority responsible for an Evidence."
-                    },
-                    {
-                        "key": "uri",
-                        "value": "NOTE",
-                        "note": "http://purl.org/dc/terms/publisher"
-                    },
-                    {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "is issued by"
-                    }
-                ],
-                "Scope": "NOTHING"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "http://data.europa.eu/m8g/Evidence",
-                    "EA-Name": "Evidence"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Agent",
-                    "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
-                    "EA-Package": "foaf",
-                    "uri": "http://xmlns.com/foaf/0.1/Agent"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "http://purl.org/dc/terms/publisher",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "isIssuedBy",
-            "inpackage": "UNKNOWN",
-            "ap-definition-en": {
                 "en": "The Agent that has published the Requirement."
             },
             "ap-label-en": {
@@ -7940,6 +7836,110 @@
                 {
                     "uri": "http://data.europa.eu/m8g/Requirement",
                     "EA-Name": "Requirement"
+                }
+            ],
+            "range": [
+                {
+                    "EA-Name": "Agent",
+                    "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
+                    "EA-Package": "foaf",
+                    "uri": "http://xmlns.com/foaf/0.1/Agent"
+                }
+            ],
+            "generalization": [],
+            "minCardinality": "0",
+            "maxCardinality": "*"
+        },
+        {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "name": "isIssuedBy",
+            "inpackage": "UNKNOWN",
+            "ap-definition-en": {
+                "en": "The legal authority responsible for an Evidence."
+            },
+            "ap-label-en": {
+                "en": "is issued by"
+            },
+            "definition": {
+                "en": "The legal authority responsible for an Evidence."
+            },
+            "label": {
+                "en": "is issued by"
+            },
+            "extra": {
+                "EA-Name": "isIssuedBy",
+                "EA-Guid": "{390E7EB8-9BE8-434b-9473-A54E29674610}",
+                "derived": "false",
+                "EA-Package": "",
+                "EA-Type": "connector",
+                "EA-Domain": "Evidence",
+                "EA-Domain-Guid": "{F4749871-6F2D-4e38-B207-9CCACE847CF2}",
+                "EA-Range": "Agent",
+                "RangeData": {
+                    "EA-Name": "Agent",
+                    "EA-GUID": "{F41DDB41-25B4-4b39-88FD-7B1D1D8D373A}",
+                    "EA-Package": "foaf",
+                    "uri": "http://xmlns.com/foaf/0.1/Agent"
+                },
+                "sourceRole": "null",
+                "destRole": "isIssuedBy",
+                "label": {
+                    "en": "is issued by"
+                },
+                "definition": {
+                    "en": "The legal authority responsible for an Evidence."
+                },
+                "usage": "",
+                "ap-label-en": {
+                    "en": "is issued by"
+                },
+                "ap-definition-en": {
+                    "en": "The legal authority responsible for an Evidence."
+                },
+                "ap-usageNote-en": "",
+                "ap-codelist": "",
+                "RawTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The legal authority responsible for an Evidence."
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://purl.org/dc/terms/publisher"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "is issued by"
+                    }
+                ],
+                "DestRoleTags": [
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "The legal authority responsible for an Evidence."
+                    },
+                    {
+                        "key": "uri",
+                        "value": "NOTE",
+                        "note": "http://purl.org/dc/terms/publisher"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "is issued by"
+                    }
+                ],
+                "Scope": "NOTHING"
+            },
+            "codelist": [],
+            "domain": [
+                {
+                    "uri": "http://data.europa.eu/m8g/Evidence",
+                    "EA-Name": "Evidence"
                 }
             ],
             "range": [
@@ -12641,6 +12641,6 @@
     "repository": "https://github.com/bertvannuffelen/semiceuthema",
     "urlref": "/thematic/models/public-service",
     "documentcommit": "a3ebf4b1205f1e362922d3c8c4749a6ed5a20952",
-    "toolchaincommit": "dc2dc0ff5ed7718f16888cdef4cc36a160a9807f",
+    "toolchaincommit": "90a5bee627cff7e70c7c4c57c4971191b3a07393",
     "hostname": "https://belgif.github.io/"
 }
