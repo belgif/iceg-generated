@@ -1358,8 +1358,8 @@
   "contributors-column": "Role",
   "contributors-file": "stakeholders.csv",
   "diagram": "ICEG-Building-Base",
-  "documentcommit": "ed10a26e1dc469234e568ae78126b6d26f938ecd",
-  "dummy": "001",
+  "documentcommit": "12aef5ea4f179a13c85ffd899ecc0d3c163dbd3b",
+  "dummy": "003",
   "eap": "ICEG-Building-Stable15.eap",
   "editors": [],
   "externalproperties": [
@@ -10594,6 +10594,111 @@
     {
       "@id": "http://vocab.belgif.be/ns/building#building",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{493F20E2-D34F-4a40-B3AC-C8D14577C7F2}",
+      "ap-definition-en": {
+        "en": "The Building(s) related to the CadastralParcel."
+      },
+      "ap-label-en": {
+        "en": "building"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "The Building(s) related to the CadastralParcel."
+      },
+      "domain": [
+        {
+          "EA-Name": "CadastralParcel",
+          "uri": "http://vocab.belgif.be/ns/building#CadastralParcel"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "building",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "The Building(s) related to the CadastralParcel.",
+            "value": "NOTE"
+          },
+          {
+            "key": "package",
+            "note": "ICEG-Building",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "CadastralParcel",
+        "EA-Domain-Guid": "{45BF782C-BB10-4139-9761-2A3941852129}",
+        "EA-Guid": "{493F20E2-D34F-4a40-B3AC-C8D14577C7F2}",
+        "EA-Name": "building",
+        "EA-Package": "",
+        "EA-Range": "Building",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+          "EA-Name": "Building",
+          "EA-Package": "ICEG-Building",
+          "uri": "http://vocab.belgif.be/ns/building#Building"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "building",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "The Building(s) related to the CadastralParcel.",
+            "value": "NOTE"
+          },
+          {
+            "key": "package",
+            "note": "ICEG-Building",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The Building(s) related to the CadastralParcel."
+        },
+        "ap-label-en": {
+          "en": "building"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The Building(s) related to the CadastralParcel."
+        },
+        "derived": "false",
+        "destRole": "building",
+        "label": {
+          "en": "building"
+        },
+        "sourceRole": "cadastralParcel",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "building"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "building",
+      "range": [
+        {
+          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
+          "EA-Name": "Building",
+          "EA-Package": "ICEG-Building",
+          "uri": "http://vocab.belgif.be/ns/building#Building"
+        }
+      ]
+    },
+    {
+      "@id": "http://vocab.belgif.be/ns/building#building",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{95999677-7884-4b97-B53A-8645BB866271}",
       "ap-definition-en": {
         "en": "Building of which building unit(s) are being a part."
@@ -10710,111 +10815,6 @@
       "usage": {
         "en": "The set of two distinct volumes united by a gallery/walkway is nevertheless considered as a single building. Two volumes separated by a footbridge (which is above a public road) are considered as two separate buildings which are located in different sites (because they are different plots)."
       }
-    },
-    {
-      "@id": "http://vocab.belgif.be/ns/building#building",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{493F20E2-D34F-4a40-B3AC-C8D14577C7F2}",
-      "ap-definition-en": {
-        "en": "The Building(s) related to the CadastralParcel."
-      },
-      "ap-label-en": {
-        "en": "building"
-      },
-      "codelist": [],
-      "definition": {
-        "en": "The Building(s) related to the CadastralParcel."
-      },
-      "domain": [
-        {
-          "EA-Name": "CadastralParcel",
-          "uri": "http://vocab.belgif.be/ns/building#CadastralParcel"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "note": "building",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "The Building(s) related to the CadastralParcel.",
-            "value": "NOTE"
-          },
-          {
-            "key": "package",
-            "note": "ICEG-Building",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "CadastralParcel",
-        "EA-Domain-Guid": "{45BF782C-BB10-4139-9761-2A3941852129}",
-        "EA-Guid": "{493F20E2-D34F-4a40-B3AC-C8D14577C7F2}",
-        "EA-Name": "building",
-        "EA-Package": "",
-        "EA-Range": "Building",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
-          "EA-Name": "Building",
-          "EA-Package": "ICEG-Building",
-          "uri": "http://vocab.belgif.be/ns/building#Building"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "building",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "The Building(s) related to the CadastralParcel.",
-            "value": "NOTE"
-          },
-          {
-            "key": "package",
-            "note": "ICEG-Building",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "The Building(s) related to the CadastralParcel."
-        },
-        "ap-label-en": {
-          "en": "building"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "The Building(s) related to the CadastralParcel."
-        },
-        "derived": "false",
-        "destRole": "building",
-        "label": {
-          "en": "building"
-        },
-        "sourceRole": "cadastralParcel",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "building"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "building",
-      "range": [
-        {
-          "EA-GUID": "{5CB095C5-F580-4bdf-9B0A-5E6591692CA7}",
-          "EA-Name": "Building",
-          "EA-Package": "ICEG-Building",
-          "uri": "http://vocab.belgif.be/ns/building#Building"
-        }
-      ]
     },
     {
       "@id": "http://vocab.belgif.be/ns/building#anyPoint",
@@ -11878,7 +11878,7 @@
   "standaardregisterurl": "TODO",
   "template": "building_en.j2",
   "title": "Building Base",
-  "toolchaincommit": "4b24f0fded0e867652dd93120b706eaac5d27726",
+  "toolchaincommit": "c673a01cf040087f21fd4b9d169f6739b7a0624b",
   "translation": [
     {
       "language": "en",
