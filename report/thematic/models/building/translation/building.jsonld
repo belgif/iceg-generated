@@ -79,12 +79,12 @@
   "@id": "http://vocab.belgif.be/ns/building",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
   "label": {
-    "nl": "building-base",
-    "en": "building-base"
+    "nl": "building",
+    "en": "building"
   },
   "baseURI": "http://vocab.belgif.be/ns/building#",
   "issued": "TBD",
-  "license": "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "extra": {
     "EA-Name": "ICEG-Building",
     "EA-Guid": "{BC870E7F-6006-4c64-9687-0A47FCE01F97}",
@@ -12047,38 +12047,38 @@
       "maxCardinality": "1"
     }
   ],
-  "name": "building-base",
+  "name": "building",
   "type": "ap",
   "eap": "ICEG-Building-Stable15.eap",
-  "diagram": "ICEG-Building-Base",
+  "diagram": "ICEG-Building-AP",
   "template": "building.j2",
-  "title": "Building Base",
+  "title": "Building",
   "publication-state": "For acceptance",
   "publication-date": "2024-02-08",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Role",
-  "site": "site-skeleton/building-base",
-  "repourl": "https://github.com/belgif/thematic/tree/master/",
+  "site": "site-skeleton/building",
+  "repourl": "https://github.com/belgif/ICEGthema-building/tree/main",
   "versionurl": "https://belgif.github.io/thematic/models/building",
-  "feedbackurl": "https://github.com/belgif/thematic/issues",
+  "feedbackurl": "https://github.com/belgif/ICEGthema-building/issues",
   "standaardregisterurl": "TODO",
   "config": "config/config-ap.json",
   "branchtag": "main",
-  "dummy": "014",
-  "filename": "config/building-base.json",
+  "dummy": "015",
+  "filename": "config/building.json",
   "navigation": {},
   "repository": "https://github.com/belgif/ICEGthema-building",
   "urlref": "/thematic/models/building",
-  "documentcommit": "0c3fb0d4c2a35bfb1d40a0ec9fd3a545b6491958",
-  "toolchaincommit": "b38947f418913afa1609e8f49eefc6f1f8f55718",
+  "documentcommit": "45a1100bbee0d6eee5400fce3598674dca69de03",
+  "toolchaincommit": "a31e65ac0c0ef25b023bab2b35b5e44409b1ddcf",
   "hostname": "https://belgif.github.io/",
   "translation": [
     {
       "language": "en",
-      "title": "Building Base",
+      "title": "Building",
       "template": "building.j2",
-      "translationjson": "building-base_en.json",
-      "mergefile": "building-base_en_merged.json"
+      "translationjson": "building_en.json",
+      "mergefile": "building_en_merged.json"
     }
   ]
 }
