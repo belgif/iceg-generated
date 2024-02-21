@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui.css" />
   <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui-corporate.css" />
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 
   <link rel="icon" sizes="192x192" href="/cms/icons/DUETLogo.jpg" />
   <link rel="apple-touch-icon" href="/cms/icons/DUETLogo.jpg" />
@@ -42,8 +42,8 @@
 
   <div style="min-height:44px;;" id="duet-header" class="header">
     <!-- insert your global header here -->
-    <title>Belgif</title>
-    <i class="logo">Belgif logo</i>
+    <title>SEMIC</title>
+    <i class="logo">SEMIC logo</i>
     <!-- end global header-->
   </div>
 
@@ -64,11 +64,11 @@
               <div class="head" role="status">
                 <dl>
                   <dt>Status</dt>
-                  <dd><a href="For acceptance">For acceptance</a></dd>
+                  <dd>For acceptance</dd>
                   <dt>Published at</dt>
                   <dd>2024-02-08</dd>
                   <dt>This version</dt>
-                  <dd><a href="https://belgif.github.io//thematic/models/building">https://belgif.github.io//thematic/models/building</a></dd>
+                  <dd><a href="https://belgif.github.io/thematic/models/building/index_en.html">https://belgif.github.io/thematic/models/building/index_en.html</a><br></dd>
                   
                   
                 </dl>
@@ -549,17 +549,18 @@
 
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
-                  <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-building/tree/45a1100bbee0d6eee5400fce3598674dca69de03">https://github.com/belgif/ICEGthema-building/tree/45a1100bbee0d6eee5400fce3598674dca69de03</a></dd>
-                  <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-building/blob/45a1100bbee0d6eee5400fce3598674dca69de03/CHANGELOG">https://github.com/belgif/ICEGthema-building/blob/45a1100bbee0d6eee5400fce3598674dca69de03/CHANGELOG</a></dd>
+                  <!--<dt>Source</dt><dd><br></dd>-->
+                  <!--<dt>Changelog</dt><dd><a href="https://github.com/belgif/ICEGthema-building/blob/14b953aa6d582a2860e225a64fd4c3745736ff16/CHANGELOG">https://github.com/belgif/ICEGthema-building/blob/14b953aa6d582a2860e225a64fd4c3745736ff16/CHANGELOG</a></dd>-->
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/belgif/ICEGthema-building/issues">https://github.com/belgif/ICEGthema-building/issues</a></dd>
-                  
+                  <!--<dt>Registry of standards</dt><dd><a href="TODO">TODO</a></dd>-->
 
-                  
+                  <!--<dt>Dependencies</dt><dd>
+                
+		</dd>-->
                 </dl>
               </div>
+
 
             </div>
           </div>
@@ -572,8 +573,22 @@
         <div class="grid">
           <div class="col--8-12 col--12-12--s">
 
+            <div class="region region--no-space-top typography" id="status">
+              <section class="introductory" id="sotd" typeof="bibo:Chapter" resource="#ref" rel="bibo:Chapter">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status of this document</h2>
+                
+                <p>
+                  This model has the status of Public Review published on 2024-02-08.
+                </p>
+                
+              </section>
+            </div>
+
             <div class="region region--no-space-top typography" id="summary">
               <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Summary</h2>
+              <!--
+		<p>This document describes the <strong>Building</strong>.</p>
+                -->
               
 <div id="tabs">
 	<ul>
@@ -609,37 +624,29 @@
 
             </div>
 
-            <div class="region region--no-space-top typography" id="status">
-              <section class="introductory" id="sotd" typeof="bibo:Chapter" resource="#ref" rel="bibo:Chapter">
-                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status of this document</h2>
-                
-                <p>
-                  This application profile has the status <a href="For acceptance">Onbekend</a> and was published at 2024-02-08.
-                </p>
-                
-                
-              </section>
-            </div>
-
-            
-
             <div class="region region--no-space-top typography" id="conformance">
               <h2 class="h2" id="conformance" aria-level="1" role="heading">Conformance</h2>
               
               <p>To be defined</p>
               
+              <!--<div class="region region--no-space-top typography" id="license">
+              <h2 class="h2">License</h2>
+              
+<p>
+	TBD
+</p>
+
             </div>
-
-            
-
+            -->
+            </div>
             <div class="region region--no-space-top" id="overview">
               <h2 class="h2">Overview</h2>
               <div class="grid">
                 <div class="col--9-12 col--1-1--s typography">
                   
                   <div class="region region--no-space-top">
-                    <p>This document describes the usage of the following entities for a correct usage of the application profile:
-                      <br>
+                    <p>This document describes the usage of the following entities for a correct usage of the data model:
+                      <br />
                       |
                       <a href="#Building">Building</a> |
                       <a href="#BuildingUnit">Building unit</a> |
@@ -650,8 +657,8 @@
                   
                   
                   <div class="region region--no-space-top">
-                    <p>This document describes the usage of the following datatypes for a correct usage of the application profile:
-                      <br>
+                    <p> This document describes the usage of the following datatypes for a correct usage of the specification:
+                      <br />
                       |
                       <a href="#3dObject">3D object</a> |
                       <a href="#AddressRepresentation">Address representation</a> |
@@ -690,11 +697,9 @@
             </div>
 
             <div class="region region--no-space-top">
-              
-              <a href="/thematic/models/building/html/overview.jpg" target="_blank">
-                <img src="/thematic/models/building/html/overview.jpg" />
+              <a href="./html/overview.jpg" target="_blank">
+                <img src="./html/overview.jpg" />
               </a>
-              
             </div>
             <div class="region region--no-space-top">
               <h2 class="h2">Entities</h2>
@@ -704,7 +709,7 @@
               <h3 class="h3" id="Building"><a href="http://vocab.belgif.be/ns/building#Building" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/building#Building" data-placement="right">Building</a></h3>
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>An enclosed and/or covered structure, above and/or below ground, intended either for the shelter of persons, animals or things, or for the production of economic goods or the provision of services, and refers to any structure permanently constructed or erected on its site.</dd>
                   
                   
@@ -745,7 +750,7 @@
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
                       <th class="data-table__header-title--sortable">Expected Range</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -1205,7 +1210,7 @@ More information about the enumerations can be found on the INSPIRE <a href="htt
               <h3 class="h3" id="BuildingUnit"><a href="http://vocab.belgif.be/ns/building#BuildingUnit" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/building#BuildingUnit" data-placement="right">Building unit</a></h3>
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>The smallest unit within a building that is suitable and adapted for residential, commercial or recreational purposes and which is accessible from the outside or from a common area. A building unit is atomic, functionally independent, and may be separately sold, rented out, inherited, etc. In addition, a building unit can also be a common part.</dd>
                   
                   
@@ -1235,7 +1240,7 @@ More information about the enumerations can be found on the INSPIRE <a href="htt
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
                       <th class="data-table__header-title--sortable">Expected Range</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -1473,7 +1478,7 @@ More information about the enumerations can be found on the INSPIRE <a href="htt
               <h3 class="h3" id="CadastralParcel"><a href="http://vocab.belgif.be/ns/building#CadastralParcel" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/building#CadastralParcel" data-placement="right">Cadastral parcel</a></h3>
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A portion of Belgian territory, geographically demarcated and identified by the AAPD on the cadastral plot plan, corresponding to the land area of one or more cadastral patrimonial plots.</dd>
                   
                   
@@ -1493,7 +1498,7 @@ More information about the enumerations can be found on the INSPIRE <a href="htt
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
                       <th class="data-table__header-title--sortable">Expected Range</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -1531,7 +1536,7 @@ More information about the enumerations can be found on the INSPIRE <a href="htt
               <h3 class="h3" id="InteriorInstallation"><a href="http://vocab.belgif.be/ns/building#InteriorInstallation" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/building#InteriorInstallation" data-placement="right">Interior installation</a></h3>
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>An internal construction (generally or small size) or an internal device, serving the building.</dd>
                   
                   <dt>Usage</dt>
@@ -1556,7 +1561,7 @@ More information about the enumerations can be found on the INSPIRE <a href="htt
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
                       <th class="data-table__header-title--sortable">Expected Range</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -1643,7 +1648,7 @@ be used by external applications to reference the spatial object.</td>
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A 3-dimensional geometric primitive.</dd>
                   
                   
@@ -1655,7 +1660,7 @@ be used by external applications to reference the spatial object.</td>
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -1668,7 +1673,7 @@ be used by external applications to reference the spatial object.</td>
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>More readable representation with only the basic data of the address, intended to use an address as an attribute of another object.</dd>
                   
                   <dt>Usage</dt>
@@ -1677,7 +1682,7 @@ be used by external applications to reference the spatial object.</td>
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#AddressRepresentation%3AaddressArea">address area</a>, 
                     <a href="#AddressRepresentation%3AadminUnit">admin unit</a>, 
                     <a href="#AddressRepresentation%3AadministrativeUnitLevel1">administrative unit level 1</a>, 
@@ -1704,9 +1709,9 @@ be used by external applications to reference the spatial object.</td>
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2030,13 +2035,13 @@ be used by external applications to reference the spatial object.</td>
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>This data types includes the geometry of the building and metadata information about which element of the building was captured and how.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#BuildingGeometry%3AhorizontalGeometryEstimatedAccuracy">horizontal geometry estimated accuracy</a>, 
                     <a href="#BuildingGeometry%3AreferenceGeometry">reference geometry</a>, 
                     <a href="#BuildingGeometry%3AverticalGeometryEstimatedAccuracy">vertical geometry estimated accuracy</a>.
@@ -2050,9 +2055,9 @@ be used by external applications to reference the spatial object.</td>
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2129,7 +2134,7 @@ be used by external applications to reference the spatial object.</td>
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>This data types includes the geometry in 2D or 2.5D of the building and metadata information about which element of the building was captured and how.</dd>
                   
                   
@@ -2141,7 +2146,7 @@ be used by external applications to reference the spatial object.</td>
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#BuildingGeometry2d%3Ageometry">geometry</a>, 
                     <a href="#BuildingGeometry2d%3AhorizontalGeometryReference">horizontal geometry reference</a>, 
                     <a href="#BuildingGeometry2d%3AverticalGeometryReference">vertical geometry reference</a>.
@@ -2155,9 +2160,9 @@ be used by external applications to reference the spatial object.</td>
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2234,7 +2239,7 @@ be used by external applications to reference the spatial object.</td>
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Data type grouping the 3D geometry of a building or building part and the metadata information attached to this geometry.</dd>
                   
                   <dt>Usage</dt>
@@ -2249,7 +2254,7 @@ be used by external applications to reference the spatial object.</td>
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#BuildingGeometry3dLod%3AgeometryMultiSurface">geometry multi surface</a>, 
                     <a href="#BuildingGeometry3dLod%3AgeometrySolid">geometry solid</a>, 
                     <a href="#BuildingGeometry3dLod%3AterrainIntersection">terrain intersection</a>, 
@@ -2264,9 +2269,9 @@ be used by external applications to reference the spatial object.</td>
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2362,7 +2367,7 @@ be used by external applications to reference the spatial object.</td>
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Data type grouping the specific metadata attached to the 3D geometry, when provided by a LoD 1 representation.</dd>
                   
                   
@@ -2374,7 +2379,7 @@ be used by external applications to reference the spatial object.</td>
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#BuildingGeometry3dLod1%3AhorizontalGeometryReference">horizontal geometry reference</a>, 
                     <a href="#BuildingGeometry3dLod1%3AverticalGeometryReference3dTop">vertical geometry reference 3D top</a>.
                   </dd>
@@ -2387,9 +2392,9 @@ be used by external applications to reference the spatial object.</td>
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2451,7 +2456,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Data type grouping the specific metadata attached to the 3D geometry, when provided by a LoD2 representation.</dd>
                   
                   
@@ -2463,7 +2468,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#BuildingGeometry3dLod2%3AhorizontalGeometryReference">horizontal geometry reference</a>.
                   </dd>
                   
@@ -2475,9 +2480,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2518,7 +2523,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Data type grouping the specific metadata attached to the 3D geometry, when provided by a LoD3 representation.</dd>
                   
                   
@@ -2530,7 +2535,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -2543,7 +2548,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Data type grouping the specific metadata attached to the 3D geometry, when provided by a LoD4 representation.</dd>
                   
                   
@@ -2555,7 +2560,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -2568,13 +2573,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>This data type enables to detail the current use(s).</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#CurrentUse%3Apercentage">percentage</a>, 
                     <a href="#CurrentUse%3Atype">type</a>.
                   </dd>
@@ -2587,9 +2592,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2647,13 +2652,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>This data type includes the different possible ways to define the date of an event.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#DateOfEvent%3AanyPoint">any point</a>, 
                     <a href="#DateOfEvent%3AendDate">end date</a>, 
                     <a href="#DateOfEvent%3AstartDate">start date</a>.
@@ -2667,9 +2672,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2746,13 +2751,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Holder of the coordinates of a position in a coordinate reference system.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#DirectPosition%3Agml">gml</a>, 
                     <a href="#DirectPosition%3Amethod">method</a>, 
                     <a href="#DirectPosition%3Awkt">wkt</a>.
@@ -2766,9 +2771,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2845,7 +2850,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Any document providing information about a building or building unit.</dd>
                   
                   <dt>Usage</dt>
@@ -2854,7 +2859,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#Document%3Adate">date</a>, 
                     <a href="#Document%3AdocumentDescription">document description</a>, 
                     <a href="#Document%3AsourceStatus">source status</a>.
@@ -2868,9 +2873,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -2947,13 +2952,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Vertically-constrained dimensional property consisting of an absolute measure referenced to a well-defined surface which is commonly taken as origin (geoïd, water level, etc.).</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#Elevation%3AelevationReference">elevation reference</a>, 
                     <a href="#Elevation%3AelevationValue">elevation value</a>.
                   </dd>
@@ -2966,9 +2971,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3026,13 +3031,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>The location where the building (unit) can be entered or exited.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#EntranceLocation%3Aaddress">address</a>, 
                     <a href="#EntranceLocation%3Aposition">position</a>.
                   </dd>
@@ -3045,9 +3050,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3105,13 +3110,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Reference to an external information system containing any piece of information related to the spatial object.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#ExternalReference%3AinformationSystem">information system</a>, 
                     <a href="#ExternalReference%3Ainformationsystemname">informationSystemName</a>, 
                     <a href="#ExternalReference%3Areference">reference</a>.
@@ -3125,9 +3130,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3204,7 +3209,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Proper noun applied to a real world entity.</dd>
                   
                   <dt>Usage</dt>
@@ -3213,7 +3218,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#GeographicalName%3AnameStatus">name status</a>, 
                     <a href="#GeographicalName%3Anativeness">nativeness</a>, 
                     <a href="#GeographicalName%3AsourceOfName">source of name</a>, 
@@ -3228,9 +3233,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3328,13 +3333,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="https://inspi
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Shape and position characteristics of an object.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#Geometry%3Agml">gml</a>, 
                     <a href="#Geometry%3Amethod">method</a>, 
                     <a href="#Geometry%3Awkt">wkt</a>.
@@ -3348,9 +3353,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="https://inspi
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3427,13 +3432,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="https://inspi
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Vertical distance (measured or estimated) between a low reference and a high reference.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#HeightAboveGround%3AheightReference">height reference</a>, 
                     <a href="#HeightAboveGround%3AlowReference">low reference</a>, 
                     <a href="#HeightAboveGround%3Astatus">status</a>, 
@@ -3448,9 +3453,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="https://inspi
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3548,13 +3553,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A representation of a unit.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#Iceg-unit%3Auom">uom</a>, 
                     <a href="#Iceg-unit%3Avalue">value</a>.
                   </dd>
@@ -3567,9 +3572,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3627,7 +3632,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Information used to uniquely identify an object.</dd>
                   
                   <dt>Usage</dt>
@@ -3636,7 +3641,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this datatype the following properties are defined:
+                  <dd>we have defined the following properties for this datatype:
                     <a href="#Identifier%3AassignedBy">assigned by</a>, 
                     <a href="#Identifier%3AassignedByString">assigned by string</a>, 
                     <a href="#Identifier%3AassignedOn">assigned on</a>, 
@@ -3652,9 +3657,9 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   <thead>
                     <tr class="data-table__header">
                       <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Expects Type</th>
                       <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Description</th>
                       <th class="data-table__header-title--sortable">Usage</th>
                       <th class="data-table__header-title--sortable">Codelist</th>
                     </tr>
@@ -3769,13 +3774,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>The official code of the language.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3788,7 +3793,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A MultiCurve is a 1-dimensional GeometryCollection whose elements are Curves.</dd>
                   
                   
@@ -3800,7 +3805,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3813,7 +3818,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A MultiSurface is a 2-dimensional GeometryCollection whose elements are Surfaces, all using coordinates from the same coordinate reference system.</dd>
                   
                   
@@ -3825,7 +3830,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3838,7 +3843,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A 0-dimensional geometrical primitive.</dd>
                   
                   
@@ -3850,7 +3855,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3863,7 +3868,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Surface consisting of one outer boundary and 0 or more inner boundaries. Each internal boundary forms a hole in the polygon.</dd>
                   
                   
@@ -3875,7 +3880,7 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3888,13 +3893,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>Identifier of an object broken down into its parts.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3907,13 +3912,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A linear sequence of characters, words, or other data.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3926,13 +3931,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
               
               <div class="region region--no-space-top">
                 <dl>
-                  <dt>Definition</dt>
+                  <dt>Description</dt>
                   <dd>A URI that is technically represented as a class in RDF, but is a literal in use.</dd>
                   
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this datatype.</dd>
+                  <dd>There are no properties defined for this datatype.</dd>
                   
                 </dl>
               </div>
@@ -3940,6 +3945,19 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
             </div>
             
             
+
+            <!--
+	    
+	    <div class="region region--no-space-top" id="examples">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Examples</h2>
+                (non-normative)
+                
+		</br>
+		<p>placeholder</p>
+                
+            </div>
+	    
+	    -->
             <div class="region region--no-space-top" id="codelists">
               <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Lists</h2>
               (non-normative)
@@ -4369,40 +4387,50 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
 <p>
 
             </div>
+
             <div class="region region--no-space-top" id="jsonld">
               <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
               (non-normative)
               
-              <p>A reusable JSON-LD context definition for this application profile is retrievable at: <a href="/thematic/models/building/context/building.jsonld" target="_blank">/thematic/models/building/context/building.jsonld</a></p>
+              <p>A reusable JSON-LD context definition is retrievable at: <a href="https://belgif.github.io/thematic/models/building/context/building_en.jsonld" target="_blank">https://belgif.github.io/thematic/models/building/context/building_en.jsonld</a></p>
               
             </div>
+
             <div class="region region--no-space-top" id="shacl">
               <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
               (non-normative)
               
-              <p>A reusable SHACL template for this application profile is retrievable at: <a href="/thematic/models/building/shacl/building-SHACL.ttl" target="_blank">/thematic/models/building/shacl/building-SHACL.ttl</a></p>
+              <p>A reusable SHACL template is retrievable at: <a href="https://belgif.github.io/thematic/models/building/context//shacl/building_en-SHACL.ttl" target="_blank">https://belgif.github.io/thematic/models/building//shacl/building_en-SHACL.ttl</a></p>
               
             </div>
+
           </div>
           <div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
             <nav class="side-navigation js-sticky region" id="sideNav">
               <div class="side-navigation__content js-scrollspy">
                 <div class="side-navigation__group">
                   <ul>
-                    
-                    <li class="side-navigation__item">
-                      <a href="#summary">Summary</a>
-                    </li>
                     <li class="side-navigation__item">
                       <a href="#status">Status of this document</a>
                     </li>
-                    
+                    <li class="side-navigation__item">
+                      <a href="#summary">Summary</a>
+                    </li>
+                    <!--
+			      <li class="side-navigation__item">
+                                  <a href="#license">License</a>
+                              </li>
+			      -->
                     <li class="side-navigation__item">
                       <a href="#conformance">Conformance</a>
                     </li>
                     <li class="side-navigation__item">
                       <a href="#overview">Overview</a>
                     </li>
+                    <!--
+			      <li class="side-navigation__item">
+                                  <a href="#examples">Examples</a>
+			      -->
                     <li class="side-navigation__item">
                       <a href="#codelists">Lists</a>
                     </li>
@@ -4410,11 +4438,13 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
                       <a href="#changelog">Changelog</a>
                     </li>
                     <li class="side-navigation__item">
-                      <a href="#jsonld">JSON-LD context</a>
+                      <a href="#jsonld">JSON-LD Context</a>
                     </li>
+
                     <li class="side-navigation__item">
                       <a href="#shacl">SHACL template</a>
                     </li>
+
                   </ul>
                 </div>
               </div>
@@ -4444,7 +4474,6 @@ Concepts of this codelist should be used from the INSPIRE <a href="http://inspir
       $("#tabs").tabs();
     });
   </script>
-
   <style>
     @media screen {
 
