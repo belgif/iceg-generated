@@ -6,7 +6,7 @@
     "Building.address": {
       "@container": "@set",
       "@id": "https://www.w3.org/ns/locn#address",
-      "@type": "@id"
+      "@type": "http://www.w3.org/ns/locn#Address"
     },
     "Building.currentUse": {
       "@container": "@set",
@@ -64,7 +64,7 @@
     "BuildingUnit.address": {
       "@container": "@set",
       "@id": "https://www.w3.org/ns/locn#address",
-      "@type": "@id"
+      "@type": "http://www.w3.org/ns/locn#Address"
     },
     "BuildingUnit.currentUse": {
       "@container": "@set",
@@ -104,7 +104,7 @@
     "EntranceLocation": "http://vocab.belgif.be/ns/building#EntranceLocation",
     "EntranceLocation.address": {
       "@id": "http://www.w3.org/ns/locn#Address",
-      "@type": "@id"
+      "@type": "http://www.w3.org/ns/locn#Address"
     },
     "ExternalReference": "http://vocab.belgif.be/ns/building#ExternalReference",
     "GeographicalName": "http://vocab.belgif.be/ns/building#GeographicalName",
@@ -178,7 +178,6 @@
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "building": {
-      "@container": "@set",
       "@id": "http://vocab.belgif.be/ns/building#building",
       "@type": "@id"
     },

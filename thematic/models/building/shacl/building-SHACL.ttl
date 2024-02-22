@@ -268,7 +268,7 @@
 <https://belgif.github.io//thematic/models/building#BuildingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://www.w3.org/ns/locn#Address>;
+    shacl:datatype <http://www.w3.org/ns/locn#Address>;
     shacl:description "The address representation that corresponds to the building."@en;
     shacl:name "address"@en;
     shacl:path <https://www.w3.org/ns/locn#address>
@@ -390,7 +390,7 @@
 <https://belgif.github.io//thematic/models/building#BuildingUnitShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://www.w3.org/ns/locn#Address>;
+    shacl:datatype <http://www.w3.org/ns/locn#Address>;
     shacl:description "The address representation that corresponds to the building unit."@en;
     shacl:name "address"@en;
     shacl:path <https://www.w3.org/ns/locn#address>
@@ -574,7 +574,7 @@
 <https://belgif.github.io//thematic/models/building#EntranceLocationShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://www.w3.org/ns/locn#Address>;
+    shacl:datatype <http://www.w3.org/ns/locn#Address>;
     shacl:description "The address linked to the location of the entrance."@en;
     shacl:maxCount 1;
     shacl:name "address"@en;
