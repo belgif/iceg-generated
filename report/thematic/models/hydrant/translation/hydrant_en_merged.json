@@ -429,7 +429,7 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "ICEG-Hydrant-AP",
   "documentcommit": "784a6f4422305be614cf854426c4d53b0ff2599c",
-  "dummy": "0001",
+  "dummy": "001",
   "eap": "ICEG-Hydrant-AP-v09.eap",
   "editors": [
     {
@@ -2653,111 +2653,6 @@
     {
       "@id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{6E0577C4-13FB-418a-AA57-551F93FFBF8C}",
-      "ap-definition-en": {
-        "en": "A pipe can be attached to other pipes."
-      },
-      "ap-label-en": {
-        "en": "is connected to"
-      },
-      "codelist": [],
-      "definition": {
-        "en": "A pipe can be attached to other pipes."
-      },
-      "domain": [
-        {
-          "EA-Name": "Pipe",
-          "uri": "https://saref.etsi.org/saref4watr/Pipe"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "note": "is connected to",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "A pipe can be attached to other pipes.",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Pipe",
-        "EA-Domain-Guid": "{219508CB-BA72-4d48-91AA-C3478FFD12DE}",
-        "EA-Guid": "{6E0577C4-13FB-418a-AA57-551F93FFBF8C}",
-        "EA-Name": "isConnectedTo",
-        "EA-Package": "",
-        "EA-Range": "Pipe",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{219508CB-BA72-4d48-91AA-C3478FFD12DE}",
-          "EA-Name": "Pipe",
-          "EA-Package": "saref4watr",
-          "uri": "https://saref.etsi.org/saref4watr/Pipe"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "is connected to",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-en",
-            "note": "A pipe can be attached to other pipes.",
-            "value": "NOTE"
-          },
-          {
-            "key": "uri",
-            "note": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "A pipe can be attached to other pipes."
-        },
-        "ap-label-en": {
-          "en": "is connected to"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "A pipe can be attached to other pipes."
-        },
-        "derived": "false",
-        "destRole": "isConnectedTo",
-        "label": {
-          "en": "is connected to"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "is connected to"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "isConnectedTo",
-      "range": [
-        {
-          "EA-GUID": "{219508CB-BA72-4d48-91AA-C3478FFD12DE}",
-          "EA-Name": "Pipe",
-          "EA-Package": "saref4watr",
-          "uri": "https://saref.etsi.org/saref4watr/Pipe"
-        }
-      ]
-    },
-    {
-      "@id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{40C58437-4226-43d5-A1CE-9A062C80E2CC}",
       "ap-definition-en": {
         "en": "The pipe through which the fire hydrant provides water."
@@ -2850,6 +2745,111 @@
       },
       "maxCardinality": "1",
       "minCardinality": "1",
+      "name": "isConnectedTo",
+      "range": [
+        {
+          "EA-GUID": "{219508CB-BA72-4d48-91AA-C3478FFD12DE}",
+          "EA-Name": "Pipe",
+          "EA-Package": "saref4watr",
+          "uri": "https://saref.etsi.org/saref4watr/Pipe"
+        }
+      ]
+    },
+    {
+      "@id": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{6E0577C4-13FB-418a-AA57-551F93FFBF8C}",
+      "ap-definition-en": {
+        "en": "A pipe can be attached to other pipes."
+      },
+      "ap-label-en": {
+        "en": "is connected to"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "A pipe can be attached to other pipes."
+      },
+      "domain": [
+        {
+          "EA-Name": "Pipe",
+          "uri": "https://saref.etsi.org/saref4watr/Pipe"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "is connected to",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "A pipe can be attached to other pipes.",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Pipe",
+        "EA-Domain-Guid": "{219508CB-BA72-4d48-91AA-C3478FFD12DE}",
+        "EA-Guid": "{6E0577C4-13FB-418a-AA57-551F93FFBF8C}",
+        "EA-Name": "isConnectedTo",
+        "EA-Package": "",
+        "EA-Range": "Pipe",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{219508CB-BA72-4d48-91AA-C3478FFD12DE}",
+          "EA-Name": "Pipe",
+          "EA-Package": "saref4watr",
+          "uri": "https://saref.etsi.org/saref4watr/Pipe"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "is connected to",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "A pipe can be attached to other pipes.",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/hydrant#isConnectedTo",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A pipe can be attached to other pipes."
+        },
+        "ap-label-en": {
+          "en": "is connected to"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A pipe can be attached to other pipes."
+        },
+        "derived": "false",
+        "destRole": "isConnectedTo",
+        "label": {
+          "en": "is connected to"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "is connected to"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
       "name": "isConnectedTo",
       "range": [
         {
@@ -6864,7 +6864,7 @@
   "standaardregisterurl": "TODO",
   "template": "hydrant.j2",
   "title": "Hydrant",
-  "toolchaincommit": "6af84774d6373897476df24d9bfec049d36ed83a",
+  "toolchaincommit": "e79077e04acedf0055538dc51b8361b0dd7ea4c6",
   "translation": [
     {
       "language": "en",
