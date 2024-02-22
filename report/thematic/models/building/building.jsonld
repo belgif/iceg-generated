@@ -8322,22 +8322,16 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
-            },
-            "ap-usageNote-en": {
-                "en": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>"
+                "en": "TODO"
             },
             "usage": {
                 "en": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>"
-            },
-            "ap-label-en": {
-                "en": "Address Representation"
             },
             "definition": {
                 "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
             },
             "label": {
-                "en": "Address Representation"
+                "en": "Address representation"
             },
             "extra": {
                 "EA-Name": "AddressRepresentation",
@@ -8348,7 +8342,7 @@
                 "EA-Parents2": [],
                 "parentclasses": "",
                 "label": {
-                    "en": "Address Representation"
+                    "en": "Address representation"
                 },
                 "definition": {
                     "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
@@ -8356,22 +8350,13 @@
                 "usage": {
                     "en": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>"
                 },
-                "ap-label-en": {
-                    "en": "Address Representation"
-                },
+                "ap-label-en": "",
                 "ap-definition-en": {
-                    "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
+                    "en": "TODO"
                 },
-                "ap-usageNote-en": {
-                    "en": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>"
-                },
+                "ap-usageNote-en": "",
                 "ap-codelist": "",
                 "RawTags": [
-                    {
-                        "key": "ap-definition-nl",
-                        "value": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object.",
-                        "note": " "
-                    },
                     {
                         "key": "isCollection",
                         "value": "false",
@@ -8393,23 +8378,23 @@
                         "note": "null"
                     },
                     {
-                        "key": "label-en",
-                        "value": "Address Representation",
+                        "key": "label",
+                        "value": "Address representation",
                         "note": "null"
                     },
                     {
-                        "key": "definition-en",
+                        "key": "definition",
                         "value": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object.",
                         "note": "null"
                     },
                     {
-                        "key": "literal",
-                        "value": "True",
+                        "key": "usage",
+                        "value": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>",
                         "note": "null"
                     },
                     {
-                        "key": "ap-usageNote-en",
-                        "value": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>",
+                        "key": "definition-nl",
+                        "value": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object.",
                         "note": "null"
                     }
                 ],
@@ -8653,7 +8638,7 @@
     "externalproperties": [
         {
             "@id": "https://www.w3.org/ns/locn#address",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "address",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
@@ -8737,7 +8722,7 @@
         },
         {
             "@id": "https://www.w3.org/ns/locn#address",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "address",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
@@ -10238,7 +10223,7 @@
         },
         {
             "@id": "http://www.w3.org/ns/locn#Address",
-            "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "address",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {

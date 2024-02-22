@@ -1655,8 +1655,8 @@
   "contributors-column": "Role",
   "contributors-file": "stakeholders.csv",
   "diagram": "ICEG-Building-AP",
-  "documentcommit": "0730d9fb183aff9a2c74d51af4548816f274621d",
-  "dummy": "018",
+  "documentcommit": "cf7e3b3086f5f9743e30e1f3ac104f6385181b7f",
+  "dummy": "019",
   "eap": "ICEG-Building-Stable15.eap",
   "editors": [
     {
@@ -1695,7 +1695,7 @@
   "externalproperties": [
     {
       "@id": "https://www.w3.org/ns/locn#address",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{32890C43-3C81-4ffd-8148-9A5E4A259C1B}",
       "ap-definition-en": {
         "en": "The address representation that corresponds to the building."
@@ -1780,7 +1780,7 @@
     },
     {
       "@id": "https://www.w3.org/ns/locn#address",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{722345D4-50D9-4325-B1A6-EF88FBCE5FBA}",
       "ap-definition-en": {
         "en": "The address representation that corresponds to the building unit."
@@ -3297,7 +3297,7 @@
     },
     {
       "@id": "http://www.w3.org/ns/locn#Address",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{4A7D8883-A553-4ef5-8C31-D962B0EA3200}",
       "ap-definition-en": {
         "en": "The address linked to the location of the entrance."
@@ -6151,13 +6151,7 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{BAD63A44-40DA-45f2-9A59-B024FC442BDF}",
       "ap-definition-en": {
-        "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
-      },
-      "ap-label-en": {
-        "en": "Address Representation"
-      },
-      "ap-usageNote-en": {
-        "en": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>"
+        "en": "TODO"
       },
       "definition": {
         "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
@@ -6170,11 +6164,6 @@
         "EA-Parents2": [],
         "EA-Type": "DATATYPE",
         "RawTags": [
-          {
-            "key": "ap-definition-nl",
-            "note": " ",
-            "value": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
-          },
           {
             "key": "isCollection",
             "note": "Values: true,false\r\nDefault: false\r\nDescription: Identifies the class as a collection\r\n",
@@ -6196,42 +6185,38 @@
             "value": "http://www.w3.org/ns/locn#Address"
           },
           {
-            "key": "label-en",
+            "key": "label",
             "note": "null",
-            "value": "Address Representation"
+            "value": "Address representation"
           },
           {
-            "key": "definition-en",
+            "key": "definition",
             "note": "null",
             "value": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
           },
           {
-            "key": "literal",
-            "note": "null",
-            "value": "True"
-          },
-          {
-            "key": "ap-usageNote-en",
+            "key": "usage",
             "note": "null",
             "value": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
+          "en": "TODO"
         },
-        "ap-label-en": {
-          "en": "Address Representation"
-        },
-        "ap-usageNote-en": {
-          "en": "The scope of this class is broad and is meant to capture generic address representations, aligned with INSPIRE. For Belgian addresses and derived implementations it is advised to align with <a href=\"https://belgif.be/page/activity/bestwg.en.html\">BeST</a>"
-        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
         "definition": {
           "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
         },
         "label": {
-          "en": "Address Representation"
+          "en": "Address representation"
         },
         "parentclasses": "",
         "usage": {
@@ -6240,7 +6225,7 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "en": "Address Representation"
+        "en": "Address representation"
       },
       "name": "AddressRepresentation",
       "usage": {
@@ -12208,7 +12193,7 @@
   "standaardregisterurl": "TODO",
   "template": "building.j2",
   "title": "Building",
-  "toolchaincommit": "c6b1f1685f7e6e5600af981ed86773953b5bed39",
+  "toolchaincommit": "c7bac584566f830efcf65d8e863d268dae6d1dc3",
   "translation": [
     {
       "language": "en",
