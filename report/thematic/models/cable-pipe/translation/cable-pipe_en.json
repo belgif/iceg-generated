@@ -1,5 +1,5 @@
 {
-  "baseURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen#",
+  "baseURI": "https://vocab.belgif.be/ns/utilityservices#",
   "classes": [
     {
       "name": "Connection",
@@ -72,7 +72,7 @@
       "name": "Cableandpipecontainer",
       "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "label": {
-        "en": "CableAndPipeContainer"
+        "en": "[UPDATED] CableAndPipeContainer"
       }
     },
     {
@@ -151,7 +151,7 @@
         "en": "[UPDATED] A linear spatial object that describes the geometry and connectivity of a utility network between two points in the network."
       },
       "label": {
-        "en": "UtilityLink"
+        "en": "[UPDATED] UtilityLink"
       }
     },
     {
@@ -161,17 +161,17 @@
         "en": "[UPDATED] A linear spatial object, composed of an ordered collection of utility links, which represents a continuous path in the utility network without any branches. The element has a defined beginning and end and every position on the utility link sequence is identifiable with one single parameter."
       },
       "label": {
-        "en": "UtilityLinkSequence"
+        "en": "[UPDATED] UtilityLinkSequence"
       }
     },
     {
       "name": "Utilitylinkset",
       "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
       "definition": {
-        "en": "[UPDATED] An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
+        "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
       },
       "label": {
-        "en": "UtilityLinkSet"
+        "en": "[UPDATED] UtilityLinkSet"
       },
       "usage": {
         "en": "[UPDATED] This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.\n"
@@ -184,7 +184,7 @@
         "en": "[UPDATED] Collection of network elements that belong to a single type of utility network."
       },
       "label": {
-        "en": "UtilityNetwork"
+        "en": "[UPDATED] UtilityNetwork"
       },
       "usage": {
         "en": "[UPDATED] In the real world, objects are connected to each other: an optical cable is connected to a multiplexer that in turn is connected to copper cables connecting into our homes to provide cable TV, telephony and internet access. Using GIS to support network utility management typically involves many types of features that may have connectivity to each other. Topology in GIS is generally defined as the spatial relationship between connecting or adjacent features, and is an essential prerequisite for many spatial operations such as network analysis. Utility networks can be described as NaN (Node-Arc-Node) network using two basic geometric types: points (aka nodes) and polylines (aka arcs). NaN topologies can be directed or un-directed, depending on specific type of network (i.e. water networks are directed, while telecommunications networks are not). Such topology structure provides an automated way to handle digitising and editing errors, and enable advanced spatial analyses such as adjacency, connectivity and containment. Infrastructure networks rely on Generic network model developed during Annex I.\n"
@@ -197,7 +197,7 @@
         "en": "[UPDATED] Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.\n"
       },
       "label": {
-        "en": "UtilityNetworkElement"
+        "en": "[UPDATED] UtilityNetworkElement"
       },
       "usage": {
         "en": "[UPDATED] NOTE Derived 'views' of real-world utility objects are represented through specialisations in other application schemas; all representations of the same real-world object share a common geographic name.\n"
@@ -210,7 +210,7 @@
         "en": "A pipe used to transport oil, gas or chemicals from one location to another."
       },
       "label": {
-        "en": "OilGasChemicalPipe"
+        "en": "[UPDATED] OilGasChemicalPipe"
       }
     },
     {
@@ -253,17 +253,17 @@
         "en": "[UPDATED] The ground surface,whose height is often specified relative to a national zero level."
       },
       "label": {
-        "en": "ReferenceSurface"
+        "en": "[UPDATED] ReferenceSurface"
       }
     },
     {
       "name": "Sewerpipe",
       "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
       "definition": {
-        "en": "[UPDATED] A sewer pipe used to convey wastewater (sewer) from one location to another."
+        "en": "A sewer pipe used to convey wastewater (sewer) from one location to another."
       },
       "label": {
-        "en": "SewerPipe"
+        "en": "[UPDATED] SewerPipe"
       }
     },
     {
@@ -273,7 +273,7 @@
         "en": "[UPDATED] A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another."
       },
       "label": {
-        "en": "TelecommunicationsCable"
+        "en": "[UPDATED] TelecommunicationsCable"
       }
     },
     {
@@ -303,7 +303,7 @@
         "en": "[UPDATED] Object that can provide additional topographical information about part or all of a utility network."
       },
       "label": {
-        "en": "TopographicalElement"
+        "en": "[UPDATED] TopographicalElement"
       }
     },
     {
@@ -333,17 +333,17 @@
       "name": "Verticalposition",
       "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
       "label": {
-        "en": "[UPDATED] verticalPosition"
+        "en": "verticalPosition"
       }
     },
     {
       "name": "Waterpipe",
       "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
       "definition": {
-        "en": "[UPDATED] A water pipe used to convey water from one location to another."
+        "en": "A water pipe used to convey water from one location to another."
       },
       "label": {
-        "en": "WaterPipe"
+        "en": "[UPDATED] WaterPipe"
       }
     }
   ],
@@ -355,7 +355,7 @@
         "en": "[UPDATED] The utilization or operating voltage by the equipment using the electricity."
       },
       "label": {
-        "en": "operatingVoltage"
+        "en": "[UPDATED] operatingVoltage"
       }
     },
     {
@@ -365,7 +365,7 @@
         "en": "Type of water"
       },
       "label": {
-        "en": "waterType"
+        "en": "[UPDATED] waterType"
       }
     },
     {
@@ -375,14 +375,14 @@
         "en": "[UPDATED] Kind of overground visible warning mechanism used to indicate an underground utility network element."
       },
       "label": {
-        "en": "warningType"
+        "en": "[UPDATED] warningType"
       }
     },
     {
       "name": "verticalpositiondetail",
       "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
       "label": {
-        "en": "verticalPositiondetail"
+        "en": "[UPDATED] verticalPositiondetail"
       }
     },
     {
@@ -392,7 +392,7 @@
         "en": "[UPDATED] Total heigt of the tower."
       },
       "label": {
-        "en": "towerHeight"
+        "en": "[UPDATED] towerHeight"
       }
     },
     {
@@ -402,7 +402,7 @@
         "en": "[UPDATED] The type of thermal product that is conveyed through the thermal pipe."
       },
       "label": {
-        "en": "thermalProductType"
+        "en": "[UPDATED] thermalProductType"
       }
     },
     {
@@ -422,7 +422,7 @@
         "en": "Type of cable material"
       },
       "label": {
-        "en": "telecommunicationsCableMaterialType"
+        "en": "[UPDATED] telecommunicationsCableMaterialType"
       }
     },
     {
@@ -439,7 +439,7 @@
       "name": "technicalspecification",
       "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
       "label": {
-        "en": "technicalSpecification"
+        "en": "[UPDATED] technicalSpecification"
       },
       "usage": {
         "en": "[UPDATED] For example, 4g10 to specify 4-core cable with a 10mm diameter"
@@ -449,31 +449,31 @@
       "name": "standardverticalpositiondetail",
       "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
       "label": {
-        "en": "standardVerticalPositiondetail"
+        "en": "[UPDATED] standardVerticalPositiondetail"
       }
     },
     {
       "name": "rotationangle",
       "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
       "label": {
-        "en": "rotationAngle"
+        "en": "[UPDATED] rotationAngle"
       }
     },
     {
       "name": "sewerwatertype",
       "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
       "definition": {
-        "en": "[UPDATED] Type of sewer water"
+        "en": "Type of sewer water"
       },
       "label": {
-        "en": "sewerWaterType"
+        "en": "[UPDATED] sewerWaterType"
       }
     },
     {
       "name": "referencesurface",
       "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
       "label": {
-        "en": "referenceSurface"
+        "en": "[UPDATED] referenceSurface"
       }
     },
     {
@@ -483,7 +483,7 @@
         "en": "[UPDATED] Pipe outer diameter"
       },
       "label": {
-        "en": "pipeDiameter"
+        "en": "[UPDATED] pipeDiameter"
       },
       "usage": {
         "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
@@ -496,7 +496,7 @@
         "en": "The height of the Pole"
       },
       "label": {
-        "en": "poleHeight"
+        "en": "[UPDATED] poleHeight"
       }
     },
     {
@@ -506,7 +506,7 @@
         "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe."
       },
       "label": {
-        "en": "oilGasChemicalProductType"
+        "en": "[UPDATED] oilGasChemicalProductType"
       }
     },
     {
@@ -526,7 +526,7 @@
         "en": "[UPDATED] The nominal system voltage at the point of supply."
       },
       "label": {
-        "en": "nominalVoltage"
+        "en": "[UPDATED] nominalVoltage"
       }
     },
     {
@@ -556,7 +556,7 @@
         "en": "[UPDATED] Classification of material used for utility link set."
       },
       "label": {
-        "en": "materialType"
+        "en": "[UPDATED] materialType"
       }
     },
     {
@@ -583,7 +583,7 @@
         "en": "[UPDATED] The width of the duct"
       },
       "label": {
-        "en": "ductWidth"
+        "en": "[UPDATED] ductWidth"
       },
       "usage": {
         "en": "The measurement of the object - in this case, the duct - from side to side."
@@ -596,7 +596,7 @@
         "en": "[UPDATED] The diameter of the Cable"
       },
       "label": {
-        "en": "cableDiameter"
+        "en": "[UPDATED] cableDiameter"
       }
     },
     {
@@ -606,7 +606,7 @@
         "en": "[UPDATED] The status of an utility object with regards to its completion and use."
       },
       "label": {
-        "en": "currentStatus"
+        "en": "[UPDATED] currentStatus"
       }
     },
     {
@@ -616,7 +616,7 @@
         "en": "The time when the utility network element started to exist in the real world."
       },
       "label": {
-        "en": "validFrom"
+        "en": "[UPDATED] validFrom"
       }
     },
     {
@@ -626,7 +626,7 @@
         "en": "The time from which the utility network element no longer exists in the real world."
       },
       "label": {
-        "en": "validTo"
+        "en": "[UPDATED] validTo"
       }
     },
     {
@@ -646,7 +646,7 @@
         "en": "[UPDATED] Object to which the annotation refers."
       },
       "label": {
-        "en": "associatedWith"
+        "en": "[UPDATED] associatedWith"
       }
     },
     {
@@ -726,7 +726,7 @@
         "en": "[UPDATED] Parties authorized to manage a utility network, such as maintainers, operators or owners."
       },
       "label": {
-        "en": "authorityRole"
+        "en": "[UPDATED] authorityRole"
       }
     },
     {
@@ -743,7 +743,7 @@
         "en": "[UPDATED] Identification of a place by street, number and municipality."
       },
       "label": {
-        "en": "adres"
+        "en": "[UPDATED] adres"
       }
     },
     {
@@ -753,7 +753,7 @@
         "en": "Activity complex belonging to the network."
       },
       "label": {
-        "en": "activitycomplexreference"
+        "en": "[UPDATED] activitycomplexreference"
       }
     },
     {
@@ -770,14 +770,14 @@
       "name": "geographicalname",
       "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
       "label": {
-        "en": "geographicalName"
+        "en": "[UPDATED] geographicalName"
       }
     },
     {
       "name": "verticalposition",
       "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
       "label": {
-        "en": "verticalPosition"
+        "en": "[UPDATED] verticalPosition"
       }
     },
     {
@@ -787,7 +787,7 @@
         "en": "[UPDATED] Vertical measure upwards from the ground surface of the reference surface."
       },
       "label": {
-        "en": "verticalPosition"
+        "en": "[UPDATED] verticalPosition"
       }
     },
     {
@@ -821,14 +821,14 @@
         "en": "[UPDATED] Agent who performed the Survey."
       },
       "label": {
-        "en": "recordedBy"
+        "en": "[UPDATED] recordedBy"
       }
     },
     {
       "name": "method",
       "EA-Guid": "{5CF54001-0D21-41e1-B29D-97CC7EC9F020}",
       "definition": {
-        "en": "[UPDATED] Type of method used."
+        "en": "Type of method used."
       },
       "label": {
         "en": "method"
@@ -838,7 +838,7 @@
       "name": "verticalposition",
       "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
       "label": {
-        "en": "verticalPosition"
+        "en": "[UPDATED] verticalPosition"
       }
     },
     {
@@ -865,7 +865,7 @@
       "name": "appearance",
       "EA-Guid": "{451C5196-58DF-4df8-AE6F-13A5828A6E6F}",
       "definition": {
-        "en": "[UPDATED] The way an object looks."
+        "en": "The way an object looks."
       },
       "label": {
         "en": "appearance"
@@ -875,7 +875,7 @@
       "name": "risk",
       "EA-Guid": "{4680B8E0-ADA5-4df0-BB22-757CF168E14E}",
       "definition": {
-        "en": "[UPDATED] Indicates whether a utility link set can be considered hazardous."
+        "en": "Indicates whether a utility link set can be considered hazardous."
       },
       "label": {
         "en": "risk"
@@ -885,7 +885,7 @@
       "name": "visibility",
       "EA-Guid": "{CB78D103-BABF-4d04-BDDB-5146D44A72EF}",
       "definition": {
-        "en": "[UPDATED] Indicates the different ways in which the object is observable."
+        "en": "Indicates the different ways in which the object is observable."
       },
       "label": {
         "en": "visibility"
@@ -895,7 +895,7 @@
       "name": "appearance",
       "EA-Guid": "{ACE6F98E-D2DC-40fb-B473-8E0BC8C66040}",
       "definition": {
-        "en": "[UPDATED] The way an object looks."
+        "en": "The way an object looks."
       },
       "label": {
         "en": "appearance"
@@ -915,7 +915,7 @@
       "name": "orientation",
       "EA-Guid": "{9E9E6F1D-85EE-452e-BB76-512A6EB93731}",
       "definition": {
-        "en": "[UPDATED] The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
+        "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
       },
       "label": {
         "en": "orientation"
@@ -925,7 +925,7 @@
       "name": "visibility",
       "EA-Guid": "{A9A65420-5DE4-4dc4-80E0-D03317ECF385}",
       "definition": {
-        "en": "[UPDATED] Indicates the different ways in which the object is observable."
+        "en": "Indicates the different ways in which the object is observable."
       },
       "label": {
         "en": "visibility"
@@ -935,7 +935,7 @@
       "name": "appearance",
       "EA-Guid": "{D9335DED-CB05-4e08-9E35-992400B607AF}",
       "definition": {
-        "en": "[UPDATED] The way an item looks."
+        "en": "The way an item looks."
       },
       "label": {
         "en": "appearance"
@@ -945,7 +945,7 @@
       "name": "risk",
       "EA-Guid": "{3846A060-B6A3-4e1c-8C23-6824A4215BB9}",
       "definition": {
-        "en": "[UPDATED] Indicates whether a utility node can be considered hazardous."
+        "en": "Indicates whether a utility node can be considered hazardous."
       },
       "label": {
         "en": "risk"
@@ -955,7 +955,7 @@
       "name": "orientation",
       "EA-Guid": "{B51C2121-D6ED-437e-8786-E6B4573C28C9}",
       "definition": {
-        "en": "[UPDATED] The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object."
+        "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object."
       },
       "label": {
         "en": "orientation"
@@ -965,7 +965,7 @@
       "name": "pipe",
       "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
       "definition": {
-        "en": "[UPDATED] Pipes may contain multiple pipes."
+        "en": "Pipes may contain multiple pipes."
       },
       "label": {
         "en": "pipe"
@@ -975,20 +975,20 @@
       "name": "duct",
       "EA-Guid": "{4F60EFC8-708A-4454-94BC-4DA8A4432ACA}",
       "definition": {
-        "en": "[UPDATED] Channels (channel banks or inner channels) may contain cables."
+        "en": "Channels (channel banks or inner channels) may contain cables."
       },
       "label": {
-        "en": "[UPDATED] duct"
+        "en": "duct"
       }
     },
     {
       "name": "duct|r=cables|'cable",
       "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
       "definition": {
-        "en": "[UPDATED] Ducts (duct banks, or inner-ducts) may contain cables."
+        "en": "Ducts (duct banks, or inner-ducts) may contain cables."
       },
       "label": {
-        "en": "[UPDATED] Duct|r=cables|'Cable"
+        "en": "Duct|r=cables|'Cable"
       }
     },
     {
@@ -1005,10 +1005,10 @@
       "name": "innetwork",
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
-        "en": "[UPDATED] TODO"
+        "en": "TODO"
       },
       "label": {
-        "en": "[UPDATED] innetwork"
+        "en": "innetwork"
       }
     },
     {
@@ -1027,7 +1027,7 @@
       "name": "Length",
       "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
       "definition": {
-        "en": "[UPDATED] The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
+        "en": "The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
       },
       "label": {
         "en": "Length"
@@ -1037,7 +1037,7 @@
       "name": "Measure",
       "EA-Guid": "{889C9976-B9C7-47d5-849B-C0D9B0D55915}",
       "definition": {
-        "en": "[UPDATED] The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
+        "en": "The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
       },
       "label": {
         "en": "Measure"
@@ -1188,10 +1188,10 @@
       "name": "Utilitydeliverytypevalue",
       "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
       "definition": {
-        "en": "[UPDATED] Classification of utility delivery types."
+        "en": "Classification of utility delivery types."
       },
       "label": {
-        "en": "[UPDATED] UtilityDeliveryTypeValue"
+        "en": "UtilityDeliveryTypeValue"
       }
     },
     {
@@ -1265,7 +1265,7 @@
       "name": "Appurtenancetypevalue",
       "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
       "definition": {
-        "en": "[UPDATED] Classification of appurtenances."
+        "en": "Classification of appurtenances."
       },
       "label": {
         "en": "AppurtenanceTypeValue"
@@ -1315,7 +1315,7 @@
       "name": "Documentmediatype",
       "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
       "definition": {
-        "en": "[UPDATED] Kind of document medium."
+        "en": "Kind of document medium."
       },
       "label": {
         "en": "DocumentMediaType"
@@ -1355,7 +1355,7 @@
       "name": "",
       "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
       "definition": {
-        "en": "[UPDATED] Classification of protected area types"
+        "en": "Classification of protected area types"
       }
     },
     {
@@ -1381,7 +1381,7 @@
         "en": "Address Representation"
       },
       "usage": {
-        "en": "[UPDATED] Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur)."
+        "en": "Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur)."
       }
     },
     {
@@ -1409,7 +1409,7 @@
       "name": "Document",
       "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
       "definition": {
-        "en": "[UPDATED] Attachment in any form for additional information."
+        "en": "Attachment in any form for additional information."
       },
       "label": {
         "en": "Document"
@@ -1425,7 +1425,7 @@
         "en": "Adress"
       },
       "usage": {
-        "en": "[UPDATED] The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
       }
     },
     {
@@ -1435,10 +1435,10 @@
         "en": "[UPDATED] A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n"
       },
       "label": {
-        "en": "[UPDATED] ActivityComplex"
+        "en": "ActivityComplex"
       },
       "usage": {
-        "en": "[UPDATED] NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive."
+        "en": "NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive."
       }
     },
     {
@@ -1451,7 +1451,7 @@
         "en": "DirectPosition"
       },
       "usage": {
-        "en": "[UPDATED] Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       }
     },
     {
@@ -1471,7 +1471,7 @@
         "en": "Determining the exact size of something by measuring it."
       },
       "label": {
-        "en": "[UPDATED] Measurement"
+        "en": "Measurement"
       }
     },
     {
@@ -1485,7 +1485,7 @@
         "en": "A link either in its positive or negative direction."
       },
       "label": {
-        "en": "[UPDATED] Directed link"
+        "en": "Directed link"
       }
     },
     {
@@ -1521,7 +1521,7 @@
       "name": "height",
       "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
       "definition": {
-        "en": "The height of the Appurtenance"
+        "en": "[UPDATED] The height of the Appurtenance"
       },
       "label": {
         "en": "height"
@@ -1558,10 +1558,10 @@
       "name": "endspoke",
       "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
       "definition": {
-        "en": "Link of which this Node is the endNode"
+        "en": "[UPDATED] Link of which this Node is the endNode"
       },
       "label": {
-        "en": "endSpoke"
+        "en": "[UPDATED] endSpoke"
       }
     },
     {
@@ -1571,17 +1571,17 @@
         "en": "[UPDATED] The optional end node for this link. The end node may be the same instance as the start node."
       },
       "label": {
-        "en": "endNode"
+        "en": "[UPDATED] endNode"
       }
     },
     {
       "name": "beginspoke",
       "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
       "definition": {
-        "en": "Link of which this Node is the startNode"
+        "en": "[UPDATED] Link of which this Node is the startNode"
       },
       "label": {
-        "en": "beginSpoke"
+        "en": "[UPDATED] beginSpoke"
       }
     },
     {
@@ -1591,7 +1591,7 @@
         "en": "[UPDATED] The optional start node for this link."
       },
       "label": {
-        "en": "startNode"
+        "en": "[UPDATED] startNode"
       }
     },
     {
@@ -1621,7 +1621,7 @@
         "en": "[UPDATED] The geometry that represents the centreline of the link"
       },
       "label": {
-        "en": "centrelineGeometry"
+        "en": "[UPDATED] centrelineGeometry"
       }
     },
     {
@@ -1681,7 +1681,7 @@
         "en": "Address from which the address representation is derived."
       },
       "label": {
-        "en": "refersTo"
+        "en": "[UPDATED] refersTo"
       },
       "usage": {
         "en": "This can only be done for Belgian addresses as address means a Belgian address."
@@ -1701,7 +1701,7 @@
       "name": "municipalityName",
       "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
-        "en": "[UPDATED] Municipal name from address."
+        "en": "Municipal name from address."
       },
       "label": {
         "en": "municipality name"
@@ -1717,7 +1717,7 @@
         "en": "box number"
       },
       "usage": {
-        "en": "[UPDATED] Specialisation of Address Presentation:location indication for Belgian addresses."
+        "en": "Specialisation of Address Presentation:location indication for Belgian addresses."
       }
     },
     {
@@ -1730,7 +1730,7 @@
         "en": "house number"
       },
       "usage": {
-        "en": "[UPDATED] Specialization of Address representation: location indication for Belgian addresses."
+        "en": "Specialization of Address representation: location indication for Belgian addresses."
       }
     },
     {
@@ -1783,7 +1783,7 @@
         "en": "PO Box number in a post office."
       },
       "label": {
-        "en": "PObox"
+        "en": "[UPDATED] PObox"
       }
     },
     {
@@ -1836,7 +1836,7 @@
       "name": "location",
       "EA-Guid": "{EB66BB3E-599B-4e06-9BFA-041434772A53}",
       "definition": {
-        "en": "[UPDATED] Shape and position features of an object,"
+        "en": "Shape and position features of an object,"
       },
       "label": {
         "en": "location"
@@ -1862,7 +1862,7 @@
       "name": "location",
       "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
       "definition": {
-        "en": "[UPDATED] Shape and position features of an object,"
+        "en": "Shape and position features of an object,"
       },
       "label": {
         "en": "location"
@@ -1908,7 +1908,7 @@
       "name": "administrativeUnitLevel2",
       "EA-Guid": "{E33A216E-2CA4-4c37-8857-D2D37262F35B}",
       "definition": {
-        "en": "[UPDATED] The region of address, usually a province or state or similar area that typically includes several places."
+        "en": "The region of address, usually a province or state or similar area that typically includes several places."
       },
       "label": {
         "en": "administrative unit level 2"
@@ -1921,7 +1921,7 @@
         "en": "[UPDATED] Highest Administrative Unit van het address, usually a country."
       },
       "label": {
-        "en": "[UPDATED] administrative unit level 1"
+        "en": "administrative unit level 1"
       }
     },
     {
@@ -2029,7 +2029,7 @@
         "en": "gml"
       },
       "usage": {
-        "en": "[UPDATED] Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
+        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
       }
     },
     {
@@ -2052,7 +2052,7 @@
         "en": "[UPDATED] Attribute indicating the type of pipe container."
       },
       "label": {
-        "en": "containertype"
+        "en": "[UPDATED] containertype"
       }
     },
     {
@@ -2062,7 +2062,7 @@
         "en": "[UPDATED] The kind of container linked to the canal."
       },
       "label": {
-        "en": "containertype"
+        "en": "[UPDATED] containertype"
       }
     },
     {
@@ -2085,7 +2085,7 @@
         "en": "Time the identifier was assigned."
       },
       "label": {
-        "en": "assignedOn"
+        "en": "[UPDATED] assignedOn"
       }
     },
     {
@@ -2095,7 +2095,7 @@
         "en": "Link to the agent who assigned the identifier."
       },
       "label": {
-        "en": "assignedBy"
+        "en": "[UPDATED] assignedBy"
       }
     },
     {
@@ -2105,7 +2105,7 @@
         "en": "The type of utility network or the utility network theme."
       },
       "label": {
-        "en": "utilityNetworkType"
+        "en": "[UPDATED] utilityNetworkType"
       },
       "usage": {
         "en": "[UPDATED] Uses the codelist \"UtilityNetworkTypeValue\" to describe the possible utility networks. This also contains the \"crossTheme\" value to be used for utility networks that can contain cables or pipes from various themes, typically used by utility network providers that provide ducts."
@@ -2115,7 +2115,7 @@
       "name": "type",
       "EA-Guid": "{3CFB2E82-225C-4884-9E31-E482A0748F97}",
       "definition": {
-        "en": "[UPDATED] The type of Reference Surface"
+        "en": "The type of Reference Surface"
       },
       "label": {
         "en": "type"
@@ -2128,7 +2128,7 @@
       "name": "type",
       "EA-Guid": "{97C241A0-58A7-4a76-945C-7A50E18BE147}",
       "definition": {
-        "en": "[UPDATED] Classification of different types of protected areas."
+        "en": "Classification of different types of protected areas."
       },
       "label": {
         "en": "type"
@@ -2161,7 +2161,7 @@
         "en": "Type of Appurtenance"
       },
       "label": {
-        "en": "appurtenanceType"
+        "en": "[UPDATED] appurtenanceType"
       }
     },
     {
@@ -2171,7 +2171,7 @@
         "en": "[UPDATED] Classification of the annotation object."
       },
       "label": {
-        "en": "annotationType"
+        "en": "[UPDATED] annotationType"
       }
     },
     {
@@ -2191,7 +2191,7 @@
         "en": "Object to which the document refers."
       },
       "label": {
-        "en": "refersTo"
+        "en": "[UPDATED] refersTo"
       }
     },
     {
@@ -2221,7 +2221,7 @@
         "en": "[UPDATED] Medium used to access the document."
       },
       "label": {
-        "en": "documentMediaType"
+        "en": "[UPDATED] documentMediaType"
       }
     },
     {
@@ -2298,7 +2298,7 @@
       "name": "uomidentifier",
       "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
       "label": {
-        "en": "uomIdentifier"
+        "en": "[UPDATED] uomIdentifier"
       }
     },
     {

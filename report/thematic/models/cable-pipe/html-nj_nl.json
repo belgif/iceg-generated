@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/9f7bb2a515f682376f2800e7d7b29363c9e53457",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/9f7bb2a515f682376f2800e7d7b29363c9e53457/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/ce60f9180118c6b1dd283288b0ceb7291af26364",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/ce60f9180118c6b1dd283288b0ceb7291af26364/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -3457,10 +3457,10 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail",
           "name": "verticalpositiondetail",
-          "sort": "[UPDATED] verticalePositiedetail",
+          "sort": "[UPDATED] verticale positiedetail",
           "label": {
             "en": "verticalPositiondetail",
-            "nl": "[UPDATED] verticalePositiedetail"
+            "nl": "[UPDATED] verticale positiedetail"
           },
           "description": {},
           "usage": {},
@@ -3713,11 +3713,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Verticale Positie Type",
+              "range_uri": "#[UPDATED] Verticale Positietype",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "en": "VerticalPositionValue",
-                "nl": "[UPDATED] Verticale Positie Type"
+                "nl": "[UPDATED] Verticale Positietype"
               }
             }
           ],
@@ -6276,11 +6276,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] EconomischeActiviteittype",
+              "range_uri": "#[UPDATED] Economische Activiteittype",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "en": "EconomicActivityValue",
-                "nl": "[UPDATED] EconomischeActiviteittype"
+                "nl": "[UPDATED] Economische Activiteittype"
               }
             }
           ],
@@ -6471,7 +6471,7 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail",
       "name": {
         "en": "verticalPositiondetail",
-        "nl": "[UPDATED] verticalePositiedetail",
+        "nl": "[UPDATED] verticale positiedetail",
         "undefined": "verticalpositiondetail"
       },
       "description": {},
@@ -6599,7 +6599,7 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak",
       "name": {
         "en": "referenceSurface",
-        "nl": "[UPDATED] referentieOppervlak",
+        "nl": "[UPDATED] referentieoppervlak",
         "undefined": "referencesurface"
       },
       "description": {},
@@ -7111,7 +7111,7 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor",
       "name": {
         "en": "recordedBy",
-        "nl": "[UPDATED] uitgevoerdDoor",
+        "nl": "[UPDATED] uitgevoerd door",
         "undefined": "recordedby"
       },
       "description": {},
@@ -8242,11 +8242,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] DirectePositie",
+              "range_uri": "#[UPDATED] Directe Positie",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
               "range_label": {
                 "en": "DirectPosition",
-                "nl": "[UPDATED] DirectePositie"
+                "nl": "[UPDATED] Directe Positie"
               }
             }
           ],
@@ -8474,10 +8474,10 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak",
           "name": "referencesurface",
-          "sort": "[UPDATED] referentieOppervlak",
+          "sort": "[UPDATED] referentieoppervlak",
           "label": {
             "en": "referenceSurface",
-            "nl": "[UPDATED] referentieOppervlak"
+            "nl": "[UPDATED] referentieoppervlak"
           },
           "description": {},
           "usage": {},
@@ -8585,11 +8585,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] DirectePositie",
+              "range_uri": "#[UPDATED] Directe Positie",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
               "range_label": {
                 "en": "DirectPosition",
-                "nl": "[UPDATED] DirectePositie"
+                "nl": "[UPDATED] Directe Positie"
               }
             }
           ],
@@ -10210,16 +10210,16 @@
       "name": "Directposition",
       "label": {
         "en": "DirectPosition",
-        "nl": "[UPDATED] DirectePositie"
+        "nl": "[UPDATED] Directe Positie"
       },
-      "sort": "[UPDATED] DirectePositie",
+      "sort": "[UPDATED] Directe Positie",
       "description": {
         "en": "Holder of the coordinates of a position in a coordinate reference system.",
         "nl": "[UPDATED] Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
       },
       "usage": {
         "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
-        "nl": "[UPDATED] Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
+        "nl": "[UPDATED] Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een Directe Positie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de Directe Positie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
       },
       "parents": [],
       "rawTags": {
@@ -10472,10 +10472,10 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor",
           "name": "recordedby",
-          "sort": "[UPDATED] uitgevoerdDoor",
+          "sort": "[UPDATED] uitgevoerd door",
           "label": {
             "en": "recordedBy",
-            "nl": "[UPDATED] uitgevoerdDoor"
+            "nl": "[UPDATED] uitgevoerd door"
           },
           "description": {
             "en": "Agent who performed the Survey.",

@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/9f7bb2a515f682376f2800e7d7b29363c9e53457",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/9f7bb2a515f682376f2800e7d7b29363c9e53457/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/ce60f9180118c6b1dd283288b0ceb7291af26364",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/ce60f9180118c6b1dd283288b0ceb7291af26364/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -55,9 +55,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres",
           "name": "adres",
-          "sort": "adres",
+          "sort": "[UPDATED] adres",
           "label": {
-            "en": "adres"
+            "en": "[UPDATED] adres"
           },
           "description": {
             "en": "[UPDATED] Identification of a place by street, number and municipality."
@@ -226,9 +226,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rotatiehoek",
           "name": "rotationangle",
-          "sort": "rotationAngle",
+          "sort": "[UPDATED] rotationAngle",
           "label": {
-            "en": "rotationAngle"
+            "en": "[UPDATED] rotationAngle"
           },
           "description": {},
           "usage": {},
@@ -316,9 +316,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geassocieerdMet",
           "name": "associatedwith",
-          "sort": "associatedWith",
+          "sort": "[UPDATED] associatedWith",
           "label": {
-            "en": "associatedWith"
+            "en": "[UPDATED] associatedWith"
           },
           "description": {
             "en": "[UPDATED] Object to which the annotation refers."
@@ -460,9 +460,9 @@
         {
           "uri": "http://purl.org/dc/elements/1.1/type",
           "name": "annotationtype",
-          "sort": "annotationType",
+          "sort": "[UPDATED] annotationType",
           "label": {
-            "en": "annotationType"
+            "en": "[UPDATED] annotationType"
           },
           "description": {
             "en": "[UPDATED] Classification of the annotation object."
@@ -632,7 +632,7 @@
             "en": "type"
           },
           "description": {
-            "en": "[UPDATED] Classification of different types of protected areas."
+            "en": "Classification of different types of protected areas."
           },
           "usage": {},
           "domain": [
@@ -798,9 +798,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#werkspanning",
           "name": "operatingvoltage",
-          "sort": "operatingVoltage",
+          "sort": "[UPDATED] operatingVoltage",
           "label": {
-            "en": "operatingVoltage"
+            "en": "[UPDATED] operatingVoltage"
           },
           "description": {
             "en": "[UPDATED] The utilization or operating voltage by the equipment using the electricity."
@@ -843,9 +843,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning",
           "name": "nominalvoltage",
-          "sort": "nominalVoltage",
+          "sort": "[UPDATED] nominalVoltage",
           "label": {
-            "en": "nominalVoltage"
+            "en": "[UPDATED] nominalVoltage"
           },
           "description": {
             "en": "[UPDATED] The nominal system voltage at the point of supply."
@@ -921,9 +921,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabeldiameter",
           "name": "cablediameter",
-          "sort": "cableDiameter",
+          "sort": "[UPDATED] cableDiameter",
           "label": {
-            "en": "cableDiameter"
+            "en": "[UPDATED] cableDiameter"
           },
           "description": {
             "en": "[UPDATED] The diameter of the Cable"
@@ -1015,9 +1015,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer",
       "name": "Cableandpipecontainer",
       "label": {
-        "en": "CableAndPipeContainer"
+        "en": "[UPDATED] CableAndPipeContainer"
       },
-      "sort": "CableAndPipeContainer",
+      "sort": "[UPDATED] CableAndPipeContainer",
       "description": {},
       "usage": {},
       "parents": [],
@@ -1079,9 +1079,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kanaalbreedte",
           "name": "ductwidth",
-          "sort": "ductWidth",
+          "sort": "[UPDATED] ductWidth",
           "label": {
-            "en": "ductWidth"
+            "en": "[UPDATED] ductWidth"
           },
           "description": {
             "en": "[UPDATED] The width of the duct"
@@ -1133,7 +1133,7 @@
             "en": "pipe"
           },
           "description": {
-            "en": "[UPDATED] Pipes may contain multiple pipes."
+            "en": "Pipes may contain multiple pipes."
           },
           "usage": {},
           "domain": [
@@ -1174,12 +1174,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kanaal",
           "name": "duct",
-          "sort": "[UPDATED] duct",
+          "sort": "duct",
           "label": {
-            "en": "[UPDATED] duct"
+            "en": "duct"
           },
           "description": {
-            "en": "[UPDATED] Channels (channel banks or inner channels) may contain cables."
+            "en": "Channels (channel banks or inner channels) may contain cables."
           },
           "usage": {},
           "domain": [
@@ -1220,12 +1220,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel",
           "name": "duct|r=cables|'cable",
-          "sort": "[UPDATED] Duct|r=cables|'Cable",
+          "sort": "Duct|r=cables|'Cable",
           "label": {
-            "en": "[UPDATED] Duct|r=cables|'Cable"
+            "en": "Duct|r=cables|'Cable"
           },
           "description": {
-            "en": "[UPDATED] Ducts (duct banks, or inner-ducts) may contain cables."
+            "en": "Ducts (duct banks, or inner-ducts) may contain cables."
           },
           "usage": {},
           "domain": [
@@ -1266,9 +1266,9 @@
         {
           "uri": "http://purl.org/dc/terms/type",
           "name": "containertype",
-          "sort": "containertype",
+          "sort": "[UPDATED] containertype",
           "label": {
-            "en": "containertype"
+            "en": "[UPDATED] containertype"
           },
           "description": {
             "en": "[UPDATED] The kind of container linked to the canal."
@@ -1466,7 +1466,7 @@
             "en": "visibility"
           },
           "description": {
-            "en": "[UPDATED] Indicates the different ways in which the object is observable."
+            "en": "Indicates the different ways in which the object is observable."
           },
           "usage": {},
           "domain": [
@@ -1514,7 +1514,7 @@
             "en": "appearance"
           },
           "description": {
-            "en": "[UPDATED] The way an item looks."
+            "en": "The way an item looks."
           },
           "usage": {},
           "domain": [
@@ -1562,7 +1562,7 @@
             "en": "risk"
           },
           "description": {
-            "en": "[UPDATED] Indicates whether a utility node can be considered hazardous."
+            "en": "Indicates whether a utility node can be considered hazardous."
           },
           "usage": {},
           "domain": [
@@ -1608,7 +1608,7 @@
             "en": "orientation"
           },
           "description": {
-            "en": "[UPDATED] The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object."
+            "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object."
           },
           "usage": {},
           "domain": [
@@ -1649,12 +1649,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/netwerk#eindlink",
           "name": "endspoke",
-          "sort": "endSpoke",
+          "sort": "[UPDATED] endSpoke",
           "label": {
-            "en": "endSpoke"
+            "en": "[UPDATED] endSpoke"
           },
           "description": {
-            "en": "Link of which this Node is the endNode"
+            "en": "[UPDATED] Link of which this Node is the endNode"
           },
           "usage": {},
           "domain": [
@@ -1695,12 +1695,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/netwerk#beginlink",
           "name": "beginspoke",
-          "sort": "beginSpoke",
+          "sort": "[UPDATED] beginSpoke",
           "label": {
-            "en": "beginSpoke"
+            "en": "[UPDATED] beginSpoke"
           },
           "description": {
-            "en": "Link of which this Node is the startNode"
+            "en": "[UPDATED] Link of which this Node is the startNode"
           },
           "usage": {},
           "domain": [
@@ -1872,7 +1872,7 @@
             "en": "visibility"
           },
           "description": {
-            "en": "[UPDATED] Indicates the different ways in which the object is observable."
+            "en": "Indicates the different ways in which the object is observable."
           },
           "usage": {},
           "domain": [
@@ -1920,7 +1920,7 @@
             "en": "appearance"
           },
           "description": {
-            "en": "[UPDATED] The way an object looks."
+            "en": "The way an object looks."
           },
           "usage": {},
           "domain": [
@@ -2014,7 +2014,7 @@
             "en": "orientation"
           },
           "description": {
-            "en": "[UPDATED] The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
+            "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
           },
           "usage": {},
           "domain": [
@@ -2104,9 +2104,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink",
       "name": "Utilitylink",
       "label": {
-        "en": "UtilityLink"
+        "en": "[UPDATED] UtilityLink"
       },
-      "sort": "UtilityLink",
+      "sort": "[UPDATED] UtilityLink",
       "description": {
         "en": "[UPDATED] A linear spatial object that describes the geometry and connectivity of a utility network between two points in the network."
       },
@@ -2141,9 +2141,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/netwerk#eindknoop",
           "name": "endnode",
-          "sort": "endNode",
+          "sort": "[UPDATED] endNode",
           "label": {
-            "en": "endNode"
+            "en": "[UPDATED] endNode"
           },
           "description": {
             "en": "[UPDATED] The optional end node for this link. The end node may be the same instance as the start node."
@@ -2187,9 +2187,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/netwerk#beginknoop",
           "name": "startnode",
-          "sort": "startNode",
+          "sort": "[UPDATED] startNode",
           "label": {
-            "en": "startNode"
+            "en": "[UPDATED] startNode"
           },
           "description": {
             "en": "[UPDATED] The optional start node for this link."
@@ -2233,9 +2233,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn",
           "name": "centrelinegeometry",
-          "sort": "centrelineGeometry",
+          "sort": "[UPDATED] centrelineGeometry",
           "label": {
-            "en": "centrelineGeometry"
+            "en": "[UPDATED] centrelineGeometry"
           },
           "description": {
             "en": "[UPDATED] The geometry that represents the centreline of the link"
@@ -2282,9 +2282,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinksequentie",
       "name": "Utilitylinksequence",
       "label": {
-        "en": "UtilityLinkSequence"
+        "en": "[UPDATED] UtilityLinkSequence"
       },
-      "sort": "UtilityLinkSequence",
+      "sort": "[UPDATED] UtilityLinkSequence",
       "description": {
         "en": "[UPDATED] A linear spatial object, composed of an ordered collection of utility links, which represents a continuous path in the utility network without any branches. The element has a defined beginning and end and every position on the utility link sequence is identifiable with one single parameter."
       },
@@ -2343,10 +2343,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Directed link",
+              "range_uri": "#Directed link",
               "range_puri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
               "range_label": {
-                "en": "[UPDATED] Directed link"
+                "en": "Directed link"
               }
             }
           ],
@@ -2370,11 +2370,11 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset",
       "name": "Utilitylinkset",
       "label": {
-        "en": "UtilityLinkSet"
+        "en": "[UPDATED] UtilityLinkSet"
       },
-      "sort": "UtilityLinkSet",
+      "sort": "[UPDATED] UtilityLinkSet",
       "description": {
-        "en": "[UPDATED] An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
+        "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
       },
       "usage": {
         "en": "[UPDATED] This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.\n"
@@ -2413,9 +2413,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#waarschuwingstype",
           "name": "warningtype",
-          "sort": "warningType",
+          "sort": "[UPDATED] warningType",
           "label": {
-            "en": "warningType"
+            "en": "[UPDATED] warningType"
           },
           "description": {
             "en": "[UPDATED] Kind of overground visible warning mechanism used to indicate an underground utility network element."
@@ -2460,9 +2460,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#technischeSpecificate",
           "name": "technicalspecification",
-          "sort": "technicalSpecification",
+          "sort": "[UPDATED] technicalSpecification",
           "label": {
-            "en": "technicalSpecification"
+            "en": "[UPDATED] technicalSpecification"
           },
           "description": {},
           "usage": {
@@ -2529,10 +2529,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] UtilityDeliveryTypeValue",
+              "range_uri": "#UtilityDeliveryTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "[UPDATED] UtilityDeliveryTypeValue"
+                "en": "UtilityDeliveryTypeValue"
               }
             }
           ],
@@ -2554,9 +2554,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#materiaaltype",
           "name": "materialtype",
-          "sort": "materialType",
+          "sort": "[UPDATED] materialType",
           "label": {
-            "en": "materialType"
+            "en": "[UPDATED] materialType"
           },
           "description": {
             "en": "[UPDATED] Classification of material used for utility link set."
@@ -2652,7 +2652,7 @@
             "en": "appearance"
           },
           "description": {
-            "en": "[UPDATED] The way an object looks."
+            "en": "The way an object looks."
           },
           "usage": {},
           "domain": [
@@ -2698,7 +2698,7 @@
             "en": "risk"
           },
           "description": {
-            "en": "[UPDATED] Indicates whether a utility link set can be considered hazardous."
+            "en": "Indicates whether a utility link set can be considered hazardous."
           },
           "usage": {},
           "domain": [
@@ -2788,9 +2788,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
       "name": "Utilitynetwork",
       "label": {
-        "en": "UtilityNetwork"
+        "en": "[UPDATED] UtilityNetwork"
       },
-      "sort": "UtilityNetwork",
+      "sort": "[UPDATED] UtilityNetwork",
       "description": {
         "en": "[UPDATED] Collection of network elements that belong to a single type of utility network."
       },
@@ -2824,9 +2824,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#standaardVerticalePositiedetail",
           "name": "standardverticalpositiondetail",
-          "sort": "standardVerticalPositiondetail",
+          "sort": "[UPDATED] standardVerticalPositiondetail",
           "label": {
-            "en": "standardVerticalPositiondetail"
+            "en": "[UPDATED] standardVerticalPositiondetail"
           },
           "description": {},
           "usage": {},
@@ -2844,10 +2844,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] verticalPosition",
+              "range_uri": "#verticalPosition",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
               "range_label": {
-                "en": "[UPDATED] verticalPosition"
+                "en": "verticalPosition"
               }
             }
           ],
@@ -2889,10 +2889,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityNetwork",
+              "range_uri": "#[UPDATED] UtilityNetwork",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
               "range_label": {
-                "en": "UtilityNetwork"
+                "en": "[UPDATED] UtilityNetwork"
               }
             }
           ],
@@ -2936,10 +2936,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityNetworkElement",
+              "range_uri": "#[UPDATED] UtilityNetworkElement",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
               "range_label": {
-                "en": "UtilityNetworkElement"
+                "en": "[UPDATED] UtilityNetworkElement"
               }
             }
           ],
@@ -3004,9 +3004,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#bevoegdePartij",
           "name": "authorityrole",
-          "sort": "authorityRole",
+          "sort": "[UPDATED] authorityRole",
           "label": {
-            "en": "authorityRole"
+            "en": "[UPDATED] authorityRole"
           },
           "description": {
             "en": "[UPDATED] Parties authorized to manage a utility network, such as maintainers, operators or owners."
@@ -3049,9 +3049,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
           "name": "activitycomplexreference",
-          "sort": "activitycomplexreference",
+          "sort": "[UPDATED] activitycomplexreference",
           "label": {
-            "en": "activitycomplexreference"
+            "en": "[UPDATED] activitycomplexreference"
           },
           "description": {
             "en": "Activity complex belonging to the network."
@@ -3071,10 +3071,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] ActivityComplex",
+              "range_uri": "#ActivityComplex",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
               "range_label": {
-                "en": "[UPDATED] ActivityComplex"
+                "en": "ActivityComplex"
               }
             }
           ],
@@ -3093,9 +3093,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^geografischeNaam",
           "name": "geographicalname",
-          "sort": "geographicalName",
+          "sort": "[UPDATED] geographicalName",
           "label": {
-            "en": "geographicalName"
+            "en": "[UPDATED] geographicalName"
           },
           "description": {},
           "usage": {},
@@ -3134,9 +3134,9 @@
         {
           "uri": "http://purl.org/dc/elements/1.1/type",
           "name": "utilitynetworktype",
-          "sort": "utilityNetworkType",
+          "sort": "[UPDATED] utilityNetworkType",
           "label": {
-            "en": "utilityNetworkType"
+            "en": "[UPDATED] utilityNetworkType"
           },
           "description": {
             "en": "The type of utility network or the utility network theme."
@@ -3233,9 +3233,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
       "name": "Utilitynetworkelement",
       "label": {
-        "en": "UtilityNetworkElement"
+        "en": "[UPDATED] UtilityNetworkElement"
       },
-      "sort": "UtilityNetworkElement",
+      "sort": "[UPDATED] UtilityNetworkElement",
       "description": {
         "en": "[UPDATED] Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.\n"
       },
@@ -3261,9 +3261,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail",
           "name": "verticalpositiondetail",
-          "sort": "verticalPositiondetail",
+          "sort": "[UPDATED] verticalPositiondetail",
           "label": {
-            "en": "verticalPositiondetail"
+            "en": "[UPDATED] verticalPositiondetail"
           },
           "description": {},
           "usage": {},
@@ -3281,10 +3281,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] verticalPosition",
+              "range_uri": "#verticalPosition",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
               "range_label": {
-                "en": "[UPDATED] verticalPosition"
+                "en": "verticalPosition"
               }
             }
           ],
@@ -3304,9 +3304,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus",
           "name": "currentstatus",
-          "sort": "currentStatus",
+          "sort": "[UPDATED] currentStatus",
           "label": {
-            "en": "currentStatus"
+            "en": "[UPDATED] currentStatus"
           },
           "description": {
             "en": "[UPDATED] The status of an utility object with regards to its completion and use."
@@ -3349,9 +3349,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigVan",
           "name": "validfrom",
-          "sort": "validFrom",
+          "sort": "[UPDATED] validFrom",
           "label": {
-            "en": "validFrom"
+            "en": "[UPDATED] validFrom"
           },
           "description": {
             "en": "The time when the utility network element started to exist in the real world."
@@ -3394,9 +3394,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigTot",
           "name": "validto",
-          "sort": "validTo",
+          "sort": "[UPDATED] validTo",
           "label": {
-            "en": "validTo"
+            "en": "[UPDATED] validTo"
           },
           "description": {
             "en": "The time from which the utility network element no longer exists in the real world."
@@ -3484,9 +3484,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.verticalePositie",
           "name": "verticalposition",
-          "sort": "verticalPosition",
+          "sort": "[UPDATED] verticalPosition",
           "label": {
-            "en": "verticalPosition"
+            "en": "[UPDATED] verticalPosition"
           },
           "description": {},
           "usage": {},
@@ -3550,10 +3550,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityNetwork",
+              "range_uri": "#[UPDATED] UtilityNetwork",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
               "range_label": {
-                "en": "UtilityNetwork"
+                "en": "[UPDATED] UtilityNetwork"
               }
             }
           ],
@@ -3623,9 +3623,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#OlieGasChemicalienPijp",
       "name": "Oilgaschemicalpipe",
       "label": {
-        "en": "OilGasChemicalPipe"
+        "en": "[UPDATED] OilGasChemicalPipe"
       },
-      "sort": "OilGasChemicalPipe",
+      "sort": "[UPDATED] OilGasChemicalPipe",
       "description": {
         "en": "A pipe used to transport oil, gas or chemicals from one location to another."
       },
@@ -3653,9 +3653,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype",
           "name": "oilgaschemicalproducttype",
-          "sort": "oilGasChemicalProductType",
+          "sort": "[UPDATED] oilGasChemicalProductType",
           "label": {
-            "en": "oilGasChemicalProductType"
+            "en": "[UPDATED] oilGasChemicalProductType"
           },
           "description": {
             "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe."
@@ -3737,9 +3737,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#paalhoogte",
           "name": "poleheight",
-          "sort": "poleHeight",
+          "sort": "[UPDATED] poleHeight",
           "label": {
-            "en": "poleHeight"
+            "en": "[UPDATED] poleHeight"
           },
           "description": {
             "en": "The height of the Pole"
@@ -3822,9 +3822,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijpdiameter",
           "name": "pipediameter",
-          "sort": "pipeDiameter",
+          "sort": "[UPDATED] pipeDiameter",
           "label": {
-            "en": "pipeDiameter"
+            "en": "[UPDATED] pipeDiameter"
           },
           "description": {
             "en": "[UPDATED] Pipe outer diameter"
@@ -4052,9 +4052,9 @@
         {
           "uri": "http://purl.org/dc/terms/type",
           "name": "containertype",
-          "sort": "containertype",
+          "sort": "[UPDATED] containertype",
           "label": {
-            "en": "containertype"
+            "en": "[UPDATED] containertype"
           },
           "description": {
             "en": "[UPDATED] Attribute indicating the type of pipe container."
@@ -4139,7 +4139,7 @@
             "en": "location"
           },
           "description": {
-            "en": "[UPDATED] Shape and position features of an object,"
+            "en": "Shape and position features of an object,"
           },
           "usage": {},
           "domain": [
@@ -4183,11 +4183,11 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Rioolpijp",
       "name": "Sewerpipe",
       "label": {
-        "en": "SewerPipe"
+        "en": "[UPDATED] SewerPipe"
       },
-      "sort": "SewerPipe",
+      "sort": "[UPDATED] SewerPipe",
       "description": {
-        "en": "[UPDATED] A sewer pipe used to convey wastewater (sewer) from one location to another."
+        "en": "A sewer pipe used to convey wastewater (sewer) from one location to another."
       },
       "usage": {},
       "parents": [
@@ -4213,12 +4213,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rioolwatertype",
           "name": "sewerwatertype",
-          "sort": "sewerWaterType",
+          "sort": "[UPDATED] sewerWaterType",
           "label": {
-            "en": "sewerWaterType"
+            "en": "[UPDATED] sewerWaterType"
           },
           "description": {
-            "en": "[UPDATED] Type of sewer water"
+            "en": "Type of sewer water"
           },
           "usage": {},
           "domain": [
@@ -4261,9 +4261,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Telecommunicatiekabel",
       "name": "Telecommunicationscable",
       "label": {
-        "en": "TelecommunicationsCable"
+        "en": "[UPDATED] TelecommunicationsCable"
       },
-      "sort": "TelecommunicationsCable",
+      "sort": "[UPDATED] TelecommunicationsCable",
       "description": {
         "en": "[UPDATED] A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another."
       },
@@ -4291,9 +4291,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#telecommunicatiekabelmateriaaltype",
           "name": "telecommunicationscablematerialtype",
-          "sort": "telecommunicationsCableMaterialType",
+          "sort": "[UPDATED] telecommunicationsCableMaterialType",
           "label": {
-            "en": "telecommunicationsCableMaterialType"
+            "en": "[UPDATED] telecommunicationsCableMaterialType"
           },
           "description": {
             "en": "Type of cable material"
@@ -4369,9 +4369,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#thermischProducttype",
           "name": "thermalproducttype",
-          "sort": "thermalProductType",
+          "sort": "[UPDATED] thermalProductType",
           "label": {
-            "en": "thermalProductType"
+            "en": "[UPDATED] thermalProductType"
           },
           "description": {
             "en": "[UPDATED] The type of thermal product that is conveyed through the thermal pipe."
@@ -4499,7 +4499,7 @@
             "en": "height"
           },
           "description": {
-            "en": "The height of the Appurtenance"
+            "en": "[UPDATED] The height of the Appurtenance"
           },
           "usage": {},
           "domain": [
@@ -4540,9 +4540,9 @@
         {
           "uri": "http://purl.org/dc/elements/1.1/type",
           "name": "appurtenancetype",
-          "sort": "appurtenanceType",
+          "sort": "[UPDATED] appurtenanceType",
           "label": {
-            "en": "appurtenanceType"
+            "en": "[UPDATED] appurtenanceType"
           },
           "description": {
             "en": "Type of Appurtenance"
@@ -4590,9 +4590,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#TopografischElement",
       "name": "Topographicalelement",
       "label": {
-        "en": "TopographicalElement"
+        "en": "[UPDATED] TopographicalElement"
       },
-      "sort": "TopographicalElement",
+      "sort": "[UPDATED] TopographicalElement",
       "description": {
         "en": "[UPDATED] Object that can provide additional topographical information about part or all of a utility network."
       },
@@ -4619,7 +4619,7 @@
             "en": "location"
           },
           "description": {
-            "en": "[UPDATED] Shape and position features of an object,"
+            "en": "Shape and position features of an object,"
           },
           "usage": {
             "en": "Describes these features using points, lines, polygons and coordinates."
@@ -4748,9 +4748,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#torenhoogte",
           "name": "towerheight",
-          "sort": "towerHeight",
+          "sort": "[UPDATED] towerHeight",
           "label": {
-            "en": "towerHeight"
+            "en": "[UPDATED] towerHeight"
           },
           "description": {
             "en": "[UPDATED] Total heigt of the tower."
@@ -4796,11 +4796,11 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Waterleiding",
       "name": "Waterpipe",
       "label": {
-        "en": "WaterPipe"
+        "en": "[UPDATED] WaterPipe"
       },
-      "sort": "WaterPipe",
+      "sort": "[UPDATED] WaterPipe",
       "description": {
-        "en": "[UPDATED] A water pipe used to convey water from one location to another."
+        "en": "A water pipe used to convey water from one location to another."
       },
       "usage": {},
       "parents": [
@@ -4826,9 +4826,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#watertype",
           "name": "watertype",
-          "sort": "waterType",
+          "sort": "[UPDATED] waterType",
           "label": {
-            "en": "waterType"
+            "en": "[UPDATED] waterType"
           },
           "description": {
             "en": "Type of water"
@@ -4893,9 +4893,9 @@
         {
           "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier",
           "name": "uomidentifier",
-          "sort": "uomIdentifier",
+          "sort": "[UPDATED] uomIdentifier",
           "label": {
-            "en": "uomIdentifier"
+            "en": "[UPDATED] uomIdentifier"
           },
           "description": {},
           "usage": {},
@@ -5038,7 +5038,7 @@
       },
       "sort": "Document",
       "description": {
-        "en": "[UPDATED] Attachment in any form for additional information."
+        "en": "Attachment in any form for additional information."
       },
       "usage": {},
       "parents": [],
@@ -5195,9 +5195,9 @@
         {
           "uri": "http://purl.org/dc/elements/1.1/relation",
           "name": "refersto",
-          "sort": "refersTo",
+          "sort": "[UPDATED] refersTo",
           "label": {
-            "en": "refersTo"
+            "en": "[UPDATED] refersTo"
           },
           "description": {
             "en": "Object to which the document refers."
@@ -5241,9 +5241,9 @@
         {
           "uri": "http://purl.org/dc/elements/1.1/format",
           "name": "documentmediatype",
-          "sort": "documentMediaType",
+          "sort": "[UPDATED] documentMediaType",
           "label": {
-            "en": "documentMediaType"
+            "en": "[UPDATED] documentMediaType"
           },
           "description": {
             "en": "[UPDATED] Medium used to access the document."
@@ -5343,7 +5343,7 @@
         "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
       },
       "usage": {
-        "en": "[UPDATED] The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
       },
       "parents": [],
       "rawTags": {
@@ -5366,14 +5366,14 @@
       "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
       "name": "Activitycomplex",
       "label": {
-        "en": "[UPDATED] ActivityComplex"
+        "en": "ActivityComplex"
       },
-      "sort": "[UPDATED] ActivityComplex",
+      "sort": "ActivityComplex",
       "description": {
         "en": "[UPDATED] A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n"
       },
       "usage": {
-        "en": "[UPDATED] NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive."
+        "en": "NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive."
       },
       "parents": [],
       "rawTags": {
@@ -5489,12 +5489,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk",
           "name": "innetwork",
-          "sort": "[UPDATED] innetwork",
+          "sort": "innetwork",
           "label": {
-            "en": "[UPDATED] innetwork"
+            "en": "innetwork"
           },
           "description": {
-            "en": "[UPDATED] TODO"
+            "en": "TODO"
           },
           "usage": {},
           "domain": [
@@ -5511,10 +5511,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityNetwork",
+              "range_uri": "#[UPDATED] UtilityNetwork",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
               "range_label": {
-                "en": "UtilityNetwork"
+                "en": "[UPDATED] UtilityNetwork"
               }
             }
           ],
@@ -5558,10 +5558,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityNetworkElement",
+              "range_uri": "#[UPDATED] UtilityNetworkElement",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
               "range_label": {
-                "en": "UtilityNetworkElement"
+                "en": "[UPDATED] UtilityNetworkElement"
               }
             }
           ],
@@ -6061,7 +6061,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#werkspanning",
       "name": {
-        "en": "operatingVoltage",
+        "en": "[UPDATED] operatingVoltage",
         "undefined": "operatingvoltage"
       },
       "description": {},
@@ -6076,7 +6076,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#watertype",
       "name": {
-        "en": "waterType",
+        "en": "[UPDATED] waterType",
         "undefined": "watertype"
       },
       "description": {},
@@ -6091,7 +6091,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#waarschuwingstype",
       "name": {
-        "en": "warningType",
+        "en": "[UPDATED] warningType",
         "undefined": "warningtype"
       },
       "description": {},
@@ -6106,7 +6106,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail",
       "name": {
-        "en": "verticalPositiondetail",
+        "en": "[UPDATED] verticalPositiondetail",
         "undefined": "verticalpositiondetail"
       },
       "description": {},
@@ -6121,7 +6121,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#torenhoogte",
       "name": {
-        "en": "towerHeight",
+        "en": "[UPDATED] towerHeight",
         "undefined": "towerheight"
       },
       "description": {},
@@ -6136,7 +6136,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#thermischProducttype",
       "name": {
-        "en": "thermalProductType",
+        "en": "[UPDATED] thermalProductType",
         "undefined": "thermalproducttype"
       },
       "description": {},
@@ -6166,7 +6166,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#telecommunicatiekabelmateriaaltype",
       "name": {
-        "en": "telecommunicationsCableMaterialType",
+        "en": "[UPDATED] telecommunicationsCableMaterialType",
         "undefined": "telecommunicationscablematerialtype"
       },
       "description": {},
@@ -6181,7 +6181,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#standaardVerticalePositiedetail",
       "name": {
-        "en": "standardVerticalPositiondetail",
+        "en": "[UPDATED] standardVerticalPositiondetail",
         "undefined": "standardverticalpositiondetail"
       },
       "description": {},
@@ -6196,7 +6196,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rotatiehoek",
       "name": {
-        "en": "rotationAngle",
+        "en": "[UPDATED] rotationAngle",
         "undefined": "rotationangle"
       },
       "description": {},
@@ -6211,7 +6211,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rioolwatertype",
       "name": {
-        "en": "sewerWaterType",
+        "en": "[UPDATED] sewerWaterType",
         "undefined": "sewerwatertype"
       },
       "description": {},
@@ -6226,7 +6226,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak",
       "name": {
-        "en": "referenceSurface",
+        "en": "[UPDATED] referenceSurface",
         "undefined": "referencesurface"
       },
       "description": {},
@@ -6241,7 +6241,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijpdiameter",
       "name": {
-        "en": "pipeDiameter",
+        "en": "[UPDATED] pipeDiameter",
         "undefined": "pipediameter"
       },
       "description": {},
@@ -6256,7 +6256,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#paalhoogte",
       "name": {
-        "en": "poleHeight",
+        "en": "[UPDATED] poleHeight",
         "undefined": "poleheight"
       },
       "description": {},
@@ -6271,7 +6271,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype",
       "name": {
-        "en": "oilGasChemicalProductType",
+        "en": "[UPDATED] oilGasChemicalProductType",
         "undefined": "oilgaschemicalproducttype"
       },
       "description": {},
@@ -6301,7 +6301,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning",
       "name": {
-        "en": "nominalVoltage",
+        "en": "[UPDATED] nominalVoltage",
         "undefined": "nominalvoltage"
       },
       "description": {},
@@ -6346,7 +6346,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#materiaaltype",
       "name": {
-        "en": "materialType",
+        "en": "[UPDATED] materialType",
         "undefined": "materialtype"
       },
       "description": {},
@@ -6391,7 +6391,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kanaalbreedte",
       "name": {
-        "en": "ductWidth",
+        "en": "[UPDATED] ductWidth",
         "undefined": "ductwidth"
       },
       "description": {},
@@ -6406,7 +6406,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabeldiameter",
       "name": {
-        "en": "cableDiameter",
+        "en": "[UPDATED] cableDiameter",
         "undefined": "cablediameter"
       },
       "description": {},
@@ -6421,7 +6421,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus",
       "name": {
-        "en": "currentStatus",
+        "en": "[UPDATED] currentStatus",
         "undefined": "currentstatus"
       },
       "description": {},
@@ -6451,7 +6451,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geassocieerdMet",
       "name": {
-        "en": "associatedWith",
+        "en": "[UPDATED] associatedWith",
         "undefined": "associatedwith"
       },
       "description": {},
@@ -6556,7 +6556,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#bevoegdePartij",
       "name": {
-        "en": "authorityRole",
+        "en": "[UPDATED] authorityRole",
         "undefined": "authorityrole"
       },
       "description": {},
@@ -6586,7 +6586,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres",
       "name": {
-        "en": "adres",
+        "en": "[UPDATED] adres",
         "undefined": "adres"
       },
       "description": {},
@@ -6601,7 +6601,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
       "name": {
-        "en": "activitycomplexreference",
+        "en": "[UPDATED] activitycomplexreference",
         "undefined": "activitycomplexreference"
       },
       "description": {},
@@ -6631,7 +6631,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie.verticalePositie",
       "name": {
-        "en": "verticalPosition",
+        "en": "[UPDATED] verticalPosition",
         "undefined": "verticalposition"
       },
       "description": {},
@@ -6646,7 +6646,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak.verticalePositie",
       "name": {
-        "en": "verticalPosition",
+        "en": "[UPDATED] verticalPosition",
         "undefined": "verticalposition"
       },
       "description": {},
@@ -6706,7 +6706,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor",
       "name": {
-        "en": "recordedBy",
+        "en": "[UPDATED] recordedBy",
         "undefined": "recordedby"
       },
       "description": {},
@@ -6736,7 +6736,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.verticalePositie",
       "name": {
-        "en": "verticalPosition",
+        "en": "[UPDATED] verticalPosition",
         "undefined": "verticalposition"
       },
       "description": {},
@@ -6946,7 +6946,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kanaal",
       "name": {
-        "en": "[UPDATED] duct",
+        "en": "duct",
         "undefined": "duct"
       },
       "description": {},
@@ -6961,7 +6961,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel",
       "name": {
-        "en": "[UPDATED] Duct|r=cables|'Cable",
+        "en": "Duct|r=cables|'Cable",
         "undefined": "duct|r=cables|'cable"
       },
       "description": {},
@@ -6991,7 +6991,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk",
       "name": {
-        "en": "[UPDATED] innetwork",
+        "en": "innetwork",
         "undefined": "innetwork"
       },
       "description": {},
@@ -7761,9 +7761,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
       "name": "Referencesurface",
       "label": {
-        "en": "ReferenceSurface"
+        "en": "[UPDATED] ReferenceSurface"
       },
-      "sort": "ReferenceSurface",
+      "sort": "[UPDATED] ReferenceSurface",
       "description": {
         "en": "[UPDATED] The ground surface,whose height is often specified relative to a national zero level."
       },
@@ -7785,9 +7785,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak.verticalePositie",
           "name": "verticalposition",
-          "sort": "verticalPosition",
+          "sort": "[UPDATED] verticalPosition",
           "label": {
-            "en": "verticalPosition"
+            "en": "[UPDATED] verticalPosition"
           },
           "description": {
             "en": "[UPDATED] Vertical measure upwards from the ground surface of the reference surface."
@@ -7888,7 +7888,7 @@
             "en": "type"
           },
           "description": {
-            "en": "[UPDATED] The type of Reference Surface"
+            "en": "The type of Reference Surface"
           },
           "usage": {
             "en": "Typical the groundlevel."
@@ -8006,9 +8006,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
       "name": "Verticalposition",
       "label": {
-        "en": "[UPDATED] verticalPosition"
+        "en": "verticalPosition"
       },
-      "sort": "[UPDATED] verticalPosition",
+      "sort": "verticalPosition",
       "description": {},
       "usage": {},
       "parents": [],
@@ -8024,9 +8024,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak",
           "name": "referencesurface",
-          "sort": "referenceSurface",
+          "sort": "[UPDATED] referenceSurface",
           "label": {
-            "en": "referenceSurface"
+            "en": "[UPDATED] referenceSurface"
           },
           "description": {},
           "usage": {},
@@ -8044,10 +8044,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ReferenceSurface",
+              "range_uri": "#[UPDATED] ReferenceSurface",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
               "range_label": {
-                "en": "ReferenceSurface"
+                "en": "[UPDATED] ReferenceSurface"
               }
             }
           ],
@@ -8110,9 +8110,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie.verticalePositie",
           "name": "verticalposition",
-          "sort": "verticalPosition",
+          "sort": "[UPDATED] verticalPosition",
           "label": {
-            "en": "verticalPosition"
+            "en": "[UPDATED] verticalPosition"
           },
           "description": {},
           "usage": {},
@@ -8211,7 +8211,7 @@
       },
       "sort": "Length",
       "description": {
-        "en": "[UPDATED] The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
+        "en": "The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
       },
       "usage": {},
       "parents": [
@@ -8290,7 +8290,7 @@
       },
       "sort": "Measure",
       "description": {
-        "en": "[UPDATED] The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
+        "en": "The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
       },
       "usage": {
         "en": "A measure is always associated to a unit of measure. Ratio measures where the two base measures are in the same units (often considered unit-less) should be associated to UnitOfMeasure (same meter.sl.meter for map scale) so that conversions to non-unitless ratios can be accomplished (such as miles.sl.inch)"
@@ -8600,9 +8600,9 @@
         {
           "uri": "http://purl.org/dc/terms/issued",
           "name": "assignedon",
-          "sort": "assignedOn",
+          "sort": "[UPDATED] assignedOn",
           "label": {
-            "en": "assignedOn"
+            "en": "[UPDATED] assignedOn"
           },
           "description": {
             "en": "Time the identifier was assigned."
@@ -8647,9 +8647,9 @@
         {
           "uri": "http://purl.org/dc/terms/creator",
           "name": "assignedby",
-          "sort": "assignedBy",
+          "sort": "[UPDATED] assignedBy",
           "label": {
-            "en": "assignedBy"
+            "en": "[UPDATED] assignedBy"
           },
           "description": {
             "en": "Link to the agent who assigned the identifier."
@@ -8704,7 +8704,7 @@
         "en": "More readable representation containing only the basic data of the address,intended for using an address as an attribute of another object."
       },
       "usage": {
-        "en": "[UPDATED] Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur)."
+        "en": "Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur)."
       },
       "parents": [],
       "rawTags": {
@@ -8728,9 +8728,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
           "name": "refersto",
-          "sort": "refersTo",
+          "sort": "[UPDATED] refersTo",
           "label": {
-            "en": "refersTo"
+            "en": "[UPDATED] refersTo"
           },
           "description": {
             "en": "Address from which the address representation is derived."
@@ -8833,7 +8833,7 @@
             "en": "municipality name"
           },
           "description": {
-            "en": "[UPDATED] Municipal name from address."
+            "en": "Municipal name from address."
           },
           "usage": {},
           "domain": [
@@ -8884,7 +8884,7 @@
             "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number."
           },
           "usage": {
-            "en": "[UPDATED] Specialisation of Address Presentation:location indication for Belgian addresses."
+            "en": "Specialisation of Address Presentation:location indication for Belgian addresses."
           },
           "domain": [
             {
@@ -8938,7 +8938,7 @@
             "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots."
           },
           "usage": {
-            "en": "[UPDATED] Specialization of Address representation: location indication for Belgian addresses."
+            "en": "Specialization of Address representation: location indication for Belgian addresses."
           },
           "domain": [
             {
@@ -9126,9 +9126,9 @@
         {
           "uri": "http://www.w3.org/ns/locn#poBox",
           "name": "pobox",
-          "sort": "PObox",
+          "sort": "[UPDATED] PObox",
           "label": {
-            "en": "PObox"
+            "en": "[UPDATED] PObox"
           },
           "description": {
             "en": "PO Box number in a post office."
@@ -9324,7 +9324,7 @@
             "en": "administrative unit level 2"
           },
           "description": {
-            "en": "[UPDATED] The region of address, usually a province or state or similar area that typically includes several places."
+            "en": "The region of address, usually a province or state or similar area that typically includes several places."
           },
           "usage": {},
           "domain": [
@@ -9366,9 +9366,9 @@
         {
           "uri": "http://www.w3.org/ns/locn#adminUnitL1",
           "name": "administrativeUnitLevel1",
-          "sort": "[UPDATED] administrative unit level 1",
+          "sort": "administrative unit level 1",
           "label": {
-            "en": "[UPDATED] administrative unit level 1"
+            "en": "administrative unit level 1"
           },
           "description": {
             "en": "[UPDATED] Highest Administrative Unit van het address, usually a country."
@@ -9519,10 +9519,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Measurement",
+              "range_uri": "#Measurement",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
               "range_label": {
-                "en": "[UPDATED] Measurement"
+                "en": "Measurement"
               }
             }
           ],
@@ -9603,7 +9603,7 @@
             "en": "Geometry expressed in gml format."
           },
           "usage": {
-            "en": "[UPDATED] Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
+            "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
           },
           "domain": [
             {
@@ -9676,7 +9676,7 @@
         "en": "Holder of the coordinates of a position in a coordinate reference system."
       },
       "usage": {
-        "en": "[UPDATED] Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       },
       "parents": [],
       "rawTags": {
@@ -9719,10 +9719,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Measurement",
+              "range_uri": "#Measurement",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
               "range_label": {
-                "en": "[UPDATED] Measurement"
+                "en": "Measurement"
               }
             }
           ],
@@ -9847,9 +9847,9 @@
       "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
       "name": "Measurement",
       "label": {
-        "en": "[UPDATED] Measurement"
+        "en": "Measurement"
       },
-      "sort": "[UPDATED] Measurement",
+      "sort": "Measurement",
       "description": {
         "en": "Determining the exact size of something by measuring it."
       },
@@ -9915,9 +9915,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor",
           "name": "recordedby",
-          "sort": "recordedBy",
+          "sort": "[UPDATED] recordedBy",
           "label": {
-            "en": "recordedBy"
+            "en": "[UPDATED] recordedBy"
           },
           "description": {
             "en": "[UPDATED] Agent who performed the Survey."
@@ -9966,7 +9966,7 @@
             "en": "method"
           },
           "description": {
-            "en": "[UPDATED] Type of method used."
+            "en": "Type of method used."
           },
           "usage": {},
           "domain": [
@@ -10056,9 +10056,9 @@
       "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
       "name": "DirectedLink",
       "label": {
-        "en": "[UPDATED] Directed link"
+        "en": "Directed link"
       },
-      "sort": "[UPDATED] Directed link",
+      "sort": "Directed link",
       "description": {
         "en": "A link either in its positive or negative direction."
       },
