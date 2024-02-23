@@ -26428,7 +26428,7 @@
     "type": "ap",
     "eap": "IMKL-LD.eap",
     "diagram": "IMKL-LD",
-    "template": "cable-pipe.j2",
+    "template": "cable-pipe_en.j2",
     "title": "Cables and Pipes",
     "publication-state": "For acceptance",
     "publication-date": "2024-02-06",
@@ -26441,14 +26441,14 @@
     "translation": [
         {
             "language": "en",
-            "template": "cable-pipe.j2",
+            "template": "cable-pipe_en.j2",
             "title": "Cables and Pipes",
             "translationjson": "cable-pipe_en.json",
             "mergefile": "cable-pipe_en_merged.json"
         },
         {
             "language": "nl",
-            "template": "cable-pipe.j2",
+            "template": "cable-pipe_nl.j2",
             "title": "Kabels en Leidingen",
             "translationjson": "cable-pipe_nl.json",
             "mergefile": "cable-pipe_nl_merged.json"
@@ -26456,19 +26456,20 @@
         {
             "language": "fr",
             "template": "cable-pipe_fr.j2",
-            "title": "âbles et Conduites",
+            "title": "Câbles et Conduites",
             "translationjson": "cable-pipe_fr.json",
             "mergefile": "cable-pipe_fr_merged.json"
         }
     ],
     "config": "config/config-ap.json",
     "branchtag": "main",
-    "dummy": "003",
+    "disabled": false,
+    "dummy": "001",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "9583246acafdcc91ced20539f8801143d8efa8de",
-    "toolchaincommit": "e79077e04acedf0055538dc51b8361b0dd7ea4c6",
+    "documentcommit": "ee9b06e1e762a18d6cbef70af72eaec556ec0a4b",
+    "toolchaincommit": "3c1fadf518f966950722bf1bf26b8c82e43c8030",
     "hostname": "https://belgif.github.io/"
 }

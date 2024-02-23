@@ -2,354 +2,354 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-DQ".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.OSLO-Netwerk".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.FOAF".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.DCTERMS".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.LOCN".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ADMS".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-CSL".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.SupportPackage".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.OSLO-Address".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.PROV".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.OSLO-Generiek".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-SS".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldLeiding".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Schema.org".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Model.ISO-CSL, Model.Model.SupportPackage, Model.Model.OSLO-Address, Model.Model.LOCN, Model.Model.DCTERMS, Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding, Model, Model.Model, Model.Model.OSLO-Netwerk, Model.Model.PROV, Model.Model.OSLO-Generiek, Model.Model.ADMS, Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte, Model.Model.ISO-SS, Model.Model.Schema.org, Model.Model.FOAF, Model.Model.Objectdiagrammen, Model.Model.ISO-DQ
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DQ_QuantitativeResult): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Model.IMKL-LD:Subthema, Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype, Model.Model.IMKL-LD:Risicotype, Model.Model.IMKL-LD:Zichtbaarheidstype, Model.Model.IMKL-LD:Documenttype, Model.Model.OSLO-Netwerk:Teken, Model.Model.IMKL-LD:Waarschuwingstype, Model.Model.IMKL-LD:Opmetingsmethode, Model.Model.IMKL-LD:Rioolwatertype, Model.Model.IMKL-LD:VerticalePositietype, Model.Model.IMKL-LD:Faciliteitstatus, Model.Model.IMKL-LD:Materiaaltype, Model.Model.IMKL-LD:Toebehorentype, Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:Containertype, Model.Model.IMKL-LD:TopografischElementtype, Model.Model.IMKL-LD:Nutsvoorzieningleveringstype, Model.Model.IMKL-LD:Inputoutputtype, Model.Model.IMKL-LD:Referentieoppervlaktype, Model.Model.IMKL-LD:Watertype, Model.Model.IMKL-LD:EconomischeActiviteittype, Model.Model.IMKL-LD:BeschermdGebiedtype, Model.Model.IMKL-LD:Documentmediumtype, Model.Model.IMKL-LD:Annotatietype, Model.Model.IMKL-LD:ThermischProducttype, Model.Model.IMKL-LD:Kleur, Model.Model.IMKL-LD:OlieGasChemicalientype
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#GeneriekeLink): Model.Model.OSLO-Netwerk:GeneriekeLink, Model.Model.SupportPackage:GeneriekeLink
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Link): Model.Model.SupportPackage:Link, Model.Model.OSLO-Netwerk:Link
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Netwerk): Model.Model.OSLO-Netwerk:Netwerk, Model.Model.SupportPackage:Netwerk
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Linksequentie): Model.Model.SupportPackage:Linksequentie, Model.Model.OSLO-Netwerk:Linksequentie
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Linkset): Model.Model.OSLO-Netwerk:LinkSet, Model.Model.SupportPackage:LinkSet
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Unit): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:Unit, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:Unit
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Knoop): Model.Model.SupportPackage:Knoop, Model.Model.OSLO-Netwerk:Knoop
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer): Model.Model.SupportPackage:KabelEnLeidingContainer, Model.Model.IMKL-LD:KabelEnLeidingContainer
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asWKT): Model.Model.LOCN:Geometrie:alsWKT, Model.Model.ISO-SS:DirectePositie:wkt
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.Model.IMKL-LD:Plan:locatie, Model.Model.IMKL-LD:Referentieoppervlak:ligging, Model.Model.IMKL-LD:VerticalePositie:ligging, Model.Model.OSLO-Generiek:Activiteitencomplex:geometrie, Model.Model.IMKL-LD:TopografischElement:locatie, Model.Model.IMKL-LD:Annotatie:locatie, Model.Model.IMKL-LD:BeschermdGebied:geometrie
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/type): Model.Model.IMKL-LD:BeschermdGebied:type, Model.Model.FOAF:Document:documentType, Model.Model.IMKL-LD:TopografischElement:topografischElementtype, Model.Model.IMKL-LD:Annotatie:annotatietype, Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:Referentieoppervlak:type, Model.Model.IMKL-LD:Toebehoren:toebehorentype
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asGML): Model.Model.ISO-SS:DirectePositie:gml, Model.Model.LOCN:Geometrie:alsGML
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/description): Model.Model.OSLO-Generiek:Functie:beschrijving, Model.Model.FOAF:Document:beschrijving, Model.Model.IMKL-LD:BeschermdGebied:beschrijving
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/nutsvoorzieningen#tekst): Model.Model.IMKL-LD:Annotatie:tekst, Model.Model.IMKL-LD:Symbol:tekst
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie): Model.Model.IMKL-LD:Nutsvoorzieningknoop:^geometrie, Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:^geometrie
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/relation): Model.Model.FOAF:Document:verwijstNaar, Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:documentatie, Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:documentatie
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#valueUnit): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:valueUnit, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:valueUnit
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/height): Model.Model.IMKL-LD:Toebehoren:hoogte, Model.Model.IMKL-LD:Hoogte:hoogte
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Model.IMKL-LD:Pijp:containertype, Model.Model.IMKL-LD:Kanaal:containertype
-16:38:39 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:value, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:value
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerkelement" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoop" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Knoop".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinkset" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:LinkSet".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Pijp" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:KabelEnLeidingContainer".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kabel" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kanaal" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:KabelEnLeidingContainer".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Containertype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Zichtbaarheidstype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglink" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Link".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinksequentie" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Linksequentie".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Risicotype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Uiterlijk" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Kleur".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kleur" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PositioneleNauwkeurigheid" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:Kwaliteitselement".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:PositioneleNauwkeurigheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:PositioneleNauwkeurigheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:PositioneleNauwkeurigheid".
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Materiaaltype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Materiaaltype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Subthema".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Subthema" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Document" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositie" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerk" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Netwerk".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoopcontainer" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Electriciteitskabel" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabel" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalienPijp" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolpijp" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waterleiding" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischePijp" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Curve" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehoren" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toren" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Paal" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Mangat" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kast" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerktype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Faciliteitstatus".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Faciliteitstatus" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Activiteitencomplex" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Functie" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:VerticalePositietype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositietype" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geometrie" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Identificator" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningleveringstype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningleveringstype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Waarschuwingstype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waarschuwingstype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maat" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengte" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabelmateriaaltype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:OlieGasChemicalientype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalientype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Rioolwatertype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolwatertype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Watertype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Watertype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:ThermischProducttype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischProducttype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GerichteLink" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.OSLO-Netwerk:Teken".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Teken" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Teken".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Teken".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Teken".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Punt" .
-16:38:39 WARN  c.g.i.o.c.Converter - Element KabelEnLeidingContainer has same prefix as package: simplify by removing the extra tag uri
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "KabelEnLeidingContainer" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:KabelEnLeidingContainer".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:KabelEnLeidingContainer".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:KabelEnLeidingContainer".
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Toebehorentype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehorentype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:EconomischeActiviteittype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EconomischeActiviteittype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Inputoutputtype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inputoutputtype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Aansluiting" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adres" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatie" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maataanduiding" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Maataanduiding".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Maataanduiding".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Maataanduiding".
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Annotatietype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatietype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElement" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:TopografischElementtype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElementtype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documentmediumtype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documentmediumtype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documenttype".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documenttype" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DirectePositie" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmeting" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlak" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlaktype" .
-16:38:39 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Opmetingsmethode".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmetingsmethode" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Hoogte" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Diepte" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Getal" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.Schema.org:Getal".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.Schema.org:Getal".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.Schema.org:Getal".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Meeteenheid" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengteeenheid" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plan" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebied" .
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebiedtype" .
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class BeschermdGebiedtype without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Netwerk" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Netwerk".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Netwerk".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Netwerk".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Netwerk without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "LinkSet" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:LinkSet".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:LinkSet".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:LinkSet".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class LinkSet without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Link" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Link".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Link".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Link".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Link without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Linksequentie" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Linksequentie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Linksequentie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Linksequentie".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Linksequentie without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Knoop" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Knoop".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Knoop".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Knoop".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Knoop without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatie" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Locatie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Locatie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Locatie".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatie without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Object" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Object".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Object".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Object".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Object without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeneriekeLink" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GeneriekeLink without label, further processing this class will be incoherent
-16:38:39 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.DCTERMS:Agent".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.DCTERMS:Agent".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.DCTERMS:Agent".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Agent without label, further processing this class will be incoherent
-16:38:39 WARN  c.g.i.o.c.Converter - Package for connector Model.Model.OSLO-Generiek:Activiteitencomplex:op is unknown
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:netwerk" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#netwerk" does not start with a lowercase "UtilityNetwork|r=network|'UtilityNetwork".
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" does not have a name, it will be ignored.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:kabel" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:kabel".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:kabel".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:kabel".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.kabel" does not start with a lowercase "Pipe|r=cables|'Cable".
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:deel" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:inNetwerk" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:element" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" does not have a name, it will be ignored.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#knoop" does not start with a lowercase "UtilityNodeContainer|r=node|'UtilityNode".
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:pijp" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:pijp".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:pijp".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:pijp".
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kanaal" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" does not have a name, it will be ignored.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:pijp" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie".
-16:38:39 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property activiteitencomplexreferentie without name, further processing this property will be incoherent
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" does not have a name, it will be ignored.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kabel" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel" does not start with a lowercase "Duct|r=cables|'Cable".
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" does not have a name, it will be ignored.
-16:38:39 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:geheel" belongs to package "IMKL-LD" based on source and target definition.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
-16:38:39 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:overheidsdienstreferentie" since it is marked as ignored.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositie".
-16:38:39 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:inNetwerk" since it is marked as ignored.
-16:38:39 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^beginlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
-16:38:39 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^eindlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:technischeSpecificate".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:technischeSpecificate".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:technischeSpecificate".
-16:38:39 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:inNetwerk" since it is marked as ignored.
-16:38:39 WARN  c.g.i.o.c.Converter - Ambiguous data type "GeneriekeLink" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:^link": Model.Model.OSLO-Netwerk:GeneriekeLink, Model.Model.SupportPackage:GeneriekeLink.
-16:38:39 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:inNetwerk" since it is marked as ignored.
-16:38:39 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^eindknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
-16:38:39 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^startknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
-16:38:39 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinksequentie:inNetwerk" since it is marked as ignored.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:referentieOppervlak".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:referentieOppervlak".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:referentieOppervlak".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:verticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:verticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:verticalePositie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:afstand".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:afstand".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:afstand".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:^geografischeNaam".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:^geografischeNaam".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:^geografischeNaam".
-16:38:39 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie" since it is marked as ignored.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:standaardVerticalePositiedetail".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:standaardVerticalePositiedetail".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:standaardVerticalePositiedetail".
-16:38:39 WARN  c.g.i.o.c.Converter - Element functie has same prefix as package: simplify by removing the extra tag uri
-16:38:39 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
-16:38:39 WARN  c.g.i.o.c.Converter - Element documentatie has same prefix as package: simplify by removing the extra tag uri
-16:38:39 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.OSLO-Generiek:Activiteitencomplex:inNetwerk" since it is marked as ignored.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:waarde".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:waarde".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:waarde".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:eenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:eenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:eenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengte:eenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengte:eenheid".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengte:eenheid".
-16:38:39 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.OSLO-Netwerk:GerichteLink:link": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
-16:38:39 WARN  c.g.i.o.c.Converter - Ambiguous data type "Adres" for attribute "Model.Model.LOCN:Adresvoorstelling:verwijstNaar": Model.Model.SupportPackage:Adres, Model.Model.OSLO-Address:Adres.
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Annotatie:rotatiehoek".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Annotatie:rotatiehoek".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Annotatie:rotatiehoek".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte:hoogte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte:hoogte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte:hoogte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte:diepte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte:diepte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte:diepte".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid:eenheidsidentificator".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid:eenheidsidentificator".
-16:38:39 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid:eenheidsidentificator".
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: mantel - {6CB42A24-017B-46b9-AC2C-EFD678BBEF66}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: goot - {1085B707-585D-4538-8EA6-EBD66F6CD423}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: bovengrondsZichtbaar - {7301AB17-C022-4058-905C-6EEEBA6C5F01}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: nietBovengrondsZichtbaar - {8626722C-8714-41e6-868C-18E40D486A9A}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: risico - {87786D04-7CC3-436c-80FE-00D743C0F7F6}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: geenRisico - {966C944B-05D4-4ecf-8686-1B5E93051E9C}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: maaiveld - {3B771EF0-D576-46f0-914F-1C57DE0C70D7}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: watergewin - {1CA0171A-5AFD-4f96-9E42-03A0AFC4294A}
-16:38:39 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: gasopslag - {9FE5C9E1-3BC5-4364-8303-DA3C7FEDA4D5}
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-DQ".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.OSLO-Netwerk".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.FOAF".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.DCTERMS".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.LOCN".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ADMS".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-CSL".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.SupportPackage".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.OSLO-Address".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.PROV".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.OSLO-Generiek".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-SS".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldLeiding".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Schema.org".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Model.DCTERMS, Model.Model.LOCN, Model.Model.ADMS, Model.Model.OSLO-Netwerk, Model.Model.ISO-DQ, Model.Model.Objectdiagrammen, Model.Model.ISO-SS, Model.Model, Model.Model.ISO-CSL, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding, Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte, Model.Model.SupportPackage, Model.Model.Schema.org, Model.Model.FOAF, Model.Model.OSLO-Generiek, Model.Model.OSLO-Address, Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte, Model.Model.PROV, Model
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Linksequentie): Model.Model.OSLO-Netwerk:Linksequentie, Model.Model.SupportPackage:Linksequentie
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Model.IMKL-LD:Kleur, Model.Model.IMKL-LD:Risicotype, Model.Model.IMKL-LD:Waarschuwingstype, Model.Model.IMKL-LD:Nutsvoorzieningleveringstype, Model.Model.IMKL-LD:Zichtbaarheidstype, Model.Model.IMKL-LD:BeschermdGebiedtype, Model.Model.IMKL-LD:Watertype, Model.Model.IMKL-LD:Documentmediumtype, Model.Model.IMKL-LD:Toebehorentype, Model.Model.IMKL-LD:Containertype, Model.Model.IMKL-LD:Faciliteitstatus, Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:Documenttype, Model.Model.OSLO-Netwerk:Teken, Model.Model.IMKL-LD:Materiaaltype, Model.Model.IMKL-LD:Subthema, Model.Model.IMKL-LD:ThermischProducttype, Model.Model.IMKL-LD:VerticalePositietype, Model.Model.IMKL-LD:Referentieoppervlaktype, Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype, Model.Model.IMKL-LD:Opmetingsmethode, Model.Model.IMKL-LD:Rioolwatertype, Model.Model.IMKL-LD:TopografischElementtype, Model.Model.IMKL-LD:EconomischeActiviteittype, Model.Model.IMKL-LD:Annotatietype, Model.Model.IMKL-LD:OlieGasChemicalientype, Model.Model.IMKL-LD:Inputoutputtype
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Netwerk): Model.Model.OSLO-Netwerk:Netwerk, Model.Model.SupportPackage:Netwerk
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#GeneriekeLink): Model.Model.SupportPackage:GeneriekeLink, Model.Model.OSLO-Netwerk:GeneriekeLink
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer): Model.Model.IMKL-LD:KabelEnLeidingContainer, Model.Model.SupportPackage:KabelEnLeidingContainer
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DQ_QuantitativeResult): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Link): Model.Model.SupportPackage:Link, Model.Model.OSLO-Netwerk:Link
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Unit): Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:Unit, Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:Unit
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Knoop): Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (https://data.vlaanderen.be/ns/netwerk#Linkset): Model.Model.SupportPackage:LinkSet, Model.Model.OSLO-Netwerk:LinkSet
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.Model.IMKL-LD:BeschermdGebied:geometrie, Model.Model.IMKL-LD:VerticalePositie:ligging, Model.Model.IMKL-LD:Plan:locatie, Model.Model.IMKL-LD:Annotatie:locatie, Model.Model.OSLO-Generiek:Activiteitencomplex:geometrie, Model.Model.IMKL-LD:TopografischElement:locatie, Model.Model.IMKL-LD:Referentieoppervlak:ligging
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asWKT): Model.Model.ISO-SS:DirectePositie:wkt, Model.Model.LOCN:Geometrie:alsWKT
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.Model.IMKL-LD:Pijp:containertype, Model.Model.IMKL-LD:Kanaal:containertype
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/nutsvoorzieningen#tekst): Model.Model.IMKL-LD:Symbol:tekst, Model.Model.IMKL-LD:Annotatie:tekst
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie): Model.Model.IMKL-LD:Nutsvoorzieningknoop:^geometrie, Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:^geometrie
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/relation): Model.Model.FOAF:Document:verwijstNaar, Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:documentatie, Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:documentatie
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/height): Model.Model.IMKL-LD:Hoogte:hoogte, Model.Model.IMKL-LD:Toebehoren:hoogte
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/description): Model.Model.IMKL-LD:BeschermdGebied:beschrijving, Model.Model.FOAF:Document:beschrijving, Model.Model.OSLO-Generiek:Functie:beschrijving
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/type): Model.Model.IMKL-LD:Annotatie:annotatietype, Model.Model.IMKL-LD:TopografischElement:topografischElementtype, Model.Model.FOAF:Document:documentType, Model.Model.IMKL-LD:Toebehoren:toebehorentype, Model.Model.IMKL-LD:Referentieoppervlak:type, Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:BeschermdGebied:type
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#valueUnit): Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:valueUnit, Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:valueUnit
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asGML): Model.Model.LOCN:Geometrie:alsGML, Model.Model.ISO-SS:DirectePositie:gml
+09:27:37 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:value, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:value
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerkelement" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoop" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Knoop".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinkset" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:LinkSet".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Pijp" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:KabelEnLeidingContainer".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kabel" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kanaal" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:KabelEnLeidingContainer".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Containertype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Zichtbaarheidstype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglink" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Link".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinksequentie" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Linksequentie".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Risicotype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Uiterlijk" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Kleur".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kleur" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PositioneleNauwkeurigheid" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:Kwaliteitselement".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:PositioneleNauwkeurigheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:PositioneleNauwkeurigheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-DQ:PositioneleNauwkeurigheid".
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Materiaaltype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Materiaaltype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Subthema".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Subthema" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Document" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositie" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerk" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Netwerk".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoopcontainer" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Electriciteitskabel" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabel" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalienPijp" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolpijp" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waterleiding" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischePijp" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Curve" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehoren" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toren" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Paal" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Mangat" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kast" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerktype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Faciliteitstatus".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Faciliteitstatus" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Activiteitencomplex" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Functie" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:VerticalePositietype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositietype" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geometrie" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Identificator" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningleveringstype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningleveringstype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Waarschuwingstype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waarschuwingstype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maat" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengte" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabelmateriaaltype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:OlieGasChemicalientype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalientype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Rioolwatertype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolwatertype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Watertype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Watertype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:ThermischProducttype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischProducttype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GerichteLink" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.OSLO-Netwerk:Teken".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Teken" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Teken".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Teken".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Teken".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Punt" .
+09:27:37 WARN  c.g.i.o.c.Converter - Element KabelEnLeidingContainer has same prefix as package: simplify by removing the extra tag uri
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "KabelEnLeidingContainer" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:KabelEnLeidingContainer".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:KabelEnLeidingContainer".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:KabelEnLeidingContainer".
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Toebehorentype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehorentype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:EconomischeActiviteittype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EconomischeActiviteittype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Inputoutputtype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inputoutputtype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Aansluiting" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adres" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatie" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maataanduiding" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Maataanduiding".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Maataanduiding".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Maataanduiding".
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Annotatietype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatietype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElement" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:TopografischElementtype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElementtype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documentmediumtype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documentmediumtype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documenttype".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documenttype" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DirectePositie" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmeting" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlak" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlaktype" .
+09:27:37 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Opmetingsmethode".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmetingsmethode" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Hoogte" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Diepte" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Getal" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.Schema.org:Getal".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.Schema.org:Getal".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.Schema.org:Getal".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Meeteenheid" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengteeenheid" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plan" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebied" .
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebiedtype" .
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class BeschermdGebiedtype without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Netwerk" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Netwerk".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Netwerk".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Netwerk".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Netwerk without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "LinkSet" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:LinkSet".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:LinkSet".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:LinkSet".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class LinkSet without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Link" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Link".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Link".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Link".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Link without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Linksequentie" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Linksequentie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Linksequentie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Linksequentie".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Linksequentie without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Knoop" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Knoop".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Knoop".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:Knoop".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Knoop without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatie" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Locatie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Locatie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Locatie".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Locatie without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Object" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Object".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Object".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.PROV:Object".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Object without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeneriekeLink" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.SupportPackage:GeneriekeLink".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class GeneriekeLink without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.DCTERMS:Agent".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.DCTERMS:Agent".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.DCTERMS:Agent".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler -  Class Agent without label, further processing this class will be incoherent
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kanaal" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" does not have a name, it will be ignored.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#knoop" does not start with a lowercase "UtilityNodeContainer|r=node|'UtilityNode".
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" does not have a name, it will be ignored.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:kabel" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:kabel".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:kabel".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:kabel".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.kabel" does not start with a lowercase "Pipe|r=cables|'Cable".
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:netwerk" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#netwerk" does not start with a lowercase "UtilityNetwork|r=network|'UtilityNetwork".
+09:27:37 WARN  c.g.i.o.c.Converter - Package for connector Model.Model.OSLO-Generiek:Activiteitencomplex:op is unknown
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" does not have a name, it will be ignored.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kabel" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - The label of property "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel" does not start with a lowercase "Duct|r=cables|'Cable".
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:deel" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:pijp" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:pijp".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:pijp".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Pijp:pijp".
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" does not have a name, it will be ignored.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:geheel" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" does not have a name, it will be ignored.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:pijp" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie".
+09:27:37 ERROR c.g.i.o.c.JSONLDOutputHandler -  Property activiteitencomplexreferentie without name, further processing this property will be incoherent
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:inNetwerk" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:element" belongs to package "IMKL-LD" based on source and target definition.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
+09:27:37 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:overheidsdienstreferentie" since it is marked as ignored.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositie".
+09:27:37 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:inNetwerk" since it is marked as ignored.
+09:27:37 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^beginlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
+09:27:37 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^eindlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:technischeSpecificate".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:technischeSpecificate".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:technischeSpecificate".
+09:27:37 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:inNetwerk" since it is marked as ignored.
+09:27:37 WARN  c.g.i.o.c.Converter - Ambiguous data type "GeneriekeLink" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:^link": Model.Model.OSLO-Netwerk:GeneriekeLink, Model.Model.SupportPackage:GeneriekeLink.
+09:27:37 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:inNetwerk" since it is marked as ignored.
+09:27:37 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^eindknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
+09:27:37 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^startknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
+09:27:37 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinksequentie:inNetwerk" since it is marked as ignored.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:referentieOppervlak".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:referentieOppervlak".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:referentieOppervlak".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:verticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:verticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:verticalePositie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:afstand".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:afstand".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositie:afstand".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:^geografischeNaam".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:^geografischeNaam".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:^geografischeNaam".
+09:27:37 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:activiteitencomplexreferentie" since it is marked as ignored.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:standaardVerticalePositiedetail".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:standaardVerticalePositiedetail".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:standaardVerticalePositiedetail".
+09:27:37 WARN  c.g.i.o.c.Converter - Element functie has same prefix as package: simplify by removing the extra tag uri
+09:27:37 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
+09:27:37 WARN  c.g.i.o.c.Converter - Element documentatie has same prefix as package: simplify by removing the extra tag uri
+09:27:37 INFO  c.g.i.o.c.Converter - Skipping attribute "Model.Model.OSLO-Generiek:Activiteitencomplex:inNetwerk" since it is marked as ignored.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:waarde".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:waarde".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:waarde".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:eenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:eenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Maat:eenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengte:eenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengte:eenheid".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengte:eenheid".
+09:27:37 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.OSLO-Netwerk:GerichteLink:link": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
+09:27:37 WARN  c.g.i.o.c.Converter - Ambiguous data type "Adres" for attribute "Model.Model.LOCN:Adresvoorstelling:verwijstNaar": Model.Model.SupportPackage:Adres, Model.Model.OSLO-Address:Adres.
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Annotatie:rotatiehoek".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Annotatie:rotatiehoek".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Annotatie:rotatiehoek".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte:hoogte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte:hoogte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Hoogte:hoogte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte:diepte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte:diepte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Diepte:diepte".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid:eenheidsidentificator".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid:eenheidsidentificator".
+09:27:37 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid:eenheidsidentificator".
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: mantel - {6CB42A24-017B-46b9-AC2C-EFD678BBEF66}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: goot - {1085B707-585D-4538-8EA6-EBD66F6CD423}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: bovengrondsZichtbaar - {7301AB17-C022-4058-905C-6EEEBA6C5F01}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: nietBovengrondsZichtbaar - {8626722C-8714-41e6-868C-18E40D486A9A}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: risico - {87786D04-7CC3-436c-80FE-00D743C0F7F6}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: geenRisico - {966C944B-05D4-4ecf-8686-1B5E93051E9C}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: maaiveld - {3B771EF0-D576-46f0-914F-1C57DE0C70D7}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: watergewin - {1CA0171A-5AFD-4f96-9E42-03A0AFC4294A}
+09:27:37 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: gasopslag - {9FE5C9E1-3BC5-4364-8303-DA3C7FEDA4D5}
