@@ -8845,10 +8845,19 @@
         {
             "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
+            "name": "activitycomplexreference",
             "inpackage": "ACTIVE_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "Activity complex belonging to the network."
+            },
+            "ap-label-en": {
+                "en": "activitycomplexreference"
+            },
+            "definition": {
+                "en": "Activity complex belonging to the network."
+            },
+            "label": {
+                "en": "activitycomplexreference"
             },
             "extra": {
                 "EA-Name": "activiteitencomplexreferentie",
@@ -8867,12 +8876,18 @@
                 },
                 "sourceRole": "null",
                 "destRole": "activiteitencomplexreferentie",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "activitycomplexreference"
+                },
+                "definition": {
+                    "en": "Activity complex belonging to the network."
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "activitycomplexreference"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "Activity complex belonging to the network."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -8896,6 +8911,16 @@
                         "key": "definition-nl",
                         "value": "NOTE",
                         "note": "Activiteitencomplex dat tot het netwerk behoort."
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "activitycomplexreference"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "Activity complex belonging to the network."
                     },
                     {
                         "key": "label-nl",
@@ -8923,6 +8948,16 @@
                         "key": "definition-nl",
                         "value": "NOTE",
                         "note": "Activiteitencomplex dat tot het netwerk behoort."
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "NOTE",
+                        "note": "activitycomplexreference"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "NOTE",
+                        "note": "Activity complex belonging to the network."
                     },
                     {
                         "key": "label-nl",
@@ -26464,12 +26499,12 @@
     "config": "config/config-ap.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "004",
+    "dummy": "005",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "8f96fffb90cb597573754322ee890ae6786d5d7d",
-    "toolchaincommit": "00621e51517ffe3dc1f063cd3a9ebdaf6cb2e779",
+    "documentcommit": "9f7bb2a515f682376f2800e7d7b29363c9e53457",
+    "toolchaincommit": "054ed4d63099f437cade443349e39afc03a63c26",
     "hostname": "https://belgif.github.io/"
 }

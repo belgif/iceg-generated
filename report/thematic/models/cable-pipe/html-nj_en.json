@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/8f96fffb90cb597573754322ee890ae6786d5d7d",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/8f96fffb90cb597573754322ee890ae6786d5d7d/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/9f7bb2a515f682376f2800e7d7b29363c9e53457",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/9f7bb2a515f682376f2800e7d7b29363c9e53457/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -3048,10 +3048,14 @@
         },
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "activitycomplexreference",
+          "sort": "activitycomplexreference",
+          "label": {
+            "en": "activitycomplexreference"
+          },
+          "description": {
+            "en": "Activity complex belonging to the network."
+          },
           "usage": {},
           "domain": [
             {
@@ -3081,6 +3085,8 @@
             "package": "IMKL-LD",
             "ap-definition-nl": "Activiteitencomplex dat tot het netwerk behoort.",
             "definition-nl": "Activiteitencomplex dat tot het netwerk behoort.",
+            "label-en": "activitycomplexreference",
+            "definition-en": "Activity complex belonging to the network.",
             "label-nl": "activiteitencomplexreferentie"
           }
         },
@@ -6595,7 +6601,8 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
       "name": {
-        "undefined": ""
+        "en": "activitycomplexreference",
+        "undefined": "activitycomplexreference"
       },
       "description": {},
       "domain": [

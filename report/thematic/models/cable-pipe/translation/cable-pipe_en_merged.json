@@ -4019,8 +4019,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "8f96fffb90cb597573754322ee890ae6786d5d7d",
-  "dummy": "004",
+  "documentcommit": "9f7bb2a515f682376f2800e7d7b29363c9e53457",
+  "dummy": "005",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -22992,9 +22992,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Activity complex belonging to the network."
+      },
+      "ap-label-en": {
+        "en": "activitycomplexreference"
       },
       "codelist": [],
+      "definition": {
+        "en": "Activity complex belonging to the network."
+      },
       "domain": [
         {
           "EA-Name": "Nutsvoorzieningnetwerk",
@@ -23021,6 +23027,16 @@
           {
             "key": "definition-nl",
             "note": "Activiteitencomplex dat tot het netwerk behoort.",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "activitycomplexreference",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Activity complex belonging to the network.",
             "value": "NOTE"
           },
           {
@@ -23064,6 +23080,16 @@
             "value": "NOTE"
           },
           {
+            "key": "label-en",
+            "note": "activitycomplexreference",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Activity complex belonging to the network.",
+            "value": "NOTE"
+          },
+          {
             "key": "label-nl",
             "note": "activiteitencomplexreferentie",
             "value": "NOTE"
@@ -23072,22 +23098,31 @@
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Activity complex belonging to the network."
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "activitycomplexreference"
+        },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Activity complex belonging to the network."
+        },
         "derived": "false",
         "destRole": "activiteitencomplexreferentie",
-        "label": "",
+        "label": {
+          "en": "activitycomplexreference"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "activitycomplexreference"
+      },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "",
+      "name": "activitycomplexreference",
       "range": [
         {
           "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
@@ -26679,7 +26714,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "00621e51517ffe3dc1f063cd3a9ebdaf6cb2e779",
+  "toolchaincommit": "054ed4d63099f437cade443349e39afc03a63c26",
   "translation": [
     {
       "language": "en",
