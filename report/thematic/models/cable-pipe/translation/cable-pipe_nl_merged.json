@@ -3504,7 +3504,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "verticalPosition",
-        "nl": "[UPDATED] VerticalePositie"
+        "nl": "[UPDATED] Verticale Positie"
       },
       "name": "Verticalposition",
       "parents": []
@@ -4090,8 +4090,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "ee9b06e1e762a18d6cbef70af72eaec556ec0a4b",
-  "dummy": "001",
+  "documentcommit": "59cf08c0fb001dd44eb1fef8f9fcd6a240726370",
+  "dummy": "002",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -7604,7 +7604,7 @@
       "codelist": [],
       "definition": {
         "en": "Shape and position features of an object,",
-        "nl": "[UPDATED] Locatie waarvoor de VerticalePositie geldt."
+        "nl": "[UPDATED] Locatie waarvoor de Verticale Positie geldt."
       },
       "domain": [
         {
@@ -7723,7 +7723,7 @@
       ],
       "usage": {
         "en": "Describes these features using points, lines, polygons and coordinates.",
-        "nl": "[UPDATED] Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de VerticalePositie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt."
+        "nl": "[UPDATED] Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de Verticale Positie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt."
       }
     },
     {
@@ -8132,7 +8132,7 @@
       ],
       "usage": {
         "en": "Describes these features using points, lines, polygons and coordinates.",
-        "nl": "[UPDATED] Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de VerticalePositie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak."
+        "nl": "[UPDATED] Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de Verticale Positie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak."
       }
     },
     {
@@ -15124,7 +15124,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "VerticalPositionValue",
-        "nl": "[UPDATED] Verticale Positietype"
+        "nl": "[UPDATED] Verticale Positie Type"
       },
       "name": "Verticalpositionvalue"
     },
@@ -20808,7 +20808,7 @@
       "codelist": [],
       "definition": {
         "en": "The correctness of the Measurement",
-        "nl": "[UPDATED] De PositioneleNauwkeurigheid van de Opmeting."
+        "nl": "[UPDATED] De Positionele Nauwkeurigheid van de Opmeting."
       },
       "domain": [
         {
@@ -23398,6 +23398,134 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{672ABBB0-EA81-4967-ADF7-DBC7785AF25C}",
+      "ap-definition-en": {
+        "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+      },
+      "ap-label-en": {
+        "en": "utilityFacilityReference"
+      },
+      "ap-usageNote-en": {
+        "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network.",
+        "nl": "Enter your translation here"
+      },
+      "domain": [
+        {
+          "EA-Name": "Nutsvoorzieningnetwerk",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Nutsvoorzieningnetwerk",
+        "EA-Domain-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
+        "EA-Guid": "{672ABBB0-EA81-4967-ADF7-DBC7785AF25C}",
+        "EA-Name": "activiteitencomplexreferentie",
+        "EA-Package": "IMKL-LD",
+        "EA-Range": "Activiteitencomplex",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
+          "EA-Name": "Activiteitencomplex",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "utilityFacilityReference"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "null",
+            "value": "utilityFacilityReference"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "activiteitencomplexreferentie"
+          },
+          {
+            "key": "ap-label-nl",
+            "note": "null",
+            "value": "activiteitencomplexreferentie"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk."
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "null",
+            "value": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+        },
+        "ap-label-en": {
+          "en": "utilityFacilityReference"
+        },
+        "ap-usageNote-en": {
+          "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+        },
+        "definition": {
+          "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+        },
+        "label": {
+          "en": "utilityFacilityReference"
+        },
+        "usage": {
+          "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+        }
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "utilityFacilityReference",
+        "nl": "Enter your translation here"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "utilityfacilityreference",
+      "range": [
+        {
+          "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
+          "EA-Name": "Activiteitencomplex",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+        }
+      ],
+      "usage": {
+        "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "ap-definition-en": {
         "en": "TODO"
@@ -23808,7 +23936,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "verticalPosition",
-        "nl": "[UPDATED] verticalePositie"
+        "nl": "[UPDATED] verticale positie"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -23835,7 +23963,7 @@
       "codelist": [],
       "definition": {
         "en": "Vertical measure upwards from the ground surface of the reference surface.",
-        "nl": "[UPDATED] De VerticalePositie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
+        "nl": "[UPDATED] De Verticale Positie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
       },
       "domain": [
         {
@@ -23935,7 +24063,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "verticalPosition",
-        "nl": "[UPDATED] verticalePositie"
+        "nl": "[UPDATED] verticale positie"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24679,7 +24807,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "verticalPosition",
-        "nl": "[UPDATED] verticalePositie"
+        "nl": "[UPDATED] verticale positie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -27138,7 +27266,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_nl.j2",
   "title": "Kabels en Leidingen",
-  "toolchaincommit": "3c1fadf518f966950722bf1bf26b8c82e43c8030",
+  "toolchaincommit": "8b222137152d6ebfb71859373033a025de2f4131",
   "translation": [
     {
       "language": "en",

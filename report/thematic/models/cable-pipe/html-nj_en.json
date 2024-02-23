@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/ee9b06e1e762a18d6cbef70af72eaec556ec0a4b",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/ee9b06e1e762a18d6cbef70af72eaec556ec0a4b/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/59cf08c0fb001dd44eb1fef8f9fcd6a240726370",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/59cf08c0fb001dd44eb1fef8f9fcd6a240726370/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -3044,6 +3044,54 @@
             "definition-nl": "Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is.",
             "ap-definition-en": "Parties authorized to manage a utility network, such as maintainers, operators or owners.",
             "definition-en": "Parties authorized to manage a utility network, such as maintainers, operators or owners."
+          }
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
+          "name": "utilityfacilityreference",
+          "sort": "utilityFacilityReference",
+          "label": {
+            "en": "utilityFacilityReference"
+          },
+          "description": {
+            "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+          },
+          "usage": {
+            "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+          },
+          "domain": [
+            {
+              "EA-Name": "Nutsvoorzieningnetwerk",
+              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Activiteitencomplex",
+              "range_uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#[UPDATED] ActivityComplex",
+              "range_puri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
+              "range_label": {
+                "en": "[UPDATED] ActivityComplex"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "utilityFacilityReference",
+            "ap-label-en": "utilityFacilityReference",
+            "label-nl": "activiteitencomplexreferentie",
+            "ap-label-nl": "activiteitencomplexreferentie",
+            "ap-definition-nl": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk.",
+            "definition-nl": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk.",
+            "ap-definition-en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network.",
+            "ap-usageNote-en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network.",
+            "definition-en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
           }
         },
         {
@@ -6582,6 +6630,21 @@
       "name": {
         "en": "adres",
         "undefined": "adres"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
+      "name": {
+        "en": "utilityFacilityReference",
+        "undefined": "utilityfacilityreference"
       },
       "description": {},
       "domain": [

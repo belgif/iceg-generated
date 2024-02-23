@@ -4019,8 +4019,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "ee9b06e1e762a18d6cbef70af72eaec556ec0a4b",
-  "dummy": "001",
+  "documentcommit": "59cf08c0fb001dd44eb1fef8f9fcd6a240726370",
+  "dummy": "002",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -22990,6 +22990,131 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{672ABBB0-EA81-4967-ADF7-DBC7785AF25C}",
+      "ap-definition-en": {
+        "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+      },
+      "ap-label-en": {
+        "en": "utilityFacilityReference"
+      },
+      "ap-usageNote-en": {
+        "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+      },
+      "domain": [
+        {
+          "EA-Name": "Nutsvoorzieningnetwerk",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Nutsvoorzieningnetwerk",
+        "EA-Domain-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
+        "EA-Guid": "{672ABBB0-EA81-4967-ADF7-DBC7785AF25C}",
+        "EA-Name": "activiteitencomplexreferentie",
+        "EA-Package": "IMKL-LD",
+        "EA-Range": "Activiteitencomplex",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
+          "EA-Name": "Activiteitencomplex",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "utilityFacilityReference"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "null",
+            "value": "utilityFacilityReference"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "activiteitencomplexreferentie"
+          },
+          {
+            "key": "ap-label-nl",
+            "note": "null",
+            "value": "activiteitencomplexreferentie"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk."
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "null",
+            "value": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+        },
+        "ap-label-en": {
+          "en": "utilityFacilityReference"
+        },
+        "ap-usageNote-en": {
+          "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+        },
+        "definition": {
+          "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
+        },
+        "label": {
+          "en": "utilityFacilityReference"
+        },
+        "usage": {
+          "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+        }
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "utilityFacilityReference"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "utilityfacilityreference",
+      "range": [
+        {
+          "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
+          "EA-Name": "Activiteitencomplex",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+        }
+      ],
+      "usage": {
+        "en": "This reference can be used to link utility facilities - having a more complex geometry - to a utility network."
+      }
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "ap-definition-en": {
         "en": "TODO"
@@ -26679,7 +26804,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "3c1fadf518f966950722bf1bf26b8c82e43c8030",
+  "toolchaincommit": "8b222137152d6ebfb71859373033a025de2f4131",
   "translation": [
     {
       "language": "en",
