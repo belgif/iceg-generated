@@ -1,0 +1,2787 @@
+{
+  "baseURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen#",
+  "classes": [
+    {
+      "name": "Connection",
+      "EA-Guid": "{9CDB7CF9-D28B-4f65-806C-7091ADF65E98}",
+      "definition": {
+        "en": "Object describing the connection of a cable or pipe to a building or other physical object.",
+        "nl": "[UPDATED] Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft"
+      },
+      "label": {
+        "en": "Connection",
+        "nl": "[UPDATED] Aansluiting"
+      }
+    },
+    {
+      "name": "Annotation",
+      "EA-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
+      "definition": {
+        "en": "A short explanation or note added to a text or image, or the act of adding short explanations or notes.",
+        "nl": "[UPDATED] Een korte uitleg of notitie toegevoegd aan een Object."
+      },
+      "label": {
+        "en": "Annotation",
+        "nl": "[UPDATED] Annotatie"
+      },
+      "usage": {
+        "en": "Arrows, lines and labels that are annotated on a map image and are not used as dimensions are included with the Annotation object",
+        "nl": "[UPDATED] In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bvb de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bvb maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn."
+      }
+    },
+    {
+      "name": "Protectedarea",
+      "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
+      "definition": {
+        "en": "Object designating an area or zone where no digging is allowed.",
+        "nl": "[UPDATED] Gebied waar niet gegraven mag worden."
+      },
+      "label": {
+        "en": "ProtectedArea",
+        "nl": "[UPDATED] Beschermd Gebied"
+      }
+    },
+    {
+      "name": "Depth",
+      "EA-Guid": "{1BD92463-822E-49e6-B186-9E2997C706D4}",
+      "label": {
+        "en": "Depth",
+        "nl": "[UPDATED] Diepte"
+      }
+    },
+    {
+      "name": "Electricitycable",
+      "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
+      "definition": {
+        "en": "A utility link or link sequence used to convey electricity from one location to another.",
+        "nl": "[UPDATED] Een Kabel gebruikt om elektriciteit van de ene naar de andere locatie te transporteren."
+      },
+      "label": {
+        "en": "ElectricityCable",
+        "nl": "[UPDATED] Electriciteitskabel"
+      }
+    },
+    {
+      "name": "Height",
+      "EA-Guid": "{2E4FF2C4-A20C-455b-ABD5-8837E052C157}",
+      "label": {
+        "en": "Height",
+        "nl": "[UPDATED] Hoogte"
+      }
+    },
+    {
+      "name": "Cable",
+      "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
+      "definition": {
+        "en": "A utility link or link sequence used to convey electricity or data from one location to another.",
+        "nl": "[UPDATED] Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen."
+      },
+      "label": {
+        "en": "Cable",
+        "nl": "[UPDATED] Kabel"
+      }
+    },
+    {
+      "name": "Cableandpipecontainer",
+      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
+      "label": {
+        "en": "CableAndPipeContainer",
+        "nl": "[UPDATED] KabelEnLeidingContainer"
+      }
+    },
+    {
+      "name": "Duct",
+      "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
+      "definition": {
+        "en": "A utility link or link sequence used to protect and guide cable and pipes via an encasing construction.",
+        "nl": "[UPDATED] Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie."
+      },
+      "label": {
+        "en": "Duct",
+        "nl": "[UPDATED] Kanaal"
+      },
+      "usage": {
+        "en": "A Duct (or Conduit, or Duct-bank, or Wireway) is a linear object which belongs to the structural network. It is the outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s).",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "Cabinet",
+      "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
+      "definition": {
+        "en": "Simple cabinet object which may carry utility objects belonging to either single or multiple utility networks.",
+        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast."
+      },
+      "label": {
+        "en": "Cabinet",
+        "nl": "[UPDATED] Kast"
+      },
+      "usage": {
+        "en": "Cabinets represent mountable node objects that can contain smaller utility devices and cables.",
+        "nl": "[UPDATED] Bevat typisch kleiner monteerbaar Toebehoren en Kabels."
+      }
+    },
+    {
+      "name": "Dimension",
+      "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
+      "label": {
+        "en": "Dimension",
+        "nl": "[UPDATED] Maataanduiding"
+      }
+    },
+    {
+      "name": "Manhole",
+      "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
+      "definition": {
+        "en": "Simple container object which may contain either single or multiple utility networks objects.\n",
+        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond."
+      },
+      "label": {
+        "en": "Manhole",
+        "nl": "[UPDATED] Mangat"
+      },
+      "usage": {
+        "en": "Manholes perform following functions:\nProvide drainage for the conduit system so that freezing water does not damage the conduit or wires.\nProvide a location for bending the conduit run without damaging the wires.\nProvide a junction for conduits coming from different directions.\nProvide access to the system for maintenance.",
+        "nl": "[UPDATED] Bvb riooldeksel."
+      }
+    },
+    {
+      "name": "Utilitynode",
+      "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
+      "definition": {
+        "en": "A spatial point object used for connectivity.",
+        "nl": "[UPDATED] Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "en": "UtilityNode",
+        "nl": "[UPDATED] Nutsvoorzieningknoop"
+      }
+    },
+    {
+      "name": "Utilitynodecontainer",
+      "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
+      "definition": {
+        "en": "A point spatial object which is used for connectivity, and also may contain other spatial objects (not neccessarily belonging to the same utility network).",
+        "nl": "[UPDATED] Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen."
+      },
+      "label": {
+        "en": "UtilityNodeContainer",
+        "nl": "[UPDATED] Nutsvoorzieningknoopcontainer"
+      },
+      "usage": {
+        "en": "Nodes are found at either end of the UtilityLink.\n",
+        "nl": "[UPDATED] Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk."
+      }
+    },
+    {
+      "name": "Utilitylink",
+      "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
+      "definition": {
+        "en": "A linear spatial object that describes the geometry and connectivity of a utility network between two points in the network.",
+        "nl": "[UPDATED] Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "en": "UtilityLink",
+        "nl": "[UPDATED] Nutsvoorzieninglink"
+      }
+    },
+    {
+      "name": "Utilitylinksequence",
+      "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
+      "definition": {
+        "en": "A linear spatial object, composed of an ordered collection of utility links, which represents a continuous path in the utility network without any branches. The element has a defined beginning and end and every position on the utility link sequence is identifiable with one single parameter.",
+        "nl": "[UPDATED] Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "en": "UtilityLinkSequence",
+        "nl": "[UPDATED] Nutsvoorzieninglinksequentie"
+      }
+    },
+    {
+      "name": "Utilitylinkset",
+      "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
+      "definition": {
+        "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes.",
+        "nl": "[UPDATED] Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "en": "UtilityLinkSet",
+        "nl": "[UPDATED] Nutsvoorzieninglinkset"
+      },
+      "usage": {
+        "en": "This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.\n",
+        "nl": "[UPDATED] In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc."
+      }
+    },
+    {
+      "name": "Utilitynetwork",
+      "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
+      "definition": {
+        "en": "Collection of network elements that belong to a single type of utility network.",
+        "nl": "[UPDATED] Verzameling van netwerkelementen van één type nutsvoorziening."
+      },
+      "label": {
+        "en": "UtilityNetwork",
+        "nl": "[UPDATED] Nutsvoorzieningnetwerk"
+      },
+      "usage": {
+        "en": "In the real world, objects are connected to each other: an optical cable is connected to a multiplexer that in turn is connected to copper cables connecting into our homes to provide cable TV, telephony and internet access. Using GIS to support network utility management typically involves many types of features that may have connectivity to each other. Topology in GIS is generally defined as the spatial relationship between connecting or adjacent features, and is an essential prerequisite for many spatial operations such as network analysis. Utility networks can be described as NaN (Node-Arc-Node) network using two basic geometric types: points (aka nodes) and polylines (aka arcs). NaN topologies can be directed or un-directed, depending on specific type of network (i.e. water networks are directed, while telecommunications networks are not). Such topology structure provides an automated way to handle digitising and editing errors, and enable advanced spatial analyses such as adjacency, connectivity and containment. Infrastructure networks rely on Generic network model developed during Annex I.\n",
+        "nl": "[UPDATED] Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat."
+      }
+    },
+    {
+      "name": "Utilitynetworkelement",
+      "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
+      "definition": {
+        "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.\n",
+        "nl": "[UPDATED] Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult."
+      },
+      "label": {
+        "en": "UtilityNetworkElement",
+        "nl": "[UPDATED] Nustvoorzieningnetwerkelement"
+      },
+      "usage": {
+        "en": "NOTE Derived 'views' of real-world utility objects are represented through specialisations in other application schemas; all representations of the same real-world object share a common geographic name.\n",
+        "nl": "[UPDATED] OPMERKING: is abstract, moet gespecialiseerd worden (bvb als Electriciteitskabel, Riooolpijp, Mangat, Kast etc)."
+      }
+    },
+    {
+      "name": "Oilgaschemicalpipe",
+      "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
+      "definition": {
+        "en": "A pipe used to transport oil, gas or chemicals from one location to another.",
+        "nl": "[UPDATED] Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "en": "OilGasChemicalPipe",
+        "nl": "[UPDATED] OlieGasChemicaliënPijp"
+      }
+    },
+    {
+      "name": "Pole",
+      "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
+      "definition": {
+        "en": "Simple pole (mast) object which may carry utility objects belonging to either single or multiple utility networks.\n",
+        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast."
+      },
+      "label": {
+        "en": "Pole",
+        "nl": "[UPDATED] Paal"
+      },
+      "usage": {
+        "en": "Poles represent node objects that can support utility devices and cables.",
+        "nl": "[UPDATED] Typisch drager van monteerbaar Toebehoren en Kabels."
+      }
+    },
+    {
+      "name": "Pipe",
+      "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
+      "definition": {
+        "en": "A utility link or link sequence for the conveyance of solids, liquids, chemicals or gases from one location to another.\n",
+        "nl": "[UPDATED] Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere."
+      },
+      "label": {
+        "en": "Pipe",
+        "nl": "[UPDATED] Pijp"
+      }
+    },
+    {
+      "name": "Plan",
+      "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
+      "definition": {
+        "en": "Object that displays additional information about one or more utility network elements via additional files.",
+        "nl": "[UPDATED] Tekening met de onderdelen of details van iets."
+      },
+      "label": {
+        "en": "Plan",
+        "nl": "[UPDATED] Plan"
+      }
+    },
+    {
+      "name": "Referencesurface",
+      "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
+      "definition": {
+        "en": "The ground surface,whose height is often specified relative to a national zero level.",
+        "nl": "[UPDATED] Oppervlak tov waarvan een positie wordt gemeten."
+      },
+      "label": {
+        "en": "ReferenceSurface",
+        "nl": "[UPDATED] Referentieoppervlak"
+      }
+    },
+    {
+      "name": "Sewerpipe",
+      "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
+      "definition": {
+        "en": "A sewer pipe used to convey wastewater (sewer) from one location to another.",
+        "nl": "[UPDATED] Een buis die wordt gebruikt om afvalwater van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "en": "SewerPipe",
+        "nl": "[UPDATED] Rioolpijp"
+      }
+    },
+    {
+      "name": "Telecommunicationscable",
+      "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
+      "definition": {
+        "en": "A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another.",
+        "nl": "[UPDATED] Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "en": "TelecommunicationsCable",
+        "nl": "[UPDATED] Telecommunicatiekabel"
+      }
+    },
+    {
+      "name": "Thermalpipe",
+      "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
+      "definition": {
+        "en": "A pipe used to disseminate heating or cooling from one location to another.\n",
+        "nl": "[UPDATED] Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "en": "ThermalPipe",
+        "nl": "[UPDATED] ThermischePijp"
+      }
+    },
+    {
+      "name": "Appurtenance",
+      "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
+      "definition": {
+        "en": "An appurtenance is a node object that is described by its type (via the attribute \"appurtenanceType\")",
+        "nl": "[UPDATED] Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "en": "Appurtenance",
+        "nl": "[UPDATED] Toebehoren"
+      }
+    },
+    {
+      "name": "Topographicalelement",
+      "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
+      "definition": {
+        "en": "Object that can provide additional topographical information about part or all of a utility network.",
+        "nl": "[UPDATED] Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak."
+      },
+      "label": {
+        "en": "TopographicalElement",
+        "nl": "[UPDATED] Topografisch Element"
+      }
+    },
+    {
+      "name": "Tower",
+      "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
+      "definition": {
+        "en": "Simple tower object which may carry utility objects belonging to either single or multiple utility networks.",
+        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een Toren."
+      },
+      "label": {
+        "en": "Tower",
+        "nl": "[UPDATED] Toren"
+      },
+      "usage": {
+        "en": "Towers represent node objects that support reservoirs, cables or antennas.",
+        "nl": "[UPDATED] Typisch drager van monteerbaar Toebehoren en Kabels."
+      }
+    },
+    {
+      "name": "Appearance",
+      "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
+      "definition": {
+        "en": "The way an item looks",
+        "nl": "[UPDATED] De manier waarop een object eruit ziet."
+      },
+      "label": {
+        "en": "Appearance",
+        "nl": "[UPDATED] Uiterlijk"
+      }
+    },
+    {
+      "name": "Verticalposition",
+      "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
+      "label": {
+        "en": "verticalPosition",
+        "nl": "[UPDATED] Verticale Positie"
+      }
+    },
+    {
+      "name": "Waterpipe",
+      "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
+      "definition": {
+        "en": "A water pipe used to convey water from one location to another.",
+        "nl": "[UPDATED] Een Pijp die wordt gebruikt om water van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "en": "WaterPipe",
+        "nl": "[UPDATED] Waterleiding"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "name": "operatingvoltage",
+      "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
+      "definition": {
+        "en": "The utilization or operating voltage by the equipment using the electricity.",
+        "nl": "[UPDATED] Spanning tijdens belasting."
+      },
+      "label": {
+        "en": "operatingVoltage",
+        "nl": "[UPDATED] werkspanning"
+      }
+    },
+    {
+      "name": "watertype",
+      "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
+      "definition": {
+        "en": "Type of water",
+        "nl": "[UPDATED] Type van het water."
+      },
+      "label": {
+        "en": "waterType",
+        "nl": "[UPDATED] watertype"
+      }
+    },
+    {
+      "name": "warningtype",
+      "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
+      "definition": {
+        "en": "Kind of overground visible warning mechanism used to indicate an underground utility network element.",
+        "nl": "[UPDATED] Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
+      },
+      "label": {
+        "en": "warningType",
+        "nl": "[UPDATED] waarschuwingstype"
+      }
+    },
+    {
+      "name": "verticalpositiondetail",
+      "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
+      "label": {
+        "en": "verticalPositiondetail",
+        "nl": "[UPDATED] verticale positiedetail"
+      }
+    },
+    {
+      "name": "towerheight",
+      "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
+      "definition": {
+        "en": "Total heigt of the tower.",
+        "nl": "[UPDATED] Hoogte van de Toren."
+      },
+      "label": {
+        "en": "towerHeight",
+        "nl": "[UPDATED] torenhoogte"
+      }
+    },
+    {
+      "name": "thermalproducttype",
+      "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
+      "definition": {
+        "en": "The type of thermal product that is conveyed through the thermal pipe.",
+        "nl": "[UPDATED] Het type thermisch product dat door de ThermischePijp wordt getransporteerd."
+      },
+      "label": {
+        "en": "thermalProductType",
+        "nl": "[UPDATED] thermischProducttype"
+      }
+    },
+    {
+      "name": "temperature",
+      "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
+      "definition": {
+        "en": "The maximum temperature of the content in the pipe.",
+        "nl": "[UPDATED] De maximum toelaatbare temperatuur van de inhoud van de Pijp."
+      },
+      "label": {
+        "en": "temperature",
+        "nl": "[UPDATED] temperatuur"
+      }
+    },
+    {
+      "name": "telecommunicationscablematerialtype",
+      "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
+      "definition": {
+        "en": "Type of cable material",
+        "nl": "[UPDATED] Type van kabelmateriaal."
+      },
+      "label": {
+        "en": "telecommunicationsCableMaterialType",
+        "nl": "[UPDATED] telecommunicatiekabelmateriaaltype"
+      }
+    },
+    {
+      "name": "text",
+      "EA-Guid": "{DF186437-0131-4785-8474-9974B20650FD}",
+      "definition": {
+        "en": "Actual information displayed.",
+        "nl": "[UPDATED] Tekst van de Annotatie."
+      },
+      "label": {
+        "en": "text",
+        "nl": "[UPDATED] tekst"
+      }
+    },
+    {
+      "name": "technicalspecification",
+      "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
+      "label": {
+        "en": "technicalSpecification",
+        "nl": "[UPDATED] technischeSpecificatie"
+      },
+      "usage": {
+        "en": "For example, 4g10 to specify 4-core cable with a 10mm diameter",
+        "nl": "[UPDATED] Bijvoorbeeld 4g10 om 4-aderige kabel van 10mm doorsnee te specifiëren."
+      }
+    },
+    {
+      "name": "standardverticalpositiondetail",
+      "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
+      "label": {
+        "en": "standardVerticalPositiondetail",
+        "nl": "[UPDATED] standaardVerticalePositiedetail"
+      }
+    },
+    {
+      "name": "rotationangle",
+      "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
+      "label": {
+        "en": "rotationAngle",
+        "nl": "[UPDATED] rotatiehoek"
+      }
+    },
+    {
+      "name": "sewerwatertype",
+      "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
+      "definition": {
+        "en": "Type of sewer water",
+        "nl": "[UPDATED] Type van rioolwater."
+      },
+      "label": {
+        "en": "sewerWaterType",
+        "nl": "[UPDATED] rioolwatertype"
+      }
+    },
+    {
+      "name": "referencesurface",
+      "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
+      "label": {
+        "en": "referenceSurface",
+        "nl": "[UPDATED] referentieoppervlak"
+      }
+    },
+    {
+      "name": "pipediameter",
+      "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
+      "definition": {
+        "en": "Pipe outer diameter",
+        "nl": "[UPDATED] Buitendiameter van de Pijp."
+      },
+      "label": {
+        "en": "pipeDiameter",
+        "nl": "[UPDATED] pijpdiameter"
+      },
+      "usage": {
+        "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
+        "nl": "[UPDATED] Voor convex gevormde objecten (bijvoorbeeld een cirkel) is de diameter gedefinieerd als de grootste afstand die gevormd kan worden tussen twee tegenover elkaar liggende parallelle lijnen die raken aan de rand."
+      }
+    },
+    {
+      "name": "poleheight",
+      "EA-Guid": "{AB08957F-2B69-41d5-9AA0-0236F59F1144}",
+      "definition": {
+        "en": "The height of the Pole",
+        "nl": "[UPDATED] Hoogte van de Paal."
+      },
+      "label": {
+        "en": "poleHeight",
+        "nl": "[UPDATED] paalhoogte"
+      }
+    },
+    {
+      "name": "oilgaschemicalproducttype",
+      "EA-Guid": "{3D899D97-F9FB-4713-AF79-B35E4B6E73FF}",
+      "definition": {
+        "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe.",
+        "nl": "[UPDATED] Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd."
+      },
+      "label": {
+        "en": "oilGasChemicalProductType",
+        "nl": "[UPDATED] olieGasChemicaliënProducttype"
+      }
+    },
+    {
+      "name": "utilitydeliverytype",
+      "EA-Guid": "{4E6C7DB7-08AF-4e6b-B569-1F5E04CE754F}",
+      "definition": {
+        "en": "Kind of utility network e.g. transport, distribution, collection",
+        "nl": "[UPDATED] Manier waarop de nutsvoorziening wordt geleverd."
+      },
+      "label": {
+        "en": "utilityDeliveryType",
+        "nl": "[UPDATED] nutsvoorzieningleveringstype"
+      }
+    },
+    {
+      "name": "nominalvoltage",
+      "EA-Guid": "{D80FB65E-9810-4c90-B645-6A15AA20DE7E}",
+      "definition": {
+        "en": "The nominal system voltage at the point of supply.",
+        "nl": "[UPDATED] Spanning zonder belasting."
+      },
+      "label": {
+        "en": "nominalVoltage",
+        "nl": "[UPDATED] nominale Spanning"
+      }
+    },
+    {
+      "name": "utilitynetwork|r=network|'utilitynetwork",
+      "EA-Guid": "{B9624384-8209-495b-BBB1-6A46F5ED0B94}",
+      "definition": {
+        "en": "A utility network may consist of several utility networks.",
+        "nl": "[UPDATED] Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd."
+      },
+      "label": {
+        "en": "UtilityNetwork|r=network|'UtilityNetwork",
+        "nl": "[UPDATED] netwerk"
+      }
+    },
+    {
+      "name": "accuracy",
+      "EA-Guid": "{669729F3-407B-4d0e-AFC8-F53D8EABC85D}",
+      "definition": {
+        "en": "The correctness of the Measurement",
+        "nl": "[UPDATED] De Positionele Nauwkeurigheid van de Opmeting."
+      },
+      "label": {
+        "en": "accuracy",
+        "nl": "[UPDATED] nauwkeurigheid"
+      }
+    },
+    {
+      "name": "materialtype",
+      "EA-Guid": "{68620BC6-B294-4fb0-99E7-81111B70A9AF}",
+      "definition": {
+        "en": "Classification of material used for utility link set.",
+        "nl": "[UPDATED] Soort materiaal waaruit de Linkset bestaat."
+      },
+      "label": {
+        "en": "materialType",
+        "nl": "[UPDATED] materiaaltype"
+      }
+    },
+    {
+      "name": "utilitynodecontainer|r=node|'utilitynode",
+      "EA-Guid": "{46331986-D10E-4bda-9CAF-30970AE00D3B}",
+      "label": {
+        "en": "UtilityNodeContainer|r=node|'UtilityNode",
+        "nl": "[UPDATED] knoop"
+      }
+    },
+    {
+      "name": "colour",
+      "EA-Guid": "{320A079D-1C70-465e-85DA-E31BE1A1DD0D}",
+      "definition": {
+        "en": "The colour of an item",
+        "nl": "[UPDATED] De kleur van het object."
+      },
+      "label": {
+        "en": "colour",
+        "nl": "[UPDATED] kleur"
+      }
+    },
+    {
+      "name": "ductwidth",
+      "EA-Guid": "{CF953F89-815C-4736-9F26-C63AB01A7040}",
+      "definition": {
+        "en": "The width of the duct",
+        "nl": "[UPDATED] Breedte van het Kanaal"
+      },
+      "label": {
+        "en": "ductWidth",
+        "nl": "[UPDATED] kanaalbreedte"
+      },
+      "usage": {
+        "en": "The measurement of the object - in this case, the duct - from side to side.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "cablediameter",
+      "EA-Guid": "{D1E13FF4-FCAA-4046-BCFC-A7B0D1C3B0FA}",
+      "definition": {
+        "en": "The diameter of the Cable",
+        "nl": "[UPDATED] Diameter van de kabel."
+      },
+      "label": {
+        "en": "cableDiameter",
+        "nl": "[UPDATED] kabeldiameter"
+      }
+    },
+    {
+      "name": "currentstatus",
+      "EA-Guid": "{620BDA84-47A6-4539-A478-BD9784B7D738}",
+      "definition": {
+        "en": "The status of an utility object with regards to its completion and use.",
+        "nl": "[UPDATED] De status van het element met betrekking tot de voltooiing en het gebruik ervan."
+      },
+      "label": {
+        "en": "currentStatus",
+        "nl": "[UPDATED] huidigeStatus"
+      }
+    },
+    {
+      "name": "validfrom",
+      "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
+      "definition": {
+        "en": "The time when the utility network element started to exist in the real world.",
+        "nl": "[UPDATED] Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
+      },
+      "label": {
+        "en": "validFrom",
+        "nl": "[UPDATED] geldigVan"
+      }
+    },
+    {
+      "name": "validto",
+      "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
+      "definition": {
+        "en": "The time from which the utility network element no longer exists in the real world.",
+        "nl": "[UPDATED] Tijdstip tot wanneer het element in de werkelijkheid bestond."
+      },
+      "label": {
+        "en": "validTo",
+        "nl": "[UPDATED] geldigTot"
+      }
+    },
+    {
+      "name": "whole",
+      "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
+      "definition": {
+        "en": "Collection of annotation parts.",
+        "nl": "[UPDATED] Annotatie waarvan de Annotatie deel uitmaakt."
+      },
+      "label": {
+        "en": "whole",
+        "nl": "[UPDATED] geheel"
+      }
+    },
+    {
+      "name": "associatedwith",
+      "EA-Guid": "{F7F51210-A7F4-4437-9BDF-7C629E2F219C}",
+      "definition": {
+        "en": "Object to which the annotation refers.",
+        "nl": "[UPDATED] Object waar de Annotatie betrekking op heeft"
+      },
+      "label": {
+        "en": "associatedWith",
+        "nl": "[UPDATED] geassocieerd met"
+      }
+    },
+    {
+      "name": "function",
+      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
+      "definition": {
+        "en": "Activities performed by the activity complex. Function is described by the activity and potentially complemented with information about inputs and outputs as result of it.",
+        "nl": "[UPDATED] Activiteiten uitgevoerd door het complex."
+      },
+      "label": {
+        "en": "function",
+        "nl": "[UPDATED] functie"
+      }
+    },
+    {
+      "name": "element",
+      "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
+      "definition": {
+        "en": "TODO",
+        "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat tot het netwerk behoort."
+      },
+      "label": {
+        "en": "element",
+        "nl": "[UPDATED] element"
+      }
+    },
+    {
+      "name": "pressure",
+      "EA-Guid": "{277E93E2-BA37-4447-ABD1-D5DD8A203C49}",
+      "definition": {
+        "en": "The maximum allowable operating pressure at which a product is conveyed through a pipe.",
+        "nl": "[UPDATED] De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd."
+      },
+      "label": {
+        "en": "pressure",
+        "nl": "[UPDATED] druk"
+      },
+      "usage": {
+        "en": "The unit of measure for pressure is commonly expressed in 'bar'.",
+        "nl": "[UPDATED] De meeteenheid voor druk wordt meestal uitgedrukt in 'bar'."
+      }
+    },
+    {
+      "name": "documentation",
+      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
+      "definition": {
+        "en": "Additional explanation of the activity complex.",
+        "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het Activiteitencomplex."
+      },
+      "label": {
+        "en": "documentation",
+        "nl": "[UPDATED] documentatie"
+      }
+    },
+    {
+      "name": "disclaimer",
+      "EA-Guid": "{84D05DCC-DF57-4ec2-A1D3-CDB55EAC6E4C}",
+      "definition": {
+        "en": "Legal text describing confidentiality clauses applying to the utility network information.",
+        "nl": "[UPDATED] Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk."
+      },
+      "label": {
+        "en": "disclaimer",
+        "nl": "[UPDATED] disclaimer"
+      }
+    },
+    {
+      "name": "depth",
+      "EA-Guid": "{4BFA1700-E708-414a-AFB9-70E236965A52}",
+      "label": {
+        "en": "depth",
+        "nl": "[UPDATED] diepte"
+      }
+    },
+    {
+      "name": "part",
+      "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
+      "definition": {
+        "en": "Part of an annotation in a larger whole.",
+        "nl": "[UPDATED] Annotatie die deel uitmaakt van de Annotatie."
+      },
+      "label": {
+        "en": "part",
+        "nl": "[UPDATED] deel"
+      }
+    },
+    {
+      "name": "authorityrole",
+      "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
+      "definition": {
+        "en": "Parties authorized to manage a utility network, such as maintainers, operators or owners.",
+        "nl": "[UPDATED] Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
+      },
+      "label": {
+        "en": "authorityRole",
+        "nl": "[UPDATED] bevoegdePartij"
+      }
+    },
+    {
+      "name": "distance",
+      "EA-Guid": "{402EBC20-6752-4cb9-A310-47F1119B60DD}",
+      "label": {
+        "en": "distance",
+        "nl": "[UPDATED] afstand"
+      }
+    },
+    {
+      "name": "adres",
+      "EA-Guid": "{9F470422-C6B3-4c74-BC4E-860AF8AD44E7}",
+      "definition": {
+        "en": "Identification of a place by street, number and municipality.",
+        "nl": "[UPDATED] Adres van de aansluiting."
+      },
+      "label": {
+        "en": "adres",
+        "nl": "[UPDATED] adres"
+      }
+    },
+    {
+      "name": "activitycomplexreference",
+      "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
+      "definition": {
+        "en": "Activity complex belonging to the network.",
+        "nl": "[UPDATED] Activiteitencomplex dat tot het netwerk behoort."
+      },
+      "label": {
+        "en": "activitycomplexreference",
+        "nl": "[UPDATED] activiteitencomplexreferentie"
+      }
+    },
+    {
+      "name": "identifier",
+      "EA-Guid": "{B9D2CF04-9D78-481c-BC1E-27F84F2EB431}",
+      "definition": {
+        "en": "String used to uniquely identify the object.",
+        "nl": "[UPDATED] Identificator van het element."
+      },
+      "label": {
+        "en": "identifier",
+        "nl": "[UPDATED] identificator"
+      }
+    },
+    {
+      "name": "geographicalname",
+      "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
+      "label": {
+        "en": "geographicalName",
+        "nl": "[UPDATED] geografischeNaam"
+      }
+    },
+    {
+      "name": "verticalposition",
+      "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
+      "label": {
+        "en": "verticalPosition",
+        "nl": "[UPDATED] verticale positie"
+      }
+    },
+    {
+      "name": "verticalposition",
+      "EA-Guid": "{D0CCE6E4-1ACB-424b-A647-35AB3C9294FE}",
+      "definition": {
+        "en": "Vertical measure upwards from the ground surface of the reference surface.",
+        "nl": "[UPDATED] De Verticale Positie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
+      },
+      "label": {
+        "en": "verticalPosition",
+        "nl": "[UPDATED] verticale positie"
+      }
+    },
+    {
+      "name": "subtheme",
+      "EA-Guid": "{3819ED88-81D8-4541-B26B-A64C5CDE020D}",
+      "definition": {
+        "en": "Classification of a pipe according to the thematic domain they belong to.",
+        "nl": "[UPDATED] Classificatie van de Pijp volgens het thematisch domein waartoe deze behoort."
+      },
+      "label": {
+        "en": "subtheme",
+        "nl": "[UPDATED] subthema"
+      }
+    },
+    {
+      "name": "pijp",
+      "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
+      "label": {
+        "en": "pijp",
+        "nl": "[UPDATED] pijp"
+      }
+    },
+    {
+      "name": "pipe|r=cables|'cable",
+      "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
+      "label": {
+        "en": "Pipe|r=cables|'Cable",
+        "nl": "[UPDATED] kabel"
+      }
+    },
+    {
+      "name": "recordedby",
+      "EA-Guid": "{BEBD754F-44EA-46ce-96B8-6AE3DF508400}",
+      "definition": {
+        "en": "Agent who performed the Survey.",
+        "nl": "[UPDATED] Agent die de Opmeting heeft uitgevoerd."
+      },
+      "label": {
+        "en": "recordedBy",
+        "nl": "[UPDATED] uitgevoerd door"
+      }
+    },
+    {
+      "name": "method",
+      "EA-Guid": "{5CF54001-0D21-41e1-B29D-97CC7EC9F020}",
+      "definition": {
+        "en": "Type of method used.",
+        "nl": "[UPDATED] Aard van de gebruikte methode."
+      },
+      "label": {
+        "en": "method",
+        "nl": "[UPDATED] methode"
+      }
+    },
+    {
+      "name": "verticalposition",
+      "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
+      "label": {
+        "en": "verticalPosition",
+        "nl": "[UPDATED] verticale positie"
+      }
+    },
+    {
+      "name": "innetwork",
+      "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
+      "definition": {
+        "en": "TODO",
+        "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat tot het netwerk behoort."
+      },
+      "label": {
+        "en": "inNetwork",
+        "nl": "[UPDATED] element"
+      }
+    },
+    {
+      "name": "visibility",
+      "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
+      "definition": {
+        "en": "Indicates the different ways in which the object is observable.",
+        "nl": "[UPDATED] Mate waarin de linkset waarneembaar is."
+      },
+      "label": {
+        "en": "visibility",
+        "nl": "[UPDATED] zichtbaarheid"
+      }
+    },
+    {
+      "name": "appearance",
+      "EA-Guid": "{451C5196-58DF-4df8-AE6F-13A5828A6E6F}",
+      "definition": {
+        "en": "The way an object looks.",
+        "nl": "[UPDATED] Uitzicht van de Linkset."
+      },
+      "label": {
+        "en": "appearance",
+        "nl": "[UPDATED] uiterlijk"
+      }
+    },
+    {
+      "name": "risk",
+      "EA-Guid": "{4680B8E0-ADA5-4df0-BB22-757CF168E14E}",
+      "definition": {
+        "en": "Indicates whether a utility link set can be considered hazardous.",
+        "nl": "[UPDATED] Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
+      },
+      "label": {
+        "en": "risk",
+        "nl": "[UPDATED] risico"
+      }
+    },
+    {
+      "name": "visibility",
+      "EA-Guid": "{CB78D103-BABF-4d04-BDDB-5146D44A72EF}",
+      "definition": {
+        "en": "Indicates the different ways in which the object is observable.",
+        "nl": "[UPDATED] Mate waarin de container waarneembaar is."
+      },
+      "label": {
+        "en": "visibility",
+        "nl": "[UPDATED] zichtbaarheid"
+      }
+    },
+    {
+      "name": "appearance",
+      "EA-Guid": "{ACE6F98E-D2DC-40fb-B473-8E0BC8C66040}",
+      "definition": {
+        "en": "The way an object looks.",
+        "nl": "[UPDATED] Uitzicht van de container."
+      },
+      "label": {
+        "en": "appearance",
+        "nl": "[UPDATED] uiterlijk"
+      }
+    },
+    {
+      "name": "risk",
+      "EA-Guid": "{D53BCB73-D335-450e-9E1E-532956F36F0B}",
+      "definition": {
+        "en": "Indicates whether a utility node container can be considered hazardous.",
+        "nl": "[UPDATED] Geeft aan of de container als gevaarlijk kan beschouwd worden."
+      },
+      "label": {
+        "en": "risk",
+        "nl": "[UPDATED] risico"
+      }
+    },
+    {
+      "name": "orientation",
+      "EA-Guid": "{9E9E6F1D-85EE-452e-BB76-512A6EB93731}",
+      "definition": {
+        "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object.",
+        "nl": "[UPDATED] Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd."
+      },
+      "label": {
+        "en": "orientation",
+        "nl": "[UPDATED] oriëntatie"
+      }
+    },
+    {
+      "name": "visibility",
+      "EA-Guid": "{A9A65420-5DE4-4dc4-80E0-D03317ECF385}",
+      "definition": {
+        "en": "Indicates the different ways in which the object is observable.",
+        "nl": "[UPDATED] Mate waarin de Knoop waarneembaar is."
+      },
+      "label": {
+        "en": "visibility",
+        "nl": "[UPDATED] zichtbaarheid"
+      }
+    },
+    {
+      "name": "appearance",
+      "EA-Guid": "{D9335DED-CB05-4e08-9E35-992400B607AF}",
+      "definition": {
+        "en": "The way an item looks.",
+        "nl": "[UPDATED] Uitzicht van de Knoop."
+      },
+      "label": {
+        "en": "appearance",
+        "nl": "[UPDATED] uiterlijk"
+      }
+    },
+    {
+      "name": "risk",
+      "EA-Guid": "{3846A060-B6A3-4e1c-8C23-6824A4215BB9}",
+      "definition": {
+        "en": "Indicates whether a utility node can be considered hazardous.",
+        "nl": "[UPDATED] Geeft aan of de Knoop als gevaarlijk kan beschouwd worden."
+      },
+      "label": {
+        "en": "risk",
+        "nl": "[UPDATED] risico"
+      }
+    },
+    {
+      "name": "orientation",
+      "EA-Guid": "{B51C2121-D6ED-437e-8786-E6B4573C28C9}",
+      "definition": {
+        "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object.",
+        "nl": "[UPDATED] Hoek waarmee het symbool dat de Knoop weergeeft op kaart moet worden geroteerd."
+      },
+      "label": {
+        "en": "orientation",
+        "nl": "[UPDATED] oriëntatie"
+      }
+    },
+    {
+      "name": "pipe",
+      "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
+      "definition": {
+        "en": "Pipes may contain multiple pipes.",
+        "nl": "[UPDATED] Pijp gelegen in het Kanaal."
+      },
+      "label": {
+        "en": "pipe",
+        "nl": "[UPDATED] pijp"
+      }
+    },
+    {
+      "name": "duct",
+      "EA-Guid": "{4F60EFC8-708A-4454-94BC-4DA8A4432ACA}",
+      "definition": {
+        "en": "Channels (channel banks or inner channels) may contain cables.",
+        "nl": "[UPDATED] Kanaal gelegen in het Kanaal."
+      },
+      "label": {
+        "en": "duct",
+        "nl": "[UPDATED] kanaal"
+      }
+    },
+    {
+      "name": "duct|r=cables|'cable",
+      "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
+      "definition": {
+        "en": "Ducts (duct banks, or inner-ducts) may contain cables.",
+        "nl": "[UPDATED] Kabel gelegen in het Kanaal."
+      },
+      "label": {
+        "en": "Duct|r=cables|'Cable",
+        "nl": "[UPDATED] kabel"
+      }
+    },
+    {
+      "name": "subtheme",
+      "EA-Guid": "{92F903FE-6F84-43f6-A09B-CC9D355D8C89}",
+      "definition": {
+        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
+        "nl": "[UPDATED] Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
+      },
+      "label": {
+        "en": "subtheme",
+        "nl": "[UPDATED] subthema"
+      }
+    },
+    {
+      "name": "innetwork",
+      "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
+      "definition": {
+        "en": "TODO",
+        "nl": "[UPDATED] Nutsvoorzieningnetwerk waartoe het complex behoort."
+      },
+      "label": {
+        "en": "innetwork",
+        "nl": "[UPDATED] inNetwerk"
+      }
+    },
+    {
+      "name": "appurtenancetype",
+      "EA-Guid": "{8FBCB721-4DB1-47f4-9694-E06978259957}",
+      "definition": {
+        "en": "Appurtenance classification.",
+        "nl": "[UPDATED] Aard van het Toebehoren."
+      },
+      "label": {
+        "en": "appurtenanceType",
+        "nl": "[UPDATED] toebehorentype"
+      }
+    }
+  ],
+  "externals": [
+    {
+      "name": "Length",
+      "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
+      "definition": {
+        "en": "The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary.",
+        "nl": "[UPDATED] Afstand tussen twee punten op een kromme."
+      },
+      "label": {
+        "en": "Length",
+        "nl": "[UPDATED] Lengte"
+      }
+    },
+    {
+      "name": "Measure",
+      "EA-Guid": "{889C9976-B9C7-47d5-849B-C0D9B0D55915}",
+      "definition": {
+        "en": "The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity.",
+        "nl": "[UPDATED] Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid."
+      },
+      "label": {
+        "en": "Measure",
+        "nl": "[UPDATED] Maat"
+      },
+      "usage": {
+        "en": "A measure is always associated to a unit of measure. Ratio measures where the two base measures are in the same units (often considered unit-less) should be associated to UnitOfMeasure (same meter.sl.meter for map scale) so that conversions to non-unitless ratios can be accomplished (such as miles.sl.inch)",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "Unitofmeasure",
+      "EA-Guid": "{AC115F40-08A9-47dc-96A2-547A024E7F0D}",
+      "label": {
+        "en": "UnitOfMeasure",
+        "nl": "[UPDATED] Meeteenheid"
+      }
+    },
+    {
+      "name": "Uomlength",
+      "EA-Guid": "{51E1B009-115C-4cc2-9C42-546B04A2AF9B}",
+      "label": {
+        "en": "UomLength",
+        "nl": "[UPDATED] Lengteëenheid"
+      }
+    },
+    {
+      "name": "Positionalaccuracy",
+      "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
+      "label": {
+        "en": "PositionalAccuracy",
+        "nl": "[UPDATED] PositioneleNauwkeurigheid"
+      }
+    },
+    {
+      "name": "",
+      "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}"
+    },
+    {
+      "name": "Curve",
+      "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
+      "definition": {
+        "en": "A 1-dimensional geometric primitive.",
+        "nl": "[UPDATED] Een 1-dimensionele geometrische primitieve."
+      },
+      "label": {
+        "en": "Curve",
+        "nl": "[UPDATED] Curve"
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+        "nl": "[UPDATED] Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt."
+      }
+    },
+    {
+      "name": "Point",
+      "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
+      "definition": {
+        "en": "A 0-dimensional geometric primitive.",
+        "nl": "[UPDATED] Een 0-dimensionele geometrische primitieve."
+      },
+      "label": {
+        "en": "Point",
+        "nl": "[UPDATED] Punt"
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+        "nl": "[UPDATED] Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem."
+      }
+    },
+    {
+      "name": "Containertypevalue",
+      "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
+      "definition": {
+        "en": "Kind of container",
+        "nl": "[UPDATED] Aard van de container."
+      },
+      "label": {
+        "en": "ContainertypeValue",
+        "nl": "[UPDATED] Containertype"
+      }
+    },
+    {
+      "name": "Visibilitytypevalue",
+      "EA-Guid": "{8B274381-D55D-4519-AAC1-D795D69B5003}",
+      "definition": {
+        "en": "To what extent the object is observable.",
+        "nl": "[UPDATED] In welke mate het object waarneembaar is."
+      },
+      "label": {
+        "en": "VisibilityTypeValue",
+        "nl": "[UPDATED] Zichtbaarheidstype"
+      }
+    },
+    {
+      "name": "Risktypevalue",
+      "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
+      "definition": {
+        "en": "The nature of the risk.",
+        "nl": "[UPDATED] De aard van het risico"
+      },
+      "label": {
+        "en": "RiskTypeValue",
+        "nl": "[UPDATED] RisicoType"
+      }
+    },
+    {
+      "name": "Colourvalue",
+      "EA-Guid": "{D8B48467-825B-4904-B96D-99B05F82D1E7}",
+      "definition": {
+        "en": "Colour of the element.",
+        "nl": "[UPDATED] De kleur van het element"
+      },
+      "label": {
+        "en": "ColourValue",
+        "nl": "[UPDATED] Kleur"
+      }
+    },
+    {
+      "name": "Materialtypevalue",
+      "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
+      "definition": {
+        "en": "The kind of material used.",
+        "nl": "[UPDATED] De aard van het gebruikte materiaal"
+      },
+      "label": {
+        "en": "MaterialTypeValue",
+        "nl": "[UPDATED] MateriaalType"
+      }
+    },
+    {
+      "name": "Subthemevalue",
+      "EA-Guid": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
+      "definition": {
+        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
+        "nl": "[UPDATED] Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
+      },
+      "label": {
+        "en": "SubthemeValue",
+        "nl": "[UPDATED] Subthema"
+      }
+    },
+    {
+      "name": "Utilitynetworktypevalue",
+      "EA-Guid": "{216EAE99-067D-42f0-896F-0497F500AF65}",
+      "definition": {
+        "en": "Classification of utility network types.",
+        "nl": "[UPDATED] Classificatie van typen nutsvoorzieningnetwerken."
+      },
+      "label": {
+        "en": "UtilityNetworkTypeValue",
+        "nl": "[UPDATED] Nutsvoorzieningnetwerktype"
+      }
+    },
+    {
+      "name": "Conditionoffacilityvalue",
+      "EA-Guid": "{AD6B4EE2-398B-4a03-BDA1-AF15D5EC8843}",
+      "definition": {
+        "en": "The state of the facility component.",
+        "nl": "[UPDATED] De hoedanigheid van het faciliteitsonderdeel."
+      },
+      "label": {
+        "en": "ConditionOfFacilityValue",
+        "nl": "[UPDATED] Faciliteitstatus"
+      }
+    },
+    {
+      "name": "Verticalpositionvalue",
+      "EA-Guid": "{75E41100-4B17-4450-A30D-9B65EF8E95C9}",
+      "label": {
+        "en": "VerticalPositionValue",
+        "nl": "[UPDATED] Verticale Positietype"
+      }
+    },
+    {
+      "name": "Utilitydeliverytypevalue",
+      "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
+      "definition": {
+        "en": "Classification of utility delivery types.",
+        "nl": "[UPDATED] Classificatie van typen nutsvoorzieningsleveringen."
+      },
+      "label": {
+        "en": "UtilityDeliveryTypeValue",
+        "nl": "[UPDATED] Nutsvoorzieningleveringstype"
+      }
+    },
+    {
+      "name": "Warningtypevalue",
+      "EA-Guid": "{9D3B762F-D306-436c-AF88-A6BB81CDA763}",
+      "definition": {
+        "en": "Classification of warning types.",
+        "nl": "[UPDATED] Classificatie van soorten waarschuwingen."
+      },
+      "label": {
+        "en": "WarningTypeValue",
+        "nl": "[UPDATED] Waarschuwingstype"
+      }
+    },
+    {
+      "name": "Telecommunicationscablematerialtypevalue",
+      "EA-Guid": "{4993E731-18FC-455f-8679-DC8F668B04E2}",
+      "definition": {
+        "en": "Kind of material the telecommunication cable is made of.",
+        "nl": "[UPDATED] Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is."
+      },
+      "label": {
+        "en": "TelecommunicationsCableMaterialTypeValue",
+        "nl": "[UPDATED] Telecommunicatiekabelmateriaaltype"
+      }
+    },
+    {
+      "name": "Oilgaschemicalproducttypevalue",
+      "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
+      "definition": {
+        "en": "Classification of oil, gas or chemicals.",
+        "nl": "[UPDATED] Classificatie van de olie, gas of chemicaliën."
+      },
+      "label": {
+        "en": "OilGasChemicalProductTypeValue",
+        "nl": "[UPDATED] OlieGasChemicalientype"
+      }
+    },
+    {
+      "name": "Sewerwatertypevalue",
+      "EA-Guid": "{6E79C43A-E2A6-40ce-8B1B-731472FC1FCB}",
+      "definition": {
+        "en": "Nature of sewage.",
+        "nl": "[UPDATED] Aard van het rioolwater."
+      },
+      "label": {
+        "en": "SewerWaterTypeValue",
+        "nl": "[UPDATED] Rioolwatertype"
+      }
+    },
+    {
+      "name": "Watertypevalue",
+      "EA-Guid": "{979037AB-2661-43c1-84E1-F12623E177FE}",
+      "definition": {
+        "en": "Kind of water.",
+        "nl": "[UPDATED] Aard van het water."
+      },
+      "label": {
+        "en": "WaterTypeValue",
+        "nl": "[UPDATED] Watertype"
+      }
+    },
+    {
+      "name": "Thermalproducttypevalue",
+      "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
+      "definition": {
+        "en": "Classification of thermal product.",
+        "nl": "[UPDATED] Classificatie van het termisch product."
+      },
+      "label": {
+        "en": "ThermalProductTypeValue",
+        "nl": "[UPDATED] Thermisch Producttype"
+      }
+    },
+    {
+      "name": "Sign",
+      "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
+      "label": {
+        "en": "Sign",
+        "nl": "[UPDATED] Teken"
+      }
+    },
+    {
+      "name": "Appurtenancetypevalue",
+      "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
+      "definition": {
+        "en": "Classification of appurtenances.",
+        "nl": "[UPDATED] Classificatie van de toebehoren."
+      },
+      "label": {
+        "en": "AppurtenanceTypeValue",
+        "nl": "[UPDATED] Toebehorentype"
+      }
+    },
+    {
+      "name": "Economicactivityvalue",
+      "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
+      "definition": {
+        "en": "Classification of economic activity.",
+        "nl": "[UPDATED] Classificatie van de economische activiteit."
+      },
+      "label": {
+        "en": "EconomicActivityValue",
+        "nl": "[UPDATED] Economische Activiteittype"
+      }
+    },
+    {
+      "name": "Inputoutputvalue",
+      "EA-Guid": "{6D0DD9F7-83BC-4aa8-93A3-14BA50E9078F}",
+      "definition": {
+        "en": "The value of inputs and outputs.",
+        "nl": "[UPDATED] De waarde van de input en output."
+      },
+      "label": {
+        "en": "InputOutputValue",
+        "nl": "[UPDATED] Inputoutputtype"
+      }
+    },
+    {
+      "name": "Annotationtype",
+      "EA-Guid": "{923B5591-8826-4e70-8DCD-E88CB85A974E}",
+      "definition": {
+        "en": "Kind of annotation",
+        "nl": "[UPDATED] Aard van de annotatie"
+      },
+      "label": {
+        "en": "AnnotationType",
+        "nl": "[UPDATED] Annotatietype"
+      }
+    },
+    {
+      "name": "Topographicalelementtype",
+      "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
+      "definition": {
+        "en": "Classification of the topographic element.",
+        "nl": "[UPDATED] Classificatie van het topografisch element."
+      },
+      "label": {
+        "en": "TopographicalElementType",
+        "nl": "[UPDATED] TopografischElementtype"
+      }
+    },
+    {
+      "name": "Documentmediatype",
+      "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
+      "definition": {
+        "en": "Kind of document medium.",
+        "nl": "[UPDATED] Aard van het documentmedium"
+      },
+      "label": {
+        "en": "DocumentMediaType",
+        "nl": "[UPDATED] Documentmediumtype"
+      }
+    },
+    {
+      "name": "Documenttype",
+      "EA-Guid": "{97C446AC-1E38-4007-A6B7-478C220DE467}",
+      "definition": {
+        "en": "Kind of document.",
+        "nl": "[UPDATED] Aard van het document"
+      },
+      "label": {
+        "en": "DocumentType",
+        "nl": "[UPDATED] Documenttype"
+      }
+    },
+    {
+      "name": "Referencesurfacetype",
+      "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
+      "definition": {
+        "en": "The kind of reference surface.",
+        "nl": "[UPDATED] De aard van het referentieoppervlak"
+      },
+      "label": {
+        "en": "ReferenceSurfaceType",
+        "nl": "[UPDATED] Referentieoppervlaktype"
+      }
+    },
+    {
+      "name": "Methodofmeasurement",
+      "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
+      "definition": {
+        "en": "The way the measurement result was determined",
+        "nl": "[UPDATED] De manier waarop het meetresultaat is vastgesteld"
+      },
+      "label": {
+        "en": "MethodOfMeasurement",
+        "nl": "[UPDATED] Opmetingsmethode"
+      }
+    },
+    {
+      "name": "",
+      "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
+      "definition": {
+        "en": "Classification of protected area types",
+        "nl": "[UPDATED] Classificatie van de soorten beschermd gebied"
+      }
+    },
+    {
+      "name": "Identifier",
+      "EA-Guid": "{82BFE44B-9A87-4166-BDD5-402AC1405D9F}",
+      "definition": {
+        "en": "Information used to uniquely identify an object.",
+        "nl": "[UPDATED] Informatie gebruikt om een object uniek te identificeren."
+      },
+      "label": {
+        "en": "Identifier",
+        "nl": "[UPDATED] Identificator"
+      },
+      "usage": {
+        "en": "The starting point here is that this string is assigned by an organisation and that this is done according to a well-defined system.",
+        "nl": "[UPDATED] Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
+      }
+    },
+    {
+      "name": "AddressRepresentation",
+      "EA-Guid": "{000197CE-3A4A-4354-8328-2EA003847C3C}",
+      "definition": {
+        "en": "More readable representation containing only the basic data of the address,intended for using an address as an attribute of another object.",
+        "nl": "[UPDATED] Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
+      },
+      "label": {
+        "en": "Address Representation",
+        "nl": "[UPDATED] Adresvoorstelling"
+      },
+      "usage": {
+        "en": "Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur).",
+        "nl": "[UPDATED] Bv als attribuut ve persoon of gebouw. De adresvoorstelling heeft niet enkel betrekking op Belgische adressen, ze kan gebruikt worden om buitenlandse adressen weer te geven (waar mogelijk andere adresaanduidingen dan huisnummer of busnummer worden gebruikt of waar adrescomponenten zoals adresgebieden voorkomen)."
+      }
+    },
+    {
+      "name": "Geometry",
+      "EA-Guid": "{372EA823-D942-4310-81CA-B95912579A06}",
+      "definition": {
+        "en": "Shape and position characteristics of an object.",
+        "nl": "[UPDATED] Vorm- en positiekenmerken van een object."
+      },
+      "label": {
+        "en": "Geometry",
+        "nl": "[UPDATED] Geometrie"
+      },
+      "usage": {
+        "en": "Describes these features through points, lines, polygons and coordinates.",
+        "nl": "[UPDATED] Beschrijft deze kenmerken dmv punten, lijnen, polygonen etc en coördinaten. OPMERKING: gebruik indien gevraagd de subklassen Punt of Curve. Voor andere gevallen gebruik de types uit uit het <a href=\"\">Simple Features Vocabulary</a>, bvb LineString, Polygon, Surface etc. Of gebruik Geometrie, in de wkt- of gml serialisatie wordt het type geometrie ook vermeld."
+      }
+    },
+    {
+      "name": "",
+      "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}"
+    },
+    {
+      "name": "",
+      "EA-Guid": "{24D7FBAF-82F0-4ac5-86AA-A7549CB249B0}"
+    },
+    {
+      "name": "Document",
+      "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
+      "definition": {
+        "en": "Attachment in any form for additional information.",
+        "nl": "[UPDATED] Informatie vastgelegd op een gegevensdrager."
+      },
+      "label": {
+        "en": "Document",
+        "nl": "[UPDATED] Document"
+      }
+    },
+    {
+      "name": "Adress",
+      "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
+      "definition": {
+        "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
+        "nl": "[UPDATED] Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode."
+      },
+      "label": {
+        "en": "Adress",
+        "nl": "[UPDATED] Adres"
+      },
+      "usage": {
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
+        "nl": "[UPDATED] De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
+      }
+    },
+    {
+      "name": "Activitycomplex",
+      "EA-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
+      "definition": {
+        "en": "A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n",
+        "nl": "[UPDATED] Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening."
+      },
+      "label": {
+        "en": "ActivityComplex",
+        "nl": "[UPDATED] Activiteitencomplex"
+      },
+      "usage": {
+        "en": "NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive.",
+        "nl": "[UPDATED] In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes."
+      }
+    },
+    {
+      "name": "Directposition",
+      "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
+      "definition": {
+        "en": "Holder of the coordinates of a position in a coordinate reference system.",
+        "nl": "[UPDATED] Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
+      },
+      "label": {
+        "en": "DirectPosition",
+        "nl": "[UPDATED] Directe Positie"
+      },
+      "usage": {
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
+        "nl": "[UPDATED] Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een Directe Positie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de Directe Positie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
+      }
+    },
+    {
+      "name": "Function",
+      "EA-Guid": "{AE548CAC-0093-4236-9116-7B5DDD565129}",
+      "definition": {
+        "en": "The function of something expressed as an activity and optional input and/or output.",
+        "nl": "[UPDATED] De functie van iets uitgedrukt als een activiteit en optionele input en/of output."
+      },
+      "label": {
+        "en": "Function",
+        "nl": "[UPDATED] Functie"
+      }
+    },
+    {
+      "name": "Measurement",
+      "EA-Guid": "{F3D7A5E3-73B4-466d-A3F3-E0259CBD68A4}",
+      "definition": {
+        "en": "Determining the exact size of something by measuring it.",
+        "nl": "[UPDATED] Het bepalen van de precieze omvang van iets door het te meten."
+      },
+      "label": {
+        "en": "Measurement",
+        "nl": "[UPDATED] Opmeting"
+      }
+    },
+    {
+      "name": "",
+      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}"
+    },
+    {
+      "name": "DirectedLink",
+      "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
+      "definition": {
+        "en": "A link either in its positive or negative direction.",
+        "nl": "[UPDATED] Link in hetzij zijn positieve, hetzij zijn negatieve richting."
+      },
+      "label": {
+        "en": "Directed link",
+        "nl": "[UPDATED] Gerichte link"
+      }
+    },
+    {
+      "name": "",
+      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}"
+    },
+    {
+      "name": "",
+      "EA-Guid": "{8F85F084-8291-4781-AD0D-57AD8517284F}"
+    },
+    {
+      "name": "",
+      "EA-Guid": "{99B8D562-8B03-4b77-9B30-2B5F70753408}"
+    },
+    {
+      "name": "",
+      "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}"
+    },
+    {
+      "name": "",
+      "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}"
+    },
+    {
+      "name": "Number",
+      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "label": {
+        "en": "Number",
+        "nl": "[UPDATED] Getal"
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "name": "height",
+      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
+      "definition": {
+        "en": "The height of the Appurtenance",
+        "nl": "[UPDATED] De hoogte van het Toebehoren."
+      },
+      "label": {
+        "en": "height",
+        "nl": "[UPDATED] hoogte"
+      }
+    },
+    {
+      "name": "height",
+      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
+      "label": {
+        "en": "height",
+        "nl": "[UPDATED] hoogte"
+      }
+    },
+    {
+      "name": "on",
+      "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
+      "definition": {
+        "en": "Association attribute from the additional information objects and ActivityComplex to Utility Network element.",
+        "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat behoort tot het complex."
+      },
+      "label": {
+        "en": "on",
+        "nl": "[UPDATED] op"
+      }
+    },
+    {
+      "name": "direction",
+      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
+      "definition": {
+        "en": "Indicates if the directed link agrees (positive) or disagrees (negative) with the\npositive direction of the link.",
+        "nl": "[UPDATED] Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
+      },
+      "label": {
+        "en": "direction",
+        "nl": "[UPDATED] richting"
+      }
+    },
+    {
+      "name": "endspoke",
+      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
+      "definition": {
+        "en": "Link of which this Node is the endNode",
+        "nl": "[UPDATED] Link waarvan de Knoop de eindKnoop is."
+      },
+      "label": {
+        "en": "endSpoke",
+        "nl": "[UPDATED] eindlink"
+      }
+    },
+    {
+      "name": "endnode",
+      "EA-Guid": "{FA832228-665E-4467-A9FF-B970B7EE6B03}",
+      "definition": {
+        "en": "The optional end node for this link. The end node may be the same instance as the start node.",
+        "nl": "[UPDATED] Knoop waarmee de Link begint."
+      },
+      "label": {
+        "en": "endNode",
+        "nl": "[UPDATED] eindknoop"
+      }
+    },
+    {
+      "name": "beginspoke",
+      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
+      "definition": {
+        "en": "Link of which this Node is the startNode",
+        "nl": "[UPDATED] Link waarvan de Knoop de beginKnoop is."
+      },
+      "label": {
+        "en": "beginSpoke",
+        "nl": "[UPDATED] beginlink"
+      }
+    },
+    {
+      "name": "startnode",
+      "EA-Guid": "{6087554F-C158-4fb6-934F-F94321A053D8}",
+      "definition": {
+        "en": "The optional start node for this link.",
+        "nl": "[UPDATED] Knoop waarmee de Link eindigt."
+      },
+      "label": {
+        "en": "startNode",
+        "nl": "[UPDATED] startknoop"
+      }
+    },
+    {
+      "name": "link",
+      "EA-Guid": "{811CE60F-2092-42db-9375-9FEFD31E1E2F}",
+      "definition": {
+        "en": "Network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.",
+        "nl": "[UPDATED] Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
+      },
+      "label": {
+        "en": "link",
+        "nl": "[UPDATED] link"
+      }
+    },
+    {
+      "name": "link",
+      "EA-Guid": "{B4090BF4-12B5-44cd-9FDC-6E5347DDBB6A}",
+      "definition": {
+        "en": "Network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.",
+        "nl": "[UPDATED] GerichteLink die deel uitmaakt van de Linksequentie."
+      },
+      "label": {
+        "en": "link",
+        "nl": "[UPDATED] link"
+      }
+    },
+    {
+      "name": "centrelinegeometry",
+      "EA-Guid": "{43D2E535-52C3-4008-990F-57D9080C843E}",
+      "definition": {
+        "en": "The geometry that represents the centreline of the link",
+        "nl": "[UPDATED] De geometrie van de middellijn van de link."
+      },
+      "label": {
+        "en": "centrelineGeometry",
+        "nl": "[UPDATED] middelijngeometrie"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
+      "definition": {
+        "en": "Location of utility node.",
+        "nl": "[UPDATED] Geometrie van de Knoop."
+      },
+      "label": {
+        "en": "geometry",
+        "nl": "[UPDATED] geometrie"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
+      "definition": {
+        "en": "Location of container.",
+        "nl": "[UPDATED] Geometrie van de container"
+      },
+      "label": {
+        "en": "geometry",
+        "nl": "[UPDATED] geometrie"
+      }
+    },
+    {
+      "name": "link",
+      "EA-Guid": "{DFA56CED-AF76-4077-AA73-25EAF7B3BF3E}",
+      "definition": {
+        "en": "Reference to Link.",
+        "nl": "[UPDATED] Verwijzing naar de Link."
+      },
+      "label": {
+        "en": "link",
+        "nl": "[UPDATED] link"
+      }
+    },
+    {
+      "name": "measurement",
+      "EA-Guid": "{A85FB6B8-4B1E-44b2-8F83-3154C27A3D7F}",
+      "definition": {
+        "en": "Determining the exact size of something by measuring it.",
+        "nl": "[UPDATED] De manier waarop de geometrie werd bepaald."
+      },
+      "label": {
+        "en": "measurement",
+        "nl": "[UPDATED] opmeting"
+      }
+    },
+    {
+      "name": "measurement",
+      "EA-Guid": "{BAD41103-19C8-4665-9B51-882FED3485BA}",
+      "definition": {
+        "en": "The way the position was determined.",
+        "nl": "[UPDATED] De manier waarop de positie werd bepaald."
+      },
+      "label": {
+        "en": "Measurement",
+        "nl": "[UPDATED] opmeting"
+      }
+    },
+    {
+      "name": "refersto",
+      "EA-Guid": "{B50209E4-649A-4254-91F5-EC1CE741AC30}",
+      "definition": {
+        "en": "Address from which the address representation is derived.",
+        "nl": "[UPDATED] Adres waarvan de adresvoorstelling is afgeleid."
+      },
+      "label": {
+        "en": "refersTo",
+        "nl": "[UPDATED] verwijst Naar"
+      },
+      "usage": {
+        "en": "This can only be done for Belgian addresses as address means a Belgian address.",
+        "nl": "[UPDATED] Dit kan enkel voor Belgische adressen aangezien onder adres een Belgisch adres wordt verstaan."
+      }
+    },
+    {
+      "name": "country",
+      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
+      "definition": {
+        "en": "Country in which the address is located.",
+        "nl": "[UPDATED] Land waarin het adres gelegen is."
+      },
+      "label": {
+        "en": "country",
+        "nl": "[UPDATED] land"
+      }
+    },
+    {
+      "name": "municipalityName",
+      "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
+      "definition": {
+        "en": "Municipal name from address.",
+        "nl": "[UPDATED] Gemeentenaam van het adres."
+      },
+      "label": {
+        "en": "municipality name",
+        "nl": "[UPDATED] gemeentenaam"
+      }
+    },
+    {
+      "name": "boxNumber",
+      "EA-Guid": "{C2D96375-F4C9-4843-8BB8-720BDFB01C6F}",
+      "definition": {
+        "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number.",
+        "nl": "[UPDATED] Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
+      },
+      "label": {
+        "en": "box number",
+        "nl": "[UPDATED] busnummer"
+      },
+      "usage": {
+        "en": "Specialisation of Address Presentation:location indication for Belgian addresses.",
+        "nl": "[UPDATED] Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen."
+      }
+    },
+    {
+      "name": "houseNumber",
+      "EA-Guid": "{8D4E1B8A-E644-40ae-934D-AB99591AA272}",
+      "definition": {
+        "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots.",
+        "nl": "[UPDATED] Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
+      },
+      "label": {
+        "en": "house number",
+        "nl": "[UPDATED] huisnummer"
+      },
+      "usage": {
+        "en": "Specialization of Address representation: location indication for Belgian addresses.",
+        "nl": "[UPDATED] Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
+      }
+    },
+    {
+      "name": "location",
+      "EA-Guid": "{319584C1-3AA8-49fb-AA76-6E86040D3F31}",
+      "definition": {
+        "en": "Shape and position features of an object,",
+        "nl": "[UPDATED] Locatie van het BeschermdGebied."
+      },
+      "label": {
+        "en": "location",
+        "nl": "[UPDATED] ligging"
+      },
+      "usage": {
+        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "streetName",
+      "EA-Guid": "{CF7A8796-A603-40bd-BEB3-0A061B4D12D2}",
+      "definition": {
+        "en": "Street name of address.",
+        "nl": "[UPDATED] Straatnaam van het adres."
+      },
+      "label": {
+        "en": "street name",
+        "nl": "[UPDATED] straatnaam"
+      }
+    },
+    {
+      "name": "postalName",
+      "EA-Guid": "{0C3DC406-E0CB-4dad-830C-552FECE0607D}",
+      "definition": {
+        "en": "Name denoting the geographical area that groups addresses for postal purposes.",
+        "nl": "[UPDATED] Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+      },
+      "label": {
+        "en": "postal name",
+        "nl": "[UPDATED] postnaam"
+      }
+    },
+    {
+      "name": "postalCode",
+      "EA-Guid": "{79059549-95C0-406d-A855-3AB01E5D9374}",
+      "definition": {
+        "en": "Code denoting the geographical area that groups addresses for postal purposes.",
+        "nl": "[UPDATED] Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+      },
+      "label": {
+        "en": "postal code",
+        "nl": "[UPDATED] postcode"
+      }
+    },
+    {
+      "name": "pobox",
+      "EA-Guid": "{B0415347-2C6D-4b21-9C85-D880A76C823D}",
+      "definition": {
+        "en": "PO Box number in a post office.",
+        "nl": "[UPDATED] Postbusnummer in een postkantoor."
+      },
+      "label": {
+        "en": "PObox",
+        "nl": "[UPDATED] postbus"
+      }
+    },
+    {
+      "name": "locationName",
+      "EA-Guid": "{961B165A-2D89-419f-842D-09B23DFB1C7B}",
+      "definition": {
+        "en": "Name or description of the geographic object the address locator designates.",
+        "nl": "[UPDATED] Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
+      },
+      "label": {
+        "en": "location name",
+        "nl": "[UPDATED] locatienaam"
+      }
+    },
+    {
+      "name": "locationIndication",
+      "EA-Guid": "{3D6659FE-98C9-4e40-BC96-D4F2A5098925}",
+      "definition": {
+        "en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc.",
+        "nl": "[UPDATED] Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
+      },
+      "label": {
+        "en": "location indication",
+        "nl": "[UPDATED] locatieaanduiding"
+      }
+    },
+    {
+      "name": "location",
+      "EA-Guid": "{B180BBBC-C7FF-47b1-B8A3-9FB429C38692}",
+      "definition": {
+        "en": "Shape and position features of an object,",
+        "nl": "[UPDATED] Locatie waarvoor de Verticale Positie geldt."
+      },
+      "label": {
+        "en": "location",
+        "nl": "[UPDATED] ligging"
+      },
+      "usage": {
+        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "nl": "[UPDATED] Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de Verticale Positie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt."
+      }
+    },
+    {
+      "name": "location",
+      "EA-Guid": "{285B6C5C-1FB8-4d04-A3B9-5A880226BC2C}",
+      "definition": {
+        "en": "Shape and position features of an object,",
+        "nl": "[UPDATED] Geometrie van de Annotatie."
+      },
+      "label": {
+        "en": "location",
+        "nl": "[UPDATED] locatie"
+      },
+      "usage": {
+        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "nl": "[UPDATED] Bvb de ligging en vorm van een Maataanduiding."
+      }
+    },
+    {
+      "name": "location",
+      "EA-Guid": "{EB66BB3E-599B-4e06-9BFA-041434772A53}",
+      "definition": {
+        "en": "Shape and position features of an object,",
+        "nl": "[UPDATED] Geometrie van het TopografiscElement."
+      },
+      "label": {
+        "en": "location",
+        "nl": "[UPDATED] locatie"
+      },
+      "usage": {
+        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "location",
+      "EA-Guid": "{C0CAAE0B-80A5-40c1-B32F-188074D5A190}",
+      "definition": {
+        "en": "Shape and position features of an object,",
+        "nl": "[UPDATED] Locatie van het Referentieoppervlak."
+      },
+      "label": {
+        "en": "location",
+        "nl": "[UPDATED] ligging"
+      },
+      "usage": {
+        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "nl": "[UPDATED] Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de Verticale Positie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak."
+      }
+    },
+    {
+      "name": "location",
+      "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
+      "definition": {
+        "en": "Shape and position features of an object,",
+        "nl": "[UPDATED] Geometrie van de locatie waarop het Plan betrekking heeft."
+      },
+      "label": {
+        "en": "location",
+        "nl": "[UPDATED] locatie"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{D3EDDD4A-1F53-4c15-B099-7879E7D2121F}",
+      "definition": {
+        "en": "The geometry used to define the extent or position of the Activity Complex.",
+        "nl": "[UPDATED] Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven."
+      },
+      "label": {
+        "en": "geometry",
+        "nl": "[UPDATED] geometrie"
+      },
+      "usage": {
+        "en": "NOTE 1 Based on the provided description, different geometries could be used to represent the Activity Complex as a one legal whole.\nEXAMPLE  1 E-prtr geometry is given by a single point based on Geographical Coordinates (see below). In other levels of detail or depending on the Data Provider this could be represented [e.g.] by a Multi-poligon.\nEXAMPLE 2 PRTR - Legal act example:   the latitude and longitude coordinates within an arc of 5 minutes that avoid the direct identification of an individual holding..",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{086D84C0-C685-48ff-8360-D5104AEC0B66}",
+      "definition": {
+        "en": "Shape and position features of an object,",
+        "nl": "[UPDATED] Geometrie van het BeschermdGebied."
+      },
+      "label": {
+        "en": "geometry",
+        "nl": "[UPDATED] geometrie"
+      }
+    },
+    {
+      "name": "fullAddress",
+      "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
+      "definition": {
+        "en": "The complete address in one string, formatted or not.",
+        "nl": "[UPDATED] Het complete adres in één string, al dan niet geformatteerd."
+      },
+      "label": {
+        "en": "full address",
+        "nl": "[UPDATED] volledig Adres"
+      },
+      "usage": {
+        "en": "Avoids errors when splitting an address into its components. Displays the prescribed order of the different parts.",
+        "nl": "[UPDATED] Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer."
+      }
+    },
+    {
+      "name": "administrativeUnitLevel2",
+      "EA-Guid": "{E33A216E-2CA4-4c37-8857-D2D37262F35B}",
+      "definition": {
+        "en": "The region of address, usually a province or state or similar area that typically includes several places.",
+        "nl": "[UPDATED] De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
+      },
+      "label": {
+        "en": "administrative unit level 2",
+        "nl": "[UPDATED] administratieve eenheid niveau 2"
+      }
+    },
+    {
+      "name": "administrativeUnitLevel1",
+      "EA-Guid": "{8DC1493A-7FA0-47cc-85D4-A2CFCAFFCEC6}",
+      "definition": {
+        "en": "Highest Administrative Unit van het address, usually a country.",
+        "nl": "[UPDATED] Hoogste Administratieve eenheid van het adres, doorgaans een land."
+      },
+      "label": {
+        "en": "administrative unit level 1",
+        "nl": "[UPDATED] administratieve eenheid niveau 1"
+      }
+    },
+    {
+      "name": "addressArea",
+      "EA-Guid": "{060EBDC2-5490-4b36-8887-9C681BEE4C98}",
+      "definition": {
+        "en": "Name from a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit",
+        "nl": "[UPDATED] Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
+      },
+      "label": {
+        "en": "address area",
+        "nl": "[UPDATED] adresgebied"
+      },
+      "usage": {
+        "en": "E.g. the name of the hamlet in which the address is located.",
+        "nl": "[UPDATED] Bvb de naam van het gehucht waarin het adres ligt."
+      }
+    },
+    {
+      "name": "documentlocation",
+      "EA-Guid": "{F9CF816D-8C32-4c37-ACF4-164ABDFA26A7}",
+      "definition": {
+        "en": "Place where the document is stored or viewable.",
+        "nl": "[UPDATED] De plaats waar het Document is opgeslagen of raadpleegbaar is."
+      },
+      "label": {
+        "en": "documentLocation",
+        "nl": "[UPDATED] documentlocatie"
+      }
+    },
+    {
+      "name": "assignedbystring",
+      "EA-Guid": "{CAB540CE-2448-4f13-8C42-36FC9E80F055}",
+      "definition": {
+        "en": "Name from the agent who assigned the identifier.",
+        "nl": "[UPDATED] Naam vd agent die de identificator heeft toegekend."
+      },
+      "label": {
+        "en": "assignedByString",
+        "nl": "[UPDATED] toegekend door (String)"
+      }
+    },
+    {
+      "name": "identifier",
+      "EA-Guid": "{CCB506D5-DE86-4a26-9E83-8DD33411D059}",
+      "definition": {
+        "en": "External object identifier of the Activity Complex",
+        "nl": "[UPDATED] Externe Identificator van het complex."
+      },
+      "label": {
+        "en": "identifier",
+        "nl": "[UPDATED] identificator"
+      },
+      "usage": {
+        "en": "NOTE  An external object identifier is a unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object. The identifier is an identifier of the spatial object, not an identifier of the real-world phenomenon.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "documentidentifier",
+      "EA-Guid": "{9360E849-B3F3-473f-8FA3-E280E57CD0E9}",
+      "definition": {
+        "en": "Information used to uniquely identify a docuent.",
+        "nl": "[UPDATED] Identificator van het Document."
+      },
+      "label": {
+        "en": "documentIdentifier",
+        "nl": "[UPDATED] documentidentificator"
+      }
+    },
+    {
+      "name": "identifier",
+      "EA-Guid": "{283FF600-0E03-430b-AD12-3959852FCECE}",
+      "definition": {
+        "en": "String used to uniquely identify the object.",
+        "nl": "[UPDATED] String gebruikt om het object uniek te identificeren."
+      },
+      "label": {
+        "en": "identifier",
+        "nl": "[UPDATED] identificator"
+      },
+      "usage": {
+        "en": "Type of the string refers to the identifier (incl its version), the string itself to the actual identifier.",
+        "nl": "[UPDATED] Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
+      }
+    },
+    {
+      "name": "wkt",
+      "EA-Guid": "{51FC18F5-A6A3-4869-A42E-DB57B5020058}",
+      "definition": {
+        "en": "Geometrie uitgedrukt in wkt-formaat.",
+        "nl": "[UPDATED] Geometrie uitgedrukt in wkt-formaat."
+      },
+      "label": {
+        "en": "wkt",
+        "nl": "[UPDATED] als WKT"
+      },
+      "usage": {
+        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as data type.",
+        "nl": "[UPDATED] Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype."
+      }
+    },
+    {
+      "name": "wkt",
+      "EA-Guid": "{C6EFD7E3-420E-4e78-8EDB-7DF71919616D}",
+      "definition": {
+        "en": "Direct position expressed in wkt format.",
+        "nl": "[UPDATED] Directe positie uitgedrukt in wkt-formaat."
+      },
+      "label": {
+        "en": "wkt",
+        "nl": "[UPDATED] wkt"
+      },
+      "usage": {
+        "en": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
+        "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
+      }
+    },
+    {
+      "name": "gml",
+      "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
+      "definition": {
+        "en": "Geometry expressed in gml format.",
+        "nl": "[UPDATED] Geometrie uitgedrukt in gml-formaat."
+      },
+      "label": {
+        "en": "gml",
+        "nl": "[UPDATED] als GML"
+      },
+      "usage": {
+        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
+        "nl": "[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+      }
+    },
+    {
+      "name": "gml",
+      "EA-Guid": "{885CCC32-8976-4960-9770-83DBA03AC131}",
+      "definition": {
+        "en": "Direct position expressed in gml format.",
+        "nl": "[UPDATED] Directe positie uitgedrukt in gml-formaat."
+      },
+      "label": {
+        "en": "gml",
+        "nl": "[UPDATED] gml"
+      },
+      "usage": {
+        "en": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
+        "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
+      }
+    },
+    {
+      "name": "containertype",
+      "EA-Guid": "{81C9EC16-88BB-4de5-A325-2B0E48E4AB0C}",
+      "definition": {
+        "en": "Attribute indicating the type of pipe container.",
+        "nl": "[UPDATED] Aard van de Pijp als container."
+      },
+      "label": {
+        "en": "containertype",
+        "nl": "[UPDATED] containertype"
+      }
+    },
+    {
+      "name": "containertype",
+      "EA-Guid": "{56A89955-9113-4d56-8A78-1A6416729AFA}",
+      "definition": {
+        "en": "The kind of container linked to the canal.",
+        "nl": "[UPDATED] Aard van het Kanaal als container."
+      },
+      "label": {
+        "en": "containertype",
+        "nl": "[UPDATED] containertype"
+      }
+    },
+    {
+      "name": "name",
+      "EA-Guid": "{8AC95801-716E-4f15-8F59-4EC2A2E8A534}",
+      "definition": {
+        "en": "Descriptive name of the Activity Complex.",
+        "nl": "[UPDATED] Naam waaronder het complex gekend is."
+      },
+      "label": {
+        "en": "name",
+        "nl": "[UPDATED] naam"
+      },
+      "usage": {
+        "en": "NOTE 1 Several names in different languages may be expressed.\nNOTE 2 It is recommended that the language of the name (part of the Geographical/Name data type) be filled whenever possible.",
+        "nl": "Enter your translation here"
+      }
+    },
+    {
+      "name": "assignedon",
+      "EA-Guid": "{78315B70-7A7F-431b-BE60-F3B46EE2F912}",
+      "definition": {
+        "en": "Time the identifier was assigned.",
+        "nl": "[UPDATED] Tijdstip waarop de identificator werd uitgegeven."
+      },
+      "label": {
+        "en": "assignedOn",
+        "nl": "[UPDATED] toegekend op"
+      }
+    },
+    {
+      "name": "assignedby",
+      "EA-Guid": "{1E54387C-CF55-4a50-A953-506127298048}",
+      "definition": {
+        "en": "Link to the agent who assigned the identifier.",
+        "nl": "[UPDATED] Link naar de agent die de identificator heeft uitgegeven."
+      },
+      "label": {
+        "en": "assignedBy",
+        "nl": "[UPDATED] toegekend door"
+      }
+    },
+    {
+      "name": "utilitynetworktype",
+      "EA-Guid": "{B560020E-E50C-441a-9BC3-8CA309CA04DB}",
+      "definition": {
+        "en": "The type of utility network or the utility network theme.",
+        "nl": "[UPDATED] Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "en": "utilityNetworkType",
+        "nl": "[UPDATED] nutsvoorzieningnetwerktype"
+      },
+      "usage": {
+        "en": "Uses the codelist \"UtilityNetworkTypeValue\" to describe the possible utility networks. This also contains the \"crossTheme\" value to be used for utility networks that can contain cables or pipes from various themes, typically used by utility network providers that provide ducts.",
+        "nl": "[UPDATED] Gebruikt de codelijst \"Nutsvoorzieningnetwerktype\" om de mogelijke nutsvoorzieningnetwerken te beschrijven. Dit bevat ook de waarde 'crossTheme' die moet worden gebruikt voor nutsvoorzieningnetwerken die kabels of leidingen uit verschillende thema's kunnen bevatten, die doorgaans worden gebruikt door aanbieders van nutsvoorzieningnetwerken die leidingen leveren."
+      }
+    },
+    {
+      "name": "type",
+      "EA-Guid": "{3CFB2E82-225C-4884-9E31-E482A0748F97}",
+      "definition": {
+        "en": "The type of Reference Surface",
+        "nl": "[UPDATED] Type referentieoppervlak."
+      },
+      "label": {
+        "en": "type",
+        "nl": "[UPDATED] type"
+      },
+      "usage": {
+        "en": "Typical the groundlevel.",
+        "nl": "[UPDATED] Typsch maaiveld."
+      }
+    },
+    {
+      "name": "type",
+      "EA-Guid": "{97C241A0-58A7-4a76-945C-7A50E18BE147}",
+      "definition": {
+        "en": "Classification of different types of protected areas.",
+        "nl": "[UPDATED] Aard van het BeschermdGebied."
+      },
+      "label": {
+        "en": "type",
+        "nl": "[UPDATED] type"
+      }
+    },
+    {
+      "name": "topographicalelementtype",
+      "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
+      "definition": {
+        "en": "Describes the type of topographic element.",
+        "nl": "[UPDATED] Aard van het TopografischElement."
+      },
+      "label": {
+        "en": "topographicalElementType",
+        "nl": "[UPDATED] topografisch elementtype"
+      }
+    },
+    {
+      "name": "documenttype",
+      "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
+      "definition": {
+        "en": "Classification of the document.",
+        "nl": "[UPDATED] Classificatie van het Document."
+      },
+      "label": {
+        "en": "documentType",
+        "nl": "[UPDATED] documentType"
+      }
+    },
+    {
+      "name": "appurtenancetype",
+      "EA-Guid": "{588CFC97-081D-4a31-965F-F8FD557D0C55}",
+      "definition": {
+        "en": "Type of Appurtenance",
+        "nl": "[UPDATED] Type van Toebehoren."
+      },
+      "label": {
+        "en": "appurtenanceType",
+        "nl": "[UPDATED] toebehorentype"
+      }
+    },
+    {
+      "name": "annotationtype",
+      "EA-Guid": "{F76FE708-2CA4-40c4-B99E-0599432A2960}",
+      "definition": {
+        "en": "Classification of the annotation object.",
+        "nl": "[UPDATED] Aard van de Annotatie."
+      },
+      "label": {
+        "en": "annotationType",
+        "nl": "[UPDATED] annotatietype"
+      }
+    },
+    {
+      "name": "name",
+      "EA-Guid": "{1BD28B6D-5215-4811-B9A0-5282FB8641B1}",
+      "definition": {
+        "en": "TODO",
+        "nl": "[UPDATED] Naam van het BeschermdGebied."
+      },
+      "label": {
+        "en": "name",
+        "nl": "[UPDATED] naam"
+      }
+    },
+    {
+      "name": "refersto",
+      "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
+      "definition": {
+        "en": "Object to which the document refers.",
+        "nl": "[UPDATED] Het Object waar het Document betrekking op heeft."
+      },
+      "label": {
+        "en": "refersTo",
+        "nl": "[UPDATED] verwijstNaar"
+      }
+    },
+    {
+      "name": "documentation",
+      "EA-Guid": "{8A6073D6-54F4-4273-8D01-3A5C9AE86471}",
+      "definition": {
+        "en": "Additional explanation of the utility network element.",
+        "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het element."
+      },
+      "label": {
+        "en": "documentation",
+        "nl": "[UPDATED] documentatie"
+      }
+    },
+    {
+      "name": "documentation",
+      "EA-Guid": "{AB4880EF-C725-4006-8448-5C5B2C1F126E}",
+      "definition": {
+        "en": "Additional explanation of utility network.",
+        "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het Netwerk."
+      },
+      "label": {
+        "en": "documentation",
+        "nl": "[UPDATED] documentatie"
+      }
+    },
+    {
+      "name": "documentmediatype",
+      "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
+      "definition": {
+        "en": "Medium used to access the document.",
+        "nl": "[UPDATED] Aard van de gegevensdrager waarop het Document is opgeslagen."
+      },
+      "label": {
+        "en": "documentMediaType",
+        "nl": "[UPDATED] documentmediumtype"
+      }
+    },
+    {
+      "name": "description",
+      "EA-Guid": "{72FF6C37-B881-412b-BCDA-6C7841BB57C3}",
+      "definition": {
+        "en": "Text field containing more information about the Document class.",
+        "nl": "[UPDATED] Beschrijving van het Document."
+      },
+      "label": {
+        "en": "description",
+        "nl": "[UPDATED] beschrijving"
+      }
+    },
+    {
+      "name": "description",
+      "EA-Guid": "{AB1E6036-8E1E-4240-A610-2FF6B3833D52}",
+      "definition": {
+        "en": "Text field containing more information about the class Function.",
+        "nl": "[UPDATED] Een meer gedtailleerde beschrijving van de functie."
+      },
+      "label": {
+        "en": "description",
+        "nl": "[UPDATED] beschrijving"
+      }
+    },
+    {
+      "name": "description",
+      "EA-Guid": "{767E63D8-08FC-45e3-8FD0-CA01DA4E5F0B}",
+      "definition": {
+        "en": "Text field containing more information about the Protected Area class.",
+        "nl": "[UPDATED] Beschrijving van het BeschermdGebied."
+      },
+      "label": {
+        "en": "description",
+        "nl": "[UPDATED] beschrijving"
+      }
+    },
+    {
+      "name": "date",
+      "EA-Guid": "{A46FB68D-F943-48ac-B943-B63B769B47CF}",
+      "definition": {
+        "en": "The time when the measurement took place,",
+        "nl": "[UPDATED] Het moment waarop de Opmeting heeft plaatsgevonden"
+      },
+      "label": {
+        "en": "date",
+        "nl": "[UPDATED] datum"
+      }
+    },
+    {
+      "name": "output",
+      "EA-Guid": "{19868C0F-5DAB-45f8-A997-72B8BC4358E7}",
+      "definition": {
+        "en": "Output the result of the activity in the function.",
+        "nl": "[UPDATED] Uitvoer van het resultaat van de activiteit in de functie."
+      },
+      "label": {
+        "en": "output",
+        "nl": "[UPDATED] output"
+      }
+    },
+    {
+      "name": "input",
+      "EA-Guid": "{D0FE6894-3FD4-4ff3-8475-7AD33E5FBBDC}",
+      "definition": {
+        "en": "Input for the activity in the function.",
+        "nl": "[UPDATED] Invoer voor de activiteit in de functie."
+      },
+      "label": {
+        "en": "input",
+        "nl": "[UPDATED] input"
+      }
+    },
+    {
+      "name": "activity",
+      "EA-Guid": "{F70F22E8-22A0-4c24-BBB2-3ECBC29AABCD}",
+      "definition": {
+        "en": "In the context of ActivityComplex containing a Function object, this is about the function description of the ActivityComplex.",
+        "nl": "[UPDATED] Classificatie van de activiteit."
+      },
+      "label": {
+        "en": "activity",
+        "nl": "[UPDATED] activiteit"
+      }
+    },
+    {
+      "name": "uomidentifier",
+      "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
+      "label": {
+        "en": "uomIdentifier",
+        "nl": "[UPDATED] eenheidsidentificator"
+      }
+    },
+    {
+      "name": "value",
+      "EA-Guid": "{C278F0FF-9F4B-496b-8F25-3927000B9D57}",
+      "label": {
+        "en": "value",
+        "nl": "[UPDATED] waarde"
+      }
+    },
+    {
+      "name": "uom",
+      "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
+      "label": {
+        "en": "uom",
+        "nl": "[UPDATED] eenheid"
+      }
+    },
+    {
+      "name": "uom",
+      "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
+      "label": {
+        "en": "uom",
+        "nl": "[UPDATED] eenheid"
+      }
+    }
+  ]
+}
