@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/ce60f9180118c6b1dd283288b0ceb7291af26364",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/ce60f9180118c6b1dd283288b0ceb7291af26364/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/0161578dcb93a127666befd540fcd32ac63c14ed",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/0161578dcb93a127666befd540fcd32ac63c14ed/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -100,9 +100,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting.toebehorentype",
           "name": "appurtenancetype",
-          "sort": "appurtenanceType",
+          "sort": "[UPDATED] appurtenanceType",
           "label": {
-            "en": "appurtenanceType"
+            "en": "[UPDATED] appurtenanceType"
           },
           "description": {
             "en": "Appurtenance classification."
@@ -122,10 +122,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#AppurtenanceTypeValue",
+              "range_uri": "#[UPDATED] AppurtenanceTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "AppurtenanceTypeValue"
+                "en": "[UPDATED] AppurtenanceTypeValue"
               }
             }
           ],
@@ -482,10 +482,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#AnnotationType",
+              "range_uri": "#[UPDATED] AnnotationType",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "AnnotationType"
+                "en": "[UPDATED] AnnotationType"
               }
             }
           ],
@@ -1133,7 +1133,7 @@
             "en": "pipe"
           },
           "description": {
-            "en": "Pipes may contain multiple pipes."
+            "en": "[UPDATED] Pipes may contain multiple pipes."
           },
           "usage": {},
           "domain": [
@@ -1179,7 +1179,7 @@
             "en": "duct"
           },
           "description": {
-            "en": "Channels (channel banks or inner channels) may contain cables."
+            "en": "[UPDATED] Channels (channel banks or inner channels) may contain cables."
           },
           "usage": {},
           "domain": [
@@ -1220,12 +1220,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel",
           "name": "duct|r=cables|'cable",
-          "sort": "Duct|r=cables|'Cable",
+          "sort": "[UPDATED] Duct|r=cables|'Cable",
           "label": {
-            "en": "Duct|r=cables|'Cable"
+            "en": "[UPDATED] Duct|r=cables|'Cable"
           },
           "description": {
-            "en": "Ducts (duct banks, or inner-ducts) may contain cables."
+            "en": "[UPDATED] Ducts (duct banks, or inner-ducts) may contain cables."
           },
           "usage": {},
           "domain": [
@@ -1288,10 +1288,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ContainertypeValue",
+              "range_uri": "#[UPDATED] ContainertypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "ContainertypeValue"
+                "en": "[UPDATED] ContainertypeValue"
               }
             }
           ],
@@ -1422,9 +1422,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
       "name": "Utilitynode",
       "label": {
-        "en": "UtilityNode"
+        "en": "[UPDATED] UtilityNode"
       },
-      "sort": "UtilityNode",
+      "sort": "[UPDATED] UtilityNode",
       "description": {
         "en": "[UPDATED] A spatial point object used for connectivity."
       },
@@ -1466,7 +1466,7 @@
             "en": "visibility"
           },
           "description": {
-            "en": "Indicates the different ways in which the object is observable."
+            "en": "[UPDATED] Indicates the different ways in which the object is observable."
           },
           "usage": {},
           "domain": [
@@ -1483,10 +1483,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#VisibilityTypeValue",
+              "range_uri": "#[UPDATED] VisibilityTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "VisibilityTypeValue"
+                "en": "[UPDATED] VisibilityTypeValue"
               }
             }
           ],
@@ -1514,7 +1514,7 @@
             "en": "appearance"
           },
           "description": {
-            "en": "The way an item looks."
+            "en": "[UPDATED] The way an item looks."
           },
           "usage": {},
           "domain": [
@@ -1562,7 +1562,7 @@
             "en": "risk"
           },
           "description": {
-            "en": "Indicates whether a utility node can be considered hazardous."
+            "en": "[UPDATED] Indicates whether a utility node can be considered hazardous."
           },
           "usage": {},
           "domain": [
@@ -1579,10 +1579,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#RiskTypeValue",
+              "range_uri": "#[UPDATED] RiskTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "RiskTypeValue"
+                "en": "[UPDATED] RiskTypeValue"
               }
             }
           ],
@@ -1608,7 +1608,7 @@
             "en": "orientation"
           },
           "description": {
-            "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object."
+            "en": "[UPDATED] The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object."
           },
           "usage": {},
           "domain": [
@@ -1790,9 +1790,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
       "name": "Utilitynodecontainer",
       "label": {
-        "en": "UtilityNodeContainer"
+        "en": "[UPDATED] UtilityNodeContainer"
       },
-      "sort": "UtilityNodeContainer",
+      "sort": "[UPDATED] UtilityNodeContainer",
       "description": {
         "en": "[UPDATED] A point spatial object which is used for connectivity, and also may contain other spatial objects (not neccessarily belonging to the same utility network)."
       },
@@ -1846,10 +1846,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityNode",
+              "range_uri": "#[UPDATED] UtilityNode",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
               "range_label": {
-                "en": "UtilityNode"
+                "en": "[UPDATED] UtilityNode"
               }
             }
           ],
@@ -1872,7 +1872,7 @@
             "en": "visibility"
           },
           "description": {
-            "en": "Indicates the different ways in which the object is observable."
+            "en": "[UPDATED] Indicates the different ways in which the object is observable."
           },
           "usage": {},
           "domain": [
@@ -1889,10 +1889,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#VisibilityTypeValue",
+              "range_uri": "#[UPDATED] VisibilityTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "VisibilityTypeValue"
+                "en": "[UPDATED] VisibilityTypeValue"
               }
             }
           ],
@@ -1920,7 +1920,7 @@
             "en": "appearance"
           },
           "description": {
-            "en": "The way an object looks."
+            "en": "[UPDATED] The way an object looks."
           },
           "usage": {},
           "domain": [
@@ -1985,10 +1985,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#RiskTypeValue",
+              "range_uri": "#[UPDATED] RiskTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "RiskTypeValue"
+                "en": "[UPDATED] RiskTypeValue"
               }
             }
           ],
@@ -2014,7 +2014,7 @@
             "en": "orientation"
           },
           "description": {
-            "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
+            "en": "[UPDATED] The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
           },
           "usage": {},
           "domain": [
@@ -2343,10 +2343,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Directed link",
+              "range_uri": "#[UPDATED] Directed link",
               "range_puri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
               "range_label": {
-                "en": "Directed link"
+                "en": "[UPDATED] Directed link"
               }
             }
           ],
@@ -2435,10 +2435,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#WarningTypeValue",
+              "range_uri": "#[UPDATED] WarningTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "WarningTypeValue"
+                "en": "[UPDATED] WarningTypeValue"
               }
             }
           ],
@@ -2529,10 +2529,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityDeliveryTypeValue",
+              "range_uri": "#[UPDATED] UtilityDeliveryTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "UtilityDeliveryTypeValue"
+                "en": "[UPDATED] UtilityDeliveryTypeValue"
               }
             }
           ],
@@ -2576,10 +2576,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#MaterialTypeValue",
+              "range_uri": "#[UPDATED] MaterialTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "MaterialTypeValue"
+                "en": "[UPDATED] MaterialTypeValue"
               }
             }
           ],
@@ -2621,10 +2621,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#VisibilityTypeValue",
+              "range_uri": "#[UPDATED] VisibilityTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "VisibilityTypeValue"
+                "en": "[UPDATED] VisibilityTypeValue"
               }
             }
           ],
@@ -2652,7 +2652,7 @@
             "en": "appearance"
           },
           "description": {
-            "en": "The way an object looks."
+            "en": "[UPDATED] The way an object looks."
           },
           "usage": {},
           "domain": [
@@ -2698,7 +2698,7 @@
             "en": "risk"
           },
           "description": {
-            "en": "Indicates whether a utility link set can be considered hazardous."
+            "en": "[UPDATED] Indicates whether a utility link set can be considered hazardous."
           },
           "usage": {},
           "domain": [
@@ -2715,10 +2715,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#RiskTypeValue",
+              "range_uri": "#[UPDATED] RiskTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "RiskTypeValue"
+                "en": "[UPDATED] RiskTypeValue"
               }
             }
           ],
@@ -3071,10 +3071,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ActivityComplex",
+              "range_uri": "#[UPDATED] ActivityComplex",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
               "range_label": {
-                "en": "ActivityComplex"
+                "en": "[UPDATED] ActivityComplex"
               }
             }
           ],
@@ -3158,10 +3158,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UtilityNetworkTypeValue",
+              "range_uri": "#[UPDATED] UtilityNetworkTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "UtilityNetworkTypeValue"
+                "en": "[UPDATED] UtilityNetworkTypeValue"
               }
             }
           ],
@@ -3326,10 +3326,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ConditionOfFacilityValue",
+              "range_uri": "#[UPDATED] ConditionOfFacilityValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "ConditionOfFacilityValue"
+                "en": "[UPDATED] ConditionOfFacilityValue"
               }
             }
           ],
@@ -3504,10 +3504,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#VerticalPositionValue",
+              "range_uri": "#[UPDATED] VerticalPositionValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "VerticalPositionValue"
+                "en": "[UPDATED] VerticalPositionValue"
               }
             }
           ],
@@ -3675,10 +3675,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#OilGasChemicalProductTypeValue",
+              "range_uri": "#[UPDATED] OilGasChemicalProductTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "OilGasChemicalProductTypeValue"
+                "en": "[UPDATED] OilGasChemicalProductTypeValue"
               }
             }
           ],
@@ -4074,10 +4074,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ContainertypeValue",
+              "range_uri": "#[UPDATED] ContainertypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "ContainertypeValue"
+                "en": "[UPDATED] ContainertypeValue"
               }
             }
           ],
@@ -4235,10 +4235,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#SewerWaterTypeValue",
+              "range_uri": "#[UPDATED] SewerWaterTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "SewerWaterTypeValue"
+                "en": "[UPDATED] SewerWaterTypeValue"
               }
             }
           ],
@@ -4313,10 +4313,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#TelecommunicationsCableMaterialTypeValue",
+              "range_uri": "#[UPDATED] TelecommunicationsCableMaterialTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "TelecommunicationsCableMaterialTypeValue"
+                "en": "[UPDATED] TelecommunicationsCableMaterialTypeValue"
               }
             }
           ],
@@ -4391,10 +4391,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ThermalProductTypeValue",
+              "range_uri": "#[UPDATED] ThermalProductTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "ThermalProductTypeValue"
+                "en": "[UPDATED] ThermalProductTypeValue"
               }
             }
           ],
@@ -4562,10 +4562,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#AppurtenanceTypeValue",
+              "range_uri": "#[UPDATED] AppurtenanceTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "AppurtenanceTypeValue"
+                "en": "[UPDATED] AppurtenanceTypeValue"
               }
             }
           ],
@@ -4685,10 +4685,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#TopographicalElementType",
+              "range_uri": "#[UPDATED] TopographicalElementType",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "TopographicalElementType"
+                "en": "[UPDATED] TopographicalElementType"
               }
             }
           ],
@@ -4848,10 +4848,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#WaterTypeValue",
+              "range_uri": "#[UPDATED] WaterTypeValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "WaterTypeValue"
+                "en": "[UPDATED] WaterTypeValue"
               }
             }
           ],
@@ -4874,9 +4874,9 @@
       "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
       "name": "Unitofmeasure",
       "label": {
-        "en": "UnitOfMeasure"
+        "en": "[UPDATED] UnitOfMeasure"
       },
-      "sort": "UnitOfMeasure",
+      "sort": "[UPDATED] UnitOfMeasure",
       "description": {},
       "usage": {},
       "parents": [],
@@ -4940,9 +4940,9 @@
       "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
       "name": "Uomlength",
       "label": {
-        "en": "UomLength"
+        "en": "[UPDATED] UomLength"
       },
-      "sort": "UomLength",
+      "sort": "[UPDATED] UomLength",
       "description": {},
       "usage": {},
       "parents": [
@@ -5038,7 +5038,7 @@
       },
       "sort": "Document",
       "description": {
-        "en": "Attachment in any form for additional information."
+        "en": "[UPDATED] Attachment in any form for additional information."
       },
       "usage": {},
       "parents": [],
@@ -5171,10 +5171,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#DocumentType",
+              "range_uri": "#[UPDATED] DocumentType",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "DocumentType"
+                "en": "[UPDATED] DocumentType"
               }
             }
           ],
@@ -5263,10 +5263,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#DocumentMediaType",
+              "range_uri": "#[UPDATED] DocumentMediaType",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "DocumentMediaType"
+                "en": "[UPDATED] DocumentMediaType"
               }
             }
           ],
@@ -5366,14 +5366,14 @@
       "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
       "name": "Activitycomplex",
       "label": {
-        "en": "ActivityComplex"
+        "en": "[UPDATED] ActivityComplex"
       },
-      "sort": "ActivityComplex",
+      "sort": "[UPDATED] ActivityComplex",
       "description": {
         "en": "[UPDATED] A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n"
       },
       "usage": {
-        "en": "NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive."
+        "en": "[UPDATED] NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive."
       },
       "parents": [],
       "rawTags": {
@@ -5489,12 +5489,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk",
           "name": "innetwork",
-          "sort": "innetwork",
+          "sort": "[UPDATED] innetwork",
           "label": {
-            "en": "innetwork"
+            "en": "[UPDATED] innetwork"
           },
           "description": {
-            "en": "TODO"
+            "en": "[UPDATED] TODO"
           },
           "usage": {},
           "domain": [
@@ -5826,10 +5826,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#InputOutputValue",
+              "range_uri": "#[UPDATED] InputOutputValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "InputOutputValue"
+                "en": "[UPDATED] InputOutputValue"
               }
             }
           ],
@@ -5871,10 +5871,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#InputOutputValue",
+              "range_uri": "#[UPDATED] InputOutputValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "InputOutputValue"
+                "en": "[UPDATED] InputOutputValue"
               }
             }
           ],
@@ -5916,10 +5916,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#EconomicActivityValue",
+              "range_uri": "#[UPDATED] EconomicActivityValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "EconomicActivityValue"
+                "en": "[UPDATED] EconomicActivityValue"
               }
             }
           ],
@@ -6376,7 +6376,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kleur",
       "name": {
-        "en": "colour",
+        "en": "[UPDATED] colour",
         "undefined": "colour"
       },
       "description": {},
@@ -6961,7 +6961,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel",
       "name": {
-        "en": "Duct|r=cables|'Cable",
+        "en": "[UPDATED] Duct|r=cables|'Cable",
         "undefined": "duct|r=cables|'cable"
       },
       "description": {},
@@ -6991,7 +6991,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk",
       "name": {
-        "en": "innetwork",
+        "en": "[UPDATED] innetwork",
         "undefined": "innetwork"
       },
       "description": {},
@@ -7006,7 +7006,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting.toebehorentype",
       "name": {
-        "en": "appurtenanceType",
+        "en": "[UPDATED] appurtenanceType",
         "undefined": "appurtenancetype"
       },
       "description": {},
@@ -7807,10 +7807,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#DirectPosition",
+              "range_uri": "#[UPDATED] DirectPosition",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
               "range_label": {
-                "en": "DirectPosition"
+                "en": "[UPDATED] DirectPosition"
               }
             }
           ],
@@ -7907,10 +7907,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ReferenceSurfaceType",
+              "range_uri": "#[UPDATED] ReferenceSurfaceType",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "ReferenceSurfaceType"
+                "en": "[UPDATED] ReferenceSurfaceType"
               }
             }
           ],
@@ -7958,9 +7958,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kleur",
           "name": "colour",
-          "sort": "colour",
+          "sort": "[UPDATED] colour",
           "label": {
-            "en": "colour"
+            "en": "[UPDATED] colour"
           },
           "description": {
             "en": "[UPDATED] The colour of an item"
@@ -7980,10 +7980,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#ColourValue",
+              "range_uri": "#[UPDATED] ColourValue",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "ColourValue"
+                "en": "[UPDATED] ColourValue"
               }
             }
           ],
@@ -8130,10 +8130,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#DirectPosition",
+              "range_uri": "#[UPDATED] DirectPosition",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
               "range_label": {
-                "en": "DirectPosition"
+                "en": "[UPDATED] DirectPosition"
               }
             }
           ],
@@ -8211,7 +8211,7 @@
       },
       "sort": "Length",
       "description": {
-        "en": "The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
+        "en": "[UPDATED] The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
       },
       "usage": {},
       "parents": [
@@ -8259,10 +8259,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UomLength",
+              "range_uri": "#[UPDATED] UomLength",
               "range_puri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
               "range_label": {
-                "en": "UomLength"
+                "en": "[UPDATED] UomLength"
               }
             }
           ],
@@ -8290,7 +8290,7 @@
       },
       "sort": "Measure",
       "description": {
-        "en": "The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
+        "en": "[UPDATED] The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
       },
       "usage": {
         "en": "A measure is always associated to a unit of measure. Ratio measures where the two base measures are in the same units (often considered unit-less) should be associated to UnitOfMeasure (same meter.sl.meter for map scale) so that conversions to non-unitless ratios can be accomplished (such as miles.sl.inch)"
@@ -8373,10 +8373,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#UnitOfMeasure",
+              "range_uri": "#[UPDATED] UnitOfMeasure",
               "range_puri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
               "range_label": {
-                "en": "UnitOfMeasure"
+                "en": "[UPDATED] UnitOfMeasure"
               }
             }
           ],
@@ -9519,10 +9519,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Measurement",
+              "range_uri": "#[UPDATED] Measurement",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
               "range_label": {
-                "en": "Measurement"
+                "en": "[UPDATED] Measurement"
               }
             }
           ],
@@ -9669,14 +9669,14 @@
       "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
       "name": "Directposition",
       "label": {
-        "en": "DirectPosition"
+        "en": "[UPDATED] DirectPosition"
       },
-      "sort": "DirectPosition",
+      "sort": "[UPDATED] DirectPosition",
       "description": {
         "en": "Holder of the coordinates of a position in a coordinate reference system."
       },
       "usage": {
-        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
+        "en": "[UPDATED] Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       },
       "parents": [],
       "rawTags": {
@@ -9719,10 +9719,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Measurement",
+              "range_uri": "#[UPDATED] Measurement",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
               "range_label": {
-                "en": "Measurement"
+                "en": "[UPDATED] Measurement"
               }
             }
           ],
@@ -9847,9 +9847,9 @@
       "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
       "name": "Measurement",
       "label": {
-        "en": "Measurement"
+        "en": "[UPDATED] Measurement"
       },
-      "sort": "Measurement",
+      "sort": "[UPDATED] Measurement",
       "description": {
         "en": "Determining the exact size of something by measuring it."
       },
@@ -9983,10 +9983,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#MethodOfMeasurement",
+              "range_uri": "#[UPDATED] MethodOfMeasurement",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "MethodOfMeasurement"
+                "en": "[UPDATED] MethodOfMeasurement"
               }
             }
           ],
@@ -10056,9 +10056,9 @@
       "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
       "name": "DirectedLink",
       "label": {
-        "en": "Directed link"
+        "en": "[UPDATED] Directed link"
       },
-      "sort": "Directed link",
+      "sort": "[UPDATED] Directed link",
       "description": {
         "en": "A link either in its positive or negative direction."
       },
