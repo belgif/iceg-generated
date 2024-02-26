@@ -5399,80 +5399,6 @@
             "maxCardinality": "1"
         },
         {
-            "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#overheidsdienstreferentie",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "",
-            "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "TODO"
-            },
-            "extra": {
-                "EA-Name": "overheidsdienstreferentie",
-                "EA-Guid": "{74E9CE28-3C3F-4790-93FE-318D9CD6E326}",
-                "EA-Package": "IMKL-LD",
-                "EA-Type": "attribute",
-                "EA-Domain": "Nutsvoorzieningnetwerkelement",
-                "EA-Domain-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
-                "EA-Range": "EconomischeActiviteittype",
-                "RangeData": {
-                    "EA-Name": "EconomischeActiviteittype",
-                    "EA-GUID": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
-                    "EA-Package": "IMKL-LD",
-                    "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-                },
-                "label": "",
-                "definition": "",
-                "usage": "",
-                "ap-label-en": "",
-                "ap-definition-en": {
-                    "en": "TODO"
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-nl",
-                        "value": "overheidsdienstreferentie",
-                        "note": "null"
-                    },
-                    {
-                        "key": "ap-label-nl",
-                        "value": "overheidsdienstreferentie",
-                        "note": "null"
-                    },
-                    {
-                        "key": "ap-definition-nl",
-                        "value": "Verwijzing naar een PubliekeDientsverlening waarop het element betrekking heeft.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Verwijzing naar een PubliekeDientsverlening waarop het element betrekking heeft.",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "FULL_DEFINITON"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
-                    "EA-Name": "Nutsvoorzieningnetwerkelement"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "EconomischeActiviteittype",
-                    "EA-GUID": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
-                    "EA-Package": "IMKL-LD",
-                    "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "0",
-            "maxCardinality": "1"
-        },
-        {
             "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "oilGasChemicalsProductType",
@@ -25552,12 +25478,12 @@
     "config": "config/config-ap.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "007",
+    "dummy": "008",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "9e9f4f22b888e3e57b3cd1be81805c4f18362646",
-    "toolchaincommit": "1de6f5c270746c587ee74bb819a61ed603319c84",
+    "documentcommit": "f11705646137e92ec56eaf14833560647bac6c4a",
+    "toolchaincommit": "3d31c3bc83ca3279f9d63e4570f550bb10f3fca0",
     "hostname": "https://belgif.github.io/"
 }
