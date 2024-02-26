@@ -119,6 +119,11 @@
     "Meeteenheid": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
     "Netwerk": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
     "Nutsvoorzieningknoop": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
+    "Nutsvoorzieningknoop.inNetwerk": {
+      "@container": "@set",
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "@type": "@id"
+    },
     "Nutsvoorzieningknoop.orientatie": {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.orientatie",
       "@type": "@id"
@@ -154,16 +159,31 @@
     },
     "Nutsvoorzieningleveringstype": "http://www.w3.org/2004/02/skos/core#Concept",
     "Nutsvoorzieninglink": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink",
+    "Nutsvoorzieninglink.inNetwerk": {
+      "@container": "@set",
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "@type": "@id"
+    },
     "Nutsvoorzieninglinksequentie": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinksequentie",
     "Nutsvoorzieninglinksequentie.^link": {
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link",
       "@type": "@id"
     },
+    "Nutsvoorzieninglinksequentie.inNetwerk": {
+      "@container": "@set",
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "@type": "@id"
+    },
     "Nutsvoorzieninglinkset": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset",
     "Nutsvoorzieninglinkset.^link": {
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/netwerk#Linkset.link",
+      "@type": "@id"
+    },
+    "Nutsvoorzieninglinkset.inNetwerk": {
+      "@container": "@set",
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
       "@type": "@id"
     },
     "Nutsvoorzieninglinkset.risico": {
@@ -543,6 +563,10 @@
     "output": {
       "@container": "@set",
       "@id": "http://fixme.com#output",
+      "@type": "@id"
+    },
+    "overheidsdienstreferentie": {
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#overheidsdienstreferentie",
       "@type": "@id"
     },
     "paalhoogte": {

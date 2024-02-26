@@ -21,7 +21,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A short explanation or note added to a text or image, or the act of adding short explanations or notes.",
+        "en": "A short explanation or note added to an Object.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -31,13 +31,13 @@
     },
     {
       "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
-      "name": "Protectedarea",
+      "name": "ProtectedArea",
       "label": {
-        "en": "ProtectedArea",
+        "en": "Protected Area",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Object designating an area or zone where no digging is allowed.",
+        "en": "Area where digging is not allowed.",
         "de": "Enter your translation here"
       }
     },
@@ -47,17 +47,21 @@
       "label": {
         "en": "Depth",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Vertical Position below the Reference Surface.",
+        "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
-      "name": "Electricitycable",
+      "name": "ElectricityCable",
       "label": {
-        "en": "ElectricityCable",
+        "en": "Electricity Cable",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A utility link or link sequence used to convey electricity from one location to another.",
+        "en": "A Cable used to transport electricity from one location to another.",
         "de": "Enter your translation here"
       }
     },
@@ -66,6 +70,10 @@
       "name": "Height",
       "label": {
         "en": "Height",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Vertical Position above the Reference Surface.",
         "de": "Enter your translation here"
       }
     },
@@ -77,7 +85,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A utility link or link sequence used to convey electricity or data from one location to another.",
+        "en": "A Utility LinkSet used to transmit electricity or data from one location to another.",
         "de": "Enter your translation here"
       }
     },
@@ -97,7 +105,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A utility link or link sequence used to protect and guide cable and pipes via an encasing construction.",
+        "en": "A Utility LinkSet used to protect and route cables and pipes through an enclosing structure.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -113,7 +121,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple cabinet object which may carry utility objects belonging to either single or multiple utility networks.",
+        "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -127,6 +135,10 @@
       "label": {
         "en": "Dimension",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Type of Annotation that indicates the size of an Object.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -137,7 +149,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple container object which may contain either single or multiple utility networks objects.\n",
+        "en": "Simple container object which may contain either single or multiple utility networks objects.Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -147,61 +159,65 @@
     },
     {
       "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
-      "name": "Utilitynode",
+      "name": "UtilityNode",
       "label": {
-        "en": "UtilityNode",
+        "en": "Utility Node",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A spatial point object used for connectivity.",
+        "en": "Point-shaped spatial object that plays an important role in a Utility Network.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
-      "name": "Utilitynodecontainer",
+      "name": "UtilityNodeContainer",
       "label": {
-        "en": "UtilityNodeContainer",
+        "en": "Utility Node Container",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A point spatial object which is used for connectivity, and also may contain other spatial objects (not neccessarily belonging to the same utility network).",
+        "en": "Point shaped UtilityNetworkElement, potential carrier of Utility Nodes.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Nodes are found at either end of the UtilityLink.\n",
+        "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.\n",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
-      "name": "Utilitylink",
+      "name": "UtilityLink",
       "label": {
-        "en": "UtilityLink",
+        "en": "Utility Link",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A linear spatial object that describes the geometry and connectivity of a utility network between two points in the network.",
+        "en": "A linear spatial object that describes the geometry and connectivity between two points in a Utility Network.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
-      "name": "Utilitylinksequence",
+      "name": "UtilityLinksequence",
       "label": {
-        "en": "UtilityLinkSequence",
+        "en": "Utility LinkSequence",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A linear spatial object, composed of an ordered collection of utility links, which represents a continuous path in the utility network without any branches. The element has a defined beginning and end and every position on the utility link sequence is identifiable with one single parameter.",
+        "en": "An unbranched continuous path in the Utility Network.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the LinkSequence is composed of Directed Links.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
-      "name": "Utilitylinkset",
+      "name": "UtilityLinkset",
       "label": {
-        "en": "UtilityLinkSet",
+        "en": "Utility LinkSet",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -215,25 +231,25 @@
     },
     {
       "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
-      "name": "Utilitynetwork",
+      "name": "UtilityNetwork",
       "label": {
-        "en": "UtilityNetwork",
+        "en": "Utility Network",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Collection of network elements that belong to a single type of utility network.",
+        "en": "Collection of network elements of one type of utility service.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "In the real world, objects are connected to each other: an optical cable is connected to a multiplexer that in turn is connected to copper cables connecting into our homes to provide cable TV, telephony and internet access. Using GIS to support network utility management typically involves many types of features that may have connectivity to each other. Topology in GIS is generally defined as the spatial relationship between connecting or adjacent features, and is an essential prerequisite for many spatial operations such as network analysis. Utility networks can be described as NaN (Node-Arc-Node) network using two basic geometric types: points (aka nodes) and polylines (aka arcs). NaN topologies can be directed or un-directed, depending on specific type of network (i.e. water networks are directed, while telecommunications networks are not). Such topology structure provides an automated way to handle digitising and editing errors, and enable advanced spatial analyses such as adjacency, connectivity and containment. Infrastructure networks rely on Generic network model developed during Annex I.\n",
+        "en": "For example, an electricity network, a sewerage network, a gas network. The network elements in question are, for example, the elements of the network of an internet provider: optical cables arriving in cabinets on the street via multiplexers connected to copper cables to the homes in that street.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
-      "name": "Utilitynetworkelement",
+      "name": "UtilityNetworkelement",
       "label": {
-        "en": "UtilityNetworkElement",
+        "en": "Utility NetworkElement",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -241,15 +257,15 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "NOTE Derived 'views' of real-world utility objects are represented through specialisations in other application schemas; all representations of the same real-world object share a common geographic name.\n",
+        "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).\n",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
-      "name": "Oilgaschemicalpipe",
+      "name": "OilGasChemicalsPipe",
       "label": {
-        "en": "OilGasChemicalPipe",
+        "en": "Oil Gas Chemicals Pipe",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -265,11 +281,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple pole (mast) object which may carry utility objects belonging to either single or multiple utility networks.\n",
+        "en": "Simple UtilityNodeContainer that takes the shape of a pole.\n",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Poles represent node objects that can support utility devices and cables.",
+        "en": "Typical carrier of mountable Appurtenances and Cables.",
         "de": "Enter your translation here"
       }
     },
@@ -281,7 +297,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A utility link or link sequence for the conveyance of solids, liquids, chemicals or gases from one location to another.\n",
+        "en": "A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another.\n",
         "de": "Enter your translation here"
       }
     },
@@ -293,27 +309,31 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Object that displays additional information about one or more utility network elements via additional files.",
+        "en": "Drawing showing the parts or details of something.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
-      "name": "Referencesurface",
+      "name": "ReferenceSurface",
       "label": {
-        "en": "ReferenceSurface",
+        "en": "Reference Surface",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The ground surface,whose height is often specified relative to a national zero level.",
+        "en": "Surface relative to which a position is measured.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "In this context typically the ground level.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
-      "name": "Sewerpipe",
+      "name": "SewerPipe",
       "label": {
-        "en": "SewerPipe",
+        "en": "Sewer Pipe",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -323,21 +343,21 @@
     },
     {
       "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
-      "name": "Telecommunicationscable",
+      "name": "TelecommunicationsCable",
       "label": {
-        "en": "TelecommunicationsCable",
+        "en": "Telecommunications Cable",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another.",
+        "en": "A Utility Link or LinkSequence used to convey data signals (PSTN, radio or computer) from one location to another.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
-      "name": "Thermalpipe",
+      "name": "ThermalPipe",
       "label": {
-        "en": "ThermalPipe",
+        "en": "Thermal Pipe",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -353,19 +373,23 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "An appurtenance is a node object that is described by its type (via the attribute \"appurtenanceType\")",
+        "en": "Physical point-shaped part of the UtilityNetwork.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the UtilityNodeContainer). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
-      "name": "Topographicalelement",
+      "name": "TopographicalElement",
       "label": {
-        "en": "TopographicalElement",
+        "en": "Topographical Element",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Object that can provide additional topographical information about part or all of a utility network.",
+        "en": "Part of the description of the shape and features of the earth's surface.",
         "de": "Enter your translation here"
       }
     },
@@ -377,11 +401,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple tower object which may carry utility objects belonging to either single or multiple utility networks.",
+        "en": "Simple UtilityNodeContainer that takes the shape of a Tower.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Towers represent node objects that support reservoirs, cables or antennas.",
+        "en": "Typical carrier of mountable Appurtenances and Cables.",
         "de": "Enter your translation here"
       }
     },
@@ -393,23 +417,27 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The way an item looks",
+        "en": "The way an item looks.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
-      "name": "Verticalposition",
+      "name": "VerticalPosition",
       "label": {
-        "en": "verticalPosition",
+        "en": "Vertical Position",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Position in vertical direction relative to a Reference Surface.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
-      "name": "Waterpipe",
+      "name": "WaterPipe",
       "label": {
-        "en": "WaterPipe",
+        "en": "Water Pipe",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -421,69 +449,73 @@
   "properties": [
     {
       "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
-      "name": "operatingvoltage",
+      "name": "operatingVoltage",
       "label": {
-        "en": "operatingVoltage",
+        "en": "operating voltage",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The utilization or operating voltage by the equipment using the electricity.",
+        "en": "Voltage during load.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
-      "name": "watertype",
+      "name": "waterType",
       "label": {
-        "en": "waterType",
+        "en": "water type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Type of water",
+        "en": "Type of water.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
-      "name": "warningtype",
+      "name": "warningType",
       "label": {
-        "en": "warningType",
+        "en": "warning type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Kind of overground visible warning mechanism used to indicate an underground utility network element.",
+        "en": "Way to alert for the presence of the LinkSet.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
-      "name": "verticalpositiondetail",
+      "name": "verticalPositionDetail",
       "label": {
-        "en": "verticalPositiondetail",
+        "en": "vertical position detail",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. depth.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
-      "name": "towerheight",
+      "name": "towerHeight",
       "label": {
-        "en": "towerHeight",
+        "en": "tower height",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Total heigt of the tower.",
+        "en": "Total heigt of the Tower.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
-      "name": "thermalproducttype",
+      "name": "thermalProductType",
       "label": {
-        "en": "thermalProductType",
+        "en": "thermal product type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The type of thermal product that is conveyed through the thermal pipe.",
+        "en": "The type of thermal product transported through the Thermal Pipe.",
         "de": "Enter your translation here"
       }
     },
@@ -495,19 +527,19 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The maximum temperature of the content in the pipe.",
+        "en": "The maximum allowable temperature of the contents of the Pipe.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
-      "name": "telecommunicationscablematerialtype",
+      "name": "telecommunicationsCableMaterialType",
       "label": {
-        "en": "telecommunicationsCableMaterialType",
+        "en": "telecommunications cable material type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Type of cable material",
+        "en": "Type of cable material.",
         "de": "Enter your translation here"
       }
     },
@@ -519,67 +551,99 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Actual information displayed.",
+        "en": "Text of the Annotation.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. the size in the case of a Dimension.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
-      "name": "technicalspecification",
+      "name": "technicalSpecification",
       "label": {
-        "en": "technicalSpecification",
+        "en": "technical specification",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Further specification of the LinkSet.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "For example, 4g10 to specify 4-core cable with a 10mm diameter",
+        "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
-      "name": "standardverticalpositiondetail",
+      "name": "standardVerticalPositionDetail",
       "label": {
-        "en": "standardVerticalPositiondetail",
+        "en": "standard vertical position detail",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Default Vertical Position of elements in the network.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. the default Depth at which the elements are located.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
-      "name": "rotationangle",
+      "name": "rotationAngle",
       "label": {
-        "en": "rotationAngle",
+        "en": "rotation angle",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Angle by which the Annotation should be rotated when displayed.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
-      "name": "sewerwatertype",
+      "name": "sewerWaterType",
       "label": {
-        "en": "sewerWaterType",
+        "en": "sewer water type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Type of sewer water",
+        "en": "Type of sewer water.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
-      "name": "referencesurface",
+      "name": "referenceSurface",
       "label": {
-        "en": "referenceSurface",
+        "en": "reference surface",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Reference to the Reference Surface.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, the ground level.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
-      "name": "pipediameter",
+      "name": "pipeDiameter",
       "label": {
-        "en": "pipeDiameter",
+        "en": "pipe diameter",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Pipe outer diameter",
+        "en": "Outer diameter of the Pipe.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -589,21 +653,25 @@
     },
     {
       "EA-Guid": "{AB08957F-2B69-41d5-9AA0-0236F59F1144}",
-      "name": "poleheight",
+      "name": "poleHeight",
       "label": {
-        "en": "poleHeight",
+        "en": "pole height",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The height of the Pole",
+        "en": "The height of the Pole.",
         "de": "Enter your translation here"
       }
     },
     {
+      "EA-Guid": "{74E9CE28-3C3F-4790-93FE-318D9CD6E326}",
+      "name": ""
+    },
+    {
       "EA-Guid": "{3D899D97-F9FB-4713-AF79-B35E4B6E73FF}",
-      "name": "oilgaschemicalproducttype",
+      "name": "oilGasChemicalsProductType",
       "label": {
-        "en": "oilGasChemicalProductType",
+        "en": "oil gas chemicals product type",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -613,37 +681,37 @@
     },
     {
       "EA-Guid": "{4E6C7DB7-08AF-4e6b-B569-1F5E04CE754F}",
-      "name": "utilitydeliverytype",
+      "name": "utilityDeliveryType",
       "label": {
-        "en": "utilityDeliveryType",
+        "en": "utility delivery type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Kind of utility network e.g. transport, distribution, collection",
+        "en": "Way in which the utility is delivered.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{D80FB65E-9810-4c90-B645-6A15AA20DE7E}",
-      "name": "nominalvoltage",
+      "name": "nominalVoltage",
       "label": {
-        "en": "nominalVoltage",
+        "en": "nominal voltage",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The nominal system voltage at the point of supply.",
+        "en": "Voltage without load.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{B9624384-8209-495b-BBB1-6A46F5ED0B94}",
-      "name": "utilitynetwork|r=network|'utilitynetwork",
+      "name": "network",
       "label": {
-        "en": "UtilityNetwork|r=network|'UtilityNetwork",
+        "en": "network",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A utility network may consist of several utility networks.",
+        "en": "Utility Network associated with the Utility Network.",
         "de": "Enter your translation here"
       }
     },
@@ -655,51 +723,55 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The correctness of the Measurement",
+        "en": "The Positional Accuracy of the Survey.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{68620BC6-B294-4fb0-99E7-81111B70A9AF}",
-      "name": "materialtype",
+      "name": "materialType",
       "label": {
-        "en": "materialType",
+        "en": "material type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of material used for utility link set.",
+        "en": "Type of material that makes up the LinkSet.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{46331986-D10E-4bda-9CAF-30970AE00D3B}",
-      "name": "utilitynodecontainer|r=node|'utilitynode",
+      "name": "node",
       "label": {
-        "en": "UtilityNodeContainer|r=node|'UtilityNode",
+        "en": "node",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Utility Node that is contained by the UtilityNodeContainer.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{320A079D-1C70-465e-85DA-E31BE1A1DD0D}",
-      "name": "colour",
+      "name": "color",
       "label": {
-        "en": "colour",
+        "en": "color",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The colour of an item",
+        "en": "The color of the object.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{CF953F89-815C-4736-9F26-C63AB01A7040}",
-      "name": "ductwidth",
+      "name": "ductWidth",
       "label": {
-        "en": "ductWidth",
+        "en": "duct width",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The width of the duct",
+        "en": "Width of the Duct.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -709,49 +781,97 @@
     },
     {
       "EA-Guid": "{D1E13FF4-FCAA-4046-BCFC-A7B0D1C3B0FA}",
-      "name": "cablediameter",
+      "name": "cableDiameter",
       "label": {
-        "en": "cableDiameter",
+        "en": "cable diameter",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The diameter of the Cable",
+        "en": "Diameter of the Cable.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B7EE7353-0C10-44a0-9E23-C788317104BB}",
+      "name": "inNetwork",
+      "label": {
+        "en": "in network",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Utility Network to which the element belongs.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{00B84534-2965-4e6f-9B62-64AE34F23F96}",
+      "name": "inNetwork",
+      "label": {
+        "en": "in network",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Utility Network to which the element belongs.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6866C6BE-1FE0-45f8-8AF2-34549BD88BC0}",
+      "name": "inNetwork",
+      "label": {
+        "en": "in network",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Utility Network to which the element belongs.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8AEBDD8E-DAB5-4601-A4EC-2A4AFAD88140}",
+      "name": "inNetwork",
+      "label": {
+        "en": "in network",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Utility Network to which the element belongs.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{620BDA84-47A6-4539-A478-BD9784B7D738}",
-      "name": "currentstatus",
+      "name": "currentStatus",
       "label": {
-        "en": "currentStatus",
+        "en": "current status",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The status of an utility object with regards to its completion and use.",
+        "en": "The status of the element with respect to its completion and use.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
-      "name": "validfrom",
+      "name": "validFrom",
       "label": {
-        "en": "validFrom",
+        "en": "valid from",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The time when the utility network element started to exist in the real world.",
+        "en": "The time when the Utility NetworkElement started to exist in the real world.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
-      "name": "validto",
+      "name": "validTo",
       "label": {
-        "en": "validTo",
+        "en": "valid to",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The time from which the utility network element no longer exists in the real world.",
+        "en": "The time from which the Utility NetworkElement no longer exists in the real world.",
         "de": "Enter your translation here"
       }
     },
@@ -763,19 +883,23 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Collection of annotation parts.",
+        "en": "Annotation of which the Annotation is a part.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. the Dimension to which the dimension line belongs.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{F7F51210-A7F4-4437-9BDF-7C629E2F219C}",
-      "name": "associatedwith",
+      "name": "associatedWith",
       "label": {
-        "en": "associatedWith",
+        "en": "associated with",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Object to which the annotation refers.",
+        "en": "Object to which the Annotation refers.",
         "de": "Enter your translation here"
       }
     },
@@ -799,7 +923,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "TODO",
+        "en": "UtilityNetworkElement belonging to the network.",
         "de": "Enter your translation here"
       }
     },
@@ -811,11 +935,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The maximum allowable operating pressure at which a product is conveyed through a pipe.",
+        "en": "The maximum allowable operating pressure at which a product is transported through a Pipe.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "The unit of measure for pressure is commonly expressed in 'bar'.",
+        "en": "The unit of measurement for pressure is usually expressed in 'bar'.",
         "de": "Enter your translation here"
       }
     },
@@ -849,6 +973,10 @@
       "label": {
         "en": "depth",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Distance below the Reference Surface.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -859,19 +987,23 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Part of an annotation in a larger whole.",
+        "en": "Annotation that is part of the Annotation.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
-      "name": "authorityrole",
+      "name": "authorityRole",
       "label": {
-        "en": "authorityRole",
+        "en": "authority role",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Parties authorized to manage a utility network, such as maintainers, operators or owners.",
+        "en": "Parties authorized to manage, operate or own the Utility Network.",
         "de": "Enter your translation here"
       }
     },
@@ -881,25 +1013,33 @@
       "label": {
         "en": "distance",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The Vertical Position as distance from the Reference Surface.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, the distance from ground level.",
+        "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{9F470422-C6B3-4c74-BC4E-860AF8AD44E7}",
-      "name": "adres",
+      "name": "adress",
       "label": {
-        "en": "adres",
+        "en": "adress",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Identification of a place by street, number and municipality.",
+        "en": "Address of the Connection.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
-      "name": "activitycomplexreference",
+      "name": "activityComplexReference",
       "label": {
-        "en": "activitycomplexreference",
+        "en": "activity complex reference",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -915,35 +1055,51 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "String used to uniquely identify the object.",
+        "en": "Element identifier.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
-      "name": "geographicalname",
+      "name": "geographicalName",
       "label": {
-        "en": "geographicalName",
+        "en": "geographical name",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Name by which the network is known.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
-      "name": "verticalposition",
+      "name": "verticalPosition",
       "label": {
-        "en": "verticalPosition",
+        "en": "vertical position",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The Vertical Position as a position in a vertical coordinate system.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, in Belgium the z-coordinate in TAW.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{D0CCE6E4-1ACB-424b-A647-35AB3C9294FE}",
-      "name": "verticalposition",
+      "name": "verticalPosition",
       "label": {
-        "en": "verticalPosition",
+        "en": "vertical position",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Vertical measure upwards from the ground surface of the reference surface.",
+        "en": "The Vertical Position of the ReferenceSurface as position in a vertical coordinate system.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Typical the groundlevel.",
         "de": "Enter your translation here"
       }
     },
@@ -955,35 +1111,43 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of a pipe according to the thematic domain they belong to.",
+        "en": "Classification of the Pipe according to the thematic domain to which it belongs.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
-      "name": "pijp",
+      "name": "pipe",
       "label": {
-        "en": "pijp",
+        "en": "pipe",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Other Pipe located in the Pipe.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
-      "name": "pipe|r=cables|'cable",
+      "name": "cable",
       "label": {
-        "en": "Pipe|r=cables|'Cable",
+        "en": "cable",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Cable located in the Pipe.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{BEBD754F-44EA-46ce-96B8-6AE3DF508400}",
-      "name": "recordedby",
+      "name": "recordedBy",
       "label": {
-        "en": "recordedBy",
+        "en": "recorded by",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Agent who performed the Survey.",
+        "en": "Agent who carried out the Survey.",
         "de": "Enter your translation here"
       }
     },
@@ -995,27 +1159,35 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Type of method used.",
+        "en": "Type of the method used.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
-      "name": "verticalposition",
+      "name": "verticalPosition",
       "label": {
-        "en": "verticalPosition",
+        "en": "vertical position",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "General indication of the Vertical Position of the element.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. underground, above ground.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
-      "name": "innetwork",
+      "name": "inNetwork",
       "label": {
-        "en": "inNetwork",
+        "en": "in network",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "TODO",
+        "en": "Utility Network to which the element belongs.",
         "de": "Enter your translation here"
       }
     },
@@ -1027,7 +1199,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Indicates the different ways in which the object is observable.",
+        "en": "Extent to which the LinkSet is observable.",
         "de": "Enter your translation here"
       }
     },
@@ -1039,7 +1211,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The way an object looks.",
+        "en": "Appearance of the LinkSet.",
         "de": "Enter your translation here"
       }
     },
@@ -1051,7 +1223,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Indicates whether a utility link set can be considered hazardous.",
+        "en": "Indicates whether the LinkSet can be considered hazardous.",
         "de": "Enter your translation here"
       }
     },
@@ -1063,7 +1235,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Indicates the different ways in which the object is observable.",
+        "en": "Extent to which the container is observable.",
         "de": "Enter your translation here"
       }
     },
@@ -1075,7 +1247,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The way an object looks.",
+        "en": "Appearance of the container.",
         "de": "Enter your translation here"
       }
     },
@@ -1087,7 +1259,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Indicates whether a utility node container can be considered hazardous.",
+        "en": "Indicates whether a UtilityNodeContainer can be considered hazardous.",
         "de": "Enter your translation here"
       }
     },
@@ -1111,7 +1283,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Indicates the different ways in which the object is observable.",
+        "en": "Extent to which the Node is observable.",
         "de": "Enter your translation here"
       }
     },
@@ -1123,7 +1295,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The way an item looks.",
+        "en": "Appearance of the Node.",
         "de": "Enter your translation here"
       }
     },
@@ -1135,7 +1307,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Indicates whether a utility node can be considered hazardous.",
+        "en": "Indicates whether the Node can be considered hazardous.",
         "de": "Enter your translation here"
       }
     },
@@ -1147,7 +1319,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node object.",
+        "en": "Angle by which the symbol representing the Node on map should be rotated.",
         "de": "Enter your translation here"
       }
     },
@@ -1159,7 +1331,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Pipes may contain multiple pipes.",
+        "en": "Pipe located in the Duct.",
         "de": "Enter your translation here"
       }
     },
@@ -1171,19 +1343,19 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Channels (channel banks or inner channels) may contain cables.",
+        "en": "Duct located in the Duct.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
-      "name": "duct|r=cables|'cable",
+      "name": "cable",
       "label": {
-        "en": "Duct|r=cables|'Cable",
+        "en": "cable",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Ducts (duct banks, or inner-ducts) may contain cables.",
+        "en": "Cable located in the Duct.",
         "de": "Enter your translation here"
       }
     },
@@ -1195,27 +1367,27 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
+        "en": "Classification of the Pipe according to the thematic domain to which it belongs.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
-      "name": "innetwork",
+      "name": "inNetwork",
       "label": {
-        "en": "innetwork",
+        "en": "in network",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "TODO",
+        "en": "Utility Network to which the ActivityComplex belongs.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{8FBCB721-4DB1-47f4-9694-E06978259957}",
-      "name": "appurtenancetype",
+      "name": "appurtenanceType",
       "label": {
-        "en": "appurtenanceType",
+        "en": "appurtenance type",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1315,21 +1487,21 @@
     },
     {
       "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
-      "name": "Containertypevalue",
+      "name": "ContainerTypeValue",
       "label": {
-        "en": "ContainertypeValue",
+        "en": "Container Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Kind of container",
+        "en": "Kind of container.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{8B274381-D55D-4519-AAC1-D795D69B5003}",
-      "name": "Visibilitytypevalue",
+      "name": "VisibilityTypeValue",
       "label": {
-        "en": "VisibilityTypeValue",
+        "en": "Visibility Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1339,9 +1511,9 @@
     },
     {
       "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
-      "name": "Risktypevalue",
+      "name": "RiskTypeValue",
       "label": {
-        "en": "RiskTypeValue",
+        "en": "Risk Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1351,21 +1523,21 @@
     },
     {
       "EA-Guid": "{D8B48467-825B-4904-B96D-99B05F82D1E7}",
-      "name": "Colourvalue",
+      "name": "ColorValue",
       "label": {
-        "en": "ColourValue",
+        "en": "Color Value",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Colour of the element.",
+        "en": "Color of the element.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
-      "name": "Materialtypevalue",
+      "name": "MaterialTypeValue",
       "label": {
-        "en": "MaterialTypeValue",
+        "en": "Material Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1375,9 +1547,9 @@
     },
     {
       "EA-Guid": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
-      "name": "Subthemevalue",
+      "name": "SubthemeValue",
       "label": {
-        "en": "SubthemeValue",
+        "en": "Subtheme Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1387,9 +1559,9 @@
     },
     {
       "EA-Guid": "{216EAE99-067D-42f0-896F-0497F500AF65}",
-      "name": "Utilitynetworktypevalue",
+      "name": "UtilityNetworkTypeValue",
       "label": {
-        "en": "UtilityNetworkTypeValue",
+        "en": "Utility Network Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1399,9 +1571,9 @@
     },
     {
       "EA-Guid": "{AD6B4EE2-398B-4a03-BDA1-AF15D5EC8843}",
-      "name": "Conditionoffacilityvalue",
+      "name": "ConditionOfFacilityValue",
       "label": {
-        "en": "ConditionOfFacilityValue",
+        "en": "Condition of Facility Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1411,17 +1583,17 @@
     },
     {
       "EA-Guid": "{75E41100-4B17-4450-A30D-9B65EF8E95C9}",
-      "name": "Verticalpositionvalue",
+      "name": "VerticalPositionValue",
       "label": {
-        "en": "VerticalPositionValue",
+        "en": "Vertical Position Value",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
-      "name": "Utilitydeliverytypevalue",
+      "name": "UtilityDeliveryTypeValue",
       "label": {
-        "en": "UtilityDeliveryTypeValue",
+        "en": "Utility Delivery Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1431,9 +1603,9 @@
     },
     {
       "EA-Guid": "{9D3B762F-D306-436c-AF88-A6BB81CDA763}",
-      "name": "Warningtypevalue",
+      "name": "WarningTypeValue",
       "label": {
-        "en": "WarningTypeValue",
+        "en": "Warning Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1443,9 +1615,9 @@
     },
     {
       "EA-Guid": "{4993E731-18FC-455f-8679-DC8F668B04E2}",
-      "name": "Telecommunicationscablematerialtypevalue",
+      "name": "TelecommunicationsCableMaterialTypeValue",
       "label": {
-        "en": "TelecommunicationsCableMaterialTypeValue",
+        "en": "Telecommunications Cable Material Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1455,9 +1627,9 @@
     },
     {
       "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
-      "name": "Oilgaschemicalproducttypevalue",
+      "name": "OilGasChemicalProductTypeValue",
       "label": {
-        "en": "OilGasChemicalProductTypeValue",
+        "en": "Oil Gas Chemical Product Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1467,9 +1639,9 @@
     },
     {
       "EA-Guid": "{6E79C43A-E2A6-40ce-8B1B-731472FC1FCB}",
-      "name": "Sewerwatertypevalue",
+      "name": "SewerWaterTypeValue",
       "label": {
-        "en": "SewerWaterTypeValue",
+        "en": "Sewer Water Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1479,9 +1651,9 @@
     },
     {
       "EA-Guid": "{979037AB-2661-43c1-84E1-F12623E177FE}",
-      "name": "Watertypevalue",
+      "name": "WaterTypeValue",
       "label": {
-        "en": "WaterTypeValue",
+        "en": "Water Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1491,9 +1663,9 @@
     },
     {
       "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
-      "name": "Thermalproducttypevalue",
+      "name": "ThermalProductTypeValue",
       "label": {
-        "en": "ThermalProductTypeValue",
+        "en": "Thermal Product Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1511,9 +1683,9 @@
     },
     {
       "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
-      "name": "Appurtenancetypevalue",
+      "name": "AppurtenanceTypeValue",
       "label": {
-        "en": "AppurtenanceTypeValue",
+        "en": "Appurtenance Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1523,9 +1695,9 @@
     },
     {
       "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
-      "name": "Economicactivityvalue",
+      "name": "EconomicActivityValue",
       "label": {
-        "en": "EconomicActivityValue",
+        "en": "Economic Activity Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1535,9 +1707,9 @@
     },
     {
       "EA-Guid": "{6D0DD9F7-83BC-4aa8-93A3-14BA50E9078F}",
-      "name": "Inputoutputvalue",
+      "name": "InputOutputValue",
       "label": {
-        "en": "InputOutputValue",
+        "en": "Input Output Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1547,21 +1719,21 @@
     },
     {
       "EA-Guid": "{923B5591-8826-4e70-8DCD-E88CB85A974E}",
-      "name": "Annotationtype",
+      "name": "AnnotationType",
       "label": {
-        "en": "AnnotationType",
+        "en": "Annotation Type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Kind of annotation",
+        "en": "Kind of annotation.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
-      "name": "Topographicalelementtype",
+      "name": "TopographicalElementType",
       "label": {
-        "en": "TopographicalElementType",
+        "en": "Topographical Element Type",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1571,21 +1743,21 @@
     },
     {
       "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
-      "name": "Documentmediatype",
+      "name": "DocumentMediatype",
       "label": {
-        "en": "DocumentMediaType",
+        "en": "Document Mediatype",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Kind of document medium.",
+        "en": "Document mediatype.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{97C446AC-1E38-4007-A6B7-478C220DE467}",
-      "name": "Documenttype",
+      "name": "DocumentType",
       "label": {
-        "en": "DocumentType",
+        "en": "Document Type",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1595,9 +1767,9 @@
     },
     {
       "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
-      "name": "Referencesurfacetype",
+      "name": "ReferenceSurfaceType",
       "label": {
-        "en": "ReferenceSurfaceType",
+        "en": "Reference Surface Type",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1607,21 +1779,25 @@
     },
     {
       "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
-      "name": "Methodofmeasurement",
+      "name": "MethodOfMeasurement",
       "label": {
-        "en": "MethodOfMeasurement",
+        "en": "Method of Measurement",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The way the measurement result was determined",
+        "en": "The way the measurement result was determined.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
-      "name": "",
+      "name": "ProtectedAreaValue",
+      "label": {
+        "en": "Protected Area Value",
+        "de": "Enter your translation here"
+      },
       "definition": {
-        "en": "Classification of protected area types",
+        "en": "Classification of protected area.",
         "de": "Enter your translation here"
       }
     },
@@ -1755,9 +1931,9 @@
     },
     {
       "EA-Guid": "{F3D7A5E3-73B4-466d-A3F3-E0259CBD68A4}",
-      "name": "Measurement",
+      "name": "Survey",
       "label": {
-        "en": "Measurement",
+        "en": "Survey",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1819,7 +1995,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The height of the Appurtenance",
+        "en": "The height of the Appurtenance.",
         "de": "Enter your translation here"
       }
     },
@@ -1828,6 +2004,10 @@
       "name": "height",
       "label": {
         "en": "height",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Distance above the Reference Surface.",
         "de": "Enter your translation here"
       }
     },
@@ -1839,7 +2019,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Association attribute from the additional information objects and ActivityComplex to Utility Network element.",
+        "en": "UtilityNetworkElement belonging to the complex.",
         "de": "Enter your translation here"
       }
     },
@@ -1857,49 +2037,49 @@
     },
     {
       "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
-      "name": "endspoke",
+      "name": "endLink",
       "label": {
-        "en": "endSpoke",
+        "en": "end link",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Link of which this Node is the endNode",
+        "en": "Link of which this Node is the end Node.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{FA832228-665E-4467-A9FF-B970B7EE6B03}",
-      "name": "endnode",
+      "name": "endNode",
       "label": {
-        "en": "endNode",
+        "en": "end node",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The optional end node for this link. The end node may be the same instance as the start node.",
+        "en": "Node that is the end of the Link.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
-      "name": "beginspoke",
+      "name": "beginLink",
       "label": {
-        "en": "beginSpoke",
+        "en": "begin link",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Link of which this Node is the startNode",
+        "en": "Link of which this Node is the start Node.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{6087554F-C158-4fb6-934F-F94321A053D8}",
-      "name": "startnode",
+      "name": "startNode",
       "label": {
-        "en": "startNode",
+        "en": "start node",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The optional start node for this link.",
+        "en": "Node that starts the Link.",
         "de": "Enter your translation here"
       }
     },
@@ -1911,7 +2091,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.",
+        "en": "UtilityLinkSequence or UtilityLink that is part of the LinkSet.",
         "de": "Enter your translation here"
       }
     },
@@ -1923,19 +2103,19 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes.",
+        "en": "Directed Link that is part of the LinkSequence.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{43D2E535-52C3-4008-990F-57D9080C843E}",
-      "name": "centrelinegeometry",
+      "name": "centrelineGeometry",
       "label": {
-        "en": "centrelineGeometry",
+        "en": "centreline geometry",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The geometry that represents the centreline of the link",
+        "en": "The geometry of the centerline of the Link.",
         "de": "Enter your translation here"
       }
     },
@@ -1947,7 +2127,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Location of utility node.",
+        "en": "Geometry of the Node.",
         "de": "Enter your translation here"
       }
     },
@@ -1959,7 +2139,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Location of container.",
+        "en": "Geometry of the container.",
         "de": "Enter your translation here"
       }
     },
@@ -2079,11 +2259,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Shape and position features of an object,",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "en": "Location of the Protected Area.",
         "de": "Enter your translation here"
       }
     },
@@ -2167,11 +2343,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Shape and position features of an object,",
+        "en": "Location for which the Vertical Position applies.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "en": "Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface.",
         "de": "Enter your translation here"
       }
     },
@@ -2187,7 +2363,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "en": "For example a cable.",
         "de": "Enter your translation here"
       }
     },
@@ -2203,7 +2379,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Describes these features using points, lines, polygons and coordinates.",
+        "en": "Typical elements are relief, landforms, water bodies, vegetation.",
         "de": "Enter your translation here"
       }
     },
@@ -2215,23 +2391,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Shape and position features of an object,",
+        "en": "Location of the Reference Surface.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Describes these features using points, lines, polygons and coordinates.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
-      "name": "location",
-      "label": {
-        "en": "location",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Shape and position features of an object,",
+        "en": "Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface.",
         "de": "Enter your translation here"
       }
     },
@@ -2259,9 +2423,13 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Shape and position features of an object,",
+        "en": "Geometry of the Protected Area.",
         "de": "Enter your translation here"
       }
+    },
+    {
+      "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
+      "name": ""
     },
     {
       "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
@@ -2453,25 +2621,25 @@
     },
     {
       "EA-Guid": "{81C9EC16-88BB-4de5-A325-2B0E48E4AB0C}",
-      "name": "containertype",
+      "name": "containerType",
       "label": {
-        "en": "containertype",
+        "en": "container type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Attribute indicating the type of pipe container.",
+        "en": "Type of the Pipe as a container.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{56A89955-9113-4d56-8A78-1A6416729AFA}",
-      "name": "containertype",
+      "name": "containerType",
       "label": {
-        "en": "containertype",
+        "en": "container type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The kind of container linked to the canal.",
+        "en": "Type of the Duct as a container.",
         "de": "Enter your translation here"
       }
     },
@@ -2517,17 +2685,13 @@
     },
     {
       "EA-Guid": "{B560020E-E50C-441a-9BC3-8CA309CA04DB}",
-      "name": "utilitynetworktype",
+      "name": "utilityNetworkType",
       "label": {
-        "en": "utilityNetworkType",
+        "en": "utility network type",
         "de": "Enter your translation here"
       },
       "definition": {
         "en": "The type of utility network or the utility network theme.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Uses the codelist \"UtilityNetworkTypeValue\" to describe the possible utility networks. This also contains the \"crossTheme\" value to be used for utility networks that can contain cables or pipes from various themes, typically used by utility network providers that provide ducts.",
         "de": "Enter your translation here"
       }
     },
@@ -2539,11 +2703,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The type of Reference Surface",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Typical the groundlevel.",
+        "en": "The type of Reference Surface.",
         "de": "Enter your translation here"
       }
     },
@@ -2555,19 +2715,19 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of different types of protected areas.",
+        "en": "Classification of protected area.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
-      "name": "topographicalelementtype",
+      "name": "topographicalElementType",
       "label": {
-        "en": "topographicalElementType",
+        "en": "topographical element type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Describes the type of topographic element.",
+        "en": "Type of the Topographical Element.",
         "de": "Enter your translation here"
       }
     },
@@ -2585,25 +2745,29 @@
     },
     {
       "EA-Guid": "{588CFC97-081D-4a31-965F-F8FD557D0C55}",
-      "name": "appurtenancetype",
+      "name": "appurtenanceType",
       "label": {
-        "en": "appurtenanceType",
+        "en": "appurtenance type",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Type of Appurtenance",
+        "en": "Type of Appurtenance.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{F76FE708-2CA4-40c4-B99E-0599432A2960}",
-      "name": "annotationtype",
+      "name": "annotationType",
       "label": {
-        "en": "annotationType",
+        "en": "annotation type",
         "de": "Enter your translation here"
       },
       "definition": {
         "en": "Classification of the annotation object.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
         "de": "Enter your translation here"
       }
     },
@@ -2615,7 +2779,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "TODO",
+        "en": "Name of the Protected Area.",
         "de": "Enter your translation here"
       }
     },
@@ -2639,7 +2803,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Additional explanation of the utility network element.",
+        "en": "Reference to a Document containing additional information about the element.",
         "de": "Enter your translation here"
       }
     },
@@ -2651,7 +2815,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Additional explanation of utility network.",
+        "en": "Reference to a Document containing additional information about the Network.",
         "de": "Enter your translation here"
       }
     },
@@ -2711,7 +2875,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The time when the measurement took place,",
+        "en": "The moment at which the Survey took place.",
         "de": "Enter your translation here"
       }
     },
