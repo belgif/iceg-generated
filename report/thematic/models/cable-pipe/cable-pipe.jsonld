@@ -16682,6 +16682,9 @@
             "ap-definition-en": {
                 "en": "TODO"
             },
+            "usage": {
+                "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+            },
             "ap-label-en": {
                 "en": "Number"
             },
@@ -16700,7 +16703,9 @@
                     "en": "Number"
                 },
                 "definition": "",
-                "usage": "",
+                "usage": {
+                    "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+                },
                 "ap-label-en": {
                     "en": "Number"
                 },
@@ -16748,6 +16753,11 @@
                     {
                         "key": "uri",
                         "value": "https://schema.org/Number",
+                        "note": "null"
+                    },
+                    {
+                        "key": "usageNote-en",
+                        "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.",
                         "note": "null"
                     }
                 ],
@@ -21763,7 +21773,7 @@
                 "en": "Direct Position expressed in wkt format."
             },
             "usage": {
-                "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+                "en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
             },
             "ap-label-en": {
                 "en": "wkt"
@@ -21794,7 +21804,7 @@
                     "en": "Direct Position expressed in wkt format."
                 },
                 "usage": {
-                    "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+                    "en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
                 },
                 "ap-label-en": {
                     "en": "wkt"
@@ -21822,7 +21832,7 @@
                     },
                     {
                         "key": "ap-usageNote-nl",
-                        "value": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
+                        "value": "Gebruik <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> als datatype.",
                         "note": "null"
                     },
                     {
@@ -21847,7 +21857,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
+                        "value": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype.",
                         "note": "null"
                     }
                 ],
@@ -21939,7 +21949,7 @@
                     },
                     {
                         "key": "ap-usageNote-nl",
-                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
+                        "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
                         "note": " "
                     },
                     {
@@ -21969,7 +21979,7 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
+                        "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
                         "note": "null"
                     }
                 ],
@@ -22002,7 +22012,7 @@
                 "en": "Direct Position expressed in gml format."
             },
             "usage": {
-                "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+                "en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
             },
             "ap-label-en": {
                 "en": "gml"
@@ -22033,7 +22043,7 @@
                     "en": "Direct Position expressed in gml format."
                 },
                 "usage": {
-                    "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+                    "en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
                 },
                 "ap-label-en": {
                     "en": "gml"
@@ -22061,7 +22071,7 @@
                     },
                     {
                         "key": "ap-usageNote-nl",
-                        "value": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> als datatype.",
+                        "value": "Gebruik <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> als datatype.",
                         "note": "null"
                     },
                     {
@@ -22086,7 +22096,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
+                        "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
                         "note": "null"
                     }
                 ],

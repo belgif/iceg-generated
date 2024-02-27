@@ -3784,8 +3784,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "933ad7917d4e28c28ddc8043cb9aa620568ff46a",
-  "dummy": "011",
+  "documentcommit": "622adc68c4bf3619bb8d716b33c70cbf4846e12d",
+  "dummy": "012",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -8997,7 +8997,7 @@
           {
             "key": "ap-usageNote-nl",
             "note": "null",
-            "value": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
+            "value": "Gebruik <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> als datatype."
           },
           {
             "key": "ap-label-nl",
@@ -9022,7 +9022,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+            "value": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
           }
         ],
         "Scope": "NOTHING",
@@ -9041,7 +9041,7 @@
           "en": "wkt"
         },
         "usage": {
-          "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+          "en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
         }
       },
       "generalization": [],
@@ -9061,7 +9061,7 @@
         }
       ],
       "usage": {
-        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
+        "en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype.",
         "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
       }
     },
@@ -9118,7 +9118,7 @@
           {
             "key": "ap-usageNote-nl",
             "note": " ",
-            "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+            "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
           },
           {
             "key": "ap-definition-nl",
@@ -9148,7 +9148,7 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+            "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
           }
         ],
         "Scope": "NOTHING",
@@ -9244,7 +9244,7 @@
           {
             "key": "ap-usageNote-nl",
             "note": "null",
-            "value": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> als datatype."
+            "value": "Gebruik <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> als datatype."
           },
           {
             "key": "ap-label-nl",
@@ -9269,7 +9269,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+            "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
           }
         ],
         "Scope": "NOTHING",
@@ -9288,7 +9288,7 @@
           "en": "gml"
         },
         "usage": {
-          "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+          "en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
         }
       },
       "generalization": [],
@@ -9308,7 +9308,7 @@
         }
       ],
       "usage": {
-        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
+        "en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
         "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
       }
     },
@@ -16999,6 +16999,11 @@
             "key": "uri",
             "note": "null",
             "value": "https://schema.org/Number"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
           }
         ],
         "Scope": "NOTHING",
@@ -17015,14 +17020,20 @@
           "en": "Number"
         },
         "parentclasses": "",
-        "usage": ""
+        "usage": {
+          "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+        }
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Number",
         "nl": "[UPDATED] Getal"
       },
-      "name": "Number"
+      "name": "Number",
+      "usage": {
+        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "nl": "[UPDATED] OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
+      }
     }
   ],
   "extra": {
@@ -25850,7 +25861,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_nl.j2",
   "title": "Kabels en Leidingen",
-  "toolchaincommit": "e4bcee93864b14c8b5e4d27d1398299da04c4b77",
+  "toolchaincommit": "bb1a4b4d715f539cac08fcfa9744dac746d4bd5f",
   "translation": [
     {
       "language": "en",
