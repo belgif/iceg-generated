@@ -25,7 +25,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Arrows, lines and labels that are annotated on a map image and are not used as dimensions are included with the Annotation object",
+        "en": "A short explanation or note added to an Object.",
         "de": "Enter your translation here"
       }
     },
@@ -91,9 +91,17 @@
     },
     {
       "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
-      "name": "Cableandpipecontainer",
+      "name": "CableAndPipeContainer",
       "label": {
-        "en": "CableAndPipeContainer",
+        "en": "Cable and Pipe Container",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Object that could potentially contain cables or pipes/ducts.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
         "de": "Enter your translation here"
       }
     },
@@ -125,7 +133,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Cabinets represent mountable node objects that can contain smaller utility devices and cables.",
+        "en": "Contains typically smaller mountable Appurtenances and Cables.",
         "de": "Enter your translation here"
       }
     },
@@ -149,11 +157,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple container object which may contain either single or multiple utility networks objects.Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
+        "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Manholes perform following functions:\nProvide drainage for the conduit system so that freezing water does not damage the conduit or wires.\nProvide a location for bending the conduit run without damaging the wires.\nProvide a junction for conduits coming from different directions.\nProvide access to the system for maintenance.",
+        "en": "E.g. sewer cover.",
         "de": "Enter your translation here"
       }
     },
@@ -181,7 +189,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.\n",
+        "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.",
         "de": "Enter your translation here"
       }
     },
@@ -225,7 +233,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.\n",
+        "en": "This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.",
         "de": "Enter your translation here"
       }
     },
@@ -253,11 +261,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.\n",
+        "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).\n",
+        "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).",
         "de": "Enter your translation here"
       }
     },
@@ -281,7 +289,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple UtilityNodeContainer that takes the shape of a pole.\n",
+        "en": "Simple UtilityNodeContainer that takes the shape of a pole.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -297,7 +305,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another.\n",
+        "en": "A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another.",
         "de": "Enter your translation here"
       }
     },
@@ -361,7 +369,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A pipe used to disseminate heating or cooling from one location to another.\n",
+        "en": "A pipe used to disseminate heating or cooling from one location to another.",
         "de": "Enter your translation here"
       }
     },
@@ -503,7 +511,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Total heigt of the Tower.",
+        "en": "Heigt of the Tower.",
         "de": "Enter your translation here"
       }
     },
@@ -788,6 +796,18 @@
       }
     },
     {
+      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
+      "name": "innetwork",
+      "label": {
+        "en": "inNetwork",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Reference to a Network object to which a NetworkElement belongs.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{B7EE7353-0C10-44a0-9E23-C788317104BB}",
       "name": "inNetwork",
       "label": {
@@ -907,7 +927,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Activities performed by the activity complex. Function is described by the activity and potentially complemented with information about inputs and outputs as result of it.",
+        "en": "Activities carried out by the complex.",
         "de": "Enter your translation here"
       }
     },
@@ -919,7 +939,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "UtilityNetworkElement belonging to the network.",
+        "en": "Utility NetworkElement belonging to the network.",
         "de": "Enter your translation here"
       }
     },
@@ -947,7 +967,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Additional explanation of the activity complex.",
+        "en": "Reference to a Document with additional information about the complex.",
         "de": "Enter your translation here"
       }
     },
@@ -1021,9 +1041,9 @@
     },
     {
       "EA-Guid": "{9F470422-C6B3-4c74-BC4E-860AF8AD44E7}",
-      "name": "adress",
+      "name": "address",
       "label": {
-        "en": "adress",
+        "en": "address",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1033,13 +1053,13 @@
     },
     {
       "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
-      "name": "activityComplexReference",
+      "name": "activitycomplexReference",
       "label": {
-        "en": "activity complex reference",
+        "en": "activitycomplex reference",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Activity complex belonging to the network.",
+        "en": "ActivityComplex belonging to the network.",
         "de": "Enter your translation here"
       }
     },
@@ -1267,7 +1287,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object.",
+        "en": "Angle by which to rotate the symbol representing the container on a map.",
         "de": "Enter your translation here"
       }
     },
@@ -1363,7 +1383,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of the Pipe according to the thematic domain to which it belongs.",
+        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
         "de": "Enter your translation here"
       }
     },
@@ -1401,7 +1421,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary.",
+        "en": "Distance between two points on a curve.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Used here to describe the size of something, for example the height of a tower.",
         "de": "Enter your translation here"
       }
     },
@@ -1413,55 +1437,59 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "A measure is always associated to a unit of measure. Ratio measures where the two base measures are in the same units (often considered unit-less) should be associated to UnitOfMeasure (same meter.sl.meter for map scale) so that conversions to non-unitless ratios can be accomplished (such as miles.sl.inch)",
+        "en": "A measured amount of a certain quantity, expressed in some unit.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{AC115F40-08A9-47dc-96A2-547A024E7F0D}",
-      "name": "Unitofmeasure",
+      "name": "UnitOfMeasure",
       "label": {
-        "en": "UnitOfMeasure",
+        "en": "Unit of Measure",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{51E1B009-115C-4cc2-9C42-546B04A2AF9B}",
-      "name": "Uomlength",
+      "name": "UomLength",
       "label": {
-        "en": "UomLength",
+        "en": "UOM Length",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
-      "name": "Positionalaccuracy",
+      "name": "PositionalAccuracy",
       "label": {
-        "en": "PositionalAccuracy",
+        "en": "Positional Accuracy",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Degree to which a specified position represents the actual position.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, expressed as the maximum deviation in cm between both positions.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
-      "name": ""
+      "name": "Agent",
+      "label": {
+        "en": "Agent",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Someone or something that can act or produce an effect.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
       "name": "Curve",
       "label": {
         "en": "Curve",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "A 1-dimensional geometric primitive.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
         "de": "Enter your translation here"
       }
     },
@@ -1470,14 +1498,6 @@
       "name": "Point",
       "label": {
         "en": "Point",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "A 0-dimensional geometric primitive.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
         "de": "Enter your translation here"
       }
     },
@@ -1593,7 +1613,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of utility delivery types.",
+        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
         "de": "Enter your translation here"
       }
     },
@@ -1623,9 +1643,9 @@
     },
     {
       "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
-      "name": "OilGasChemicalProductTypeValue",
+      "name": "OilGasChemicalsProductTypeValue",
       "label": {
-        "en": "Oil Gas Chemical Product Type Value",
+        "en": "Oil Gas Chemicals Product Type Value",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1685,7 +1705,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of appurtenances.",
+        "en": "Appurtenance classification.",
         "de": "Enter your translation here"
       }
     },
@@ -1847,11 +1867,27 @@
     },
     {
       "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
-      "name": ""
+      "name": "Object",
+      "label": {
+        "en": "Object",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Entity from which all entities are derived.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{24D7FBAF-82F0-4ac5-86AA-A7549CB249B0}",
-      "name": ""
+      "name": "Location",
+      "label": {
+        "en": "Location",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Indication of a geographical position, by means of coordinates, a toponym, an address label, a reference to a place/region, an address or another geographical object.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
@@ -1861,7 +1897,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Attachment in any form for additional information.",
+        "en": "Information recorded on a data carrier.",
         "de": "Enter your translation here"
       }
     },
@@ -1877,7 +1913,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
+        "en": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
         "de": "Enter your translation here"
       }
     },
@@ -1889,19 +1925,19 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n",
+        "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive.",
+        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
-      "name": "Directposition",
+      "name": "DirectPosition",
       "label": {
-        "en": "DirectPosition",
+        "en": "Direct Position",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1909,7 +1945,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
         "de": "Enter your translation here"
       }
     },
@@ -1939,13 +1975,21 @@
     },
     {
       "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
-      "name": ""
+      "name": "GenericLink",
+      "label": {
+        "en": "Generic Link",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Linear Network Element.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "name": "DirectedLink",
       "label": {
-        "en": "Directed link",
+        "en": "Directed Link",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1955,15 +1999,43 @@
     },
     {
       "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
-      "name": ""
+      "name": "Node",
+      "label": {
+        "en": "Node",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{8F85F084-8291-4781-AD0D-57AD8517284F}",
-      "name": ""
+      "name": "Link",
+      "label": {
+        "en": "Link",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{99B8D562-8B03-4b77-9B30-2B5F70753408}",
-      "name": ""
+      "name": "Linksequence",
+      "label": {
+        "en": "LinkSequence",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Unbranched continuous path in a Network.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, a route in the Network.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
@@ -1971,7 +2043,19 @@
     },
     {
       "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}",
-      "name": ""
+      "name": "Network",
+      "label": {
+        "en": "Network",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Collection of Network Elements.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
@@ -2027,7 +2111,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Indicates if the directed link agrees (positive) or disagrees (negative) with the\npositive direction of the link.",
+        "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link.",
         "de": "Enter your translation here"
       }
     },
@@ -2147,27 +2231,27 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Reference to Link.",
+        "en": "Reference to the Link.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{A85FB6B8-4B1E-44b2-8F83-3154C27A3D7F}",
-      "name": "measurement",
+      "name": "survey",
       "label": {
-        "en": "measurement",
+        "en": "survey",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Determining the exact size of something by measuring it.",
+        "en": "The way the geometry was determined.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{BAD41103-19C8-4665-9B51-882FED3485BA}",
-      "name": "measurement",
+      "name": "survey",
       "label": {
-        "en": "Measurement",
+        "en": "survey",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2177,9 +2261,9 @@
     },
     {
       "EA-Guid": "{B50209E4-649A-4254-91F5-EC1CE741AC30}",
-      "name": "refersto",
+      "name": "refersTo",
       "label": {
-        "en": "refersTo",
+        "en": "refers to",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2297,9 +2381,9 @@
     },
     {
       "EA-Guid": "{B0415347-2C6D-4b21-9C85-D880A76C823D}",
-      "name": "pobox",
+      "name": "poBox",
       "label": {
-        "en": "PObox",
+        "en": "PO box",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2343,7 +2427,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface.",
+        "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface.",
         "de": "Enter your translation here"
       }
     },
@@ -2355,11 +2439,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Shape and position features of an object,",
+        "en": "Geometry of the Annotation.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "For example a cable.",
+        "en": "E.g. the location and shape of a Dimension.",
         "de": "Enter your translation here"
       }
     },
@@ -2391,7 +2475,19 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface.",
+        "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface.",
+        "de": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
+      "name": "location",
+      "label": {
+        "en": "location",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Geometry of the site covered by the Plan.",
         "de": "Enter your translation here"
       }
     },
@@ -2403,11 +2499,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The geometry used to define the extent or position of the Activity Complex.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "NOTE 1 Based on the provided description, different geometries could be used to represent the Activity Complex as a one legal whole.\nEXAMPLE  1 E-prtr geometry is given by a single point based on Geographical Coordinates (see below). In other levels of detail or depending on the Data Provider this could be represented [e.g.] by a Multi-poligon.\nEXAMPLE 2 PRTR - Legal act example:   the latitude and longitude coordinates within an arc of 5 minutes that avoid the direct identification of an individual holding..",
+        "en": "Geometry of the complex to describe its location and size.",
         "de": "Enter your translation here"
       }
     },
@@ -2422,10 +2514,6 @@
         "en": "Geometry of the Protected Area.",
         "de": "Enter your translation here"
       }
-    },
-    {
-      "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
-      "name": ""
     },
     {
       "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
@@ -2463,7 +2551,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Highest Administrative Unit van het address, usually a country.",
+        "en": "Highest Administrative Unit of the address, usually a country.",
         "de": "Enter your translation here"
       }
     },
@@ -2475,7 +2563,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Name from a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit",
+        "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -2485,21 +2573,21 @@
     },
     {
       "EA-Guid": "{F9CF816D-8C32-4c37-ACF4-164ABDFA26A7}",
-      "name": "documentlocation",
+      "name": "documentLocation",
       "label": {
-        "en": "documentLocation",
+        "en": "document location",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Place where the document is stored or viewable.",
+        "en": "The place where the Document is stored or can be consulted.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{CAB540CE-2448-4f13-8C42-36FC9E80F055}",
-      "name": "assignedbystring",
+      "name": "assignedBy(string)",
       "label": {
-        "en": "assignedByString",
+        "en": "assigned by (String)",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2515,7 +2603,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "External object identifier of the Activity Complex",
+        "en": "External Identifier of the complex.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -2525,13 +2613,13 @@
     },
     {
       "EA-Guid": "{9360E849-B3F3-473f-8FA3-E280E57CD0E9}",
-      "name": "documentidentifier",
+      "name": "documentIdentifier",
       "label": {
-        "en": "documentIdentifier",
+        "en": "document identifier",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Information used to uniquely identify a docuent.",
+        "en": "Identifier of the Document.",
         "de": "Enter your translation here"
       }
     },
@@ -2559,11 +2647,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Geometrie uitgedrukt in wkt-formaat.",
+        "en": "Geometry expressed in wkt format.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as data type.",
+        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
         "de": "Enter your translation here"
       }
     },
@@ -2579,7 +2667,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
+        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
         "de": "Enter your translation here"
       }
     },
@@ -2591,11 +2679,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Geometry expressed in gml format.",
+        "en": "Direct position expressed in wkt format.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
+        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
         "de": "Enter your translation here"
       }
     },
@@ -2611,7 +2699,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
+        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
         "de": "Enter your translation here"
       }
     },
@@ -2647,7 +2735,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Descriptive name of the Activity Complex.",
+        "en": "Name by which the complex is known.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -2657,9 +2745,9 @@
     },
     {
       "EA-Guid": "{78315B70-7A7F-431b-BE60-F3B46EE2F912}",
-      "name": "assignedon",
+      "name": "assignedOn",
       "label": {
-        "en": "assignedOn",
+        "en": "assigned on",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2669,9 +2757,9 @@
     },
     {
       "EA-Guid": "{1E54387C-CF55-4a50-A953-506127298048}",
-      "name": "assignedby",
+      "name": "assignedBy",
       "label": {
-        "en": "assignedBy",
+        "en": "assigned by",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2711,7 +2799,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of protected area.",
+        "en": "Classification of different types of protected areas.",
         "de": "Enter your translation here"
       }
     },
@@ -2729,9 +2817,9 @@
     },
     {
       "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
-      "name": "documenttype",
+      "name": "documentType",
       "label": {
-        "en": "documentType",
+        "en": "document type",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2759,7 +2847,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of the annotation object.",
+        "en": "Classification of the Annotation.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -2781,9 +2869,9 @@
     },
     {
       "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
-      "name": "refersto",
+      "name": "refersTo",
       "label": {
-        "en": "refersTo",
+        "en": "refers to",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2817,9 +2905,9 @@
     },
     {
       "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
-      "name": "documentmediatype",
+      "name": "documentMediatype",
       "label": {
-        "en": "documentMediaType",
+        "en": "document mediatype",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -2835,7 +2923,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Text field containing more information about the Document class.",
+        "en": "Description of the Document.",
         "de": "Enter your translation here"
       }
     },
@@ -2847,7 +2935,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Text field containing more information about the class Function.",
+        "en": "A more detailed description of the function.",
         "de": "Enter your translation here"
       }
     },
@@ -2859,7 +2947,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Text field containing more information about the Protected Area class.",
+        "en": "Description of the Protected Area.",
         "de": "Enter your translation here"
       }
     },
@@ -2907,15 +2995,27 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "In the context of ActivityComplex containing a Function object, this is about the function description of the ActivityComplex.",
+        "en": "Classification of the activity.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Preferably use the NACE codes.",
         "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
-      "name": "uomidentifier",
+      "name": "uomIdentifier",
       "label": {
-        "en": "uomIdentifier",
+        "en": "uom identifier",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Unit identifier.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. m for meter.",
         "de": "Enter your translation here"
       }
     },

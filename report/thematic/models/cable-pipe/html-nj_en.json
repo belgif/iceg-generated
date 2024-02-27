@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/f944ec9d51507859fa0b3c35f526b3f1a66fab88",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/f944ec9d51507859fa0b3c35f526b3f1a66fab88/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/65d20c760f0e2822c57fdaa41eba843c631af752",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/65d20c760f0e2822c57fdaa41eba843c631af752/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -52,10 +52,10 @@
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres",
-          "name": "adress",
-          "sort": "[UPDATED] adress",
+          "name": "address",
+          "sort": "address",
           "label": {
-            "en": "[UPDATED] adress"
+            "en": "address"
           },
           "description": {
             "en": "Address of the Connection."
@@ -85,7 +85,7 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "adress",
+            "label-en": "address",
             "label-nl": "adres",
             "ap-label-nl": "adres",
             "ap-definition-nl": "Adres van de aansluiting.",
@@ -152,13 +152,13 @@
         "en": "A short explanation or note added to an Object."
       },
       "usage": {
-        "en": "[UPDATED] Arrows, lines and labels that are annotated on a map image and are not used as dimensions are included with the Annotation object"
+        "en": "[UPDATED] A short explanation or note added to an Object."
       },
       "parents": [],
       "rawTags": {
         "label-en": "Annotation",
         "definition-en": "A short explanation or note added to an Object.",
-        "usageNote-en": "Arrows, lines and labels that are annotated on a map image and are not used as dimensions are included with the Annotation object",
+        "usageNote-en": "A short explanation or note added to an Object.",
         "label-nl": "Annotatie",
         "ap-label-nl": "Annotatie",
         "ap-definition-nl": "Een korte uitleg of notitie toegevoegd aan een Object.",
@@ -412,10 +412,10 @@
             "en": "location"
           },
           "description": {
-            "en": "[UPDATED] Shape and position features of an object,"
+            "en": "Geometry of the Annotation."
           },
           "usage": {
-            "en": "[UPDATED] For example a cable."
+            "en": "E.g. the location and shape of a Dimension."
           },
           "domain": [
             {
@@ -446,10 +446,10 @@
             "ap-label-nl": "locatie",
             "ap-definition-nl": "Geometrie van de Annotatie.",
             "definition-nl": "Geometrie van de Annotatie.",
-            "definition-en": "Shape and position features of an object,",
+            "definition-en": "Geometry of the Annotation.",
             "ap-usageNote-nl": "Bvb de ligging en vorm van een Maataanduiding.",
             "uri": "http://www.w3.org/ns/locn#geometry",
-            "usageNote-en": "For example a cable."
+            "usageNote-en": "E.g. the location and shape of a Dimension."
           }
         },
         {
@@ -460,7 +460,7 @@
             "en": "annotation type"
           },
           "description": {
-            "en": "[UPDATED] Classification of the annotation object."
+            "en": "Classification of the Annotation."
           },
           "usage": {
             "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
@@ -494,7 +494,7 @@
             "ap-label-nl": "annotatietype",
             "ap-definition-nl": "Aard van de Annotatie.",
             "definition-nl": "Aard van de Annotatie.",
-            "definition-en": "Classification of the annotation object.",
+            "definition-en": "Classification of the Annotation.",
             "uri": "http://purl.org/dc/elements/1.1/type",
             "usageNote-en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
           }
@@ -548,10 +548,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Locatie",
+              "range_uri": "#Location",
               "range_puri": "http://www.w3.org/ns/prov#Location",
               "range_label": {
-                "en": "Locatie"
+                "en": "Location"
               }
             }
           ],
@@ -619,7 +619,7 @@
             "en": "type"
           },
           "description": {
-            "en": "[UPDATED] Classification of protected area."
+            "en": "Classification of different types of protected areas."
           },
           "usage": {},
           "domain": [
@@ -651,7 +651,7 @@
             "ap-label-nl": "type",
             "ap-definition-nl": "Aard van het BeschermdGebied.",
             "definition-nl": "Aard van het BeschermdGebied.",
-            "definition-en": "Classification of protected area.",
+            "definition-en": "Classification of different types of protected areas.",
             "uri": "http://purl.org/dc/elements/1.1/type"
           }
         },
@@ -707,7 +707,7 @@
             "en": "description"
           },
           "description": {
-            "en": "[UPDATED] Text field containing more information about the Protected Area class."
+            "en": "Description of the Protected Area."
           },
           "usage": {},
           "domain": [
@@ -739,7 +739,7 @@
             "ap-label-nl": "beschrijving",
             "ap-definition-nl": "Beschrijving van het BeschermdGebied.",
             "definition-nl": "Beschrijving van het BeschermdGebied.",
-            "definition-en": "Text field containing more information about the Protected Area class.",
+            "definition-en": "Description of the Protected Area.",
             "uri": "http://purl.org/dc/elements/1.1/description"
           }
         }
@@ -942,7 +942,7 @@
             "en": "subtheme"
           },
           "description": {
-            "en": "[UPDATED] Classification of the Pipe according to the thematic domain to which it belongs."
+            "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
           },
           "usage": {},
           "domain": [
@@ -959,10 +959,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Subtheme Value",
+              "range_uri": "#Subtheme Value",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "[UPDATED] Subtheme Value"
+                "en": "Subtheme Value"
               }
             }
           ],
@@ -974,7 +974,7 @@
             "ap-label-nl": "subthema",
             "ap-definition-nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren.",
             "definition-nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren.",
-            "definition-en": "Classification of the Pipe according to the thematic domain to which it belongs.",
+            "definition-en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
             "name": "Kabel.subthema"
           }
         }
@@ -982,24 +982,29 @@
     },
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer",
-      "name": "Cableandpipecontainer",
+      "name": "CableAndPipeContainer",
       "label": {
-        "en": "[UPDATED] CableAndPipeContainer"
+        "en": "Cable and Pipe Container"
       },
-      "sort": "[UPDATED] CableAndPipeContainer",
-      "description": {},
-      "usage": {},
+      "sort": "Cable and Pipe Container",
+      "description": {
+        "en": "Object that could potentially contain cables or pipes/ducts."
+      },
+      "usage": {
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+      },
       "parents": [],
       "rawTags": {
-        "label-en": "CableAndPipeContainer",
-        "ap-label-en": "CableAndPipeContainer",
+        "label-en": "Cable and Pipe Container",
         "label-nl": "KabelEnLeidingContainer",
         "ap-label-nl": "KabelEnLeidingContainer",
         "ap-definition-nl": "Object dat potentieel kabels of leidingen kan omvatten.",
         "definition-nl": "Object dat potentieel kabels en leidingen kan omvatten.",
         "usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wortdt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
         "ap-usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
-        "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer"
+        "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer",
+        "definition-en": "Object that could potentially contain cables or pipes/ducts.",
+        "usageNote-en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
       },
       "properties": []
     },
@@ -1278,7 +1283,7 @@
         "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet."
       },
       "usage": {
-        "en": "[UPDATED] Cabinets represent mountable node objects that can contain smaller utility devices and cables."
+        "en": "Contains typically smaller mountable Appurtenances and Cables."
       },
       "parents": [
         {
@@ -1298,7 +1303,7 @@
         "usageNote-nl": "Bevat typisch kleiner monteerbaar Toebehoren en Kabels.",
         "ap-usageNote-nl": "Bevat typisch kleiner monteerbaar Toebehoren en Kabels.",
         "definition-en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet.",
-        "usageNote-en": "Cabinets represent mountable node objects that can contain smaller utility devices and cables."
+        "usageNote-en": "Contains typically smaller mountable Appurtenances and Cables."
       },
       "properties": []
     },
@@ -1342,10 +1347,10 @@
       },
       "sort": "Manhole",
       "description": {
-        "en": "[UPDATED] Simple container object which may contain either single or multiple utility networks objects.Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface."
+        "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface."
       },
       "usage": {
-        "en": "[UPDATED] Manholes perform following functions:\nProvide drainage for the conduit system so that freezing water does not damage the conduit or wires.\nProvide a location for bending the conduit run without damaging the wires.\nProvide a junction for conduits coming from different directions.\nProvide access to the system for maintenance."
+        "en": "E.g. sewer cover."
       },
       "parents": [
         {
@@ -1358,8 +1363,8 @@
       ],
       "rawTags": {
         "label-en": "Manhole",
-        "definition-en": "Simple container object which may contain either single or multiple utility networks objects.Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
-        "usageNote-en": "Manholes perform following functions:\nProvide drainage for the conduit system so that freezing water does not damage the conduit or wires.\nProvide a location for bending the conduit run without damaging the wires.\nProvide a junction for conduits coming from different directions.\nProvide access to the system for maintenance.",
+        "definition-en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
+        "usageNote-en": "E.g. sewer cover.",
         "label-nl": "Mangat",
         "ap-label-nl": "Mangat",
         "ap-definition-nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond.",
@@ -1777,7 +1782,7 @@
         "en": "Point shaped UtilityNetworkElement, potential carrier of Utility Nodes."
       },
       "usage": {
-        "en": "[UPDATED] Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.\n"
+        "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network."
       },
       "parents": [
         {
@@ -1797,7 +1802,7 @@
         "definition-nl": "Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen.",
         "usageNote-nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk.",
         "ap-usageNote-nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk.",
-        "usageNote-en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.\n"
+        "usageNote-en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network."
       },
       "properties": [
         {
@@ -1987,7 +1992,7 @@
             "en": "orientation"
           },
           "description": {
-            "en": "[UPDATED] The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
+            "en": "Angle by which to rotate the symbol representing the container on a map."
           },
           "usage": {},
           "domain": [
@@ -2019,7 +2024,7 @@
             "ap-label-nl": "oriëntatie",
             "ap-definition-nl": "Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd.",
             "definition-nl": "Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd.",
-            "definition-en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object.",
+            "definition-en": "Angle by which to rotate the symbol representing the container on a map.",
             "name": "Nutsvoorzieningknoopcontainer.orientatie"
           }
         },
@@ -2175,10 +2180,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Knoop",
+              "range_uri": "#Node",
               "range_puri": "https://data.vlaanderen.be/ns/netwerk#Knoop",
               "range_label": {
-                "en": "Knoop"
+                "en": "Node"
               }
             }
           ],
@@ -2219,10 +2224,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#Knoop",
+              "range_uri": "#Node",
               "range_puri": "https://data.vlaanderen.be/ns/netwerk#Knoop",
               "range_label": {
-                "en": "Knoop"
+                "en": "Node"
               }
             }
           ],
@@ -2395,10 +2400,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Directed link",
+              "range_uri": "#Directed Link",
               "range_puri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
               "range_label": {
-                "en": "[UPDATED] Directed link"
+                "en": "Directed Link"
               }
             }
           ],
@@ -2427,7 +2432,7 @@
         "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
       },
       "usage": {
-        "en": "[UPDATED] This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.\n"
+        "en": "This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class."
       },
       "parents": [
         {
@@ -2448,7 +2453,7 @@
       "rawTags": {
         "definition-en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes.",
         "label-en": "Utility LinkSet",
-        "usageNote-en": "This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.\n",
+        "usageNote-en": "This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.",
         "label-nl": "Nutsvoorzieninglinkset",
         "ap-label-nl": "Nutsvoorzieninglinkset",
         "ap-definition-nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk.",
@@ -2842,10 +2847,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#GeneriekeLink",
+              "range_uri": "#Generic Link",
               "range_puri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
               "range_label": {
-                "en": "GeneriekeLink"
+                "en": "Generic Link"
               }
             }
           ],
@@ -2924,10 +2929,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Vertical Position",
+              "range_uri": "#Vertical Position",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
               "range_label": {
-                "en": "[UPDATED] Vertical Position"
+                "en": "Vertical Position"
               }
             }
           ],
@@ -2998,7 +3003,7 @@
             "en": "element"
           },
           "description": {
-            "en": "UtilityNetworkElement belonging to the network."
+            "en": "Utility NetworkElement belonging to the network."
           },
           "usage": {},
           "domain": [
@@ -3025,7 +3030,7 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "definition-en": "UtilityNetworkElement belonging to the network.",
+            "definition-en": "Utility NetworkElement belonging to the network.",
             "ap-label-nl": "element",
             "definition-nl": "Nutsvoorzieningnetwerkelement dat tot het netwerk behoort.",
             "label-en": "element",
@@ -3121,13 +3126,13 @@
         },
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
-          "name": "activityComplexReference",
-          "sort": "[UPDATED] activity complex reference",
+          "name": "activitycomplexReference",
+          "sort": "activitycomplex reference",
           "label": {
-            "en": "[UPDATED] activity complex reference"
+            "en": "activitycomplex reference"
           },
           "description": {
-            "en": "[UPDATED] Activity complex belonging to the network."
+            "en": "ActivityComplex belonging to the network."
           },
           "usage": {},
           "domain": [
@@ -3158,8 +3163,8 @@
             "package": "IMKL-LD",
             "ap-definition-nl": "Activiteitencomplex dat tot het netwerk behoort.",
             "definition-nl": "Activiteitencomplex dat tot het netwerk behoort.",
-            "label-en": "activity complex reference",
-            "definition-en": "Activity complex belonging to the network.",
+            "label-en": "activitycomplex reference",
+            "definition-en": "ActivityComplex belonging to the network.",
             "label-nl": "activiteitencomplexreferentie"
           }
         },
@@ -3305,16 +3310,16 @@
       },
       "sort": "Utility NetworkElement",
       "description": {
-        "en": "[UPDATED] Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.\n"
+        "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network."
       },
       "usage": {
-        "en": "[UPDATED] NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).\n"
+        "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc)."
       },
       "parents": [],
       "rawTags": {
         "label-en": "Utility NetworkElement",
-        "definition-en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.\n",
-        "usageNote-en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).\n",
+        "definition-en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.",
+        "usageNote-en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).",
         "label-nl": "Nustvoorzieningnetwerkelement",
         "ap-label-nl": "Nustvoorzieningnetwerkelement",
         "ap-definition-nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult.",
@@ -3348,10 +3353,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Vertical Position",
+              "range_uri": "#Vertical Position",
               "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
               "range_label": {
-                "en": "[UPDATED] Vertical Position"
+                "en": "Vertical Position"
               }
             }
           ],
@@ -3500,9 +3505,9 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^identificator",
           "name": "identifier",
-          "sort": "[UPDATED] identifier",
+          "sort": "identifier",
           "label": {
-            "en": "[UPDATED] identifier"
+            "en": "identifier"
           },
           "description": {
             "en": "Element identifier."
@@ -3733,10 +3738,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Oil Gas Chemical Product Type Value",
+              "range_uri": "#Oil Gas Chemicals Product Type Value",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "[UPDATED] Oil Gas Chemical Product Type Value"
+                "en": "Oil Gas Chemicals Product Type Value"
               }
             }
           ],
@@ -3761,7 +3766,7 @@
       },
       "sort": "Pole",
       "description": {
-        "en": "[UPDATED] Simple UtilityNodeContainer that takes the shape of a pole.\n"
+        "en": "Simple UtilityNodeContainer that takes the shape of a pole."
       },
       "usage": {
         "en": "Typical carrier of mountable Appurtenances and Cables."
@@ -3777,7 +3782,7 @@
       ],
       "rawTags": {
         "label-en": "Pole",
-        "definition-en": "Simple UtilityNodeContainer that takes the shape of a pole.\n",
+        "definition-en": "Simple UtilityNodeContainer that takes the shape of a pole.",
         "usageNote-en": "Typical carrier of mountable Appurtenances and Cables.",
         "label-nl": "Paal",
         "ap-label-nl": "Paal",
@@ -3840,7 +3845,7 @@
       },
       "sort": "Pipe",
       "description": {
-        "en": "[UPDATED] A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another.\n"
+        "en": "A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another."
       },
       "usage": {},
       "parents": [
@@ -3861,7 +3866,7 @@
       ],
       "rawTags": {
         "label-en": "Pipe",
-        "definition-en": "A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another.\n",
+        "definition-en": "A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another.",
         "label-nl": "Pijp",
         "ap-label-nl": "Pijp",
         "ap-definition-nl": "Een Nutsvoorzieninglinkset bedoeld voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere of als omhulsel van Kabels of andere Pijpen.",
@@ -3987,10 +3992,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Subtheme Value",
+              "range_uri": "#Subtheme Value",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "[UPDATED] Subtheme Value"
+                "en": "Subtheme Value"
               }
             }
           ],
@@ -4174,10 +4179,14 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/locn#geometry",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
+          "name": "location",
+          "sort": "location",
+          "label": {
+            "en": "location"
+          },
+          "description": {
+            "en": "Geometry of the site covered by the Plan."
+          },
           "usage": {},
           "domain": [
             {
@@ -4207,7 +4216,9 @@
             "ap-label-nl": "locatie",
             "ap-definition-nl": "Geometrie van de locatie waarop het Plan betrekking heeft.",
             "definition-nl": "Geometrie van de locatie waarop het Plan betrekking heeft.",
-            "uri": "http://www.w3.org/ns/locn#geometry"
+            "uri": "http://www.w3.org/ns/locn#geometry",
+            "label-en": "location",
+            "definition-en": "Geometry of the site covered by the Plan."
           }
         }
       ]
@@ -4368,7 +4379,7 @@
       },
       "sort": "Thermal Pipe",
       "description": {
-        "en": "[UPDATED] A pipe used to disseminate heating or cooling from one location to another.\n"
+        "en": "A pipe used to disseminate heating or cooling from one location to another."
       },
       "usage": {},
       "parents": [
@@ -4382,7 +4393,7 @@
       ],
       "rawTags": {
         "label-en": "Thermal Pipe",
-        "definition-en": "A pipe used to disseminate heating or cooling from one location to another.\n",
+        "definition-en": "A pipe used to disseminate heating or cooling from one location to another.",
         "label-nl": "ThermischePijp",
         "ap-label-nl": "ThermischePijp",
         "ap-definition-nl": "Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren.",
@@ -4760,7 +4771,7 @@
             "en": "tower height"
           },
           "description": {
-            "en": "[UPDATED] Total heigt of the Tower."
+            "en": "Heigt of the Tower."
           },
           "usage": {},
           "domain": [
@@ -4792,7 +4803,7 @@
             "ap-label-nl": "torenhoogte",
             "ap-definition-nl": "Hoogte van de Toren.",
             "definition-nl": "Hoogte van de Toren.",
-            "definition-en": "Total heigt of the Tower."
+            "definition-en": "Heigt of the Tower."
           }
         }
       ]
@@ -4834,7 +4845,7 @@
             "en": "water type"
           },
           "description": {
-            "en": "[UPDATED] Type of water."
+            "en": "Type of water."
           },
           "usage": {},
           "domain": [
@@ -4873,17 +4884,16 @@
     },
     {
       "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
-      "name": "Unitofmeasure",
+      "name": "UnitOfMeasure",
       "label": {
-        "en": "[UPDATED] UnitOfMeasure"
+        "en": "Unit of Measure"
       },
-      "sort": "[UPDATED] UnitOfMeasure",
+      "sort": "Unit of Measure",
       "description": {},
       "usage": {},
       "parents": [],
       "rawTags": {
-        "label-en": "UnitOfMeasure",
-        "ap-label-en": "UnitOfMeasure",
+        "label-en": "Unit of Measure",
         "label-nl": "Meeteenheid",
         "ap-label-nl": "Meeteenheid",
         "ap-definition-nl": "Eenheid waarin de Maat is uitgedrukt.",
@@ -4893,13 +4903,17 @@
       "properties": [
         {
           "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier",
-          "name": "uomidentifier",
-          "sort": "[UPDATED] uomIdentifier",
+          "name": "uomIdentifier",
+          "sort": "uom identifier",
           "label": {
-            "en": "[UPDATED] uomIdentifier"
+            "en": "uom identifier"
           },
-          "description": {},
-          "usage": {},
+          "description": {
+            "en": "Unit identifier."
+          },
+          "usage": {
+            "en": "E.g. m for meter."
+          },
           "domain": [
             {
               "EA-Name": "Meeteenheid",
@@ -4924,40 +4938,40 @@
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "uomIdentifier",
-            "ap-label-en": "uomIdentifier",
+            "label-en": "uom identifier",
             "label-nl": "eenheidsidentificator",
             "ap-label-nl": "eenheidsidentificator",
             "ap-definition-nl": "Identificator van de eenheid.",
             "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier",
             "definition-nl": "Identificator van de eenheid.",
             "usageNote-nl": "Bvb m voor meter.",
-            "ap-usageNote-nl": "Bvb m voor meter."
+            "ap-usageNote-nl": "Bvb m voor meter.",
+            "definition-en": "Unit identifier.",
+            "usageNote-en": "E.g. m for meter."
           }
         }
       ]
     },
     {
       "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
-      "name": "Uomlength",
+      "name": "UomLength",
       "label": {
-        "en": "[UPDATED] UomLength"
+        "en": "UOM Length"
       },
-      "sort": "[UPDATED] UomLength",
+      "sort": "UOM Length",
       "description": {},
       "usage": {},
       "parents": [
         {
-          "label": "UnitOfMeasure",
+          "label": "Unit of Measure",
           "name": "Meeteenheid",
           "package": "ISO-CSL",
           "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
-          "scoped_uri": "#UnitOfMeasure"
+          "scoped_uri": "#Unit of Measure"
         }
       ],
       "rawTags": {
-        "label-en": "UomLength",
-        "ap-label-en": "UomLength",
+        "label-en": "UOM Length",
         "label-nl": "Lengteëenheid",
         "ap-label-nl": "Lengteëenheid",
         "ap-definition-nl": "Eenheid waarin de Lengte is uitgedrukt.",
@@ -4970,13 +4984,17 @@
     },
     {
       "uri": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
-      "name": "Positionalaccuracy",
+      "name": "PositionalAccuracy",
       "label": {
-        "en": "[UPDATED] PositionalAccuracy"
+        "en": "Positional Accuracy"
       },
-      "sort": "[UPDATED] PositionalAccuracy",
-      "description": {},
-      "usage": {},
+      "sort": "Positional Accuracy",
+      "description": {
+        "en": "Degree to which a specified position represents the actual position."
+      },
+      "usage": {
+        "en": "For example, expressed as the maximum deviation in cm between both positions."
+      },
       "parents": [
         {
           "label": "Kwaliteitselement",
@@ -4990,44 +5008,57 @@
         "label-nl": "PositioneleNauwkeurigheid",
         "ap-definition-nl": "Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt.",
         "ap-label-nl": "PositioneleNauwkeurigheid",
-        "ap-label-en": "PositionalAccuracy",
-        "label-en": "PositionalAccuracy",
+        "label-en": "Positional Accuracy",
         "definition-nl": "Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt.",
         "uri": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
         "parentURI": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element",
         "usageNote-nl": "Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities.",
-        "ap-usageNote-nl": "Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities."
+        "ap-usageNote-nl": "Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities.",
+        "definition-en": "Degree to which a specified position represents the actual position.",
+        "usageNote-en": "For example, expressed as the maximum deviation in cm between both positions."
       },
       "properties": []
     },
     {
       "uri": "http://purl.org/dc/terms/Agent",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Agent",
+      "label": {
+        "en": "Agent"
+      },
+      "sort": "Agent",
+      "description": {
+        "en": "Someone or something that can act or produce an effect."
+      },
       "usage": {},
       "parents": [],
       "rawTags": {
         "ap-definition-nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen.",
         "label-nl": "Agent",
-        "uri": "http://purl.org/dc/terms/Agent"
+        "uri": "http://purl.org/dc/terms/Agent",
+        "label-en": "Agent",
+        "definition-en": "Someone or something that can act or produce an effect."
       },
       "properties": []
     },
     {
       "uri": "http://www.w3.org/ns/prov#Entity",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Object",
+      "label": {
+        "en": "Object"
+      },
+      "sort": "Object",
+      "description": {
+        "en": "Entity from which all entities are derived."
+      },
       "usage": {},
       "parents": [],
       "rawTags": {
         "ap-definition-nl": "Entiteit waarvan alle entiteiten zijn afgeleid.",
         "ap-label-nl": "Object",
         "label-nl": "Entiteit",
-        "uri": "http://www.w3.org/ns/prov#Entity"
+        "uri": "http://www.w3.org/ns/prov#Entity",
+        "definition-en": "Entity from which all entities are derived.",
+        "label-en": "Object"
       },
       "properties": []
     },
@@ -5039,15 +5070,13 @@
       },
       "sort": "Document",
       "description": {
-        "en": "[UPDATED] Attachment in any form for additional information."
+        "en": "Information recorded on a data carrier."
       },
       "usage": {},
       "parents": [],
       "rawTags": {
-        "definition-en": "Attachment in any form for additional information.",
+        "definition-en": "Information recorded on a data carrier.",
         "label-en": "Document",
-        "ap-definition-en": "Attachment in any form for additional information.",
-        "ap-label-en": "Document",
         "label-nl": "Document",
         "ap-label-nl": "Document",
         "ap-definition-nl": "Informatie vastgelegd op een gegevensdrager.",
@@ -5057,13 +5086,13 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/dcat#accessURL",
-          "name": "documentlocation",
-          "sort": "[UPDATED] documentLocation",
+          "name": "documentLocation",
+          "sort": "document location",
           "label": {
-            "en": "[UPDATED] documentLocation"
+            "en": "document location"
           },
           "description": {
-            "en": "[UPDATED] Place where the document is stored or viewable."
+            "en": "The place where the Document is stored or can be consulted."
           },
           "usage": {},
           "domain": [
@@ -5090,26 +5119,24 @@
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "documentLocation",
-            "ap-label-en": "documentLocation",
+            "label-en": "document location",
             "label-nl": "documentlocatie",
             "ap-label-nl": "documentlocatie",
             "ap-definition-nl": "De plaats waar het Document is opgeslagen of raadpleegbaar is.",
             "definition-nl": "De plaats waar het Document is opgeslagen of raadpleegbaar is.",
-            "ap-definition-en": "Place where the document is stored or viewable.",
-            "definition-en": "Place where the document is stored or viewable.",
+            "definition-en": "The place where the Document is stored or can be consulted.",
             "uri": "http://www.w3.org/ns/dcat#accessURL"
           }
         },
         {
           "uri": "http://www.w3.org/ns/adms#Identifier",
-          "name": "documentidentifier",
-          "sort": "[UPDATED] documentIdentifier",
+          "name": "documentIdentifier",
+          "sort": "document identifier",
           "label": {
-            "en": "[UPDATED] documentIdentifier"
+            "en": "document identifier"
           },
           "description": {
-            "en": "[UPDATED] Information used to uniquely identify a docuent."
+            "en": "Identifier of the Document."
           },
           "usage": {},
           "domain": [
@@ -5136,23 +5163,21 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "documentIdentifier",
-            "ap-label-en": "documentIdentifier",
+            "label-en": "document identifier",
             "label-nl": "documentidentificator",
             "ap-label-nl": "documentidentificator",
             "ap-definition-nl": "Identificator van het Document.",
             "uri": "http://www.w3.org/ns/adms#Identifier",
             "definition-nl": "Identificator van het Document.",
-            "ap-definition-en": "Information used to uniquely identify a docuent.",
-            "definition-en": "Information used to uniquely identify a docuent."
+            "definition-en": "Identifier of the Document."
           }
         },
         {
           "uri": "http://purl.org/dc/elements/1.1/type",
-          "name": "documenttype",
-          "sort": "[UPDATED] documentType",
+          "name": "documentType",
+          "sort": "document type",
           "label": {
-            "en": "[UPDATED] documentType"
+            "en": "document type"
           },
           "description": {
             "en": "Classification of the document."
@@ -5182,23 +5207,21 @@
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "documentType",
-            "ap-label-en": "documentType",
+            "label-en": "document type",
             "label-nl": "documentType",
             "ap-label-nl": "documentType",
             "ap-definition-nl": "Classificatie van het Document.",
             "uri": "http://purl.org/dc/elements/1.1/type",
             "definition-nl": "Classificatie van het Document.",
-            "ap-definition-en": "Classification of the document.",
             "definition-en": "Classification of the document."
           }
         },
         {
           "uri": "http://purl.org/dc/elements/1.1/relation",
-          "name": "refersto",
-          "sort": "[UPDATED] refersTo",
+          "name": "refersTo",
+          "sort": "refers to",
           "label": {
-            "en": "[UPDATED] refersTo"
+            "en": "refers to"
           },
           "description": {
             "en": "Object to which the document refers."
@@ -5228,23 +5251,21 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "refersTo",
-            "ap-label-en": "refersTo",
+            "label-en": "refers to",
             "label-nl": "verwijstNaar",
             "ap-label-nl": "verwijstNaar",
             "ap-definition-nl": "Het Object waar het Document betrekking op heeft.",
             "uri": "http://purl.org/dc/elements/1.1/relation",
             "definition-nl": "Het Object waar het Document betrekking op heeft.",
-            "ap-definition-en": "Object to which the document refers.",
             "definition-en": "Object to which the document refers."
           }
         },
         {
           "uri": "http://purl.org/dc/elements/1.1/format",
-          "name": "documentmediatype",
-          "sort": "[UPDATED] documentMediaType",
+          "name": "documentMediatype",
+          "sort": "document mediatype",
           "label": {
-            "en": "[UPDATED] documentMediaType"
+            "en": "document mediatype"
           },
           "description": {
             "en": "[UPDATED] Medium used to access the document."
@@ -5274,14 +5295,12 @@
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "documentMediaType",
-            "ap-label-en": "documentMediaType",
+            "label-en": "document mediatype",
             "label-nl": "documentmediumtype",
             "ap-label-nl": "documentmediumtype",
             "ap-definition-nl": "Aard van de gegevensdrager waarop het Document is opgeslagen.",
             "uri": "http://purl.org/dc/elements/1.1/format",
             "definition-nl": "Aard van de gegevensdrager waarop het Document is opgeslagen.",
-            "ap-definition-en": "Medium used to access the document.",
             "definition-en": "Medium used to access the document."
           }
         },
@@ -5293,7 +5312,7 @@
             "en": "description"
           },
           "description": {
-            "en": "[UPDATED] Text field containing more information about the Document class."
+            "en": "Description of the Document."
           },
           "usage": {},
           "domain": [
@@ -5321,14 +5340,12 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "description",
-            "ap-label-en": "description",
             "label-nl": "beschrijving",
             "ap-label-nl": "beschrijving",
             "ap-definition-nl": "Beschrijving van het Document.",
             "uri": "http://purl.org/dc/elements/1.1/description",
             "definition-nl": "Beschrijving van het Document.",
-            "ap-definition-en": "Text field containing more information about the Document class.",
-            "definition-en": "Text field containing more information about the Document class."
+            "definition-en": "Description of the Document."
           }
         }
       ]
@@ -5344,7 +5361,7 @@
         "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
       },
       "usage": {
-        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
+        "en": "[UPDATED] De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
       },
       "parents": [],
       "rawTags": {
@@ -5352,11 +5369,8 @@
         "ap-usageNote-nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
         "definition-nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid,een ligplaats,een standplaats of een perceel op basis van een gemeentenaam,een straatnaam,een huisnummer en eventueel een busnummer en een postcode.",
         "label-nl": "Adres",
-        "ap-definition-en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
-        "ap-usageNote-en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
         "label-en": "Adress",
         "definition-en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
-        "ap-label-en": "Adress",
         "usageNote-en": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
         "ap-label-nl": "Adres",
         "uri": "https://data.vlaanderen.be/ns/adres#Adres"
@@ -5371,19 +5385,16 @@
       },
       "sort": "ActivityComplex",
       "description": {
-        "en": "[UPDATED] A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n"
+        "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place."
       },
       "usage": {
-        "en": "[UPDATED] NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive."
+        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
       },
       "parents": [],
       "rawTags": {
         "label-en": "ActivityComplex",
-        "ap-definition-en": "A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n",
-        "ap-usageNote-en": "NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive.",
-        "definition-en": "A \"single unit\", both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a \"single unit\".\n",
-        "ap-label-en": "ActivityComplex",
-        "usageNote-en": "NOTE 1 This class describes the minimal set of elements necessary to describe and identify geographically a legal entity and the activities taken place on it under the context of a Environmental purposes.\nNOTE 2 \"Activity Complex\" could be assimilated to terms described on the legislation as Facility, Establishment, Plant, Holding, Organization ,Farm, Extractive Industries or Aquaculture Production Business among others\nEXAMPLE i.e. an Agro-business that is legally registered under the Emissions Directive.",
+        "definition-en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place.",
+        "usageNote-en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
         "label-nl": "Activiteitencomplex",
         "ap-label-nl": "Activiteitencomplex",
         "ap-definition-nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening.",
@@ -5394,6 +5405,50 @@
       },
       "properties": [
         {
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+          "name": "innetwork",
+          "sort": "inNetwork",
+          "label": {
+            "en": "inNetwork"
+          },
+          "description": {
+            "en": "Reference to a Network object to which a NetworkElement belongs."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Activiteitencomplex",
+              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Nutsvoorzieningnetwerk",
+              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Utility Network",
+              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_label": {
+                "en": "Utility Network"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "inNetwork",
+            "label-nl": "inNetwerk",
+            "ap-label-nl": "inNetwerk",
+            "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
+            "definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
+            "definition-en": "Reference to a Network object to which a NetworkElement belongs.",
+            "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+          }
+        },
+        {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie",
           "name": "function",
           "sort": "function",
@@ -5401,7 +5456,7 @@
             "en": "function"
           },
           "description": {
-            "en": "[UPDATED] Activities performed by the activity complex. Function is described by the activity and potentially complemented with information about inputs and outputs as result of it."
+            "en": "Activities carried out by the complex."
           },
           "usage": {},
           "domain": [
@@ -5429,9 +5484,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "function",
-            "ap-definition-en": "Activities performed by the activity complex. Function is described by the activity and potentially complemented with information about inputs and outputs as result of it.",
-            "definition-en": "Activities performed by the activity complex. Function is described by the activity and potentially complemented with information about inputs and outputs as result of it.",
-            "ap-label-en": "function",
+            "definition-en": "Activities carried out by the complex.",
             "label-nl": "functie",
             "ap-label-nl": "functie",
             "ap-definition-nl": "Activiteiten uitgevoerd door het complex.",
@@ -5449,7 +5502,7 @@
             "en": "documentation"
           },
           "description": {
-            "en": "[UPDATED] Additional explanation of the activity complex."
+            "en": "Reference to a Document with additional information about the complex."
           },
           "usage": {},
           "domain": [
@@ -5477,13 +5530,11 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "documentation",
-            "ap-label-en": "documentation",
             "label-nl": "documentatie",
             "ap-label-nl": "documentatie",
             "ap-definition-nl": "Verwijzing naar een Document met extra informatie over het Activiteitencomplex.",
             "definition-nl": "Verwijzing naar een Document met extra informatie over het complex.",
-            "ap-definition-en": "Additional explanation of the activity complex.",
-            "definition-en": "Additional explanation of the activity complex.",
+            "definition-en": "Reference to a Document with additional information about the complex.",
             "uri": "http://purl.org/dc/elements/1.1/relation"
           }
         },
@@ -5584,11 +5635,9 @@
             "en": "geometry"
           },
           "description": {
-            "en": "[UPDATED] The geometry used to define the extent or position of the Activity Complex."
+            "en": "Geometry of the complex to describe its location and size."
           },
-          "usage": {
-            "en": "NOTE 1 Based on the provided description, different geometries could be used to represent the Activity Complex as a one legal whole.\nEXAMPLE  1 E-prtr geometry is given by a single point based on Geographical Coordinates (see below). In other levels of detail or depending on the Data Provider this could be represented [e.g.] by a Multi-poligon.\nEXAMPLE 2 PRTR - Legal act example:   the latitude and longitude coordinates within an arc of 5 minutes that avoid the direct identification of an individual holding.."
-          },
+          "usage": {},
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
@@ -5614,11 +5663,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "geometry",
-            "ap-definition-en": "The geometry used to define the extent or position of the Activity Complex.",
-            "ap-usageNote-en": "NOTE 1 Based on the provided description, different geometries could be used to represent the Activity Complex as a one legal whole.\nEXAMPLE  1 E-prtr geometry is given by a single point based on Geographical Coordinates (see below). In other levels of detail or depending on the Data Provider this could be represented [e.g.] by a Multi-poligon.\nEXAMPLE 2 PRTR - Legal act example:   the latitude and longitude coordinates within an arc of 5 minutes that avoid the direct identification of an individual holding..",
-            "definition-en": "The geometry used to define the extent or position of the Activity Complex.",
-            "ap-label-en": "geometry",
-            "usageNote-en": "NOTE 1 Based on the provided description, different geometries could be used to represent the Activity Complex as a one legal whole.\nEXAMPLE  1 E-prtr geometry is given by a single point based on Geographical Coordinates (see below). In other levels of detail or depending on the Data Provider this could be represented [e.g.] by a Multi-poligon.\nEXAMPLE 2 PRTR - Legal act example:   the latitude and longitude coordinates within an arc of 5 minutes that avoid the direct identification of an individual holding..",
+            "definition-en": "Geometry of the complex to describe its location and size.",
             "label-nl": "geometrie",
             "ap-label-nl": "geometrie",
             "ap-definition-nl": "Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven.",
@@ -5634,7 +5679,7 @@
             "en": "identifier"
           },
           "description": {
-            "en": "[UPDATED] External object identifier of the Activity Complex"
+            "en": "External Identifier of the complex."
           },
           "usage": {
             "en": "NOTE  An external object identifier is a unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object. The identifier is an identifier of the spatial object, not an identifier of the real-world phenomenon."
@@ -5664,10 +5709,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "identifier",
-            "ap-definition-en": "External object identifier of the Activity Complex",
-            "ap-usageNote-en": "NOTE  An external object identifier is a unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object. The identifier is an identifier of the spatial object, not an identifier of the real-world phenomenon.",
-            "definition-en": "External object identifier of the Activity Complex",
-            "ap-label-en": "identifier",
+            "definition-en": "External Identifier of the complex.",
             "usageNote-en": "NOTE  An external object identifier is a unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object. The identifier is an identifier of the spatial object, not an identifier of the real-world phenomenon.",
             "label-nl": "identificator",
             "ap-label-nl": "identificator",
@@ -5684,7 +5726,7 @@
             "en": "name"
           },
           "description": {
-            "en": "[UPDATED] Descriptive name of the Activity Complex."
+            "en": "Name by which the complex is known."
           },
           "usage": {
             "en": "NOTE 1 Several names in different languages may be expressed.\nNOTE 2 It is recommended that the language of the name (part of the Geographical/Name data type) be filled whenever possible."
@@ -5714,10 +5756,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "name",
-            "ap-definition-en": "Descriptive name of the Activity Complex.",
-            "ap-usageNote-en": "NOTE 1 Several names in different languages may be expressed.\nNOTE 2 It is recommended that the language of the name (part of the Geographical/Name data type) be filled whenever possible.",
-            "definition-en": "Descriptive name of the Activity Complex.",
-            "ap-label-en": "name",
+            "definition-en": "Name by which the complex is known.",
             "usageNote-en": "NOTE 1 Several names in different languages may be expressed.\nNOTE 2 It is recommended that the language of the name (part of the Geographical/Name data type) be filled whenever possible.",
             "label-nl": "naam",
             "ap-label-nl": "naam",
@@ -5742,12 +5781,10 @@
       "parents": [],
       "rawTags": {
         "label-en": "Function",
-        "ap-label-en": "Function",
         "label-nl": "Functie",
         "ap-label-nl": "Functie",
         "ap-definition-nl": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output.",
         "definition-nl": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output.",
-        "ap-definition-en": "The function of something expressed as an activity and optional input and/or output.",
         "definition-en": "The function of something expressed as an activity and optional input and/or output.",
         "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
       },
@@ -5760,7 +5797,7 @@
             "en": "description"
           },
           "description": {
-            "en": "[UPDATED] Text field containing more information about the class Function."
+            "en": "A more detailed description of the function."
           },
           "usage": {},
           "domain": [
@@ -5788,14 +5825,12 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "description",
-            "ap-label-en": "description",
             "label-nl": "beschrijving",
             "ap-label-nl": "beschrijving",
             "ap-definition-nl": "Een meer gedtailleerde beschrijving van de functie.",
             "uri": "http://purl.org/dc/elements/1.1/description",
             "definition-nl": "Een meer gedtailleerde beschrijving van de functie.",
-            "ap-definition-en": "Text field containing more information about the class Function.",
-            "definition-en": "Text field containing more information about the class Function."
+            "definition-en": "A more detailed description of the function."
           }
         },
         {
@@ -5834,12 +5869,10 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "output",
-            "ap-label-en": "output",
             "label-nl": "output",
             "ap-label-nl": "output",
             "ap-definition-nl": "Uitvoer van het resultaat van de activiteit in de functie.",
             "definition-nl": "Uitvoer van het resultaat van de activiteit in de functie.",
-            "ap-definition-en": "Output the result of the activity in the function.",
             "definition-en": "Output the result of the activity in the function."
           }
         },
@@ -5879,12 +5912,10 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "input",
-            "ap-label-en": "input",
             "label-nl": "input",
             "ap-label-nl": "input",
             "ap-definition-nl": "Invoer voor de activiteit in de functie.",
             "definition-nl": "Invoer voor de activiteit in de functie",
-            "ap-definition-en": "Input for the activity in the function.",
             "definition-en": "Input for the activity in the function."
           }
         },
@@ -5896,9 +5927,11 @@
             "en": "activity"
           },
           "description": {
-            "en": "[UPDATED] In the context of ActivityComplex containing a Function object, this is about the function description of the ActivityComplex."
+            "en": "Classification of the activity."
           },
-          "usage": {},
+          "usage": {
+            "en": "Preferably use the NACE codes."
+          },
           "domain": [
             {
               "EA-Name": "Functie",
@@ -5924,40 +5957,49 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "activity",
-            "ap-label-en": "activity",
             "label-nl": "activiteit",
             "ap-label-nl": "activiteit",
             "ap-definition-nl": "Classificatie van de activiteit.",
             "definition-nl": "Classificatie van de activiteit.",
-            "ap-definition-en": "In the context of ActivityComplex containing a Function object, this is about the function description of the ActivityComplex.",
-            "definition-en": "In the context of ActivityComplex containing a Function object, this is about the function description of the ActivityComplex.",
+            "definition-en": "Classification of the activity.",
             "usageNote-nl": "Gebruik bij voorkeur de NACE codes.",
-            "ap-usageNote-nl": "Gebruik bij voorkeur de NACE codes."
+            "ap-usageNote-nl": "Gebruik bij voorkeur de NACE codes.",
+            "usageNote-en": "Preferably use the NACE codes."
           }
         }
       ]
     },
     {
       "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "GenericLink",
+      "label": {
+        "en": "Generic Link"
+      },
+      "sort": "Generic Link",
+      "description": {
+        "en": "Linear Network Element."
+      },
       "usage": {},
       "parents": [],
       "rawTags": {
         "definition-nl": "Lineair Netwerkelement.",
         "label-nl": "GeneriekeLink",
-        "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink"
+        "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+        "definition-en": "Linear Network Element.",
+        "label-en": "Generic Link"
       },
       "properties": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/netwerk#Knoop",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Node",
+      "label": {
+        "en": "Node"
+      },
+      "sort": "Node",
+      "description": {
+        "en": "Significant position in the Network that always coincides with the beginning or end of a Link."
+      },
       "usage": {},
       "parents": [],
       "rawTags": {
@@ -5965,47 +6007,61 @@
         "label-nl": "Knoop",
         "definition-nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link.",
         "ap-label-nl": "Knoop",
-        "ap-definition-nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link."
+        "ap-definition-nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link.",
+        "definition-en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
+        "label-en": "Node"
       },
       "properties": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/netwerk#Link",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Link",
+      "label": {
+        "en": "Link"
+      },
+      "sort": "Link",
+      "description": {
+        "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes."
+      },
       "usage": {},
       "parents": [
         {
-          "label": "GeneriekeLink",
+          "label": "Generic Link",
           "name": "GeneriekeLink",
           "package": "SupportPackage",
           "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
-          "scoped_uri": "#GeneriekeLink"
+          "scoped_uri": "#Generic Link"
         }
       ],
       "rawTags": {
         "uri": "https://data.vlaanderen.be/ns/netwerk#Link",
         "label-nl": "Link",
-        "definition-nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen."
+        "definition-nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen.",
+        "label-en": "Link",
+        "definition-en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes."
       },
       "properties": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/netwerk#Linksequentie",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
+      "name": "Linksequence",
+      "label": {
+        "en": "LinkSequence"
+      },
+      "sort": "LinkSequence",
+      "description": {
+        "en": "Unbranched continuous path in a Network."
+      },
+      "usage": {
+        "en": "For example, a route in the Network."
+      },
       "parents": [
         {
-          "label": "GeneriekeLink",
+          "label": "Generic Link",
           "name": "GeneriekeLink",
           "package": "SupportPackage",
           "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
-          "scoped_uri": "#GeneriekeLink"
+          "scoped_uri": "#Generic Link"
         }
       ],
       "rawTags": {
@@ -6015,7 +6071,10 @@
         "usageNote-nl": "Bv een route in het Netwerk.",
         "ap-label-nl": "Linksequentie",
         "ap-definition-nl": "Onvertakt doorlopend pad in een Netwerk.",
-        "ap-usageNote-nl": "Bv een route in het Netwerk."
+        "ap-usageNote-nl": "Bv een route in het Netwerk.",
+        "label-en": "LinkSequence",
+        "definition-en": "Unbranched continuous path in a Network.",
+        "usageNote-en": "For example, a route in the Network."
       },
       "properties": []
     },
@@ -6036,11 +6095,17 @@
     },
     {
       "uri": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
-      "usage": {},
+      "name": "Network",
+      "label": {
+        "en": "Network"
+      },
+      "sort": "Network",
+      "description": {
+        "en": "Collection of Network Elements."
+      },
+      "usage": {
+        "en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport."
+      },
       "parents": [],
       "rawTags": {
         "uri": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
@@ -6049,7 +6114,10 @@
         "usageNote-nl": "De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel.",
         "ap-label-nl": "Netwerk",
         "ap-definition-nl": "Verzameling van Netwerkelementen.",
-        "ap-usageNote-nl": "De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel."
+        "ap-usageNote-nl": "De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel.",
+        "label-en": "Network",
+        "definition-en": "Collection of Network Elements.",
+        "usageNote-en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport."
       },
       "properties": []
     }
@@ -6418,6 +6486,21 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
       "name": {
+        "en": "inNetwork",
+        "undefined": "innetwork"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "name": {
         "en": "in network",
         "undefined": "inNetwork"
       },
@@ -6651,8 +6734,8 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres",
       "name": {
-        "en": "[UPDATED] adress",
-        "undefined": "adress"
+        "en": "address",
+        "undefined": "address"
       },
       "description": {},
       "domain": [
@@ -6666,8 +6749,8 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
       "name": {
-        "en": "[UPDATED] activity complex reference",
-        "undefined": "activityComplexReference"
+        "en": "activitycomplex reference",
+        "undefined": "activitycomplexReference"
       },
       "description": {},
       "domain": [
@@ -6681,7 +6764,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^identificator",
       "name": {
-        "en": "[UPDATED] identifier",
+        "en": "identifier",
         "undefined": "identifier"
       },
       "description": {},
@@ -7792,7 +7875,7 @@
             "en": "height"
           },
           "description": {
-            "en": "[UPDATED] Distance above the Reference Surface."
+            "en": "Distance above the Reference Surface."
           },
           "usage": {},
           "domain": [
@@ -7838,7 +7921,7 @@
       },
       "sort": "Reference Surface",
       "description": {
-        "en": "[UPDATED] Surface relative to which a position is measured."
+        "en": "Surface relative to which a position is measured."
       },
       "usage": {
         "en": "In this context typically the ground level."
@@ -7883,10 +7966,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] DirectPosition",
+              "range_uri": "#Direct Position",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
               "range_label": {
-                "en": "[UPDATED] DirectPosition"
+                "en": "Direct Position"
               }
             }
           ],
@@ -7916,7 +7999,7 @@
             "en": "Location of the Reference Surface."
           },
           "usage": {
-            "en": "[UPDATED] Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface."
+            "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface."
           },
           "domain": [
             {
@@ -7950,7 +8033,7 @@
             "definition-en": "Location of the Reference Surface.",
             "ap-usageNote-nl": "Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de VerticalePositie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak.",
             "uri": "http://www.w3.org/ns/locn#geometry",
-            "usageNote-en": "Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface."
+            "usageNote-en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface."
           }
         },
         {
@@ -8070,9 +8153,9 @@
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
       "name": "VerticalPosition",
       "label": {
-        "en": "[UPDATED] Vertical Position"
+        "en": "Vertical Position"
       },
-      "sort": "[UPDATED] Vertical Position",
+      "sort": "Vertical Position",
       "description": {
         "en": "Position in vertical direction relative to a Reference Surface."
       },
@@ -8210,10 +8293,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] DirectPosition",
+              "range_uri": "#Direct Position",
               "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
               "range_label": {
-                "en": "[UPDATED] DirectPosition"
+                "en": "Direct Position"
               }
             }
           ],
@@ -8243,7 +8326,7 @@
             "en": "Location for which the Vertical Position applies."
           },
           "usage": {
-            "en": "[UPDATED] Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface."
+            "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface."
           },
           "domain": [
             {
@@ -8277,7 +8360,7 @@
             "definition-en": "Location for which the Vertical Position applies.",
             "ap-usageNote-nl": "Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de VerticalePositie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt.",
             "uri": "http://www.w3.org/ns/locn#geometry",
-            "usageNote-en": "Typically the xy-coordinates of a Point on the earth's surface for which the VerticalPosition of the ReferenceSurface applies. Or the Geometry of (part of) the ReferenceSurface."
+            "usageNote-en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface."
           }
         }
       ]
@@ -8290,9 +8373,11 @@
       },
       "sort": "Length",
       "description": {
-        "en": "[UPDATED] The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
+        "en": "Distance between two points on a curve."
       },
-      "usage": {},
+      "usage": {
+        "en": "Used here to describe the size of something, for example the height of a tower."
+      },
       "parents": [
         {
           "label": "Measure",
@@ -8304,15 +8389,15 @@
       ],
       "rawTags": {
         "label-en": "Length",
-        "ap-label-en": "Length",
         "label-nl": "Lengte",
         "ap-label-nl": "Lengte",
         "ap-definition-nl": "Afstand tussen twee punten op een kromme.",
         "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
         "definition-nl": "Afstand tussen twee punten op een kromme.",
-        "ap-definition-en": "The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary.",
         "usageNote-nl": "Hier gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren.",
-        "ap-usageNote-nl": "Hier gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren."
+        "ap-usageNote-nl": "Hier gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren.",
+        "definition-en": "Distance between two points on a curve.",
+        "usageNote-en": "Used here to describe the size of something, for example the height of a tower."
       },
       "properties": [
         {
@@ -8338,10 +8423,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] UomLength",
+              "range_uri": "#UOM Length",
               "range_puri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
               "range_label": {
-                "en": "[UPDATED] UomLength"
+                "en": "UOM Length"
               }
             }
           ],
@@ -8349,7 +8434,6 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "uom",
-            "ap-label-en": "uom",
             "label-nl": "eenheid",
             "ap-label-nl": "eenheid",
             "ap-definition-nl": "Eenheid waarin de Lengte wordt uitegdrukt.",
@@ -8369,22 +8453,18 @@
       },
       "sort": "Measure",
       "description": {
-        "en": "[UPDATED] The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
+        "en": "A measured amount of a certain quantity, expressed in some unit."
       },
-      "usage": {
-        "en": "A measure is always associated to a unit of measure. Ratio measures where the two base measures are in the same units (often considered unit-less) should be associated to UnitOfMeasure (same meter.sl.meter for map scale) so that conversions to non-unitless ratios can be accomplished (such as miles.sl.inch)"
-      },
+      "usage": {},
       "parents": [],
       "rawTags": {
-        "ap-label-en": "Measure",
         "label-en": "Measure",
         "label-nl": "Maat",
         "ap-label-nl": "Maat",
         "ap-definition-nl": "Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid.",
         "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
         "definition-nl": "Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid.",
-        "ap-definition-en": "The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity.",
-        "ap-usageNote-en": "A measure is always associated to a unit of measure. Ratio measures where the two base measures are in the same units (often considered unit-less) should be associated to UnitOfMeasure (same meter.sl.meter for map scale) so that conversions to non-unitless ratios can be accomplished (such as miles.sl.inch)"
+        "definition-en": "A measured amount of a certain quantity, expressed in some unit."
       },
       "properties": [
         {
@@ -8420,7 +8500,6 @@
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "ap-label-en": "value",
             "label-en": "value",
             "label-nl": "waarde",
             "ap-label-nl": "waarde",
@@ -8452,17 +8531,16 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] UnitOfMeasure",
+              "range_uri": "#Unit of Measure",
               "range_puri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
               "range_label": {
-                "en": "[UPDATED] UnitOfMeasure"
+                "en": "Unit of Measure"
               }
             }
           ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "ap-label-en": "uom",
             "label-en": "uom",
             "label-nl": "eenheid",
             "ap-label-nl": "eenheid",
@@ -8480,12 +8558,8 @@
         "en": "Curve"
       },
       "sort": "Curve",
-      "description": {
-        "en": "A 1-dimensional geometric primitive."
-      },
-      "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
-      },
+      "description": {},
+      "usage": {},
       "parents": [
         {
           "label": "Geometry",
@@ -8500,12 +8574,9 @@
         "ap-definition-nl": "Een 1-dimensionele geometrische primitieve.",
         "uri": "http://www.opengis.net/ont/geosparql#Curve",
         "ap-label-nl": "Curve",
-        "ap-label-en": "Curve",
         "label-en": "Curve",
         "definition-nl": "Een 1-dimensionele geometrische primitieve.",
         "usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
-        "ap-definition-en": "A 1-dimensional geometric primitive.",
-        "ap-usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
         "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt."
       },
       "properties": []
@@ -8517,12 +8588,8 @@
         "en": "Point"
       },
       "sort": "Point",
-      "description": {
-        "en": "A 0-dimensional geometric primitive."
-      },
-      "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
-      },
+      "description": {},
+      "usage": {},
       "parents": [
         {
           "label": "Geometry",
@@ -8537,12 +8604,9 @@
         "ap-definition-nl": "Een 0-dimensionele geometrische primitieve.",
         "uri": "http://www.opengis.net/ont/sf#Point",
         "ap-label-nl": "Punt",
-        "ap-label-en": "Point",
         "label-en": "Point",
         "definition-nl": "Een 0-dimensionele geometrische primitieve.",
         "usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
-        "ap-definition-en": "A 0-dimensional geometric primitive.",
-        "ap-usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
         "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem."
       },
       "properties": []
@@ -8568,9 +8632,6 @@
         "label-en": "Identifier",
         "label-nl": "Identificator",
         "uri": "http://www.w3.org/ns/adms#Identifier",
-        "ap-label-en": "Identifier",
-        "ap-definition-en": "Information used to uniquely identify an object.",
-        "ap-usageNote-en": "The starting point here is that this string is assigned by an organisation and that this is done according to a well-defined system.",
         "usageNote-en": "The starting point here is that this string is assigned by an organisation and that this is done according to a well-defined system.",
         "definition-nl": "Informatie gebruikt om een object uniek te identificeren.",
         "ap-label-nl": "Identificator",
@@ -8579,10 +8640,10 @@
       "properties": [
         {
           "uri": "http://www.w3.org/ns/adms#schemaAgency",
-          "name": "assignedbystring",
-          "sort": "[UPDATED] assignedByString",
+          "name": "assignedBy(string)",
+          "sort": "assigned by (String)",
           "label": {
-            "en": "[UPDATED] assignedByString"
+            "en": "assigned by (String)"
           },
           "description": {
             "en": "Name from the agent who assigned the identifier."
@@ -8618,9 +8679,7 @@
             "ap-label-nl": "toegekend door (String)",
             "ap-definition-nl": "Naam vd agent die de identificator heeft toegekend.",
             "definition-en": "Name from the agent who assigned the identifier.",
-            "label-en": "assignedByString",
-            "ap-label-en": "assignedByString",
-            "ap-definition-en": "Name from the agent who assigned the identifier.",
+            "label-en": "assigned by (String)",
             "definition-nl": "Naam vd agent die de identificator heeft toegekend."
           }
         },
@@ -8668,9 +8727,6 @@
             "ap-definition-nl": "String gebruikt om het object uniek te identificeren.",
             "definition-en": "String used to uniquely identify the object.",
             "label-en": "identifier",
-            "ap-label-en": "identifier",
-            "ap-definition-en": "String used to uniquely identify the object.",
-            "ap-usageNote-en": "Type of the string refers to the identifier (incl its version), the string itself to the actual identifier.",
             "usageNote-en": "Type of the string refers to the identifier (incl its version), the string itself to the actual identifier.",
             "definition-nl": "String gebruikt om het object uniek te identificeren.",
             "usageNote-nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
@@ -8678,10 +8734,10 @@
         },
         {
           "uri": "http://purl.org/dc/terms/issued",
-          "name": "assignedon",
-          "sort": "[UPDATED] assignedOn",
+          "name": "assignedOn",
+          "sort": "assigned on",
           "label": {
-            "en": "[UPDATED] assignedOn"
+            "en": "assigned on"
           },
           "description": {
             "en": "Time the identifier was assigned."
@@ -8717,18 +8773,16 @@
             "ap-label-nl": "toegekend op",
             "ap-definition-nl": "Tijdstip waarop de identificator werd uitgegeven.",
             "definition-en": "Time the identifier was assigned.",
-            "label-en": "assignedOn",
-            "ap-label-en": "assignedOn",
-            "ap-definition-en": "Time the identifier was assigned.",
+            "label-en": "assigned on",
             "definition-nl": "Tijdstip waarop de identificator werd uitgegeven."
           }
         },
         {
           "uri": "http://purl.org/dc/terms/creator",
-          "name": "assignedby",
-          "sort": "[UPDATED] assignedBy",
+          "name": "assignedBy",
+          "sort": "assigned by",
           "label": {
-            "en": "[UPDATED] assignedBy"
+            "en": "assigned by"
           },
           "description": {
             "en": "Link to the agent who assigned the identifier."
@@ -8764,9 +8818,7 @@
             "ap-label-nl": "toegekend door",
             "ap-definition-nl": "Link naar de agent die de identificator heeft uitgegeven.",
             "definition-en": "Link to the agent who assigned the identifier.",
-            "label-en": "assignedBy",
-            "ap-label-en": "assignedBy",
-            "ap-definition-en": "Link to the agent who assigned the identifier.",
+            "label-en": "assigned by",
             "definition-nl": "Link naar de agent die de identificator heeft uitgegeven."
           }
         }
@@ -8795,9 +8847,6 @@
         "label-nl": "Adresvoorstelling",
         "noPropertyType": "false",
         "uri": "http://www.w3.org/ns/locn#Address",
-        "ap-definition-en": "More readable representation containing only the basic data of the address,intended for using an address as an attribute of another object.",
-        "ap-usageNote-en": "Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur).",
-        "ap-label-en": "Address Representation",
         "usageNote-en": "Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur).",
         "ap-label-nl": "Adresvoorstelling",
         "definition-nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object.",
@@ -8806,10 +8855,10 @@
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
-          "name": "refersto",
-          "sort": "[UPDATED] refersTo",
+          "name": "refersTo",
+          "sort": "refers to",
           "label": {
-            "en": "[UPDATED] refersTo"
+            "en": "refers to"
           },
           "description": {
             "en": "Address from which the address representation is derived."
@@ -8841,11 +8890,8 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "refersTo",
-            "ap-definition-en": "Address from which the address representation is derived.",
-            "ap-usageNote-en": "This can only be done for Belgian addresses as address means a Belgian address.",
+            "label-en": "refers to",
             "definition-en": "Address from which the address representation is derived.",
-            "ap-label-en": "refersTo",
             "usageNote-en": "This can only be done for Belgian addresses as address means a Belgian address.",
             "label-nl": "verwijst Naar",
             "ap-label-nl": "verwijst Naar",
@@ -8897,8 +8943,6 @@
             "label-nl": "land",
             "definition-en": "Country in which the address is located.",
             "label-en": "country",
-            "ap-definition-en": "Country in which the address is located.",
-            "ap-label-en": "country",
             "ap-label-nl": "land",
             "definition-nl": "Land waarin het adres gelegen is.",
             "uri": "https://data.vlaanderen.be/ns/adres#land"
@@ -8945,8 +8989,6 @@
             "ap-usageNote-nl": " ",
             "definition-en": "Municipal name from address.",
             "label-en": "municipality name",
-            "ap-definition-en": "Municipal name from address.",
-            "ap-label-en": "municipality name",
             "ap-label-nl": "gemeentenaam",
             "definition-nl": "Gemeentenaam van het adres.",
             "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
@@ -8996,9 +9038,6 @@
             "ap-definition-nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben.",
             "definition-en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number.",
             "label-en": "box number",
-            "ap-definition-en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number.",
-            "ap-usageNote-en": "Specialisation of Address Presentation:location indication for Belgian addresses.",
-            "ap-label-en": "box number",
             "usageNote-en": "Specialisation of Address Presentation:location indication for Belgian addresses.",
             "ap-label-nl": "busnummer",
             "definition-nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben.",
@@ -9050,9 +9089,6 @@
             "ap-usageNote-nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen.",
             "definition-en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots.",
             "label-en": "house number",
-            "ap-definition-en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots.",
-            "ap-usageNote-en": "Specialization of Address representation: location indication for Belgian addresses.",
-            "ap-label-en": "house number",
             "usageNote-en": "Specialization of Address representation: location indication for Belgian addresses.",
             "ap-label-nl": "huisnummer",
             "definition-nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.",
@@ -9101,8 +9137,6 @@
             "ap-usageNote-nl": " ",
             "definition-en": "Street name of address.",
             "label-en": "street name",
-            "ap-definition-en": "Street name of address.",
-            "ap-label-en": "street name",
             "ap-label-nl": "straatnaam",
             "definition-nl": "Straatnaam van het adres."
           }
@@ -9148,8 +9182,6 @@
             "ap-usageNote-nl": " ",
             "definition-en": "Name denoting the geographical area that groups addresses for postal purposes.",
             "label-en": "postal name",
-            "ap-definition-en": "Name denoting the geographical area that groups addresses for postal purposes.",
-            "ap-label-en": "postal name",
             "ap-label-nl": "postnaam",
             "definition-nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
           }
@@ -9196,18 +9228,16 @@
             "ap-usageNote-nl": " ",
             "definition-en": "Code denoting the geographical area that groups addresses for postal purposes.",
             "label-en": "postal code",
-            "ap-definition-en": "Code denoting the geographical area that groups addresses for postal purposes.",
-            "ap-label-en": "postal code",
             "ap-label-nl": "postcode",
             "definition-nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
           }
         },
         {
           "uri": "http://www.w3.org/ns/locn#poBox",
-          "name": "pobox",
-          "sort": "[UPDATED] PObox",
+          "name": "poBox",
+          "sort": "PO box",
           "label": {
-            "en": "[UPDATED] PObox"
+            "en": "PO box"
           },
           "description": {
             "en": "PO Box number in a post office."
@@ -9242,9 +9272,7 @@
             "ap-definition-nl": "Postbusnummer in een postkantoor.",
             "ap-usageNote-nl": " ",
             "definition-en": "PO Box number in a post office.",
-            "label-en": "PObox",
-            "ap-definition-en": "PO Box number in a post office.",
-            "ap-label-en": "PObox",
+            "label-en": "PO box",
             "ap-label-nl": "postbus",
             "definition-nl": "Postbusnummer in een postkantoor."
           }
@@ -9290,8 +9318,6 @@
             "ap-usageNote-nl": " ",
             "definition-en": "Name or description of the geographic object the address locator designates.",
             "label-en": "location name",
-            "ap-definition-en": "Name or description of the geographic object the address locator designates.",
-            "ap-label-en": "location name",
             "ap-label-nl": "locatienaam",
             "definition-nl": "Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
           }
@@ -9337,8 +9363,6 @@
             "ap-usageNote-nl": " ",
             "definition-en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc.",
             "label-en": "location indication",
-            "ap-definition-en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc.",
-            "ap-label-en": "location indication",
             "ap-label-nl": "locatieaanduiding",
             "definition-nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
           }
@@ -9386,9 +9410,6 @@
             "label-nl": "volledig Adres",
             "definition-en": "The complete address in one string, formatted or not.",
             "label-en": "full address",
-            "ap-definition-en": "The complete address in one string, formatted or not.",
-            "ap-usageNote-en": "Avoids errors when splitting an address into its components. Displays the prescribed order of the different parts.",
-            "ap-label-en": "full address",
             "usageNote-en": "Avoids errors when splitting an address into its components. Displays the prescribed order of the different parts.",
             "ap-label-nl": "volledig Adres",
             "definition-nl": "Het complete adres in één string, al dan niet geformatteerd.",
@@ -9436,8 +9457,6 @@
             "uri": "http://www.w3.org/ns/locn#adminUnitL2",
             "definition-en": "The region of address, usually a province or state or similar area that typically includes several places.",
             "label-en": "administrative unit level 2",
-            "ap-definition-en": "The region of address, usually a province or state or similar area that typically includes several places.",
-            "ap-label-en": "administrative unit level 2",
             "ap-label-nl": "administratieve eenheid niveau 2",
             "definition-nl": "De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
           }
@@ -9450,7 +9469,7 @@
             "en": "administrative unit level 1"
           },
           "description": {
-            "en": "[UPDATED] Highest Administrative Unit van het address, usually a country."
+            "en": "Highest Administrative Unit of the address, usually a country."
           },
           "usage": {},
           "domain": [
@@ -9481,10 +9500,8 @@
             "uri": "http://www.w3.org/ns/locn#adminUnitL1",
             "ap-definition-nl": "Hoogste Administratieve eenheid van het adres, doorgaans een land.",
             "ap-usageNote-nl": " ",
-            "definition-en": "Highest Administrative Unit of address, usually a country.",
+            "definition-en": "Highest Administrative Unit of the address, usually a country.",
             "label-en": "administrative unit level 1",
-            "ap-definition-en": "Highest Administrative Unit van het address, usually a country.",
-            "ap-label-en": "administrative unit level 1",
             "ap-label-nl": "administratieve eenheid niveau 1",
             "definition-nl": "Hoogste Administratieve eenheid van het adres, doorgaans een land."
           }
@@ -9497,7 +9514,7 @@
             "en": "address area"
           },
           "description": {
-            "en": "[UPDATED] Name from a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit"
+            "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit."
           },
           "usage": {
             "en": "E.g. the name of the hamlet in which the address is located."
@@ -9530,11 +9547,8 @@
             "uri": "http://www.w3.org/ns/locn#addressArea",
             "ap-definition-nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is",
             "ap-usageNote-nl": "Bvb de naam van het gehucht waarin het adres ligt.",
-            "definition-en": "Name from a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit",
+            "definition-en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit.",
             "label-en": "address area",
-            "ap-definition-en": "Name from a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit",
-            "ap-usageNote-en": "E.g. the name of the hamlet in which the address is located.",
-            "ap-label-en": "address area",
             "usageNote-en": "E.g. the name of the hamlet in which the address is located.",
             "ap-label-nl": "adresgebied",
             "definition-nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is",
@@ -9564,9 +9578,6 @@
         "label-en": "Geometry",
         "label-nl": "Geometrie",
         "uri": "http://www.w3.org/ns/locn#Geometry",
-        "ap-definition-en": "Shape and position characteristics of an object.",
-        "ap-usageNote-en": "Describes these features through points, lines, polygons and coordinates.",
-        "ap-label-en": "Geometry",
         "usageNote-en": "Describes these features through points, lines, polygons and coordinates.",
         "definition-nl": "Vorm- en positiekenmerken van een object.",
         "ap-label-nl": "Geometrie",
@@ -9575,13 +9586,13 @@
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
-          "name": "measurement",
-          "sort": "[UPDATED] measurement",
+          "name": "survey",
+          "sort": "survey",
           "label": {
-            "en": "[UPDATED] measurement"
+            "en": "survey"
           },
           "description": {
-            "en": "[UPDATED] Determining the exact size of something by measuring it."
+            "en": "The way the geometry was determined."
           },
           "usage": {},
           "domain": [
@@ -9608,15 +9619,13 @@
           "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "measurement",
-            "ap-label-en": "measurement",
+            "label-en": "survey",
             "label-nl": "opmeting",
             "ap-label-nl": "opmeting",
             "definition-nl": "De manier waarop de geometrie werd bepaald.",
             "ap-definition-nl": "De manier waarop de geometrie werd bepaald.",
             "uri": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
-            "ap-definition-en": "Determining the exact size of something by measuring it.",
-            "definition-en": "Determining the exact size of something by measuring it."
+            "definition-en": "The way the geometry was determined."
           }
         },
         {
@@ -9627,10 +9636,10 @@
             "en": "wkt"
           },
           "description": {
-            "en": "[UPDATED] Geometrie uitgedrukt in wkt-formaat."
+            "en": "Geometry expressed in wkt format."
           },
           "usage": {
-            "en": "[UPDATED] Use http://www.opengis.net/ont/geosparql#wktLiteral as data type."
+            "en": "[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
           },
           "domain": [
             {
@@ -9661,12 +9670,9 @@
             "uri": "http://www.opengis.net/ont/geosparql#asWKT",
             "label-nl": "als WKT",
             "ap-definition-nl": "Geometrie uitgedrukt in wkt-formaat.",
-            "definition-en": "Geometrie uitgedrukt in wkt-formaat.",
+            "definition-en": "Geometry expressed in wkt format.",
             "label-en": "wkt",
-            "ap-label-en": "wkt",
-            "ap-definition-en": "Geometrie uitgedrukt in wkt-formaat.",
-            "ap-usageNote-en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as data type.",
-            "usageNote-en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as the data type.",
+            "usageNote-en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
             "definition-nl": "Geometrie uitgedrukt in wkt-formaat.",
             "usageNote-nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype."
           }
@@ -9679,10 +9685,10 @@
             "en": "gml"
           },
           "description": {
-            "en": "Geometry expressed in gml format."
+            "en": "[UPDATED] Direct position expressed in wkt format."
           },
           "usage": {
-            "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
+            "en": "[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
           },
           "domain": [
             {
@@ -9713,12 +9719,9 @@
             "label-nl": "als GML",
             "ap-usageNote-nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
             "ap-definition-nl": "Geometrie uitgedrukt in gml-formaat.",
-            "definition-en": "Geometry expressed in gml format.",
+            "definition-en": "Direct position expressed in wkt format.",
             "label-en": "gml",
-            "ap-label-en": "gml",
-            "ap-definition-en": "Geometry expressed in gml format.",
-            "ap-usageNote-en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
-            "usageNote-en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
+            "usageNote-en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
             "definition-nl": "Geometrie uitgedrukt in gml-formaat.",
             "usageNote-nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
           }
@@ -9727,10 +9730,14 @@
     },
     {
       "uri": "http://www.w3.org/ns/prov#Location",
-      "name": "",
-      "label": {},
-      "sort": "",
-      "description": {},
+      "name": "Location",
+      "label": {
+        "en": "Location"
+      },
+      "sort": "Location",
+      "description": {
+        "en": "Indication of a geographical position, by means of coordinates, a toponym, an address label, a reference to a place/region, an address or another geographical object."
+      },
       "usage": {},
       "parents": [],
       "rawTags": {
@@ -9740,45 +9747,44 @@
         "label-nl": "Locatie",
         "uri": "http://www.w3.org/ns/prov#Location",
         "usageNote-nl": "Te substitueren door een instantie van het gewenste type, ttz Geometrie, Adresvoorstelling, Plaats, GeografischeNaam, Gebouw, Perceel etc. Zie oa <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis\">OSLO Generiek</a> voor meer info over deze klassen.",
-        "ap-label-nl": "Locatie"
+        "ap-label-nl": "Locatie",
+        "definition-en": "Indication of a geographical position, by means of coordinates, a toponym, an address label, a reference to a place/region, an address or another geographical object.",
+        "label-en": "Location"
       },
       "properties": []
     },
     {
       "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
-      "name": "Directposition",
+      "name": "DirectPosition",
       "label": {
-        "en": "[UPDATED] DirectPosition"
+        "en": "Direct Position"
       },
-      "sort": "[UPDATED] DirectPosition",
+      "sort": "Direct Position",
       "description": {
         "en": "Holder of the coordinates of a position in a coordinate reference system."
       },
       "usage": {
-        "en": "[UPDATED] Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       },
       "parents": [],
       "rawTags": {
         "definition-nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem.",
         "label-nl": "DirectePositie",
         "usageNote-nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam.",
-        "usageNote-en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
+        "usageNote-en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
         "ap-label-nl": "DirectePositie",
-        "ap-definition-en": "Holder of the coordinates of a position in a coordinate reference system.",
-        "ap-label-en": "DirectPosition",
-        "ap-usageNote-en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
         "definition-en": "Holder of the coordinates of a position in a coordinate reference system.",
-        "label-en": "DirectPosition",
+        "label-en": "Direct Position",
         "ap-definition-nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem.",
         "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
       },
       "properties": [
         {
           "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting",
-          "name": "measurement",
-          "sort": "[UPDATED] Measurement",
+          "name": "survey",
+          "sort": "survey",
           "label": {
-            "en": "[UPDATED] Measurement"
+            "en": "survey"
           },
           "description": {
             "en": "The way the position was determined."
@@ -9812,10 +9818,8 @@
             "definition-nl": "De manier waarop de positie werd bepaald.",
             "name": "DirectePositie.opmeting",
             "ap-label-nl": "opmeting",
-            "ap-definition-en": "The way the position was determined.",
-            "ap-label-en": "Measurement",
             "definition-en": "The way the position was determined.",
-            "label-en": "Measurement",
+            "label-en": "survey",
             "ap-definition-nl": "De manier waarop de positie werd bepaald.",
             "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting"
           }
@@ -9831,7 +9835,7 @@
             "en": "Direct position expressed in wkt format."
           },
           "usage": {
-            "en": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
+            "en": "[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
           },
           "domain": [
             {
@@ -9861,13 +9865,11 @@
             "definition-nl": "Directe positie uitgedrukt in wkt-formaat.",
             "uri": "http://www.opengis.net/ont/geosparql#asWKT",
             "ap-usageNote-nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
-            "ap-usageNote-en": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
             "ap-label-nl": "wkt",
-            "ap-definition-en": "Direct position expressed in wkt format.",
-            "ap-label-en": "wkt",
             "definition-en": "Direct position expressed in wkt format.",
             "label-en": "wkt",
-            "ap-definition-nl": "Directe positie uitgedrukt in wkt-formaat."
+            "ap-definition-nl": "Directe positie uitgedrukt in wkt-formaat.",
+            "usageNote-en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
           }
         },
         {
@@ -9881,7 +9883,7 @@
             "en": "Direct position expressed in gml format."
           },
           "usage": {
-            "en": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
+            "en": "[UPDATED] Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
           },
           "domain": [
             {
@@ -9911,13 +9913,11 @@
             "definition-nl": "Directe positie uitgedrukt in gml-formaat.",
             "uri": "http://www.opengis.net/ont/geosparql#asGML",
             "ap-usageNote-nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
-            "ap-usageNote-en": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
             "ap-label-nl": "gml",
-            "ap-definition-en": "Direct position expressed in gml format.",
-            "ap-label-en": "gml",
             "definition-en": "Direct position expressed in gml format.",
             "label-en": "gml",
-            "ap-definition-nl": "Directe positie uitgedrukt in gml-formaat."
+            "ap-definition-nl": "Directe positie uitgedrukt in gml-formaat.",
+            "usageNote-en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
           }
         }
       ]
@@ -9969,10 +9969,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] PositionalAccuracy",
+              "range_uri": "#Positional Accuracy",
               "range_puri": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
               "range_label": {
-                "en": "[UPDATED] PositionalAccuracy"
+                "en": "Positional Accuracy"
               }
             }
           ],
@@ -10039,7 +10039,7 @@
             "en": "method"
           },
           "description": {
-            "en": "[UPDATED] Type of the method used."
+            "en": "Type of the method used."
           },
           "usage": {},
           "domain": [
@@ -10125,23 +10125,21 @@
       "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
       "name": "DirectedLink",
       "label": {
-        "en": "[UPDATED] Directed link"
+        "en": "Directed Link"
       },
-      "sort": "[UPDATED] Directed link",
+      "sort": "Directed Link",
       "description": {
         "en": "A link either in its positive or negative direction."
       },
       "usage": {},
       "parents": [],
       "rawTags": {
-        "ap-label-en": "Directed link",
-        "label-en": "Directed link",
+        "label-en": "Directed Link",
         "label-nl": "Gerichte link",
         "ap-label-nl": "Gerichte link",
         "ap-definition-nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
         "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
         "definition-nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
-        "ap-definition-en": "A link either in its positive or negative direction.",
         "definition-en": "A link either in its positive or negative direction."
       },
       "properties": [
@@ -10153,7 +10151,7 @@
             "en": "direction"
           },
           "description": {
-            "en": "[UPDATED] Indicates if the directed link agrees (positive) or disagrees (negative) with the\npositive direction of the link."
+            "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link."
           },
           "usage": {},
           "domain": [
@@ -10184,11 +10182,9 @@
             "ap-definition-nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld).",
             "uri": "https://data.vlaanderen.be/ns/netwerk#richting",
             "ap-label-nl": "richting",
-            "ap-label-en": "direction",
             "label-en": "direction",
             "definition-nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld).",
-            "ap-definition-en": "Indicates if the directed link agrees (positive) or disagrees (negative) with the\npositive direction of the link.",
-            "definition-en": "Indicates if the directed link agrees (positive) or disagrees (negative) with the\npositive direction of the link."
+            "definition-en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link."
           }
         },
         {
@@ -10199,7 +10195,7 @@
             "en": "link"
           },
           "description": {
-            "en": "[UPDATED] Reference to Link."
+            "en": "Reference to the Link."
           },
           "usage": {},
           "domain": [
@@ -10230,10 +10226,9 @@
             "ap-definition-nl": "Verwijzing naar de Link.",
             "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link",
             "ap-label-nl": "link",
-            "ap-label-en": "link",
             "label-en": "link",
             "definition-nl": "Verwijzing naar de Link.",
-            "ap-definition-en": "Reference to Link."
+            "definition-en": "Reference to the Link."
           }
         }
       ]
@@ -10250,7 +10245,6 @@
       "parents": [],
       "rawTags": {
         "label-en": "Number",
-        "ap-label-en": "Number",
         "label-nl": "Getal",
         "ap-label-nl": "Getal",
         "ap-definition-nl": "Aanduiding van een hoeveelheid.",
