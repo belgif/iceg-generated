@@ -998,9 +998,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/65d20c760f0e2822c57fdaa41eba843c631af752">https://github.com/belgif/ICEGthema-imkl/tree/65d20c760f0e2822c57fdaa41eba843c631af752</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/933ad7917d4e28c28ddc8043cb9aa620568ff46a">https://github.com/belgif/ICEGthema-imkl/tree/933ad7917d4e28c28ddc8043cb9aa620568ff46a</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/65d20c760f0e2822c57fdaa41eba843c631af752/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/65d20c760f0e2822c57fdaa41eba843c631af752/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/933ad7917d4e28c28ddc8043cb9aa620568ff46a/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/933ad7917d4e28c28ddc8043cb9aa620568ff46a/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/Informatievlaanderen/OSLOthema-imkl/issues">https://github.com/Informatievlaanderen/OSLOthema-imkl/issues</a></dd>
                   
@@ -1069,9 +1069,8 @@
                     <p>This document describes the usage of the following entities for a correct usage of the application profile:
                       <br>
                       |
-                      <a href="#"></a> |
                       <a href="#Activitycomplex">ActivityComplex</a> |
-                      <a href="#Adress">Adress</a> |
+                      <a href="#Address">Address</a> |
                       <a href="#Agent">Agent</a> |
                       <a href="#Annotation">Annotation</a> |
                       <a href="#Appurtenance">Appurtenance</a> |
@@ -1087,6 +1086,7 @@
                       <a href="#GenericLink">Generic Link</a> |
                       <a href="#Link">Link</a> |
                       <a href="#Linksequence">LinkSequence</a> |
+                      <a href="#Linkset">LinkSet</a> |
                       <a href="#Manhole">Manhole</a> |
                       <a href="#Network">Network</a> |
                       <a href="#Node">Node</a> |
@@ -1153,23 +1153,6 @@
             </div>
             <div class="region region--no-space-top">
               <h2 class="h2">Entities</h2>
-            </div>
-            
-            <div class="region region--no-space-top">
-              <h3 class="h3" id=""><a href="https://data.vlaanderen.be/ns/netwerk#Linkset" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/netwerk#Linkset" data-placement="right"></a></h3>
-              <div class="region region--no-space-top">
-                <dl>
-                  <dt>Definition</dt>
-                  <dd></dd>
-                  
-                  
-                  <dt>Properties</dt>
-                  
-                  <dd>No properties have been defined for this entity.</dd>
-                  
-                </dl>
-              </div>
-              
             </div>
             
             <div class="region region--no-space-top">
@@ -1382,14 +1365,14 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
             </div>
             
             <div class="region region--no-space-top">
-              <h3 class="h3" id="Adress"><a href="https://data.vlaanderen.be/ns/adres#Adres" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adres" data-placement="right">Adress</a></h3>
+              <h3 class="h3" id="Address"><a href="https://data.vlaanderen.be/ns/adres#Adres" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adres" data-placement="right">Address</a></h3>
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
                   <dd>Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>[UPDATED] De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.</dd>
+                  <dd>The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.</dd>
                   
                   
                   <dt>Properties</dt>
@@ -1426,7 +1409,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   <dd>A short explanation or note added to an Object.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>[UPDATED] A short explanation or note added to an Object.</dd>
+                  <dd>In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.</dd>
                   
                   
                   <dt>Properties</dt>
@@ -1698,7 +1681,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd>Simple UtilityNodeCcontainer that takes the shape of a cabinet.</dd>
+                  <dd>Simple UtilityNodeContainer that takes the shape of a cabinet.</dd>
                   
                   <dt>Usage</dt>
                   <dd>Contains typically smaller mountable Appurtenances and Cables.</dd>
@@ -2044,7 +2027,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>1</td>
-                      <td property="rdfs:comment">[UPDATED] Medium used to access the document.</td>
+                      <td property="rdfs:comment">Nature of the data carrier on which the Document is stored.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -2520,11 +2503,28 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
             </div>
             
             <div class="region region--no-space-top">
+              <h3 class="h3" id="Linkset"><a href="https://data.vlaanderen.be/ns/netwerk#Linkset" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/netwerk#Linkset" data-placement="right">LinkSet</a></h3>
+              <div class="region region--no-space-top">
+                <dl>
+                  <dt>Definition</dt>
+                  <dd>Collection of Link Sequences and/or Links with a specific function or interest in the Network.</dd>
+                  
+                  
+                  <dt>Properties</dt>
+                  
+                  <dd>No properties have been defined for this entity.</dd>
+                  
+                </dl>
+              </div>
+              
+            </div>
+            
+            <div class="region region--no-space-top">
               <h3 class="h3" id="Manhole"><a href="https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat" data-placement="right">Manhole</a></h3>
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd>Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.</dd>
+                  <dd>Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface.</dd>
                   
                   <dt>Usage</dt>
                   <dd>E.g. sewer cover.</dd>
@@ -2978,7 +2978,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   <dt>Subclass of
                   <dt>
                   <dd>
-                    <a href="http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element">Kwaliteitselement</a>
+                    <a href="http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element">DQ_Element</a>
                   </dd>
                   
                   <dt>Properties</dt>
@@ -3715,7 +3715,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   <dt>
                   <dd>
                     <a href="#Utility NetworkElement">Utility NetworkElement</a>, 
-                    <a href="#Linksequentie">Linksequentie</a>
+                    <a href="#LinkSequence">LinkSequence</a>
                   </dd>
                   
                   <dt>Properties</dt>
@@ -5229,7 +5229,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       <td>
                         
                         
-                        <a href="#Adress" data-placement="right">Adress</a>
+                        <a href="#Address" data-placement="right">Address</a>
                         
                         
                       </td>
@@ -5466,8 +5466,8 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>0..1</td>
-                      <td property="rdfs:comment">Direct position expressed in gml format.</td>
-                      <td property="skos:scopeNote">[UPDATED] Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.</td>
+                      <td property="rdfs:comment">Direct Position expressed in gml format.</td>
+                      <td property="skos:scopeNote">[UPDATED] Use <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> as datatype.</td>
                       <td></td>
                     </tr>
                     
@@ -5504,7 +5504,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>0..1</td>
-                      <td property="rdfs:comment">Direct position expressed in wkt format.</td>
+                      <td property="rdfs:comment">[UPDATED] Direct Position expressed in wkt format.</td>
                       <td property="skos:scopeNote">[UPDATED] Use <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> as datatype.</td>
                       <td></td>
                     </tr>
@@ -5647,7 +5647,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>0..1</td>
-                      <td property="rdfs:comment">[UPDATED] Direct position expressed in wkt format.</td>
+                      <td property="rdfs:comment">[UPDATED] Geometry expressed in wkt format.</td>
                       <td property="skos:scopeNote">[UPDATED] Use <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> as datatype.</td>
                       <td></td>
                     </tr>

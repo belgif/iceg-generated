@@ -1,0 +1,2350 @@
+{
+  "@context": {
+    "@vocab": "https://belgif.github.io//thematic/models/cable-pipe",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:description": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    },
+    "vl": "https://purl.eu/ns/shacl#"
+  },
+  "@id": "https://belgif.github.io//thematic/models/cable-pipe",
+  "shapes": [
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AansluitingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
+            "en": "Address of the Connection."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "address"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Appurtenance classification."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "appurtenance type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting.toebehorentype"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the Annotation."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "annotation type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+          "sh:description": {
+            "en": "Annotation that is part of the Annotation."
+          },
+          "sh:name": {
+            "en": "part"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#deel"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/prov#Entity",
+          "sh:description": {
+            "en": "Object to which the Annotation refers."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "associated with"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geassocieerdMet"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+          "sh:description": {
+            "en": "Annotation of which the Annotation is a part."
+          },
+          "sh:name": {
+            "en": "whole"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geheel"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the Annotation."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Angle by which the Annotation should be rotated when displayed."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "rotation angle"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rotatiehoek"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Text of the Annotation."
+          },
+          "sh:name": {
+            "en": "text"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#tekst"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Description of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/prov#Location",
+          "sh:description": {
+            "en": "Location of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/prov#atLocation"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/title"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of different types of protected areas."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DiepteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Distance below the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "depth"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#diepte"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Diepte"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ElectriciteitskabelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Voltage without load."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "nominal voltage"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Voltage during load."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "operating voltage"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#werkspanning"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Electriciteitskabel"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#HoogteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Distance above the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "height"
+          },
+          "sh:path": "https://schema.org/height"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Hoogte"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Diameter of the Cable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "cable diameter"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabeldiameter"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "subtheme"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel.subthema"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelEnLeidingContainerShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KanaalShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the Duct as a container."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "container type"
+          },
+          "sh:path": "http://purl.org/dc/terms/type"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+          "sh:description": {
+            "en": "Cable located in the Duct."
+          },
+          "sh:name": {
+            "en": "cable"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal",
+          "sh:description": {
+            "en": "Duct located in the Duct."
+          },
+          "sh:name": {
+            "en": "duct"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kanaal"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "Width of the Duct."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "duct width"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kanaalbreedte"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "sh:description": {
+            "en": "Pipe located in the Duct."
+          },
+          "sh:name": {
+            "en": "pipe"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.pijp"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KastShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kast"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MaataanduidingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Maataanduiding"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MangatShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
+          "sh:description": {
+            "en": "Link of which this Node is the start Node."
+          },
+          "sh:name": {
+            "en": "begin link"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#beginlink"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
+          "sh:description": {
+            "en": "Link of which this Node is the end Node."
+          },
+          "sh:name": {
+            "en": "end link"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#eindlink"
+        },
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Point",
+          "sh:description": {
+            "en": "Geometry of the Node."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Angle by which the symbol representing the Node on map should be rotated."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "orientation"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.orientatie"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates whether the Node can be considered hazardous."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "risk"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.risico"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+          "sh:description": {
+            "en": "Appearance of the Node."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "appearance"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.uiterlijk"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Extent to which the Node is observable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "visibility"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.zichtbaarheid"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopcontainerShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Point",
+          "sh:description": {
+            "en": "Geometry of the container."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
+          "sh:description": {
+            "en": "Utility Node that is contained by the UtilityNodeContainer."
+          },
+          "sh:name": {
+            "en": "node"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#knoop"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Angle by which to rotate the symbol representing the container on a map."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "orientation"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.orientatie"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates whether a UtilityNodeContainer can be considered hazardous."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "risk"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.risico"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+          "sh:description": {
+            "en": "Appearance of the container."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "appearance"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.uiterlijk"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Extent to which the container is observable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "visibility"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.zichtbaarheid"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+          "sh:description": {
+            "en": "Node that is the end of the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "end node"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#eindknoop"
+        },
+        {
+          "sh:class": "http://www.opengis.net/ont/geosparql#Curve",
+          "sh:description": {
+            "en": "The geometry of the centerline of the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "centreline geometry"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+          "sh:description": {
+            "en": "Node that starts the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "start node"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#beginknoop"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksequentieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
+          "sh:description": {
+            "en": "Directed Link that is part of the LinkSequence."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "link"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinksequentie"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksetShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+          "sh:description": {
+            "en": "UtilityLinkSequence or UtilityLink that is part of the LinkSet."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "link"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Linkset.link"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of material that makes up the LinkSet."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "material type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#materiaaltype"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Way in which the utility is delivered."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "utility delivery type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nutsvoorzieningleveringstype"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates whether the LinkSet can be considered hazardous."
+          },
+          "sh:name": {
+            "en": "risk"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.risico"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Further specification of the LinkSet."
+          },
+          "sh:name": {
+            "en": "technical specification"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#technischeSpecificate"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+          "sh:description": {
+            "en": "Appearance of the LinkSet."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "appearance"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.uiterlijk"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Way to alert for the presence of the LinkSet."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "warning type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#waarschuwingstype"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Extent to which the LinkSet is observable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "visibility"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.zichtbaarheid"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name by which the network is known."
+          },
+          "sh:name": {
+            "en": "geographical name"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^geografischeNaam"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
+          "sh:description": {
+            "en": "ActivityComplex belonging to the network."
+          },
+          "sh:name": {
+            "en": "activitycomplex reference"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/Agent",
+          "sh:description": {
+            "en": "Parties authorized to manage, operate or own the Utility Network."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "authority role"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#bevoegdePartij"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Legal text describing confidentiality clauses applying to the utility network information."
+          },
+          "sh:name": {
+            "en": "disclaimer"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#disclaimer"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Document",
+          "sh:description": {
+            "en": "Reference to a Document containing additional information about the Network."
+          },
+          "sh:name": {
+            "en": "documentation"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/relation"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "sh:description": {
+            "en": "Utility NetworkElement belonging to the network."
+          },
+          "sh:name": {
+            "en": "element"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#element"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "Utility Network associated with the Utility Network."
+          },
+          "sh:name": {
+            "en": "network"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#netwerk"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of utility network or the utility network theme."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "utility network type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+          "sh:description": {
+            "en": "Default Vertical Position of elements in the network."
+          },
+          "sh:name": {
+            "en": "standard vertical position detail"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#standaardVerticalePositiedetail"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkelementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:description": {
+            "en": "Element identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^identificator"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Document",
+          "sh:description": {
+            "en": "Reference to a Document containing additional information about the element."
+          },
+          "sh:name": {
+            "en": "documentation"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/relation"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "The time from which the Utility NetworkElement no longer exists in the real world."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "valid to"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigTot"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "The time when the Utility NetworkElement started to exist in the real world."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "valid from"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigVan"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The status of the element with respect to its completion and use."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "current status"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "[UPDATED] Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "[UPDATED] in network"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "General indication of the Vertical Position of the element."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "vertical position"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.verticalePositie"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+          "sh:name": {
+            "en": "vertical position detail"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalienPijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "oil gas chemicals product type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#OlieGasChemicalienPijp"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PaalShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "The height of the Pole."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "pole height"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#paalhoogte"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Paal"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the Pipe as a container."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "container type"
+          },
+          "sh:path": "http://purl.org/dc/terms/type"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "The maximum allowable operating pressure at which a product is transported through a Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "pressure"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#druk"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+          "sh:description": {
+            "en": "Cable located in the Pipe."
+          },
+          "sh:name": {
+            "en": "cable"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.kabel"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "sh:description": {
+            "en": "Other Pipe located in the Pipe."
+          },
+          "sh:name": {
+            "en": "pipe"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.pijp"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Outer diameter of the Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "pipe diameter"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijpdiameter"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the Pipe according to the thematic domain to which it belongs."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "subtheme"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.subthema"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PlanShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the site covered by the Plan."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Plan"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlakShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Location of the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+          "sh:description": {
+            "en": "The Vertical Position of the ReferenceSurface as position in a vertical coordinate system."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "vertical position"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak.verticalePositie"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RioolpijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of sewer water."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "sewer water type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rioolwatertype"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Rioolpijp"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of cable material."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "telecommunications cable material type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#telecommunicatiekabelmateriaaltype"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Telecommunicatiekabel"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ThermischePijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "The maximum allowable temperature of the contents of the Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "temperature"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#temperatuur"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of thermal product transported through the Thermal Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "thermal product type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#thermischProducttype"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#ThermischePijp"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ToebehorenShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "The height of the Appurtenance."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "height"
+          },
+          "sh:path": "https://schema.org/height"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of Appurtenance."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "appurtenance type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toebehoren"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TopografischElementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Shape and position features of an object,"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the Topographical Element."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "topographical element type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#TopografischElement"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TorenShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "Heigt of the Tower."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "tower height"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#torenhoogte"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toren"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#UiterlijkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The color of the object."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "color"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kleur"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#VerticalePositieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "The Vertical Position as distance from the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "distance"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#afstand"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Location for which the Vertical Position applies."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
+          "sh:description": {
+            "en": "Reference to the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "reference surface"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+          "sh:description": {
+            "en": "The Vertical Position as a position in a vertical coordinate system."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "vertical position"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie.verticalePositie"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WaterleidingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of water."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "water type"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#watertype"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Waterleiding"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "uom"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length.uom"
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MaatShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "uom"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom"
+        },
+        {
+          "sh:class": "https://schema.org/Number",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.value"
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MeeteenheidShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Unit identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "uom identifier"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier"
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteeenheidShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PositioneleNauwkeurigheidShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AgentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://purl.org/dc/terms/Agent"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#CurveShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/geosparql#Curve"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PuntShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#Point"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ContainertypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ZichtbaarheidstypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RisicotypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KleurShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MateriaaltypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#SubthemaShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerktypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#FaciliteitstatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#VerticalePositietypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningleveringstypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WaarschuwingstypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelmateriaaltypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalientypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RioolwatertypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WatertypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ThermischProducttypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TekenShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ToebehorentypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#EconomischeActiviteittypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#InputoutputtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatietypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TopografischElementtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumentmediumtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumenttypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlaktypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OpmetingsmethodeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#IdentificatorShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "en": "String used to uniquely identify the object."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/Agent",
+          "sh:description": {
+            "en": "Link to the agent who assigned the identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "assigned by"
+          },
+          "sh:path": "http://purl.org/dc/terms/creator"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Name from the agent who assigned the identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "assigned by (String)"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#schemaAgency"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "Time the identifier was assigned."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "assigned on"
+          },
+          "sh:path": "http://purl.org/dc/terms/issued"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AdresvoorstellingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Highest Administrative Unit of the address, usually a country."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administrative unit level 1"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "The region of address, usually a province or state or similar area that typically includes several places."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administrative unit level 2"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "address area"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "box number"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#busnummer"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Municipal name from address."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "municipality name"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "house number"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Country in which the address is located."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "country"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#land"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc."
+          },
+          "sh:name": {
+            "en": "location indication"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name or description of the geographic object the address locator designates."
+          },
+          "sh:name": {
+            "en": "location name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "PO Box number in a post office."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "PO box"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#poBox"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Code denoting the geographical area that groups addresses for postal purposes."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "postal code"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postCode"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name denoting the geographical area that groups addresses for postal purposes."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "postal name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Street name of address."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "street name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/adres#Adres",
+          "sh:description": {
+            "en": "Address from which the address representation is derived."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "refers to"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/adres#verwijstNaar"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "The complete address in one string, formatted or not."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "full address"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Address"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeometrieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "en": "[UPDATED] Geometry expressed in wkt format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "gml"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
+        },
+        {
+          "sh:description": {
+            "en": "Geometry expressed in wkt format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "wkt"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+          "sh:description": {
+            "en": "The way the geometry was determined."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "survey"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ObjectShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/ns/prov#Entity"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LocatieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/ns/prov#Location"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Description of the Document."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the document."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "document type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:description": {
+            "en": "Identifier of the Document."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "document identifier"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#Identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:description": {
+            "en": "The place where the Document is stored or can be consulted."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "document location"
+          },
+          "sh:path": "http://www.w3.org/ns/dcat#accessURL"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Nature of the data carrier on which the Document is stored."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "document mediatype"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/format"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/prov#Entity",
+          "sh:description": {
+            "en": "Object to which the document refers."
+          },
+          "sh:name": {
+            "en": "refers to"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/relation"
+        }
+      ],
+      "sh:targetClass": "http://xmlns.com/foaf/0.1/Document"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AdresShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Adres"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ActiviteitencomplexShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Document",
+          "sh:description": {
+            "en": "Reference to a Document with additional information about the complex."
+          },
+          "sh:name": {
+            "en": "documentation"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#documentatie"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Functie",
+          "sh:description": {
+            "en": "Activities carried out by the complex."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "function"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the complex to describe its location and size."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:description": {
+            "en": "External Identifier of the complex."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#identifier"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "Reference to a Network object to which a NetworkElement belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "inNetwork"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:description": {
+            "en": "Utility Network to which the ActivityComplex belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name by which the complex is known."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "sh:description": {
+            "en": "UtilityNetworkElement belonging to the complex."
+          },
+          "sh:name": {
+            "en": "on"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#op"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DirectePositieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "en": "Direct Position expressed in gml format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "gml"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+          "sh:description": {
+            "en": "The way the position was determined."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "survey"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting"
+        },
+        {
+          "sh:description": {
+            "en": "[UPDATED] Direct Position expressed in wkt format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "wkt"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#FunctieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the activity."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "activity"
+          },
+          "sh:path": "http://fixme.com#activiteit"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "A more detailed description of the function."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Input for the activity in the function."
+          },
+          "sh:name": {
+            "en": "input"
+          },
+          "sh:path": "http://fixme.com#input"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Output the result of the activity in the function."
+          },
+          "sh:name": {
+            "en": "output"
+          },
+          "sh:path": "http://fixme.com#output"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#Functie"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OpmetingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "The moment at which the Survey took place."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "date"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/date"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the method used."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "method"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.methode"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
+          "sh:description": {
+            "en": "The Positional Accuracy of the Survey."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "accuracy"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nauwkeurigheid"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/Agent",
+          "sh:description": {
+            "en": "Agent who carried out the Survey."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "recorded by"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeneriekeLinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GerichteLinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
+          "sh:description": {
+            "en": "Reference to the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "link"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "direction"
+          },
+          "sh:path": "https://data.vlaanderen.be/ns/netwerk#richting"
+        }
+      ],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#GerichteLink"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KnoopShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Knoop"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Link"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinksequentieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Linksequentie"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkSetShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Linkset"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NetwerkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Netwerk"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GetalShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://schema.org/Number"
+    }
+  ]
+}

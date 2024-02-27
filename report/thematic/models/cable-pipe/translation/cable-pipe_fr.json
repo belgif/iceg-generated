@@ -25,7 +25,7 @@
         "fr": "[UPDATED] Annotation"
       },
       "usage": {
-        "en": "A short explanation or note added to an Object.",
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
         "fr": "[UPDATED] Dans ce contexte, il s'agit généralement d'une Indication de mesure sur un plan de câble ou de conduite, par ex. la distance d'un câble par rapport à une façade. Peut se composer d'éléments (par ex.: une ligne de dimensionnement, une ligne de guidage de dimensionnement, deux flèches) qui sont également des Annotations en soi."
       }
     },
@@ -125,7 +125,7 @@
       "name": "Cabinet",
       "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
       "definition": {
-        "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet.",
+        "en": "Simple UtilityNodeContainer that takes the shape of a cabinet.",
         "fr": "[UPDATED] Simple Conteneur de Noeud de Service qui prend la forme d'une armoire."
       },
       "label": {
@@ -153,7 +153,7 @@
       "name": "Manhole",
       "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
       "definition": {
-        "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
+        "en": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
         "fr": "[UPDATED] Simple Conteneur de Noeud de Service qui prend la forme d'une ouverture couverte dans le revêtement routier et qui permet d'accéder au sous-sol."
       },
       "label": {
@@ -1609,7 +1609,7 @@
       "name": "UtilityDeliveryTypeValue",
       "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
       "definition": {
-        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
+        "en": "Classification of utility network types.",
         "fr": "[UPDATED] Classification des types de services."
       },
       "label": {
@@ -1902,18 +1902,18 @@
       }
     },
     {
-      "name": "Adress",
+      "name": "Address",
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
         "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
         "fr": "[UPDATED] Informations permettant de se référer de manière structurée et unique à une unité de bâtiments, un poste d’amarrage, un emplacement ou une parcelle sur la base d'un nom de commune, d'un nom de rue, d'un numéro de maison et éventuellement d'un numéro de boîte et d'un code postal."
       },
       "label": {
-        "en": "Adress",
+        "en": "Address",
         "fr": "[UPDATED] Adresse"
       },
       "usage": {
-        "en": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
         "fr": "[UPDATED] La définition se réfère aux adresses belges. Dans d'autres pays, une adresse peut éventuellement se référer à d'autres objets géographiques (pas une unité de bâtiment ou une parcelle) ou consister en d'autres désignations (différentes du numéro de maison et du numéro de boîte) ou en des éléments autres que le nom de la rue, le nom de la commune ou le code postal. D'autres indications d'adresse que le numéro de maison ou le numéro de boîte (par ex., désignation de l'entrée, désignation de l'escalier, désignation de l'étage) ou un nom de bâtiment ou de chambre sont possibles grâce à une association avec l'extension de l'adresse. L'échange d'adresses étrangères doit être effectué à l'aide de l'objet représentation d'adresse."
       }
     },
@@ -2038,8 +2038,16 @@
       }
     },
     {
-      "name": "",
-      "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}"
+      "name": "Linkset",
+      "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
+      "definition": {
+        "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network.",
+        "fr": "[UPDATED] Collection de Séquences de Tronçons et/ou de Tronçons ayant une fonction ou une importance spécifique dans le Réseau."
+      },
+      "label": {
+        "en": "LinkSet",
+        "fr": "[UPDATED] Ensemble de Tronçons"
+      }
     },
     {
       "name": "Network",
@@ -2659,7 +2667,7 @@
       "name": "wkt",
       "EA-Guid": "{C6EFD7E3-420E-4e78-8EDB-7DF71919616D}",
       "definition": {
-        "en": "Direct position expressed in wkt format.",
+        "en": "Direct Position expressed in wkt format.",
         "fr": "[UPDATED] Position directe exprimée au format WKT."
       },
       "label": {
@@ -2675,7 +2683,7 @@
       "name": "gml",
       "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "definition": {
-        "en": "Direct position expressed in wkt format.",
+        "en": "Geometry expressed in wkt format.",
         "fr": "[UPDATED] Géométrie exprimée au format GML."
       },
       "label": {
@@ -2691,7 +2699,7 @@
       "name": "gml",
       "EA-Guid": "{885CCC32-8976-4960-9770-83DBA03AC131}",
       "definition": {
-        "en": "Direct position expressed in gml format.",
+        "en": "Direct Position expressed in gml format.",
         "fr": "[UPDATED] Position directe exprimée au format GML."
       },
       "label": {
@@ -2699,7 +2707,7 @@
         "fr": "[UPDATED] gml"
       },
       "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
+        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
         "fr": "[UPDATED] Utilisez <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> comme type de données."
       }
     },
@@ -2907,7 +2915,7 @@
       "name": "documentMediatype",
       "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
       "definition": {
-        "en": "Medium used to access the document.",
+        "en": "Nature of the data carrier on which the Document is stored.",
         "fr": "[UPDATED] Nature du support de données sur lequel le Document est stocké."
       },
       "label": {

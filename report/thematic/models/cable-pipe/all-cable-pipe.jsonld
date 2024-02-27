@@ -693,7 +693,7 @@
                 "en": "A short explanation or note added to an Object."
             },
             "usage": {
-                "en": "A short explanation or note added to an Object."
+                "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
             },
             "ap-label-en": {
                 "en": "Annotation"
@@ -719,7 +719,7 @@
                     "en": "A short explanation or note added to an Object."
                 },
                 "usage": {
-                    "en": "A short explanation or note added to an Object."
+                    "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
                 },
                 "ap-label-en": {
                     "en": "Annotation"
@@ -742,7 +742,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "A short explanation or note added to an Object.",
+                        "value": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
                         "note": "null"
                     },
                     {
@@ -1410,7 +1410,7 @@
             "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kast",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
-                "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet."
+                "en": "Simple UtilityNodeContainer that takes the shape of a cabinet."
             },
             "usage": {
                 "en": "Contains typically smaller mountable Appurtenances and Cables."
@@ -1419,7 +1419,7 @@
                 "en": "Cabinet"
             },
             "definition": {
-                "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet."
+                "en": "Simple UtilityNodeContainer that takes the shape of a cabinet."
             },
             "label": {
                 "en": "Cabinet"
@@ -1443,7 +1443,7 @@
                     "en": "Cabinet"
                 },
                 "definition": {
-                    "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet."
+                    "en": "Simple UtilityNodeContainer that takes the shape of a cabinet."
                 },
                 "usage": {
                     "en": "Contains typically smaller mountable Appurtenances and Cables."
@@ -1452,7 +1452,7 @@
                     "en": "Cabinet"
                 },
                 "ap-definition-en": {
-                    "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet."
+                    "en": "Simple UtilityNodeContainer that takes the shape of a cabinet."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -1494,7 +1494,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Simple UtilityNodeCcontainer that takes the shape of a cabinet.",
+                        "value": "Simple UtilityNodeContainer that takes the shape of a cabinet.",
                         "note": "null"
                     },
                     {
@@ -1610,7 +1610,7 @@
             "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
-                "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface."
+                "en": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface."
             },
             "usage": {
                 "en": "E.g. sewer cover."
@@ -1619,7 +1619,7 @@
                 "en": "Manhole"
             },
             "definition": {
-                "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface."
+                "en": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface."
             },
             "label": {
                 "en": "Manhole"
@@ -1643,7 +1643,7 @@
                     "en": "Manhole"
                 },
                 "definition": {
-                    "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface."
+                    "en": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface."
                 },
                 "usage": {
                     "en": "E.g. sewer cover."
@@ -1652,7 +1652,7 @@
                     "en": "Manhole"
                 },
                 "ap-definition-en": {
-                    "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface."
+                    "en": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -1664,7 +1664,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
+                        "value": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
                         "note": "null"
                     },
                     {
@@ -2043,7 +2043,7 @@
                     },
                     {
                         "name": "Linksequentie",
-                        "label": "",
+                        "label": "LinkSequence",
                         "package": "OSLO-Netwerk",
                         "uri": "https://data.vlaanderen.be/ns/netwerk#Linksequentie"
                     }
@@ -12623,7 +12623,7 @@
                 "EA-Parents2": [
                     {
                         "name": "Kwaliteitselement",
-                        "label": "",
+                        "label": "DQ_Element",
                         "package": "ISO-DQ",
                         "uri": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element"
                     }
@@ -13666,13 +13666,13 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
+                "en": "Classification of utility network types."
             },
             "ap-label-en": {
                 "en": "Utility Delivery Type Value"
             },
             "definition": {
-                "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
+                "en": "Classification of utility network types."
             },
             "label": {
                 "en": "Utility Delivery Type Value"
@@ -13689,14 +13689,14 @@
                     "en": "Utility Delivery Type Value"
                 },
                 "definition": {
-                    "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
+                    "en": "Classification of utility network types."
                 },
                 "usage": "",
                 "ap-label-en": {
                     "en": "Utility Delivery Type Value"
                 },
                 "ap-definition-en": {
-                    "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
+                    "en": "Classification of utility network types."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -13733,7 +13733,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
+                        "value": "Classification of utility network types.",
                         "note": "null"
                     }
                 ],
@@ -15649,16 +15649,16 @@
                 "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
             },
             "usage": {
-                "en": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
+                "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
             },
             "ap-label-en": {
-                "en": "Adress"
+                "en": "Address"
             },
             "definition": {
                 "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
             },
             "label": {
-                "en": "Adress"
+                "en": "Address"
             },
             "extra": {
                 "EA-Name": "Adres",
@@ -15669,16 +15669,16 @@
                 "EA-Parents2": [],
                 "parentclasses": "",
                 "label": {
-                    "en": "Adress"
+                    "en": "Address"
                 },
                 "definition": {
                     "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
                 },
                 "usage": {
-                    "en": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
+                    "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
                 },
                 "ap-label-en": {
-                    "en": "Adress"
+                    "en": "Address"
                 },
                 "ap-definition-en": {
                     "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
@@ -15708,7 +15708,7 @@
                     },
                     {
                         "key": "label-en",
-                        "value": "Adress",
+                        "value": "Address",
                         "note": "null"
                     },
                     {
@@ -15719,7 +15719,7 @@
                     {
                         "key": "usageNote-en",
                         "value": "NOTE",
-                        "note": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
+                        "note": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
                     },
                     {
                         "key": "ap-label-nl",
@@ -15734,7 +15734,7 @@
                 ],
                 "Scope": "NOTHING"
             },
-            "name": "Adress"
+            "name": "Address"
         },
         {
             "@id": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
@@ -16510,7 +16510,16 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network."
+            },
+            "ap-label-en": {
+                "en": "LinkSet"
+            },
+            "definition": {
+                "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network."
+            },
+            "label": {
+                "en": "LinkSet"
             },
             "extra": {
                 "EA-Name": "LinkSet",
@@ -16520,12 +16529,18 @@
                 "EA-Parents": "",
                 "EA-Parents2": [],
                 "parentclasses": "",
-                "label": "",
-                "definition": "",
+                "label": {
+                    "en": "LinkSet"
+                },
+                "definition": {
+                    "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network."
+                },
                 "usage": "",
-                "ap-label-en": "",
+                "ap-label-en": {
+                    "en": "LinkSet"
+                },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -16544,11 +16559,21 @@
                         "key": "definition-nl",
                         "value": "Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk.",
                         "note": "null"
+                    },
+                    {
+                        "key": "label-en",
+                        "value": "LinkSet",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "Collection of Link Sequences and/or Links with a specific function or interest in the Network.",
+                        "note": "null"
                     }
                 ],
                 "Scope": "NOTHING"
             },
-            "name": ""
+            "name": "Linkset"
         },
         {
             "@id": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
@@ -21735,7 +21760,7 @@
             "name": "wkt",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "Direct position expressed in wkt format."
+                "en": "Direct Position expressed in wkt format."
             },
             "usage": {
                 "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
@@ -21744,7 +21769,7 @@
                 "en": "wkt"
             },
             "definition": {
-                "en": "Direct position expressed in wkt format."
+                "en": "Direct Position expressed in wkt format."
             },
             "label": {
                 "en": "wkt"
@@ -21766,7 +21791,7 @@
                     "en": "wkt"
                 },
                 "definition": {
-                    "en": "Direct position expressed in wkt format."
+                    "en": "Direct Position expressed in wkt format."
                 },
                 "usage": {
                     "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
@@ -21775,7 +21800,7 @@
                     "en": "wkt"
                 },
                 "ap-definition-en": {
-                    "en": "Direct position expressed in wkt format."
+                    "en": "Direct Position expressed in wkt format."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -21807,7 +21832,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Direct position expressed in wkt format.",
+                        "value": "Direct Position expressed in wkt format.",
                         "note": "null"
                     },
                     {
@@ -21852,7 +21877,7 @@
             "name": "gml",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "Direct position expressed in wkt format."
+                "en": "Geometry expressed in wkt format."
             },
             "usage": {
                 "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
@@ -21861,7 +21886,7 @@
                 "en": "gml"
             },
             "definition": {
-                "en": "Direct position expressed in wkt format."
+                "en": "Geometry expressed in wkt format."
             },
             "label": {
                 "en": "gml"
@@ -21883,7 +21908,7 @@
                     "en": "gml"
                 },
                 "definition": {
-                    "en": "Direct position expressed in wkt format."
+                    "en": "Geometry expressed in wkt format."
                 },
                 "usage": {
                     "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
@@ -21892,7 +21917,7 @@
                     "en": "gml"
                 },
                 "ap-definition-en": {
-                    "en": "Direct position expressed in wkt format."
+                    "en": "Geometry expressed in wkt format."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -21924,7 +21949,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Direct position expressed in wkt format.",
+                        "value": "Geometry expressed in wkt format.",
                         "note": "null"
                     },
                     {
@@ -21974,16 +21999,16 @@
             "name": "gml",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "Direct position expressed in gml format."
+                "en": "Direct Position expressed in gml format."
             },
             "usage": {
-                "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
+                "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
             },
             "ap-label-en": {
                 "en": "gml"
             },
             "definition": {
-                "en": "Direct position expressed in gml format."
+                "en": "Direct Position expressed in gml format."
             },
             "label": {
                 "en": "gml"
@@ -22005,16 +22030,16 @@
                     "en": "gml"
                 },
                 "definition": {
-                    "en": "Direct position expressed in gml format."
+                    "en": "Direct Position expressed in gml format."
                 },
                 "usage": {
-                    "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type."
+                    "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
                 },
                 "ap-label-en": {
                     "en": "gml"
                 },
                 "ap-definition-en": {
-                    "en": "Direct position expressed in gml format."
+                    "en": "Direct Position expressed in gml format."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -22036,7 +22061,7 @@
                     },
                     {
                         "key": "ap-usageNote-nl",
-                        "value": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
+                        "value": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> als datatype.",
                         "note": "null"
                     },
                     {
@@ -22046,7 +22071,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Direct position expressed in gml format.",
+                        "value": "Direct Position expressed in gml format.",
                         "note": "null"
                     },
                     {
@@ -22061,7 +22086,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
+                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
                         "note": "null"
                     }
                 ],
@@ -23804,13 +23829,13 @@
             "name": "documentMediatype",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "Medium used to access the document."
+                "en": "Nature of the data carrier on which the Document is stored."
             },
             "ap-label-en": {
                 "en": "document mediatype"
             },
             "definition": {
-                "en": "Medium used to access the document."
+                "en": "Nature of the data carrier on which the Document is stored."
             },
             "label": {
                 "en": "document mediatype"
@@ -23833,14 +23858,14 @@
                     "en": "document mediatype"
                 },
                 "definition": {
-                    "en": "Medium used to access the document."
+                    "en": "Nature of the data carrier on which the Document is stored."
                 },
                 "usage": "",
                 "ap-label-en": {
                     "en": "document mediatype"
                 },
                 "ap-definition-en": {
-                    "en": "Medium used to access the document."
+                    "en": "Nature of the data carrier on which the Document is stored."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -23877,7 +23902,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Medium used to access the document.",
+                        "value": "Nature of the data carrier on which the Document is stored.",
                         "note": "null"
                     }
                 ],
@@ -25082,12 +25107,12 @@
     "config": "config/config-ap.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "010",
+    "dummy": "011",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "65d20c760f0e2822c57fdaa41eba843c631af752",
-    "toolchaincommit": "e42c775aa4b18df7c446b16dab8b7a99c2af6082",
+    "documentcommit": "933ad7917d4e28c28ddc8043cb9aa620568ff46a",
+    "toolchaincommit": "e4bcee93864b14c8b5e4d27d1398299da04c4b77",
     "hostname": "https://belgif.github.io/"
 }

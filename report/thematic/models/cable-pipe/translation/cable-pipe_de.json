@@ -25,7 +25,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "A short explanation or note added to an Object.",
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
         "de": "Enter your translation here"
       }
     },
@@ -129,7 +129,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet.",
+        "en": "Simple UtilityNodeContainer that takes the shape of a cabinet.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -157,7 +157,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Simple UtilityNodeCcontainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
+        "en": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -1613,7 +1613,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
+        "en": "Classification of utility network types.",
         "de": "Enter your translation here"
       }
     },
@@ -1903,9 +1903,9 @@
     },
     {
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
-      "name": "Adress",
+      "name": "Address",
       "label": {
-        "en": "Adress",
+        "en": "Address",
         "de": "Enter your translation here"
       },
       "definition": {
@@ -1913,7 +1913,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
         "de": "Enter your translation here"
       }
     },
@@ -2039,7 +2039,15 @@
     },
     {
       "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
-      "name": ""
+      "name": "Linkset",
+      "label": {
+        "en": "LinkSet",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}",
@@ -2663,7 +2671,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Direct position expressed in wkt format.",
+        "en": "Direct Position expressed in wkt format.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -2679,7 +2687,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Direct position expressed in wkt format.",
+        "en": "Geometry expressed in wkt format.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -2695,11 +2703,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Direct position expressed in gml format.",
+        "en": "Direct Position expressed in gml format.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as the data type.",
+        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
         "de": "Enter your translation here"
       }
     },
@@ -2911,7 +2919,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Medium used to access the document.",
+        "en": "Nature of the data carrier on which the Document is stored.",
         "de": "Enter your translation here"
       }
     },

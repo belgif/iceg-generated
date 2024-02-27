@@ -998,9 +998,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/65d20c760f0e2822c57fdaa41eba843c631af752">https://github.com/belgif/ICEGthema-imkl/tree/65d20c760f0e2822c57fdaa41eba843c631af752</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/933ad7917d4e28c28ddc8043cb9aa620568ff46a">https://github.com/belgif/ICEGthema-imkl/tree/933ad7917d4e28c28ddc8043cb9aa620568ff46a</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/65d20c760f0e2822c57fdaa41eba843c631af752/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/65d20c760f0e2822c57fdaa41eba843c631af752/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/933ad7917d4e28c28ddc8043cb9aa620568ff46a/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/933ad7917d4e28c28ddc8043cb9aa620568ff46a/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/Informatievlaanderen/OSLOthema-imkl/issues">https://github.com/Informatievlaanderen/OSLOthema-imkl/issues</a></dd>
                   
@@ -1070,9 +1070,8 @@
                     <p>Ce document explique l'utilisation correcte des entités suivantes:
                       <br>
                       |
-                      <a href="#"></a> |
                       <a href="#Appurtenance">[UPDATED] Accessoire</a> |
-                      <a href="#Adress">[UPDATED] Adresse</a> |
+                      <a href="#Address">[UPDATED] Adresse</a> |
                       <a href="#Agent">[UPDATED] Agent</a> |
                       <a href="#Annotation">[UPDATED] Annotation</a> |
                       <a href="#Cabinet">[UPDATED] Armoire</a> |
@@ -1091,6 +1090,7 @@
                       <a href="#ElectricityCable">[UPDATED] Câble Electrique</a> |
                       <a href="#Document">[UPDATED] Document</a> |
                       <a href="#UtilityNetworkelement">[UPDATED] Elément du Réseau de Service</a> |
+                      <a href="#Linkset">[UPDATED] Ensemble de Tronçons</a> |
                       <a href="#UtilityLinkset">[UPDATED] Ensemble de Tronçons de Service</a> |
                       <a href="#Function">[UPDATED] Fonction</a> |
                       <a href="#Node">[UPDATED] Noeud</a> |
@@ -1154,23 +1154,6 @@
             </div>
             <div class="region region--no-space-top">
               <h2 class="h2">Entités</h2>
-            </div>
-            
-            <div class="region region--no-space-top">
-              <h3 class="h3" id=""><a href="https://data.vlaanderen.be/ns/netwerk#Linkset" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/netwerk#Linkset" data-placement="right"></a></h3>
-              <div class="region region--no-space-top">
-                <dl>
-                  <dt>Définition</dt>
-                  <dd></dd>
-                  
-                  
-                  <dt>Propriétés</dt>
-                  
-                  <dd>Pour cette entité, aucune propriété n'est définie.</dd>
-                  
-                </dl>
-              </div>
-              
             </div>
             
             <div class="region region--no-space-top">
@@ -1262,7 +1245,7 @@
             </div>
             
             <div class="region region--no-space-top">
-              <h3 class="h3" id="Adress"><a href="https://data.vlaanderen.be/ns/adres#Adres" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adres" data-placement="right">[UPDATED] Adresse</a></h3>
+              <h3 class="h3" id="Address"><a href="https://data.vlaanderen.be/ns/adres#Adres" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/adres#Adres" data-placement="right">[UPDATED] Adresse</a></h3>
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Définition</dt>
@@ -3201,6 +3184,23 @@
             </div>
             
             <div class="region region--no-space-top">
+              <h3 class="h3" id="Linkset"><a href="https://data.vlaanderen.be/ns/netwerk#Linkset" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/netwerk#Linkset" data-placement="right">[UPDATED] Ensemble de Tronçons</a></h3>
+              <div class="region region--no-space-top">
+                <dl>
+                  <dt>Définition</dt>
+                  <dd>[UPDATED] Collection de Séquences de Tronçons et/ou de Tronçons ayant une fonction ou une importance spécifique dans le Réseau.</dd>
+                  
+                  
+                  <dt>Propriétés</dt>
+                  
+                  <dd>Pour cette entité, aucune propriété n'est définie.</dd>
+                  
+                </dl>
+              </div>
+              
+            </div>
+            
+            <div class="region region--no-space-top">
               <h3 class="h3" id="UtilityLinkset"><a href="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset" data-placement="right">[UPDATED] Ensemble de Tronçons de Service</a></h3>
               <div class="region region--no-space-top">
                 <dl>
@@ -3948,7 +3948,7 @@
                   <dt>Sous-classe de
                   <dt>
                   <dd>
-                    <a href="http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element">Kwaliteitselement</a>
+                    <a href="http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_Element">DQ_Element</a>
                   </dd>
                   
                   <dt>Propriétés</dt>
@@ -4279,7 +4279,7 @@
                   <dt>
                   <dd>
                     <a href="#Utility NetworkElement">Utility NetworkElement</a>, 
-                    <a href="#Linksequentie">Linksequentie</a>
+                    <a href="#LinkSequence">LinkSequence</a>
                   </dd>
                   
                   <dt>Propriétés</dt>
