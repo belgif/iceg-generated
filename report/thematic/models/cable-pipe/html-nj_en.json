@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Cables and Pipes",
-    "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen",
+    "uri": "https:/vocab.belgif.be/utility-services",
     "issued": "2024-02-06",
-    "baseURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen#",
+    "baseURI": "https:/vocab.belgif.be/utility-services#",
     "filename": "cable-pipe",
     "navigation": {
       "self": "https://belgif.github.io//thematic/models/cable-pipe"
@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/d7c32bc868ee98855a167780a1eea61854ed05fd",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/d7c32bc868ee98855a167780a1eea61854ed05fd/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/b7e8894eac303afbd2c1f1d3bb5a6a2f70773145",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/b7e8894eac303afbd2c1f1d3bb5a6a2f70773145/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -22,7 +22,7 @@
   },
   "classes": [
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting",
+      "uri": "https:/vocab.belgif.be/utility-services#Aansluiting",
       "name": "Connection",
       "label": {
         "en": "Connection"
@@ -37,7 +37,7 @@
           "label": "Appurtenance",
           "name": "Toebehoren",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toebehoren",
+          "uri": "https:/vocab.belgif.be/utility-services#Toebehoren",
           "scoped_uri": "#Appurtenance"
         }
       ],
@@ -51,7 +51,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres",
+          "uri": "https:/vocab.belgif.be/utility-services#adres",
           "name": "address",
           "sort": "address",
           "label": {
@@ -64,7 +64,7 @@
           "domain": [
             {
               "EA-Name": "Aansluiting",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting"
+              "uri": "https:/vocab.belgif.be/utility-services#Aansluiting"
             }
           ],
           "range": [
@@ -94,7 +94,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting.toebehorentype",
+          "uri": "https:/vocab.belgif.be/utility-services#Aansluiting.toebehorentype",
           "name": "appurtenanceType",
           "sort": "appurtenance type",
           "label": {
@@ -107,7 +107,7 @@
           "domain": [
             {
               "EA-Name": "Aansluiting",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting"
+              "uri": "https:/vocab.belgif.be/utility-services#Aansluiting"
             }
           ],
           "range": [
@@ -142,7 +142,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+      "uri": "https:/vocab.belgif.be/utility-services#Annotatie",
       "name": "Annotation",
       "label": {
         "en": "Annotation"
@@ -168,7 +168,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#tekst",
+          "uri": "https:/vocab.belgif.be/utility-services#tekst",
           "name": "text",
           "sort": "text",
           "label": {
@@ -183,7 +183,7 @@
           "domain": [
             {
               "EA-Name": "Annotatie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "range": [
@@ -216,7 +216,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rotatiehoek",
+          "uri": "https:/vocab.belgif.be/utility-services#rotatiehoek",
           "name": "rotationAngle",
           "sort": "rotation angle",
           "label": {
@@ -231,7 +231,7 @@
           "domain": [
             {
               "EA-Name": "Annotatie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "range": [
@@ -264,7 +264,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geheel",
+          "uri": "https:/vocab.belgif.be/utility-services#geheel",
           "name": "whole",
           "sort": "whole",
           "label": {
@@ -279,19 +279,19 @@
           "domain": [
             {
               "EA-Name": "Annotatie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "range": [
             {
               "range_label": "Annotatie",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Annotation",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Annotatie",
               "range_label": {
                 "en": "Annotation"
               }
@@ -312,7 +312,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geassocieerdMet",
+          "uri": "https:/vocab.belgif.be/utility-services#geassocieerdMet",
           "name": "associatedWith",
           "sort": "associated with",
           "label": {
@@ -327,7 +327,7 @@
           "domain": [
             {
               "EA-Name": "Annotatie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "range": [
@@ -360,7 +360,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#deel",
+          "uri": "https:/vocab.belgif.be/utility-services#deel",
           "name": "part",
           "sort": "part",
           "label": {
@@ -375,19 +375,19 @@
           "domain": [
             {
               "EA-Name": "Annotatie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "range": [
             {
               "range_label": "Annotatie",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Annotation",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Annotatie",
               "range_label": {
                 "en": "Annotation"
               }
@@ -423,7 +423,7 @@
           "domain": [
             {
               "EA-Name": "Annotatie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "range": [
@@ -471,7 +471,7 @@
           "domain": [
             {
               "EA-Name": "Annotatie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+              "uri": "https:/vocab.belgif.be/utility-services#Annotatie"
             }
           ],
           "range": [
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied",
+      "uri": "https:/vocab.belgif.be/utility-services#BeschermdGebied",
       "name": "ProtectedArea",
       "label": {
         "en": "Protected Area"
@@ -540,7 +540,7 @@
           "domain": [
             {
               "EA-Name": "BeschermdGebied",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied"
+              "uri": "https:/vocab.belgif.be/utility-services#BeschermdGebied"
             }
           ],
           "range": [
@@ -584,7 +584,7 @@
           "domain": [
             {
               "EA-Name": "BeschermdGebied",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied"
+              "uri": "https:/vocab.belgif.be/utility-services#BeschermdGebied"
             }
           ],
           "range": [
@@ -628,7 +628,7 @@
           "domain": [
             {
               "EA-Name": "BeschermdGebied",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied"
+              "uri": "https:/vocab.belgif.be/utility-services#BeschermdGebied"
             }
           ],
           "range": [
@@ -672,7 +672,7 @@
           "domain": [
             {
               "EA-Name": "BeschermdGebied",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied"
+              "uri": "https:/vocab.belgif.be/utility-services#BeschermdGebied"
             }
           ],
           "range": [
@@ -716,7 +716,7 @@
           "domain": [
             {
               "EA-Name": "BeschermdGebied",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied"
+              "uri": "https:/vocab.belgif.be/utility-services#BeschermdGebied"
             }
           ],
           "range": [
@@ -749,7 +749,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Electriciteitskabel",
+      "uri": "https:/vocab.belgif.be/utility-services#Electriciteitskabel",
       "name": "ElectricityCable",
       "label": {
         "en": "Electricity Cable"
@@ -764,7 +764,7 @@
           "label": "Cable",
           "name": "Kabel",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+          "uri": "https:/vocab.belgif.be/utility-services#Kabel",
           "scoped_uri": "#Cable"
         }
       ],
@@ -778,7 +778,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#werkspanning",
+          "uri": "https:/vocab.belgif.be/utility-services#werkspanning",
           "name": "operatingVoltage",
           "sort": "operating voltage",
           "label": {
@@ -791,7 +791,7 @@
           "domain": [
             {
               "EA-Name": "Electriciteitskabel",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Electriciteitskabel"
+              "uri": "https:/vocab.belgif.be/utility-services#Electriciteitskabel"
             }
           ],
           "range": [
@@ -821,7 +821,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning",
+          "uri": "https:/vocab.belgif.be/utility-services#nominaleSpanning",
           "name": "nominalVoltage",
           "sort": "nominal voltage",
           "label": {
@@ -834,7 +834,7 @@
           "domain": [
             {
               "EA-Name": "Electriciteitskabel",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Electriciteitskabel"
+              "uri": "https:/vocab.belgif.be/utility-services#Electriciteitskabel"
             }
           ],
           "range": [
@@ -866,7 +866,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+      "uri": "https:/vocab.belgif.be/utility-services#Kabel",
       "name": "Cable",
       "label": {
         "en": "Cable"
@@ -881,7 +881,7 @@
           "label": "Utility LinkSet",
           "name": "Nutsvoorzieninglinkset",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset",
           "scoped_uri": "#Utility LinkSet"
         }
       ],
@@ -895,7 +895,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabeldiameter",
+          "uri": "https:/vocab.belgif.be/utility-services#kabeldiameter",
           "name": "cableDiameter",
           "sort": "cable diameter",
           "label": {
@@ -908,7 +908,7 @@
           "domain": [
             {
               "EA-Name": "Kabel",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
+              "uri": "https:/vocab.belgif.be/utility-services#Kabel"
             }
           ],
           "range": [
@@ -938,7 +938,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel.subthema",
+          "uri": "https:/vocab.belgif.be/utility-services#Kabel.subthema",
           "name": "subtheme",
           "sort": "subtheme",
           "label": {
@@ -951,7 +951,7 @@
           "domain": [
             {
               "EA-Name": "Kabel",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
+              "uri": "https:/vocab.belgif.be/utility-services#Kabel"
             }
           ],
           "range": [
@@ -984,35 +984,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer",
-      "name": "CableAndPipeContainer",
-      "label": {
-        "en": "Cable and Pipe Container"
-      },
-      "sort": "Cable and Pipe Container",
-      "description": {
-        "en": "Object that could potentially contain cables or pipes/ducts."
-      },
-      "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
-      },
-      "parents": [],
-      "rawTags": {
-        "label-en": "Cable and Pipe Container",
-        "label-nl": "KabelEnLeidingContainer",
-        "ap-label-nl": "KabelEnLeidingContainer",
-        "ap-definition-nl": "Object dat potentieel kabels of leidingen kan omvatten.",
-        "definition-nl": "Object dat potentieel kabels en leidingen kan omvatten.",
-        "usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wortdt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
-        "ap-usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
-        "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer",
-        "definition-en": "Object that could potentially contain cables or pipes/ducts.",
-        "usageNote-en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
-      },
-      "properties": []
-    },
-    {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal",
+      "uri": "https:/vocab.belgif.be/utility-services#Kanaal",
       "name": "Duct",
       "label": {
         "en": "Duct"
@@ -1029,7 +1001,7 @@
           "label": "Utility LinkSet",
           "name": "Nutsvoorzieninglinkset",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset",
           "scoped_uri": "#Utility LinkSet"
         },
         {
@@ -1051,7 +1023,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kanaalbreedte",
+          "uri": "https:/vocab.belgif.be/utility-services#kanaalbreedte",
           "name": "ductWidth",
           "sort": "duct width",
           "label": {
@@ -1066,7 +1038,7 @@
           "domain": [
             {
               "EA-Name": "Kanaal",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+              "uri": "https:/vocab.belgif.be/utility-services#Kanaal"
             }
           ],
           "range": [
@@ -1097,7 +1069,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.pijp",
+          "uri": "https:/vocab.belgif.be/utility-services#Kanaal.pijp",
           "name": "pipe",
           "sort": "pipe",
           "label": {
@@ -1110,19 +1082,19 @@
           "domain": [
             {
               "EA-Name": "Kanaal",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+              "uri": "https:/vocab.belgif.be/utility-services#Kanaal"
             }
           ],
           "range": [
             {
               "range_label": "Pijp",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Pipe",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Pijp",
               "range_label": {
                 "en": "Pipe"
               }
@@ -1141,7 +1113,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kanaal",
+          "uri": "https:/vocab.belgif.be/utility-services#Kanaal.kanaal",
           "name": "duct",
           "sort": "duct",
           "label": {
@@ -1154,19 +1126,19 @@
           "domain": [
             {
               "EA-Name": "Kanaal",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+              "uri": "https:/vocab.belgif.be/utility-services#Kanaal"
             }
           ],
           "range": [
             {
               "range_label": "Kanaal",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Kanaal"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Duct",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Kanaal",
               "range_label": {
                 "en": "Duct"
               }
@@ -1185,7 +1157,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel",
+          "uri": "https:/vocab.belgif.be/utility-services#Kanaal.kabel",
           "name": "cable",
           "sort": "cable",
           "label": {
@@ -1198,19 +1170,19 @@
           "domain": [
             {
               "EA-Name": "Kanaal",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+              "uri": "https:/vocab.belgif.be/utility-services#Kanaal"
             }
           ],
           "range": [
             {
               "range_label": "Kabel",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Kabel"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Cable",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Kabel",
               "range_label": {
                 "en": "Cable"
               }
@@ -1242,7 +1214,7 @@
           "domain": [
             {
               "EA-Name": "Kanaal",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+              "uri": "https:/vocab.belgif.be/utility-services#Kanaal"
             }
           ],
           "range": [
@@ -1276,7 +1248,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kast",
+      "uri": "https:/vocab.belgif.be/utility-services#Kast",
       "name": "Cabinet",
       "label": {
         "en": "Cabinet"
@@ -1293,7 +1265,7 @@
           "label": "Utility Node Container",
           "name": "Nutsvoorzieningknoopcontainer",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer",
           "scoped_uri": "#Utility Node Container"
         }
       ],
@@ -1311,7 +1283,7 @@
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Maataanduiding",
+      "uri": "https:/vocab.belgif.be/utility-services#Maataanduiding",
       "name": "Dimension",
       "label": {
         "en": "Dimension"
@@ -1328,7 +1300,7 @@
           "label": "Annotation",
           "name": "Annotatie",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+          "uri": "https:/vocab.belgif.be/utility-services#Annotatie",
           "scoped_uri": "#Annotation"
         }
       ],
@@ -1346,7 +1318,7 @@
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat",
+      "uri": "https:/vocab.belgif.be/utility-services#Mangat",
       "name": "Manhole",
       "label": {
         "en": "Manhole"
@@ -1363,7 +1335,7 @@
           "label": "Utility Node Container",
           "name": "Nutsvoorzieningknoopcontainer",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer",
           "scoped_uri": "#Utility Node Container"
         }
       ],
@@ -1381,7 +1353,7 @@
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop",
       "name": "UtilityNode",
       "label": {
         "en": "Utility Node"
@@ -1405,7 +1377,7 @@
           "label": "Utility NetworkElement",
           "name": "Nutsvoorzieningnetwerkelement",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
           "scoped_uri": "#Utility NetworkElement"
         }
       ],
@@ -1422,7 +1394,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+          "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
           "name": "inNetwork",
           "sort": "in network",
           "label": {
@@ -1435,19 +1407,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
               "range_label": {
                 "en": "Utility Network"
               }
@@ -1467,7 +1439,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.zichtbaarheid",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.zichtbaarheid",
           "name": "visibility",
           "sort": "visibility",
           "label": {
@@ -1482,7 +1454,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
@@ -1516,7 +1488,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.uiterlijk",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.uiterlijk",
           "name": "appearance",
           "sort": "appearance",
           "label": {
@@ -1531,19 +1503,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
             {
               "range_label": "Uiterlijk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Uiterlijk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Appearance",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Uiterlijk",
               "range_label": {
                 "en": "Appearance"
               }
@@ -1565,7 +1537,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.risico",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.risico",
           "name": "risk",
           "sort": "risk",
           "label": {
@@ -1578,7 +1550,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
@@ -1609,7 +1581,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.orientatie",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.orientatie",
           "name": "orientation",
           "sort": "orientation",
           "label": {
@@ -1622,7 +1594,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
@@ -1653,7 +1625,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#eindlink",
+          "uri": "https://vocab.belgif.be/ns/network#endLink",
           "name": "endLink",
           "sort": "end link",
           "label": {
@@ -1666,7 +1638,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
@@ -1689,7 +1661,7 @@
           "rawTags": {
             "label-nl": "eindlink",
             "definition-nl": "Link waarvan de Knoop de eindKnoop is.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#eindlink",
+            "uri": "https://vocab.belgif.be/ns/network#endLink",
             "ap-label-nl": "eindlink",
             "ap-definition-nl": "Link waarvan de Knoop de eindKnoop is.",
             "definition-en": "Link of which this Node is the end Node.",
@@ -1697,7 +1669,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#beginlink",
+          "uri": "https://vocab.belgif.be/ns/network#beginLink",
           "name": "beginLink",
           "sort": "begin link",
           "label": {
@@ -1710,7 +1682,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
@@ -1733,7 +1705,7 @@
           "rawTags": {
             "label-nl": "beginlink",
             "definition-nl": "Link waarvan de Knoop de beginKnoop is.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#beginlink",
+            "uri": "https://vocab.belgif.be/ns/network#beginLink",
             "ap-label-nl": "beginlink",
             "ap-definition-nl": "Link waarvan de Knoop de beginKnoop is.",
             "definition-en": "Link of which this Node is the start Node.",
@@ -1741,7 +1713,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie",
+          "uri": "https://vocab.belgif.be/ns/network#Node.geometry",
           "name": "geometry",
           "sort": "geometry",
           "label": {
@@ -1754,7 +1726,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "range": [
@@ -1781,13 +1753,13 @@
             "ap-definition-nl": "Geometrie van de Knoop.",
             "definition-nl": "Geometrie van de Knoop.",
             "definition-en": "Geometry of the Node.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie"
+            "uri": "https://vocab.belgif.be/ns/network#Node.geometry"
           }
         }
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer",
       "name": "UtilityNodeContainer",
       "label": {
         "en": "Utility Node Container"
@@ -1804,7 +1776,7 @@
           "label": "Utility NetworkElement",
           "name": "Nutsvoorzieningnetwerkelement",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
           "scoped_uri": "#Utility NetworkElement"
         }
       ],
@@ -1821,7 +1793,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#knoop",
+          "uri": "https:/vocab.belgif.be/utility-services#knoop",
           "name": "node",
           "sort": "node",
           "label": {
@@ -1834,19 +1806,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoopcontainer",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningknoop",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Node",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop",
               "range_label": {
                 "en": "Utility Node"
               }
@@ -1864,7 +1836,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.zichtbaarheid",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.zichtbaarheid",
           "name": "visibility",
           "sort": "visibility",
           "label": {
@@ -1877,7 +1849,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoopcontainer",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
             }
           ],
           "range": [
@@ -1910,7 +1882,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.uiterlijk",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.uiterlijk",
           "name": "appearance",
           "sort": "appearance",
           "label": {
@@ -1925,19 +1897,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoopcontainer",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
             }
           ],
           "range": [
             {
               "range_label": "Uiterlijk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Uiterlijk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Appearance",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Uiterlijk",
               "range_label": {
                 "en": "Appearance"
               }
@@ -1959,7 +1931,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.risico",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.risico",
           "name": "risk",
           "sort": "risk",
           "label": {
@@ -1972,7 +1944,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoopcontainer",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
             }
           ],
           "range": [
@@ -2003,7 +1975,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.orientatie",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.orientatie",
           "name": "orientation",
           "sort": "orientation",
           "label": {
@@ -2016,7 +1988,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoopcontainer",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
             }
           ],
           "range": [
@@ -2047,7 +2019,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie",
+          "uri": "https://vocab.belgif.be/ns/network#Node.geometry",
           "name": "geometry",
           "sort": "geometry",
           "label": {
@@ -2060,7 +2032,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoopcontainer",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
             }
           ],
           "range": [
@@ -2085,7 +2057,7 @@
             "label-nl": "geometrie",
             "ap-label-nl": "geometrie",
             "ap-definition-nl": "Geometrie van de container",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie",
+            "uri": "https://vocab.belgif.be/ns/network#Node.geometry",
             "definition-en": "Geometry of the container.",
             "definition-nl": "Geometrie van de container"
           }
@@ -2093,7 +2065,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglink",
       "name": "UtilityLink",
       "label": {
         "en": "Utility Link"
@@ -2108,7 +2080,7 @@
           "label": "Utility NetworkElement",
           "name": "Nutsvoorzieningnetwerkelement",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
           "scoped_uri": "#Utility NetworkElement"
         },
         {
@@ -2129,7 +2101,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+          "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
           "name": "inNetwork",
           "sort": "in network",
           "label": {
@@ -2142,19 +2114,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglink",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglink"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
               "range_label": {
                 "en": "Utility Network"
               }
@@ -2174,7 +2146,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#eindknoop",
+          "uri": "https://vocab.belgif.be/ns/network#endNode",
           "name": "endNode",
           "sort": "end node",
           "label": {
@@ -2187,7 +2159,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglink",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglink"
             }
           ],
           "range": [
@@ -2214,11 +2186,11 @@
             "ap-definition-nl": "Knoop waarmee de Link begint.",
             "definition-nl": "Knoop waarmee de Link begint.",
             "definition-en": "Node that is the end of the Link.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#eindknoop"
+            "uri": "https://vocab.belgif.be/ns/network#endNode"
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#beginknoop",
+          "uri": "https://vocab.belgif.be/ns/network#beginNode",
           "name": "startNode",
           "sort": "start node",
           "label": {
@@ -2231,7 +2203,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglink",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglink"
             }
           ],
           "range": [
@@ -2258,11 +2230,11 @@
             "ap-definition-nl": "Knoop waarmee de Link eindigt.",
             "definition-nl": "Knoop waarmee de Link eindigt.",
             "definition-en": "Node that starts the Link.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#beginknoop"
+            "uri": "https://vocab.belgif.be/ns/network#beginNode"
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn",
+          "uri": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry",
           "name": "centrelineGeometry",
           "sort": "centreline geometry",
           "label": {
@@ -2275,7 +2247,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglink",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglink"
             }
           ],
           "range": [
@@ -2302,13 +2274,13 @@
             "ap-definition-nl": "De geometrie van de middellijn van de link.",
             "definition-nl": "De geometrie van de middellijn van de link.",
             "definition-en": "The geometry of the centerline of the Link.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn"
+            "uri": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry"
           }
         }
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinksequentie",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinksequentie",
       "name": "UtilityLinksequence",
       "label": {
         "en": "Utility LinkSequence"
@@ -2325,7 +2297,7 @@
           "label": "Utility NetworkElement",
           "name": "Nutsvoorzieningnetwerkelement",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
           "scoped_uri": "#Utility NetworkElement"
         },
         {
@@ -2349,7 +2321,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+          "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
           "name": "inNetwork",
           "sort": "in network",
           "label": {
@@ -2362,19 +2334,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinksequentie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinksequentie"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinksequentie"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
               "range_label": {
                 "en": "Utility Network"
               }
@@ -2394,7 +2366,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link",
+          "uri": "https://vocab.belgif.be/ns/network#LinkSequence.link",
           "name": "link",
           "sort": "link",
           "label": {
@@ -2407,19 +2379,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinksequentie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinksequentie"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinksequentie"
             }
           ],
           "range": [
             {
               "range_label": "GerichteLink",
-              "range_uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink"
+              "range_uri": "https://vocab.belgif.be/ns/network#DirectedLink"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Directed Link",
-              "range_puri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
+              "range_puri": "https://vocab.belgif.be/ns/network#DirectedLink",
               "range_label": {
                 "en": "Directed Link"
               }
@@ -2434,13 +2406,13 @@
             "ap-definition-nl": "GerichteLink die deel uitmaakt van de Linksequentie.",
             "definition-nl": "GerichteLink die deel uitmaakt van de Linksequentie.",
             "definition-en": "Directed Link that is part of the LinkSequence.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link"
+            "uri": "https://vocab.belgif.be/ns/network#LinkSequence.link"
           }
         }
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset",
       "name": "UtilityLinkset",
       "label": {
         "en": "Utility LinkSet"
@@ -2457,7 +2429,7 @@
           "label": "Utility NetworkElement",
           "name": "Nutsvoorzieningnetwerkelement",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
           "scoped_uri": "#Utility NetworkElement"
         },
         {
@@ -2481,7 +2453,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#waarschuwingstype",
+          "uri": "https:/vocab.belgif.be/utility-services#waarschuwingstype",
           "name": "warningType",
           "sort": "warning type",
           "label": {
@@ -2494,7 +2466,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
@@ -2526,7 +2498,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#technischeSpecificate",
+          "uri": "https:/vocab.belgif.be/utility-services#technischeSpecificate",
           "name": "technicalSpecification",
           "sort": "technical specification",
           "label": {
@@ -2541,7 +2513,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
@@ -2574,7 +2546,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nutsvoorzieningleveringstype",
+          "uri": "https:/vocab.belgif.be/utility-services#nutsvoorzieningleveringstype",
           "name": "utilityDeliveryType",
           "sort": "utility delivery type",
           "label": {
@@ -2589,7 +2561,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
@@ -2622,7 +2594,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#materiaaltype",
+          "uri": "https:/vocab.belgif.be/utility-services#materiaaltype",
           "name": "materialType",
           "sort": "material type",
           "label": {
@@ -2635,7 +2607,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
@@ -2665,7 +2637,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+          "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
           "name": "inNetwork",
           "sort": "in network",
           "label": {
@@ -2678,19 +2650,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
               "range_label": {
                 "en": "Utility Network"
               }
@@ -2710,7 +2682,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.zichtbaarheid",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.zichtbaarheid",
           "name": "visibility",
           "sort": "visibility",
           "label": {
@@ -2725,7 +2697,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
@@ -2759,7 +2731,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.uiterlijk",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.uiterlijk",
           "name": "appearance",
           "sort": "appearance",
           "label": {
@@ -2772,19 +2744,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
             {
               "range_label": "Uiterlijk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Uiterlijk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Appearance",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Uiterlijk",
               "range_label": {
                 "en": "Appearance"
               }
@@ -2803,7 +2775,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.risico",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.risico",
           "name": "risk",
           "sort": "risk",
           "label": {
@@ -2816,7 +2788,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
@@ -2847,7 +2819,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#Linkset.link",
+          "uri": "https://vocab.belgif.be/ns/network#LinkSet.link",
           "name": "link",
           "sort": "link",
           "label": {
@@ -2860,7 +2832,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
             }
           ],
           "range": [
@@ -2887,13 +2859,13 @@
             "ap-definition-nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset.",
             "definition-nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset.",
             "definition-en": "UtilityLinkSequence or UtilityLink that is part of the LinkSet.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#Linkset.link"
+            "uri": "https://vocab.belgif.be/ns/network#LinkSet.link"
           }
         }
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
       "name": "UtilityNetwork",
       "label": {
         "en": "Utility Network"
@@ -2927,7 +2899,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#standaardVerticalePositiedetail",
+          "uri": "https:/vocab.belgif.be/utility-services#standaardVerticalePositiedetail",
           "name": "standardVerticalPositionDetail",
           "sort": "standard vertical position detail",
           "label": {
@@ -2942,19 +2914,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
             {
               "range_label": "VerticalePositie",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+              "range_uri": "https:/vocab.belgif.be/utility-services#VerticalePositie"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Vertical Position",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+              "range_puri": "https:/vocab.belgif.be/utility-services#VerticalePositie",
               "range_label": {
                 "en": "Vertical Position"
               }
@@ -2975,7 +2947,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#netwerk",
+          "uri": "https:/vocab.belgif.be/utility-services#netwerk",
           "name": "network",
           "sort": "network",
           "label": {
@@ -2988,19 +2960,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
               "range_label": {
                 "en": "Utility Network"
               }
@@ -3020,7 +2992,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#element",
+          "uri": "https:/vocab.belgif.be/utility-services#element",
           "name": "element",
           "sort": "element",
           "label": {
@@ -3033,19 +3005,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerkelement",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility NetworkElement",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
               "range_label": {
                 "en": "Utility NetworkElement"
               }
@@ -3063,7 +3035,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#disclaimer",
+          "uri": "https:/vocab.belgif.be/utility-services#disclaimer",
           "name": "disclaimer",
           "sort": "disclaimer",
           "label": {
@@ -3076,7 +3048,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
@@ -3106,7 +3078,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#bevoegdePartij",
+          "uri": "https:/vocab.belgif.be/utility-services#bevoegdePartij",
           "name": "authorityRole",
           "sort": "authority role",
           "label": {
@@ -3119,7 +3091,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
@@ -3149,7 +3121,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
+          "uri": "https:/vocab.belgif.be/utility-services#activiteitencomplexreferentie",
           "name": "activitycomplexReference",
           "sort": "activitycomplex reference",
           "label": {
@@ -3162,19 +3134,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
             {
               "range_label": "Activiteitencomplex",
-              "range_uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+              "range_uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#ActivityComplex",
-              "range_puri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
+              "range_puri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
               "range_label": {
                 "en": "ActivityComplex"
               }
@@ -3193,7 +3165,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^geografischeNaam",
+          "uri": "https:/vocab.belgif.be/utility-services#^geografischeNaam",
           "name": "geographicalName",
           "sort": "geographical name",
           "label": {
@@ -3206,7 +3178,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
@@ -3251,7 +3223,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
@@ -3297,7 +3269,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "range": [
@@ -3330,7 +3302,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
       "name": "UtilityNetworkelement",
       "label": {
         "en": "Utility NetworkElement"
@@ -3356,7 +3328,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail",
+          "uri": "https:/vocab.belgif.be/utility-services#verticalePositiedetail",
           "name": "verticalPositionDetail",
           "sort": "vertical position detail",
           "label": {
@@ -3369,19 +3341,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
             {
               "range_label": "VerticalePositie",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+              "range_uri": "https:/vocab.belgif.be/utility-services#VerticalePositie"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Vertical Position",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+              "range_puri": "https:/vocab.belgif.be/utility-services#VerticalePositie",
               "range_label": {
                 "en": "Vertical Position"
               }
@@ -3401,7 +3373,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus",
+          "uri": "https:/vocab.belgif.be/utility-services#huidigeStatus",
           "name": "currentStatus",
           "sort": "current status",
           "label": {
@@ -3414,7 +3386,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
@@ -3444,7 +3416,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigVan",
+          "uri": "https:/vocab.belgif.be/utility-services#geldigVan",
           "name": "validFrom",
           "sort": "valid from",
           "label": {
@@ -3457,7 +3429,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
@@ -3487,7 +3459,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigTot",
+          "uri": "https:/vocab.belgif.be/utility-services#geldigTot",
           "name": "validTo",
           "sort": "valid to",
           "label": {
@@ -3500,7 +3472,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
@@ -3530,7 +3502,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^identificator",
+          "uri": "https:/vocab.belgif.be/utility-services#^identificator",
           "name": "identifier",
           "sort": "identifier",
           "label": {
@@ -3543,7 +3515,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
@@ -3573,7 +3545,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.verticalePositie",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.verticalePositie",
           "name": "verticalPosition",
           "sort": "vertical position",
           "label": {
@@ -3588,7 +3560,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
@@ -3622,7 +3594,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.inNetwerk",
           "name": "inNetwork",
           "sort": "in network",
           "label": {
@@ -3635,19 +3607,19 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
               "range_label": {
                 "en": "Utility Network"
               }
@@ -3679,7 +3651,7 @@
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerkelement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+              "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
             }
           ],
           "range": [
@@ -3712,7 +3684,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#OlieGasChemicalienPijp",
+      "uri": "https:/vocab.belgif.be/utility-services#OlieGasChemicalienPijp",
       "name": "OilGasChemicalsPipe",
       "label": {
         "en": "Oil Gas Chemicals Pipe"
@@ -3727,7 +3699,7 @@
           "label": "Pipe",
           "name": "Pijp",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "uri": "https:/vocab.belgif.be/utility-services#Pijp",
           "scoped_uri": "#Pipe"
         }
       ],
@@ -3741,7 +3713,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype",
+          "uri": "https:/vocab.belgif.be/utility-services#olieGasChemicalienProducttype",
           "name": "oilGasChemicalsProductType",
           "sort": "oil gas chemicals product type",
           "label": {
@@ -3754,7 +3726,7 @@
           "domain": [
             {
               "EA-Name": "OlieGasChemicalienPijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#OlieGasChemicalienPijp"
+              "uri": "https:/vocab.belgif.be/utility-services#OlieGasChemicalienPijp"
             }
           ],
           "range": [
@@ -3786,7 +3758,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Paal",
+      "uri": "https:/vocab.belgif.be/utility-services#Paal",
       "name": "Pole",
       "label": {
         "en": "Pole"
@@ -3803,7 +3775,7 @@
           "label": "Utility Node Container",
           "name": "Nutsvoorzieningknoopcontainer",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer",
           "scoped_uri": "#Utility Node Container"
         }
       ],
@@ -3820,7 +3792,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#paalhoogte",
+          "uri": "https:/vocab.belgif.be/utility-services#paalhoogte",
           "name": "poleHeight",
           "sort": "pole height",
           "label": {
@@ -3833,7 +3805,7 @@
           "domain": [
             {
               "EA-Name": "Paal",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Paal"
+              "uri": "https:/vocab.belgif.be/utility-services#Paal"
             }
           ],
           "range": [
@@ -3865,7 +3837,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+      "uri": "https:/vocab.belgif.be/utility-services#Pijp",
       "name": "Pipe",
       "label": {
         "en": "Pipe"
@@ -3880,7 +3852,7 @@
           "label": "Utility LinkSet",
           "name": "Nutsvoorzieninglinkset",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset",
           "scoped_uri": "#Utility LinkSet"
         },
         {
@@ -3901,7 +3873,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijpdiameter",
+          "uri": "https:/vocab.belgif.be/utility-services#pijpdiameter",
           "name": "pipeDiameter",
           "sort": "pipe diameter",
           "label": {
@@ -3916,7 +3888,7 @@
           "domain": [
             {
               "EA-Name": "Pijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "range": [
@@ -3948,7 +3920,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#druk",
+          "uri": "https:/vocab.belgif.be/utility-services#druk",
           "name": "pressure",
           "sort": "pressure",
           "label": {
@@ -3963,7 +3935,7 @@
           "domain": [
             {
               "EA-Name": "Pijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "range": [
@@ -3995,7 +3967,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.subthema",
+          "uri": "https:/vocab.belgif.be/utility-services#Pijp.subthema",
           "name": "subtheme",
           "sort": "subtheme",
           "label": {
@@ -4008,7 +3980,7 @@
           "domain": [
             {
               "EA-Name": "Pijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "range": [
@@ -4039,7 +4011,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.pijp",
+          "uri": "https:/vocab.belgif.be/utility-services#Pijp.pijp",
           "name": "pipe",
           "sort": "pipe",
           "label": {
@@ -4052,19 +4024,19 @@
           "domain": [
             {
               "EA-Name": "Pijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "range": [
             {
               "range_label": "Pijp",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Pipe",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Pijp",
               "range_label": {
                 "en": "Pipe"
               }
@@ -4083,7 +4055,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.kabel",
+          "uri": "https:/vocab.belgif.be/utility-services#Pijp.kabel",
           "name": "cable",
           "sort": "cable",
           "label": {
@@ -4096,19 +4068,19 @@
           "domain": [
             {
               "EA-Name": "Pijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "range": [
             {
               "range_label": "Kabel",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Kabel"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Cable",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Kabel",
               "range_label": {
                 "en": "Cable"
               }
@@ -4140,7 +4112,7 @@
           "domain": [
             {
               "EA-Name": "Pijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+              "uri": "https:/vocab.belgif.be/utility-services#Pijp"
             }
           ],
           "range": [
@@ -4174,7 +4146,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Plan",
+      "uri": "https:/vocab.belgif.be/utility-services#Plan",
       "name": "Plan",
       "label": {
         "en": "Plan"
@@ -4221,7 +4193,7 @@
           "domain": [
             {
               "EA-Name": "Plan",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Plan"
+              "uri": "https:/vocab.belgif.be/utility-services#Plan"
             }
           ],
           "range": [
@@ -4254,7 +4226,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Rioolpijp",
+      "uri": "https:/vocab.belgif.be/utility-services#Rioolpijp",
       "name": "SewerPipe",
       "label": {
         "en": "Sewer Pipe"
@@ -4269,7 +4241,7 @@
           "label": "Pipe",
           "name": "Pijp",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "uri": "https:/vocab.belgif.be/utility-services#Pijp",
           "scoped_uri": "#Pipe"
         }
       ],
@@ -4283,7 +4255,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rioolwatertype",
+          "uri": "https:/vocab.belgif.be/utility-services#rioolwatertype",
           "name": "sewerWaterType",
           "sort": "sewer water type",
           "label": {
@@ -4296,7 +4268,7 @@
           "domain": [
             {
               "EA-Name": "Rioolpijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Rioolpijp"
+              "uri": "https:/vocab.belgif.be/utility-services#Rioolpijp"
             }
           ],
           "range": [
@@ -4328,7 +4300,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Telecommunicatiekabel",
+      "uri": "https:/vocab.belgif.be/utility-services#Telecommunicatiekabel",
       "name": "TelecommunicationsCable",
       "label": {
         "en": "Telecommunications Cable"
@@ -4343,7 +4315,7 @@
           "label": "Cable",
           "name": "Kabel",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+          "uri": "https:/vocab.belgif.be/utility-services#Kabel",
           "scoped_uri": "#Cable"
         }
       ],
@@ -4357,7 +4329,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#telecommunicatiekabelmateriaaltype",
+          "uri": "https:/vocab.belgif.be/utility-services#telecommunicatiekabelmateriaaltype",
           "name": "telecommunicationsCableMaterialType",
           "sort": "telecommunications cable material type",
           "label": {
@@ -4370,7 +4342,7 @@
           "domain": [
             {
               "EA-Name": "Telecommunicatiekabel",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Telecommunicatiekabel"
+              "uri": "https:/vocab.belgif.be/utility-services#Telecommunicatiekabel"
             }
           ],
           "range": [
@@ -4402,7 +4374,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#ThermischePijp",
+      "uri": "https:/vocab.belgif.be/utility-services#ThermischePijp",
       "name": "ThermalPipe",
       "label": {
         "en": "Thermal Pipe"
@@ -4417,7 +4389,7 @@
           "label": "Pipe",
           "name": "Pijp",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "uri": "https:/vocab.belgif.be/utility-services#Pijp",
           "scoped_uri": "#Pipe"
         }
       ],
@@ -4431,7 +4403,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#thermischProducttype",
+          "uri": "https:/vocab.belgif.be/utility-services#thermischProducttype",
           "name": "thermalProductType",
           "sort": "thermal product type",
           "label": {
@@ -4444,7 +4416,7 @@
           "domain": [
             {
               "EA-Name": "ThermischePijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#ThermischePijp"
+              "uri": "https:/vocab.belgif.be/utility-services#ThermischePijp"
             }
           ],
           "range": [
@@ -4474,7 +4446,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#temperatuur",
+          "uri": "https:/vocab.belgif.be/utility-services#temperatuur",
           "name": "temperature",
           "sort": "temperature",
           "label": {
@@ -4487,7 +4459,7 @@
           "domain": [
             {
               "EA-Name": "ThermischePijp",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#ThermischePijp"
+              "uri": "https:/vocab.belgif.be/utility-services#ThermischePijp"
             }
           ],
           "range": [
@@ -4519,7 +4491,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toebehoren",
+      "uri": "https:/vocab.belgif.be/utility-services#Toebehoren",
       "name": "Appurtenance",
       "label": {
         "en": "Appurtenance"
@@ -4536,7 +4508,7 @@
           "label": "Utility Node",
           "name": "Nutsvoorzieningknoop",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop",
           "scoped_uri": "#Utility Node"
         }
       ],
@@ -4566,7 +4538,7 @@
           "domain": [
             {
               "EA-Name": "Toebehoren",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toebehoren"
+              "uri": "https:/vocab.belgif.be/utility-services#Toebehoren"
             }
           ],
           "range": [
@@ -4610,7 +4582,7 @@
           "domain": [
             {
               "EA-Name": "Toebehoren",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toebehoren"
+              "uri": "https:/vocab.belgif.be/utility-services#Toebehoren"
             }
           ],
           "range": [
@@ -4644,7 +4616,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#TopografischElement",
+      "uri": "https:/vocab.belgif.be/utility-services#TopografischElement",
       "name": "TopographicalElement",
       "label": {
         "en": "Topographical Element"
@@ -4685,7 +4657,7 @@
           "domain": [
             {
               "EA-Name": "TopografischElement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#TopografischElement"
+              "uri": "https:/vocab.belgif.be/utility-services#TopografischElement"
             }
           ],
           "range": [
@@ -4730,7 +4702,7 @@
           "domain": [
             {
               "EA-Name": "TopografischElement",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#TopografischElement"
+              "uri": "https:/vocab.belgif.be/utility-services#TopografischElement"
             }
           ],
           "range": [
@@ -4763,7 +4735,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toren",
+      "uri": "https:/vocab.belgif.be/utility-services#Toren",
       "name": "Tower",
       "label": {
         "en": "Tower"
@@ -4780,7 +4752,7 @@
           "label": "Utility Node Container",
           "name": "Nutsvoorzieningknoopcontainer",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
+          "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer",
           "scoped_uri": "#Utility Node Container"
         }
       ],
@@ -4797,7 +4769,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#torenhoogte",
+          "uri": "https:/vocab.belgif.be/utility-services#torenhoogte",
           "name": "towerHeight",
           "sort": "tower height",
           "label": {
@@ -4810,7 +4782,7 @@
           "domain": [
             {
               "EA-Name": "Toren",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toren"
+              "uri": "https:/vocab.belgif.be/utility-services#Toren"
             }
           ],
           "range": [
@@ -4842,7 +4814,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Waterleiding",
+      "uri": "https:/vocab.belgif.be/utility-services#Waterleiding",
       "name": "WaterPipe",
       "label": {
         "en": "Water Pipe"
@@ -4857,7 +4829,7 @@
           "label": "Pipe",
           "name": "Pijp",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "uri": "https:/vocab.belgif.be/utility-services#Pijp",
           "scoped_uri": "#Pipe"
         }
       ],
@@ -4871,7 +4843,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#watertype",
+          "uri": "https:/vocab.belgif.be/utility-services#watertype",
           "name": "waterType",
           "sort": "water type",
           "label": {
@@ -4884,7 +4856,7 @@
           "domain": [
             {
               "EA-Name": "Waterleiding",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Waterleiding"
+              "uri": "https:/vocab.belgif.be/utility-services#Waterleiding"
             }
           ],
           "range": [
@@ -5384,7 +5356,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/adres#Adres",
+      "uri": "https://vocab.belgif.be/ns/address#Adress",
       "name": "Address",
       "label": {
         "en": "Address"
@@ -5406,12 +5378,12 @@
         "definition-en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
         "usageNote-en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
         "ap-label-nl": "Adres",
-        "uri": "https://data.vlaanderen.be/ns/adres#Adres"
+        "uri": "https://vocab.belgif.be/ns/address#Adress"
       },
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
+      "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
       "name": "Activitycomplex",
       "label": {
         "en": "ActivityComplex"
@@ -5433,12 +5405,101 @@
         "ap-definition-nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening.",
         "ap-usageNote-nl": "In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes.",
         "definition-nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaatsvinden mbt productie en dienstverlening.",
-        "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
+        "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
         "usageNote-nl": "In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes."
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+          "uri": "https:/vocab.belgif.be/utility-services#Activiteitencomplex.inNetwerk",
+          "name": "inNetwork",
+          "sort": "in network",
+          "label": {
+            "en": "in network"
+          },
+          "description": {
+            "en": "Utility Network to which the ActivityComplex belongs."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Activiteitencomplex",
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Nutsvoorzieningnetwerk",
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Utility Network",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
+              "range_label": {
+                "en": "Utility Network"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-nl": "inNetwerk",
+            "ap-label-nl": "inNetwerk",
+            "package": "IMKL-LD",
+            "label-en": "in network",
+            "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
+            "definition-nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
+            "name": "Activiteitencomplex.inNetwerk",
+            "definition-en": "Utility Network to which the ActivityComplex belongs."
+          }
+        },
+        {
+          "uri": "https://vocab.belgif.be/ns/utility-services#on",
+          "name": "on",
+          "sort": "on",
+          "label": {
+            "en": "on"
+          },
+          "description": {
+            "en": "UtilityNetworkElement belonging to the complex."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Activiteitencomplex",
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Nutsvoorzieningnetwerkelement",
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Utility NetworkElement",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
+              "range_label": {
+                "en": "Utility NetworkElement"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "definition-en": "UtilityNetworkElement belonging to the complex.",
+            "uri": "https://vocab.belgif.be/ns/utility-services#on",
+            "definition-nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex.",
+            "label-nl": "op",
+            "ap-definition-nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex.",
+            "label-en": "on",
+            "ap-label-nl": "op"
+          }
+        },
+        {
+          "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork",
           "name": "innetwork",
           "sort": "inNetwork",
           "label": {
@@ -5451,19 +5512,19 @@
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
             }
           ],
           "range": [
             {
               "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
               "range_label": {
                 "en": "Utility Network"
               }
@@ -5478,11 +5539,11 @@
             "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
             "definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
             "definition-en": "Reference to a Network object to which a NetworkElement belongs.",
-            "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+            "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork"
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie",
+          "uri": "https://vocab.belgif.be/ns/utility-services#function",
           "name": "function",
           "sort": "function",
           "label": {
@@ -5497,19 +5558,19 @@
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
             }
           ],
           "range": [
             {
               "range_label": "Functie",
-              "range_uri": "https://data.vlaanderen.be/ns/generiek#Functie"
+              "range_uri": "https://vocab.belgif.be/ns/generic#Function"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Function",
-              "range_puri": "https://data.vlaanderen.be/ns/generiek#Functie",
+              "range_puri": "https://vocab.belgif.be/ns/generic#Function",
               "range_label": {
                 "en": "Function"
               }
@@ -5524,7 +5585,7 @@
             "ap-label-nl": "functie",
             "ap-definition-nl": "Activiteiten uitgevoerd door het complex.",
             "definition-nl": "Activiteiten uitgevoerd door het complex.",
-            "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie",
+            "uri": "https://vocab.belgif.be/ns/utility-services#function",
             "usageNote-nl": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten.",
             "ap-usageNote-nl": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten.",
             "usageNote-en": "Possibly supplemented with information about inputs and outputs of the activities."
@@ -5544,7 +5605,7 @@
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
             }
           ],
           "range": [
@@ -5575,95 +5636,6 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk",
-          "name": "inNetwork",
-          "sort": "in network",
-          "label": {
-            "en": "in network"
-          },
-          "description": {
-            "en": "Utility Network to which the ActivityComplex belongs."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Utility Network",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
-              "range_label": {
-                "en": "Utility Network"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-nl": "inNetwerk",
-            "ap-label-nl": "inNetwerk",
-            "package": "IMKL-LD",
-            "label-en": "in network",
-            "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
-            "definition-nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
-            "name": "Activiteitencomplex.inNetwerk",
-            "definition-en": "Utility Network to which the ActivityComplex belongs."
-          }
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#op",
-          "name": "on",
-          "sort": "on",
-          "label": {
-            "en": "on"
-          },
-          "description": {
-            "en": "UtilityNetworkElement belonging to the complex."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Nutsvoorzieningnetwerkelement",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Utility NetworkElement",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
-              "range_label": {
-                "en": "Utility NetworkElement"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "definition-en": "UtilityNetworkElement belonging to the complex.",
-            "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#op",
-            "definition-nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex.",
-            "label-nl": "op",
-            "ap-definition-nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex.",
-            "label-en": "on",
-            "ap-label-nl": "op"
-          }
-        },
-        {
           "uri": "http://www.w3.org/ns/locn#geometry",
           "name": "geometry",
           "sort": "geometry",
@@ -5677,7 +5649,7 @@
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
             }
           ],
           "range": [
@@ -5723,7 +5695,7 @@
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
             }
           ],
           "range": [
@@ -5770,7 +5742,7 @@
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
             }
           ],
           "range": [
@@ -5804,7 +5776,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/generiek#Functie",
+      "uri": "https://vocab.belgif.be/ns/generic#Function",
       "name": "Function",
       "label": {
         "en": "Function"
@@ -5822,7 +5794,7 @@
         "ap-definition-nl": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output.",
         "definition-nl": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output.",
         "definition-en": "The function of something expressed as an activity and optional input and/or output.",
-        "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
+        "uri": "https://vocab.belgif.be/ns/generic#Function"
       },
       "properties": [
         {
@@ -5839,7 +5811,7 @@
           "domain": [
             {
               "EA-Name": "Functie",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
+              "uri": "https://vocab.belgif.be/ns/generic#Function"
             }
           ],
           "range": [
@@ -5883,7 +5855,7 @@
           "domain": [
             {
               "EA-Name": "Functie",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
+              "uri": "https://vocab.belgif.be/ns/generic#Function"
             }
           ],
           "range": [
@@ -5926,7 +5898,7 @@
           "domain": [
             {
               "EA-Name": "Functie",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
+              "uri": "https://vocab.belgif.be/ns/generic#Function"
             }
           ],
           "range": [
@@ -5971,7 +5943,7 @@
           "domain": [
             {
               "EA-Name": "Functie",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
+              "uri": "https://vocab.belgif.be/ns/generic#Function"
             }
           ],
           "range": [
@@ -6006,7 +5978,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+      "uri": "https://vocab.belgif.be/ns/network#GenericLink",
       "name": "GenericLink",
       "label": {
         "en": "Generic Link"
@@ -6020,37 +5992,14 @@
       "rawTags": {
         "definition-nl": "Lineair Netwerkelement.",
         "label-nl": "GeneriekeLink",
-        "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+        "uri": "https://vocab.belgif.be/ns/network#GenericLink",
         "definition-en": "Linear Network Element.",
         "label-en": "Generic Link"
       },
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/netwerk#Knoop",
-      "name": "Node",
-      "label": {
-        "en": "Node"
-      },
-      "sort": "Node",
-      "description": {
-        "en": "Significant position in the Network that always coincides with the beginning or end of a Link."
-      },
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "uri": "https://data.vlaanderen.be/ns/netwerk#Knoop",
-        "label-nl": "Knoop",
-        "definition-nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link.",
-        "ap-label-nl": "Knoop",
-        "ap-definition-nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link.",
-        "definition-en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
-        "label-en": "Node"
-      },
-      "properties": []
-    },
-    {
-      "uri": "https://data.vlaanderen.be/ns/netwerk#Link",
+      "uri": "https://vocab.belgif.be/ns/network#Link",
       "name": "Link",
       "label": {
         "en": "Link"
@@ -6065,12 +6014,12 @@
           "label": "Generic Link",
           "name": "GeneriekeLink",
           "package": "SupportPackage",
-          "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+          "uri": "https://vocab.belgif.be/ns/network#GenericLink",
           "scoped_uri": "#Generic Link"
         }
       ],
       "rawTags": {
-        "uri": "https://data.vlaanderen.be/ns/netwerk#Link",
+        "uri": "https://vocab.belgif.be/ns/network#Link",
         "label-nl": "Link",
         "definition-nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen.",
         "label-en": "Link",
@@ -6079,7 +6028,7 @@
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/netwerk#Linksequentie",
+      "uri": "https://vocab.belgif.be/ns/network#LinkSequence",
       "name": "Linksequence",
       "label": {
         "en": "LinkSequence"
@@ -6096,12 +6045,12 @@
           "label": "Generic Link",
           "name": "GeneriekeLink",
           "package": "SupportPackage",
-          "uri": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+          "uri": "https://vocab.belgif.be/ns/network#GenericLink",
           "scoped_uri": "#Generic Link"
         }
       ],
       "rawTags": {
-        "uri": "https://data.vlaanderen.be/ns/netwerk#Linksequentie",
+        "uri": "https://vocab.belgif.be/ns/network#LinkSequence",
         "label-nl": "Linksequentie",
         "definition-nl": "Onvertakt doorlopend pad in een Netwerk.",
         "usageNote-nl": "Bv een route in het Netwerk.",
@@ -6115,7 +6064,7 @@
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/netwerk#Linkset",
+      "uri": "https://vocab.belgif.be/ns/network#LinkSet",
       "name": "Linkset",
       "label": {
         "en": "LinkSet"
@@ -6127,7 +6076,7 @@
       "usage": {},
       "parents": [],
       "rawTags": {
-        "uri": "https://data.vlaanderen.be/ns/netwerk#Linkset",
+        "uri": "https://vocab.belgif.be/ns/network#LinkSet",
         "label-nl": "Linkset",
         "definition-nl": "Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk.",
         "label-en": "LinkSet",
@@ -6136,7 +6085,7 @@
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+      "uri": "https://vocab.belgif.be/ns/network#Network",
       "name": "Network",
       "label": {
         "en": "Network"
@@ -6150,7 +6099,7 @@
       },
       "parents": [],
       "rawTags": {
-        "uri": "https://data.vlaanderen.be/ns/netwerk#Netwerk",
+        "uri": "https://vocab.belgif.be/ns/network#Network",
         "label-nl": "Netwerk",
         "definition-nl": "Verzameling van Netwerkelementen.",
         "usageNote-nl": "De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel.",
@@ -6162,11 +6111,62 @@
         "usageNote-en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport."
       },
       "properties": []
+    },
+    {
+      "uri": "https://vocab.belgif.be/ns/network#Node",
+      "name": "Node",
+      "label": {
+        "en": "Node"
+      },
+      "sort": "Node",
+      "description": {
+        "en": "Significant position in the Network that always coincides with the beginning or end of a Link."
+      },
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "uri": "https://vocab.belgif.be/ns/network#Node",
+        "label-nl": "Knoop",
+        "definition-nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link.",
+        "ap-label-nl": "Knoop",
+        "ap-definition-nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link.",
+        "definition-en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
+        "label-en": "Node"
+      },
+      "properties": []
+    },
+    {
+      "uri": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
+      "name": "CableAndPipeContainer",
+      "label": {
+        "en": "Cable and Pipe Container"
+      },
+      "sort": "Cable and Pipe Container",
+      "description": {
+        "en": "Object that could potentially contain cables or pipes/ducts."
+      },
+      "usage": {
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+      },
+      "parents": [],
+      "rawTags": {
+        "label-en": "Cable and Pipe Container",
+        "label-nl": "KabelEnLeidingContainer",
+        "ap-label-nl": "KabelEnLeidingContainer",
+        "ap-definition-nl": "Object dat potentieel kabels of leidingen kan omvatten.",
+        "definition-nl": "Object dat potentieel kabels en leidingen kan omvatten.",
+        "usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wortdt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
+        "ap-usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
+        "uri": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
+        "definition-en": "Object that could potentially contain cables or pipes/ducts.",
+        "usageNote-en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+      },
+      "properties": []
     }
   ],
   "properties": [
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#werkspanning",
+      "uri": "https:/vocab.belgif.be/utility-services#werkspanning",
       "name": {
         "en": "operating voltage",
         "undefined": "operatingVoltage"
@@ -6181,7 +6181,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#watertype",
+      "uri": "https:/vocab.belgif.be/utility-services#watertype",
       "name": {
         "en": "water type",
         "undefined": "waterType"
@@ -6196,7 +6196,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#waarschuwingstype",
+      "uri": "https:/vocab.belgif.be/utility-services#waarschuwingstype",
       "name": {
         "en": "warning type",
         "undefined": "warningType"
@@ -6211,7 +6211,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail",
+      "uri": "https:/vocab.belgif.be/utility-services#verticalePositiedetail",
       "name": {
         "en": "vertical position detail",
         "undefined": "verticalPositionDetail"
@@ -6226,7 +6226,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#torenhoogte",
+      "uri": "https:/vocab.belgif.be/utility-services#torenhoogte",
       "name": {
         "en": "tower height",
         "undefined": "towerHeight"
@@ -6241,7 +6241,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#thermischProducttype",
+      "uri": "https:/vocab.belgif.be/utility-services#thermischProducttype",
       "name": {
         "en": "thermal product type",
         "undefined": "thermalProductType"
@@ -6256,7 +6256,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#temperatuur",
+      "uri": "https:/vocab.belgif.be/utility-services#temperatuur",
       "name": {
         "en": "temperature",
         "undefined": "temperature"
@@ -6271,7 +6271,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#telecommunicatiekabelmateriaaltype",
+      "uri": "https:/vocab.belgif.be/utility-services#telecommunicatiekabelmateriaaltype",
       "name": {
         "en": "telecommunications cable material type",
         "undefined": "telecommunicationsCableMaterialType"
@@ -6286,7 +6286,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#standaardVerticalePositiedetail",
+      "uri": "https:/vocab.belgif.be/utility-services#standaardVerticalePositiedetail",
       "name": {
         "en": "standard vertical position detail",
         "undefined": "standardVerticalPositionDetail"
@@ -6301,7 +6301,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rotatiehoek",
+      "uri": "https:/vocab.belgif.be/utility-services#rotatiehoek",
       "name": {
         "en": "rotation angle",
         "undefined": "rotationAngle"
@@ -6316,7 +6316,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rioolwatertype",
+      "uri": "https:/vocab.belgif.be/utility-services#rioolwatertype",
       "name": {
         "en": "sewer water type",
         "undefined": "sewerWaterType"
@@ -6331,7 +6331,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak",
+      "uri": "https:/vocab.belgif.be/utility-services#referentieOppervlak",
       "name": {
         "en": "reference surface",
         "undefined": "referenceSurface"
@@ -6346,7 +6346,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijpdiameter",
+      "uri": "https:/vocab.belgif.be/utility-services#pijpdiameter",
       "name": {
         "en": "pipe diameter",
         "undefined": "pipeDiameter"
@@ -6361,7 +6361,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#paalhoogte",
+      "uri": "https:/vocab.belgif.be/utility-services#paalhoogte",
       "name": {
         "en": "pole height",
         "undefined": "poleHeight"
@@ -6376,7 +6376,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype",
+      "uri": "https:/vocab.belgif.be/utility-services#olieGasChemicalienProducttype",
       "name": {
         "en": "oil gas chemicals product type",
         "undefined": "oilGasChemicalsProductType"
@@ -6391,7 +6391,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nutsvoorzieningleveringstype",
+      "uri": "https:/vocab.belgif.be/utility-services#nutsvoorzieningleveringstype",
       "name": {
         "en": "utility delivery type",
         "undefined": "utilityDeliveryType"
@@ -6406,7 +6406,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning",
+      "uri": "https:/vocab.belgif.be/utility-services#nominaleSpanning",
       "name": {
         "en": "nominal voltage",
         "undefined": "nominalVoltage"
@@ -6421,7 +6421,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#netwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#netwerk",
       "name": {
         "en": "network",
         "undefined": "network"
@@ -6436,7 +6436,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nauwkeurigheid",
+      "uri": "https:/vocab.belgif.be/utility-services#nauwkeurigheid",
       "name": {
         "en": "accuracy",
         "undefined": "accuracy"
@@ -6451,7 +6451,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#materiaaltype",
+      "uri": "https:/vocab.belgif.be/utility-services#materiaaltype",
       "name": {
         "en": "material type",
         "undefined": "materialType"
@@ -6466,7 +6466,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#knoop",
+      "uri": "https:/vocab.belgif.be/utility-services#knoop",
       "name": {
         "en": "node",
         "undefined": "node"
@@ -6481,7 +6481,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kleur",
+      "uri": "https:/vocab.belgif.be/utility-services#kleur",
       "name": {
         "en": "color",
         "undefined": "color"
@@ -6496,7 +6496,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kanaalbreedte",
+      "uri": "https:/vocab.belgif.be/utility-services#kanaalbreedte",
       "name": {
         "en": "duct width",
         "undefined": "ductWidth"
@@ -6511,7 +6511,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabeldiameter",
+      "uri": "https:/vocab.belgif.be/utility-services#kabeldiameter",
       "name": {
         "en": "cable diameter",
         "undefined": "cableDiameter"
@@ -6526,22 +6526,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
-      "name": {
-        "en": "inNetwork",
-        "undefined": "innetwork"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
       "name": {
         "en": "in network",
         "undefined": "inNetwork"
@@ -6558,7 +6543,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
       "name": {
         "en": "in network",
         "undefined": "inNetwork"
@@ -6575,7 +6560,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
       "name": {
         "en": "in network",
         "undefined": "inNetwork"
@@ -6592,7 +6577,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#inNetwerk",
       "name": {
         "en": "in network",
         "undefined": "inNetwork"
@@ -6609,7 +6594,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus",
+      "uri": "https:/vocab.belgif.be/utility-services#huidigeStatus",
       "name": {
         "en": "current status",
         "undefined": "currentStatus"
@@ -6624,7 +6609,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geheel",
+      "uri": "https:/vocab.belgif.be/utility-services#geheel",
       "name": {
         "en": "whole",
         "undefined": "whole"
@@ -6639,7 +6624,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geassocieerdMet",
+      "uri": "https:/vocab.belgif.be/utility-services#geassocieerdMet",
       "name": {
         "en": "associated with",
         "undefined": "associatedWith"
@@ -6654,22 +6639,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie",
-      "name": {
-        "en": "function",
-        "undefined": "function"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#element",
+      "uri": "https:/vocab.belgif.be/utility-services#element",
       "name": {
         "en": "element",
         "undefined": "element"
@@ -6684,7 +6654,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#druk",
+      "uri": "https:/vocab.belgif.be/utility-services#druk",
       "name": {
         "en": "pressure",
         "undefined": "pressure"
@@ -6699,22 +6669,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#documentatie",
-      "name": {
-        "en": "documentation",
-        "undefined": "documentation"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#diepte",
+      "uri": "https:/vocab.belgif.be/utility-services#diepte",
       "name": {
         "en": "depth",
         "undefined": "depth"
@@ -6729,7 +6684,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#deel",
+      "uri": "https:/vocab.belgif.be/utility-services#deel",
       "name": {
         "en": "part",
         "undefined": "part"
@@ -6744,7 +6699,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#bevoegdePartij",
+      "uri": "https:/vocab.belgif.be/utility-services#bevoegdePartij",
       "name": {
         "en": "authority role",
         "undefined": "authorityRole"
@@ -6759,7 +6714,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#afstand",
+      "uri": "https:/vocab.belgif.be/utility-services#afstand",
       "name": {
         "en": "distance",
         "undefined": "distance"
@@ -6774,7 +6729,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres",
+      "uri": "https:/vocab.belgif.be/utility-services#adres",
       "name": {
         "en": "address",
         "undefined": "address"
@@ -6789,7 +6744,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie",
+      "uri": "https:/vocab.belgif.be/utility-services#activiteitencomplexreferentie",
       "name": {
         "en": "activitycomplex reference",
         "undefined": "activitycomplexReference"
@@ -6804,7 +6759,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^identificator",
+      "uri": "https:/vocab.belgif.be/utility-services#^identificator",
       "name": {
         "en": "identifier",
         "undefined": "identifier"
@@ -6819,7 +6774,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie.verticalePositie",
+      "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie.verticalePositie",
       "name": {
         "en": "vertical position",
         "undefined": "verticalPosition"
@@ -6834,7 +6789,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak.verticalePositie",
+      "uri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak.verticalePositie",
       "name": {
         "en": "vertical position",
         "undefined": "verticalPosition"
@@ -6849,7 +6804,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.subthema",
+      "uri": "https:/vocab.belgif.be/utility-services#Pijp.subthema",
       "name": {
         "en": "subtheme",
         "undefined": "subtheme"
@@ -6864,7 +6819,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.pijp",
+      "uri": "https:/vocab.belgif.be/utility-services#Pijp.pijp",
       "name": {
         "en": "pipe",
         "undefined": "pipe"
@@ -6879,7 +6834,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.kabel",
+      "uri": "https:/vocab.belgif.be/utility-services#Pijp.kabel",
       "name": {
         "en": "cable",
         "undefined": "cable"
@@ -6894,7 +6849,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor",
+      "uri": "https:/vocab.belgif.be/utility-services#Opmeting.uitgevoerdDoor",
       "name": {
         "en": "recorded by",
         "undefined": "recordedBy"
@@ -6909,7 +6864,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.methode",
+      "uri": "https:/vocab.belgif.be/utility-services#Opmeting.methode",
       "name": {
         "en": "method",
         "undefined": "method"
@@ -6924,7 +6879,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.verticalePositie",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.verticalePositie",
       "name": {
         "en": "vertical position",
         "undefined": "verticalPosition"
@@ -6939,7 +6894,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.inNetwerk",
       "name": {
         "en": "in network",
         "undefined": "inNetwork"
@@ -6954,7 +6909,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.zichtbaarheid",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.zichtbaarheid",
       "name": {
         "en": "visibility",
         "undefined": "visibility"
@@ -6969,7 +6924,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.uiterlijk",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.uiterlijk",
       "name": {
         "en": "appearance",
         "undefined": "appearance"
@@ -6984,7 +6939,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.risico",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.risico",
       "name": {
         "en": "risk",
         "undefined": "risk"
@@ -6999,7 +6954,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.zichtbaarheid",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.zichtbaarheid",
       "name": {
         "en": "visibility",
         "undefined": "visibility"
@@ -7014,7 +6969,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.uiterlijk",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.uiterlijk",
       "name": {
         "en": "appearance",
         "undefined": "appearance"
@@ -7029,7 +6984,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.risico",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.risico",
       "name": {
         "en": "risk",
         "undefined": "risk"
@@ -7044,7 +6999,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.orientatie",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.orientatie",
       "name": {
         "en": "orientation",
         "undefined": "orientation"
@@ -7059,7 +7014,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.zichtbaarheid",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.zichtbaarheid",
       "name": {
         "en": "visibility",
         "undefined": "visibility"
@@ -7074,7 +7029,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.uiterlijk",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.uiterlijk",
       "name": {
         "en": "appearance",
         "undefined": "appearance"
@@ -7089,7 +7044,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.risico",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.risico",
       "name": {
         "en": "risk",
         "undefined": "risk"
@@ -7104,7 +7059,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.orientatie",
+      "uri": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.orientatie",
       "name": {
         "en": "orientation",
         "undefined": "orientation"
@@ -7119,7 +7074,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.pijp",
+      "uri": "https:/vocab.belgif.be/utility-services#Kanaal.pijp",
       "name": {
         "en": "pipe",
         "undefined": "pipe"
@@ -7134,7 +7089,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kanaal",
+      "uri": "https:/vocab.belgif.be/utility-services#Kanaal.kanaal",
       "name": {
         "en": "duct",
         "undefined": "duct"
@@ -7149,7 +7104,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel",
+      "uri": "https:/vocab.belgif.be/utility-services#Kanaal.kabel",
       "name": {
         "en": "cable",
         "undefined": "cable"
@@ -7164,7 +7119,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel.subthema",
+      "uri": "https:/vocab.belgif.be/utility-services#Kabel.subthema",
       "name": {
         "en": "subtheme",
         "undefined": "subtheme"
@@ -7179,7 +7134,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk",
+      "uri": "https:/vocab.belgif.be/utility-services#Activiteitencomplex.inNetwerk",
       "name": {
         "en": "in network",
         "undefined": "inNetwork"
@@ -7194,7 +7149,7 @@
       "parents": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting.toebehorentype",
+      "uri": "https:/vocab.belgif.be/utility-services#Aansluiting.toebehorentype",
       "name": {
         "en": "appurtenance type",
         "undefined": "appurtenanceType"
@@ -7807,7 +7762,7 @@
   ],
   "datatypes": [
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Diepte",
+      "uri": "https:/vocab.belgif.be/utility-services#Diepte",
       "name": "Depth",
       "label": {
         "en": "Depth"
@@ -7822,7 +7777,7 @@
           "label": "Vertical Position",
           "name": "VerticalePositie",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+          "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie",
           "scoped_uri": "#Vertical Position"
         }
       ],
@@ -7836,7 +7791,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#diepte",
+          "uri": "https:/vocab.belgif.be/utility-services#diepte",
           "name": "depth",
           "sort": "depth",
           "label": {
@@ -7849,7 +7804,7 @@
           "domain": [
             {
               "EA-Name": "Diepte",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Diepte"
+              "uri": "https:/vocab.belgif.be/utility-services#Diepte"
             }
           ],
           "range": [
@@ -7881,7 +7836,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Hoogte",
+      "uri": "https:/vocab.belgif.be/utility-services#Hoogte",
       "name": "Height",
       "label": {
         "en": "Height"
@@ -7896,7 +7851,7 @@
           "label": "Vertical Position",
           "name": "VerticalePositie",
           "package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+          "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie",
           "scoped_uri": "#Vertical Position"
         }
       ],
@@ -7923,7 +7878,7 @@
           "domain": [
             {
               "EA-Name": "Hoogte",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Hoogte"
+              "uri": "https:/vocab.belgif.be/utility-services#Hoogte"
             }
           ],
           "range": [
@@ -7956,7 +7911,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
+      "uri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak",
       "name": "ReferenceSurface",
       "label": {
         "en": "Reference Surface"
@@ -7982,7 +7937,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak.verticalePositie",
+          "uri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak.verticalePositie",
           "name": "verticalPosition",
           "sort": "vertical position",
           "label": {
@@ -7997,19 +7952,19 @@
           "domain": [
             {
               "EA-Name": "Referentieoppervlak",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak"
+              "uri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak"
             }
           ],
           "range": [
             {
               "range_label": "DirectePositie",
-              "range_uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+              "range_uri": "https://vocab.belgif.be/ns/generic#DirectPosition"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Direct Position",
-              "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+              "range_puri": "https://vocab.belgif.be/ns/generic#DirectPosition",
               "range_label": {
                 "en": "Direct Position"
               }
@@ -8046,7 +8001,7 @@
           "domain": [
             {
               "EA-Name": "Referentieoppervlak",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak"
+              "uri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak"
             }
           ],
           "range": [
@@ -8094,7 +8049,7 @@
           "domain": [
             {
               "EA-Name": "Referentieoppervlak",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak"
+              "uri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak"
             }
           ],
           "range": [
@@ -8129,7 +8084,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+      "uri": "https:/vocab.belgif.be/utility-services#Uiterlijk",
       "name": "Appearance",
       "label": {
         "en": "Appearance"
@@ -8150,7 +8105,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kleur",
+          "uri": "https:/vocab.belgif.be/utility-services#kleur",
           "name": "color",
           "sort": "color",
           "label": {
@@ -8163,7 +8118,7 @@
           "domain": [
             {
               "EA-Name": "Uiterlijk",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
+              "uri": "https:/vocab.belgif.be/utility-services#Uiterlijk"
             }
           ],
           "range": [
@@ -8195,7 +8150,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+      "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie",
       "name": "VerticalPosition",
       "label": {
         "en": "Vertical Position"
@@ -8216,7 +8171,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak",
+          "uri": "https:/vocab.belgif.be/utility-services#referentieOppervlak",
           "name": "referenceSurface",
           "sort": "reference surface",
           "label": {
@@ -8231,19 +8186,19 @@
           "domain": [
             {
               "EA-Name": "VerticalePositie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+              "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie"
             }
           ],
           "range": [
             {
               "range_label": "Referentieoppervlak",
-              "range_uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak"
+              "range_uri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Reference Surface",
-              "range_puri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
+              "range_puri": "https:/vocab.belgif.be/utility-services#Referentieoppervlak",
               "range_label": {
                 "en": "Reference Surface"
               }
@@ -8264,7 +8219,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#afstand",
+          "uri": "https:/vocab.belgif.be/utility-services#afstand",
           "name": "distance",
           "sort": "distance",
           "label": {
@@ -8279,7 +8234,7 @@
           "domain": [
             {
               "EA-Name": "VerticalePositie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+              "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie"
             }
           ],
           "range": [
@@ -8312,7 +8267,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie.verticalePositie",
+          "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie.verticalePositie",
           "name": "verticalPosition",
           "sort": "vertical position",
           "label": {
@@ -8327,19 +8282,19 @@
           "domain": [
             {
               "EA-Name": "VerticalePositie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+              "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie"
             }
           ],
           "range": [
             {
               "range_label": "DirectePositie",
-              "range_uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+              "range_uri": "https://vocab.belgif.be/ns/generic#DirectPosition"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Direct Position",
-              "range_puri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+              "range_puri": "https://vocab.belgif.be/ns/generic#DirectPosition",
               "range_label": {
                 "en": "Direct Position"
               }
@@ -8376,7 +8331,7 @@
           "domain": [
             {
               "EA-Name": "VerticalePositie",
-              "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+              "uri": "https:/vocab.belgif.be/utility-services#VerticalePositie"
             }
           ],
           "range": [
@@ -8923,7 +8878,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+          "uri": "https://vocab.belgif.be/ns/address#refersTo",
           "name": "refersTo",
           "sort": "refers to",
           "label": {
@@ -8944,13 +8899,13 @@
           "range": [
             {
               "range_label": "Adres",
-              "range_uri": "https://data.vlaanderen.be/ns/adres#Adres"
+              "range_uri": "https://vocab.belgif.be/ns/address#Adress"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Address",
-              "range_puri": "https://data.vlaanderen.be/ns/adres#Adres",
+              "range_puri": "https://vocab.belgif.be/ns/address#Adress",
               "range_label": {
                 "en": "Address"
               }
@@ -8967,58 +8922,12 @@
             "ap-definition-nl": "Adres waarvan de adresvoorstelling is afgeleid.",
             "ap-usageNote-nl": "Dit kan enkel voor Belgische adressen aangezien onder adres een Belgisch adres wordt verstaan.",
             "definition-nl": "Adres waarvan de adresvoorstelling is afgeleid.",
-            "uri": "https://data.vlaanderen.be/ns/adres#verwijstNaar",
+            "uri": "https://vocab.belgif.be/ns/address#refersTo",
             "usageNote-nl": "Dit kan enkel voor Belgische adressen aangezien onder adres een Belgisch adres wordt verstaan."
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/adres#land",
-          "name": "country",
-          "sort": "country",
-          "label": {
-            "en": "country"
-          },
-          "description": {
-            "en": "Country in which the address is located."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Adresvoorstelling",
-              "uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "LangString",
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-              "range_label": {
-                "en": "LangString"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "parentURI": "http://www.w3.org/ns/locn#adminUnitL1",
-            "ap-definition-nl": "Land waarin het adres gelegen is.",
-            "ap-usageNote-nl": " ",
-            "label-nl": "land",
-            "definition-en": "Country in which the address is located.",
-            "label-en": "country",
-            "ap-label-nl": "land",
-            "definition-nl": "Land waarin het adres gelegen is.",
-            "uri": "https://data.vlaanderen.be/ns/adres#land"
-          }
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam",
+          "uri": "https://vocab.belgif.be/ns/address#municipalityName",
           "name": "municipalityName",
           "sort": "municipality name",
           "label": {
@@ -9060,11 +8969,57 @@
             "label-en": "municipality name",
             "ap-label-nl": "gemeentenaam",
             "definition-nl": "Gemeentenaam van het adres.",
-            "uri": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
+            "uri": "https://vocab.belgif.be/ns/address#municipalityName"
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/adres#busnummer",
+          "uri": "https://vocab.belgif.be/ns/address#country",
+          "name": "country",
+          "sort": "country",
+          "label": {
+            "en": "country"
+          },
+          "description": {
+            "en": "Country in which the address is located."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Adresvoorstelling",
+              "uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "LangString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "en": "LangString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "parentURI": "http://www.w3.org/ns/locn#adminUnitL1",
+            "ap-definition-nl": "Land waarin het adres gelegen is.",
+            "ap-usageNote-nl": " ",
+            "label-nl": "land",
+            "definition-en": "Country in which the address is located.",
+            "label-en": "country",
+            "ap-label-nl": "land",
+            "definition-nl": "Land waarin het adres gelegen is.",
+            "uri": "https://vocab.belgif.be/ns/address#country"
+          }
+        },
+        {
+          "uri": "https://vocab.belgif.be/ns/address#boxNumber",
           "name": "boxNumber",
           "sort": "box number",
           "label": {
@@ -9110,12 +9065,12 @@
             "usageNote-en": "Specialisation of Address Presentation:location indication for Belgian addresses.",
             "ap-label-nl": "busnummer",
             "definition-nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben.",
-            "uri": "https://data.vlaanderen.be/ns/adres#busnummer",
+            "uri": "https://vocab.belgif.be/ns/address#boxNumber",
             "usageNote-nl": "Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen."
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+          "uri": "https://vocab.belgif.be/ns/address#AddressRepresentation",
           "name": "houseNumber",
           "sort": "house number",
           "label": {
@@ -9161,7 +9116,7 @@
             "usageNote-en": "Specialization of Address representation: location indication for Belgian addresses.",
             "ap-label-nl": "huisnummer",
             "definition-nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.",
-            "uri": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer",
+            "uri": "https://vocab.belgif.be/ns/address#AddressRepresentation",
             "usageNote-nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
           }
         },
@@ -9654,7 +9609,7 @@
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+          "uri": "https://vocab.belgif.be/ns/generic#Geometry.survey",
           "name": "survey",
           "sort": "survey",
           "label": {
@@ -9673,13 +9628,13 @@
           "range": [
             {
               "range_label": "Opmeting",
-              "range_uri": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+              "range_uri": "https://vocab.belgif.be/ns/generic#Survey"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Survey",
-              "range_puri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+              "range_puri": "https://vocab.belgif.be/ns/generic#Survey",
               "range_label": {
                 "en": "Survey"
               }
@@ -9693,7 +9648,7 @@
             "ap-label-nl": "opmeting",
             "definition-nl": "De manier waarop de geometrie werd bepaald.",
             "ap-definition-nl": "De manier waarop de geometrie werd bepaald.",
-            "uri": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting",
+            "uri": "https://vocab.belgif.be/ns/generic#Geometry.survey",
             "definition-en": "The way the geometry was determined."
           }
         },
@@ -9823,7 +9778,35 @@
       "properties": []
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+      "uri": "https://schema.org/Number",
+      "name": "Number",
+      "label": {
+        "en": "Number"
+      },
+      "sort": "Number",
+      "description": {
+        "en": "Indication of a quantity."
+      },
+      "usage": {
+        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
+      },
+      "parents": [],
+      "rawTags": {
+        "label-en": "Number",
+        "label-nl": "Getal",
+        "ap-label-nl": "Getal",
+        "ap-definition-nl": "Aanduiding van een hoeveelheid.",
+        "definition-nl": "Aanduiding van een hoeveelheid.",
+        "usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
+        "ap-usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
+        "uri": "https://schema.org/Number",
+        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "definition-en": "Indication of a quantity."
+      },
+      "properties": []
+    },
+    {
+      "uri": "https://vocab.belgif.be/ns/generic#DirectPosition",
       "name": "DirectPosition",
       "label": {
         "en": "Direct Position"
@@ -9845,11 +9828,11 @@
         "definition-en": "Holder of the coordinates of a position in a coordinate reference system.",
         "label-en": "Direct Position",
         "ap-definition-nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem.",
-        "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+        "uri": "https://vocab.belgif.be/ns/generic#DirectPosition"
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting",
+          "uri": "https://vocab.belgif.be/ns/generic#DirectPosition.survey",
           "name": "survey",
           "sort": "survey",
           "label": {
@@ -9862,19 +9845,19 @@
           "domain": [
             {
               "EA-Name": "DirectePositie",
-              "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+              "uri": "https://vocab.belgif.be/ns/generic#DirectPosition"
             }
           ],
           "range": [
             {
               "range_label": "Opmeting",
-              "range_uri": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+              "range_uri": "https://vocab.belgif.be/ns/generic#Survey"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Survey",
-              "range_puri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+              "range_puri": "https://vocab.belgif.be/ns/generic#Survey",
               "range_label": {
                 "en": "Survey"
               }
@@ -9890,7 +9873,7 @@
             "definition-en": "The way the position was determined.",
             "label-en": "survey",
             "ap-definition-nl": "De manier waarop de positie werd bepaald.",
-            "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting"
+            "uri": "https://vocab.belgif.be/ns/generic#DirectPosition.survey"
           }
         },
         {
@@ -9909,7 +9892,7 @@
           "domain": [
             {
               "EA-Name": "DirectePositie",
-              "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+              "uri": "https://vocab.belgif.be/ns/generic#DirectPosition"
             }
           ],
           "range": [
@@ -9957,7 +9940,7 @@
           "domain": [
             {
               "EA-Name": "DirectePositie",
-              "uri": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+              "uri": "https://vocab.belgif.be/ns/generic#DirectPosition"
             }
           ],
           "range": [
@@ -9992,7 +9975,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+      "uri": "https://vocab.belgif.be/ns/generic#Survey",
       "name": "Survey",
       "label": {
         "en": "Survey"
@@ -10010,11 +9993,11 @@
         "definition-en": "Determining the exact size of something by measuring it.",
         "ap-label-nl": "Opmeting",
         "definition-nl": "Het bepalen van de precieze omvang van iets door het te meten.",
-        "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+        "uri": "https://vocab.belgif.be/ns/generic#Survey"
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nauwkeurigheid",
+          "uri": "https:/vocab.belgif.be/utility-services#nauwkeurigheid",
           "name": "accuracy",
           "sort": "accuracy",
           "label": {
@@ -10027,7 +10010,7 @@
           "domain": [
             {
               "EA-Name": "Opmeting",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+              "uri": "https://vocab.belgif.be/ns/generic#Survey"
             }
           ],
           "range": [
@@ -10057,7 +10040,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor",
+          "uri": "https:/vocab.belgif.be/utility-services#Opmeting.uitgevoerdDoor",
           "name": "recordedBy",
           "sort": "recorded by",
           "label": {
@@ -10070,7 +10053,7 @@
           "domain": [
             {
               "EA-Name": "Opmeting",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+              "uri": "https://vocab.belgif.be/ns/generic#Survey"
             }
           ],
           "range": [
@@ -10101,7 +10084,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.methode",
+          "uri": "https:/vocab.belgif.be/utility-services#Opmeting.methode",
           "name": "method",
           "sort": "method",
           "label": {
@@ -10114,7 +10097,7 @@
           "domain": [
             {
               "EA-Name": "Opmeting",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+              "uri": "https://vocab.belgif.be/ns/generic#Survey"
             }
           ],
           "range": [
@@ -10158,7 +10141,7 @@
           "domain": [
             {
               "EA-Name": "Opmeting",
-              "uri": "https://data.vlaanderen.be/ns/generiek#Opmeting"
+              "uri": "https://vocab.belgif.be/ns/generic#Survey"
             }
           ],
           "range": [
@@ -10191,7 +10174,7 @@
       ]
     },
     {
-      "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
+      "uri": "https://vocab.belgif.be/ns/network#DirectedLink",
       "name": "DirectedLink",
       "label": {
         "en": "Directed Link"
@@ -10207,13 +10190,13 @@
         "label-nl": "Gerichte link",
         "ap-label-nl": "Gerichte link",
         "ap-definition-nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
-        "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
+        "uri": "https://vocab.belgif.be/ns/network#DirectedLink",
         "definition-nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
         "definition-en": "A link either in its positive or negative direction."
       },
       "properties": [
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#richting",
+          "uri": "https://vocab.belgif.be/ns/network#direction",
           "name": "direction",
           "sort": "direction",
           "label": {
@@ -10226,7 +10209,7 @@
           "domain": [
             {
               "EA-Name": "GerichteLink",
-              "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink"
+              "uri": "https://vocab.belgif.be/ns/network#DirectedLink"
             }
           ],
           "range": [
@@ -10249,7 +10232,7 @@
           "rawTags": {
             "label-nl": "richting",
             "ap-definition-nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld).",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#richting",
+            "uri": "https://vocab.belgif.be/ns/network#direction",
             "ap-label-nl": "richting",
             "label-en": "direction",
             "definition-nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld).",
@@ -10257,7 +10240,7 @@
           }
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link",
+          "uri": "https://vocab.belgif.be/ns/network#DirectedLink.link",
           "name": "link",
           "sort": "link",
           "label": {
@@ -10270,7 +10253,7 @@
           "domain": [
             {
               "EA-Name": "GerichteLink",
-              "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink"
+              "uri": "https://vocab.belgif.be/ns/network#DirectedLink"
             }
           ],
           "range": [
@@ -10293,7 +10276,7 @@
           "rawTags": {
             "label-nl": "link",
             "ap-definition-nl": "Verwijzing naar de Link.",
-            "uri": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link",
+            "uri": "https://vocab.belgif.be/ns/network#DirectedLink.link",
             "ap-label-nl": "link",
             "label-en": "link",
             "definition-nl": "Verwijzing naar de Link.",
@@ -10301,34 +10284,6 @@
           }
         }
       ]
-    },
-    {
-      "uri": "https://schema.org/Number",
-      "name": "Number",
-      "label": {
-        "en": "Number"
-      },
-      "sort": "Number",
-      "description": {
-        "en": "Indication of a quantity."
-      },
-      "usage": {
-        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
-      },
-      "parents": [],
-      "rawTags": {
-        "label-en": "Number",
-        "label-nl": "Getal",
-        "ap-label-nl": "Getal",
-        "ap-definition-nl": "Aanduiding van een hoeveelheid.",
-        "definition-nl": "Aanduiding van een hoeveelheid.",
-        "usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-        "ap-usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-        "uri": "https://schema.org/Number",
-        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
-        "definition-en": "Indication of a quantity."
-      },
-      "properties": []
     }
   ],
   "parents": [],

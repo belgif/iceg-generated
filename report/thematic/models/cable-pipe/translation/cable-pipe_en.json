@@ -75,19 +75,6 @@
       }
     },
     {
-      "name": "CableAndPipeContainer",
-      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
-      "definition": {
-        "en": "Object that could potentially contain cables or pipes/ducts."
-      },
-      "label": {
-        "en": "Cable and Pipe Container"
-      },
-      "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
-      }
-    },
-    {
       "name": "Duct",
       "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
@@ -672,16 +659,6 @@
       }
     },
     {
-      "name": "innetwork",
-      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
-      "definition": {
-        "en": "Reference to a Network object to which a NetworkElement belongs."
-      },
-      "label": {
-        "en": "inNetwork"
-      }
-    },
-    {
       "name": "inNetwork",
       "EA-Guid": "{B7EE7353-0C10-44a0-9E23-C788317104BB}",
       "definition": {
@@ -778,19 +755,6 @@
       }
     },
     {
-      "name": "function",
-      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
-      "definition": {
-        "en": "Activities carried out by the complex."
-      },
-      "label": {
-        "en": "function"
-      },
-      "usage": {
-        "en": "Possibly supplemented with information about inputs and outputs of the activities."
-      }
-    },
-    {
       "name": "element",
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
@@ -811,16 +775,6 @@
       },
       "usage": {
         "en": "The unit of measurement for pressure is usually expressed in 'bar'."
-      }
-    },
-    {
-      "name": "documentation",
-      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
-      "definition": {
-        "en": "Reference to a Document with additional information about the complex."
-      },
-      "label": {
-        "en": "documentation"
       }
     },
     {
@@ -1625,6 +1579,19 @@
       }
     },
     {
+      "name": "Number",
+      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "definition": {
+        "en": "Indication of a quantity."
+      },
+      "label": {
+        "en": "Number"
+      },
+      "usage": {
+        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
+      }
+    },
+    {
       "name": "Address",
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
@@ -1684,16 +1651,6 @@
       }
     },
     {
-      "name": "GenericLink",
-      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
-      "definition": {
-        "en": "Linear Network Element."
-      },
-      "label": {
-        "en": "Generic Link"
-      }
-    },
-    {
       "name": "DirectedLink",
       "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "definition": {
@@ -1704,13 +1661,13 @@
       }
     },
     {
-      "name": "Node",
-      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
+      "name": "GenericLink",
+      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
       "definition": {
-        "en": "Significant position in the Network that always coincides with the beginning or end of a Link."
+        "en": "Linear Network Element."
       },
       "label": {
-        "en": "Node"
+        "en": "Generic Link"
       }
     },
     {
@@ -1760,40 +1717,30 @@
       }
     },
     {
-      "name": "Number",
-      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "name": "Node",
+      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
       "definition": {
-        "en": "Indication of a quantity."
+        "en": "Significant position in the Network that always coincides with the beginning or end of a Link."
       },
       "label": {
-        "en": "Number"
+        "en": "Node"
+      }
+    },
+    {
+      "name": "CableAndPipeContainer",
+      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
+      "definition": {
+        "en": "Object that could potentially contain cables or pipes/ducts."
+      },
+      "label": {
+        "en": "Cable and Pipe Container"
       },
       "usage": {
-        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
       }
     }
   ],
   "externalproperties": [
-    {
-      "name": "height",
-      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
-      "definition": {
-        "en": "The height of the Appurtenance."
-      },
-      "label": {
-        "en": "height"
-      }
-    },
-    {
-      "name": "height",
-      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
-      "definition": {
-        "en": "Distance above the Reference Surface."
-      },
-      "label": {
-        "en": "height"
-      }
-    },
     {
       "name": "on",
       "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
@@ -1805,23 +1752,26 @@
       }
     },
     {
-      "name": "direction",
-      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
+      "name": "innetwork",
+      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
       "definition": {
-        "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link."
+        "en": "Reference to a Network object to which a NetworkElement belongs."
       },
       "label": {
-        "en": "direction"
+        "en": "inNetwork"
       }
     },
     {
-      "name": "endLink",
-      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
+      "name": "function",
+      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
       "definition": {
-        "en": "Link of which this Node is the end Node."
+        "en": "Activities carried out by the complex."
       },
       "label": {
-        "en": "end link"
+        "en": "function"
+      },
+      "usage": {
+        "en": "Possibly supplemented with information about inputs and outputs of the activities."
       }
     },
     {
@@ -1835,13 +1785,23 @@
       }
     },
     {
-      "name": "beginLink",
-      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
+      "name": "endLink",
+      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
       "definition": {
-        "en": "Link of which this Node is the start Node."
+        "en": "Link of which this Node is the end Node."
       },
       "label": {
-        "en": "begin link"
+        "en": "end link"
+      }
+    },
+    {
+      "name": "direction",
+      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
+      "definition": {
+        "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link."
+      },
+      "label": {
+        "en": "direction"
       }
     },
     {
@@ -1852,6 +1812,36 @@
       },
       "label": {
         "en": "start node"
+      }
+    },
+    {
+      "name": "beginLink",
+      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
+      "definition": {
+        "en": "Link of which this Node is the start Node."
+      },
+      "label": {
+        "en": "begin link"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
+      "definition": {
+        "en": "Geometry of the Node."
+      },
+      "label": {
+        "en": "geometry"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
+      "definition": {
+        "en": "Geometry of the container."
+      },
+      "label": {
+        "en": "geometry"
       }
     },
     {
@@ -1882,26 +1872,6 @@
       },
       "label": {
         "en": "centreline geometry"
-      }
-    },
-    {
-      "name": "geometry",
-      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
-      "definition": {
-        "en": "Geometry of the Node."
-      },
-      "label": {
-        "en": "geometry"
-      }
-    },
-    {
-      "name": "geometry",
-      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
-      "definition": {
-        "en": "Geometry of the container."
-      },
-      "label": {
-        "en": "geometry"
       }
     },
     {
@@ -1948,16 +1918,6 @@
       }
     },
     {
-      "name": "country",
-      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
-      "definition": {
-        "en": "Country in which the address is located."
-      },
-      "label": {
-        "en": "country"
-      }
-    },
-    {
       "name": "municipalityName",
       "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
@@ -1965,6 +1925,16 @@
       },
       "label": {
         "en": "municipality name"
+      }
+    },
+    {
+      "name": "country",
+      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
+      "definition": {
+        "en": "Country in which the address is located."
+      },
+      "label": {
+        "en": "country"
       }
     },
     {
@@ -1991,6 +1961,36 @@
       },
       "usage": {
         "en": "Specialization of Address representation: location indication for Belgian addresses."
+      }
+    },
+    {
+      "name": "height",
+      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
+      "definition": {
+        "en": "The height of the Appurtenance."
+      },
+      "label": {
+        "en": "height"
+      }
+    },
+    {
+      "name": "height",
+      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
+      "definition": {
+        "en": "Distance above the Reference Surface."
+      },
+      "label": {
+        "en": "height"
+      }
+    },
+    {
+      "name": "documentation",
+      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
+      "definition": {
+        "en": "Reference to a Document with additional information about the complex."
+      },
+      "label": {
+        "en": "documentation"
       }
     },
     {

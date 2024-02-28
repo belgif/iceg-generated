@@ -90,22 +90,6 @@
       }
     },
     {
-      "name": "CableAndPipeContainer",
-      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
-      "definition": {
-        "en": "Object that could potentially contain cables or pipes/ducts.",
-        "nl": "Object dat potentieel kabels of leidingen kan omvatten."
-      },
-      "label": {
-        "en": "Cable and Pipe Container",
-        "nl": "KabelEnLeidingContainer"
-      },
-      "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
-        "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
-      }
-    },
-    {
       "name": "Duct",
       "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
@@ -816,18 +800,6 @@
       }
     },
     {
-      "name": "innetwork",
-      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
-      "definition": {
-        "en": "Reference to a Network object to which a NetworkElement belongs.",
-        "nl": "Enter your translation here"
-      },
-      "label": {
-        "en": "inNetwork",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
       "name": "inNetwork",
       "EA-Guid": "{B7EE7353-0C10-44a0-9E23-C788317104BB}",
       "definition": {
@@ -944,22 +916,6 @@
       }
     },
     {
-      "name": "function",
-      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
-      "definition": {
-        "en": "Activities carried out by the complex.",
-        "nl": "Activiteiten uitgevoerd door het complex."
-      },
-      "label": {
-        "en": "function",
-        "nl": "functie"
-      },
-      "usage": {
-        "en": "Possibly supplemented with information about inputs and outputs of the activities.",
-        "nl": "Enter your translation here"
-      }
-    },
-    {
       "name": "element",
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
@@ -985,18 +941,6 @@
       "usage": {
         "en": "The unit of measurement for pressure is usually expressed in 'bar'.",
         "nl": "De meeteenheid voor druk wordt meestal uitgedrukt in 'bar'."
-      }
-    },
-    {
-      "name": "documentation",
-      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
-      "definition": {
-        "en": "Reference to a Document with additional information about the complex.",
-        "nl": "Verwijzing naar een Document met extra informatie over het Activiteitencomplex."
-      },
-      "label": {
-        "en": "documentation",
-        "nl": "documentatie"
       }
     },
     {
@@ -1966,6 +1910,22 @@
       }
     },
     {
+      "name": "Number",
+      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "definition": {
+        "en": "Indication of a quantity.",
+        "nl": "Enter your translation here"
+      },
+      "label": {
+        "en": "Number",
+        "nl": "Getal"
+      },
+      "usage": {
+        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "nl": "[UPDATED] OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
+      }
+    },
+    {
       "name": "Address",
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
@@ -2038,18 +1998,6 @@
       }
     },
     {
-      "name": "GenericLink",
-      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
-      "definition": {
-        "en": "Linear Network Element.",
-        "nl": "Lineair Netwerkelement."
-      },
-      "label": {
-        "en": "Generic Link",
-        "nl": "GeneriekeLink"
-      }
-    },
-    {
       "name": "DirectedLink",
       "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "definition": {
@@ -2062,15 +2010,15 @@
       }
     },
     {
-      "name": "Node",
-      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
+      "name": "GenericLink",
+      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
       "definition": {
-        "en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
-        "nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link."
+        "en": "Linear Network Element.",
+        "nl": "Lineair Netwerkelement."
       },
       "label": {
-        "en": "Node",
-        "nl": "Knoop"
+        "en": "Generic Link",
+        "nl": "GeneriekeLink"
       }
     },
     {
@@ -2130,47 +2078,35 @@
       }
     },
     {
-      "name": "Number",
-      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "name": "Node",
+      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
       "definition": {
-        "en": "Indication of a quantity.",
+        "en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
+        "nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link."
+      },
+      "label": {
+        "en": "Node",
+        "nl": "Knoop"
+      }
+    },
+    {
+      "name": "CableAndPipeContainer",
+      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
+      "definition": {
+        "en": "Object that could potentially contain cables or pipes/ducts.",
         "nl": "Enter your translation here"
       },
       "label": {
-        "en": "Number",
-        "nl": "Getal"
+        "en": "Cable and Pipe Container",
+        "nl": "Enter your translation here"
       },
       "usage": {
-        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
-        "nl": "[UPDATED] OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
+        "nl": "Enter your translation here"
       }
     }
   ],
   "externalproperties": [
-    {
-      "name": "height",
-      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
-      "definition": {
-        "en": "The height of the Appurtenance.",
-        "nl": "De hoogte van het Toebehoren."
-      },
-      "label": {
-        "en": "height",
-        "nl": "hoogte"
-      }
-    },
-    {
-      "name": "height",
-      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
-      "definition": {
-        "en": "Distance above the Reference Surface.",
-        "nl": "Afstand onder het Referentieoppervlak."
-      },
-      "label": {
-        "en": "height",
-        "nl": "hoogte"
-      }
-    },
     {
       "name": "on",
       "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
@@ -2184,27 +2120,31 @@
       }
     },
     {
-      "name": "direction",
-      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
+      "name": "innetwork",
+      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
       "definition": {
-        "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link.",
-        "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
+        "en": "Reference to a Network object to which a NetworkElement belongs.",
+        "nl": "Enter your translation here"
       },
       "label": {
-        "en": "direction",
-        "nl": "richting"
+        "en": "inNetwork",
+        "nl": "Enter your translation here"
       }
     },
     {
-      "name": "endLink",
-      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
+      "name": "function",
+      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
       "definition": {
-        "en": "Link of which this Node is the end Node.",
-        "nl": "Link waarvan de Knoop de eindKnoop is."
+        "en": "Activities carried out by the complex.",
+        "nl": "Enter your translation here"
       },
       "label": {
-        "en": "end link",
-        "nl": "eindlink"
+        "en": "function",
+        "nl": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Possibly supplemented with information about inputs and outputs of the activities.",
+        "nl": "Enter your translation here"
       }
     },
     {
@@ -2220,15 +2160,27 @@
       }
     },
     {
-      "name": "beginLink",
-      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
+      "name": "endLink",
+      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
       "definition": {
-        "en": "Link of which this Node is the start Node.",
-        "nl": "Link waarvan de Knoop de beginKnoop is."
+        "en": "Link of which this Node is the end Node.",
+        "nl": "Link waarvan de Knoop de eindKnoop is."
       },
       "label": {
-        "en": "begin link",
-        "nl": "beginlink"
+        "en": "end link",
+        "nl": "eindlink"
+      }
+    },
+    {
+      "name": "direction",
+      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
+      "definition": {
+        "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link.",
+        "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
+      },
+      "label": {
+        "en": "direction",
+        "nl": "richting"
       }
     },
     {
@@ -2241,6 +2193,42 @@
       "label": {
         "en": "start node",
         "nl": "startknoop"
+      }
+    },
+    {
+      "name": "beginLink",
+      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
+      "definition": {
+        "en": "Link of which this Node is the start Node.",
+        "nl": "Link waarvan de Knoop de beginKnoop is."
+      },
+      "label": {
+        "en": "begin link",
+        "nl": "beginlink"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
+      "definition": {
+        "en": "Geometry of the Node.",
+        "nl": "Geometrie van de Knoop."
+      },
+      "label": {
+        "en": "geometry",
+        "nl": "geometrie"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
+      "definition": {
+        "en": "Geometry of the container.",
+        "nl": "Geometrie van de container"
+      },
+      "label": {
+        "en": "geometry",
+        "nl": "geometrie"
       }
     },
     {
@@ -2277,30 +2265,6 @@
       "label": {
         "en": "centreline geometry",
         "nl": "middelijngeometrie"
-      }
-    },
-    {
-      "name": "geometry",
-      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
-      "definition": {
-        "en": "Geometry of the Node.",
-        "nl": "Geometrie van de Knoop."
-      },
-      "label": {
-        "en": "geometry",
-        "nl": "geometrie"
-      }
-    },
-    {
-      "name": "geometry",
-      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
-      "definition": {
-        "en": "Geometry of the container.",
-        "nl": "Geometrie van de container"
-      },
-      "label": {
-        "en": "geometry",
-        "nl": "geometrie"
       }
     },
     {
@@ -2356,18 +2320,6 @@
       }
     },
     {
-      "name": "country",
-      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
-      "definition": {
-        "en": "Country in which the address is located.",
-        "nl": "Land waarin het adres gelegen is."
-      },
-      "label": {
-        "en": "country",
-        "nl": "land"
-      }
-    },
-    {
       "name": "municipalityName",
       "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
@@ -2377,6 +2329,18 @@
       "label": {
         "en": "municipality name",
         "nl": "gemeentenaam"
+      }
+    },
+    {
+      "name": "country",
+      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
+      "definition": {
+        "en": "Country in which the address is located.",
+        "nl": "Land waarin het adres gelegen is."
+      },
+      "label": {
+        "en": "country",
+        "nl": "land"
       }
     },
     {
@@ -2409,6 +2373,42 @@
       "usage": {
         "en": "Specialization of Address representation: location indication for Belgian addresses.",
         "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
+      }
+    },
+    {
+      "name": "height",
+      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
+      "definition": {
+        "en": "The height of the Appurtenance.",
+        "nl": "De hoogte van het Toebehoren."
+      },
+      "label": {
+        "en": "height",
+        "nl": "hoogte"
+      }
+    },
+    {
+      "name": "height",
+      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
+      "definition": {
+        "en": "Distance above the Reference Surface.",
+        "nl": "Afstand onder het Referentieoppervlak."
+      },
+      "label": {
+        "en": "height",
+        "nl": "hoogte"
+      }
+    },
+    {
+      "name": "documentation",
+      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
+      "definition": {
+        "en": "Reference to a Document with additional information about the complex.",
+        "nl": "Enter your translation here"
+      },
+      "label": {
+        "en": "documentation",
+        "nl": "Enter your translation here"
       }
     },
     {

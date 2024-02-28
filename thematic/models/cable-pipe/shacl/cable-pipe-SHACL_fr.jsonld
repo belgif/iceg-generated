@@ -54,7 +54,7 @@
           "sh:name": {
             "fr": "[UPDATED] adresse"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres"
+          "sh:path": "https:/vocab.belgif.be/utility-services#adres"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -66,10 +66,10 @@
           "sh:name": {
             "fr": "[UPDATED] type d'accessoire"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting.toebehorentype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Aansluiting.toebehorentype"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Aansluiting"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatieShape",
@@ -89,14 +89,14 @@
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Annotatie",
           "sh:description": {
             "fr": "[UPDATED] Annotation faisant partie de l'Annotation."
           },
           "sh:name": {
             "fr": "[UPDATED] partie"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#deel"
+          "sh:path": "https:/vocab.belgif.be/utility-services#deel"
         },
         {
           "sh:class": "http://www.w3.org/ns/prov#Entity",
@@ -108,17 +108,17 @@
           "sh:name": {
             "fr": "[UPDATED] associé à"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geassocieerdMet"
+          "sh:path": "https:/vocab.belgif.be/utility-services#geassocieerdMet"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Annotatie",
           "sh:description": {
             "fr": "[UPDATED] Annotation dont l'Annotation fait partie."
           },
           "sh:name": {
             "fr": "[UPDATED] ensemble"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geheel"
+          "sh:path": "https:/vocab.belgif.be/utility-services#geheel"
         },
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
@@ -141,7 +141,7 @@
           "sh:name": {
             "fr": "[UPDATED] angle de rotation"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rotatiehoek"
+          "sh:path": "https:/vocab.belgif.be/utility-services#rotatiehoek"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -151,10 +151,10 @@
           "sh:name": {
             "fr": "[UPDATED] texte"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#tekst"
+          "sh:path": "https:/vocab.belgif.be/utility-services#tekst"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Annotatie"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedShape",
@@ -218,7 +218,7 @@
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#BeschermdGebied"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#BeschermdGebied"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#DiepteShape",
@@ -234,10 +234,10 @@
           "sh:name": {
             "fr": "[UPDATED] profondeur"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#diepte"
+          "sh:path": "https:/vocab.belgif.be/utility-services#diepte"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Diepte"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Diepte"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#ElectriciteitskabelShape",
@@ -254,7 +254,7 @@
           "sh:name": {
             "fr": "[UPDATED] tension nominale"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning"
+          "sh:path": "https:/vocab.belgif.be/utility-services#nominaleSpanning"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
@@ -266,10 +266,10 @@
           "sh:name": {
             "fr": "[UPDATED] werkspanning"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#werkspanning"
+          "sh:path": "https:/vocab.belgif.be/utility-services#werkspanning"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Electriciteitskabel"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Electriciteitskabel"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#HoogteShape",
@@ -288,7 +288,7 @@
           "sh:path": "https://schema.org/height"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Hoogte"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Hoogte"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelShape",
@@ -304,7 +304,7 @@
           "sh:name": {
             "fr": "[UPDATED] diamètre du câble"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabeldiameter"
+          "sh:path": "https:/vocab.belgif.be/utility-services#kabeldiameter"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -315,17 +315,10 @@
           "sh:name": {
             "fr": "[UPDATED] sous-thème"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel.subthema"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Kabel.subthema"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelEnLeidingContainerShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#KabelEnLeidingContainer"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Kabel"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#KanaalShape",
@@ -344,24 +337,24 @@
           "sh:path": "http://purl.org/dc/terms/type"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Kabel",
           "sh:description": {
             "fr": "[UPDATED] Câble situé dans la Canalisation."
           },
           "sh:name": {
             "fr": "[UPDATED] câble"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Kanaal.kabel"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Kanaal",
           "sh:description": {
             "fr": "[UPDATED] Canal situé dans la Canalisation."
           },
           "sh:name": {
             "fr": "[UPDATED] canalisation"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kanaal"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Kanaal.kanaal"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
@@ -373,41 +366,41 @@
           "sh:name": {
             "fr": "[UPDATED] largeur de la canalisation"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kanaalbreedte"
+          "sh:path": "https:/vocab.belgif.be/utility-services#kanaalbreedte"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Pijp",
           "sh:description": {
             "fr": "[UPDATED] Conduite située dans la Canalisation."
           },
           "sh:name": {
             "fr": "[UPDATED] conduite"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.pijp"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Kanaal.pijp"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Kanaal"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#KastShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kast"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Kast"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#MaataanduidingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Maataanduiding"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Maataanduiding"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#MangatShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Mangat"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopShape",
@@ -422,7 +415,7 @@
           "sh:name": {
             "fr": "[UPDATED] tronçon de départ"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#beginlink"
+          "sh:path": "https://vocab.belgif.be/ns/network#beginLink"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
@@ -432,7 +425,7 @@
           "sh:name": {
             "fr": "[UPDATED] tronçon final"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#eindlink"
+          "sh:path": "https://vocab.belgif.be/ns/network#endLink"
         },
         {
           "sh:class": "http://www.opengis.net/ont/sf#Point",
@@ -444,10 +437,10 @@
           "sh:name": {
             "fr": "[UPDATED] géométrie"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie"
+          "sh:path": "https://vocab.belgif.be/ns/network#Node.geometry"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
             "fr": "Enter your translation here"
           },
@@ -455,7 +448,7 @@
           "sh:name": {
             "fr": "Enter your translation here"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
@@ -466,7 +459,7 @@
           "sh:name": {
             "fr": "[UPDATED] orientation"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.orientatie"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.orientatie"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -477,10 +470,10 @@
           "sh:name": {
             "fr": "[UPDATED] risque"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.risico"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.risico"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Uiterlijk",
           "sh:description": {
             "fr": "[UPDATED] Apparence du Noeud."
           },
@@ -488,7 +481,7 @@
           "sh:name": {
             "fr": "[UPDATED] apparence"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.uiterlijk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.uiterlijk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -499,10 +492,10 @@
           "sh:name": {
             "fr": "[UPDATED] visibilité"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.zichtbaarheid"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.zichtbaarheid"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopcontainerShape",
@@ -519,17 +512,17 @@
           "sh:name": {
             "fr": "[UPDATED] géométrie"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie"
+          "sh:path": "https://vocab.belgif.be/ns/network#Node.geometry"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop",
           "sh:description": {
             "fr": "[UPDATED] Noeud de Service comprenant un Conteneur de Noeud de Service."
           },
           "sh:name": {
             "fr": "[UPDATED] noeud"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#knoop"
+          "sh:path": "https:/vocab.belgif.be/utility-services#knoop"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
@@ -540,7 +533,7 @@
           "sh:name": {
             "fr": "[UPDATED] orientation"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.orientatie"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.orientatie"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -551,10 +544,10 @@
           "sh:name": {
             "fr": "[UPDATED] risque"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.risico"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.risico"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Uiterlijk",
           "sh:description": {
             "fr": "[UPDATED] Apparence du conteneur."
           },
@@ -562,7 +555,7 @@
           "sh:name": {
             "fr": "[UPDATED] apparence"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.uiterlijk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.uiterlijk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -573,10 +566,10 @@
           "sh:name": {
             "fr": "[UPDATED] visibilité"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.zichtbaarheid"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.zichtbaarheid"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinkShape",
@@ -592,7 +585,7 @@
           "sh:name": {
             "fr": "[UPDATED] nœud final"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#eindknoop"
+          "sh:path": "https://vocab.belgif.be/ns/network#endNode"
         },
         {
           "sh:class": "http://www.opengis.net/ont/geosparql#Curve",
@@ -604,7 +597,7 @@
           "sh:name": {
             "fr": "[UPDATED] géométrie de l'axe"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn"
+          "sh:path": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
@@ -615,10 +608,10 @@
           "sh:name": {
             "fr": "[UPDATED] nœud de départ"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#beginknoop"
+          "sh:path": "https://vocab.belgif.be/ns/network#beginNode"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
             "fr": "Enter your translation here"
           },
@@ -626,10 +619,10 @@
           "sh:name": {
             "fr": "Enter your translation here"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglink"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglink"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksequentieShape",
@@ -637,7 +630,7 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
+          "sh:class": "https://vocab.belgif.be/ns/network#DirectedLink",
           "sh:description": {
             "fr": "[UPDATED] Tronçon Orienté faisant partie de la Séquence de Tronçons."
           },
@@ -645,10 +638,10 @@
           "sh:name": {
             "fr": "[UPDATED] tronçon"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link"
+          "sh:path": "https://vocab.belgif.be/ns/network#LinkSequence.link"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
             "fr": "Enter your translation here"
           },
@@ -656,10 +649,10 @@
           "sh:name": {
             "fr": "Enter your translation here"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinksequentie"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinksequentie"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksetShape",
@@ -675,10 +668,10 @@
           "sh:name": {
             "fr": "[UPDATED] tronçon"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#Linkset.link"
+          "sh:path": "https://vocab.belgif.be/ns/network#LinkSet.link"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
             "fr": "Enter your translation here"
           },
@@ -686,7 +679,7 @@
           "sh:name": {
             "fr": "Enter your translation here"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -697,7 +690,7 @@
           "sh:name": {
             "fr": "[UPDATED] type de matériel"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#materiaaltype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#materiaaltype"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -708,7 +701,7 @@
           "sh:name": {
             "fr": "[UPDATED] type de fourniture de service"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nutsvoorzieningleveringstype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#nutsvoorzieningleveringstype"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -718,7 +711,7 @@
           "sh:name": {
             "fr": "[UPDATED] risque"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.risico"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.risico"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -728,10 +721,10 @@
           "sh:name": {
             "fr": "[UPDATED] spécification technique"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#technischeSpecificate"
+          "sh:path": "https:/vocab.belgif.be/utility-services#technischeSpecificate"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Uiterlijk",
           "sh:description": {
             "fr": "[UPDATED] Apparence de l'Ensemble de Tronçons."
           },
@@ -739,7 +732,7 @@
           "sh:name": {
             "fr": "[UPDATED] apparence"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.uiterlijk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.uiterlijk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -751,7 +744,7 @@
           "sh:name": {
             "fr": "[UPDATED] type d'avertissement"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#waarschuwingstype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#waarschuwingstype"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -762,10 +755,10 @@
           "sh:name": {
             "fr": "[UPDATED] visibilité"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.zichtbaarheid"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.zichtbaarheid"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkShape",
@@ -780,17 +773,17 @@
           "sh:name": {
             "fr": "[UPDATED] nom géographique"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^geografischeNaam"
+          "sh:path": "https:/vocab.belgif.be/utility-services#^geografischeNaam"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
           "sh:description": {
             "fr": "[UPDATED] Référence à un Complexe d'Activités lié à (une partie de) ce réseau de service."
           },
           "sh:name": {
             "fr": "[UPDATED] référence à un complexe d'activités"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie"
+          "sh:path": "https:/vocab.belgif.be/utility-services#activiteitencomplexreferentie"
         },
         {
           "sh:class": "http://purl.org/dc/terms/Agent",
@@ -801,7 +794,7 @@
           "sh:name": {
             "fr": "[UPDATED] partie compétente"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#bevoegdePartij"
+          "sh:path": "https:/vocab.belgif.be/utility-services#bevoegdePartij"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -811,7 +804,7 @@
           "sh:name": {
             "fr": "[UPDATED] disclaimer"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#disclaimer"
+          "sh:path": "https:/vocab.belgif.be/utility-services#disclaimer"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
@@ -824,24 +817,24 @@
           "sh:path": "http://purl.org/dc/elements/1.1/relation"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
           "sh:description": {
             "fr": "[UPDATED] Élément du Réseau de Service appartenant au réseau."
           },
           "sh:name": {
             "fr": "[UPDATED] élément"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#element"
+          "sh:path": "https:/vocab.belgif.be/utility-services#element"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
             "fr": "[UPDATED] Réseau de Service associé au Réseau de Service."
           },
           "sh:name": {
             "fr": "[UPDATED] réseau"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#netwerk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#netwerk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -856,17 +849,17 @@
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+          "sh:class": "https:/vocab.belgif.be/utility-services#VerticalePositie",
           "sh:description": {
             "fr": "[UPDATED] Position Verticale standard des éléments du réseau."
           },
           "sh:name": {
             "fr": "[UPDATED] détail de la position verticale standard"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#standaardVerticalePositiedetail"
+          "sh:path": "https:/vocab.belgif.be/utility-services#standaardVerticalePositiedetail"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkelementShape",
@@ -882,7 +875,7 @@
           "sh:name": {
             "fr": "[UPDATED] identifiant"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^identificator"
+          "sh:path": "https:/vocab.belgif.be/utility-services#^identificator"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
@@ -903,7 +896,7 @@
           "sh:name": {
             "fr": "[UPDATED] valable jusque"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigTot"
+          "sh:path": "https:/vocab.belgif.be/utility-services#geldigTot"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -914,7 +907,7 @@
           "sh:name": {
             "fr": "[UPDATED] valable dès"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigVan"
+          "sh:path": "https:/vocab.belgif.be/utility-services#geldigVan"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -926,10 +919,10 @@
           "sh:name": {
             "fr": "[UPDATED] statut actuel"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus"
+          "sh:path": "https:/vocab.belgif.be/utility-services#huidigeStatus"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
             "fr": "Enter your translation here"
           },
@@ -937,7 +930,7 @@
           "sh:name": {
             "fr": "Enter your translation here"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.inNetwerk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -949,17 +942,17 @@
           "sh:name": {
             "fr": "[UPDATED] position verticale"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.verticalePositie"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.verticalePositie"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
+          "sh:class": "https:/vocab.belgif.be/utility-services#VerticalePositie",
           "sh:name": {
             "fr": "[UPDATED] détail de la position verticale"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail"
+          "sh:path": "https:/vocab.belgif.be/utility-services#verticalePositiedetail"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalienPijpShape",
@@ -976,10 +969,10 @@
           "sh:name": {
             "fr": "[UPDATED] type d'hydrocarbure, de gaz ou de produit chimique"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#olieGasChemicalienProducttype"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#OlieGasChemicalienPijp"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#OlieGasChemicalienPijp"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#PaalShape",
@@ -996,10 +989,10 @@
           "sh:name": {
             "fr": "[UPDATED] hauteur du poteau"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#paalhoogte"
+          "sh:path": "https:/vocab.belgif.be/utility-services#paalhoogte"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Paal"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Paal"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#PijpShape",
@@ -1026,27 +1019,27 @@
           "sh:name": {
             "fr": "[UPDATED] tension"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#druk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#druk"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Kabel",
           "sh:description": {
             "fr": "[UPDATED] Câble se trouvant dans la Conduite."
           },
           "sh:name": {
             "fr": "[UPDATED] câble"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.kabel"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Pijp.kabel"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Pijp",
           "sh:description": {
             "fr": "[UPDATED] Autre Conduite se trouvant dans la Conduite."
           },
           "sh:name": {
             "fr": "[UPDATED] conduite"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.pijp"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Pijp.pijp"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
@@ -1058,7 +1051,7 @@
           "sh:name": {
             "fr": "[UPDATED] diamètre de la conduite"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijpdiameter"
+          "sh:path": "https:/vocab.belgif.be/utility-services#pijpdiameter"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1069,10 +1062,10 @@
           "sh:name": {
             "fr": "[UPDATED] sous-thème"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.subthema"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Pijp.subthema"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Pijp"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#PlanShape",
@@ -1092,7 +1085,7 @@
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Plan"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Plan"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlakShape",
@@ -1123,7 +1116,7 @@
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+          "sh:class": "https://vocab.belgif.be/ns/generic#DirectPosition",
           "sh:description": {
             "fr": "[UPDATED] Position verticale de la Surface de Référence comme position dans un système de coordonnées verticales."
           },
@@ -1131,10 +1124,10 @@
           "sh:name": {
             "fr": "[UPDATED] position verticale"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak.verticalePositie"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Referentieoppervlak.verticalePositie"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Referentieoppervlak"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#RioolpijpShape",
@@ -1151,10 +1144,10 @@
           "sh:name": {
             "fr": "[UPDATED] type d'eaux usées"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rioolwatertype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#rioolwatertype"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Rioolpijp"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Rioolpijp"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelShape",
@@ -1171,10 +1164,10 @@
           "sh:name": {
             "fr": "[UPDATED] type de Matériau du Cable de Télécommunication"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#telecommunicatiekabelmateriaaltype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#telecommunicatiekabelmateriaaltype"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Telecommunicatiekabel"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Telecommunicatiekabel"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#ThermischePijpShape",
@@ -1190,7 +1183,7 @@
           "sh:name": {
             "fr": "[UPDATED] température"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#temperatuur"
+          "sh:path": "https:/vocab.belgif.be/utility-services#temperatuur"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -1202,10 +1195,10 @@
           "sh:name": {
             "fr": "[UPDATED] type de Produit Thermique"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#thermischProducttype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#thermischProducttype"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#ThermischePijp"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#ThermischePijp"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#ToebehorenShape",
@@ -1235,7 +1228,7 @@
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toebehoren"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Toebehoren"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#TopografischElementShape",
@@ -1267,7 +1260,7 @@
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#TopografischElement"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#TopografischElement"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#TorenShape",
@@ -1284,10 +1277,10 @@
           "sh:name": {
             "fr": "[UPDATED] hauteur de la tour"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#torenhoogte"
+          "sh:path": "https:/vocab.belgif.be/utility-services#torenhoogte"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toren"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Toren"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#UiterlijkShape",
@@ -1304,10 +1297,10 @@
           "sh:name": {
             "fr": "[UPDATED] couleur"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kleur"
+          "sh:path": "https:/vocab.belgif.be/utility-services#kleur"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Uiterlijk"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#VerticalePositieShape",
@@ -1323,7 +1316,7 @@
           "sh:name": {
             "fr": "[UPDATED] distance"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#afstand"
+          "sh:path": "https:/vocab.belgif.be/utility-services#afstand"
         },
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
@@ -1337,7 +1330,7 @@
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Referentieoppervlak",
           "sh:description": {
             "fr": "[UPDATED] Référence à la Surface de Référence."
           },
@@ -1346,10 +1339,10 @@
           "sh:name": {
             "fr": "[UPDATED] surface de référence"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak"
+          "sh:path": "https:/vocab.belgif.be/utility-services#referentieOppervlak"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
+          "sh:class": "https://vocab.belgif.be/ns/generic#DirectPosition",
           "sh:description": {
             "fr": "[UPDATED] Position verticale comme position dans un système de coordonnées verticales."
           },
@@ -1357,10 +1350,10 @@
           "sh:name": {
             "fr": "[UPDATED] position verticale"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie.verticalePositie"
+          "sh:path": "https:/vocab.belgif.be/utility-services#VerticalePositie.verticalePositie"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#VerticalePositie"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#WaterleidingShape",
@@ -1377,10 +1370,10 @@
           "sh:name": {
             "fr": "[UPDATED] type d'eau"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#watertype"
+          "sh:path": "https:/vocab.belgif.be/utility-services#watertype"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Waterleiding"
+      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Waterleiding"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteShape",
@@ -1777,7 +1770,7 @@
           "sh:name": {
             "fr": "[UPDATED] numéro de boîte"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/adres#busnummer"
+          "sh:path": "https://vocab.belgif.be/ns/address#boxNumber"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1788,7 +1781,7 @@
           "sh:name": {
             "fr": "[UPDATED] nom de la commune"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
+          "sh:path": "https://vocab.belgif.be/ns/address#municipalityName"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -1799,7 +1792,7 @@
           "sh:name": {
             "fr": "[UPDATED] numéro de la maison"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
+          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1810,7 +1803,7 @@
           "sh:name": {
             "fr": "[UPDATED] pays"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/adres#land"
+          "sh:path": "https://vocab.belgif.be/ns/address#country"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -1877,7 +1870,7 @@
           "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/adres#Adres",
+          "sh:class": "https://vocab.belgif.be/ns/address#Adress",
           "sh:description": {
             "fr": "[UPDATED] Adresse à partir de laquelle la représentation de l'adresse est dérivée."
           },
@@ -1885,7 +1878,7 @@
           "sh:name": {
             "fr": "[UPDATED] référence à"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/adres#verwijstNaar"
+          "sh:path": "https://vocab.belgif.be/ns/address#refersTo"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1927,7 +1920,7 @@
           "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+          "sh:class": "https://vocab.belgif.be/ns/generic#Survey",
           "sh:description": {
             "fr": "[UPDATED] La manière dont la géométrie a été déterminée."
           },
@@ -1935,7 +1928,7 @@
           "sh:name": {
             "fr": "[UPDATED] mesure"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting"
+          "sh:path": "https://vocab.belgif.be/ns/generic#Geometry.survey"
         }
       ],
       "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
@@ -2031,11 +2024,18 @@
       "sh:targetClass": "http://xmlns.com/foaf/0.1/Document"
     },
     {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GetalShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://schema.org/Number"
+    },
+    {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#AdresShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/adres#Adres"
+      "sh:targetClass": "https://vocab.belgif.be/ns/address#Adress"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#ActiviteitencomplexShape",
@@ -2045,23 +2045,23 @@
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
-            "fr": "[UPDATED] Référence à un Document contenant des informations supplémentaires sur le Complexe d’Activités."
+            "fr": "Enter your translation here"
           },
           "sh:name": {
-            "fr": "[UPDATED] documentation"
+            "fr": "Enter your translation here"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#documentatie"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/generiek#Functie",
+          "sh:class": "https://vocab.belgif.be/ns/generic#Function",
           "sh:description": {
-            "fr": "[UPDATED] Activités exercées par le complexe."
+            "fr": "Enter your translation here"
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "[UPDATED] fonction"
+            "fr": "Enter your translation here"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie"
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#function"
         },
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
@@ -2087,26 +2087,26 @@
           "sh:path": "http://www.w3.org/ns/adms#identifier"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "[UPDATED] dans le réseau"
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "[UPDATED] dans le réseau"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#inNetwerk"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Activiteitencomplex.inNetwerk"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
           "sh:description": {
-            "fr": "[UPDATED] dans le réseau"
+            "fr": "Enter your translation here"
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "[UPDATED] dans le réseau"
+            "fr": "Enter your translation here"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk"
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2120,17 +2120,17 @@
           "sh:path": "http://purl.org/dc/terms/title"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
+          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
           "sh:description": {
             "fr": "[UPDATED] Élément du Réseau de Service appartenant au complexe."
           },
           "sh:name": {
             "fr": "[UPDATED] sur"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#op"
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#on"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex"
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#ActivityComplex"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#DirectePositieShape",
@@ -2148,7 +2148,7 @@
           "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/generiek#Opmeting",
+          "sh:class": "https://vocab.belgif.be/ns/generic#Survey",
           "sh:description": {
             "fr": "[UPDATED] La manière dont la position a été déterminée."
           },
@@ -2156,7 +2156,7 @@
           "sh:name": {
             "fr": "[UPDATED] mesure"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting"
+          "sh:path": "https://vocab.belgif.be/ns/generic#DirectPosition.survey"
         },
         {
           "sh:description": {
@@ -2169,7 +2169,7 @@
           "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#DirectePositie"
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#DirectPosition"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#FunctieShape",
@@ -2219,7 +2219,7 @@
           "sh:path": "http://fixme.com#output"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#Functie"
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#Function"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#OpmetingShape",
@@ -2247,7 +2247,7 @@
           "sh:name": {
             "fr": "[UPDATED] méthode"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.methode"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Opmeting.methode"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
@@ -2258,7 +2258,7 @@
           "sh:name": {
             "fr": "[UPDATED] précision"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nauwkeurigheid"
+          "sh:path": "https:/vocab.belgif.be/utility-services#nauwkeurigheid"
         },
         {
           "sh:class": "http://purl.org/dc/terms/Agent",
@@ -2269,17 +2269,10 @@
           "sh:name": {
             "fr": "[UPDATED] exécuté par"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor"
+          "sh:path": "https:/vocab.belgif.be/utility-services#Opmeting.uitgevoerdDoor"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#Opmeting"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeneriekeLinkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink"
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#Survey"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#GerichteLinkShape",
@@ -2296,7 +2289,7 @@
           "sh:name": {
             "fr": "[UPDATED] tronçon"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link"
+          "sh:path": "https://vocab.belgif.be/ns/network#DirectedLink.link"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2308,52 +2301,59 @@
           "sh:name": {
             "fr": "[UPDATED] direction"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/netwerk#richting"
+          "sh:path": "https://vocab.belgif.be/ns/network#direction"
         }
       ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#GerichteLink"
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#DirectedLink"
     },
     {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KnoopShape",
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeneriekeLinkShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Knoop"
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#GenericLink"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Link"
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#Link"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinksequentieShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Linksequentie"
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#LinkSequence"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkSetShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Linkset"
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#LinkSet"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#NetwerkShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/netwerk#Netwerk"
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#Network"
     },
     {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GetalShape",
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KnoopShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "https://schema.org/Number"
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#Node"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelEnLeidingContainerShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer"
     }
   ]
 }

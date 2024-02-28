@@ -90,22 +90,6 @@
       }
     },
     {
-      "name": "CableAndPipeContainer",
-      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
-      "definition": {
-        "en": "Object that could potentially contain cables or pipes/ducts.",
-        "fr": "[UPDATED] Objet pouvant potentiellement inclure des câbles ou des conduites."
-      },
-      "label": {
-        "en": "Cable and Pipe Container",
-        "fr": "[UPDATED] Conteneur de Cable et Conduite"
-      },
-      "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
-        "fr": "[UPDATED] Par ex. si l'objet est une Conduite : une Conduite peut inclure des Câbles ou d'autres Conduites. Analogue aux conduites de type Canal. Les Câbles ne sont pas des Conteneurs de Câble et Conduite. REMARQUE : Le fait que le Conteneur de Câble et Conduite contienne éventuellement d'autres éléments est représenté par les relations sortantes vers ces autres relations (par ex.: Canalisation.conduite, Conduite.Câble, Canalisation.Câble, Conduite.Conduite, etc)."
-      }
-    },
-    {
       "name": "Duct",
       "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
@@ -816,18 +800,6 @@
       }
     },
     {
-      "name": "innetwork",
-      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
-      "definition": {
-        "en": "Reference to a Network object to which a NetworkElement belongs.",
-        "fr": "Enter your translation here"
-      },
-      "label": {
-        "en": "inNetwork",
-        "fr": "Enter your translation here"
-      }
-    },
-    {
       "name": "inNetwork",
       "EA-Guid": "{B7EE7353-0C10-44a0-9E23-C788317104BB}",
       "definition": {
@@ -944,22 +916,6 @@
       }
     },
     {
-      "name": "function",
-      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
-      "definition": {
-        "en": "Activities carried out by the complex.",
-        "fr": "[UPDATED] Activités exercées par le complexe."
-      },
-      "label": {
-        "en": "function",
-        "fr": "[UPDATED] fonction"
-      },
-      "usage": {
-        "en": "Possibly supplemented with information about inputs and outputs of the activities.",
-        "fr": "[UPDATED] Complété éventuellement par des informations sur les inputs et les outputs des activités."
-      }
-    },
-    {
       "name": "element",
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
@@ -985,18 +941,6 @@
       "usage": {
         "en": "The unit of measurement for pressure is usually expressed in 'bar'.",
         "fr": "[UPDATED] L'unité de mesure de la pression est généralement exprimée en « bar »."
-      }
-    },
-    {
-      "name": "documentation",
-      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
-      "definition": {
-        "en": "Reference to a Document with additional information about the complex.",
-        "fr": "[UPDATED] Référence à un Document contenant des informations supplémentaires sur le Complexe d’Activités."
-      },
-      "label": {
-        "en": "documentation",
-        "fr": "[UPDATED] documentation"
       }
     },
     {
@@ -1966,6 +1910,22 @@
       }
     },
     {
+      "name": "Number",
+      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "definition": {
+        "en": "Indication of a quantity.",
+        "fr": "[UPDATED] Indication d'une quantité."
+      },
+      "label": {
+        "en": "Number",
+        "fr": "[UPDATED] Nombre"
+      },
+      "usage": {
+        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "fr": "[UPDATED] REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
+      }
+    },
+    {
       "name": "Address",
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
@@ -2038,18 +1998,6 @@
       }
     },
     {
-      "name": "GenericLink",
-      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
-      "definition": {
-        "en": "Linear Network Element.",
-        "fr": "[UPDATED] Élément de réseau linéaire."
-      },
-      "label": {
-        "en": "Generic Link",
-        "fr": "[UPDATED] Tronçon Générique"
-      }
-    },
-    {
       "name": "DirectedLink",
       "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "definition": {
@@ -2062,15 +2010,15 @@
       }
     },
     {
-      "name": "Node",
-      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
+      "name": "GenericLink",
+      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
       "definition": {
-        "en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
-        "fr": "[UPDATED] Position significative dans le Réseau qui coïncide toujours avec le début ou la fin d'un Tronçon."
+        "en": "Linear Network Element.",
+        "fr": "[UPDATED] Élément de réseau linéaire."
       },
       "label": {
-        "en": "Node",
-        "fr": "[UPDATED] Noeud"
+        "en": "Generic Link",
+        "fr": "[UPDATED] Tronçon Générique"
       }
     },
     {
@@ -2130,47 +2078,35 @@
       }
     },
     {
-      "name": "Number",
-      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "name": "Node",
+      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
       "definition": {
-        "en": "Indication of a quantity.",
-        "fr": "[UPDATED] Indication d'une quantité."
+        "en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
+        "fr": "[UPDATED] Position significative dans le Réseau qui coïncide toujours avec le début ou la fin d'un Tronçon."
       },
       "label": {
-        "en": "Number",
-        "fr": "[UPDATED] Nombre"
+        "en": "Node",
+        "fr": "[UPDATED] Noeud"
+      }
+    },
+    {
+      "name": "CableAndPipeContainer",
+      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
+      "definition": {
+        "en": "Object that could potentially contain cables or pipes/ducts.",
+        "fr": "Enter your translation here"
+      },
+      "label": {
+        "en": "Cable and Pipe Container",
+        "fr": "Enter your translation here"
       },
       "usage": {
-        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
-        "fr": "[UPDATED] REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
+        "fr": "Enter your translation here"
       }
     }
   ],
   "externalproperties": [
-    {
-      "name": "height",
-      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
-      "definition": {
-        "en": "The height of the Appurtenance.",
-        "fr": "[UPDATED] Hauteur de l’Accessoire."
-      },
-      "label": {
-        "en": "height",
-        "fr": "[UPDATED] hauteur"
-      }
-    },
-    {
-      "name": "height",
-      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
-      "definition": {
-        "en": "Distance above the Reference Surface.",
-        "fr": "[UPDATED] Distance au-dessus de la Surface de Référence."
-      },
-      "label": {
-        "en": "height",
-        "fr": "[UPDATED] hauteur"
-      }
-    },
     {
       "name": "on",
       "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
@@ -2184,27 +2120,31 @@
       }
     },
     {
-      "name": "direction",
-      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
+      "name": "innetwork",
+      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
       "definition": {
-        "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link.",
-        "fr": "[UPDATED] Indique si le Tronçon Orienté suit ou non le sens original du Tronçon (positif si parallèle, négatif si opposé)."
+        "en": "Reference to a Network object to which a NetworkElement belongs.",
+        "fr": "Enter your translation here"
       },
       "label": {
-        "en": "direction",
-        "fr": "[UPDATED] direction"
+        "en": "inNetwork",
+        "fr": "Enter your translation here"
       }
     },
     {
-      "name": "endLink",
-      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
+      "name": "function",
+      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
       "definition": {
-        "en": "Link of which this Node is the end Node.",
-        "fr": "[UPDATED] Tronçon dont le Nœud est le Nœud Final."
+        "en": "Activities carried out by the complex.",
+        "fr": "Enter your translation here"
       },
       "label": {
-        "en": "end link",
-        "fr": "[UPDATED] tronçon final"
+        "en": "function",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Possibly supplemented with information about inputs and outputs of the activities.",
+        "fr": "Enter your translation here"
       }
     },
     {
@@ -2220,15 +2160,27 @@
       }
     },
     {
-      "name": "beginLink",
-      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
+      "name": "endLink",
+      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
       "definition": {
-        "en": "Link of which this Node is the start Node.",
-        "fr": "[UPDATED] Tronçon dont le Nœud est le Nœud de Départ."
+        "en": "Link of which this Node is the end Node.",
+        "fr": "[UPDATED] Tronçon dont le Nœud est le Nœud Final."
       },
       "label": {
-        "en": "begin link",
-        "fr": "[UPDATED] tronçon de départ"
+        "en": "end link",
+        "fr": "[UPDATED] tronçon final"
+      }
+    },
+    {
+      "name": "direction",
+      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
+      "definition": {
+        "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link.",
+        "fr": "[UPDATED] Indique si le Tronçon Orienté suit ou non le sens original du Tronçon (positif si parallèle, négatif si opposé)."
+      },
+      "label": {
+        "en": "direction",
+        "fr": "[UPDATED] direction"
       }
     },
     {
@@ -2241,6 +2193,42 @@
       "label": {
         "en": "start node",
         "fr": "[UPDATED] nœud de départ"
+      }
+    },
+    {
+      "name": "beginLink",
+      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
+      "definition": {
+        "en": "Link of which this Node is the start Node.",
+        "fr": "[UPDATED] Tronçon dont le Nœud est le Nœud de Départ."
+      },
+      "label": {
+        "en": "begin link",
+        "fr": "[UPDATED] tronçon de départ"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
+      "definition": {
+        "en": "Geometry of the Node.",
+        "fr": "[UPDATED] Géométrie du Nœud."
+      },
+      "label": {
+        "en": "geometry",
+        "fr": "[UPDATED] géométrie"
+      }
+    },
+    {
+      "name": "geometry",
+      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
+      "definition": {
+        "en": "Geometry of the container.",
+        "fr": "[UPDATED] Géométrie du conteneur"
+      },
+      "label": {
+        "en": "geometry",
+        "fr": "[UPDATED] géométrie"
       }
     },
     {
@@ -2277,30 +2265,6 @@
       "label": {
         "en": "centreline geometry",
         "fr": "[UPDATED] géométrie de l'axe"
-      }
-    },
-    {
-      "name": "geometry",
-      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
-      "definition": {
-        "en": "Geometry of the Node.",
-        "fr": "[UPDATED] Géométrie du Nœud."
-      },
-      "label": {
-        "en": "geometry",
-        "fr": "[UPDATED] géométrie"
-      }
-    },
-    {
-      "name": "geometry",
-      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
-      "definition": {
-        "en": "Geometry of the container.",
-        "fr": "[UPDATED] Géométrie du conteneur"
-      },
-      "label": {
-        "en": "geometry",
-        "fr": "[UPDATED] géométrie"
       }
     },
     {
@@ -2356,18 +2320,6 @@
       }
     },
     {
-      "name": "country",
-      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
-      "definition": {
-        "en": "Country in which the address is located.",
-        "fr": "[UPDATED] Pays dans lequel l'adresse se situe."
-      },
-      "label": {
-        "en": "country",
-        "fr": "[UPDATED] pays"
-      }
-    },
-    {
       "name": "municipalityName",
       "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
@@ -2377,6 +2329,18 @@
       "label": {
         "en": "municipality name",
         "fr": "[UPDATED] nom de la commune"
+      }
+    },
+    {
+      "name": "country",
+      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
+      "definition": {
+        "en": "Country in which the address is located.",
+        "fr": "[UPDATED] Pays dans lequel l'adresse se situe."
+      },
+      "label": {
+        "en": "country",
+        "fr": "[UPDATED] pays"
       }
     },
     {
@@ -2409,6 +2373,42 @@
       "usage": {
         "en": "Specialization of Address representation: location indication for Belgian addresses.",
         "fr": "[UPDATED] Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
+      }
+    },
+    {
+      "name": "height",
+      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
+      "definition": {
+        "en": "The height of the Appurtenance.",
+        "fr": "[UPDATED] Hauteur de l’Accessoire."
+      },
+      "label": {
+        "en": "height",
+        "fr": "[UPDATED] hauteur"
+      }
+    },
+    {
+      "name": "height",
+      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
+      "definition": {
+        "en": "Distance above the Reference Surface.",
+        "fr": "[UPDATED] Distance au-dessus de la Surface de Référence."
+      },
+      "label": {
+        "en": "height",
+        "fr": "[UPDATED] hauteur"
+      }
+    },
+    {
+      "name": "documentation",
+      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
+      "definition": {
+        "en": "Reference to a Document with additional information about the complex.",
+        "fr": "Enter your translation here"
+      },
+      "label": {
+        "en": "documentation",
+        "fr": "Enter your translation here"
       }
     },
     {
