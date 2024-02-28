@@ -7848,7 +7848,7 @@
                     "EA-Package": "IMKL-LD",
                     "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
                 },
-                "sourceRole": "inNetwerk",
+                "sourceRole": "null",
                 "destRole": "element",
                 "label": {
                     "en": "element"
@@ -10186,7 +10186,7 @@
             },
             "extra": {
                 "EA-Name": "inNetwerk",
-                "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
+                "EA-Guid": "{B38569F4-BAEA-4d50-9679-56BF46F27AD9}",
                 "derived": "false",
                 "EA-Package": "",
                 "EA-Type": "connector",
@@ -10199,7 +10199,7 @@
                     "EA-Package": "IMKL-LD",
                     "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk"
                 },
-                "sourceRole": "element",
+                "sourceRole": "null",
                 "destRole": "inNetwerk",
                 "label": {
                     "en": "in network"
@@ -10218,9 +10218,9 @@
                 "ap-codelist": "",
                 "RawTags": [
                     {
-                        "key": "name",
+                        "key": "definition-en",
                         "value": "NOTE",
-                        "note": "Nutsvoorzieningnetwerkelement.inNetwerk"
+                        "note": "Utility Network to which the element belongs."
                     },
                     {
                         "key": "label-nl",
@@ -10228,14 +10228,19 @@
                         "note": "inNetwerk"
                     },
                     {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "in network"
-                    },
-                    {
                         "key": "definition-nl",
                         "value": "NOTE",
                         "note": "Nutsvoorzieningnetwerk waartoe het element behoort."
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "NOTE",
+                        "note": "Nutsvoorzieningnetwerk waartoe het element behoort."
+                    },
+                    {
+                        "key": "name",
+                        "value": "NOTE",
+                        "note": "Nutsvoorzieningnetwerkelement.inNetwerk"
                     },
                     {
                         "key": "ap-label-nl",
@@ -10243,21 +10248,16 @@
                         "note": "inNetwerk"
                     },
                     {
-                        "key": "definition-en",
+                        "key": "label-en",
                         "value": "NOTE",
-                        "note": "Utility Network to which the element belongs."
-                    },
-                    {
-                        "key": "ap-definition-nl",
-                        "value": "NOTE",
-                        "note": "Nutsvoorzieningnetwerk waartoe het element behoort."
+                        "note": "in network"
                     }
                 ],
                 "DestRoleTags": [
                     {
-                        "key": "name",
+                        "key": "definition-en",
                         "value": "NOTE",
-                        "note": "Nutsvoorzieningnetwerkelement.inNetwerk"
+                        "note": "Utility Network to which the element belongs."
                     },
                     {
                         "key": "label-nl",
@@ -10265,14 +10265,19 @@
                         "note": "inNetwerk"
                     },
                     {
-                        "key": "label-en",
-                        "value": "NOTE",
-                        "note": "in network"
-                    },
-                    {
                         "key": "definition-nl",
                         "value": "NOTE",
                         "note": "Nutsvoorzieningnetwerk waartoe het element behoort."
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "NOTE",
+                        "note": "Nutsvoorzieningnetwerk waartoe het element behoort."
+                    },
+                    {
+                        "key": "name",
+                        "value": "NOTE",
+                        "note": "Nutsvoorzieningnetwerkelement.inNetwerk"
                     },
                     {
                         "key": "ap-label-nl",
@@ -10280,14 +10285,9 @@
                         "note": "inNetwerk"
                     },
                     {
-                        "key": "definition-en",
+                        "key": "label-en",
                         "value": "NOTE",
-                        "note": "Utility Network to which the element belongs."
-                    },
-                    {
-                        "key": "ap-definition-nl",
-                        "value": "NOTE",
-                        "note": "Nutsvoorzieningnetwerk waartoe het element behoort."
+                        "note": "in network"
                     }
                 ],
                 "Scope": "FULL_DEFINITON"
@@ -16843,7 +16843,7 @@
                 "en": "Indication of a quantity."
             },
             "usage": {
-                "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+                "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
             },
             "ap-label-en": {
                 "en": "Number"
@@ -16869,7 +16869,7 @@
                     "en": "Indication of a quantity."
                 },
                 "usage": {
-                    "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+                    "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
                 },
                 "ap-label-en": {
                     "en": "Number"
@@ -16922,7 +16922,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.",
+                        "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc.",
                         "note": "null"
                     },
                     {
@@ -21943,7 +21943,7 @@
                 "en": "Direct Position expressed in wkt format."
             },
             "usage": {
-                "en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
+                "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
             },
             "ap-label-en": {
                 "en": "wkt"
@@ -21974,7 +21974,7 @@
                     "en": "Direct Position expressed in wkt format."
                 },
                 "usage": {
-                    "en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
+                    "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
                 },
                 "ap-label-en": {
                     "en": "wkt"
@@ -22027,7 +22027,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype.",
+                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
                         "note": "null"
                     }
                 ],
@@ -22060,7 +22060,7 @@
                 "en": "Geometry expressed in gml format."
             },
             "usage": {
-                "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
+                "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
             },
             "ap-label-en": {
                 "en": "gml"
@@ -22091,7 +22091,7 @@
                     "en": "Geometry expressed in gml format."
                 },
                 "usage": {
-                    "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
+                    "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
                 },
                 "ap-label-en": {
                     "en": "gml"
@@ -22139,7 +22139,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype.",
+                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
                         "note": "null"
                     },
                     {
@@ -22149,7 +22149,7 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
+                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
                         "note": "null"
                     }
                 ],
@@ -22182,7 +22182,7 @@
                 "en": "Direct Position expressed in gml format."
             },
             "usage": {
-                "en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
+                "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
             },
             "ap-label-en": {
                 "en": "gml"
@@ -22213,7 +22213,7 @@
                     "en": "Direct Position expressed in gml format."
                 },
                 "usage": {
-                    "en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
+                    "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
                 },
                 "ap-label-en": {
                     "en": "gml"
@@ -22266,7 +22266,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
+                        "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
                         "note": "null"
                     }
                 ],
@@ -25337,12 +25337,12 @@
     "config": "config/config-ap.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "019",
+    "dummy": "020",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "f99534e38637edd2ddb4ba60d7b06644f6b9f5c3",
-    "toolchaincommit": "0223c9285856f46fc03358470f8c75b0732fc837",
+    "documentcommit": "d6b19333da657ec77a286eef0f9d18bc33f0aeb6",
+    "toolchaincommit": "742a232ac380356a49bbc10a92cfb134fc65b2bd",
     "hostname": "https://belgif.github.io/"
 }

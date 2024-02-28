@@ -998,9 +998,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3">https://github.com/belgif/ICEGthema-imkl/tree/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/d6b19333da657ec77a286eef0f9d18bc33f0aeb6">https://github.com/belgif/ICEGthema-imkl/tree/d6b19333da657ec77a286eef0f9d18bc33f0aeb6</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/d6b19333da657ec77a286eef0f9d18bc33f0aeb6/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/d6b19333da657ec77a286eef0f9d18bc33f0aeb6/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/Informatievlaanderen/OSLOthema-imkl/issues">https://github.com/Informatievlaanderen/OSLOthema-imkl/issues</a></dd>
                   
@@ -4259,10 +4259,10 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
-                    <a href="#UtilityNetworkelement%3AinNetwork">[UPDATED] in network</a>, 
                     <a href="#UtilityNetworkelement%3AcurrentStatus">current status</a>, 
                     <a href="#UtilityNetworkelement%3Adocumentation">documentation</a>, 
                     <a href="#UtilityNetworkelement%3Aidentifier">identifier</a>, 
+                    <a href="#UtilityNetworkelement%3AinNetwork">in network</a>, 
                     <a href="#UtilityNetworkelement%3AvalidFrom">valid from</a>, 
                     <a href="#UtilityNetworkelement%3AvalidTo">valid to</a>, 
                     <a href="#UtilityNetworkelement%3AverticalPosition">vertical position</a>, 
@@ -4286,26 +4286,6 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   </thead>
 
                   <tbody class="supertype">
-                    
-                    <tr id="UtilityNetworkelement%3AinNetwork" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk" data-placement="right">
-                            [UPDATED] in network</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Utility Network" data-placement="right">Utility Network</a>
-                        
-                        
-                      </td>
-                      <td>1..*</td>
-                      <td property="rdfs:comment">[UPDATED] Utility Network to which the element belongs.</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
                     
                     <tr id="UtilityNetworkelement%3AcurrentStatus" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus">
                       <td>
@@ -4363,6 +4343,26 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Element identifier.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="UtilityNetworkelement%3AinNetwork" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk" data-placement="right">
+                            in network</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Utility Network" data-placement="right">Utility Network</a>
+                        
+                        
+                      </td>
+                      <td>1..*</td>
+                      <td property="rdfs:comment">Utility Network to which the element belongs.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -5455,7 +5455,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Direct Position expressed in gml format.</td>
-                      <td property="skos:scopeNote">[UPDATED] Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.</td>
+                      <td property="skos:scopeNote">Use <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> as datatype.</td>
                       <td></td>
                     </tr>
                     
@@ -5493,7 +5493,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Direct Position expressed in wkt format.</td>
-                      <td property="skos:scopeNote">[UPDATED] Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype.</td>
+                      <td property="skos:scopeNote">Use <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> as datatype.</td>
                       <td></td>
                     </tr>
                     
@@ -5636,7 +5636,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Geometry expressed in gml format.</td>
-                      <td property="skos:scopeNote">[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.</td>
+                      <td property="skos:scopeNote">Use <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> as datatype.</td>
                       <td></td>
                     </tr>
                     
@@ -6047,7 +6047,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   <dd>Indication of a quantity.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>[UPDATED] NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.</dd>
+                  <dd>[UPDATED] NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\"https://www.w3.org/TR/xmlschema-2/">xsd data types</a> Integer, Float, Decimal, Double etc.</dd>
                   
                   
                   <dt>Properties</dt>

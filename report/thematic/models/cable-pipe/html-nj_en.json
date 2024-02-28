@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/d6b19333da657ec77a286eef0f9d18bc33f0aeb6",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/d6b19333da657ec77a286eef0f9d18bc33f0aeb6/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -3624,12 +3624,12 @@
         {
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk",
           "name": "inNetwork",
-          "sort": "[UPDATED] in network",
+          "sort": "in network",
           "label": {
-            "en": "[UPDATED] in network"
+            "en": "in network"
           },
           "description": {
-            "en": "[UPDATED] Utility Network to which the element belongs."
+            "en": "Utility Network to which the element belongs."
           },
           "usage": {},
           "domain": [
@@ -3656,13 +3656,13 @@
           "cardinality": "1..*",
           "codelist_uri": "",
           "rawTags": {
-            "name": "Nutsvoorzieningnetwerkelement.inNetwerk",
-            "label-nl": "inNetwerk",
-            "label-en": "in network",
-            "definition-nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-            "ap-label-nl": "inNetwerk",
             "definition-en": "Utility Network to which the element belongs.",
-            "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het element behoort."
+            "label-nl": "inNetwerk",
+            "definition-nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
+            "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
+            "name": "Nutsvoorzieningnetwerkelement.inNetwerk",
+            "ap-label-nl": "inNetwerk",
+            "label-en": "in network"
           }
         },
         {
@@ -6941,7 +6941,7 @@
     {
       "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.inNetwerk",
       "name": {
-        "en": "[UPDATED] in network",
+        "en": "in network",
         "undefined": "inNetwork"
       },
       "description": {},
@@ -9754,7 +9754,7 @@
             "en": "Geometry expressed in gml format."
           },
           "usage": {
-            "en": "[UPDATED] Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
+            "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
           },
           "domain": [
             {
@@ -9787,9 +9787,9 @@
             "ap-definition-nl": "Geometrie uitgedrukt in gml-formaat.",
             "definition-en": "Geometry expressed in gml format.",
             "label-en": "gml",
-            "usageNote-en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype.",
+            "usageNote-en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
             "definition-nl": "Geometrie uitgedrukt in gml-formaat.",
-            "usageNote-nl": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
+            "usageNote-nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
           }
         }
       ]
@@ -9901,7 +9901,7 @@
             "en": "Direct Position expressed in wkt format."
           },
           "usage": {
-            "en": "[UPDATED] Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
+            "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
           },
           "domain": [
             {
@@ -9935,7 +9935,7 @@
             "definition-en": "Direct Position expressed in wkt format.",
             "label-en": "wkt",
             "ap-definition-nl": "Directe positie uitgedrukt in wkt-formaat.",
-            "usageNote-en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype."
+            "usageNote-en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
           }
         },
         {
@@ -9949,7 +9949,7 @@
             "en": "Direct Position expressed in gml format."
           },
           "usage": {
-            "en": "[UPDATED] Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
+            "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
           },
           "domain": [
             {
@@ -9983,7 +9983,7 @@
             "definition-en": "Direct Position expressed in gml format.",
             "label-en": "gml",
             "ap-definition-nl": "Directe positie uitgedrukt in gml-formaat.",
-            "usageNote-en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
+            "usageNote-en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
           }
         }
       ]
@@ -10310,7 +10310,7 @@
         "en": "Indication of a quantity."
       },
       "usage": {
-        "en": "[UPDATED] NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+        "en": "[UPDATED] NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
       },
       "parents": [],
       "rawTags": {
@@ -10322,7 +10322,7 @@
         "usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
         "ap-usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
         "uri": "https://schema.org/Number",
-        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc.",
         "definition-en": "Indication of a quantity."
       },
       "properties": []
