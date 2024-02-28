@@ -147,6 +147,10 @@
       "label": {
         "en": "Dimension",
         "fr": "[UPDATED] Retrieving data. Wait a few seconds and try to cut or copy again."
+      },
+      "usage": {
+        "en": "For example, the dimensions of a room.",
+        "fr": "[UPDATED] Par ex.: les dimensions d'une pièce."
       }
     },
     {
@@ -175,6 +179,10 @@
       "label": {
         "en": "Utility Node",
         "fr": "[UPDATED] Noeud de Service"
+      },
+      "usage": {
+        "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof.",
+        "fr": "[UPDATED] Peut être autonome ou constituer le début ou la fin d'un Tronçon de Service. REMARQUE : est abstrait, devrait être spécialisé en tant qu'Accessoire ou une sous-classe de celui-ci."
       }
     },
     {
@@ -319,6 +327,10 @@
       "label": {
         "en": "Plan",
         "fr": "[UPDATED] Plan"
+      },
+      "usage": {
+        "en": "Eg a ground plan, a street plan.",
+        "fr": "[UPDATED] Par ex.: une carte, un plan de ville."
       }
     },
     {
@@ -399,6 +411,10 @@
       "label": {
         "en": "Topographical Element",
         "fr": "[UPDATED] Élément Topographique"
+      },
+      "usage": {
+        "en": "Typical elements are relief, landforms, water bodies, vegetation.",
+        "fr": "[UPDATED] Les éléments typiques comprennent le relief, les reliefs géomorphologiques, les plans d'eau et la végétation."
       }
     },
     {
@@ -693,6 +709,10 @@
       "label": {
         "en": "utility delivery type",
         "fr": "[UPDATED] type de fourniture de service"
+      },
+      "usage": {
+        "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
+        "fr": "[UPDATED] Par ex.: transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
       }
     },
     {
@@ -917,6 +937,10 @@
       "label": {
         "en": "associated with",
         "fr": "[UPDATED] associé à"
+      },
+      "usage": {
+        "en": "For example a cable.",
+        "fr": "[UPDATED] Par ex.: un câble."
       }
     },
     {
@@ -929,6 +953,10 @@
       "label": {
         "en": "function",
         "fr": "[UPDATED] fonction"
+      },
+      "usage": {
+        "en": "Possibly supplemented with information about inputs and outputs of the activities.",
+        "fr": "[UPDATED] Complété éventuellement par des informations sur les inputs et les outputs des activités."
       }
     },
     {
@@ -1217,6 +1245,10 @@
       "label": {
         "en": "visibility",
         "fr": "[UPDATED] visibilité"
+      },
+      "usage": {
+        "en": "For example, not visible above ground.",
+        "fr": "[UPDATED] Par ex.: Invisible en Surface."
       }
     },
     {
@@ -1265,6 +1297,10 @@
       "label": {
         "en": "appearance",
         "fr": "[UPDATED] apparence"
+      },
+      "usage": {
+        "en": "For example the color.",
+        "fr": "[UPDATED] Par ex.: la couleur."
       }
     },
     {
@@ -1301,6 +1337,10 @@
       "label": {
         "en": "visibility",
         "fr": "[UPDATED] visibilité"
+      },
+      "usage": {
+        "en": "For example, not visible above ground.",
+        "fr": "[UPDATED] Par ex.: Invisible en Surface."
       }
     },
     {
@@ -1313,6 +1353,10 @@
       "label": {
         "en": "appearance",
         "fr": "[UPDATED] apparence"
+      },
+      "usage": {
+        "en": "For example the color.",
+        "fr": "[UPDATED] Par ex.: la couleur."
       }
     },
     {
@@ -1488,17 +1532,33 @@
     {
       "name": "Curve",
       "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
+      "definition": {
+        "en": "A 1-dimensional geometric primitive.",
+        "fr": "[UPDATED] Primitive géométrique unidimensionnelle."
+      },
       "label": {
         "en": "Curve",
         "fr": "[UPDATED] Courbe"
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par une Courbe elle-même, 1 coordonnée suffit pour localiser un point sur la Courbe, par ex. la distance le long de la Courbe à partir du point de départ. Une Courbe a une longueur mais pas de largeur ni de hauteur, ce qui ne l'empêche pas de serpenter dans l'espace 3D. Les Courbes sont généralement représentées par des polylignes, qui sont des ensembles de points consécutifs où les points intermédiaires de la Courbe sont obtenus par interpolation. Lorsque la méthode d'interpolation est linéaire, vous obtenez une Ligne Polygonale (une ligne angulaire reliant des points successifs par une ligne droite). D'autres méthodes d'interpolation donnent lieu à des arcs de cercle, des cubic splines, des courbes de Bézier, etc. (dont les points de contrôle ne sont pas nécessairement situés sur la Courbe). Une Courbe est délimitée par ses points de départ et d'arrivée."
       }
     },
     {
       "name": "Point",
       "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
+      "definition": {
+        "en": "A 0-dimensional geometric primitive.",
+        "fr": "[UPDATED] Primitive géométrique zéro-dimensionnelle."
+      },
       "label": {
         "en": "Point",
         "fr": "[UPDATED] Point"
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par un Point lui-même, aucune coordonnée n'est nécessaire, puisqu'il n'y a qu'un seul point. Un point n'a donc ni largeur, ni longueur, ni profondeur. ATTENTION : cela ne signifie pas qu'un Point ne peut pas avoir de coordonnées dans un autre système de coordonnées, par ex. des coordonnées xyz dans un système de coordonnées à 3 axes orthogonaux."
       }
     },
     {
@@ -1692,6 +1752,10 @@
     {
       "name": "Sign",
       "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
+      "definition": {
+        "en": "TO DO",
+        "fr": "[UPDATED] "
+      },
       "label": {
         "en": "Sign",
         "fr": "[UPDATED] Signe"
@@ -2068,6 +2132,10 @@
     {
       "name": "Number",
       "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
+      "definition": {
+        "en": "Indication of a quantity.",
+        "fr": "[UPDATED] Indication d'une quantité."
+      },
       "label": {
         "en": "Number",
         "fr": "[UPDATED] Nombre"
@@ -2687,7 +2755,7 @@
       "name": "gml",
       "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "definition": {
-        "en": "Geometry expressed in wkt format.",
+        "en": "Geometry expressed in gml format.",
         "fr": "[UPDATED] Géométrie exprimée au format GML."
       },
       "label": {
@@ -2695,7 +2763,7 @@
         "fr": "[UPDATED] sous format GML"
       },
       "usage": {
-        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
+        "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype.",
         "fr": "[UPDATED] Utilisez h<a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> comme type de données."
       }
     },
@@ -2789,6 +2857,10 @@
       "label": {
         "en": "utility network type",
         "fr": "[UPDATED] type du réseau de service"
+      },
+      "usage": {
+        "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.",
+        "fr": "[UPDATED] Utilise la liste de codes  Type de Réseau de Service » pour décrire les Réseaux de Service possibles. Cela inclut également la valeur « crossTheme » à utiliser pour les Réseaux de Service qui peuvent contenir des câbles ou des conduites de différents thèmes, qui sont généralement utilisés par les fournisseurs de Réseaux de Service qui fournissent des conduites."
       }
     },
     {
@@ -2801,6 +2873,10 @@
       "label": {
         "en": "type",
         "fr": "[UPDATED] type"
+      },
+      "usage": {
+        "en": "Typical the groundlevel.",
+        "fr": "[UPDATED] Typiquement le niveau du sol."
       }
     },
     {
@@ -3042,6 +3118,10 @@
     {
       "name": "uom",
       "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
+      "definition": {
+        "en": "Unit in which the quantity is expressed.",
+        "fr": "[UPDATED] Unité dans laquelle la quantité est exprimée."
+      },
       "label": {
         "en": "uom",
         "fr": "[UPDATED] unité"
@@ -3050,9 +3130,17 @@
     {
       "name": "uom",
       "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
+      "definition": {
+        "en": "Unit in which the Length is expressed.",
+        "fr": "[UPDATED] Unité dans laquelle la Longueur est exprimée."
+      },
       "label": {
         "en": "uom",
         "fr": "[UPDATED] unité"
+      },
+      "usage": {
+        "en": "E.g. meters, centimeters.",
+        "fr": "[UPDATED] Par ex.: mètres, centimètres."
       }
     }
   ]

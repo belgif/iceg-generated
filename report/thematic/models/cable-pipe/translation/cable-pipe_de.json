@@ -147,6 +147,10 @@
       "definition": {
         "en": "Type of Annotation that indicates the size of an Object.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, the dimensions of a room.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -174,6 +178,10 @@
       },
       "definition": {
         "en": "Point-shaped spatial object that plays an important role in a Utility Network.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof.",
         "de": "Enter your translation here"
       }
     },
@@ -319,6 +327,10 @@
       "definition": {
         "en": "Drawing showing the parts or details of something.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Eg a ground plan, a street plan.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -398,6 +410,10 @@
       },
       "definition": {
         "en": "Part of the description of the shape and features of the earth's surface.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Typical elements are relief, landforms, water bodies, vegetation.",
         "de": "Enter your translation here"
       }
     },
@@ -693,6 +709,10 @@
       "definition": {
         "en": "Way in which the utility is delivered.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -917,6 +937,10 @@
       "definition": {
         "en": "Object to which the Annotation refers.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example a cable.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -928,6 +952,10 @@
       },
       "definition": {
         "en": "Activities carried out by the complex.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Possibly supplemented with information about inputs and outputs of the activities.",
         "de": "Enter your translation here"
       }
     },
@@ -1217,6 +1245,10 @@
       "definition": {
         "en": "Extent to which the LinkSet is observable.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, not visible above ground.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -1265,6 +1297,10 @@
       "definition": {
         "en": "Appearance of the container.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example the color.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -1301,6 +1337,10 @@
       "definition": {
         "en": "Extent to which the Node is observable.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example, not visible above ground.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -1312,6 +1352,10 @@
       },
       "definition": {
         "en": "Appearance of the Node.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "For example the color.",
         "de": "Enter your translation here"
       }
     },
@@ -1491,6 +1535,14 @@
       "label": {
         "en": "Curve",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A 1-dimensional geometric primitive.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -1498,6 +1550,14 @@
       "name": "Point",
       "label": {
         "en": "Point",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A 0-dimensional geometric primitive.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
         "de": "Enter your translation here"
       }
     },
@@ -1694,6 +1754,10 @@
       "name": "Sign",
       "label": {
         "en": "Sign",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "TO DO",
         "de": "Enter your translation here"
       }
     },
@@ -2070,6 +2134,10 @@
       "name": "Number",
       "label": {
         "en": "Number",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Indication of a quantity.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -2691,11 +2759,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Geometry expressed in wkt format.",
+        "en": "Geometry expressed in gml format.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
+        "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype.",
         "de": "Enter your translation here"
       }
     },
@@ -2789,6 +2857,10 @@
       "definition": {
         "en": "The type of utility network or the utility network theme.",
         "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -2800,6 +2872,10 @@
       },
       "definition": {
         "en": "The type of Reference Surface.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Typical the groundlevel.",
         "de": "Enter your translation here"
       }
     },
@@ -3045,6 +3121,10 @@
       "label": {
         "en": "uom",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Unit in which the quantity is expressed.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -3052,6 +3132,14 @@
       "name": "uom",
       "label": {
         "en": "uom",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Unit in which the Length is expressed.",
+        "de": "Enter your translation here"
+      },
+      "usage": {
+        "en": "E.g. meters, centimeters.",
         "de": "Enter your translation here"
       }
     }

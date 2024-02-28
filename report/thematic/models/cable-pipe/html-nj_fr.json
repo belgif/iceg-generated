@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/efbd46d3529bad7f0672a0a45a7c5db8cf8f3005",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/efbd46d3529bad7f0672a0a45a7c5db8cf8f3005/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -345,7 +345,10 @@
             "en": "Object to which the Annotation refers.",
             "fr": "[UPDATED] Objet auquel l'Annotation se rapporte"
           },
-          "usage": {},
+          "usage": {
+            "en": "For example a cable.",
+            "fr": "[UPDATED] Par ex.: un câble."
+          },
           "domain": [
             {
               "EA-Name": "Annotatie",
@@ -378,7 +381,8 @@
             "definition-nl": "Object waar de Annotatie betrekking op heeft",
             "definition-en": "Object to which the Annotation refers.",
             "usageNote-nl": "Bvb een kabel.",
-            "ap-usageNote-nl": "Bvb een kabel."
+            "ap-usageNote-nl": "Bvb een kabel.",
+            "usageNote-en": "For example a cable."
           }
         },
         {
@@ -1412,7 +1416,10 @@
         "en": "Type of Annotation that indicates the size of an Object.",
         "fr": "[UPDATED] Type d'Annotation indiquant la taille d'un Objet."
       },
-      "usage": {},
+      "usage": {
+        "en": "For example, the dimensions of a room.",
+        "fr": "[UPDATED] Par ex.: les dimensions d'une pièce."
+      },
       "parents": [
         {
           "label": "Annotation",
@@ -1430,7 +1437,8 @@
         "definition-nl": "Soort Annotatie dat de maat van een Object aangeeft.",
         "usageNote-nl": "Bv de afmetingen van een kamer.",
         "ap-usageNote-nl": "Bv de afmetingen van een kamer.",
-        "definition-en": "Type of Annotation that indicates the size of an Object."
+        "definition-en": "Type of Annotation that indicates the size of an Object.",
+        "usageNote-en": "For example, the dimensions of a room."
       },
       "properties": []
     },
@@ -1484,7 +1492,10 @@
         "en": "Point-shaped spatial object that plays an important role in a Utility Network.",
         "fr": "[UPDATED] Objet spatial qui joue un rôle important dans un Réseau de Service et qui peut être représenté sous forme d'un point."
       },
-      "usage": {},
+      "usage": {
+        "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof.",
+        "fr": "[UPDATED] Peut être autonome ou constituer le début ou la fin d'un Tronçon de Service. REMARQUE : est abstrait, devrait être spécialisé en tant qu'Accessoire ou une sous-classe de celui-ci."
+      },
       "parents": [
         {
           "label": "Knoop",
@@ -1509,7 +1520,8 @@
         "definition-nl": "Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk.",
         "definition-en": "Point-shaped spatial object that plays an important role in a Utility Network.",
         "usageNote-nl": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan.",
-        "ap-usageNote-nl": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan."
+        "ap-usageNote-nl": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan.",
+        "usageNote-en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof."
       },
       "properties": [
         {
@@ -1572,7 +1584,10 @@
             "en": "Extent to which the Node is observable.",
             "fr": "[UPDATED] Mesure dans laquelle le Noeud est visible."
           },
-          "usage": {},
+          "usage": {
+            "en": "For example, not visible above ground.",
+            "fr": "[UPDATED] Par ex.: Invisible en Surface."
+          },
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
@@ -1606,7 +1621,8 @@
             "definition-en": "Extent to which the Node is observable.",
             "usageNote-nl": "Bvb nietBovengrondsZichtbaar.",
             "ap-usageNote-nl": "Bvb nietBovengrondsZichtbaar.",
-            "name": "Nutsvoorzieningknoop.zichtbaarheid"
+            "name": "Nutsvoorzieningknoop.zichtbaarheid",
+            "usageNote-en": "For example, not visible above ground."
           }
         },
         {
@@ -1621,7 +1637,10 @@
             "en": "Appearance of the Node.",
             "fr": "[UPDATED] Apparence du Noeud."
           },
-          "usage": {},
+          "usage": {
+            "en": "For example the color.",
+            "fr": "[UPDATED] Par ex.: la couleur."
+          },
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoop",
@@ -1655,7 +1674,8 @@
             "definition-en": "Appearance of the Node.",
             "usageNote-nl": "Bvb de kleur.",
             "ap-usageNote-nl": "Bvb de kleur.",
-            "name": "Nutsvoorzieningknoop.uiterlijk"
+            "name": "Nutsvoorzieningknoop.uiterlijk",
+            "usageNote-en": "For example the color."
           }
         },
         {
@@ -2039,7 +2059,10 @@
             "en": "Appearance of the container.",
             "fr": "[UPDATED] Apparence du conteneur."
           },
-          "usage": {},
+          "usage": {
+            "en": "For example the color.",
+            "fr": "[UPDATED] Par ex.: la couleur."
+          },
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningknoopcontainer",
@@ -2073,7 +2096,8 @@
             "definition-en": "Appearance of the container.",
             "usageNote-nl": "Bvb de kleur.",
             "ap-usageNote-nl": "Bvb de kleur.",
-            "name": "Nutsvoorzieningknoopcontainer.uiterlijk"
+            "name": "Nutsvoorzieningknoopcontainer.uiterlijk",
+            "usageNote-en": "For example the color."
           }
         },
         {
@@ -2744,7 +2768,10 @@
             "en": "Way in which the utility is delivered.",
             "fr": "[UPDATED] La manière dont le service est fourni."
           },
-          "usage": {},
+          "usage": {
+            "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
+            "fr": "[UPDATED] Par ex.: transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
+          },
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
@@ -2777,7 +2804,8 @@
             "ap-definition-nl": "Manier waarop de nutsvoorziening wordt geleverd.",
             "definition-nl": "Manier waarop de nutsvoorziening wordt geleverd.",
             "usageNote-nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater.",
-            "ap-usageNote-nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater."
+            "ap-usageNote-nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater.",
+            "usageNote-en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
           }
         },
         {
@@ -2886,7 +2914,10 @@
             "en": "Extent to which the LinkSet is observable.",
             "fr": "[UPDATED] Mesure dans laquelle l'ensemble de tronçons est visible."
           },
-          "usage": {},
+          "usage": {
+            "en": "For example, not visible above ground.",
+            "fr": "[UPDATED] Par ex.: Invisible en Surface."
+          },
           "domain": [
             {
               "EA-Name": "Nutsvoorzieninglinkset",
@@ -2920,7 +2951,8 @@
             "definition-en": "Extent to which the LinkSet is observable.",
             "usageNote-nl": "Bvb nietBovengrondsZichtbaar.",
             "ap-usageNote-nl": "Bvb nietBovengrondsZichtbaar.",
-            "name": "Nutsvoorzieninglinkset.zichtbaarheid"
+            "name": "Nutsvoorzieninglinkset.zichtbaarheid",
+            "usageNote-en": "For example, not visible above ground."
           }
         },
         {
@@ -3444,7 +3476,10 @@
             "en": "The type of utility network or the utility network theme.",
             "fr": "[UPDATED] Le type du Réseau de Service ou le thème du Réseau de Service."
           },
-          "usage": {},
+          "usage": {
+            "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.",
+            "fr": "[UPDATED] Utilise la liste de codes  Type de Réseau de Service » pour décrire les Réseaux de Service possibles. Cela inclut également la valeur « crossTheme » à utiliser pour les Réseaux de Service qui peuvent contenir des câbles ou des conduites de différents thèmes, qui sont généralement utilisés par les fournisseurs de Réseaux de Service qui fournissent des conduites."
+          },
           "domain": [
             {
               "EA-Name": "Nutsvoorzieningnetwerk",
@@ -3477,7 +3512,8 @@
             "definition-nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk.",
             "ap-usageNote-nl": "Gebruikt de codelijst \"Nutsvoorzieningnetwerktype\" om de mogelijke nutsvoorzieningnetwerken te beschrijven. Dit bevat ook de waarde 'crossTheme' die moet worden gebruikt voor nutsvoorzieningnetwerken die kabels of leidingen uit verschillende thema's kunnen bevatten, die doorgaans worden gebruikt door aanbieders van nutsvoorzieningnetwerken die leidingen leveren.",
             "definition-en": "The type of utility network or the utility network theme.",
-            "uri": "http://purl.org/dc/elements/1.1/type"
+            "uri": "http://purl.org/dc/elements/1.1/type",
+            "usageNote-en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes."
           }
         },
         {
@@ -4444,7 +4480,10 @@
         "en": "Drawing showing the parts or details of something.",
         "fr": "[UPDATED] Dessin montrant les parties ou les détails de quelque chose."
       },
-      "usage": {},
+      "usage": {
+        "en": "Eg a ground plan, a street plan.",
+        "fr": "[UPDATED] Par ex.: une carte, un plan de ville."
+      },
       "parents": [
         {
           "label": "Document",
@@ -4462,7 +4501,8 @@
         "definition-nl": "Tekening met de onderdelen of details van iets.",
         "definition-en": "Drawing showing the parts or details of something.",
         "usageNote-nl": "Bvb plattegrond, stratenplan.",
-        "ap-usageNote-nl": "Bvb plattegrond, stratenplan."
+        "ap-usageNote-nl": "Bvb plattegrond, stratenplan.",
+        "usageNote-en": "Eg a ground plan, a street plan."
       },
       "properties": [
         {
@@ -4943,7 +4983,10 @@
         "en": "Part of the description of the shape and features of the earth's surface.",
         "fr": "[UPDATED] Partie de la description de la forme et des caractéristiques de la surface du sol."
       },
-      "usage": {},
+      "usage": {
+        "en": "Typical elements are relief, landforms, water bodies, vegetation.",
+        "fr": "[UPDATED] Les éléments typiques comprennent le relief, les reliefs géomorphologiques, les plans d'eau et la végétation."
+      },
       "parents": [],
       "rawTags": {
         "label-en": "Topographical Element",
@@ -4953,7 +4996,8 @@
         "definition-nl": "Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak.",
         "usageNote-nl": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie.",
         "definition-en": "Part of the description of the shape and features of the earth's surface.",
-        "ap-usageNote-nl": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie."
+        "ap-usageNote-nl": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie.",
+        "usageNote-en": "Typical elements are relief, landforms, water bodies, vegetation."
       },
       "properties": [
         {
@@ -5837,7 +5881,10 @@
             "en": "Activities carried out by the complex.",
             "fr": "[UPDATED] Activités exercées par le complexe."
           },
-          "usage": {},
+          "usage": {
+            "en": "Possibly supplemented with information about inputs and outputs of the activities.",
+            "fr": "[UPDATED] Complété éventuellement par des informations sur les inputs et les outputs des activités."
+          },
           "domain": [
             {
               "EA-Name": "Activiteitencomplex",
@@ -5871,7 +5918,8 @@
             "definition-nl": "Activiteiten uitgevoerd door het complex.",
             "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie",
             "usageNote-nl": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten.",
-            "ap-usageNote-nl": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten."
+            "ap-usageNote-nl": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten.",
+            "usageNote-en": "Possibly supplemented with information about inputs and outputs of the activities."
           }
         },
         {
@@ -8571,7 +8619,10 @@
             "en": "The type of Reference Surface.",
             "fr": "[UPDATED] Type de Surface de Référence."
           },
-          "usage": {},
+          "usage": {
+            "en": "Typical the groundlevel.",
+            "fr": "[UPDATED] Typiquement le niveau du sol."
+          },
           "domain": [
             {
               "EA-Name": "Referentieoppervlak",
@@ -8604,7 +8655,8 @@
             "definition-en": "The type of Reference Surface.",
             "ap-label-nl": "type",
             "definition-nl": "Type referentieoppervlak.",
-            "ap-usageNote-nl": "Typsch maaiveld."
+            "ap-usageNote-nl": "Typsch maaiveld.",
+            "usageNote-en": "Typical the groundlevel."
           }
         }
       ]
@@ -8960,8 +9012,14 @@
             "en": "uom",
             "fr": "[UPDATED] unité"
           },
-          "description": {},
-          "usage": {},
+          "description": {
+            "en": "Unit in which the Length is expressed.",
+            "fr": "[UPDATED] Unité dans laquelle la Longueur est exprimée."
+          },
+          "usage": {
+            "en": "E.g. meters, centimeters.",
+            "fr": "[UPDATED] Par ex.: mètres, centimètres."
+          },
           "domain": [
             {
               "EA-Name": "Lengte",
@@ -8994,7 +9052,9 @@
             "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length.uom",
             "definition-nl": "Eenheid waarin de Lengte wordt uitegdrukt.",
             "usageNote-nl": "Bvb meter, centimeter.",
-            "ap-usageNote-nl": "Bvb meter, centimeter."
+            "ap-usageNote-nl": "Bvb meter, centimeter.",
+            "definition-en": "Unit in which the Length is expressed.",
+            "usageNote-en": "E.g. meters, centimeters."
           }
         }
       ]
@@ -9074,7 +9134,10 @@
             "en": "uom",
             "fr": "[UPDATED] unité"
           },
-          "description": {},
+          "description": {
+            "en": "Unit in which the quantity is expressed.",
+            "fr": "[UPDATED] Unité dans laquelle la quantité est exprimée."
+          },
           "usage": {},
           "domain": [
             {
@@ -9106,7 +9169,8 @@
             "ap-label-nl": "eenheid",
             "ap-definition-nl": "Eenheid waarin de hoeveelheid wordt uitgedrukt.",
             "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom",
-            "definition-nl": "Eenheid waarin de hoeveelheid wordt uitgedrukt."
+            "definition-nl": "Eenheid waarin de hoeveelheid wordt uitgedrukt.",
+            "definition-en": "Unit in which the quantity is expressed."
           }
         }
       ]
@@ -9119,8 +9183,14 @@
         "fr": "[UPDATED] Courbe"
       },
       "sort": "[UPDATED] Courbe",
-      "description": {},
-      "usage": {},
+      "description": {
+        "en": "A 1-dimensional geometric primitive.",
+        "fr": "[UPDATED] Primitive géométrique unidimensionnelle."
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par une Courbe elle-même, 1 coordonnée suffit pour localiser un point sur la Courbe, par ex. la distance le long de la Courbe à partir du point de départ. Une Courbe a une longueur mais pas de largeur ni de hauteur, ce qui ne l'empêche pas de serpenter dans l'espace 3D. Les Courbes sont généralement représentées par des polylignes, qui sont des ensembles de points consécutifs où les points intermédiaires de la Courbe sont obtenus par interpolation. Lorsque la méthode d'interpolation est linéaire, vous obtenez une Ligne Polygonale (une ligne angulaire reliant des points successifs par une ligne droite). D'autres méthodes d'interpolation donnent lieu à des arcs de cercle, des cubic splines, des courbes de Bézier, etc. (dont les points de contrôle ne sont pas nécessairement situés sur la Courbe). Une Courbe est délimitée par ses points de départ et d'arrivée."
+      },
       "parents": [
         {
           "label": "Geometry",
@@ -9138,7 +9208,9 @@
         "label-en": "Curve",
         "definition-nl": "Een 1-dimensionele geometrische primitieve.",
         "usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
-        "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt."
+        "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
+        "definition-en": "A 1-dimensional geometric primitive.",
+        "usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
       },
       "properties": []
     },
@@ -9150,8 +9222,14 @@
         "fr": "[UPDATED] Point"
       },
       "sort": "[UPDATED] Point",
-      "description": {},
-      "usage": {},
+      "description": {
+        "en": "A 0-dimensional geometric primitive.",
+        "fr": "[UPDATED] Primitive géométrique zéro-dimensionnelle."
+      },
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par un Point lui-même, aucune coordonnée n'est nécessaire, puisqu'il n'y a qu'un seul point. Un point n'a donc ni largeur, ni longueur, ni profondeur. ATTENTION : cela ne signifie pas qu'un Point ne peut pas avoir de coordonnées dans un autre système de coordonnées, par ex. des coordonnées xyz dans un système de coordonnées à 3 axes orthogonaux."
+      },
       "parents": [
         {
           "label": "Geometry",
@@ -9169,7 +9247,9 @@
         "label-en": "Point",
         "definition-nl": "Een 0-dimensionele geometrische primitieve.",
         "usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
-        "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem."
+        "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
+        "definition-en": "A 0-dimensional geometric primitive.",
+        "usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
       },
       "properties": []
     },
@@ -10309,11 +10389,11 @@
             "fr": "[UPDATED] sous format GML"
           },
           "description": {
-            "en": "Geometry expressed in wkt format.",
+            "en": "Geometry expressed in gml format.",
             "fr": "[UPDATED] Géométrie exprimée au format GML."
           },
           "usage": {
-            "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
+            "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype.",
             "fr": "[UPDATED] Utilisez h<a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> comme type de données."
           },
           "domain": [
@@ -10345,9 +10425,9 @@
             "label-nl": "als GML",
             "ap-usageNote-nl": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
             "ap-definition-nl": "Geometrie uitgedrukt in gml-formaat.",
-            "definition-en": "Geometry expressed in wkt format.",
+            "definition-en": "Geometry expressed in gml format.",
             "label-en": "gml",
-            "usageNote-en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
+            "usageNote-en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype.",
             "definition-nl": "Geometrie uitgedrukt in gml-formaat.",
             "usageNote-nl": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype."
           }
@@ -10902,7 +10982,10 @@
         "fr": "[UPDATED] Nombre"
       },
       "sort": "[UPDATED] Nombre",
-      "description": {},
+      "description": {
+        "en": "Indication of a quantity.",
+        "fr": "[UPDATED] Indication d'une quantité."
+      },
       "usage": {
         "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.",
         "fr": "[UPDATED] REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
@@ -10917,7 +11000,8 @@
         "usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
         "ap-usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
         "uri": "https://schema.org/Number",
-        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "definition-en": "Indication of a quantity."
       },
       "properties": []
     }

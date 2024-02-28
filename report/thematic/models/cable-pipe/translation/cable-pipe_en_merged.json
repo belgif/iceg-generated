@@ -1080,6 +1080,11 @@
             "key": "definition-en",
             "note": "null",
             "value": "Type of Annotation that indicates the size of an Object."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example, the dimensions of a room."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -1098,7 +1103,9 @@
           "en": "Dimension"
         },
         "parentclasses": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
-        "usage": ""
+        "usage": {
+          "en": "For example, the dimensions of a room."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
@@ -1107,7 +1114,10 @@
       "name": "Dimension",
       "parents": [
         "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
-      ]
+      ],
+      "usage": {
+        "en": "For example, the dimensions of a room."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat",
@@ -1288,6 +1298,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -1306,7 +1321,9 @@
           "en": "Utility Node"
         },
         "parentclasses": "https://data.vlaanderen.be/ns/netwerk#Knoop, https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
-        "usage": ""
+        "usage": {
+          "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
@@ -1316,7 +1333,10 @@
       "parents": [
         "https://data.vlaanderen.be/ns/netwerk#Knoop",
         "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
-      ]
+      ],
+      "usage": {
+        "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
@@ -2298,6 +2318,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb plattegrond, stratenplan."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Eg a ground plan, a street plan."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -2316,7 +2341,9 @@
           "en": "Plan"
         },
         "parentclasses": "http://xmlns.com/foaf/0.1/Document",
-        "usage": ""
+        "usage": {
+          "en": "Eg a ground plan, a street plan."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
@@ -2325,7 +2352,10 @@
       "name": "Plan",
       "parents": [
         "http://xmlns.com/foaf/0.1/Document"
-      ]
+      ],
+      "usage": {
+        "en": "Eg a ground plan, a street plan."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
@@ -2848,6 +2878,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Typical elements are relief, landforms, water bodies, vegetation."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -2866,14 +2901,19 @@
           "en": "Topographical Element"
         },
         "parentclasses": "",
-        "usage": ""
+        "usage": {
+          "en": "Typical elements are relief, landforms, water bodies, vegetation."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Topographical Element"
       },
       "name": "TopographicalElement",
-      "parents": []
+      "parents": [],
+      "usage": {
+        "en": "Typical elements are relief, landforms, water bodies, vegetation."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toren",
@@ -3704,8 +3744,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "efbd46d3529bad7f0672a0a45a7c5db8cf8f3005",
-  "dummy": "018",
+  "documentcommit": "f99534e38637edd2ddb4ba60d7b06644f6b9f5c3",
+  "dummy": "019",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -8774,7 +8814,7 @@
       },
       "codelist": [],
       "definition": {
-        "en": "[UPDATED] Direct Position expressed in wkt format."
+        "en": "Direct Position expressed in wkt format."
       },
       "domain": [
         {
@@ -8885,14 +8925,14 @@
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "ap-definition-en": {
-        "en": "Geometry expressed in wkt format."
+        "en": "Geometry expressed in gml format."
       },
       "ap-label-en": {
         "en": "gml"
       },
       "codelist": [],
       "definition": {
-        "en": "[UPDATED] Geometry expressed in wkt format."
+        "en": "Geometry expressed in gml format."
       },
       "domain": [
         {
@@ -8942,7 +8982,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Geometry expressed in wkt format."
+            "value": "Geometry expressed in gml format."
           },
           {
             "key": "label-en",
@@ -8952,7 +8992,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+            "value": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
           },
           {
             "key": "definition-nl",
@@ -8968,20 +9008,20 @@
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Geometry expressed in wkt format."
+          "en": "Geometry expressed in gml format."
         },
         "ap-label-en": {
           "en": "gml"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Geometry expressed in wkt format."
+          "en": "Geometry expressed in gml format."
         },
         "label": {
           "en": "gml"
         },
         "usage": {
-          "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+          "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
         }
       },
       "generalization": [],
@@ -9000,7 +9040,7 @@
         }
       ],
       "usage": {
-        "en": "[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+        "en": "[UPDATED] Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
       }
     },
     {
@@ -9746,6 +9786,11 @@
             "key": "uri",
             "note": "null",
             "value": "http://purl.org/dc/elements/1.1/type"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.",
+            "value": "NOTE"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -9763,7 +9808,9 @@
         "label": {
           "en": "utility network type"
         },
-        "usage": ""
+        "usage": {
+          "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -9780,7 +9827,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes."
+      }
     },
     {
       "@id": "http://purl.org/dc/elements/1.1/type",
@@ -9856,6 +9906,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Typsch maaiveld."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Typical the groundlevel."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -9873,7 +9928,9 @@
         "label": {
           "en": "type"
         },
-        "usage": ""
+        "usage": {
+          "en": "Typical the groundlevel."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -9890,7 +9947,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "Typical the groundlevel."
+      }
     },
     {
       "@id": "http://purl.org/dc/elements/1.1/type",
@@ -11910,12 +11970,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Unit in which the quantity is expressed."
       },
       "ap-label-en": {
         "en": "uom"
       },
       "codelist": [],
+      "definition": {
+        "en": "Unit in which the quantity is expressed."
+      },
       "domain": [
         {
           "EA-Name": "Maat",
@@ -11966,18 +12029,25 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Eenheid waarin de hoeveelheid wordt uitgedrukt."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Unit in which the quantity is expressed."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Unit in which the quantity is expressed."
         },
         "ap-label-en": {
           "en": "uom"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Unit in which the quantity is expressed."
+        },
         "label": {
           "en": "uom"
         },
@@ -12005,12 +12075,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Unit in which the Length is expressed."
       },
       "ap-label-en": {
         "en": "uom"
       },
       "codelist": [],
+      "definition": {
+        "en": "Unit in which the Length is expressed."
+      },
       "domain": [
         {
           "EA-Name": "Lengte",
@@ -12071,22 +12144,36 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb meter, centimeter."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Unit in which the Length is expressed."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "E.g. meters, centimeters."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Unit in which the Length is expressed."
         },
         "ap-label-en": {
           "en": "uom"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Unit in which the Length is expressed."
+        },
         "label": {
           "en": "uom"
         },
-        "usage": ""
+        "usage": {
+          "en": "E.g. meters, centimeters."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
@@ -12103,7 +12190,10 @@
           "EA-Package": "ISO-CSL",
           "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength"
         }
-      ]
+      ],
+      "usage": {
+        "en": "E.g. meters, centimeters."
+      }
     }
   ],
   "externals": [
@@ -12644,10 +12734,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A 1-dimensional geometric primitive."
       },
       "ap-label-en": {
         "en": "Curve"
+      },
+      "definition": {
+        "en": "A 1-dimensional geometric primitive."
       },
       "extra": {
         "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
@@ -12703,39 +12796,59 @@
             "key": "ap-usageNote-nl",
             "note": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A 1-dimensional geometric primitive."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A 1-dimensional geometric primitive."
         },
         "ap-label-en": {
           "en": "Curve"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A 1-dimensional geometric primitive."
+        },
         "label": {
           "en": "Curve"
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
-        "usage": ""
+        "usage": {
+          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
+        }
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Curve"
       },
-      "name": "Curve"
+      "name": "Curve",
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
+      }
     },
     {
       "@id": "http://www.opengis.net/ont/sf#Point",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A 0-dimensional geometric primitive."
       },
       "ap-label-en": {
         "en": "Point"
+      },
+      "definition": {
+        "en": "A 0-dimensional geometric primitive."
       },
       "extra": {
         "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
@@ -12791,29 +12904,46 @@
             "key": "ap-usageNote-nl",
             "note": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A 0-dimensional geometric primitive."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A 0-dimensional geometric primitive."
         },
         "ap-label-en": {
           "en": "Point"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A 0-dimensional geometric primitive."
+        },
         "label": {
           "en": "Point"
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
-        "usage": ""
+        "usage": {
+          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
+        }
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Point"
       },
-      "name": "Point"
+      "name": "Point",
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
+      }
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -14106,10 +14236,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "TO DO"
       },
       "ap-label-en": {
         "en": "Sign"
+      },
+      "definition": {
+        "en": "TO DO"
       },
       "extra": {
         "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
@@ -14148,18 +14281,25 @@
             "key": "definition-nl",
             "note": "null",
             "value": "TO DO"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "TO DO"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "TO DO"
         },
         "ap-label-en": {
           "en": "Sign"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "TO DO"
+        },
         "label": {
           "en": "Sign"
         },
@@ -16589,10 +16729,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Indication of a quantity."
       },
       "ap-label-en": {
         "en": "Number"
+      },
+      "definition": {
+        "en": "Indication of a quantity."
       },
       "extra": {
         "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
@@ -16646,18 +16789,25 @@
             "key": "usageNote-en",
             "note": "null",
             "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Indication of a quantity."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Indication of a quantity."
         },
         "ap-label-en": {
           "en": "Number"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Indication of a quantity."
+        },
         "label": {
           "en": "Number"
         },
@@ -18607,6 +18757,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -18624,7 +18779,9 @@
         "label": {
           "en": "utility delivery type"
         },
-        "usage": ""
+        "usage": {
+          "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -18641,7 +18798,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning",
@@ -20636,6 +20796,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb een kabel."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example a cable."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -20653,7 +20818,9 @@
         "label": {
           "en": "associated with"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example a cable."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -20670,7 +20837,10 @@
           "EA-Package": "PROV",
           "uri": "http://www.w3.org/ns/prov#Entity"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example a cable."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie",
@@ -20751,6 +20921,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Possibly supplemented with information about inputs and outputs of the activities."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -20768,7 +20943,9 @@
         "label": {
           "en": "function"
         },
-        "usage": ""
+        "usage": {
+          "en": "Possibly supplemented with information about inputs and outputs of the activities."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -20785,7 +20962,10 @@
           "EA-Package": "OSLO-Generiek",
           "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
         }
-      ]
+      ],
+      "usage": {
+        "en": "Possibly supplemented with information about inputs and outputs of the activities."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#element",
@@ -23382,6 +23562,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieninglinkset.zichtbaarheid"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example, not visible above ground."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -23399,7 +23584,9 @@
         "label": {
           "en": "visibility"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example, not visible above ground."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -23416,7 +23603,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example, not visible above ground."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.uiterlijk",
@@ -23822,6 +24012,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieningknoopcontainer.uiterlijk"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example the color."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -23839,7 +24034,9 @@
         "label": {
           "en": "appearance"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example the color."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -23856,7 +24053,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example the color."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.risico",
@@ -24147,6 +24347,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieningknoop.zichtbaarheid"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example, not visible above ground."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -24164,7 +24369,9 @@
         "label": {
           "en": "visibility"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example, not visible above ground."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -24181,7 +24388,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example, not visible above ground."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.uiterlijk",
@@ -24262,6 +24472,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieningknoop.uiterlijk"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example the color."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -24279,7 +24494,9 @@
         "label": {
           "en": "appearance"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example the color."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -24296,7 +24513,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example the color."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.risico",
@@ -25337,7 +25557,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "23dbcbd90f9999c54d96aafcbdbd598d542e0d98",
+  "toolchaincommit": "0223c9285856f46fc03358470f8c75b0732fc837",
   "translation": [
     {
       "language": "en",

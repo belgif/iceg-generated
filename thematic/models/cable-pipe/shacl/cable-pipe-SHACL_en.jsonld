@@ -1389,6 +1389,9 @@
       "sh:property": [
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
+          "sh:description": {
+            "en": "Unit in which the Length is expressed."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
@@ -1406,6 +1409,9 @@
       "sh:property": [
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+          "sh:description": {
+            "en": "Unit in which the quantity is expressed."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
@@ -1899,7 +1905,7 @@
       "sh:property": [
         {
           "sh:description": {
-            "en": "[UPDATED] Geometry expressed in wkt format."
+            "en": "Geometry expressed in gml format."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -2151,7 +2157,7 @@
         },
         {
           "sh:description": {
-            "en": "[UPDATED] Direct Position expressed in wkt format."
+            "en": "Direct Position expressed in wkt format."
           },
           "sh:maxCount": "1",
           "sh:name": {

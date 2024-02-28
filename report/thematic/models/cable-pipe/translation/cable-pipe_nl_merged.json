@@ -193,7 +193,7 @@
       },
       "definition": {
         "en": "A short explanation or note added to an Object.",
-        "nl": "[UPDATED] Een korte uitleg of notitie toegevoegd aan een Object."
+        "nl": "Een korte uitleg of notitie toegevoegd aan een Object."
       },
       "extra": {
         "EA-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
@@ -272,13 +272,13 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Annotation",
-        "nl": "[UPDATED] Annotatie"
+        "nl": "Annotatie"
       },
       "name": "Annotation",
       "parents": [],
       "usage": {
         "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
-        "nl": "[UPDATED] In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bvb de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bvb maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn."
+        "nl": "In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bvb de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bvb maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn."
       }
     },
     {
@@ -293,7 +293,7 @@
       },
       "definition": {
         "en": "Area where digging is not allowed.",
-        "nl": "[UPDATED] Gebied waar niet gegraven mag worden."
+        "nl": "Gebied waar niet gegraven mag worden."
       },
       "extra": {
         "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
@@ -360,7 +360,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Protected Area",
-        "nl": "[UPDATED] Beschermd Gebied"
+        "nl": "Beschermd Gebied"
       },
       "name": "ProtectedArea",
       "parents": []
@@ -377,7 +377,7 @@
       },
       "definition": {
         "en": "Vertical Position below the Reference Surface.",
-        "nl": "[UPDATED] Verticale Positie onder het Referentieoppervlak."
+        "nl": "Verticale Positie onder het Referentieoppervlak."
       },
       "extra": {
         "EA-Guid": "{1BD92463-822E-49e6-B186-9E2997C706D4}",
@@ -446,7 +446,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Depth",
-        "nl": "[UPDATED] Diepte"
+        "nl": "Diepte"
       },
       "name": "Depth",
       "parents": [
@@ -465,7 +465,7 @@
       },
       "definition": {
         "en": "A Cable used to transport electricity from one location to another.",
-        "nl": "[UPDATED] Een Kabel gebruikt om elektriciteit van de ene naar de andere locatie te transporteren."
+        "nl": "Een Kabel gebruikt om elektriciteit van de ene naar de andere locatie te transporteren."
       },
       "extra": {
         "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
@@ -534,7 +534,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Electricity Cable",
-        "nl": "[UPDATED] Electriciteitskabel"
+        "nl": "Electriciteitskabel"
       },
       "name": "ElectricityCable",
       "parents": [
@@ -553,7 +553,7 @@
       },
       "definition": {
         "en": "Vertical Position above the Reference Surface.",
-        "nl": "[UPDATED] Verticale Positie boven het Referentieoppervlak."
+        "nl": "Verticale Positie boven het Referentieoppervlak."
       },
       "extra": {
         "EA-Guid": "{2E4FF2C4-A20C-455b-ABD5-8837E052C157}",
@@ -622,7 +622,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Height",
-        "nl": "[UPDATED] Hoogte"
+        "nl": "Hoogte"
       },
       "name": "Height",
       "parents": [
@@ -641,7 +641,7 @@
       },
       "definition": {
         "en": "A Utility LinkSet used to transmit electricity or data from one location to another.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen."
+        "nl": "Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen."
       },
       "extra": {
         "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
@@ -710,7 +710,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Cable",
-        "nl": "[UPDATED] Kabel"
+        "nl": "Kabel"
       },
       "name": "Cable",
       "parents": [
@@ -729,7 +729,7 @@
       },
       "definition": {
         "en": "Object that could potentially contain cables or pipes/ducts.",
-        "nl": "[UPDATED] Object dat potentieel kabels of leidingen kan omvatten."
+        "nl": "Object dat potentieel kabels of leidingen kan omvatten."
       },
       "extra": {
         "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
@@ -813,13 +813,13 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Cable and Pipe Container",
-        "nl": "[UPDATED] KabelEnLeidingContainer"
+        "nl": "KabelEnLeidingContainer"
       },
       "name": "CableAndPipeContainer",
       "parents": [],
       "usage": {
         "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
-        "nl": "[UPDATED] Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
+        "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
       }
     },
     {
@@ -834,7 +834,7 @@
       },
       "definition": {
         "en": "A Utility LinkSet used to protect and route cables and pipes through an enclosing structure.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie."
+        "nl": "Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie."
       },
       "extra": {
         "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
@@ -916,7 +916,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Duct",
-        "nl": "[UPDATED] Kanaal"
+        "nl": "Kanaal"
       },
       "name": "Duct",
       "parents": [
@@ -940,7 +940,7 @@
       },
       "definition": {
         "en": "Simple UtilityNodeContainer that takes the shape of a cabinet.",
-        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast."
+        "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast."
       },
       "extra": {
         "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
@@ -1026,7 +1026,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Cabinet",
-        "nl": "[UPDATED] Kast"
+        "nl": "Kast"
       },
       "name": "Cabinet",
       "parents": [
@@ -1034,7 +1034,7 @@
       ],
       "usage": {
         "en": "Contains typically smaller mountable Appurtenances and Cables.",
-        "nl": "[UPDATED] Bevat typisch kleiner monteerbaar Toebehoren en Kabels."
+        "nl": "Bevat typisch kleiner monteerbaar Toebehoren en Kabels."
       }
     },
     {
@@ -1049,7 +1049,7 @@
       },
       "definition": {
         "en": "Type of Annotation that indicates the size of an Object.",
-        "nl": "[UPDATED] Soort Annotatie dat de maat van een Object aangeeft."
+        "nl": "Soort Annotatie dat de maat van een Object aangeeft."
       },
       "extra": {
         "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
@@ -1105,6 +1105,11 @@
             "key": "definition-en",
             "note": "null",
             "value": "Type of Annotation that indicates the size of an Object."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example, the dimensions of a room."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -1123,17 +1128,23 @@
           "en": "Dimension"
         },
         "parentclasses": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
-        "usage": ""
+        "usage": {
+          "en": "For example, the dimensions of a room."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Dimension",
-        "nl": "[UPDATED] Maataanduiding"
+        "nl": "Maataanduiding"
       },
       "name": "Dimension",
       "parents": [
         "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie"
-      ]
+      ],
+      "usage": {
+        "en": "For example, the dimensions of a room.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Mangat",
@@ -1147,7 +1158,7 @@
       },
       "definition": {
         "en": "Simple UtilityNodeContainer that takes the form of a covered opening in the road surface providing access to the subsurface.",
-        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond."
+        "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond."
       },
       "extra": {
         "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
@@ -1233,7 +1244,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Manhole",
-        "nl": "[UPDATED] Mangat"
+        "nl": "Mangat"
       },
       "name": "Manhole",
       "parents": [
@@ -1241,7 +1252,7 @@
       ],
       "usage": {
         "en": "E.g. sewer cover.",
-        "nl": "[UPDATED] Bvb riooldeksel."
+        "nl": "Bvb riooldeksel."
       }
     },
     {
@@ -1256,7 +1267,7 @@
       },
       "definition": {
         "en": "Point-shaped spatial object that plays an important role in a Utility Network.",
-        "nl": "[UPDATED] Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk."
+        "nl": "Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk."
       },
       "extra": {
         "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
@@ -1318,6 +1329,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -1336,18 +1352,24 @@
           "en": "Utility Node"
         },
         "parentclasses": "https://data.vlaanderen.be/ns/netwerk#Knoop, https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
-        "usage": ""
+        "usage": {
+          "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Utility Node",
-        "nl": "[UPDATED] Nutsvoorzieningknoop"
+        "nl": "Nutsvoorzieningknoop"
       },
       "name": "UtilityNode",
       "parents": [
         "https://data.vlaanderen.be/ns/netwerk#Knoop",
         "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement"
-      ]
+      ],
+      "usage": {
+        "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer",
@@ -1361,7 +1383,7 @@
       },
       "definition": {
         "en": "Point shaped UtilityNetworkElement, potential carrier of Utility Nodes.",
-        "nl": "[UPDATED] Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen."
+        "nl": "Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen."
       },
       "extra": {
         "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
@@ -1447,7 +1469,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Utility Node Container",
-        "nl": "[UPDATED] Nutsvoorzieningknoopcontainer"
+        "nl": "Nutsvoorzieningknoopcontainer"
       },
       "name": "UtilityNodeContainer",
       "parents": [
@@ -1455,7 +1477,7 @@
       ],
       "usage": {
         "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.",
-        "nl": "[UPDATED] Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk."
+        "nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk."
       }
     },
     {
@@ -1470,7 +1492,7 @@
       },
       "definition": {
         "en": "A linear spatial object that describes the geometry and connectivity between two points in a Utility Network.",
-        "nl": "[UPDATED] Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Nutsvoorzieningnetwerk."
+        "nl": "Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Nutsvoorzieningnetwerk."
       },
       "extra": {
         "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
@@ -1545,7 +1567,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Utility Link",
-        "nl": "[UPDATED] Nutsvoorzieninglink"
+        "nl": "Nutsvoorzieninglink"
       },
       "name": "UtilityLink",
       "parents": [
@@ -1565,7 +1587,7 @@
       },
       "definition": {
         "en": "An unbranched continuous path in the Utility Network.",
-        "nl": "[UPDATED] Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk."
+        "nl": "Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk."
       },
       "extra": {
         "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
@@ -1657,7 +1679,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Utility LinkSequence",
-        "nl": "[UPDATED] Nutsvoorzieninglinksequentie"
+        "nl": "Nutsvoorzieninglinksequentie"
       },
       "name": "UtilityLinksequence",
       "parents": [
@@ -1666,7 +1688,7 @@
       ],
       "usage": {
         "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the LinkSequence is composed of Directed Links.",
-        "nl": "[UPDATED] In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks."
+        "nl": "In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks."
       }
     },
     {
@@ -1681,7 +1703,7 @@
       },
       "definition": {
         "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes.",
-        "nl": "[UPDATED] Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk."
+        "nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk."
       },
       "extra": {
         "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
@@ -1773,7 +1795,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Utility LinkSet",
-        "nl": "[UPDATED] Nutsvoorzieninglinkset"
+        "nl": "Nutsvoorzieninglinkset"
       },
       "name": "UtilityLinkset",
       "parents": [
@@ -1782,7 +1804,7 @@
       ],
       "usage": {
         "en": "This class also extends the LinkSet featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) LinkSequence or (more simple) Link class.",
-        "nl": "[UPDATED] In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc."
+        "nl": "In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc."
       }
     },
     {
@@ -1797,7 +1819,7 @@
       },
       "definition": {
         "en": "Collection of network elements of one type of utility service.",
-        "nl": "[UPDATED] Verzameling van netwerkelementen van één type nutsvoorziening."
+        "nl": "Verzameling van netwerkelementen van één type nutsvoorziening."
       },
       "extra": {
         "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
@@ -1883,7 +1905,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Utility Network",
-        "nl": "[UPDATED] Nutsvoorzieningnetwerk"
+        "nl": "Nutsvoorzieningnetwerk"
       },
       "name": "UtilityNetwork",
       "parents": [
@@ -1891,7 +1913,7 @@
       ],
       "usage": {
         "en": "For example, an electricity network, a sewerage network, a gas network. The network elements in question are, for example, the elements of the network of an internet provider: optical cables arriving in cabinets on the street via multiplexers connected to copper cables to the homes in that street.",
-        "nl": "[UPDATED] Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat."
+        "nl": "Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat."
       }
     },
     {
@@ -1906,7 +1928,7 @@
       },
       "definition": {
         "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.",
-        "nl": "[UPDATED] Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult."
+        "nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult."
       },
       "extra": {
         "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
@@ -1985,13 +2007,13 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Utility NetworkElement",
-        "nl": "[UPDATED] Nustvoorzieningnetwerkelement"
+        "nl": "Nustvoorzieningnetwerkelement"
       },
       "name": "UtilityNetworkelement",
       "parents": [],
       "usage": {
         "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).",
-        "nl": "[UPDATED] OPMERKING: is abstract, moet gespecialiseerd worden (bvb als Electriciteitskabel, Riooolpijp, Mangat, Kast etc)."
+        "nl": "OPMERKING: is abstract, moet gespecialiseerd worden (bvb als Electriciteitskabel, Riooolpijp, Mangat, Kast etc)."
       }
     },
     {
@@ -2006,7 +2028,7 @@
       },
       "definition": {
         "en": "A pipe used to transport oil, gas or chemicals from one location to another.",
-        "nl": "[UPDATED] Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren."
+        "nl": "Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren."
       },
       "extra": {
         "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
@@ -2075,7 +2097,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Oil Gas Chemicals Pipe",
-        "nl": "[UPDATED] OlieGasChemicaliënPijp"
+        "nl": "OlieGasChemicaliënPijp"
       },
       "name": "OilGasChemicalsPipe",
       "parents": [
@@ -2094,7 +2116,7 @@
       },
       "definition": {
         "en": "Simple UtilityNodeContainer that takes the shape of a pole.",
-        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast."
+        "nl": "Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast."
       },
       "extra": {
         "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
@@ -2180,7 +2202,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Pole",
-        "nl": "[UPDATED] Paal"
+        "nl": "Paal"
       },
       "name": "Pole",
       "parents": [
@@ -2188,7 +2210,7 @@
       ],
       "usage": {
         "en": "Typical carrier of mountable Appurtenances and Cables.",
-        "nl": "[UPDATED] Typisch drager van monteerbaar Toebehoren en Kabels."
+        "nl": "Typisch drager van monteerbaar Toebehoren en Kabels."
       }
     },
     {
@@ -2203,7 +2225,7 @@
       },
       "definition": {
         "en": "A Utility LinkSet for transporting solids, liquids, chemicals or gases from one location to another.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere."
+        "nl": "Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere."
       },
       "extra": {
         "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
@@ -2278,7 +2300,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Pipe",
-        "nl": "[UPDATED] Pijp"
+        "nl": "Pijp"
       },
       "name": "Pipe",
       "parents": [
@@ -2298,7 +2320,7 @@
       },
       "definition": {
         "en": "Drawing showing the parts or details of something.",
-        "nl": "[UPDATED] Tekening met de onderdelen of details van iets."
+        "nl": "Tekening met de onderdelen of details van iets."
       },
       "extra": {
         "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
@@ -2354,6 +2376,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb plattegrond, stratenplan."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Eg a ground plan, a street plan."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -2372,17 +2399,23 @@
           "en": "Plan"
         },
         "parentclasses": "http://xmlns.com/foaf/0.1/Document",
-        "usage": ""
+        "usage": {
+          "en": "Eg a ground plan, a street plan."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Plan",
-        "nl": "[UPDATED] Plan"
+        "nl": "Plan"
       },
       "name": "Plan",
       "parents": [
         "http://xmlns.com/foaf/0.1/Document"
-      ]
+      ],
+      "usage": {
+        "en": "Eg a ground plan, a street plan.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
@@ -2396,7 +2429,7 @@
       },
       "definition": {
         "en": "Surface relative to which a position is measured.",
-        "nl": "[UPDATED] Oppervlak tov waarvan een positie wordt gemeten."
+        "nl": "Oppervlak tov waarvan een positie wordt gemeten."
       },
       "extra": {
         "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
@@ -2475,13 +2508,13 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Reference Surface",
-        "nl": "[UPDATED] Referentieoppervlak"
+        "nl": "Referentieoppervlak"
       },
       "name": "ReferenceSurface",
       "parents": [],
       "usage": {
         "en": "In this context typically the ground level.",
-        "nl": "[UPDATED] In deze context typisch het maaiveld."
+        "nl": "In deze context typisch het maaiveld."
       }
     },
     {
@@ -2496,7 +2529,7 @@
       },
       "definition": {
         "en": "A sewer pipe used to convey wastewater (sewer) from one location to another.",
-        "nl": "[UPDATED] Een buis die wordt gebruikt om afvalwater van de ene locatie naar de andere te transporteren."
+        "nl": "Een buis die wordt gebruikt om afvalwater van de ene locatie naar de andere te transporteren."
       },
       "extra": {
         "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
@@ -2565,7 +2598,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Sewer Pipe",
-        "nl": "[UPDATED] Rioolpijp"
+        "nl": "Rioolpijp"
       },
       "name": "SewerPipe",
       "parents": [
@@ -2584,7 +2617,7 @@
       },
       "definition": {
         "en": "A Utility Link or LinkSequence used to convey data signals (PSTN, radio or computer) from one location to another.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren."
+        "nl": "Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren."
       },
       "extra": {
         "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
@@ -2653,7 +2686,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Telecommunications Cable",
-        "nl": "[UPDATED] Telecommunicatiekabel"
+        "nl": "Telecommunicatiekabel"
       },
       "name": "TelecommunicationsCable",
       "parents": [
@@ -2672,7 +2705,7 @@
       },
       "definition": {
         "en": "A pipe used to disseminate heating or cooling from one location to another.",
-        "nl": "[UPDATED] Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren."
+        "nl": "Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren."
       },
       "extra": {
         "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
@@ -2741,7 +2774,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Thermal Pipe",
-        "nl": "[UPDATED] ThermischePijp"
+        "nl": "ThermischePijp"
       },
       "name": "ThermalPipe",
       "parents": [
@@ -2760,7 +2793,7 @@
       },
       "definition": {
         "en": "Physical point-shaped part of the UtilityNetwork.",
-        "nl": "[UPDATED] Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk."
+        "nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk."
       },
       "extra": {
         "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
@@ -2846,7 +2879,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Appurtenance",
-        "nl": "[UPDATED] Toebehoren"
+        "nl": "Toebehoren"
       },
       "name": "Appurtenance",
       "parents": [
@@ -2854,7 +2887,7 @@
       ],
       "usage": {
         "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the UtilityNodeContainer). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
-        "nl": "[UPDATED] Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc."
+        "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc."
       }
     },
     {
@@ -2869,7 +2902,7 @@
       },
       "definition": {
         "en": "Part of the description of the shape and features of the earth's surface.",
-        "nl": "[UPDATED] Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak."
+        "nl": "Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak."
       },
       "extra": {
         "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
@@ -2918,6 +2951,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Typical elements are relief, landforms, water bodies, vegetation."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -2936,15 +2974,21 @@
           "en": "Topographical Element"
         },
         "parentclasses": "",
-        "usage": ""
+        "usage": {
+          "en": "Typical elements are relief, landforms, water bodies, vegetation."
+        }
       },
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Topographical Element",
-        "nl": "[UPDATED] Topografisch Element"
+        "nl": "Topografisch Element"
       },
       "name": "TopographicalElement",
-      "parents": []
+      "parents": [],
+      "usage": {
+        "en": "Typical elements are relief, landforms, water bodies, vegetation.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Toren",
@@ -2958,7 +3002,7 @@
       },
       "definition": {
         "en": "Simple UtilityNodeContainer that takes the shape of a Tower.",
-        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een Toren."
+        "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een Toren."
       },
       "extra": {
         "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
@@ -3044,7 +3088,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Tower",
-        "nl": "[UPDATED] Toren"
+        "nl": "Toren"
       },
       "name": "Tower",
       "parents": [
@@ -3052,7 +3096,7 @@
       ],
       "usage": {
         "en": "Typical carrier of mountable Appurtenances and Cables.",
-        "nl": "[UPDATED] Typisch drager van monteerbaar Toebehoren en Kabels."
+        "nl": "Typisch drager van monteerbaar Toebehoren en Kabels."
       }
     },
     {
@@ -3067,7 +3111,7 @@
       },
       "definition": {
         "en": "The way an item looks.",
-        "nl": "[UPDATED] De manier waarop een object eruit ziet."
+        "nl": "De manier waarop een object eruit ziet."
       },
       "extra": {
         "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
@@ -3129,7 +3173,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Appearance",
-        "nl": "[UPDATED] Uiterlijk"
+        "nl": "Uiterlijk"
       },
       "name": "Appearance",
       "parents": []
@@ -3146,7 +3190,7 @@
       },
       "definition": {
         "en": "Position in vertical direction relative to a Reference Surface.",
-        "nl": "[UPDATED] Positie in verticale richting tov een Referentieoppervlak."
+        "nl": "Positie in verticale richting tov een Referentieoppervlak."
       },
       "extra": {
         "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
@@ -3208,7 +3252,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Vertical Position",
-        "nl": "[UPDATED] Verticale Positie"
+        "nl": "Verticale Positie"
       },
       "name": "VerticalPosition",
       "parents": []
@@ -3225,7 +3269,7 @@
       },
       "definition": {
         "en": "A water pipe used to convey water from one location to another.",
-        "nl": "[UPDATED] Een Pijp die wordt gebruikt om water van de ene locatie naar de andere te transporteren."
+        "nl": "Een Pijp die wordt gebruikt om water van de ene locatie naar de andere te transporteren."
       },
       "extra": {
         "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
@@ -3294,7 +3338,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "Water Pipe",
-        "nl": "[UPDATED] Waterleiding"
+        "nl": "Waterleiding"
       },
       "name": "WaterPipe",
       "parents": [
@@ -3784,8 +3828,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "efbd46d3529bad7f0672a0a45a7c5db8cf8f3005",
-  "dummy": "018",
+  "documentcommit": "f99534e38637edd2ddb4ba60d7b06644f6b9f5c3",
+  "dummy": "019",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -3813,7 +3857,7 @@
       "codelist": [],
       "definition": {
         "en": "The height of the Appurtenance.",
-        "nl": "[UPDATED] De hoogte van het Toebehoren."
+        "nl": "De hoogte van het Toebehoren."
       },
       "domain": [
         {
@@ -3893,7 +3937,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "height",
-        "nl": "[UPDATED] hoogte"
+        "nl": "hoogte"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -3920,7 +3964,7 @@
       "codelist": [],
       "definition": {
         "en": "Distance above the Reference Surface.",
-        "nl": "[UPDATED] Afstand onder het Referentieoppervlak."
+        "nl": "Afstand onder het Referentieoppervlak."
       },
       "domain": [
         {
@@ -4005,7 +4049,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "height",
-        "nl": "[UPDATED] hoogte"
+        "nl": "hoogte"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -4032,7 +4076,7 @@
       "codelist": [],
       "definition": {
         "en": "UtilityNetworkElement belonging to the complex.",
-        "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat behoort tot het complex."
+        "nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex."
       },
       "domain": [
         {
@@ -4152,7 +4196,7 @@
       "inpackage": "UNKNOWN",
       "label": {
         "en": "on",
-        "nl": "[UPDATED] op"
+        "nl": "op"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -4179,7 +4223,7 @@
       "codelist": [],
       "definition": {
         "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link.",
-        "nl": "[UPDATED] Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
+        "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
       },
       "domain": [
         {
@@ -4259,7 +4303,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "direction",
-        "nl": "[UPDATED] richting"
+        "nl": "richting"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -4286,7 +4330,7 @@
       "codelist": [],
       "definition": {
         "en": "Link of which this Node is the end Node.",
-        "nl": "[UPDATED] Link waarvan de Knoop de eindKnoop is."
+        "nl": "Link waarvan de Knoop de eindKnoop is."
       },
       "domain": [
         {
@@ -4366,7 +4410,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "end link",
-        "nl": "[UPDATED] eindlink"
+        "nl": "eindlink"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -4393,7 +4437,7 @@
       "codelist": [],
       "definition": {
         "en": "Node that is the end of the Link.",
-        "nl": "[UPDATED] Knoop waarmee de Link begint."
+        "nl": "Knoop waarmee de Link begint."
       },
       "domain": [
         {
@@ -4473,7 +4517,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "end node",
-        "nl": "[UPDATED] eindknoop"
+        "nl": "eindknoop"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -4500,7 +4544,7 @@
       "codelist": [],
       "definition": {
         "en": "Link of which this Node is the start Node.",
-        "nl": "[UPDATED] Link waarvan de Knoop de beginKnoop is."
+        "nl": "Link waarvan de Knoop de beginKnoop is."
       },
       "domain": [
         {
@@ -4580,7 +4624,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "begin link",
-        "nl": "[UPDATED] beginlink"
+        "nl": "beginlink"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -4607,7 +4651,7 @@
       "codelist": [],
       "definition": {
         "en": "Node that starts the Link.",
-        "nl": "[UPDATED] Knoop waarmee de Link eindigt."
+        "nl": "Knoop waarmee de Link eindigt."
       },
       "domain": [
         {
@@ -4687,7 +4731,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "start node",
-        "nl": "[UPDATED] startknoop"
+        "nl": "startknoop"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -4714,7 +4758,7 @@
       "codelist": [],
       "definition": {
         "en": "UtilityLinkSequence or UtilityLink that is part of the LinkSet.",
-        "nl": "[UPDATED] Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
+        "nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
       },
       "domain": [
         {
@@ -4794,7 +4838,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "link",
-        "nl": "[UPDATED] link"
+        "nl": "link"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -4821,7 +4865,7 @@
       "codelist": [],
       "definition": {
         "en": "Directed Link that is part of the LinkSequence.",
-        "nl": "[UPDATED] GerichteLink die deel uitmaakt van de Linksequentie."
+        "nl": "GerichteLink die deel uitmaakt van de Linksequentie."
       },
       "domain": [
         {
@@ -4901,7 +4945,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "link",
-        "nl": "[UPDATED] link"
+        "nl": "link"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -4928,7 +4972,7 @@
       "codelist": [],
       "definition": {
         "en": "The geometry of the centerline of the Link.",
-        "nl": "[UPDATED] De geometrie van de middellijn van de link."
+        "nl": "De geometrie van de middellijn van de link."
       },
       "domain": [
         {
@@ -5008,7 +5052,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "centreline geometry",
-        "nl": "[UPDATED] middelijngeometrie"
+        "nl": "middelijngeometrie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -5035,7 +5079,7 @@
       "codelist": [],
       "definition": {
         "en": "Geometry of the Node.",
-        "nl": "[UPDATED] Geometrie van de Knoop."
+        "nl": "Geometrie van de Knoop."
       },
       "domain": [
         {
@@ -5115,7 +5159,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "geometry",
-        "nl": "[UPDATED] geometrie"
+        "nl": "geometrie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -5142,7 +5186,7 @@
       "codelist": [],
       "definition": {
         "en": "Geometry of the container.",
-        "nl": "[UPDATED] Geometrie van de container"
+        "nl": "Geometrie van de container"
       },
       "domain": [
         {
@@ -5222,7 +5266,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "geometry",
-        "nl": "[UPDATED] geometrie"
+        "nl": "geometrie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -5249,7 +5293,7 @@
       "codelist": [],
       "definition": {
         "en": "Reference to the Link.",
-        "nl": "[UPDATED] Verwijzing naar de Link."
+        "nl": "Verwijzing naar de Link."
       },
       "domain": [
         {
@@ -5329,7 +5373,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "link",
-        "nl": "[UPDATED] link"
+        "nl": "link"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -5356,7 +5400,7 @@
       "codelist": [],
       "definition": {
         "en": "The way the geometry was determined.",
-        "nl": "[UPDATED] De manier waarop de geometrie werd bepaald."
+        "nl": "De manier waarop de geometrie werd bepaald."
       },
       "domain": [
         {
@@ -5436,7 +5480,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "survey",
-        "nl": "[UPDATED] opmeting"
+        "nl": "opmeting"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -5463,7 +5507,7 @@
       "codelist": [],
       "definition": {
         "en": "The way the position was determined.",
-        "nl": "[UPDATED] De manier waarop de positie werd bepaald."
+        "nl": "De manier waarop de positie werd bepaald."
       },
       "domain": [
         {
@@ -5548,7 +5592,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "survey",
-        "nl": "[UPDATED] opmeting"
+        "nl": "opmeting"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -5575,7 +5619,7 @@
       "codelist": [],
       "definition": {
         "en": "Address from which the address representation is derived.",
-        "nl": "[UPDATED] Adres waarvan de adresvoorstelling is afgeleid."
+        "nl": "Adres waarvan de adresvoorstelling is afgeleid."
       },
       "domain": [
         {
@@ -5672,7 +5716,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "refers to",
-        "nl": "[UPDATED] verwijst Naar"
+        "nl": "verwijst Naar"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -5687,7 +5731,7 @@
       ],
       "usage": {
         "en": "This can only be done for Belgian addresses as address means a Belgian address.",
-        "nl": "[UPDATED] Dit kan enkel voor Belgische adressen aangezien onder adres een Belgisch adres wordt verstaan."
+        "nl": "Dit kan enkel voor Belgische adressen aangezien onder adres een Belgisch adres wordt verstaan."
       }
     },
     {
@@ -5703,7 +5747,7 @@
       "codelist": [],
       "definition": {
         "en": "Country in which the address is located.",
-        "nl": "[UPDATED] Land waarin het adres gelegen is."
+        "nl": "Land waarin het adres gelegen is."
       },
       "domain": [
         {
@@ -5794,7 +5838,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "country",
-        "nl": "[UPDATED] land"
+        "nl": "land"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -5820,7 +5864,7 @@
       "codelist": [],
       "definition": {
         "en": "Municipal name from address.",
-        "nl": "[UPDATED] Gemeentenaam van het adres."
+        "nl": "Gemeentenaam van het adres."
       },
       "domain": [
         {
@@ -5911,7 +5955,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "municipality name",
-        "nl": "[UPDATED] gemeentenaam"
+        "nl": "gemeentenaam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -5937,7 +5981,7 @@
       "codelist": [],
       "definition": {
         "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number.",
-        "nl": "[UPDATED] Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
+        "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
       },
       "domain": [
         {
@@ -6045,7 +6089,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "box number",
-        "nl": "[UPDATED] busnummer"
+        "nl": "busnummer"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -6059,7 +6103,7 @@
       ],
       "usage": {
         "en": "Specialisation of Address Presentation:location indication for Belgian addresses.",
-        "nl": "[UPDATED] Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen."
+        "nl": "Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen."
       }
     },
     {
@@ -6075,7 +6119,7 @@
       "codelist": [],
       "definition": {
         "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots.",
-        "nl": "[UPDATED] Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
+        "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
       },
       "domain": [
         {
@@ -6183,7 +6227,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "house number",
-        "nl": "[UPDATED] huisnummer"
+        "nl": "huisnummer"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -6197,7 +6241,7 @@
       ],
       "usage": {
         "en": "Specialization of Address representation: location indication for Belgian addresses.",
-        "nl": "[UPDATED] Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
+        "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
       }
     },
     {
@@ -6213,7 +6257,7 @@
       "codelist": [],
       "definition": {
         "en": "Location of the Protected Area.",
-        "nl": "[UPDATED] Locatie van het BeschermdGebied."
+        "nl": "Locatie van het BeschermdGebied."
       },
       "domain": [
         {
@@ -6293,7 +6337,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location",
-        "nl": "[UPDATED] ligging"
+        "nl": "ligging"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -6320,7 +6364,7 @@
       "codelist": [],
       "definition": {
         "en": "Street name of address.",
-        "nl": "[UPDATED] Straatnaam van het adres."
+        "nl": "Straatnaam van het adres."
       },
       "domain": [
         {
@@ -6404,7 +6448,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "street name",
-        "nl": "[UPDATED] straatnaam"
+        "nl": "straatnaam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -6430,7 +6474,7 @@
       "codelist": [],
       "definition": {
         "en": "Name denoting the geographical area that groups addresses for postal purposes.",
-        "nl": "[UPDATED] Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+        "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
       },
       "domain": [
         {
@@ -6514,7 +6558,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "postal name",
-        "nl": "[UPDATED] postnaam"
+        "nl": "postnaam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -6540,7 +6584,7 @@
       "codelist": [],
       "definition": {
         "en": "Code denoting the geographical area that groups addresses for postal purposes.",
-        "nl": "[UPDATED] Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+        "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
       },
       "domain": [
         {
@@ -6629,7 +6673,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "postal code",
-        "nl": "[UPDATED] postcode"
+        "nl": "postcode"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -6655,7 +6699,7 @@
       "codelist": [],
       "definition": {
         "en": "PO Box number in a post office.",
-        "nl": "[UPDATED] Postbusnummer in een postkantoor."
+        "nl": "Postbusnummer in een postkantoor."
       },
       "domain": [
         {
@@ -6739,7 +6783,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "PO box",
-        "nl": "[UPDATED] postbus"
+        "nl": "postbus"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -6765,7 +6809,7 @@
       "codelist": [],
       "definition": {
         "en": "Name or description of the geographic object the address locator designates.",
-        "nl": "[UPDATED] Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
+        "nl": "Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
       },
       "domain": [
         {
@@ -6849,7 +6893,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location name",
-        "nl": "[UPDATED] locatienaam"
+        "nl": "locatienaam"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -6875,7 +6919,7 @@
       "codelist": [],
       "definition": {
         "en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc.",
-        "nl": "[UPDATED] Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
+        "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
       },
       "domain": [
         {
@@ -6959,7 +7003,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location indication",
-        "nl": "[UPDATED] locatieaanduiding"
+        "nl": "locatieaanduiding"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -6985,7 +7029,7 @@
       "codelist": [],
       "definition": {
         "en": "Location for which the Vertical Position applies.",
-        "nl": "[UPDATED] Locatie waarvoor de Verticale Positie geldt."
+        "nl": "Locatie waarvoor de Verticale Positie geldt."
       },
       "domain": [
         {
@@ -7077,7 +7121,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location",
-        "nl": "[UPDATED] ligging"
+        "nl": "ligging"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -7092,7 +7136,7 @@
       ],
       "usage": {
         "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface.",
-        "nl": "[UPDATED] Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de Verticale Positie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt."
+        "nl": "Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de Verticale Positie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt."
       }
     },
     {
@@ -7108,7 +7152,7 @@
       "codelist": [],
       "definition": {
         "en": "Geometry of the Annotation.",
-        "nl": "[UPDATED] Geometrie van de Annotatie."
+        "nl": "Geometrie van de Annotatie."
       },
       "domain": [
         {
@@ -7200,7 +7244,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location",
-        "nl": "[UPDATED] locatie"
+        "nl": "locatie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -7215,7 +7259,7 @@
       ],
       "usage": {
         "en": "E.g. the location and shape of a Dimension.",
-        "nl": "[UPDATED] Bvb de ligging en vorm van een Maataanduiding."
+        "nl": "Bvb de ligging en vorm van een Maataanduiding."
       }
     },
     {
@@ -7231,7 +7275,7 @@
       "codelist": [],
       "definition": {
         "en": "Shape and position features of an object,",
-        "nl": "[UPDATED] Geometrie van het TopografiscElement."
+        "nl": "Geometrie van het TopografiscElement."
       },
       "domain": [
         {
@@ -7318,7 +7362,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location",
-        "nl": "[UPDATED] locatie"
+        "nl": "locatie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -7349,7 +7393,7 @@
       "codelist": [],
       "definition": {
         "en": "Location of the Reference Surface.",
-        "nl": "[UPDATED] Locatie van het Referentieoppervlak."
+        "nl": "Locatie van het Referentieoppervlak."
       },
       "domain": [
         {
@@ -7441,7 +7485,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location",
-        "nl": "[UPDATED] ligging"
+        "nl": "ligging"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -7456,7 +7500,7 @@
       ],
       "usage": {
         "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface.",
-        "nl": "[UPDATED] Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de Verticale Positie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak."
+        "nl": "Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de Verticale Positie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak."
       }
     },
     {
@@ -7472,7 +7516,7 @@
       "codelist": [],
       "definition": {
         "en": "Geometry of the site covered by the Plan.",
-        "nl": "[UPDATED] Geometrie van de locatie waarop het Plan betrekking heeft."
+        "nl": "Geometrie van de locatie waarop het Plan betrekking heeft."
       },
       "domain": [
         {
@@ -7552,7 +7596,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "location",
-        "nl": "[UPDATED] locatie"
+        "nl": "locatie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -7579,7 +7623,7 @@
       "codelist": [],
       "definition": {
         "en": "Geometry of the complex to describe its location and size.",
-        "nl": "[UPDATED] Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven."
+        "nl": "Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven."
       },
       "domain": [
         {
@@ -7659,7 +7703,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "geometry",
-        "nl": "[UPDATED] geometrie"
+        "nl": "geometrie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -7686,7 +7730,7 @@
       "codelist": [],
       "definition": {
         "en": "Geometry of the Protected Area.",
-        "nl": "[UPDATED] Geometrie van het BeschermdGebied."
+        "nl": "Geometrie van het BeschermdGebied."
       },
       "domain": [
         {
@@ -7766,7 +7810,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "geometry",
-        "nl": "[UPDATED] geometrie"
+        "nl": "geometrie"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -7793,7 +7837,7 @@
       "codelist": [],
       "definition": {
         "en": "The complete address in one string, formatted or not.",
-        "nl": "[UPDATED] Het complete adres in één string, al dan niet geformatteerd."
+        "nl": "Het complete adres in één string, al dan niet geformatteerd."
       },
       "domain": [
         {
@@ -7889,7 +7933,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "full address",
-        "nl": "[UPDATED] volledig Adres"
+        "nl": "volledig Adres"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -7903,7 +7947,7 @@
       ],
       "usage": {
         "en": "Avoids errors when splitting an address into its components. Displays the prescribed order of the different parts.",
-        "nl": "[UPDATED] Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer."
+        "nl": "Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer."
       }
     },
     {
@@ -7919,7 +7963,7 @@
       "codelist": [],
       "definition": {
         "en": "The region of address, usually a province or state or similar area that typically includes several places.",
-        "nl": "[UPDATED] De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
+        "nl": "De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
       },
       "domain": [
         {
@@ -8003,7 +8047,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "administrative unit level 2",
-        "nl": "[UPDATED] administratieve eenheid niveau 2"
+        "nl": "administratieve eenheid niveau 2"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -8029,7 +8073,7 @@
       "codelist": [],
       "definition": {
         "en": "Highest Administrative Unit of the address, usually a country.",
-        "nl": "[UPDATED] Hoogste Administratieve eenheid van het adres, doorgaans een land."
+        "nl": "Hoogste Administratieve eenheid van het adres, doorgaans een land."
       },
       "domain": [
         {
@@ -8113,7 +8157,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "administrative unit level 1",
-        "nl": "[UPDATED] administratieve eenheid niveau 1"
+        "nl": "administratieve eenheid niveau 1"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -8139,7 +8183,7 @@
       "codelist": [],
       "definition": {
         "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit.",
-        "nl": "[UPDATED] Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
+        "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
       },
       "domain": [
         {
@@ -8235,7 +8279,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "address area",
-        "nl": "[UPDATED] adresgebied"
+        "nl": "adresgebied"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -8249,7 +8293,7 @@
       ],
       "usage": {
         "en": "E.g. the name of the hamlet in which the address is located.",
-        "nl": "[UPDATED] Bvb de naam van het gehucht waarin het adres ligt."
+        "nl": "Bvb de naam van het gehucht waarin het adres ligt."
       }
     },
     {
@@ -8265,7 +8309,7 @@
       "codelist": [],
       "definition": {
         "en": "The place where the Document is stored or can be consulted.",
-        "nl": "[UPDATED] De plaats waar het Document is opgeslagen of raadpleegbaar is."
+        "nl": "De plaats waar het Document is opgeslagen of raadpleegbaar is."
       },
       "domain": [
         {
@@ -8344,7 +8388,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "document location",
-        "nl": "[UPDATED] documentlocatie"
+        "nl": "documentlocatie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -8370,7 +8414,7 @@
       "codelist": [],
       "definition": {
         "en": "Name from the agent who assigned the identifier.",
-        "nl": "[UPDATED] Naam vd agent die de identificator heeft toegekend."
+        "nl": "Naam vd agent die de identificator heeft toegekend."
       },
       "domain": [
         {
@@ -8454,7 +8498,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "assigned by (String)",
-        "nl": "[UPDATED] toegekend door (String)"
+        "nl": "toegekend door (String)"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -8480,7 +8524,7 @@
       "codelist": [],
       "definition": {
         "en": "External Identifier of the complex.",
-        "nl": "[UPDATED] Externe Identificator van het complex."
+        "nl": "Externe Identificator van het complex."
       },
       "domain": [
         {
@@ -8567,7 +8611,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "identifier",
-        "nl": "[UPDATED] identificator"
+        "nl": "identificator"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -8598,7 +8642,7 @@
       "codelist": [],
       "definition": {
         "en": "Identifier of the Document.",
-        "nl": "[UPDATED] Identificator van het Document."
+        "nl": "Identificator van het Document."
       },
       "domain": [
         {
@@ -8678,7 +8722,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "document identifier",
-        "nl": "[UPDATED] documentidentificator"
+        "nl": "documentidentificator"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -8705,7 +8749,7 @@
       "codelist": [],
       "definition": {
         "en": "String used to uniquely identify the object.",
-        "nl": "[UPDATED] String gebruikt om het object uniek te identificeren."
+        "nl": "String gebruikt om het object uniek te identificeren."
       },
       "domain": [
         {
@@ -8801,7 +8845,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "identifier",
-        "nl": "[UPDATED] identificator"
+        "nl": "identificator"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -8815,7 +8859,7 @@
       ],
       "usage": {
         "en": "Type of the string refers to the identifier (incl its version), the string itself to the actual identifier.",
-        "nl": "[UPDATED] Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
+        "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
       }
     },
     {
@@ -8831,7 +8875,7 @@
       "codelist": [],
       "definition": {
         "en": "Geometry expressed in wkt format.",
-        "nl": "[UPDATED] Geometrie uitgedrukt in wkt-formaat."
+        "nl": "Geometrie uitgedrukt in wkt-formaat."
       },
       "domain": [
         {
@@ -8927,7 +8971,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "wkt",
-        "nl": "[UPDATED] als WKT"
+        "nl": "als WKT"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -8941,7 +8985,7 @@
       ],
       "usage": {
         "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
-        "nl": "[UPDATED] Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype."
+        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype."
       }
     },
     {
@@ -8957,7 +9001,7 @@
       "codelist": [],
       "definition": {
         "en": "Direct Position expressed in wkt format.",
-        "nl": "[UPDATED] Directe positie uitgedrukt in wkt-formaat."
+        "nl": "Directe positie uitgedrukt in wkt-formaat."
       },
       "domain": [
         {
@@ -9048,7 +9092,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "wkt",
-        "nl": "[UPDATED] wkt"
+        "nl": "wkt"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9062,7 +9106,7 @@
       ],
       "usage": {
         "en": "Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype.",
-        "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
+        "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
       }
     },
     {
@@ -9070,14 +9114,14 @@
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "ap-definition-en": {
-        "en": "Geometry expressed in wkt format."
+        "en": "Geometry expressed in gml format."
       },
       "ap-label-en": {
         "en": "gml"
       },
       "codelist": [],
       "definition": {
-        "en": "Geometry expressed in wkt format.",
+        "en": "Geometry expressed in gml format.",
         "nl": "[UPDATED] Geometrie uitgedrukt in gml-formaat."
       },
       "domain": [
@@ -9128,7 +9172,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Geometry expressed in wkt format."
+            "value": "Geometry expressed in gml format."
           },
           {
             "key": "label-en",
@@ -9138,7 +9182,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+            "value": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
           },
           {
             "key": "definition-nl",
@@ -9154,27 +9198,27 @@
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Geometry expressed in wkt format."
+          "en": "Geometry expressed in gml format."
         },
         "ap-label-en": {
           "en": "gml"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Geometry expressed in wkt format."
+          "en": "Geometry expressed in gml format."
         },
         "label": {
           "en": "gml"
         },
         "usage": {
-          "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype."
+          "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype."
         }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "gml",
-        "nl": "[UPDATED] als GML"
+        "nl": "als GML"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9187,7 +9231,7 @@
         }
       ],
       "usage": {
-        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
+        "en": "Use <a href=\\\\\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\\\\\">gmlliteral</a> as datatype.",
         "nl": "[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
       }
     },
@@ -9204,7 +9248,7 @@
       "codelist": [],
       "definition": {
         "en": "Direct Position expressed in gml format.",
-        "nl": "[UPDATED] Directe positie uitgedrukt in gml-formaat."
+        "nl": "Directe positie uitgedrukt in gml-formaat."
       },
       "domain": [
         {
@@ -9295,7 +9339,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "gml",
-        "nl": "[UPDATED] gml"
+        "nl": "gml"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9309,7 +9353,7 @@
       ],
       "usage": {
         "en": "Use <a href='http://www.opengis.net/ont/geosparql#gmlLiteral'>gmlliteral</a> as datatype.",
-        "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
+        "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
       }
     },
     {
@@ -9325,7 +9369,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of the Pipe as a container.",
-        "nl": "[UPDATED] Aard van de Pijp als container."
+        "nl": "Aard van de Pijp als container."
       },
       "domain": [
         {
@@ -9410,7 +9454,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "container type",
-        "nl": "[UPDATED] containertype"
+        "nl": "containertype"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9437,7 +9481,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of the Duct as a container.",
-        "nl": "[UPDATED] Aard van het Kanaal als container."
+        "nl": "Aard van het Kanaal als container."
       },
       "domain": [
         {
@@ -9522,7 +9566,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "container type",
-        "nl": "[UPDATED] containertype"
+        "nl": "containertype"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9549,7 +9593,7 @@
       "codelist": [],
       "definition": {
         "en": "Name by which the complex is known.",
-        "nl": "[UPDATED] Naam waaronder het complex gekend is."
+        "nl": "Naam waaronder het complex gekend is."
       },
       "domain": [
         {
@@ -9635,7 +9679,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "name",
-        "nl": "[UPDATED] naam"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9665,7 +9709,7 @@
       "codelist": [],
       "definition": {
         "en": "Time the identifier was assigned.",
-        "nl": "[UPDATED] Tijdstip waarop de identificator werd uitgegeven."
+        "nl": "Tijdstip waarop de identificator werd uitgegeven."
       },
       "domain": [
         {
@@ -9749,7 +9793,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "assigned on",
-        "nl": "[UPDATED] toegekend op"
+        "nl": "toegekend op"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9775,7 +9819,7 @@
       "codelist": [],
       "definition": {
         "en": "Link to the agent who assigned the identifier.",
-        "nl": "[UPDATED] Link naar de agent die de identificator heeft uitgegeven."
+        "nl": "Link naar de agent die de identificator heeft uitgegeven."
       },
       "domain": [
         {
@@ -9860,7 +9904,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "assigned by",
-        "nl": "[UPDATED] toegekend door"
+        "nl": "toegekend door"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -9887,7 +9931,7 @@
       "codelist": [],
       "definition": {
         "en": "The type of utility network or the utility network theme.",
-        "nl": "[UPDATED] Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
+        "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
       },
       "domain": [
         {
@@ -9949,6 +9993,11 @@
             "key": "uri",
             "note": "null",
             "value": "http://purl.org/dc/elements/1.1/type"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.",
+            "value": "NOTE"
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -9966,13 +10015,15 @@
         "label": {
           "en": "utility network type"
         },
-        "usage": ""
+        "usage": {
+          "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "utility network type",
-        "nl": "[UPDATED] nutsvoorzieningnetwerktype"
+        "nl": "nutsvoorzieningnetwerktype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -9984,7 +10035,11 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "http://purl.org/dc/elements/1.1/type",
@@ -9999,7 +10054,7 @@
       "codelist": [],
       "definition": {
         "en": "The type of Reference Surface.",
-        "nl": "[UPDATED] Type referentieoppervlak."
+        "nl": "Type referentieoppervlak."
       },
       "domain": [
         {
@@ -10061,6 +10116,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Typsch maaiveld."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Typical the groundlevel."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -10078,13 +10138,15 @@
         "label": {
           "en": "type"
         },
-        "usage": ""
+        "usage": {
+          "en": "Typical the groundlevel."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "type",
-        "nl": "[UPDATED] type"
+        "nl": "type"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -10096,7 +10158,11 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "Typical the groundlevel.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "http://purl.org/dc/elements/1.1/type",
@@ -10111,7 +10177,7 @@
       "codelist": [],
       "definition": {
         "en": "Classification of different types of protected areas.",
-        "nl": "[UPDATED] Aard van het BeschermdGebied."
+        "nl": "Aard van het BeschermdGebied."
       },
       "domain": [
         {
@@ -10191,7 +10257,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "type",
-        "nl": "[UPDATED] type"
+        "nl": "type"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -10218,7 +10284,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of the Topographical Element.",
-        "nl": "[UPDATED] Aard van het TopografischElement."
+        "nl": "Aard van het TopografischElement."
       },
       "domain": [
         {
@@ -10298,7 +10364,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "topographical element type",
-        "nl": "[UPDATED] topografisch elementtype"
+        "nl": "topografisch elementtype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -10325,7 +10391,7 @@
       "codelist": [],
       "definition": {
         "en": "Classification of the document.",
-        "nl": "[UPDATED] Classificatie van het Document."
+        "nl": "Classificatie van het Document."
       },
       "domain": [
         {
@@ -10405,7 +10471,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "document type",
-        "nl": "[UPDATED] documentType"
+        "nl": "documentType"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -10432,7 +10498,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of Appurtenance.",
-        "nl": "[UPDATED] Type van Toebehoren."
+        "nl": "Type van Toebehoren."
       },
       "domain": [
         {
@@ -10517,7 +10583,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "appurtenance type",
-        "nl": "[UPDATED] toebehorentype"
+        "nl": "toebehorentype"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -10544,7 +10610,7 @@
       "codelist": [],
       "definition": {
         "en": "Classification of the Annotation.",
-        "nl": "[UPDATED] Aard van de Annotatie."
+        "nl": "Aard van de Annotatie."
       },
       "domain": [
         {
@@ -10631,7 +10697,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "annotation type",
-        "nl": "[UPDATED] annotatietype"
+        "nl": "annotatietype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -10662,7 +10728,7 @@
       "codelist": [],
       "definition": {
         "en": "Name of the Protected Area.",
-        "nl": "[UPDATED] Naam van het BeschermdGebied."
+        "nl": "Naam van het BeschermdGebied."
       },
       "domain": [
         {
@@ -10741,7 +10807,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "name",
-        "nl": "[UPDATED] naam"
+        "nl": "naam"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -10767,7 +10833,7 @@
       "codelist": [],
       "definition": {
         "en": "Object to which the document refers.",
-        "nl": "[UPDATED] Het Object waar het Document betrekking op heeft."
+        "nl": "Het Object waar het Document betrekking op heeft."
       },
       "domain": [
         {
@@ -10847,7 +10913,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "refers to",
-        "nl": "[UPDATED] verwijstNaar"
+        "nl": "verwijstNaar"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -10874,7 +10940,7 @@
       "codelist": [],
       "definition": {
         "en": "Reference to a Document containing additional information about the element.",
-        "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het element."
+        "nl": "Verwijzing naar een Document met extra informatie over het element."
       },
       "domain": [
         {
@@ -10954,7 +11020,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "documentation",
-        "nl": "[UPDATED] documentatie"
+        "nl": "documentatie"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -10981,7 +11047,7 @@
       "codelist": [],
       "definition": {
         "en": "Reference to a Document containing additional information about the Network.",
-        "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het Netwerk."
+        "nl": "Verwijzing naar een Document met extra informatie over het Netwerk."
       },
       "domain": [
         {
@@ -11061,7 +11127,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "documentation",
-        "nl": "[UPDATED] documentatie"
+        "nl": "documentatie"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -11088,7 +11154,7 @@
       "codelist": [],
       "definition": {
         "en": "Nature of the data carrier on which the Document is stored.",
-        "nl": "[UPDATED] Aard van de gegevensdrager waarop het Document is opgeslagen."
+        "nl": "Aard van de gegevensdrager waarop het Document is opgeslagen."
       },
       "domain": [
         {
@@ -11168,7 +11234,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "document mediatype",
-        "nl": "[UPDATED] documentmediumtype"
+        "nl": "documentmediumtype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -11195,7 +11261,7 @@
       "codelist": [],
       "definition": {
         "en": "Description of the Document.",
-        "nl": "[UPDATED] Beschrijving van het Document."
+        "nl": "Beschrijving van het Document."
       },
       "domain": [
         {
@@ -11274,7 +11340,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "description",
-        "nl": "[UPDATED] beschrijving"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -11300,7 +11366,7 @@
       "codelist": [],
       "definition": {
         "en": "A more detailed description of the function.",
-        "nl": "[UPDATED] Een meer gedtailleerde beschrijving van de functie."
+        "nl": "Een meer gedtailleerde beschrijving van de functie."
       },
       "domain": [
         {
@@ -11379,7 +11445,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "description",
-        "nl": "[UPDATED] beschrijving"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -11405,7 +11471,7 @@
       "codelist": [],
       "definition": {
         "en": "Description of the Protected Area.",
-        "nl": "[UPDATED] Beschrijving van het BeschermdGebied."
+        "nl": "Beschrijving van het BeschermdGebied."
       },
       "domain": [
         {
@@ -11484,7 +11550,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "description",
-        "nl": "[UPDATED] beschrijving"
+        "nl": "beschrijving"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -11510,7 +11576,7 @@
       "codelist": [],
       "definition": {
         "en": "The moment at which the Survey took place.",
-        "nl": "[UPDATED] Het moment waarop de Opmeting heeft plaatsgevonden"
+        "nl": "Het moment waarop de Opmeting heeft plaatsgevonden"
       },
       "domain": [
         {
@@ -11589,7 +11655,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "date",
-        "nl": "[UPDATED] datum"
+        "nl": "datum"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -11615,7 +11681,7 @@
       "codelist": [],
       "definition": {
         "en": "Output the result of the activity in the function.",
-        "nl": "[UPDATED] Uitvoer van het resultaat van de activiteit in de functie."
+        "nl": "Uitvoer van het resultaat van de activiteit in de functie."
       },
       "domain": [
         {
@@ -11690,7 +11756,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "output",
-        "nl": "[UPDATED] output"
+        "nl": "output"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -11717,7 +11783,7 @@
       "codelist": [],
       "definition": {
         "en": "Input for the activity in the function.",
-        "nl": "[UPDATED] Invoer voor de activiteit in de functie."
+        "nl": "Invoer voor de activiteit in de functie."
       },
       "domain": [
         {
@@ -11792,7 +11858,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "input",
-        "nl": "[UPDATED] input"
+        "nl": "input"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -11819,7 +11885,7 @@
       "codelist": [],
       "definition": {
         "en": "Classification of the activity.",
-        "nl": "[UPDATED] Classificatie van de activiteit."
+        "nl": "Classificatie van de activiteit."
       },
       "domain": [
         {
@@ -11911,7 +11977,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "activity",
-        "nl": "[UPDATED] activiteit"
+        "nl": "activiteit"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -11926,7 +11992,7 @@
       ],
       "usage": {
         "en": "Preferably use the NACE codes.",
-        "nl": "[UPDATED] Gebruik bij voorkeur de NACE codes."
+        "nl": "Gebruik bij voorkeur de NACE codes."
       }
     },
     {
@@ -11942,7 +12008,7 @@
       "codelist": [],
       "definition": {
         "en": "Unit identifier.",
-        "nl": "[UPDATED] Identificator van de eenheid."
+        "nl": "Identificator van de eenheid."
       },
       "domain": [
         {
@@ -12038,7 +12104,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "uom identifier",
-        "nl": "[UPDATED] eenheidsidentificator"
+        "nl": "eenheidsidentificator"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -12052,7 +12118,7 @@
       ],
       "usage": {
         "en": "E.g. m for meter.",
-        "nl": "[UPDATED] Bvb m voor meter."
+        "nl": "Bvb m voor meter."
       }
     },
     {
@@ -12137,7 +12203,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "value",
-        "nl": "[UPDATED] waarde"
+        "nl": "waarde"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -12156,12 +12222,16 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Unit in which the quantity is expressed."
       },
       "ap-label-en": {
         "en": "uom"
       },
       "codelist": [],
+      "definition": {
+        "en": "Unit in which the quantity is expressed.",
+        "nl": "Enter your translation here"
+      },
       "domain": [
         {
           "EA-Name": "Maat",
@@ -12212,18 +12282,25 @@
             "key": "definition-nl",
             "note": "null",
             "value": "Eenheid waarin de hoeveelheid wordt uitgedrukt."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Unit in which the quantity is expressed."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Unit in which the quantity is expressed."
         },
         "ap-label-en": {
           "en": "uom"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Unit in which the quantity is expressed."
+        },
         "label": {
           "en": "uom"
         },
@@ -12233,7 +12310,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "uom",
-        "nl": "[UPDATED] eenheid"
+        "nl": "eenheid"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -12252,12 +12329,16 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Unit in which the Length is expressed."
       },
       "ap-label-en": {
         "en": "uom"
       },
       "codelist": [],
+      "definition": {
+        "en": "Unit in which the Length is expressed.",
+        "nl": "Enter your translation here"
+      },
       "domain": [
         {
           "EA-Name": "Lengte",
@@ -12318,28 +12399,42 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb meter, centimeter."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Unit in which the Length is expressed."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "E.g. meters, centimeters."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Unit in which the Length is expressed."
         },
         "ap-label-en": {
           "en": "uom"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Unit in which the Length is expressed."
+        },
         "label": {
           "en": "uom"
         },
-        "usage": ""
+        "usage": {
+          "en": "E.g. meters, centimeters."
+        }
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "uom",
-        "nl": "[UPDATED] eenheid"
+        "nl": "eenheid"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -12351,7 +12446,11 @@
           "EA-Package": "ISO-CSL",
           "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength"
         }
-      ]
+      ],
+      "usage": {
+        "en": "E.g. meters, centimeters.",
+        "nl": "Enter your translation here"
+      }
     }
   ],
   "externals": [
@@ -12367,7 +12466,7 @@
       },
       "definition": {
         "en": "Distance between two points on a curve.",
-        "nl": "[UPDATED] Afstand tussen twee punten op een kromme."
+        "nl": "Afstand tussen twee punten op een kromme."
       },
       "extra": {
         "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
@@ -12458,12 +12557,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Length",
-        "nl": "[UPDATED] Lengte"
+        "nl": "Lengte"
       },
       "name": "Length",
       "usage": {
         "en": "Used here to describe the size of something, for example the height of a tower.",
-        "nl": "[UPDATED] Hier gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren."
+        "nl": "Hier gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren."
       }
     },
     {
@@ -12478,7 +12577,7 @@
       },
       "definition": {
         "en": "A measured amount of a certain quantity, expressed in some unit.",
-        "nl": "[UPDATED] Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid."
+        "nl": "Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid."
       },
       "extra": {
         "EA-Guid": "{889C9976-B9C7-47d5-849B-C0D9B0D55915}",
@@ -12545,7 +12644,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Measure",
-        "nl": "[UPDATED] Maat"
+        "nl": "Maat"
       },
       "name": "Measure"
     },
@@ -12617,7 +12716,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Unit of Measure",
-        "nl": "[UPDATED] Meeteenheid"
+        "nl": "Meeteenheid"
       },
       "name": "UnitOfMeasure"
     },
@@ -12706,7 +12805,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "UOM Length",
-        "nl": "[UPDATED] Lengteëenheid"
+        "nl": "Lengteëenheid"
       },
       "name": "UomLength"
     },
@@ -12722,7 +12821,7 @@
       },
       "definition": {
         "en": "Degree to which a specified position represents the actual position.",
-        "nl": "[UPDATED] Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt."
+        "nl": "Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt."
       },
       "extra": {
         "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
@@ -12818,12 +12917,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Positional Accuracy",
-        "nl": "[UPDATED] PositioneleNauwkeurigheid"
+        "nl": "PositioneleNauwkeurigheid"
       },
       "name": "PositionalAccuracy",
       "usage": {
         "en": "For example, expressed as the maximum deviation in cm between both positions.",
-        "nl": "[UPDATED] Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities."
+        "nl": "Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities."
       }
     },
     {
@@ -12838,7 +12937,7 @@
       },
       "definition": {
         "en": "Someone or something that can act or produce an effect.",
-        "nl": "[UPDATED] Iemand die of iets dat kan handelen of een effect kan teweeg brengen."
+        "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."
       },
       "extra": {
         "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
@@ -12895,7 +12994,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Agent",
-        "nl": "[UPDATED] Agent"
+        "nl": "Agent"
       },
       "name": "Agent"
     },
@@ -12904,10 +13003,14 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A 1-dimensional geometric primitive."
       },
       "ap-label-en": {
         "en": "Curve"
+      },
+      "definition": {
+        "en": "A 1-dimensional geometric primitive.",
+        "nl": "Enter your translation here"
       },
       "extra": {
         "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
@@ -12963,40 +13066,62 @@
             "key": "ap-usageNote-nl",
             "note": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A 1-dimensional geometric primitive."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A 1-dimensional geometric primitive."
         },
         "ap-label-en": {
           "en": "Curve"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A 1-dimensional geometric primitive."
+        },
         "label": {
           "en": "Curve"
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
-        "usage": ""
+        "usage": {
+          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
+        }
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Curve",
-        "nl": "[UPDATED] Curve"
+        "nl": "Curve"
       },
-      "name": "Curve"
+      "name": "Curve",
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "http://www.opengis.net/ont/sf#Point",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A 0-dimensional geometric primitive."
       },
       "ap-label-en": {
         "en": "Point"
+      },
+      "definition": {
+        "en": "A 0-dimensional geometric primitive.",
+        "nl": "Enter your translation here"
       },
       "extra": {
         "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
@@ -13052,30 +13177,48 @@
             "key": "ap-usageNote-nl",
             "note": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A 0-dimensional geometric primitive."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+            "value": "NOTE"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A 0-dimensional geometric primitive."
         },
         "ap-label-en": {
           "en": "Point"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A 0-dimensional geometric primitive."
+        },
         "label": {
           "en": "Point"
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
-        "usage": ""
+        "usage": {
+          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
+        }
       },
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Point",
-        "nl": "[UPDATED] Punt"
+        "nl": "Punt"
       },
-      "name": "Point"
+      "name": "Point",
+      "usage": {
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -13089,7 +13232,7 @@
       },
       "definition": {
         "en": "Kind of container.",
-        "nl": "[UPDATED] Aard van de container."
+        "nl": "Aard van de container."
       },
       "extra": {
         "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
@@ -13156,7 +13299,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Container Type Value",
-        "nl": "[UPDATED] Containertype"
+        "nl": "Containertype"
       },
       "name": "ContainerTypeValue"
     },
@@ -13172,7 +13315,7 @@
       },
       "definition": {
         "en": "To what extent the object is observable.",
-        "nl": "[UPDATED] In welke mate het object waarneembaar is."
+        "nl": "In welke mate het object waarneembaar is."
       },
       "extra": {
         "EA-Guid": "{8B274381-D55D-4519-AAC1-D795D69B5003}",
@@ -13239,7 +13382,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Visibility Type Value",
-        "nl": "[UPDATED] Zichtbaarheidstype"
+        "nl": "Zichtbaarheidstype"
       },
       "name": "VisibilityTypeValue"
     },
@@ -13255,7 +13398,7 @@
       },
       "definition": {
         "en": "The nature of the risk.",
-        "nl": "[UPDATED] De aard van het risico"
+        "nl": "De aard van het risico"
       },
       "extra": {
         "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
@@ -13322,7 +13465,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Risk Type Value",
-        "nl": "[UPDATED] RisicoType"
+        "nl": "RisicoType"
       },
       "name": "RiskTypeValue"
     },
@@ -13338,7 +13481,7 @@
       },
       "definition": {
         "en": "Color of the element.",
-        "nl": "[UPDATED] De kleur van het element"
+        "nl": "De kleur van het element"
       },
       "extra": {
         "EA-Guid": "{D8B48467-825B-4904-B96D-99B05F82D1E7}",
@@ -13405,7 +13548,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Color Value",
-        "nl": "[UPDATED] Kleur"
+        "nl": "Kleur"
       },
       "name": "ColorValue"
     },
@@ -13421,7 +13564,7 @@
       },
       "definition": {
         "en": "The kind of material used.",
-        "nl": "[UPDATED] De aard van het gebruikte materiaal"
+        "nl": "De aard van het gebruikte materiaal"
       },
       "extra": {
         "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
@@ -13488,7 +13631,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Material Type Value",
-        "nl": "[UPDATED] MateriaalType"
+        "nl": "MateriaalType"
       },
       "name": "MaterialTypeValue"
     },
@@ -13504,7 +13647,7 @@
       },
       "definition": {
         "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
-        "nl": "[UPDATED] Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
+        "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
       },
       "extra": {
         "EA-Guid": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
@@ -13571,7 +13714,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Subtheme Value",
-        "nl": "[UPDATED] Subthema"
+        "nl": "Subthema"
       },
       "name": "SubthemeValue"
     },
@@ -13587,7 +13730,7 @@
       },
       "definition": {
         "en": "Classification of utility network types.",
-        "nl": "[UPDATED] Classificatie van typen nutsvoorzieningnetwerken."
+        "nl": "Classificatie van typen nutsvoorzieningnetwerken."
       },
       "extra": {
         "EA-Guid": "{216EAE99-067D-42f0-896F-0497F500AF65}",
@@ -13654,7 +13797,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Utility Network Type Value",
-        "nl": "[UPDATED] Nutsvoorzieningnetwerktype"
+        "nl": "Nutsvoorzieningnetwerktype"
       },
       "name": "UtilityNetworkTypeValue"
     },
@@ -13670,7 +13813,7 @@
       },
       "definition": {
         "en": "The state of the facility component.",
-        "nl": "[UPDATED] De hoedanigheid van het faciliteitsonderdeel."
+        "nl": "De hoedanigheid van het faciliteitsonderdeel."
       },
       "extra": {
         "EA-Guid": "{AD6B4EE2-398B-4a03-BDA1-AF15D5EC8843}",
@@ -13737,7 +13880,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Condition of Facility Value",
-        "nl": "[UPDATED] Faciliteitstatus"
+        "nl": "Faciliteitstatus"
       },
       "name": "ConditionOfFacilityValue"
     },
@@ -13809,7 +13952,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Vertical Position Value",
-        "nl": "[UPDATED] Verticale Positietype"
+        "nl": "Verticale Positietype"
       },
       "name": "VerticalPositionValue"
     },
@@ -13825,7 +13968,7 @@
       },
       "definition": {
         "en": "Classification of utility network types.",
-        "nl": "[UPDATED] Classificatie van typen nutsvoorzieningsleveringen."
+        "nl": "Classificatie van typen nutsvoorzieningsleveringen."
       },
       "extra": {
         "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
@@ -13892,7 +14035,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Utility Delivery Type Value",
-        "nl": "[UPDATED] Nutsvoorzieningleveringstype"
+        "nl": "Nutsvoorzieningleveringstype"
       },
       "name": "UtilityDeliveryTypeValue"
     },
@@ -13908,7 +14051,7 @@
       },
       "definition": {
         "en": "Classification of warning types.",
-        "nl": "[UPDATED] Classificatie van soorten waarschuwingen."
+        "nl": "Classificatie van soorten waarschuwingen."
       },
       "extra": {
         "EA-Guid": "{9D3B762F-D306-436c-AF88-A6BB81CDA763}",
@@ -13975,7 +14118,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Warning Type Value",
-        "nl": "[UPDATED] Waarschuwingstype"
+        "nl": "Waarschuwingstype"
       },
       "name": "WarningTypeValue"
     },
@@ -13991,7 +14134,7 @@
       },
       "definition": {
         "en": "Kind of material the telecommunication cable is made of.",
-        "nl": "[UPDATED] Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is."
+        "nl": "Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is."
       },
       "extra": {
         "EA-Guid": "{4993E731-18FC-455f-8679-DC8F668B04E2}",
@@ -14058,7 +14201,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Telecommunications Cable Material Type Value",
-        "nl": "[UPDATED] Telecommunicatiekabelmateriaaltype"
+        "nl": "Telecommunicatiekabelmateriaaltype"
       },
       "name": "TelecommunicationsCableMaterialTypeValue"
     },
@@ -14074,7 +14217,7 @@
       },
       "definition": {
         "en": "Classification of oil, gas or chemicals.",
-        "nl": "[UPDATED] Classificatie van de olie, gas of chemicaliën."
+        "nl": "Classificatie van de olie, gas of chemicaliën."
       },
       "extra": {
         "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
@@ -14141,7 +14284,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Oil Gas Chemicals Product Type Value",
-        "nl": "[UPDATED] OlieGasChemicalientype"
+        "nl": "OlieGasChemicalientype"
       },
       "name": "OilGasChemicalsProductTypeValue"
     },
@@ -14157,7 +14300,7 @@
       },
       "definition": {
         "en": "Nature of sewage.",
-        "nl": "[UPDATED] Aard van het rioolwater."
+        "nl": "Aard van het rioolwater."
       },
       "extra": {
         "EA-Guid": "{6E79C43A-E2A6-40ce-8B1B-731472FC1FCB}",
@@ -14224,7 +14367,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Sewer Water Type Value",
-        "nl": "[UPDATED] Rioolwatertype"
+        "nl": "Rioolwatertype"
       },
       "name": "SewerWaterTypeValue"
     },
@@ -14240,7 +14383,7 @@
       },
       "definition": {
         "en": "Kind of water.",
-        "nl": "[UPDATED] Aard van het water."
+        "nl": "Aard van het water."
       },
       "extra": {
         "EA-Guid": "{979037AB-2661-43c1-84E1-F12623E177FE}",
@@ -14307,7 +14450,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Water Type Value",
-        "nl": "[UPDATED] Watertype"
+        "nl": "Watertype"
       },
       "name": "WaterTypeValue"
     },
@@ -14323,7 +14466,7 @@
       },
       "definition": {
         "en": "Classification of thermal product.",
-        "nl": "[UPDATED] Classificatie van het termisch product."
+        "nl": "Classificatie van het termisch product."
       },
       "extra": {
         "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
@@ -14390,7 +14533,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Thermal Product Type Value",
-        "nl": "[UPDATED] Thermisch Producttype"
+        "nl": "Thermisch Producttype"
       },
       "name": "ThermalProductTypeValue"
     },
@@ -14399,10 +14542,14 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "TO DO"
       },
       "ap-label-en": {
         "en": "Sign"
+      },
+      "definition": {
+        "en": "TO DO",
+        "nl": "Enter your translation here"
       },
       "extra": {
         "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
@@ -14441,18 +14588,25 @@
             "key": "definition-nl",
             "note": "null",
             "value": "TO DO"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "TO DO"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "TO DO"
         },
         "ap-label-en": {
           "en": "Sign"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "TO DO"
+        },
         "label": {
           "en": "Sign"
         },
@@ -14462,7 +14616,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Sign",
-        "nl": "[UPDATED] Teken"
+        "nl": "Teken"
       },
       "name": "Sign"
     },
@@ -14478,7 +14632,7 @@
       },
       "definition": {
         "en": "Appurtenance classification.",
-        "nl": "[UPDATED] Classificatie van de toebehoren."
+        "nl": "Classificatie van de toebehoren."
       },
       "extra": {
         "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
@@ -14545,7 +14699,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Appurtenance Type Value",
-        "nl": "[UPDATED] Toebehorentype"
+        "nl": "Toebehorentype"
       },
       "name": "AppurtenanceTypeValue"
     },
@@ -14561,7 +14715,7 @@
       },
       "definition": {
         "en": "Classification of economic activity.",
-        "nl": "[UPDATED] Classificatie van de economische activiteit."
+        "nl": "Classificatie van de economische activiteit."
       },
       "extra": {
         "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
@@ -14628,7 +14782,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Economic Activity Value",
-        "nl": "[UPDATED] Economische Activiteittype"
+        "nl": "Economische Activiteittype"
       },
       "name": "EconomicActivityValue"
     },
@@ -14644,7 +14798,7 @@
       },
       "definition": {
         "en": "The value of inputs and outputs.",
-        "nl": "[UPDATED] De waarde van de input en output."
+        "nl": "De waarde van de input en output."
       },
       "extra": {
         "EA-Guid": "{6D0DD9F7-83BC-4aa8-93A3-14BA50E9078F}",
@@ -14711,7 +14865,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Input Output Value",
-        "nl": "[UPDATED] Inputoutputtype"
+        "nl": "Inputoutputtype"
       },
       "name": "InputOutputValue"
     },
@@ -14727,7 +14881,7 @@
       },
       "definition": {
         "en": "Kind of annotation.",
-        "nl": "[UPDATED] Aard van de annotatie"
+        "nl": "Aard van de annotatie"
       },
       "extra": {
         "EA-Guid": "{923B5591-8826-4e70-8DCD-E88CB85A974E}",
@@ -14794,7 +14948,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Annotation Type",
-        "nl": "[UPDATED] Annotatietype"
+        "nl": "Annotatietype"
       },
       "name": "AnnotationType"
     },
@@ -14810,7 +14964,7 @@
       },
       "definition": {
         "en": "Classification of the topographic element.",
-        "nl": "[UPDATED] Classificatie van het topografisch element."
+        "nl": "Classificatie van het topografisch element."
       },
       "extra": {
         "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
@@ -14877,7 +15031,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Topographical Element Type",
-        "nl": "[UPDATED] TopografischElementtype"
+        "nl": "TopografischElementtype"
       },
       "name": "TopographicalElementType"
     },
@@ -14893,7 +15047,7 @@
       },
       "definition": {
         "en": "Document mediatype.",
-        "nl": "[UPDATED] Aard van het documentmedium"
+        "nl": "Aard van het documentmedium"
       },
       "extra": {
         "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
@@ -14960,7 +15114,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Document Mediatype",
-        "nl": "[UPDATED] Documentmediumtype"
+        "nl": "Documentmediumtype"
       },
       "name": "DocumentMediatype"
     },
@@ -14976,7 +15130,7 @@
       },
       "definition": {
         "en": "Kind of document.",
-        "nl": "[UPDATED] Aard van het document"
+        "nl": "Aard van het document"
       },
       "extra": {
         "EA-Guid": "{97C446AC-1E38-4007-A6B7-478C220DE467}",
@@ -15043,7 +15197,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Document Type",
-        "nl": "[UPDATED] Documenttype"
+        "nl": "Documenttype"
       },
       "name": "DocumentType"
     },
@@ -15059,7 +15213,7 @@
       },
       "definition": {
         "en": "The kind of reference surface.",
-        "nl": "[UPDATED] De aard van het referentieoppervlak"
+        "nl": "De aard van het referentieoppervlak"
       },
       "extra": {
         "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
@@ -15126,7 +15280,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Reference Surface Type",
-        "nl": "[UPDATED] Referentieoppervlaktype"
+        "nl": "Referentieoppervlaktype"
       },
       "name": "ReferenceSurfaceType"
     },
@@ -15142,7 +15296,7 @@
       },
       "definition": {
         "en": "The way the measurement result was determined.",
-        "nl": "[UPDATED] De manier waarop het meetresultaat is vastgesteld"
+        "nl": "De manier waarop het meetresultaat is vastgesteld"
       },
       "extra": {
         "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
@@ -15209,7 +15363,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Method of Measurement",
-        "nl": "[UPDATED] Opmetingsmethode"
+        "nl": "Opmetingsmethode"
       },
       "name": "MethodOfMeasurement"
     },
@@ -15225,7 +15379,7 @@
       },
       "definition": {
         "en": "Classification of protected area.",
-        "nl": "[UPDATED] Classificatie van de soorten beschermd gebied"
+        "nl": "Classificatie van de soorten beschermd gebied"
       },
       "extra": {
         "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
@@ -15287,7 +15441,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Protected Area Value",
-        "nl": "[UPDATED] Beschermd Gebiedtype"
+        "nl": "Beschermd Gebiedtype"
       },
       "name": "ProtectedAreaValue"
     },
@@ -15303,7 +15457,7 @@
       },
       "definition": {
         "en": "Information used to uniquely identify an object.",
-        "nl": "[UPDATED] Informatie gebruikt om een object uniek te identificeren."
+        "nl": "Informatie gebruikt om een object uniek te identificeren."
       },
       "extra": {
         "EA-Guid": "{82BFE44B-9A87-4166-BDD5-402AC1405D9F}",
@@ -15387,12 +15541,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Identifier",
-        "nl": "[UPDATED] Identificator"
+        "nl": "Identificator"
       },
       "name": "Identifier",
       "usage": {
         "en": "The starting point here is that this string is assigned by an organisation and that this is done according to a well-defined system.",
-        "nl": "[UPDATED] Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
+        "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
       }
     },
     {
@@ -15407,7 +15561,7 @@
       },
       "definition": {
         "en": "More readable representation containing only the basic data of the address,intended for using an address as an attribute of another object.",
-        "nl": "[UPDATED] Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
+        "nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
       },
       "extra": {
         "EA-Guid": "{000197CE-3A4A-4354-8328-2EA003847C3C}",
@@ -15501,12 +15655,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Address Representation",
-        "nl": "[UPDATED] Adresvoorstelling"
+        "nl": "Adresvoorstelling"
       },
       "name": "AddressRepresentation",
       "usage": {
         "en": "Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur).",
-        "nl": "[UPDATED] Bv als attribuut ve persoon of gebouw. De adresvoorstelling heeft niet enkel betrekking op Belgische adressen, ze kan gebruikt worden om buitenlandse adressen weer te geven (waar mogelijk andere adresaanduidingen dan huisnummer of busnummer worden gebruikt of waar adrescomponenten zoals adresgebieden voorkomen)."
+        "nl": "Bv als attribuut ve persoon of gebouw. De adresvoorstelling heeft niet enkel betrekking op Belgische adressen, ze kan gebruikt worden om buitenlandse adressen weer te geven (waar mogelijk andere adresaanduidingen dan huisnummer of busnummer worden gebruikt of waar adrescomponenten zoals adresgebieden voorkomen)."
       }
     },
     {
@@ -15521,7 +15675,7 @@
       },
       "definition": {
         "en": "Shape and position characteristics of an object.",
-        "nl": "[UPDATED] Vorm- en positiekenmerken van een object."
+        "nl": "Vorm- en positiekenmerken van een object."
       },
       "extra": {
         "EA-Guid": "{372EA823-D942-4310-81CA-B95912579A06}",
@@ -15605,12 +15759,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Geometry",
-        "nl": "[UPDATED] Geometrie"
+        "nl": "Geometrie"
       },
       "name": "Geometry",
       "usage": {
         "en": "Describes these features through points, lines, polygons and coordinates.",
-        "nl": "[UPDATED] Beschrijft deze kenmerken dmv punten, lijnen, polygonen etc en coördinaten. OPMERKING: gebruik indien gevraagd de subklassen Punt of Curve. Voor andere gevallen gebruik de types uit uit het <a href=\"\">Simple Features Vocabulary</a>, bvb LineString, Polygon, Surface etc. Of gebruik Geometrie, in de wkt- of gml serialisatie wordt het type geometrie ook vermeld."
+        "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen etc en coördinaten. OPMERKING: gebruik indien gevraagd de subklassen Punt of Curve. Voor andere gevallen gebruik de types uit uit het <a href=\"\">Simple Features Vocabulary</a>, bvb LineString, Polygon, Surface etc. Of gebruik Geometrie, in de wkt- of gml serialisatie wordt het type geometrie ook vermeld."
       }
     },
     {
@@ -15625,7 +15779,7 @@
       },
       "definition": {
         "en": "Entity from which all entities are derived.",
-        "nl": "[UPDATED] Entiteit waarvan alle entiteiten zijn afgeleid."
+        "nl": "Entiteit waarvan alle entiteiten zijn afgeleid."
       },
       "extra": {
         "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
@@ -15687,7 +15841,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Object",
-        "nl": "[UPDATED] Object"
+        "nl": "Object"
       },
       "name": "Object"
     },
@@ -15703,7 +15857,7 @@
       },
       "definition": {
         "en": "Indication of a geographical position, by means of coordinates, a toponym, an address label, a reference to a place/region, an address or another geographical object.",
-        "nl": "[UPDATED] Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio, een adres of een ander geografisch object."
+        "nl": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio, een adres of een ander geografisch object."
       },
       "extra": {
         "EA-Guid": "{24D7FBAF-82F0-4ac5-86AA-A7549CB249B0}",
@@ -15780,7 +15934,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Location",
-        "nl": "[UPDATED] Locatie"
+        "nl": "Locatie"
       },
       "name": "Location"
     },
@@ -15796,7 +15950,7 @@
       },
       "definition": {
         "en": "Information recorded on a data carrier.",
-        "nl": "[UPDATED] Informatie vastgelegd op een gegevensdrager."
+        "nl": "Informatie vastgelegd op een gegevensdrager."
       },
       "extra": {
         "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
@@ -15863,7 +16017,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Document",
-        "nl": "[UPDATED] Document"
+        "nl": "Document"
       },
       "name": "Document"
     },
@@ -15879,7 +16033,7 @@
       },
       "definition": {
         "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
-        "nl": "[UPDATED] Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode."
+        "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode."
       },
       "extra": {
         "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
@@ -15958,12 +16112,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Address",
-        "nl": "[UPDATED] Adres"
+        "nl": "Adres"
       },
       "name": "Address",
       "usage": {
         "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
-        "nl": "[UPDATED] De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
+        "nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
       }
     },
     {
@@ -15978,7 +16132,7 @@
       },
       "definition": {
         "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place.",
-        "nl": "[UPDATED] Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening."
+        "nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening."
       },
       "extra": {
         "EA-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
@@ -16062,12 +16216,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "ActivityComplex",
-        "nl": "[UPDATED] Activiteitencomplex"
+        "nl": "Activiteitencomplex"
       },
       "name": "Activitycomplex",
       "usage": {
         "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
-        "nl": "[UPDATED] In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes."
+        "nl": "In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes."
       }
     },
     {
@@ -16082,7 +16236,7 @@
       },
       "definition": {
         "en": "Holder of the coordinates of a position in a coordinate reference system.",
-        "nl": "[UPDATED] Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
+        "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
       },
       "extra": {
         "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
@@ -16161,12 +16315,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Direct Position",
-        "nl": "[UPDATED] Directe Positie"
+        "nl": "Directe Positie"
       },
       "name": "DirectPosition",
       "usage": {
         "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
-        "nl": "[UPDATED] Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een Directe Positie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de Directe Positie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
+        "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een Directe Positie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de Directe Positie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
       }
     },
     {
@@ -16181,7 +16335,7 @@
       },
       "definition": {
         "en": "The function of something expressed as an activity and optional input and/or output.",
-        "nl": "[UPDATED] De functie van iets uitgedrukt als een activiteit en optionele input en/of output."
+        "nl": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output."
       },
       "extra": {
         "EA-Guid": "{AE548CAC-0093-4236-9116-7B5DDD565129}",
@@ -16248,7 +16402,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Function",
-        "nl": "[UPDATED] Functie"
+        "nl": "Functie"
       },
       "name": "Function"
     },
@@ -16264,7 +16418,7 @@
       },
       "definition": {
         "en": "Determining the exact size of something by measuring it.",
-        "nl": "[UPDATED] Het bepalen van de precieze omvang van iets door het te meten."
+        "nl": "Het bepalen van de precieze omvang van iets door het te meten."
       },
       "extra": {
         "EA-Guid": "{F3D7A5E3-73B4-466d-A3F3-E0259CBD68A4}",
@@ -16331,7 +16485,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Survey",
-        "nl": "[UPDATED] Opmeting"
+        "nl": "Opmeting"
       },
       "name": "Survey"
     },
@@ -16347,7 +16501,7 @@
       },
       "definition": {
         "en": "Linear Network Element.",
-        "nl": "[UPDATED] Lineair Netwerkelement."
+        "nl": "Lineair Netwerkelement."
       },
       "extra": {
         "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
@@ -16404,7 +16558,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Generic Link",
-        "nl": "[UPDATED] GeneriekeLink"
+        "nl": "GeneriekeLink"
       },
       "name": "GenericLink"
     },
@@ -16420,7 +16574,7 @@
       },
       "definition": {
         "en": "A link either in its positive or negative direction.",
-        "nl": "[UPDATED] Link in hetzij zijn positieve, hetzij zijn negatieve richting."
+        "nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting."
       },
       "extra": {
         "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
@@ -16487,7 +16641,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Directed Link",
-        "nl": "[UPDATED] Gerichte link"
+        "nl": "Gerichte link"
       },
       "name": "DirectedLink"
     },
@@ -16503,7 +16657,7 @@
       },
       "definition": {
         "en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
-        "nl": "[UPDATED] Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link."
+        "nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link."
       },
       "extra": {
         "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
@@ -16570,7 +16724,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Node",
-        "nl": "[UPDATED] Knoop"
+        "nl": "Knoop"
       },
       "name": "Node"
     },
@@ -16586,7 +16740,7 @@
       },
       "definition": {
         "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes.",
-        "nl": "[UPDATED] Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen."
+        "nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen."
       },
       "extra": {
         "EA-Guid": "{8F85F084-8291-4781-AD0D-57AD8517284F}",
@@ -16650,7 +16804,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Link",
-        "nl": "[UPDATED] Link"
+        "nl": "Link"
       },
       "name": "Link"
     },
@@ -16666,7 +16820,7 @@
       },
       "definition": {
         "en": "Unbranched continuous path in a Network.",
-        "nl": "[UPDATED] Onvertakt doorlopend pad in een Netwerk."
+        "nl": "Onvertakt doorlopend pad in een Netwerk."
       },
       "extra": {
         "EA-Guid": "{99B8D562-8B03-4b77-9B30-2B5F70753408}",
@@ -16757,12 +16911,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "LinkSequence",
-        "nl": "[UPDATED] Linksequentie"
+        "nl": "Linksequentie"
       },
       "name": "Linksequence",
       "usage": {
         "en": "For example, a route in the Network.",
-        "nl": "[UPDATED] Bv een route in het Netwerk."
+        "nl": "Bv een route in het Netwerk."
       }
     },
     {
@@ -16777,7 +16931,7 @@
       },
       "definition": {
         "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network.",
-        "nl": "[UPDATED] Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk."
+        "nl": "Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk."
       },
       "extra": {
         "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
@@ -16834,7 +16988,7 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "LinkSet",
-        "nl": "[UPDATED] Linkset"
+        "nl": "Linkset"
       },
       "name": "Linkset"
     },
@@ -16850,7 +17004,7 @@
       },
       "definition": {
         "en": "Collection of Network Elements.",
-        "nl": "[UPDATED] Verzameling van Netwerkelementen."
+        "nl": "Verzameling van Netwerkelementen."
       },
       "extra": {
         "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}",
@@ -16934,12 +17088,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Network",
-        "nl": "[UPDATED] Netwerk"
+        "nl": "Netwerk"
       },
       "name": "Network",
       "usage": {
         "en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport.",
-        "nl": "[UPDATED] De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel."
+        "nl": "De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel."
       }
     },
     {
@@ -16947,10 +17101,14 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Indication of a quantity."
       },
       "ap-label-en": {
         "en": "Number"
+      },
+      "definition": {
+        "en": "Indication of a quantity.",
+        "nl": "Enter your translation here"
       },
       "extra": {
         "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
@@ -17004,18 +17162,25 @@
             "key": "usageNote-en",
             "note": "null",
             "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Indication of a quantity."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Indication of a quantity."
         },
         "ap-label-en": {
           "en": "Number"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Indication of a quantity."
+        },
         "label": {
           "en": "Number"
         },
@@ -17027,12 +17192,12 @@
       "inpackage": "OTHER_PACKAGE",
       "label": {
         "en": "Number",
-        "nl": "[UPDATED] Getal"
+        "nl": "Getal"
       },
       "name": "Number",
       "usage": {
         "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.",
-        "nl": "[UPDATED] OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
+        "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
       }
     }
   ],
@@ -17075,7 +17240,7 @@
       "codelist": [],
       "definition": {
         "en": "Voltage during load.",
-        "nl": "[UPDATED] Spanning tijdens belasting."
+        "nl": "Spanning tijdens belasting."
       },
       "domain": [
         {
@@ -17150,7 +17315,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "operating voltage",
-        "nl": "[UPDATED] werkspanning"
+        "nl": "werkspanning"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -17177,7 +17342,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of water.",
-        "nl": "[UPDATED] Type van het water."
+        "nl": "Type van het water."
       },
       "domain": [
         {
@@ -17252,7 +17417,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "water type",
-        "nl": "[UPDATED] watertype"
+        "nl": "watertype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -17279,7 +17444,7 @@
       "codelist": [],
       "definition": {
         "en": "Way to alert for the presence of the LinkSet.",
-        "nl": "[UPDATED] Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
+        "nl": "Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
       },
       "domain": [
         {
@@ -17364,7 +17529,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "warning type",
-        "nl": "[UPDATED] waarschuwingstype"
+        "nl": "waarschuwingstype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -17472,7 +17637,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "vertical position detail",
-        "nl": "[UPDATED] verticale positiedetail"
+        "nl": "verticale positiedetail"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -17487,7 +17652,7 @@
       ],
       "usage": {
         "en": "E.g. depth.",
-        "nl": "[UPDATED] Bv diepte."
+        "nl": "Bv diepte."
       }
     },
     {
@@ -17503,7 +17668,7 @@
       "codelist": [],
       "definition": {
         "en": "Heigt of the Tower.",
-        "nl": "[UPDATED] Hoogte van de Toren."
+        "nl": "Hoogte van de Toren."
       },
       "domain": [
         {
@@ -17578,7 +17743,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "tower height",
-        "nl": "[UPDATED] torenhoogte"
+        "nl": "torenhoogte"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -17605,7 +17770,7 @@
       "codelist": [],
       "definition": {
         "en": "The type of thermal product transported through the Thermal Pipe.",
-        "nl": "[UPDATED] Het type thermisch product dat door de ThermischePijp wordt getransporteerd."
+        "nl": "Het type thermisch product dat door de ThermischePijp wordt getransporteerd."
       },
       "domain": [
         {
@@ -17680,7 +17845,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "thermal product type",
-        "nl": "[UPDATED] thermischProducttype"
+        "nl": "thermischProducttype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -17707,7 +17872,7 @@
       "codelist": [],
       "definition": {
         "en": "The maximum allowable temperature of the contents of the Pipe.",
-        "nl": "[UPDATED] De maximum toelaatbare temperatuur van de inhoud van de Pijp."
+        "nl": "De maximum toelaatbare temperatuur van de inhoud van de Pijp."
       },
       "domain": [
         {
@@ -17782,7 +17947,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "temperature",
-        "nl": "[UPDATED] temperatuur"
+        "nl": "temperatuur"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -17809,7 +17974,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of cable material.",
-        "nl": "[UPDATED] Type van kabelmateriaal."
+        "nl": "Type van kabelmateriaal."
       },
       "domain": [
         {
@@ -17884,7 +18049,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "telecommunications cable material type",
-        "nl": "[UPDATED] telecommunicatiekabelmateriaaltype"
+        "nl": "telecommunicatiekabelmateriaaltype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -17911,7 +18076,7 @@
       "codelist": [],
       "definition": {
         "en": "Text of the Annotation.",
-        "nl": "[UPDATED] Tekst van de Annotatie."
+        "nl": "Tekst van de Annotatie."
       },
       "domain": [
         {
@@ -18002,7 +18167,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "text",
-        "nl": "[UPDATED] tekst"
+        "nl": "tekst"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -18016,7 +18181,7 @@
       ],
       "usage": {
         "en": "E.g. the size in the case of a Dimension.",
-        "nl": "[UPDATED] Bvb de maat in het geval van een Maataanduiding."
+        "nl": "Bvb de maat in het geval van een Maataanduiding."
       }
     },
     {
@@ -18032,7 +18197,7 @@
       "codelist": [],
       "definition": {
         "en": "Further specification of the LinkSet.",
-        "nl": "[UPDATED] Nadere bepaling van de linkset."
+        "nl": "Nadere bepaling van de linkset."
       },
       "domain": [
         {
@@ -18123,7 +18288,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "technical specification",
-        "nl": "[UPDATED] technischeSpecificatie"
+        "nl": "technischeSpecificatie"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -18137,7 +18302,7 @@
       ],
       "usage": {
         "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
-        "nl": "[UPDATED] Bijvoorbeeld 4g10 om 4-aderige kabel van 10mm doorsnee te specifiëren."
+        "nl": "Bijvoorbeeld 4g10 om 4-aderige kabel van 10mm doorsnee te specifiëren."
       }
     },
     {
@@ -18153,7 +18318,7 @@
       "codelist": [],
       "definition": {
         "en": "Default Vertical Position of elements in the network.",
-        "nl": "[UPDATED] Standaard Verticale Positie van elementen in het netwerk."
+        "nl": "Standaard Verticale Positie van elementen in het netwerk."
       },
       "domain": [
         {
@@ -18245,7 +18410,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "standard vertical position detail",
-        "nl": "[UPDATED] standaardVerticalePositiedetail"
+        "nl": "standaardVerticalePositiedetail"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -18260,7 +18425,7 @@
       ],
       "usage": {
         "en": "E.g. the default Depth at which the elements are located.",
-        "nl": "[UPDATED] Bv de standaard Diepte waarop de elementen zich bevinden."
+        "nl": "Bv de standaard Diepte waarop de elementen zich bevinden."
       }
     },
     {
@@ -18276,7 +18441,7 @@
       "codelist": [],
       "definition": {
         "en": "Angle by which the Annotation should be rotated when displayed.",
-        "nl": "[UPDATED] Hoek waarmee de Annotatie bij weergave moet worden geroteerd."
+        "nl": "Hoek waarmee de Annotatie bij weergave moet worden geroteerd."
       },
       "domain": [
         {
@@ -18368,7 +18533,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "rotation angle",
-        "nl": "[UPDATED] rotatiehoek"
+        "nl": "rotatiehoek"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -18383,7 +18548,7 @@
       ],
       "usage": {
         "en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable.",
-        "nl": "[UPDATED] Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel."
+        "nl": "Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel."
       }
     },
     {
@@ -18399,7 +18564,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of sewer water.",
-        "nl": "[UPDATED] Type van rioolwater."
+        "nl": "Type van rioolwater."
       },
       "domain": [
         {
@@ -18474,7 +18639,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "sewer water type",
-        "nl": "[UPDATED] rioolwatertype"
+        "nl": "rioolwatertype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -18501,7 +18666,7 @@
       "codelist": [],
       "definition": {
         "en": "Reference to the Reference Surface.",
-        "nl": "[UPDATED] Verwijzing naar het Referentieoppervlak."
+        "nl": "Verwijzing naar het Referentieoppervlak."
       },
       "domain": [
         {
@@ -18593,7 +18758,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "reference surface",
-        "nl": "[UPDATED] referentieoppervlak"
+        "nl": "referentieoppervlak"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -18608,7 +18773,7 @@
       ],
       "usage": {
         "en": "For example, the ground level.",
-        "nl": "[UPDATED] Bvb het maaiveld."
+        "nl": "Bvb het maaiveld."
       }
     },
     {
@@ -18624,7 +18789,7 @@
       "codelist": [],
       "definition": {
         "en": "Outer diameter of the Pipe.",
-        "nl": "[UPDATED] Buitendiameter van de Pijp."
+        "nl": "Buitendiameter van de Pijp."
       },
       "domain": [
         {
@@ -18711,7 +18876,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "pipe diameter",
-        "nl": "[UPDATED] pijpdiameter"
+        "nl": "pijpdiameter"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -18726,7 +18891,7 @@
       ],
       "usage": {
         "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
-        "nl": "[UPDATED] Voor convex gevormde objecten (bijvoorbeeld een cirkel) is de diameter gedefinieerd als de grootste afstand die gevormd kan worden tussen twee tegenover elkaar liggende parallelle lijnen die raken aan de rand."
+        "nl": "Voor convex gevormde objecten (bijvoorbeeld een cirkel) is de diameter gedefinieerd als de grootste afstand die gevormd kan worden tussen twee tegenover elkaar liggende parallelle lijnen die raken aan de rand."
       }
     },
     {
@@ -18742,7 +18907,7 @@
       "codelist": [],
       "definition": {
         "en": "The height of the Pole.",
-        "nl": "[UPDATED] Hoogte van de Paal."
+        "nl": "Hoogte van de Paal."
       },
       "domain": [
         {
@@ -18817,7 +18982,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "pole height",
-        "nl": "[UPDATED] paalhoogte"
+        "nl": "paalhoogte"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -18844,7 +19009,7 @@
       "codelist": [],
       "definition": {
         "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe.",
-        "nl": "[UPDATED] Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd."
+        "nl": "Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd."
       },
       "domain": [
         {
@@ -18919,7 +19084,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "oil gas chemicals product type",
-        "nl": "[UPDATED] olieGasChemicaliënProducttype"
+        "nl": "olieGasChemicaliënProducttype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -18946,7 +19111,7 @@
       "codelist": [],
       "definition": {
         "en": "Way in which the utility is delivered.",
-        "nl": "[UPDATED] Manier waarop de nutsvoorziening wordt geleverd."
+        "nl": "Manier waarop de nutsvoorziening wordt geleverd."
       },
       "domain": [
         {
@@ -19008,6 +19173,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -19025,13 +19195,15 @@
         "label": {
           "en": "utility delivery type"
         },
-        "usage": ""
+        "usage": {
+          "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "utility delivery type",
-        "nl": "[UPDATED] nutsvoorzieningleveringstype"
+        "nl": "nutsvoorzieningleveringstype"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -19043,7 +19215,11 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning",
@@ -19058,7 +19234,7 @@
       "codelist": [],
       "definition": {
         "en": "Voltage without load.",
-        "nl": "[UPDATED] Spanning zonder belasting."
+        "nl": "Spanning zonder belasting."
       },
       "domain": [
         {
@@ -19133,7 +19309,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "nominal voltage",
-        "nl": "[UPDATED] nominale Spanning"
+        "nl": "nominale Spanning"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -19160,7 +19336,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network associated with the Utility Network.",
-        "nl": "[UPDATED] Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd."
+        "nl": "Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd."
       },
       "domain": [
         {
@@ -19290,7 +19466,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "network",
-        "nl": "[UPDATED] netwerk"
+        "nl": "netwerk"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -19317,7 +19493,7 @@
       "codelist": [],
       "definition": {
         "en": "The Positional Accuracy of the Survey.",
-        "nl": "[UPDATED] De Positionele Nauwkeurigheid van de Opmeting."
+        "nl": "De Positionele Nauwkeurigheid van de Opmeting."
       },
       "domain": [
         {
@@ -19392,7 +19568,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "accuracy",
-        "nl": "[UPDATED] nauwkeurigheid"
+        "nl": "nauwkeurigheid"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -19419,7 +19595,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of material that makes up the LinkSet.",
-        "nl": "[UPDATED] Soort materiaal waaruit de Linkset bestaat."
+        "nl": "Soort materiaal waaruit de Linkset bestaat."
       },
       "domain": [
         {
@@ -19494,7 +19670,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "material type",
-        "nl": "[UPDATED] materiaaltype"
+        "nl": "materiaaltype"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -19521,7 +19697,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Node that is contained by the UtilityNodeContainer.",
-        "nl": "[UPDATED] Nutsvoorzieningknoop die de Nutsvoorzieningknoopcontainer omvat."
+        "nl": "Nutsvoorzieningknoop die de Nutsvoorzieningknoopcontainer omvat."
       },
       "domain": [
         {
@@ -19631,7 +19807,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "node",
-        "nl": "[UPDATED] knoop"
+        "nl": "knoop"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -19658,7 +19834,7 @@
       "codelist": [],
       "definition": {
         "en": "The color of the object.",
-        "nl": "[UPDATED] De kleur van het object."
+        "nl": "De kleur van het object."
       },
       "domain": [
         {
@@ -19733,7 +19909,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "color",
-        "nl": "[UPDATED] kleur"
+        "nl": "kleur"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -19760,7 +19936,7 @@
       "codelist": [],
       "definition": {
         "en": "Width of the Duct.",
-        "nl": "[UPDATED] Breedte van het Kanaal"
+        "nl": "Breedte van het Kanaal"
       },
       "domain": [
         {
@@ -19842,7 +20018,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "duct width",
-        "nl": "[UPDATED] kanaalbreedte"
+        "nl": "kanaalbreedte"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -19873,7 +20049,7 @@
       "codelist": [],
       "definition": {
         "en": "Diameter of the Cable.",
-        "nl": "[UPDATED] Diameter van de kabel."
+        "nl": "Diameter van de kabel."
       },
       "domain": [
         {
@@ -19948,7 +20124,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "cable diameter",
-        "nl": "[UPDATED] kabeldiameter"
+        "nl": "kabeldiameter"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -20538,7 +20714,7 @@
       "codelist": [],
       "definition": {
         "en": "The status of the element with respect to its completion and use.",
-        "nl": "[UPDATED] De status van het element met betrekking tot de voltooiing en het gebruik ervan."
+        "nl": "De status van het element met betrekking tot de voltooiing en het gebruik ervan."
       },
       "domain": [
         {
@@ -20613,7 +20789,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "current status",
-        "nl": "[UPDATED] huidigeStatus"
+        "nl": "huidigeStatus"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -20640,7 +20816,7 @@
       "codelist": [],
       "definition": {
         "en": "The time when the Utility NetworkElement started to exist in the real world.",
-        "nl": "[UPDATED] Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
+        "nl": "Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
       },
       "domain": [
         {
@@ -20714,7 +20890,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "valid from",
-        "nl": "[UPDATED] geldigVan"
+        "nl": "geldigVan"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -20740,7 +20916,7 @@
       "codelist": [],
       "definition": {
         "en": "The time from which the Utility NetworkElement no longer exists in the real world.",
-        "nl": "[UPDATED] Tijdstip tot wanneer het element in de werkelijkheid bestond."
+        "nl": "Tijdstip tot wanneer het element in de werkelijkheid bestond."
       },
       "domain": [
         {
@@ -20814,7 +20990,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "valid to",
-        "nl": "[UPDATED] geldigTot"
+        "nl": "geldigTot"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -20840,7 +21016,7 @@
       "codelist": [],
       "definition": {
         "en": "Annotation of which the Annotation is a part.",
-        "nl": "[UPDATED] Annotatie waarvan de Annotatie deel uitmaakt."
+        "nl": "Annotatie waarvan de Annotatie deel uitmaakt."
       },
       "domain": [
         {
@@ -20982,7 +21158,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "whole",
-        "nl": "[UPDATED] geheel"
+        "nl": "geheel"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -20997,7 +21173,7 @@
       ],
       "usage": {
         "en": "E.g. the Dimension to which the dimension line belongs.",
-        "nl": "[UPDATED] Bvb de Maataanduiding waartoe de maatvoeringslijn behoort."
+        "nl": "Bvb de Maataanduiding waartoe de maatvoeringslijn behoort."
       }
     },
     {
@@ -21013,7 +21189,7 @@
       "codelist": [],
       "definition": {
         "en": "Object to which the Annotation refers.",
-        "nl": "[UPDATED] Object waar de Annotatie betrekking op heeft"
+        "nl": "Object waar de Annotatie betrekking op heeft"
       },
       "domain": [
         {
@@ -21075,6 +21251,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Bvb een kabel."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example a cable."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -21092,13 +21273,15 @@
         "label": {
           "en": "associated with"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example a cable."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "associated with",
-        "nl": "[UPDATED] geassocieerd met"
+        "nl": "geassocieerd met"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -21110,7 +21293,11 @@
           "EA-Package": "PROV",
           "uri": "http://www.w3.org/ns/prov#Entity"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example a cable.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie",
@@ -21125,7 +21312,7 @@
       "codelist": [],
       "definition": {
         "en": "Activities carried out by the complex.",
-        "nl": "[UPDATED] Activiteiten uitgevoerd door het complex."
+        "nl": "Activiteiten uitgevoerd door het complex."
       },
       "domain": [
         {
@@ -21192,6 +21379,11 @@
             "key": "ap-usageNote-nl",
             "note": "null",
             "value": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Possibly supplemented with information about inputs and outputs of the activities."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -21209,13 +21401,15 @@
         "label": {
           "en": "function"
         },
-        "usage": ""
+        "usage": {
+          "en": "Possibly supplemented with information about inputs and outputs of the activities."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "function",
-        "nl": "[UPDATED] functie"
+        "nl": "functie"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -21227,7 +21421,11 @@
           "EA-Package": "OSLO-Generiek",
           "uri": "https://data.vlaanderen.be/ns/generiek#Functie"
         }
-      ]
+      ],
+      "usage": {
+        "en": "Possibly supplemented with information about inputs and outputs of the activities.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#element",
@@ -21242,7 +21440,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility NetworkElement belonging to the network.",
-        "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat tot het netwerk behoort."
+        "nl": "Nutsvoorzieningnetwerkelement dat tot het netwerk behoort."
       },
       "domain": [
         {
@@ -21352,7 +21550,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "element",
-        "nl": "[UPDATED] element"
+        "nl": "element"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -21379,7 +21577,7 @@
       "codelist": [],
       "definition": {
         "en": "The maximum allowable operating pressure at which a product is transported through a Pipe.",
-        "nl": "[UPDATED] De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd."
+        "nl": "De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd."
       },
       "domain": [
         {
@@ -21466,7 +21664,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "pressure",
-        "nl": "[UPDATED] druk"
+        "nl": "druk"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -21481,7 +21679,7 @@
       ],
       "usage": {
         "en": "The unit of measurement for pressure is usually expressed in 'bar'.",
-        "nl": "[UPDATED] De meeteenheid voor druk wordt meestal uitgedrukt in 'bar'."
+        "nl": "De meeteenheid voor druk wordt meestal uitgedrukt in 'bar'."
       }
     },
     {
@@ -21497,7 +21695,7 @@
       "codelist": [],
       "definition": {
         "en": "Reference to a Document with additional information about the complex.",
-        "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het Activiteitencomplex."
+        "nl": "Verwijzing naar een Document met extra informatie over het Activiteitencomplex."
       },
       "domain": [
         {
@@ -21582,7 +21780,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "documentation",
-        "nl": "[UPDATED] documentatie"
+        "nl": "documentatie"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -21609,7 +21807,7 @@
       "codelist": [],
       "definition": {
         "en": "Legal text describing confidentiality clauses applying to the utility network information.",
-        "nl": "[UPDATED] Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk."
+        "nl": "Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk."
       },
       "domain": [
         {
@@ -21683,7 +21881,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "disclaimer",
-        "nl": "[UPDATED] disclaimer"
+        "nl": "disclaimer"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -21709,7 +21907,7 @@
       "codelist": [],
       "definition": {
         "en": "Distance below the Reference Surface.",
-        "nl": "[UPDATED] Afstand onder het Referentieoppervlak."
+        "nl": "Afstand onder het Referentieoppervlak."
       },
       "domain": [
         {
@@ -21784,7 +21982,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "depth",
-        "nl": "[UPDATED] diepte"
+        "nl": "diepte"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -21811,7 +22009,7 @@
       "codelist": [],
       "definition": {
         "en": "Annotation that is part of the Annotation.",
-        "nl": "[UPDATED] Annotatie die deel uitmaakt van de Annotatie."
+        "nl": "Annotatie die deel uitmaakt van de Annotatie."
       },
       "domain": [
         {
@@ -21953,7 +22151,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "part",
-        "nl": "[UPDATED] deel"
+        "nl": "deel"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -21968,7 +22166,7 @@
       ],
       "usage": {
         "en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
-        "nl": "[UPDATED] Bvb de maatvoeringslijn in het geval van een Maataanduiding bestaande uit twee pijlen en een maatvoeringshulplijn."
+        "nl": "Bvb de maatvoeringslijn in het geval van een Maataanduiding bestaande uit twee pijlen en een maatvoeringshulplijn."
       }
     },
     {
@@ -21984,7 +22182,7 @@
       "codelist": [],
       "definition": {
         "en": "Parties authorized to manage, operate or own the Utility Network.",
-        "nl": "[UPDATED] Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
+        "nl": "Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
       },
       "domain": [
         {
@@ -22059,7 +22257,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "authority role",
-        "nl": "[UPDATED] bevoegdePartij"
+        "nl": "bevoegdePartij"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -22086,7 +22284,7 @@
       "codelist": [],
       "definition": {
         "en": "The Vertical Position as distance from the Reference Surface.",
-        "nl": "[UPDATED] De Verticale Positie als afstand tov het Referentieoppervlak."
+        "nl": "De Verticale Positie als afstand tov het Referentieoppervlak."
       },
       "domain": [
         {
@@ -22178,7 +22376,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "distance",
-        "nl": "[UPDATED] afstand"
+        "nl": "afstand"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -22193,7 +22391,7 @@
       ],
       "usage": {
         "en": "For example, the distance from ground level.",
-        "nl": "[UPDATED] Bvb de afstand tov het maaiveld."
+        "nl": "Bvb de afstand tov het maaiveld."
       }
     },
     {
@@ -22209,7 +22407,7 @@
       "codelist": [],
       "definition": {
         "en": "Address of the Connection.",
-        "nl": "[UPDATED] Adres van de aansluiting."
+        "nl": "Adres van de aansluiting."
       },
       "domain": [
         {
@@ -22284,7 +22482,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "address",
-        "nl": "[UPDATED] adres"
+        "nl": "adres"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -22311,7 +22509,7 @@
       "codelist": [],
       "definition": {
         "en": "ActivityComplex belonging to the network.",
-        "nl": "[UPDATED] Activiteitencomplex dat tot het netwerk behoort."
+        "nl": "Activiteitencomplex dat tot het netwerk behoort."
       },
       "domain": [
         {
@@ -22431,7 +22629,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "activitycomplex reference",
-        "nl": "[UPDATED] activiteitencomplexreferentie"
+        "nl": "activiteitencomplexreferentie"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -22458,7 +22656,7 @@
       "codelist": [],
       "definition": {
         "en": "Element identifier.",
-        "nl": "[UPDATED] Identificator van het element."
+        "nl": "Identificator van het element."
       },
       "domain": [
         {
@@ -22533,7 +22731,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "identifier",
-        "nl": "[UPDATED] identificator"
+        "nl": "identificator"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -22560,7 +22758,7 @@
       "codelist": [],
       "definition": {
         "en": "Name by which the network is known.",
-        "nl": "[UPDATED] Naam waaronder het netwerk bekend staat."
+        "nl": "Naam waaronder het netwerk bekend staat."
       },
       "domain": [
         {
@@ -22634,7 +22832,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "geographical name",
-        "nl": "[UPDATED] geografischeNaam"
+        "nl": "geografischeNaam"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -22660,7 +22858,7 @@
       "codelist": [],
       "definition": {
         "en": "The Vertical Position as a position in a vertical coordinate system.",
-        "nl": "[UPDATED] De Verticale Positie als positie in een verticaal coördinaatsysteem."
+        "nl": "De Verticale Positie als positie in een verticaal coördinaatsysteem."
       },
       "domain": [
         {
@@ -22757,7 +22955,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "vertical position",
-        "nl": "[UPDATED] verticale positie"
+        "nl": "verticale positie"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -22772,7 +22970,7 @@
       ],
       "usage": {
         "en": "For example, in Belgium the z-coordinate in TAW.",
-        "nl": "[UPDATED] Bvb in België de z-coördinaat in TAW."
+        "nl": "Bvb in België de z-coördinaat in TAW."
       }
     },
     {
@@ -22788,7 +22986,7 @@
       "codelist": [],
       "definition": {
         "en": "The Vertical Position of the ReferenceSurface as position in a vertical coordinate system.",
-        "nl": "[UPDATED] De Verticale Positie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
+        "nl": "De Verticale Positie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
       },
       "domain": [
         {
@@ -22885,7 +23083,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "vertical position",
-        "nl": "[UPDATED] verticale positie"
+        "nl": "verticale positie"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -22900,7 +23098,7 @@
       ],
       "usage": {
         "en": "Typical the groundlevel.",
-        "nl": "[UPDATED] Bvb in België de z-coördinaat in TAW."
+        "nl": "Bvb in België de z-coördinaat in TAW."
       }
     },
     {
@@ -22916,7 +23114,7 @@
       "codelist": [],
       "definition": {
         "en": "Classification of the Pipe according to the thematic domain to which it belongs.",
-        "nl": "[UPDATED] Classificatie van de Pijp volgens het thematisch domein waartoe deze behoort."
+        "nl": "Classificatie van de Pijp volgens het thematisch domein waartoe deze behoort."
       },
       "domain": [
         {
@@ -22996,7 +23194,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "subtheme",
-        "nl": "[UPDATED] subthema"
+        "nl": "subthema"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -23023,7 +23221,7 @@
       "codelist": [],
       "definition": {
         "en": "Other Pipe located in the Pipe.",
-        "nl": "[UPDATED] Andere Pijp gelegen in de Pijp."
+        "nl": "Andere Pijp gelegen in de Pijp."
       },
       "domain": [
         {
@@ -23143,7 +23341,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "pipe",
-        "nl": "[UPDATED] pijp"
+        "nl": "pijp"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -23170,7 +23368,7 @@
       "codelist": [],
       "definition": {
         "en": "Cable located in the Pipe.",
-        "nl": "[UPDATED] Kabel gelegen in de Pijp."
+        "nl": "Kabel gelegen in de Pijp."
       },
       "domain": [
         {
@@ -23290,7 +23488,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "cable",
-        "nl": "[UPDATED] kabel"
+        "nl": "kabel"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -23317,7 +23515,7 @@
       "codelist": [],
       "definition": {
         "en": "Agent who carried out the Survey.",
-        "nl": "[UPDATED] Agent die de Opmeting heeft uitgevoerd."
+        "nl": "Agent die de Opmeting heeft uitgevoerd."
       },
       "domain": [
         {
@@ -23397,7 +23595,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "recorded by",
-        "nl": "[UPDATED] uitgevoerd door"
+        "nl": "uitgevoerd door"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -23424,7 +23622,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of the method used.",
-        "nl": "[UPDATED] Aard van de gebruikte methode."
+        "nl": "Aard van de gebruikte methode."
       },
       "domain": [
         {
@@ -23504,7 +23702,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "method",
-        "nl": "[UPDATED] methode"
+        "nl": "methode"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -23531,7 +23729,7 @@
       "codelist": [],
       "definition": {
         "en": "General indication of the Vertical Position of the element.",
-        "nl": "[UPDATED] Algemene aanduiding van de Verticale Positie van het element."
+        "nl": "Algemene aanduiding van de Verticale Positie van het element."
       },
       "domain": [
         {
@@ -23628,7 +23826,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "vertical position",
-        "nl": "[UPDATED] verticale positie"
+        "nl": "verticale positie"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -23643,7 +23841,7 @@
       ],
       "usage": {
         "en": "E.g. underground, above ground.",
-        "nl": "[UPDATED] Bv ondergronds, bovengronds."
+        "nl": "Bv ondergronds, bovengronds."
       }
     },
     {
@@ -23806,7 +24004,7 @@
       "codelist": [],
       "definition": {
         "en": "Extent to which the LinkSet is observable.",
-        "nl": "[UPDATED] Mate waarin de linkset waarneembaar is."
+        "nl": "Mate waarin de linkset waarneembaar is."
       },
       "domain": [
         {
@@ -23873,6 +24071,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieninglinkset.zichtbaarheid"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example, not visible above ground."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -23890,13 +24093,15 @@
         "label": {
           "en": "visibility"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example, not visible above ground."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "visibility",
-        "nl": "[UPDATED] zichtbaarheid"
+        "nl": "zichtbaarheid"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -23908,7 +24113,11 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example, not visible above ground.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.uiterlijk",
@@ -23923,7 +24132,7 @@
       "codelist": [],
       "definition": {
         "en": "Appearance of the LinkSet.",
-        "nl": "[UPDATED] Uitzicht van de Linkset."
+        "nl": "Uitzicht van de Linkset."
       },
       "domain": [
         {
@@ -24003,7 +24212,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "appearance",
-        "nl": "[UPDATED] uiterlijk"
+        "nl": "uiterlijk"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24030,7 +24239,7 @@
       "codelist": [],
       "definition": {
         "en": "Indicates whether the LinkSet can be considered hazardous.",
-        "nl": "[UPDATED] Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
+        "nl": "Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
       },
       "domain": [
         {
@@ -24110,7 +24319,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "risk",
-        "nl": "[UPDATED] risico"
+        "nl": "risico"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -24137,7 +24346,7 @@
       "codelist": [],
       "definition": {
         "en": "Extent to which the container is observable.",
-        "nl": "[UPDATED] Mate waarin de container waarneembaar is."
+        "nl": "Mate waarin de container waarneembaar is."
       },
       "domain": [
         {
@@ -24227,7 +24436,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "visibility",
-        "nl": "[UPDATED] zichtbaarheid"
+        "nl": "zichtbaarheid"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24254,7 +24463,7 @@
       "codelist": [],
       "definition": {
         "en": "Appearance of the container.",
-        "nl": "[UPDATED] Uitzicht van de container."
+        "nl": "Uitzicht van de container."
       },
       "domain": [
         {
@@ -24321,6 +24530,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieningknoopcontainer.uiterlijk"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example the color."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -24338,13 +24552,15 @@
         "label": {
           "en": "appearance"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example the color."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "appearance",
-        "nl": "[UPDATED] uiterlijk"
+        "nl": "uiterlijk"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24356,7 +24572,11 @@
           "EA-Package": "IMKL-LD",
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example the color.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.risico",
@@ -24371,7 +24591,7 @@
       "codelist": [],
       "definition": {
         "en": "Indicates whether a UtilityNodeContainer can be considered hazardous.",
-        "nl": "[UPDATED] Geeft aan of de container als gevaarlijk kan beschouwd worden."
+        "nl": "Geeft aan of de container als gevaarlijk kan beschouwd worden."
       },
       "domain": [
         {
@@ -24451,7 +24671,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "risk",
-        "nl": "[UPDATED] risico"
+        "nl": "risico"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24478,7 +24698,7 @@
       "codelist": [],
       "definition": {
         "en": "Angle by which to rotate the symbol representing the container on a map.",
-        "nl": "[UPDATED] Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd."
+        "nl": "Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd."
       },
       "domain": [
         {
@@ -24558,7 +24778,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "orientation",
-        "nl": "[UPDATED] oriëntatie"
+        "nl": "oriëntatie"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24585,7 +24805,7 @@
       "codelist": [],
       "definition": {
         "en": "Extent to which the Node is observable.",
-        "nl": "[UPDATED] Mate waarin de Knoop waarneembaar is."
+        "nl": "Mate waarin de Knoop waarneembaar is."
       },
       "domain": [
         {
@@ -24652,6 +24872,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieningknoop.zichtbaarheid"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example, not visible above ground."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -24669,13 +24894,15 @@
         "label": {
           "en": "visibility"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example, not visible above ground."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "visibility",
-        "nl": "[UPDATED] zichtbaarheid"
+        "nl": "zichtbaarheid"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24687,7 +24914,11 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example, not visible above ground.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.uiterlijk",
@@ -24702,7 +24933,7 @@
       "codelist": [],
       "definition": {
         "en": "Appearance of the Node.",
-        "nl": "[UPDATED] Uitzicht van de Knoop."
+        "nl": "Uitzicht van de Knoop."
       },
       "domain": [
         {
@@ -24769,6 +25000,11 @@
             "key": "name",
             "note": "null",
             "value": "Nutsvoorzieningknoop.uiterlijk"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example the color."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -24786,13 +25022,15 @@
         "label": {
           "en": "appearance"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example the color."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "appearance",
-        "nl": "[UPDATED] uiterlijk"
+        "nl": "uiterlijk"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24804,7 +25042,11 @@
           "EA-Package": "IMKL-LD",
           "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example the color.",
+        "nl": "Enter your translation here"
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.risico",
@@ -24819,7 +25061,7 @@
       "codelist": [],
       "definition": {
         "en": "Indicates whether the Node can be considered hazardous.",
-        "nl": "[UPDATED] Geeft aan of de Knoop als gevaarlijk kan beschouwd worden."
+        "nl": "Geeft aan of de Knoop als gevaarlijk kan beschouwd worden."
       },
       "domain": [
         {
@@ -24899,7 +25141,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "risk",
-        "nl": "[UPDATED] risico"
+        "nl": "risico"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -24926,7 +25168,7 @@
       "codelist": [],
       "definition": {
         "en": "Angle by which the symbol representing the Node on map should be rotated.",
-        "nl": "[UPDATED] Hoek waarmee het symbool dat de Knoop weergeeft op kaart moet worden geroteerd."
+        "nl": "Hoek waarmee het symbool dat de Knoop weergeeft op kaart moet worden geroteerd."
       },
       "domain": [
         {
@@ -25006,7 +25248,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "orientation",
-        "nl": "[UPDATED] oriëntatie"
+        "nl": "oriëntatie"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -25033,7 +25275,7 @@
       "codelist": [],
       "definition": {
         "en": "Pipe located in the Duct.",
-        "nl": "[UPDATED] Pijp gelegen in het Kanaal."
+        "nl": "Pijp gelegen in het Kanaal."
       },
       "domain": [
         {
@@ -25153,7 +25395,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "pipe",
-        "nl": "[UPDATED] pijp"
+        "nl": "pijp"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -25180,7 +25422,7 @@
       "codelist": [],
       "definition": {
         "en": "Duct located in the Duct.",
-        "nl": "[UPDATED] Kanaal gelegen in het Kanaal."
+        "nl": "Kanaal gelegen in het Kanaal."
       },
       "domain": [
         {
@@ -25300,7 +25542,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "duct",
-        "nl": "[UPDATED] kanaal"
+        "nl": "kanaal"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -25327,7 +25569,7 @@
       "codelist": [],
       "definition": {
         "en": "Cable located in the Duct.",
-        "nl": "[UPDATED] Kabel gelegen in het Kanaal."
+        "nl": "Kabel gelegen in het Kanaal."
       },
       "domain": [
         {
@@ -25447,7 +25689,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "cable",
-        "nl": "[UPDATED] kabel"
+        "nl": "kabel"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -25474,7 +25716,7 @@
       "codelist": [],
       "definition": {
         "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
-        "nl": "[UPDATED] Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
+        "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
       },
       "domain": [
         {
@@ -25554,7 +25796,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "subtheme",
-        "nl": "[UPDATED] subthema"
+        "nl": "subthema"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -25581,7 +25823,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network to which the ActivityComplex belongs.",
-        "nl": "[UPDATED] Nutsvoorzieningnetwerk waartoe het complex behoort."
+        "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort."
       },
       "domain": [
         {
@@ -25721,7 +25963,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "in network",
-        "nl": "[UPDATED] inNetwerk"
+        "nl": "inNetwerk"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -25748,7 +25990,7 @@
       "codelist": [],
       "definition": {
         "en": "Appurtenance classification.",
-        "nl": "[UPDATED] Aard van het Toebehoren."
+        "nl": "Aard van het Toebehoren."
       },
       "domain": [
         {
@@ -25838,7 +26080,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "appurtenance type",
-        "nl": "[UPDATED] toebehorentype"
+        "nl": "toebehorentype"
       },
       "maxCardinality": "1",
       "minCardinality": "1",
@@ -25861,7 +26103,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_nl.j2",
   "title": "Kabels en Leidingen",
-  "toolchaincommit": "23dbcbd90f9999c54d96aafcbdbd598d542e0d98",
+  "toolchaincommit": "0223c9285856f46fc03358470f8c75b0732fc837",
   "translation": [
     {
       "language": "en",

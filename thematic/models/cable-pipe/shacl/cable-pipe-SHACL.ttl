@@ -392,7 +392,7 @@
     shacl:name "survey"@en;
     shacl:path <https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting>
   ], [
-    shacl:description "[UPDATED] Direct Position expressed in wkt format."@en;
+    shacl:description "Direct Position expressed in wkt format."@en;
     shacl:maxCount 1;
     shacl:name "wkt"@en;
     shacl:path <http://www.opengis.net/ont/geosparql#asWKT>
@@ -511,7 +511,7 @@
 <https://belgif.github.io//thematic/models/cable-pipe#GeometrieShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:description "[UPDATED] Geometry expressed in wkt format."@en;
+    shacl:description "Geometry expressed in gml format."@en;
     shacl:maxCount 1;
     shacl:name "gml"@en;
     shacl:path <http://www.opengis.net/ont/geosparql#asGML>
@@ -666,6 +666,7 @@
   shacl:closed false;
   shacl:property [
     shacl:class <http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength>;
+    shacl:description "Unit in which the Length is expressed."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "uom"@en;
@@ -697,6 +698,7 @@
   shacl:closed false;
   shacl:property [
     shacl:class <http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure>;
+    shacl:description "Unit in which the quantity is expressed."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "uom"@en;

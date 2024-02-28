@@ -998,9 +998,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/efbd46d3529bad7f0672a0a45a7c5db8cf8f3005">https://github.com/belgif/ICEGthema-imkl/tree/efbd46d3529bad7f0672a0a45a7c5db8cf8f3005</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3">https://github.com/belgif/ICEGthema-imkl/tree/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/efbd46d3529bad7f0672a0a45a7c5db8cf8f3005/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/efbd46d3529bad7f0672a0a45a7c5db8cf8f3005/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/f99534e38637edd2ddb4ba60d7b06644f6b9f5c3/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/Informatievlaanderen/OSLOthema-imkl/issues">https://github.com/Informatievlaanderen/OSLOthema-imkl/issues</a></dd>
                   
@@ -1233,7 +1233,7 @@
                       </td>
                       <td>1..*</td>
                       <td property="rdfs:comment">Activities carried out by the complex.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">Possibly supplemented with information about inputs and outputs of the activities.</td>
                       <td></td>
                     </tr>
                     
@@ -1478,7 +1478,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>1</td>
                       <td property="rdfs:comment">Object to which the Annotation refers.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">For example a cable.</td>
                       <td></td>
                     </tr>
                     
@@ -1894,6 +1894,9 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                 <dl>
                   <dt>Definition</dt>
                   <dd>Type of Annotation that indicates the size of an Object.</dd>
+                  
+                  <dt>Usage</dt>
+                  <dd>For example, the dimensions of a room.</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -2828,6 +2831,9 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   <dt>Definition</dt>
                   <dd>Drawing showing the parts or details of something.</dd>
                   
+                  <dt>Usage</dt>
+                  <dd>Eg a ground plan, a street plan.</dd>
+                  
                   
                   <dt>Subclass of</dt>
                   <dd>
@@ -3333,6 +3339,9 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                 <dl>
                   <dt>Definition</dt>
                   <dd>Part of the description of the shape and features of the earth&#39;s surface.</dd>
+                  
+                  <dt>Usage</dt>
+                  <dd>Typical elements are relief, landforms, water bodies, vegetation.</dd>
                   
                   
                   <dt>Properties</dt>
@@ -3952,7 +3961,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Way in which the utility is delivered.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">E.g. transport, distribution and collection from gas, electricity and sewage respectively.</td>
                       <td></td>
                     </tr>
                     
@@ -3972,7 +3981,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Extent to which the LinkSet is observable.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">For example, not visible above ground.</td>
                       <td></td>
                     </tr>
                     
@@ -4226,7 +4235,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>1</td>
                       <td property="rdfs:comment">The type of utility network or the utility network theme.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.</td>
                       <td></td>
                     </tr>
                     
@@ -4451,6 +4460,9 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   <dt>Definition</dt>
                   <dd>Point-shaped spatial object that plays an important role in a Utility Network.</dd>
                   
+                  <dt>Usage</dt>
+                  <dd>Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof.</dd>
+                  
                   
                   <dt>Subclass of</dt>
                   <dd>
@@ -4505,7 +4517,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Appearance of the Node.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">For example the color.</td>
                       <td></td>
                     </tr>
                     
@@ -4645,7 +4657,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Extent to which the Node is observable.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">For example, not visible above ground.</td>
                       <td></td>
                     </tr>
                     
@@ -4716,7 +4728,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Appearance of the container.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">For example the color.</td>
                       <td></td>
                     </tr>
                     
@@ -5303,7 +5315,10 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd></dd>
+                  <dd>A 1-dimensional geometric primitive.</dd>
+                  
+                  <dt>Usage</dt>
+                  <dd>Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.</dd>
                   
                   
                   <dt>Subclass of
@@ -5477,7 +5492,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>0..1</td>
-                      <td property="rdfs:comment">[UPDATED] Direct Position expressed in wkt format.</td>
+                      <td property="rdfs:comment">Direct Position expressed in wkt format.</td>
                       <td property="skos:scopeNote">[UPDATED] Use <a href='http://www.opengis.net/ont/geosparql#wktLiteral'>wktliteral</a> as datatype.</td>
                       <td></td>
                     </tr>
@@ -5620,8 +5635,8 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>0..1</td>
-                      <td property="rdfs:comment">[UPDATED] Geometry expressed in wkt format.</td>
-                      <td property="skos:scopeNote">[UPDATED] Use <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> as datatype.</td>
+                      <td property="rdfs:comment">Geometry expressed in gml format.</td>
+                      <td property="skos:scopeNote">[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.</td>
                       <td></td>
                     </tr>
                     
@@ -5913,8 +5928,8 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>1</td>
-                      <td property="rdfs:comment"></td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="rdfs:comment">Unit in which the Length is expressed.</td>
+                      <td property="skos:scopeNote">E.g. meters, centimeters.</td>
                       <td></td>
                     </tr>
                     
@@ -5992,7 +6007,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                       </td>
                       <td>1</td>
-                      <td property="rdfs:comment"></td>
+                      <td property="rdfs:comment">Unit in which the quantity is expressed.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -6029,7 +6044,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd></dd>
+                  <dd>Indication of a quantity.</dd>
                   
                   <dt>Usage</dt>
                   <dd>[UPDATED] NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href='https://www.w3.org/TR/xmlschema-2/'>xsd data types</a> Integer, Float, Decimal, Double etc.</dd>
@@ -6051,7 +6066,10 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd></dd>
+                  <dd>A 0-dimensional geometric primitive.</dd>
+                  
+                  <dt>Usage</dt>
+                  <dd>Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.</dd>
                   
                   
                   <dt>Subclass of
@@ -6142,7 +6160,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">The type of Reference Surface.</td>
-                      <td property="skos:scopeNote"></td>
+                      <td property="skos:scopeNote">Typical the groundlevel.</td>
                       <td></td>
                     </tr>
                     

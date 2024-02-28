@@ -48,23 +48,23 @@
         {
           "sh:class": "http://www.w3.org/ns/locn#Address",
           "sh:description": {
-            "nl": "[UPDATED] Adres van de aansluiting."
+            "nl": "Adres van de aansluiting."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] adres"
+            "nl": "adres"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#adres"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van het Toebehoren."
+            "nl": "Aard van het Toebehoren."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] toebehorentype"
+            "nl": "toebehorentype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Aansluiting.toebehorentype"
         }
@@ -79,77 +79,77 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van de Annotatie."
+            "nl": "Aard van de Annotatie."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] annotatietype"
+            "nl": "annotatietype"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
           "sh:description": {
-            "nl": "[UPDATED] Annotatie die deel uitmaakt van de Annotatie."
+            "nl": "Annotatie die deel uitmaakt van de Annotatie."
           },
           "sh:name": {
-            "nl": "[UPDATED] deel"
+            "nl": "deel"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#deel"
         },
         {
           "sh:class": "http://www.w3.org/ns/prov#Entity",
           "sh:description": {
-            "nl": "[UPDATED] Object waar de Annotatie betrekking op heeft"
+            "nl": "Object waar de Annotatie betrekking op heeft"
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] geassocieerd met"
+            "nl": "geassocieerd met"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geassocieerdMet"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Annotatie",
           "sh:description": {
-            "nl": "[UPDATED] Annotatie waarvan de Annotatie deel uitmaakt."
+            "nl": "Annotatie waarvan de Annotatie deel uitmaakt."
           },
           "sh:name": {
-            "nl": "[UPDATED] geheel"
+            "nl": "geheel"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geheel"
         },
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
           "sh:description": {
-            "nl": "[UPDATED] Geometrie van de Annotatie."
+            "nl": "Geometrie van de Annotatie."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] locatie"
+            "nl": "locatie"
           },
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Hoek waarmee de Annotatie bij weergave moet worden geroteerd."
+            "nl": "Hoek waarmee de Annotatie bij weergave moet worden geroteerd."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] rotatiehoek"
+            "nl": "rotatiehoek"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rotatiehoek"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Tekst van de Annotatie."
+            "nl": "Tekst van de Annotatie."
           },
           "sh:name": {
-            "nl": "[UPDATED] tekst"
+            "nl": "tekst"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#tekst"
         }
@@ -164,56 +164,56 @@
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Beschrijving van het BeschermdGebied."
+            "nl": "Beschrijving van het BeschermdGebied."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] beschrijving"
+            "nl": "beschrijving"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/description"
         },
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
           "sh:description": {
-            "nl": "[UPDATED] Geometrie van het BeschermdGebied."
+            "nl": "Geometrie van het BeschermdGebied."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] geometrie"
+            "nl": "geometrie"
           },
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         },
         {
           "sh:class": "http://www.w3.org/ns/prov#Location",
           "sh:description": {
-            "nl": "[UPDATED] Locatie van het BeschermdGebied."
+            "nl": "Locatie van het BeschermdGebied."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] ligging"
+            "nl": "ligging"
           },
           "sh:path": "http://www.w3.org/ns/prov#atLocation"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Naam van het BeschermdGebied."
+            "nl": "Naam van het BeschermdGebied."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] naam"
+            "nl": "naam"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/title"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van het BeschermdGebied."
+            "nl": "Aard van het BeschermdGebied."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] type"
+            "nl": "type"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
@@ -228,11 +228,11 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Afstand onder het Referentieoppervlak."
+            "nl": "Afstand onder het Referentieoppervlak."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] diepte"
+            "nl": "diepte"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#diepte"
         }
@@ -247,24 +247,24 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Spanning zonder belasting."
+            "nl": "Spanning zonder belasting."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] nominale Spanning"
+            "nl": "nominale Spanning"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nominaleSpanning"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Spanning tijdens belasting."
+            "nl": "Spanning tijdens belasting."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] werkspanning"
+            "nl": "werkspanning"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#werkspanning"
         }
@@ -279,11 +279,11 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Afstand onder het Referentieoppervlak."
+            "nl": "Afstand onder het Referentieoppervlak."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] hoogte"
+            "nl": "hoogte"
           },
           "sh:path": "https://schema.org/height"
         }
@@ -298,22 +298,22 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Diameter van de kabel."
+            "nl": "Diameter van de kabel."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] kabeldiameter"
+            "nl": "kabeldiameter"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabeldiameter"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
+            "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] subthema"
+            "nl": "subthema"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel.subthema"
         }
@@ -335,53 +335,53 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van het Kanaal als container."
+            "nl": "Aard van het Kanaal als container."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] containertype"
+            "nl": "containertype"
           },
           "sh:path": "http://purl.org/dc/terms/type"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
           "sh:description": {
-            "nl": "[UPDATED] Kabel gelegen in het Kanaal."
+            "nl": "Kabel gelegen in het Kanaal."
           },
           "sh:name": {
-            "nl": "[UPDATED] kabel"
+            "nl": "kabel"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kabel"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal",
           "sh:description": {
-            "nl": "[UPDATED] Kanaal gelegen in het Kanaal."
+            "nl": "Kanaal gelegen in het Kanaal."
           },
           "sh:name": {
-            "nl": "[UPDATED] kanaal"
+            "nl": "kanaal"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.kanaal"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
           "sh:description": {
-            "nl": "[UPDATED] Breedte van het Kanaal"
+            "nl": "Breedte van het Kanaal"
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] kanaalbreedte"
+            "nl": "kanaalbreedte"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kanaalbreedte"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
           "sh:description": {
-            "nl": "[UPDATED] Pijp gelegen in het Kanaal."
+            "nl": "Pijp gelegen in het Kanaal."
           },
           "sh:name": {
-            "nl": "[UPDATED] pijp"
+            "nl": "pijp"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kanaal.pijp"
         }
@@ -417,32 +417,32 @@
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
           "sh:description": {
-            "nl": "[UPDATED] Link waarvan de Knoop de beginKnoop is."
+            "nl": "Link waarvan de Knoop de beginKnoop is."
           },
           "sh:name": {
-            "nl": "[UPDATED] beginlink"
+            "nl": "beginlink"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#beginlink"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
           "sh:description": {
-            "nl": "[UPDATED] Link waarvan de Knoop de eindKnoop is."
+            "nl": "Link waarvan de Knoop de eindKnoop is."
           },
           "sh:name": {
-            "nl": "[UPDATED] eindlink"
+            "nl": "eindlink"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#eindlink"
         },
         {
           "sh:class": "http://www.opengis.net/ont/sf#Point",
           "sh:description": {
-            "nl": "[UPDATED] Geometrie van de Knoop."
+            "nl": "Geometrie van de Knoop."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] geometrie"
+            "nl": "geometrie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie"
         },
@@ -460,44 +460,44 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Hoek waarmee het symbool dat de Knoop weergeeft op kaart moet worden geroteerd."
+            "nl": "Hoek waarmee het symbool dat de Knoop weergeeft op kaart moet worden geroteerd."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] oriëntatie"
+            "nl": "oriëntatie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.orientatie"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Geeft aan of de Knoop als gevaarlijk kan beschouwd worden."
+            "nl": "Geeft aan of de Knoop als gevaarlijk kan beschouwd worden."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] risico"
+            "nl": "risico"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.risico"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
           "sh:description": {
-            "nl": "[UPDATED] Uitzicht van de Knoop."
+            "nl": "Uitzicht van de Knoop."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] uiterlijk"
+            "nl": "uiterlijk"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.uiterlijk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Mate waarin de Knoop waarneembaar is."
+            "nl": "Mate waarin de Knoop waarneembaar is."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] zichtbaarheid"
+            "nl": "zichtbaarheid"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop.zichtbaarheid"
         }
@@ -512,66 +512,66 @@
         {
           "sh:class": "http://www.opengis.net/ont/sf#Point",
           "sh:description": {
-            "nl": "[UPDATED] Geometrie van de container"
+            "nl": "Geometrie van de container"
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] geometrie"
+            "nl": "geometrie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#Knoop.geometrie"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoop",
           "sh:description": {
-            "nl": "[UPDATED] Nutsvoorzieningknoop die de Nutsvoorzieningknoopcontainer omvat."
+            "nl": "Nutsvoorzieningknoop die de Nutsvoorzieningknoopcontainer omvat."
           },
           "sh:name": {
-            "nl": "[UPDATED] knoop"
+            "nl": "knoop"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#knoop"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd."
+            "nl": "Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] oriëntatie"
+            "nl": "oriëntatie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.orientatie"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Geeft aan of de container als gevaarlijk kan beschouwd worden."
+            "nl": "Geeft aan of de container als gevaarlijk kan beschouwd worden."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] risico"
+            "nl": "risico"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.risico"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
           "sh:description": {
-            "nl": "[UPDATED] Uitzicht van de container."
+            "nl": "Uitzicht van de container."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] uiterlijk"
+            "nl": "uiterlijk"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.uiterlijk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Mate waarin de container waarneembaar is."
+            "nl": "Mate waarin de container waarneembaar is."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] zichtbaarheid"
+            "nl": "zichtbaarheid"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningknoopcontainer.zichtbaarheid"
         }
@@ -586,34 +586,34 @@
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
           "sh:description": {
-            "nl": "[UPDATED] Knoop waarmee de Link begint."
+            "nl": "Knoop waarmee de Link begint."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] eindknoop"
+            "nl": "eindknoop"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#eindknoop"
         },
         {
           "sh:class": "http://www.opengis.net/ont/geosparql#Curve",
           "sh:description": {
-            "nl": "[UPDATED] De geometrie van de middellijn van de link."
+            "nl": "De geometrie van de middellijn van de link."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] middelijngeometrie"
+            "nl": "middelijngeometrie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#Link.geometriemiddellijn"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
           "sh:description": {
-            "nl": "[UPDATED] Knoop waarmee de Link eindigt."
+            "nl": "Knoop waarmee de Link eindigt."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] startknoop"
+            "nl": "startknoop"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#beginknoop"
         },
@@ -639,11 +639,11 @@
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#GerichteLink",
           "sh:description": {
-            "nl": "[UPDATED] GerichteLink die deel uitmaakt van de Linksequentie."
+            "nl": "GerichteLink die deel uitmaakt van de Linksequentie."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] link"
+            "nl": "link"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#Linksequentie.link"
         },
@@ -669,11 +669,11 @@
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
           "sh:description": {
-            "nl": "[UPDATED] Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
+            "nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] link"
+            "nl": "link"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#Linkset.link"
         },
@@ -691,76 +691,76 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Soort materiaal waaruit de Linkset bestaat."
+            "nl": "Soort materiaal waaruit de Linkset bestaat."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] materiaaltype"
+            "nl": "materiaaltype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#materiaaltype"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Manier waarop de nutsvoorziening wordt geleverd."
+            "nl": "Manier waarop de nutsvoorziening wordt geleverd."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] nutsvoorzieningleveringstype"
+            "nl": "nutsvoorzieningleveringstype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nutsvoorzieningleveringstype"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
+            "nl": "Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
           },
           "sh:name": {
-            "nl": "[UPDATED] risico"
+            "nl": "risico"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.risico"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Nadere bepaling van de linkset."
+            "nl": "Nadere bepaling van de linkset."
           },
           "sh:name": {
-            "nl": "[UPDATED] technischeSpecificatie"
+            "nl": "technischeSpecificatie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#technischeSpecificate"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Uiterlijk",
           "sh:description": {
-            "nl": "[UPDATED] Uitzicht van de Linkset."
+            "nl": "Uitzicht van de Linkset."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] uiterlijk"
+            "nl": "uiterlijk"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.uiterlijk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
+            "nl": "Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] waarschuwingstype"
+            "nl": "waarschuwingstype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#waarschuwingstype"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Mate waarin de linkset waarneembaar is."
+            "nl": "Mate waarin de linkset waarneembaar is."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] zichtbaarheid"
+            "nl": "zichtbaarheid"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieninglinkset.zichtbaarheid"
         }
@@ -775,93 +775,93 @@
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Naam waaronder het netwerk bekend staat."
+            "nl": "Naam waaronder het netwerk bekend staat."
           },
           "sh:name": {
-            "nl": "[UPDATED] geografischeNaam"
+            "nl": "geografischeNaam"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^geografischeNaam"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/generiek#Activiteitencomplex",
           "sh:description": {
-            "nl": "[UPDATED] Activiteitencomplex dat tot het netwerk behoort."
+            "nl": "Activiteitencomplex dat tot het netwerk behoort."
           },
           "sh:name": {
-            "nl": "[UPDATED] activiteitencomplexreferentie"
+            "nl": "activiteitencomplexreferentie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#activiteitencomplexreferentie"
         },
         {
           "sh:class": "http://purl.org/dc/terms/Agent",
           "sh:description": {
-            "nl": "[UPDATED] Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
+            "nl": "Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] bevoegdePartij"
+            "nl": "bevoegdePartij"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#bevoegdePartij"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk."
+            "nl": "Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk."
           },
           "sh:name": {
-            "nl": "[UPDATED] disclaimer"
+            "nl": "disclaimer"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#disclaimer"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
-            "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het Netwerk."
+            "nl": "Verwijzing naar een Document met extra informatie over het Netwerk."
           },
           "sh:name": {
-            "nl": "[UPDATED] documentatie"
+            "nl": "documentatie"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/relation"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
           "sh:description": {
-            "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat tot het netwerk behoort."
+            "nl": "Nutsvoorzieningnetwerkelement dat tot het netwerk behoort."
           },
           "sh:name": {
-            "nl": "[UPDATED] element"
+            "nl": "element"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#element"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
           "sh:description": {
-            "nl": "[UPDATED] Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd."
+            "nl": "Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd."
           },
           "sh:name": {
-            "nl": "[UPDATED] netwerk"
+            "nl": "netwerk"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#netwerk"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
+            "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] nutsvoorzieningnetwerktype"
+            "nl": "nutsvoorzieningnetwerktype"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
           "sh:description": {
-            "nl": "[UPDATED] Standaard Verticale Positie van elementen in het netwerk."
+            "nl": "Standaard Verticale Positie van elementen in het netwerk."
           },
           "sh:name": {
-            "nl": "[UPDATED] standaardVerticalePositiedetail"
+            "nl": "standaardVerticalePositiedetail"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#standaardVerticalePositiedetail"
         }
@@ -876,55 +876,55 @@
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
           "sh:description": {
-            "nl": "[UPDATED] Identificator van het element."
+            "nl": "Identificator van het element."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] identificator"
+            "nl": "identificator"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#^identificator"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
-            "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het element."
+            "nl": "Verwijzing naar een Document met extra informatie over het element."
           },
           "sh:name": {
-            "nl": "[UPDATED] documentatie"
+            "nl": "documentatie"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/relation"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "nl": "[UPDATED] Tijdstip tot wanneer het element in de werkelijkheid bestond."
+            "nl": "Tijdstip tot wanneer het element in de werkelijkheid bestond."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] geldigTot"
+            "nl": "geldigTot"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigTot"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "nl": "[UPDATED] Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
+            "nl": "Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] geldigVan"
+            "nl": "geldigVan"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geldigVan"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] De status van het element met betrekking tot de voltooiing en het gebruik ervan."
+            "nl": "De status van het element met betrekking tot de voltooiing en het gebruik ervan."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] huidigeStatus"
+            "nl": "huidigeStatus"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#huidigeStatus"
         },
@@ -942,19 +942,19 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Algemene aanduiding van de Verticale Positie van het element."
+            "nl": "Algemene aanduiding van de Verticale Positie van het element."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] verticale positie"
+            "nl": "verticale positie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement.verticalePositie"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie",
           "sh:name": {
-            "nl": "[UPDATED] verticale positiedetail"
+            "nl": "verticale positiedetail"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#verticalePositiedetail"
         }
@@ -969,12 +969,12 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd."
+            "nl": "Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] olieGasChemicaliënProducttype"
+            "nl": "olieGasChemicaliënProducttype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#olieGasChemicalienProducttype"
         }
@@ -989,12 +989,12 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
           "sh:description": {
-            "nl": "[UPDATED] Hoogte van de Paal."
+            "nl": "Hoogte van de Paal."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] paalhoogte"
+            "nl": "paalhoogte"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#paalhoogte"
         }
@@ -1009,65 +1009,65 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van de Pijp als container."
+            "nl": "Aard van de Pijp als container."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] containertype"
+            "nl": "containertype"
           },
           "sh:path": "http://purl.org/dc/terms/type"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd."
+            "nl": "De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] druk"
+            "nl": "druk"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#druk"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel",
           "sh:description": {
-            "nl": "[UPDATED] Kabel gelegen in de Pijp."
+            "nl": "Kabel gelegen in de Pijp."
           },
           "sh:name": {
-            "nl": "[UPDATED] kabel"
+            "nl": "kabel"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.kabel"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp",
           "sh:description": {
-            "nl": "[UPDATED] Andere Pijp gelegen in de Pijp."
+            "nl": "Andere Pijp gelegen in de Pijp."
           },
           "sh:name": {
-            "nl": "[UPDATED] pijp"
+            "nl": "pijp"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.pijp"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] Buitendiameter van de Pijp."
+            "nl": "Buitendiameter van de Pijp."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] pijpdiameter"
+            "nl": "pijpdiameter"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijpdiameter"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Classificatie van de Pijp volgens het thematisch domein waartoe deze behoort."
+            "nl": "Classificatie van de Pijp volgens het thematisch domein waartoe deze behoort."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] subthema"
+            "nl": "subthema"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp.subthema"
         }
@@ -1082,12 +1082,12 @@
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
           "sh:description": {
-            "nl": "[UPDATED] Geometrie van de locatie waarop het Plan betrekking heeft."
+            "nl": "Geometrie van de locatie waarop het Plan betrekking heeft."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] locatie"
+            "nl": "locatie"
           },
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         }
@@ -1102,34 +1102,34 @@
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
           "sh:description": {
-            "nl": "[UPDATED] Locatie van het Referentieoppervlak."
+            "nl": "Locatie van het Referentieoppervlak."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] ligging"
+            "nl": "ligging"
           },
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Type referentieoppervlak."
+            "nl": "Type referentieoppervlak."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] type"
+            "nl": "type"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
           "sh:description": {
-            "nl": "[UPDATED] De Verticale Positie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
+            "nl": "De Verticale Positie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] verticale positie"
+            "nl": "verticale positie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak.verticalePositie"
         }
@@ -1144,12 +1144,12 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Type van rioolwater."
+            "nl": "Type van rioolwater."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] rioolwatertype"
+            "nl": "rioolwatertype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#rioolwatertype"
         }
@@ -1164,12 +1164,12 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Type van kabelmateriaal."
+            "nl": "Type van kabelmateriaal."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] telecommunicatiekabelmateriaaltype"
+            "nl": "telecommunicatiekabelmateriaaltype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#telecommunicatiekabelmateriaaltype"
         }
@@ -1184,23 +1184,23 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] De maximum toelaatbare temperatuur van de inhoud van de Pijp."
+            "nl": "De maximum toelaatbare temperatuur van de inhoud van de Pijp."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] temperatuur"
+            "nl": "temperatuur"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#temperatuur"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Het type thermisch product dat door de ThermischePijp wordt getransporteerd."
+            "nl": "Het type thermisch product dat door de ThermischePijp wordt getransporteerd."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] thermischProducttype"
+            "nl": "thermischProducttype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#thermischProducttype"
         }
@@ -1215,22 +1215,22 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
           "sh:description": {
-            "nl": "[UPDATED] De hoogte van het Toebehoren."
+            "nl": "De hoogte van het Toebehoren."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] hoogte"
+            "nl": "hoogte"
           },
           "sh:path": "https://schema.org/height"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Type van Toebehoren."
+            "nl": "Type van Toebehoren."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] toebehorentype"
+            "nl": "toebehorentype"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
@@ -1245,24 +1245,24 @@
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
           "sh:description": {
-            "nl": "[UPDATED] Geometrie van het TopografiscElement."
+            "nl": "Geometrie van het TopografiscElement."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] locatie"
+            "nl": "locatie"
           },
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van het TopografischElement."
+            "nl": "Aard van het TopografischElement."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] topografisch elementtype"
+            "nl": "topografisch elementtype"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
@@ -1277,12 +1277,12 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
           "sh:description": {
-            "nl": "[UPDATED] Hoogte van de Toren."
+            "nl": "Hoogte van de Toren."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] torenhoogte"
+            "nl": "torenhoogte"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#torenhoogte"
         }
@@ -1297,12 +1297,12 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] De kleur van het object."
+            "nl": "De kleur van het object."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] kleur"
+            "nl": "kleur"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kleur"
         }
@@ -1317,45 +1317,45 @@
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
           "sh:description": {
-            "nl": "[UPDATED] De Verticale Positie als afstand tov het Referentieoppervlak."
+            "nl": "De Verticale Positie als afstand tov het Referentieoppervlak."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] afstand"
+            "nl": "afstand"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#afstand"
         },
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
           "sh:description": {
-            "nl": "[UPDATED] Locatie waarvoor de Verticale Positie geldt."
+            "nl": "Locatie waarvoor de Verticale Positie geldt."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] ligging"
+            "nl": "ligging"
           },
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Referentieoppervlak",
           "sh:description": {
-            "nl": "[UPDATED] Verwijzing naar het Referentieoppervlak."
+            "nl": "Verwijzing naar het Referentieoppervlak."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] referentieoppervlak"
+            "nl": "referentieoppervlak"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#referentieOppervlak"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/generiek#DirectePositie",
           "sh:description": {
-            "nl": "[UPDATED] De Verticale Positie als positie in een verticaal coördinaatsysteem."
+            "nl": "De Verticale Positie als positie in een verticaal coördinaatsysteem."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] verticale positie"
+            "nl": "verticale positie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#VerticalePositie.verticalePositie"
         }
@@ -1370,12 +1370,12 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Type van het water."
+            "nl": "Type van het water."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] watertype"
+            "nl": "watertype"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#watertype"
         }
@@ -1389,10 +1389,13 @@
       "sh:property": [
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] eenheid"
+            "nl": "eenheid"
           },
           "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length.uom"
         }
@@ -1406,10 +1409,13 @@
       "sh:property": [
         {
           "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] eenheid"
+            "nl": "eenheid"
           },
           "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom"
         },
@@ -1418,7 +1424,7 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] waarde"
+            "nl": "waarde"
           },
           "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.value"
         }
@@ -1433,12 +1439,12 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "[UPDATED] Identificator van de eenheid."
+            "nl": "Identificator van de eenheid."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] eenheidsidentificator"
+            "nl": "eenheidsidentificator"
           },
           "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier"
         }
@@ -1676,45 +1682,45 @@
       "sh:property": [
         {
           "sh:description": {
-            "nl": "[UPDATED] String gebruikt om het object uniek te identificeren."
+            "nl": "String gebruikt om het object uniek te identificeren."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] identificator"
+            "nl": "identificator"
           },
           "sh:path": "http://www.w3.org/2004/02/skos/core#notation"
         },
         {
           "sh:class": "http://purl.org/dc/terms/Agent",
           "sh:description": {
-            "nl": "[UPDATED] Link naar de agent die de identificator heeft uitgegeven."
+            "nl": "Link naar de agent die de identificator heeft uitgegeven."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] toegekend door"
+            "nl": "toegekend door"
           },
           "sh:path": "http://purl.org/dc/terms/creator"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "[UPDATED] Naam vd agent die de identificator heeft toegekend."
+            "nl": "Naam vd agent die de identificator heeft toegekend."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] toegekend door (String)"
+            "nl": "toegekend door (String)"
           },
           "sh:path": "http://www.w3.org/ns/adms#schemaAgency"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "nl": "[UPDATED] Tijdstip waarop de identificator werd uitgegeven."
+            "nl": "Tijdstip waarop de identificator werd uitgegeven."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] toegekend op"
+            "nl": "toegekend op"
           },
           "sh:path": "http://purl.org/dc/terms/issued"
         }
@@ -1729,163 +1735,163 @@
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Hoogste Administratieve eenheid van het adres, doorgaans een land."
+            "nl": "Hoogste Administratieve eenheid van het adres, doorgaans een land."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] administratieve eenheid niveau 1"
+            "nl": "administratieve eenheid niveau 1"
           },
           "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
+            "nl": "De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] administratieve eenheid niveau 2"
+            "nl": "administratieve eenheid niveau 2"
           },
           "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
+            "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] adresgebied"
+            "nl": "adresgebied"
           },
           "sh:path": "http://www.w3.org/ns/locn#addressArea"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "[UPDATED] Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
+            "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] busnummer"
+            "nl": "busnummer"
           },
           "sh:path": "https://data.vlaanderen.be/ns/adres#busnummer"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Gemeentenaam van het adres."
+            "nl": "Gemeentenaam van het adres."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] gemeentenaam"
+            "nl": "gemeentenaam"
           },
           "sh:path": "https://data.vlaanderen.be/ns/adres#gemeentenaam"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "[UPDATED] Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
+            "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] huisnummer"
+            "nl": "huisnummer"
           },
           "sh:path": "https://data.vlaanderen.be/ns/adres#Adresvoorstelling.huisnummer"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Land waarin het adres gelegen is."
+            "nl": "Land waarin het adres gelegen is."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] land"
+            "nl": "land"
           },
           "sh:path": "https://data.vlaanderen.be/ns/adres#land"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "[UPDATED] Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
+            "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
           },
           "sh:name": {
-            "nl": "[UPDATED] locatieaanduiding"
+            "nl": "locatieaanduiding"
           },
           "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
+            "nl": "Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
           },
           "sh:name": {
-            "nl": "[UPDATED] locatienaam"
+            "nl": "locatienaam"
           },
           "sh:path": "http://www.w3.org/ns/locn#locatorName"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "[UPDATED] Postbusnummer in een postkantoor."
+            "nl": "Postbusnummer in een postkantoor."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] postbus"
+            "nl": "postbus"
           },
           "sh:path": "http://www.w3.org/ns/locn#poBox"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
           "sh:description": {
-            "nl": "[UPDATED] Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+            "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] postcode"
+            "nl": "postcode"
           },
           "sh:path": "http://www.w3.org/ns/locn#postCode"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+            "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] postnaam"
+            "nl": "postnaam"
           },
           "sh:path": "http://www.w3.org/ns/locn#postName"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Straatnaam van het adres."
+            "nl": "Straatnaam van het adres."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] straatnaam"
+            "nl": "straatnaam"
           },
           "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/adres#Adres",
           "sh:description": {
-            "nl": "[UPDATED] Adres waarvan de adresvoorstelling is afgeleid."
+            "nl": "Adres waarvan de adresvoorstelling is afgeleid."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] verwijst Naar"
+            "nl": "verwijst Naar"
           },
           "sh:path": "https://data.vlaanderen.be/ns/adres#verwijstNaar"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Het complete adres in één string, al dan niet geformatteerd."
+            "nl": "Het complete adres in één string, al dan niet geformatteerd."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] volledig Adres"
+            "nl": "volledig Adres"
           },
           "sh:path": "http://www.w3.org/ns/locn#fullAddress"
         }
@@ -1903,28 +1909,28 @@
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] als GML"
+            "nl": "als GML"
           },
           "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
         },
         {
           "sh:description": {
-            "nl": "[UPDATED] Geometrie uitgedrukt in wkt-formaat."
+            "nl": "Geometrie uitgedrukt in wkt-formaat."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] als WKT"
+            "nl": "als WKT"
           },
           "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/generiek#Opmeting",
           "sh:description": {
-            "nl": "[UPDATED] De manier waarop de geometrie werd bepaald."
+            "nl": "De manier waarop de geometrie werd bepaald."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] opmeting"
+            "nl": "opmeting"
           },
           "sh:path": "https://data.vlaanderen.be/ns/generiek#Geometrie.opmeting"
         }
@@ -1953,68 +1959,68 @@
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Beschrijving van het Document."
+            "nl": "Beschrijving van het Document."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] beschrijving"
+            "nl": "beschrijving"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/description"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Classificatie van het Document."
+            "nl": "Classificatie van het Document."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] documentType"
+            "nl": "documentType"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/type"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
           "sh:description": {
-            "nl": "[UPDATED] Identificator van het Document."
+            "nl": "Identificator van het Document."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] documentidentificator"
+            "nl": "documentidentificator"
           },
           "sh:path": "http://www.w3.org/ns/adms#Identifier"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
           "sh:description": {
-            "nl": "[UPDATED] De plaats waar het Document is opgeslagen of raadpleegbaar is."
+            "nl": "De plaats waar het Document is opgeslagen of raadpleegbaar is."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] documentlocatie"
+            "nl": "documentlocatie"
           },
           "sh:path": "http://www.w3.org/ns/dcat#accessURL"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van de gegevensdrager waarop het Document is opgeslagen."
+            "nl": "Aard van de gegevensdrager waarop het Document is opgeslagen."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] documentmediumtype"
+            "nl": "documentmediumtype"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/format"
         },
         {
           "sh:class": "http://www.w3.org/ns/prov#Entity",
           "sh:description": {
-            "nl": "[UPDATED] Het Object waar het Document betrekking op heeft."
+            "nl": "Het Object waar het Document betrekking op heeft."
           },
           "sh:name": {
-            "nl": "[UPDATED] verwijstNaar"
+            "nl": "verwijstNaar"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/relation"
         }
@@ -2036,44 +2042,44 @@
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
-            "nl": "[UPDATED] Verwijzing naar een Document met extra informatie over het Activiteitencomplex."
+            "nl": "Verwijzing naar een Document met extra informatie over het Activiteitencomplex."
           },
           "sh:name": {
-            "nl": "[UPDATED] documentatie"
+            "nl": "documentatie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#documentatie"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/generiek#Functie",
           "sh:description": {
-            "nl": "[UPDATED] Activiteiten uitgevoerd door het complex."
+            "nl": "Activiteiten uitgevoerd door het complex."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] functie"
+            "nl": "functie"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#functie"
         },
         {
           "sh:class": "http://www.w3.org/ns/locn#Geometry",
           "sh:description": {
-            "nl": "[UPDATED] Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven."
+            "nl": "Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] geometrie"
+            "nl": "geometrie"
           },
           "sh:path": "http://www.w3.org/ns/locn#geometry"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
           "sh:description": {
-            "nl": "[UPDATED] Externe Identificator van het complex."
+            "nl": "Externe Identificator van het complex."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] identificator"
+            "nl": "identificator"
           },
           "sh:path": "http://www.w3.org/ns/adms#identifier"
         },
@@ -2091,32 +2097,32 @@
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerk",
           "sh:description": {
-            "nl": "[UPDATED] Nutsvoorzieningnetwerk waartoe het complex behoort."
+            "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] inNetwerk"
+            "nl": "inNetwerk"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Activiteitencomplex.inNetwerk"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Naam waaronder het complex gekend is."
+            "nl": "Naam waaronder het complex gekend is."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] naam"
+            "nl": "naam"
           },
           "sh:path": "http://purl.org/dc/terms/title"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Nutsvoorzieningnetwerkelement",
           "sh:description": {
-            "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat behoort tot het complex."
+            "nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex."
           },
           "sh:name": {
-            "nl": "[UPDATED] op"
+            "nl": "op"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#op"
         }
@@ -2130,32 +2136,32 @@
       "sh:property": [
         {
           "sh:description": {
-            "nl": "[UPDATED] Directe positie uitgedrukt in gml-formaat."
+            "nl": "Directe positie uitgedrukt in gml-formaat."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] gml"
+            "nl": "gml"
           },
           "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/generiek#Opmeting",
           "sh:description": {
-            "nl": "[UPDATED] De manier waarop de positie werd bepaald."
+            "nl": "De manier waarop de positie werd bepaald."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] opmeting"
+            "nl": "opmeting"
           },
           "sh:path": "https://data.vlaanderen.be/ns/generiek#DirectePositie.opmeting"
         },
         {
           "sh:description": {
-            "nl": "[UPDATED] Directe positie uitgedrukt in wkt-formaat."
+            "nl": "Directe positie uitgedrukt in wkt-formaat."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] wkt"
+            "nl": "wkt"
           },
           "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
         }
@@ -2170,42 +2176,42 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Classificatie van de activiteit."
+            "nl": "Classificatie van de activiteit."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] activiteit"
+            "nl": "activiteit"
           },
           "sh:path": "http://fixme.com#activiteit"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "nl": "[UPDATED] Een meer gedtailleerde beschrijving van de functie."
+            "nl": "Een meer gedtailleerde beschrijving van de functie."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] beschrijving"
+            "nl": "beschrijving"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/description"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Invoer voor de activiteit in de functie."
+            "nl": "Invoer voor de activiteit in de functie."
           },
           "sh:name": {
-            "nl": "[UPDATED] input"
+            "nl": "input"
           },
           "sh:path": "http://fixme.com#input"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Uitvoer van het resultaat van de activiteit in de functie."
+            "nl": "Uitvoer van het resultaat van de activiteit in de functie."
           },
           "sh:name": {
-            "nl": "[UPDATED] output"
+            "nl": "output"
           },
           "sh:path": "http://fixme.com#output"
         }
@@ -2220,45 +2226,45 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "nl": "[UPDATED] Het moment waarop de Opmeting heeft plaatsgevonden"
+            "nl": "Het moment waarop de Opmeting heeft plaatsgevonden"
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] datum"
+            "nl": "datum"
           },
           "sh:path": "http://purl.org/dc/elements/1.1/date"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Aard van de gebruikte methode."
+            "nl": "Aard van de gebruikte methode."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] methode"
+            "nl": "methode"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.methode"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
           "sh:description": {
-            "nl": "[UPDATED] De Positionele Nauwkeurigheid van de Opmeting."
+            "nl": "De Positionele Nauwkeurigheid van de Opmeting."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] nauwkeurigheid"
+            "nl": "nauwkeurigheid"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#nauwkeurigheid"
         },
         {
           "sh:class": "http://purl.org/dc/terms/Agent",
           "sh:description": {
-            "nl": "[UPDATED] Agent die de Opmeting heeft uitgevoerd."
+            "nl": "Agent die de Opmeting heeft uitgevoerd."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] uitgevoerd door"
+            "nl": "uitgevoerd door"
           },
           "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Opmeting.uitgevoerdDoor"
         }
@@ -2280,24 +2286,24 @@
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
           "sh:description": {
-            "nl": "[UPDATED] Verwijzing naar de Link."
+            "nl": "Verwijzing naar de Link."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] link"
+            "nl": "link"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#GerichteLink.link"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "nl": "[UPDATED] Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
+            "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "nl": "[UPDATED] richting"
+            "nl": "richting"
           },
           "sh:path": "https://data.vlaanderen.be/ns/netwerk#richting"
         }
