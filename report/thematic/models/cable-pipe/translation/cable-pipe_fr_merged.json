@@ -3828,8 +3828,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "d6b19333da657ec77a286eef0f9d18bc33f0aeb6",
-  "dummy": "020",
+  "documentcommit": "d7c32bc868ee98855a167780a1eea61854ed05fd",
+  "dummy": "021",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -12126,12 +12126,16 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{C278F0FF-9F4B-496b-8F25-3927000B9D57}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "The amount."
       },
       "ap-label-en": {
         "en": "value"
       },
       "codelist": [],
+      "definition": {
+        "en": "The amount.",
+        "fr": "[UPDATED] La quantité."
+      },
       "domain": [
         {
           "EA-Name": "Maat",
@@ -12182,18 +12186,25 @@
             "key": "definition-nl",
             "note": "null",
             "value": "De hoeveelheid."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "The amount."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "The amount."
         },
         "ap-label-en": {
           "en": "value"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "The amount."
+        },
         "label": {
           "en": "value"
         },
@@ -17161,7 +17172,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
+            "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
           },
           {
             "key": "definition-en",
@@ -17186,7 +17197,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
+          "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -17196,7 +17207,7 @@
       },
       "name": "Number",
       "usage": {
-        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
         "fr": "[UPDATED] REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
       }
     }
@@ -26103,7 +26114,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_fr.j2",
   "title": "Câbles et Conduites",
-  "toolchaincommit": "742a232ac380356a49bbc10a92cfb134fc65b2bd",
+  "toolchaincommit": "35372e29e3804b46b8777aef778b2cc0554dbb27",
   "translation": [
     {
       "language": "en",

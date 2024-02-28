@@ -705,6 +705,7 @@
     shacl:path <http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom>
   ], [
     shacl:class schemas:Number;
+    shacl:description "The amount."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "value"@en;

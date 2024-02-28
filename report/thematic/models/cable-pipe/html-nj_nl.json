@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/d6b19333da657ec77a286eef0f9d18bc33f0aeb6",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/d6b19333da657ec77a286eef0f9d18bc33f0aeb6/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/d7c32bc868ee98855a167780a1eea61854ed05fd",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/d7c32bc868ee98855a167780a1eea61854ed05fd/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -9091,7 +9091,10 @@
             "en": "value",
             "nl": "waarde"
           },
-          "description": {},
+          "description": {
+            "en": "The amount.",
+            "nl": "Enter your translation here"
+          },
           "usage": {},
           "domain": [
             {
@@ -9123,7 +9126,8 @@
             "ap-label-nl": "waarde",
             "ap-definition-nl": "De hoeveelheid.",
             "uri": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.value",
-            "definition-nl": "De hoeveelheid."
+            "definition-nl": "De hoeveelheid.",
+            "definition-en": "The amount."
           }
         },
         {
@@ -10987,7 +10991,7 @@
         "nl": "Enter your translation here"
       },
       "usage": {
-        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
         "nl": "[UPDATED] OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
       },
       "parents": [],
@@ -11000,7 +11004,7 @@
         "usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
         "ap-usageNote-nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
         "uri": "https://schema.org/Number",
-        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc.",
+        "usageNote-en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
         "definition-en": "Indication of a quantity."
       },
       "properties": []

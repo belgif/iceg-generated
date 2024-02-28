@@ -16843,7 +16843,7 @@
                 "en": "Indication of a quantity."
             },
             "usage": {
-                "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
+                "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
             },
             "ap-label-en": {
                 "en": "Number"
@@ -16869,7 +16869,7 @@
                     "en": "Indication of a quantity."
                 },
                 "usage": {
-                    "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
+                    "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc."
                 },
                 "ap-label-en": {
                     "en": "Number"
@@ -16922,7 +16922,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc.",
+                        "value": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
                         "note": "null"
                     },
                     {
@@ -24980,10 +24980,13 @@
             "name": "value",
             "inpackage": "OTHER_PACKAGE",
             "ap-definition-en": {
-                "en": "TODO"
+                "en": "The amount."
             },
             "ap-label-en": {
                 "en": "value"
+            },
+            "definition": {
+                "en": "The amount."
             },
             "label": {
                 "en": "value"
@@ -25005,13 +25008,15 @@
                 "label": {
                     "en": "value"
                 },
-                "definition": "",
+                "definition": {
+                    "en": "The amount."
+                },
                 "usage": "",
                 "ap-label-en": {
                     "en": "value"
                 },
                 "ap-definition-en": {
-                    "en": "TODO"
+                    "en": "The amount."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -25044,6 +25049,11 @@
                     {
                         "key": "definition-nl",
                         "value": "De hoeveelheid.",
+                        "note": "null"
+                    },
+                    {
+                        "key": "definition-en",
+                        "value": "The amount.",
                         "note": "null"
                     }
                 ],
