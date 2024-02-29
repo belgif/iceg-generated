@@ -41,1341 +41,6 @@
   "@id": "https://belgif.github.io//thematic/models/cable-pipe",
   "shapes": [
     {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AansluitingShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Address",
-          "sh:description": {
-            "en": "Address of the Connection."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "address"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#adres"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Appurtenance classification."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "appurtenance type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Aansluiting.toebehorentype"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Aansluiting"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Classification of the Annotation."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "annotation type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Annotatie",
-          "sh:description": {
-            "en": "Annotation that is part of the Annotation."
-          },
-          "sh:name": {
-            "en": "part"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#deel"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/prov#Entity",
-          "sh:description": {
-            "en": "Object to which the Annotation refers."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "associated with"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#geassocieerdMet"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Annotatie",
-          "sh:description": {
-            "en": "Annotation of which the Annotation is a part."
-          },
-          "sh:name": {
-            "en": "whole"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#geheel"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Geometry",
-          "sh:description": {
-            "en": "Geometry of the Annotation."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "location"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#geometry"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Angle by which the Annotation should be rotated when displayed."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "rotation angle"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#rotatiehoek"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Text of the Annotation."
-          },
-          "sh:name": {
-            "en": "text"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#tekst"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Annotatie"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Description of the Protected Area."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/description"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Geometry",
-          "sh:description": {
-            "en": "Geometry of the Protected Area."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "geometry"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#geometry"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/prov#Location",
-          "sh:description": {
-            "en": "Location of the Protected Area."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "location"
-          },
-          "sh:path": "http://www.w3.org/ns/prov#atLocation"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Name of the Protected Area."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/title"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Classification of different types of protected areas."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#BeschermdGebied"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DiepteShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Distance below the Reference Surface."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "depth"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#diepte"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Diepte"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ElectriciteitskabelShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Voltage without load."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "nominal voltage"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#nominaleSpanning"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Voltage during load."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "operating voltage"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#werkspanning"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Electriciteitskabel"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#HoogteShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Distance above the Reference Surface."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "height"
-          },
-          "sh:path": "https://schema.org/height"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Hoogte"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Diameter of the Cable."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "cable diameter"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#kabeldiameter"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "subtheme"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Kabel.subthema"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Kabel"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KanaalShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of the Duct as a container."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "container type"
-          },
-          "sh:path": "http://purl.org/dc/terms/type"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Kabel",
-          "sh:description": {
-            "en": "Cable located in the Duct."
-          },
-          "sh:name": {
-            "en": "cable"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Kanaal.kabel"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Kanaal",
-          "sh:description": {
-            "en": "Duct located in the Duct."
-          },
-          "sh:name": {
-            "en": "duct"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Kanaal.kanaal"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
-          "sh:description": {
-            "en": "Width of the Duct."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "duct width"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#kanaalbreedte"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Pijp",
-          "sh:description": {
-            "en": "Pipe located in the Duct."
-          },
-          "sh:name": {
-            "en": "pipe"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Kanaal.pijp"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Kanaal"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KastShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Kast"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MaataanduidingShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Maataanduiding"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MangatShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Mangat"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
-          "sh:description": {
-            "en": "Link of which this Node is the start Node."
-          },
-          "sh:name": {
-            "en": "begin link"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#beginLink"
-        },
-        {
-          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
-          "sh:description": {
-            "en": "Link of which this Node is the end Node."
-          },
-          "sh:name": {
-            "en": "end link"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#endLink"
-        },
-        {
-          "sh:class": "http://www.opengis.net/ont/sf#Point",
-          "sh:description": {
-            "en": "Geometry of the Node."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "geometry"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#Node.geometry"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
-          "sh:description": {
-            "en": "Utility Network to which the element belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "in network"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Angle by which the symbol representing the Node on map should be rotated."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "orientation"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.orientatie"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Indicates whether the Node can be considered hazardous."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "risk"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.risico"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Uiterlijk",
-          "sh:description": {
-            "en": "Appearance of the Node."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "appearance"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.uiterlijk"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Extent to which the Node is observable."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "visibility"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop.zichtbaarheid"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopcontainerShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.opengis.net/ont/sf#Point",
-          "sh:description": {
-            "en": "Geometry of the container."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "geometry"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#Node.geometry"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoop",
-          "sh:description": {
-            "en": "Utility Node that is contained by the UtilityNodeContainer."
-          },
-          "sh:name": {
-            "en": "node"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#knoop"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Angle by which to rotate the symbol representing the container on a map."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "orientation"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.orientatie"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Indicates whether a UtilityNodeContainer can be considered hazardous."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "risk"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.risico"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Uiterlijk",
-          "sh:description": {
-            "en": "Appearance of the container."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "appearance"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.uiterlijk"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Extent to which the container is observable."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "visibility"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer.zichtbaarheid"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningknoopcontainer"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
-          "sh:description": {
-            "en": "Node that is the end of the Link."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "end node"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#endNode"
-        },
-        {
-          "sh:class": "http://www.opengis.net/ont/geosparql#Curve",
-          "sh:description": {
-            "en": "The geometry of the centerline of the Link."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "centreline geometry"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry"
-        },
-        {
-          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
-          "sh:description": {
-            "en": "Node that starts the Link."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "start node"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#beginNode"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
-          "sh:description": {
-            "en": "Utility Network to which the element belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "in network"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglink"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksequentieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "https://vocab.belgif.be/ns/network#DirectedLink",
-          "sh:description": {
-            "en": "Directed Link that is part of the LinkSequence."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "link"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#LinkSequence.link"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
-          "sh:description": {
-            "en": "Utility Network to which the element belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "in network"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinksequentie"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksetShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
-          "sh:description": {
-            "en": "UtilityLinkSequence or UtilityLink that is part of the LinkSet."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "link"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#LinkSet.link"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
-          "sh:description": {
-            "en": "Utility Network to which the element belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "in network"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#inNetwerk"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of material that makes up the LinkSet."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "material type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#materiaaltype"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Way in which the utility is delivered."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "utility delivery type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#nutsvoorzieningleveringstype"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Indicates whether the LinkSet can be considered hazardous."
-          },
-          "sh:name": {
-            "en": "risk"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.risico"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Further specification of the LinkSet."
-          },
-          "sh:name": {
-            "en": "technical specification"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#technischeSpecificate"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Uiterlijk",
-          "sh:description": {
-            "en": "Appearance of the LinkSet."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "appearance"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.uiterlijk"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Way to alert for the presence of the LinkSet."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "warning type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#waarschuwingstype"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Extent to which the LinkSet is observable."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "visibility"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset.zichtbaarheid"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieninglinkset"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Name by which the network is known."
-          },
-          "sh:name": {
-            "en": "geographical name"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#^geografischeNaam"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-          "sh:description": {
-            "en": "ActivityComplex belonging to the network."
-          },
-          "sh:name": {
-            "en": "activitycomplex reference"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#activiteitencomplexreferentie"
-        },
-        {
-          "sh:class": "http://purl.org/dc/terms/Agent",
-          "sh:description": {
-            "en": "Parties authorized to manage, operate or own the Utility Network."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "authority role"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#bevoegdePartij"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Legal text describing confidentiality clauses applying to the utility network information."
-          },
-          "sh:name": {
-            "en": "disclaimer"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#disclaimer"
-        },
-        {
-          "sh:class": "http://xmlns.com/foaf/0.1/Document",
-          "sh:description": {
-            "en": "Reference to a Document containing additional information about the Network."
-          },
-          "sh:name": {
-            "en": "documentation"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/relation"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
-          "sh:description": {
-            "en": "Utility NetworkElement belonging to the network."
-          },
-          "sh:name": {
-            "en": "element"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#element"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
-          "sh:description": {
-            "en": "Utility Network associated with the Utility Network."
-          },
-          "sh:name": {
-            "en": "network"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#netwerk"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "The type of utility network or the utility network theme."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "utility network type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#VerticalePositie",
-          "sh:description": {
-            "en": "Default Vertical Position of elements in the network."
-          },
-          "sh:name": {
-            "en": "standard vertical position detail"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#standaardVerticalePositiedetail"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkelementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/adms#Identifier",
-          "sh:description": {
-            "en": "Element identifier."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#^identificator"
-        },
-        {
-          "sh:class": "http://xmlns.com/foaf/0.1/Document",
-          "sh:description": {
-            "en": "Reference to a Document containing additional information about the element."
-          },
-          "sh:name": {
-            "en": "documentation"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/relation"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": {
-            "en": "The time from which the Utility NetworkElement no longer exists in the real world."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "valid to"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#geldigTot"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": {
-            "en": "The time when the Utility NetworkElement started to exist in the real world."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "valid from"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#geldigVan"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "The status of the element with respect to its completion and use."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "current status"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#huidigeStatus"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
-          "sh:description": {
-            "en": "Utility Network to which the element belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "in network"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.inNetwerk"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "General indication of the Vertical Position of the element."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "vertical position"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement.verticalePositie"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#VerticalePositie",
-          "sh:name": {
-            "en": "vertical position detail"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#verticalePositiedetail"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalienPijpShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "oil gas chemicals product type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#olieGasChemicalienProducttype"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#OlieGasChemicalienPijp"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PaalShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
-          "sh:description": {
-            "en": "The height of the Pole."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "pole height"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#paalhoogte"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Paal"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PijpShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of the Pipe as a container."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "container type"
-          },
-          "sh:path": "http://purl.org/dc/terms/type"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "The maximum allowable operating pressure at which a product is transported through a Pipe."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "pressure"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#druk"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Kabel",
-          "sh:description": {
-            "en": "Cable located in the Pipe."
-          },
-          "sh:name": {
-            "en": "cable"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Pijp.kabel"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Pijp",
-          "sh:description": {
-            "en": "Other Pipe located in the Pipe."
-          },
-          "sh:name": {
-            "en": "pipe"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Pijp.pijp"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "Outer diameter of the Pipe."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "pipe diameter"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#pijpdiameter"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Classification of the Pipe according to the thematic domain to which it belongs."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "subtheme"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Pijp.subthema"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Pijp"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PlanShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Geometry",
-          "sh:description": {
-            "en": "Geometry of the site covered by the Plan."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "location"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#geometry"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Plan"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlakShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Geometry",
-          "sh:description": {
-            "en": "Location of the Reference Surface."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "location"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#geometry"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "The type of Reference Surface."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#DirectPosition",
-          "sh:description": {
-            "en": "The Vertical Position of the ReferenceSurface as position in a vertical coordinate system."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "vertical position"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Referentieoppervlak.verticalePositie"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Referentieoppervlak"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RioolpijpShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of sewer water."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "sewer water type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#rioolwatertype"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Rioolpijp"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of cable material."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "telecommunications cable material type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#telecommunicatiekabelmateriaaltype"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Telecommunicatiekabel"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ThermischePijpShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "The maximum allowable temperature of the contents of the Pipe."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "temperature"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#temperatuur"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "The type of thermal product transported through the Thermal Pipe."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "thermal product type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#thermischProducttype"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#ThermischePijp"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ToebehorenShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
-          "sh:description": {
-            "en": "The height of the Appurtenance."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "height"
-          },
-          "sh:path": "https://schema.org/height"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of Appurtenance."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "appurtenance type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Toebehoren"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TopografischElementShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Geometry",
-          "sh:description": {
-            "en": "Shape and position features of an object,"
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "location"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#geometry"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of the Topographical Element."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "topographical element type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#TopografischElement"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TorenShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
-          "sh:description": {
-            "en": "Heigt of the Tower."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "tower height"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#torenhoogte"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Toren"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#UiterlijkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "The color of the object."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "color"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#kleur"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Uiterlijk"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#VerticalePositieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
-          "sh:description": {
-            "en": "The Vertical Position as distance from the Reference Surface."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "distance"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#afstand"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Geometry",
-          "sh:description": {
-            "en": "Location for which the Vertical Position applies."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "location"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#geometry"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Referentieoppervlak",
-          "sh:description": {
-            "en": "Reference to the Reference Surface."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "reference surface"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#referentieOppervlak"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#DirectPosition",
-          "sh:description": {
-            "en": "The Vertical Position as a position in a vertical coordinate system."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "vertical position"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#VerticalePositie.verticalePositie"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#VerticalePositie"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WaterleidingShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of water."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "water type"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#watertype"
-        }
-      ],
-      "sh:targetClass": "https:/vocab.belgif.be/utility-services#Waterleiding"
-    },
-    {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -1770,7 +435,7 @@
           "sh:name": {
             "en": "box number"
           },
-          "sh:path": "https://vocab.belgif.be/ns/address#boxNumber"
+          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -1792,7 +457,7 @@
           "sh:name": {
             "en": "house number"
           },
-          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation"
+          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2050,7 +715,7 @@
           "sh:name": {
             "en": "documentation"
           },
-          "sh:path": "https://data.vlaanderen.be/ns/nutsvoorzieningen#documentatie"
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#documentation"
         },
         {
           "sh:class": "https://vocab.belgif.be/ns/generic#Function",
@@ -2087,26 +752,26 @@
           "sh:path": "http://www.w3.org/ns/adms#identifier"
         },
         {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "en": "Utility Network to which the ActivityComplex belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "in network"
-          },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Activiteitencomplex.inNetwerk"
-        },
-        {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerk",
-          "sh:description": {
-            "en": "Reference to a Network object to which a NetworkElement belongs."
+            "en": "Reference to a Network object to which a Network Element belongs."
           },
           "sh:minCount": "1",
           "sh:name": {
             "en": "inNetwork"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network to which the Activity Complex belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2120,9 +785,9 @@
           "sh:path": "http://purl.org/dc/terms/title"
         },
         {
-          "sh:class": "https:/vocab.belgif.be/utility-services#Nutsvoorzieningnetwerkelement",
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
           "sh:description": {
-            "en": "UtilityNetworkElement belonging to the complex."
+            "en": "[UPDATED] Utility Network Element belonging to the complex."
           },
           "sh:name": {
             "en": "on"
@@ -2185,7 +850,7 @@
           "sh:name": {
             "en": "activity"
           },
-          "sh:path": "http://fixme.com#activiteit"
+          "sh:path": "https://vocab.belgif.be/ns/generic#activity"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -2206,7 +871,7 @@
           "sh:name": {
             "en": "input"
           },
-          "sh:path": "http://fixme.com#input"
+          "sh:path": "https://vocab.belgif.be/ns/generic#input"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -2216,7 +881,7 @@
           "sh:name": {
             "en": "output"
           },
-          "sh:path": "http://fixme.com#output"
+          "sh:path": "https://vocab.belgif.be/ns/generic#output"
         }
       ],
       "sh:targetClass": "https://vocab.belgif.be/ns/generic#Function"
@@ -2247,7 +912,7 @@
           "sh:name": {
             "en": "method"
           },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Opmeting.methode"
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Survey.method"
         },
         {
           "sh:class": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
@@ -2258,7 +923,7 @@
           "sh:name": {
             "en": "accuracy"
           },
-          "sh:path": "https:/vocab.belgif.be/utility-services#nauwkeurigheid"
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#accuracy"
         },
         {
           "sh:class": "http://purl.org/dc/terms/Agent",
@@ -2269,7 +934,7 @@
           "sh:name": {
             "en": "recorded by"
           },
-          "sh:path": "https:/vocab.belgif.be/utility-services#Opmeting.uitgevoerdDoor"
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Survey.recordedBy"
         }
       ],
       "sh:targetClass": "https://vocab.belgif.be/ns/generic#Survey"
@@ -2349,11 +1014,1346 @@
       "sh:targetClass": "https://vocab.belgif.be/ns/network#Node"
     },
     {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the Annotation."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "annotation type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "sh:description": {
+            "en": "Annotation that is part of the Annotation."
+          },
+          "sh:name": {
+            "en": "part"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#part"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/prov#Entity",
+          "sh:description": {
+            "en": "Object to which the Annotation refers."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "associated with"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#associatedWith"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Annotation",
+          "sh:description": {
+            "en": "Annotation of which the Annotation is a part."
+          },
+          "sh:name": {
+            "en": "whole"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#whole"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the Annotation."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Angle by which the Annotation should be rotated when displayed."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "rotation angle"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#rotationAngle"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Text of the Annotation."
+          },
+          "sh:name": {
+            "en": "text"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#text"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Annotation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#UiterlijkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The color of the object."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "color"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#color"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Appearance"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ToebehorenShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "The height of the Appurtenance."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "height"
+          },
+          "sh:path": "https://schema.org/height"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of Appurtenance."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "appurtenance type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KastShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Cabinet"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Diameter of the Cable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "cable diameter"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#cableDiameter"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "subtheme"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Cable.subtheme"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Cable"
+    },
+    {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#KabelEnLeidingContainerShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AansluitingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
+            "en": "Address of the Connection."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "address"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#address"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Appurtenance classification."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "appurtenance type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Connection.appurtenanceType"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Connection"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DiepteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Distance below the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "depth"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#depth"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Depth"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MaataanduidingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Dimension"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KanaalShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the Duct as a container."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "container type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.containerType"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Cable",
+          "sh:description": {
+            "en": "Cable located in the Duct."
+          },
+          "sh:name": {
+            "en": "cable"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.cable"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Duct",
+          "sh:description": {
+            "en": "Duct located in the Duct."
+          },
+          "sh:name": {
+            "en": "duct"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.duct"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "Width of the Duct."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "duct width"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#ductWidth"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "sh:description": {
+            "en": "Pipe located in the Duct."
+          },
+          "sh:name": {
+            "en": "pipe"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.pipe"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Duct"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ElectriciteitskabelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Voltage without load."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "nominal voltage"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#nominalVoltage"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Voltage during load."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "operating voltage"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#operatingVoltage"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#ElectricityCable"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#HoogteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Distance above the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "height"
+          },
+          "sh:path": "https://schema.org/height"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Height"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MangatShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Manhole"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalienPijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "oil gas chemicals product type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#oilGasChemicalsProductType"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#OilGasChemicalsPipe"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the Pipe as a container."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "container type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Pipe.containerType"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "The maximum allowable operating pressure at which a product is transported through a Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "pressure"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#pressure"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Cable",
+          "sh:description": {
+            "en": "Cable located in the Pipe."
+          },
+          "sh:name": {
+            "en": "cable"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Pipe.cable"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Pipe",
+          "sh:description": {
+            "en": "Other Pipe located in the Pipe."
+          },
+          "sh:name": {
+            "en": "pipe"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Pipe.pipe"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Outer diameter of the Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "pipe diameter"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#pipeDiameter"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the Pipe according to the thematic domain to which it belongs."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "subtheme"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Pipe.subtheme"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Pipe"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PlanShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the site covered by the Plan."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Plan"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PaalShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "The height of the Pole."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "pole height"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#poleHeight"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Pole"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Description of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/prov#Location",
+          "sh:description": {
+            "en": "Location of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/prov#atLocation"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name of the Protected Area."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/title"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of different types of protected areas."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlakShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Location of the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#DirectPosition",
+          "sh:description": {
+            "en": "The Vertical Position of the ReferenceSurface as position in a vertical coordinate system."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "vertical position"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface.verticalPosition"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RioolpijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of sewer water."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "sewer water type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#sewerWaterType"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#SewerPipe"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of cable material."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "telecommunications cable material type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#telecommunicationsCableMaterialType"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#TelecommunicationsCable"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ThermischePijpShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "The maximum allowable temperature of the contents of the Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "temperature"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#temperature"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of thermal product transported through the Thermal Pipe."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "thermal product type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#thermalProductType"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#ThermalPipe"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TopografischElementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Shape and position features of an object,"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the Topographical Element."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "topographical element type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#TopographicalElement"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TorenShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length",
+          "sh:description": {
+            "en": "Heigt of the Tower."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "tower height"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#towerHeight"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#Tower"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+          "sh:description": {
+            "en": "Node that is the end of the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "end node"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#endNode"
+        },
+        {
+          "sh:class": "http://www.opengis.net/ont/geosparql#Curve",
+          "sh:description": {
+            "en": "The geometry of the centerline of the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "centreline geometry"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#Link.centrelineGeometry"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Knoop",
+          "sh:description": {
+            "en": "Node that starts the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "start node"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#beginNode"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#UtilityLink"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksequentieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://vocab.belgif.be/ns/network#DirectedLink",
+          "sh:description": {
+            "en": "[UPDATED] Directed Link that is part of the Link Sequence."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "link"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#LinkSequence.link"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksetShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
+          "sh:description": {
+            "en": "[UPDATED] Utility Link Sequence or Utility Link that is part of the Link Set."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "link"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#LinkSet.link"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of material that makes up the Link Set."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "material type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#materialType"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Way in which the utility is delivered."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "utility delivery type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#utilityDeliveryType"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates whether the Link Set can be considered hazardous."
+          },
+          "sh:name": {
+            "en": "risk"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.risk"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Further specification of the Link Set."
+          },
+          "sh:name": {
+            "en": "technical specification"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#technicalSpecification"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Appearance",
+          "sh:description": {
+            "en": "Appearance of the Link Set."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "appearance"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.appearance"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Way to alert for the presence of the Link Set."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "warning type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#warningType"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Extent to which the Link Set is observable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "visibility"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.visibility"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name by which the network is known."
+          },
+          "sh:name": {
+            "en": "geographical name"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#geographicalName"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "en": "Activity Complex belonging to the network."
+          },
+          "sh:name": {
+            "en": "activity complex reference"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/Agent",
+          "sh:description": {
+            "en": "Parties authorized to manage, operate or own the Utility Network."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "authority role"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#authorityRole"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Legal text describing confidentiality clauses applying to the utility network information."
+          },
+          "sh:name": {
+            "en": "disclaimer"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#disclaimer"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Document",
+          "sh:description": {
+            "en": "Reference to a Document containing additional information about the Network."
+          },
+          "sh:name": {
+            "en": "documentation"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#documentation"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "sh:description": {
+            "en": "Utility Network Element belonging to the network."
+          },
+          "sh:name": {
+            "en": "element"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#element"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network associated with the Utility Network."
+          },
+          "sh:name": {
+            "en": "network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#network"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The type of utility network or the utility network theme."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "utility network type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+          "sh:description": {
+            "en": "Default Vertical Position of elements in the network."
+          },
+          "sh:name": {
+            "en": "standard vertical position detail"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkelementShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:description": {
+            "en": "Element identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#identifier"
+        },
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Document",
+          "sh:description": {
+            "en": "Reference to a Document containing additional information about the element."
+          },
+          "sh:name": {
+            "en": "documentation"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/relation"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "The time from which the Utility Network Element no longer exists in the real world."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "valid to"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#validTo"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "The time when the Utility Network Element started to exist in the real world."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "valid from"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#validFrom"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The status of the element with respect to its completion and use."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "current status"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#currentStatus"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "General indication of the Vertical Position of the element."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "vertical position"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#VerticalPosition",
+          "sh:name": {
+            "en": "vertical position detail"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
+          "sh:description": {
+            "en": "Link of which this Node is the start Node."
+          },
+          "sh:name": {
+            "en": "begin link"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#beginLink"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
+          "sh:description": {
+            "en": "Link of which this Node is the end Node."
+          },
+          "sh:name": {
+            "en": "end link"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#endLink"
+        },
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Point",
+          "sh:description": {
+            "en": "Geometry of the Node."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#Node.geometry"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network to which the element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Angle by which the symbol representing the Node on map should be rotated."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "orientation"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNode.orientation"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates whether the Node can be considered hazardous."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "risk"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNode.risk"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Appearance",
+          "sh:description": {
+            "en": "Appearance of the Node."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "appearance"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNode.appearance"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Extent to which the Node is observable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "visibility"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNode.visibility"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#UtilityNode"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopcontainerShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.opengis.net/ont/sf#Point",
+          "sh:description": {
+            "en": "Geometry of the container."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#Node.geometry"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
+          "sh:description": {
+            "en": "Utility Node that is contained by the Utility Node Container."
+          },
+          "sh:name": {
+            "en": "node"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#node"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "Angle by which to rotate the symbol representing the container on a map."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "orientation"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates whether a Utility Node Container can be considered hazardous."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "risk"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#Appearance",
+          "sh:description": {
+            "en": "Appearance of the container."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "appearance"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.appearance"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Extent to which the container is observable."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "visibility"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.visibility"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#VerticalePositieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure",
+          "sh:description": {
+            "en": "The Vertical Position as distance from the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "distance"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#distance"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Location for which the Vertical Position applies."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "location"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#ReferenceSurface",
+          "sh:description": {
+            "en": "Reference to the Reference Surface."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "reference surface"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#referenceSurface"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#DirectPosition",
+          "sh:description": {
+            "en": "The Vertical Position as a position in a vertical coordinate system."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "vertical position"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#VerticalPosition.verticalPosition"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#VerticalPosition"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WaterleidingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of water."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "water type"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#waterPipe"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
     }
   ]
 }
