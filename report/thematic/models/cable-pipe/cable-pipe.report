@@ -2,304 +2,306 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-DQ".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.FOAF".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.DCTERMS".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.LOCN".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ADMS".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-CSL".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.SupportPackage".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.PROV".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-SS".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldLeiding".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Schema.org".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Model.ISO-SS, Model.Model.Objectdiagrammen, Model, Model.Model.SupportPackage, Model.Model, Model.Model.FOAF, Model.Model.ISO-DQ, Model.Model.ADMS, Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding, Model.Model.PROV, Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte, Model.Model.ISO-CSL, Model.Model.DCTERMS, Model.Model.Schema.org, Model.Model.LOCN
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:VerticalePositietype, Model.Model.OSLO-Netwerk:Teken, Model.Model.IMKL-LD:Faciliteitstatus, Model.Model.IMKL-LD:Watertype, Model.Model.IMKL-LD:Materiaaltype, Model.Model.IMKL-LD:Subthema, Model.Model.IMKL-LD:Nutsvoorzieningleveringstype, Model.Model.IMKL-LD:Containertype, Model.Model.IMKL-LD:Risicotype, Model.Model.IMKL-LD:Documenttype, Model.Model.IMKL-LD:Kleur, Model.Model.IMKL-LD:Referentieoppervlaktype, Model.Model.IMKL-LD:Rioolwatertype, Model.Model.IMKL-LD:Annotatietype, Model.Model.IMKL-LD:BeschermdGebiedtype, Model.Model.IMKL-LD:Toebehorentype, Model.Model.IMKL-LD:Inputoutputtype, Model.Model.IMKL-LD:ThermischProducttype, Model.Model.IMKL-LD:Zichtbaarheidstype, Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype, Model.Model.IMKL-LD:TopografischElementtype, Model.Model.IMKL-LD:Opmetingsmethode, Model.Model.IMKL-LD:EconomischeActiviteittype, Model.Model.IMKL-LD:OlieGasChemicalientype, Model.Model.IMKL-LD:Documentmediumtype, Model.Model.IMKL-LD:Waarschuwingstype
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DQ_QuantitativeResult): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Unit): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:Unit, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:Unit
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asWKT): Model.Model.LOCN:Geometrie:alsWKT, Model.Model.ISO-SS:DirectePositie:wkt
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.Model.IMKL-LD:Plan:locatie, Model.Model.IMKL-LD:Referentieoppervlak:ligging, Model.Model.IMKL-LD:VerticalePositie:ligging, Model.Model.OSLO-Generiek:Activiteitencomplex:geometrie, Model.Model.IMKL-LD:TopografischElement:locatie, Model.Model.IMKL-LD:Annotatie:locatie, Model.Model.IMKL-LD:BeschermdGebied:geometrie
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/type): Model.Model.IMKL-LD:BeschermdGebied:type, Model.Model.FOAF:Document:documentType, Model.Model.IMKL-LD:TopografischElement:topografischElementtype, Model.Model.IMKL-LD:Annotatie:annotatietype, Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:Referentieoppervlak:type
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asGML): Model.Model.ISO-SS:DirectePositie:gml, Model.Model.LOCN:Geometrie:alsGML
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://vocab.belgif.be/ns/utility-services#inNetwork): Model.Model.IMKL-LD:Nutsvoorzieninglinksequentie:inNetwerk, Model.Model.IMKL-LD:Nutsvoorzieningknoop:inNetwerk, Model.Model.IMKL-LD:Nutsvoorzieninglinkset:inNetwerk, Model.Model.IMKL-LD:Nutsvoorzieninglink:inNetwerk
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/description): Model.Model.OSLO-Generiek:Functie:beschrijving, Model.Model.FOAF:Document:beschrijving, Model.Model.IMKL-LD:BeschermdGebied:beschrijving
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/relation): Model.Model.FOAF:Document:verwijstNaar, Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:documentatie
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#valueUnit): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:valueUnit, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:valueUnit
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/height): Model.Model.IMKL-LD:Toebehoren:hoogte, Model.Model.IMKL-LD:Hoogte:hoogte
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://vocab.belgif.be/ns/network#Node.geometry): Model.Model.IMKL-LD:Nutsvoorzieningknoop:^geometrie, Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:^geometrie
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:value, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:value
-09:50:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://vocab.belgif.be/ns/utility-services#documentation): Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie, Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:documentatie
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
-09:50:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningnetwerkelement has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerkelement" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningknoop has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoop" .
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Knoop".
-09:50:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieninglinkset has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinkset" .
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:LinkSet".
-09:50:57 WARN  c.g.i.o.c.Converter - Element Pijp has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Pijp" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Kabel has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kabel" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Kanaal has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kanaal" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Containertype" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Zichtbaarheidstype" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieninglink has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglink" .
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Link".
-09:50:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieninglinksequentie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinksequentie" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Risicotype" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Uiterlijk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Uiterlijk" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Kleur".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kleur" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PositioneleNauwkeurigheid" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Materiaaltype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Materiaaltype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Subthema".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Subthema" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Document" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element VerticalePositie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositie" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningnetwerk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerk" .
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Netwerk".
-09:50:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningknoopcontainer has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoopcontainer" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Electriciteitskabel has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Electriciteitskabel" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Telecommunicatiekabel has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabel" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element OlieGasChemicalienPijp has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalienPijp" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Rioolpijp has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolpijp" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Waterleiding has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waterleiding" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element ThermischePijp has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischePijp" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Curve" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Toebehoren has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehoren" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Toren has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toren" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Paal has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Paal" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Mangat has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Mangat" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Kast has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kast" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerktype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Faciliteitstatus".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Faciliteitstatus" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Activiteitencomplex" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Functie" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:VerticalePositietype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositietype" .
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geometrie" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Identificator" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningleveringstype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningleveringstype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Waarschuwingstype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waarschuwingstype" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maat" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengte" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabelmateriaaltype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:OlieGasChemicalientype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalientype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Rioolwatertype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolwatertype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Watertype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Watertype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:ThermischProducttype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischProducttype" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GerichteLink" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.OSLO-Netwerk:Teken".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Teken" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Punt" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element KabelEnLeidingContainer has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "KabelEnLeidingContainer" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Toebehorentype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehorentype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:EconomischeActiviteittype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EconomischeActiviteittype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Inputoutputtype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inputoutputtype" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Aansluiting has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Aansluiting" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adres" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Annotatie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatie" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Maataanduiding has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maataanduiding" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Annotatietype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatietype" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element TopografischElement has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElement" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:TopografischElementtype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElementtype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documentmediumtype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documentmediumtype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documenttype".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documenttype" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DirectePositie" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmeting" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Referentieoppervlak has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlak" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlaktype" .
-09:50:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Opmetingsmethode".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmetingsmethode" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Hoogte has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Hoogte" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element Diepte has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Diepte" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Getal" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Meeteenheid" .
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengteeenheid" .
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
-09:50:57 WARN  c.g.i.o.c.Converter - Element Plan has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plan" .
-09:50:57 WARN  c.g.i.o.c.Converter - Element BeschermdGebied has same prefix as package: simplify by removing the extra tag uri
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebied" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebiedtype" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Netwerk" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "LinkSet" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Link" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Linksequentie" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Knoop" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatie" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Object" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeneriekeLink" .
-09:50:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:pijp" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:deel" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" does not have a name, it will be ignored.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:geheel" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:netwerk" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" does not have a name, it will be ignored.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:element" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" does not have a name, it will be ignored.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:pijp" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" does not have a name, it will be ignored.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kabel" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 WARN  c.g.i.o.c.Converter - Package for connector Model.Model.OSLO-Generiek:Activiteitencomplex:op is unknown
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kanaal" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" does not have a name, it will be ignored.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:kabel" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:inNetwerk" belongs to package "IMKL-LD" based on source and target definition.
-09:50:57 WARN  c.g.i.o.c.Converter - Element verticalePositiedetail has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
-09:50:57 WARN  c.g.i.o.c.Converter - Element huidigeStatus has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element geldigVan has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element geldigTot has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element verticalePositie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element ^identificator has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element zichtbaarheid has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element risico has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element uiterlijk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element orientatie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^beginlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
-09:50:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^eindlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
-09:50:57 WARN  c.g.i.o.c.Converter - Element zichtbaarheid has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element risico has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element uiterlijk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element materiaaltype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element technischeSpecificate has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "GeneriekeLink" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:^link": Model.Model.OSLO-Netwerk:GeneriekeLink, Model.Model.SupportPackage:GeneriekeLink.
-09:50:57 WARN  c.g.i.o.c.Converter - Element nutsvoorzieningleveringstype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element waarschuwingstype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element containertype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element subthema has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element pijpdiameter has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element druk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element kabeldiameter has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element subthema has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element containertype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element kanaalbreedte has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^eindknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
-09:50:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^startknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
-09:50:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element kleur has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element referentieOppervlak has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element verticalePositie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element afstand has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element bevoegdePartij has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element ^geografischeNaam has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element disclaimer has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element documentatie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element standaardVerticalePositiedetail has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element zichtbaarheid has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element risico has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element uiterlijk has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element orientatie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element nominaleSpanning has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element werkspanning has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element telecommunicatiekabelmateriaaltype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element olieGasChemicalienProducttype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element rioolwatertype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element watertype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element thermischProducttype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element temperatuur has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element toebehorentype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element torenhoogte has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element paalhoogte has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element functie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
-09:50:57 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
-09:50:57 WARN  c.g.i.o.c.Converter - Element documentatie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.OSLO-Netwerk:GerichteLink:link": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
-09:50:57 WARN  c.g.i.o.c.Converter - Element adres has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element toebehorentype has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Adres" for attribute "Model.Model.LOCN:Adresvoorstelling:verwijstNaar": Model.Model.SupportPackage:Adres, Model.Model.OSLO-Address:Adres.
-09:50:57 WARN  c.g.i.o.c.Converter - Element geassocieerdMet has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element rotatiehoek has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element tekst has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element methode has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element uitgevoerdDoor has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element nauwkeurigheid has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element verticalePositie has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.Converter - Element diepte has same prefix as package: simplify by removing the extra tag uri
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: mantel - {6CB42A24-017B-46b9-AC2C-EFD678BBEF66}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: goot - {1085B707-585D-4538-8EA6-EBD66F6CD423}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: bovengrondsZichtbaar - {7301AB17-C022-4058-905C-6EEEBA6C5F01}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: nietBovengrondsZichtbaar - {8626722C-8714-41e6-868C-18E40D486A9A}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: risico - {87786D04-7CC3-436c-80FE-00D743C0F7F6}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: geenRisico - {966C944B-05D4-4ecf-8686-1B5E93051E9C}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: maaiveld - {3B771EF0-D576-46f0-914F-1C57DE0C70D7}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: watergewin - {1CA0171A-5AFD-4f96-9E42-03A0AFC4294A}
-09:50:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: gasopslag - {9FE5C9E1-3BC5-4364-8303-DA3C7FEDA4D5}
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-DQ".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.FOAF".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.DCTERMS".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.LOCN".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ADMS".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-CSL".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.SupportPackage".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.PROV".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.ISO-SS".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldLeiding".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.Model.Schema.org".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.Model.PROV, Model.Model.ISO-CSL, Model.Model.ADMS, Model.Model.Schema.org, Model.Model.ISO-DQ, Model.Model, Model.Model.DCTERMS, Model.Model.ISO-SS, Model.Model.Objectdiagrammen, Model.Model.SupportPackage, Model.Model.Objectdiagrammen.DatavoorbeeldenDiepte, Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte, Model.Model.LOCN, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding, Model.Model.FOAF, Model
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.Model.IMKL-LD:Documentmediumtype, Model.Model.IMKL-LD:ThermischProducttype, Model.Model.IMKL-LD:Watertype, Model.Model.IMKL-LD:Materiaaltype, Model.Model.IMKL-LD:Referentieoppervlaktype, Model.Model.IMKL-LD:EconomischeActiviteittype, Model.Model.IMKL-LD:OlieGasChemicalientype, Model.Model.IMKL-LD:Kleur, Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:Containertype, Model.Model.OSLO-Netwerk:Teken, Model.Model.IMKL-LD:Waarschuwingstype, Model.Model.IMKL-LD:Nutsvoorzieningleveringstype, Model.Model.IMKL-LD:Subthema, Model.Model.IMKL-LD:VerticalePositietype, Model.Model.IMKL-LD:TopografischElementtype, Model.Model.IMKL-LD:Inputoutputtype, Model.Model.IMKL-LD:Faciliteitstatus, Model.Model.IMKL-LD:Risicotype, Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype, Model.Model.IMKL-LD:Zichtbaarheidstype, Model.Model.IMKL-LD:Toebehorentype, Model.Model.IMKL-LD:Opmetingsmethode, Model.Model.IMKL-LD:Rioolwatertype, Model.Model.IMKL-LD:Annotatietype, Model.Model.IMKL-LD:Documenttype, Model.Model.IMKL-LD:BeschermdGebiedtype
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DQ_QuantitativeResult): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Unit): Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:Unit, Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:Unit
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/description): Model.Model.IMKL-LD:BeschermdGebied:beschrijving, Model.Model.FOAF:Document:beschrijving, Model.Model.OSLO-Generiek:Functie:beschrijving
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asGML): Model.Model.ISO-SS:DirectePositie:gml, Model.Model.LOCN:Geometrie:alsGML
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/locn#geometry): Model.Model.IMKL-LD:BeschermdGebied:geometrie, Model.Model.IMKL-LD:VerticalePositie:ligging, Model.Model.IMKL-LD:TopografischElement:locatie, Model.Model.OSLO-Generiek:Activiteitencomplex:geometrie, Model.Model.IMKL-LD:Referentieoppervlak:ligging, Model.Model.IMKL-LD:Annotatie:locatie, Model.Model.IMKL-LD:Plan:locatie
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/type): Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:nutsvoorzieningnetwerktype, Model.Model.IMKL-LD:BeschermdGebied:type, Model.Model.IMKL-LD:TopografischElement:topografischElementtype, Model.Model.IMKL-LD:Referentieoppervlak:type, Model.Model.IMKL-LD:Annotatie:annotatietype, Model.Model.FOAF:Document:documentType
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asWKT): Model.Model.LOCN:Geometrie:alsWKT, Model.Model.ISO-SS:DirectePositie:wkt
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://vocab.belgif.be/ns/utility-services#documentation): Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie, Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:documentatie
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://vocab.belgif.be/ns/utility-services#inNetwork): Model.Model.IMKL-LD:Nutsvoorzieningknoop:inNetwerk, Model.Model.IMKL-LD:Nutsvoorzieninglink:inNetwerk, Model.Model.IMKL-LD:Nutsvoorzieninglinkset:inNetwerk, Model.Model.IMKL-LD:Nutsvoorzieninglinksequentie:inNetwerk
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://vocab.belgif.be/ns/network#Node.geometry): Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:^geometrie, Model.Model.IMKL-LD:Nutsvoorzieningknoop:^geometrie
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:value, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:value
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://schema.org/height): Model.Model.IMKL-LD:Toebehoren:hoogte, Model.Model.IMKL-LD:Hoogte:hoogte
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/relation): Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:documentatie, Model.Model.FOAF:Document:verwijstNaar
+10:38:57 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#valueUnit): Model.Model.Objectdiagrammen.DatavoorbeeldKabelMetDiepte:DQ_QuantitativeResult:valueUnit, Model.Model.Objectdiagrammen.DatavoorbeeldLeiding:DQ_QuantitativeResult:valueUnit
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.Model.IMKL-LD".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.Model.IMKL-LD".
+10:38:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningnetwerkelement has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerkelement" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningknoop has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoop" .
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Knoop".
+10:38:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieninglinkset has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinkset" .
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:LinkSet".
+10:38:57 WARN  c.g.i.o.c.Converter - Element Pijp has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Pijp" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Kabel has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kabel" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Kanaal has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kanaal" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Containertype" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Zichtbaarheidstype" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieninglink has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglink" .
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Link".
+10:38:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieninglinksequentie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieninglinksequentie" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Risicotype" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Uiterlijk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Uiterlijk" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Kleur".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kleur" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PositioneleNauwkeurigheid" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Materiaaltype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Materiaaltype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Subthema".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Subthema" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Document" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element VerticalePositie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositie" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningnetwerk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerk" .
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.OSLO-Netwerk:Netwerk".
+10:38:57 WARN  c.g.i.o.c.Converter - Element Nutsvoorzieningknoopcontainer has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningknoopcontainer" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Electriciteitskabel has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Electriciteitskabel" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Telecommunicatiekabel has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabel" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element OlieGasChemicalienPijp has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalienPijp" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Rioolpijp has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolpijp" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Waterleiding has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waterleiding" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element ThermischePijp has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischePijp" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Curve" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Toebehoren has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehoren" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Toren has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toren" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Paal has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Paal" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Mangat has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Mangat" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Kast has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Kast" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningnetwerktype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningnetwerktype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Faciliteitstatus".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Faciliteitstatus" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Activiteitencomplex" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Functie" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:VerticalePositietype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "VerticalePositietype" .
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:VerticalePositietype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Geometrie" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Identificator" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Nutsvoorzieningleveringstype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Nutsvoorzieningleveringstype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Waarschuwingstype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Waarschuwingstype" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maat" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengte" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Telecommunicatiekabelmateriaaltype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Telecommunicatiekabelmateriaaltype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:OlieGasChemicalientype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "OlieGasChemicalientype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Rioolwatertype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Rioolwatertype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Watertype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Watertype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:ThermischProducttype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ThermischProducttype" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GerichteLink" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.OSLO-Netwerk:Teken".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Teken" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Punt" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element KabelEnLeidingContainer has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "KabelEnLeidingContainer" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Toebehorentype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Toebehorentype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:EconomischeActiviteittype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EconomischeActiviteittype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Inputoutputtype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Inputoutputtype" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Aansluiting has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Aansluiting" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adresvoorstelling" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Adres" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Annotatie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatie" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Maataanduiding has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Maataanduiding" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Annotatietype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Annotatietype" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element TopografischElement has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElement" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:TopografischElementtype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "TopografischElementtype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documentmediumtype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documentmediumtype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Documenttype".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Documenttype" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DirectePositie" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmeting" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Referentieoppervlak has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlak" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Referentieoppervlaktype" .
+10:38:57 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.Model.IMKL-LD:Opmetingsmethode".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Opmetingsmethode" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Hoogte has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Hoogte" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element Diepte has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Diepte" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Getal" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Meeteenheid" .
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Lengteeenheid" .
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Meeteenheid".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.ISO-CSL:Lengteeenheid".
+10:38:57 WARN  c.g.i.o.c.Converter - Element Plan has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Plan" .
+10:38:57 WARN  c.g.i.o.c.Converter - Element BeschermdGebied has same prefix as package: simplify by removing the extra tag uri
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebied" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "BeschermdGebiedtype" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Netwerk" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "LinkSet" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Link" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Linksequentie" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Knoop" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Locatie" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Object" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GeneriekeLink" .
+10:38:57 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Agent" .
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Pijp:(Pijp -> Kanaal)" does not have a name, it will be ignored.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:pijp" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Nutsvoorzieningknoop:(Nutsvoorzieningknoop -> Nutsvoorzieningknoopcontainer)" does not have a name, it will be ignored.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningknoopcontainer:knoop" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:pijp" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Pijp)" does not have a name, it will be ignored.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Pijp:kabel" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Kabel:(Kabel -> Kanaal)" does not have a name, it will be ignored.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kabel" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:deel" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 WARN  c.g.i.o.c.UriAssigner - Connector "Model.Model.IMKL-LD:Annotatie:(Annotatie -> Annotatie)" does not have a name, it will be ignored.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Annotatie:geheel" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 WARN  c.g.i.o.c.Converter - Package for connector Model.Model.OSLO-Generiek:Activiteitencomplex:op is unknown
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:netwerk" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:inNetwerk" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Kanaal:kanaal" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.Model.IMKL-LD:Nutsvoorzieningnetwerk:element" belongs to package "IMKL-LD" based on source and target definition.
+10:38:57 WARN  c.g.i.o.c.Converter - Element verticalePositiedetail has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.Model.IMKL-LD:Nutsvoorzieningnetwerkelement:verticalePositiedetail".
+10:38:57 WARN  c.g.i.o.c.Converter - Element huidigeStatus has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element geldigVan has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element geldigTot has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element verticalePositie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element ^identificator has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element zichtbaarheid has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element risico has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element uiterlijk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element orientatie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^beginlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
+10:38:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.IMKL-LD:Nutsvoorzieningknoop:^eindlink": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
+10:38:57 WARN  c.g.i.o.c.Converter - Element zichtbaarheid has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element risico has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element uiterlijk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element materiaaltype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element technischeSpecificate has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "GeneriekeLink" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglinkset:^link": Model.Model.OSLO-Netwerk:GeneriekeLink, Model.Model.SupportPackage:GeneriekeLink.
+10:38:57 WARN  c.g.i.o.c.Converter - Element nutsvoorzieningleveringstype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element waarschuwingstype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element containertype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element subthema has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element pijpdiameter has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element druk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element kabeldiameter has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element subthema has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element containertype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element kanaalbreedte has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^eindknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
+10:38:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Knoop" for attribute "Model.Model.IMKL-LD:Nutsvoorzieninglink:^startknoop": Model.Model.OSLO-Netwerk:Knoop, Model.Model.SupportPackage:Knoop.
+10:38:57 WARN  c.g.i.o.c.Converter - Element inNetwerk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element kleur has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element referentieOppervlak has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element verticalePositie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element afstand has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element bevoegdePartij has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element ^geografischeNaam has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element disclaimer has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element documentatie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element standaardVerticalePositiedetail has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element zichtbaarheid has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element risico has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element uiterlijk has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element orientatie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element nominaleSpanning has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element werkspanning has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element telecommunicatiekabelmateriaaltype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element olieGasChemicalienProducttype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element rioolwatertype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element watertype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element thermischProducttype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element temperatuur has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element toebehorentype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element torenhoogte has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element paalhoogte has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element functie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
+10:38:57 WARN  c.g.i.o.c.TagHelper - Multiple occurrences of tag "uri" where only one was expected for "Model.Model.OSLO-Generiek:Activiteitencomplex:documentatie".
+10:38:57 WARN  c.g.i.o.c.Converter - Element documentatie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Link" for attribute "Model.Model.OSLO-Netwerk:GerichteLink:link": Model.Model.OSLO-Netwerk:Link, Model.Model.SupportPackage:Link.
+10:38:57 WARN  c.g.i.o.c.Converter - Element adres has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element toebehorentype has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Ambiguous data type "Adres" for attribute "Model.Model.LOCN:Adresvoorstelling:verwijstNaar": Model.Model.SupportPackage:Adres, Model.Model.OSLO-Address:Adres.
+10:38:57 WARN  c.g.i.o.c.Converter - Element geassocieerdMet has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element rotatiehoek has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element tekst has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element methode has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element uitgevoerdDoor has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element nauwkeurigheid has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element verticalePositie has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.Converter - Element diepte has same prefix as package: simplify by removing the extra tag uri
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: mantel - {6CB42A24-017B-46b9-AC2C-EFD678BBEF66}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: goot - {1085B707-585D-4538-8EA6-EBD66F6CD423}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: bovengrondsZichtbaar - {7301AB17-C022-4058-905C-6EEEBA6C5F01}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: nietBovengrondsZichtbaar - {8626722C-8714-41e6-868C-18E40D486A9A}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: risico - {87786D04-7CC3-436c-80FE-00D743C0F7F6}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: geenRisico - {966C944B-05D4-4ecf-8686-1B5E93051E9C}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: maaiveld - {3B771EF0-D576-46f0-914F-1C57DE0C70D7}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: watergewin - {1CA0171A-5AFD-4f96-9E42-03A0AFC4294A}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: gasopslag - {9FE5C9E1-3BC5-4364-8303-DA3C7FEDA4D5}
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - The contributor with name: Gert  Huybrechts's code was not recognized. Code found was: Kim 
+10:38:57 WARN  c.g.i.o.c.JSONLDOutputHandler - The contributor with name: Mehmet  Inan's code was not recognized. Code found was: Kurt 
