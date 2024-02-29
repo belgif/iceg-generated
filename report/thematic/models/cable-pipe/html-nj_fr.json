@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/229e7d32507196a5ece2f65a1a5b3d935e248340",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/229e7d32507196a5ece2f65a1a5b3d935e248340/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/1b43d2f44745a6b748e1ca9b4eb3b3a2737a1f2c",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/1b43d2f44745a6b748e1ca9b4eb3b3a2737a1f2c/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -5888,53 +5888,6 @@
       },
       "properties": [
         {
-          "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-          "name": "innetwork",
-          "sort": "Enter your translation here",
-          "label": {
-            "en": "inNetwork",
-            "fr": "Enter your translation here"
-          },
-          "description": {
-            "en": "Reference to a Network object to which a Network Element belongs.",
-            "fr": "Enter your translation here"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Activiteitencomplex",
-              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#[UPDATED] Réseau de Service",
-              "range_puri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-              "range_label": {
-                "en": "Utility Network",
-                "fr": "[UPDATED] Réseau de Service"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "inNetwork",
-            "label-nl": "inNetwerk",
-            "ap-label-nl": "inNetwerk",
-            "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
-            "definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
-            "definition-en": "Reference to a Network object to which a Network Element belongs.",
-            "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork"
-          }
-        },
-        {
           "uri": "https://vocab.belgif.be/ns/utility-services#function",
           "name": "function",
           "sort": "[UPDATED] fonction",
@@ -6966,22 +6919,6 @@
         "en": "material type",
         "fr": "[UPDATED] type de matériel",
         "undefined": "materialType"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-      "name": {
-        "en": "inNetwork",
-        "fr": "Enter your translation here",
-        "undefined": "innetwork"
       },
       "description": {},
       "domain": [

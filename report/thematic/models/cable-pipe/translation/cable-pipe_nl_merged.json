@@ -3988,8 +3988,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "229e7d32507196a5ece2f65a1a5b3d935e248340",
-  "dummy": "025",
+  "documentcommit": "1b43d2f44745a6b748e1ca9b4eb3b3a2737a1f2c",
+  "dummy": "026",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -21617,113 +21617,6 @@
     {
       "@id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
-      "ap-definition-en": {
-        "en": "Reference to a Network object to which a Network Element belongs."
-      },
-      "ap-label-en": {
-        "en": "inNetwork"
-      },
-      "codelist": [],
-      "definition": {
-        "en": "Reference to a Network object to which a Network Element belongs.",
-        "nl": "Enter your translation here"
-      },
-      "domain": [
-        {
-          "EA-Name": "Activiteitencomplex",
-          "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "Activiteitencomplex",
-        "EA-Domain-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
-        "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
-        "EA-Name": "inNetwerk",
-        "EA-Package": "OSLO-Generiek",
-        "EA-Range": "Nutsvoorzieningnetwerk",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
-          "EA-Name": "Nutsvoorzieningnetwerk",
-          "EA-Package": "IMKL-LD",
-          "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "inNetwork"
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "inNetwerk"
-          },
-          {
-            "key": "ap-label-nl",
-            "note": "null",
-            "value": "inNetwerk"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "null",
-            "value": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort."
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort."
-          },
-          {
-            "key": "definition-en",
-            "note": "null",
-            "value": "Reference to a Network object to which a Network Element belongs."
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "https://vocab.belgif.be/ns/utility-services#inNetwork"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "Reference to a Network object to which a Network Element belongs."
-        },
-        "ap-label-en": {
-          "en": "inNetwork"
-        },
-        "ap-usageNote-en": "",
-        "definition": {
-          "en": "Reference to a Network object to which a Network Element belongs."
-        },
-        "label": {
-          "en": "inNetwork"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "en": "inNetwork",
-        "nl": "Enter your translation here"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "1",
-      "name": "innetwork",
-      "range": [
-        {
-          "EA-GUID": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
-          "EA-Name": "Nutsvoorzieningnetwerk",
-          "EA-Package": "IMKL-LD",
-          "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
-        }
-      ]
-    },
-    {
-      "@id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{B7EE7353-0C10-44a0-9E23-C788317104BB}",
       "ap-definition-en": {
         "en": "Utility Network to which the element belongs."
@@ -26514,7 +26407,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_nl.j2",
   "title": "Kabels en Leidingen",
-  "toolchaincommit": "ed9966e99d4f6ac5d2abe0f6bba0c035f56bdb92",
+  "toolchaincommit": "ad6d491d06c82d9f59ea151a4b45f8582f72ff9d",
   "translation": [
     {
       "language": "en",

@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/229e7d32507196a5ece2f65a1a5b3d935e248340",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/229e7d32507196a5ece2f65a1a5b3d935e248340/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/1b43d2f44745a6b748e1ca9b4eb3b3a2737a1f2c",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/1b43d2f44745a6b748e1ca9b4eb3b3a2737a1f2c/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -401,7 +401,7 @@
         "en": "Physical point-shaped part of the UtilityNetwork."
       },
       "usage": {
-        "en": "[UPDATED] Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
       },
       "parents": [
         {
@@ -523,7 +523,7 @@
       },
       "sort": "Cabinet",
       "description": {
-        "en": "[UPDATED] Simple Utility Node Container that takes the shape of a cabinet."
+        "en": "Simple Utility Node Container that takes the shape of a cabinet."
       },
       "usage": {
         "en": "Contains typically smaller mountable Appurtenances and Cables."
@@ -559,7 +559,7 @@
       },
       "sort": "Cable",
       "description": {
-        "en": "[UPDATED] A Utility Link Set used to transmit electricity or data from one location to another."
+        "en": "A Utility Link Set used to transmit electricity or data from one location to another."
       },
       "usage": {},
       "parents": [
@@ -865,7 +865,7 @@
       },
       "sort": "Duct",
       "description": {
-        "en": "[UPDATED] A Utility Link Set used to protect and route cables and pipes through an enclosing structure."
+        "en": "A Utility Link Set used to protect and route cables and pipes through an enclosing structure."
       },
       "usage": {
         "en": "A Duct (or Conduit, or Duct-bank, or Wireway) is a linear object which belongs to the structural network. It is the outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s)."
@@ -1250,7 +1250,7 @@
       },
       "sort": "Manhole",
       "description": {
-        "en": "[UPDATED] Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface."
+        "en": "Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface."
       },
       "usage": {
         "en": "E.g. sewer cover."
@@ -1362,7 +1362,7 @@
       },
       "sort": "Pipe",
       "description": {
-        "en": "[UPDATED] A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+        "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
       },
       "usage": {},
       "parents": [
@@ -1754,7 +1754,7 @@
       },
       "sort": "Pole",
       "description": {
-        "en": "[UPDATED] Simple Utility Node Container that takes the shape of a pole."
+        "en": "Simple Utility Node Container that takes the shape of a pole."
       },
       "usage": {
         "en": "Typical carrier of mountable Appurtenances and Cables."
@@ -2156,7 +2156,7 @@
       },
       "sort": "Telecommunications Cable",
       "description": {
-        "en": "[UPDATED] A Utility Link or Link Sequence used to convey data signals (PSTN, radio or computer) from one location to another."
+        "en": "A Utility Link or Link Sequence used to convey data signals (PSTN, radio or computer) from one location to another."
       },
       "usage": {},
       "parents": [
@@ -2766,14 +2766,14 @@
       "uri": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSequence",
       "name": "UtilityLinkSequence",
       "label": {
-        "en": "[UPDATED] Utility Link Sequence"
+        "en": "Utility Link Sequence"
       },
-      "sort": "[UPDATED] Utility Link Sequence",
+      "sort": "Utility Link Sequence",
       "description": {
         "en": "An unbranched continuous path in the Utility Network."
       },
       "usage": {
-        "en": "[UPDATED] In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
+        "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
       },
       "parents": [
         {
@@ -2858,7 +2858,7 @@
             "en": "link"
           },
           "description": {
-            "en": "[UPDATED] Directed Link that is part of the Link Sequence."
+            "en": "Directed Link that is part of the Link Sequence."
           },
           "usage": {},
           "domain": [
@@ -2900,14 +2900,14 @@
       "uri": "https://vocab.belgif.be/ns/utility-services#UtilityLinkSet",
       "name": "UtilityLinkSet",
       "label": {
-        "en": "[UPDATED] Utility Link Set"
+        "en": "Utility Link Set"
       },
-      "sort": "[UPDATED] Utility Link Set",
+      "sort": "Utility Link Set",
       "description": {
         "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
       },
       "usage": {
-        "en": "[UPDATED] This class also extends the Link Set featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) Link Sequence or (more simple) Link class."
+        "en": "This class also extends the Link Set featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) Link Sequence or (more simple) Link class."
       },
       "parents": [
         {
@@ -2946,7 +2946,7 @@
             "en": "warning type"
           },
           "description": {
-            "en": "[UPDATED] Way to alert for the presence of the Link Set."
+            "en": "Way to alert for the presence of the Link Set."
           },
           "usage": {},
           "domain": [
@@ -3041,7 +3041,7 @@
             "en": "technical specification"
           },
           "description": {
-            "en": "[UPDATED] Further specification of the Link Set."
+            "en": "Further specification of the Link Set."
           },
           "usage": {
             "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm."
@@ -3090,7 +3090,7 @@
             "en": "material type"
           },
           "description": {
-            "en": "[UPDATED] Type of material that makes up the Link Set."
+            "en": "Type of material that makes up the Link Set."
           },
           "usage": {},
           "domain": [
@@ -3180,7 +3180,7 @@
             "en": "visibility"
           },
           "description": {
-            "en": "[UPDATED] Extent to which the Link Set is observable."
+            "en": "Extent to which the Link Set is observable."
           },
           "usage": {
             "en": "For example, not visible above ground."
@@ -3229,7 +3229,7 @@
             "en": "risk"
           },
           "description": {
-            "en": "[UPDATED] Indicates whether the Link Set can be considered hazardous."
+            "en": "Indicates whether the Link Set can be considered hazardous."
           },
           "usage": {},
           "domain": [
@@ -3273,7 +3273,7 @@
             "en": "appearance"
           },
           "description": {
-            "en": "[UPDATED] Appearance of the Link Set."
+            "en": "Appearance of the Link Set."
           },
           "usage": {},
           "domain": [
@@ -3317,7 +3317,7 @@
             "en": "link"
           },
           "description": {
-            "en": "[UPDATED] Utility Link Sequence or Utility Link that is part of the Link Set."
+            "en": "Utility Link Sequence or Utility Link that is part of the Link Set."
           },
           "usage": {},
           "domain": [
@@ -3686,10 +3686,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Utility Network Element",
+              "range_uri": "#Utility Network Element",
               "range_puri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
               "range_label": {
-                "en": "[UPDATED] Utility Network Element"
+                "en": "Utility Network Element"
               }
             }
           ],
@@ -3730,10 +3730,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Activity Complex",
+              "range_uri": "#Activity Complex",
               "range_puri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
               "range_label": {
-                "en": "[UPDATED] Activity Complex"
+                "en": "Activity Complex"
               }
             }
           ],
@@ -3804,9 +3804,9 @@
       "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
       "name": "UtilityNetworkElement",
       "label": {
-        "en": "[UPDATED] Utility Network Element"
+        "en": "Utility Network Element"
       },
-      "sort": "[UPDATED] Utility Network Element",
+      "sort": "Utility Network Element",
       "description": {
         "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network."
       },
@@ -3881,7 +3881,7 @@
             "en": "valid to"
           },
           "description": {
-            "en": "[UPDATED] The time from which the Utility Network Element no longer exists in the real world."
+            "en": "The time from which the Utility Network Element no longer exists in the real world."
           },
           "usage": {},
           "domain": [
@@ -3925,7 +3925,7 @@
             "en": "valid from"
           },
           "description": {
-            "en": "[UPDATED] The time when the Utility Network Element started to exist in the real world."
+            "en": "The time when the Utility Network Element started to exist in the real world."
           },
           "usage": {},
           "domain": [
@@ -4604,7 +4604,7 @@
       },
       "sort": "Utility Node Container",
       "description": {
-        "en": "[UPDATED] Point shaped Utility Network Element, potential carrier of Utility Nodes."
+        "en": "Point shaped Utility Network Element, potential carrier of Utility Nodes."
       },
       "usage": {
         "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network."
@@ -4685,7 +4685,7 @@
             "en": "risk"
           },
           "description": {
-            "en": "[UPDATED] Indicates whether a Utility Node Container can be considered hazardous."
+            "en": "Indicates whether a Utility Node Container can be considered hazardous."
           },
           "usage": {},
           "domain": [
@@ -5479,9 +5479,9 @@
       "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
       "name": "ActivityComplex",
       "label": {
-        "en": "[UPDATED] Activity Complex"
+        "en": "Activity Complex"
       },
-      "sort": "[UPDATED] Activity Complex",
+      "sort": "Activity Complex",
       "description": {
         "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place."
       },
@@ -5502,50 +5502,6 @@
         "usageNote-nl": "In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes."
       },
       "properties": [
-        {
-          "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-          "name": "innetwork",
-          "sort": "inNetwork",
-          "label": {
-            "en": "inNetwork"
-          },
-          "description": {
-            "en": "[UPDATED] Reference to a Network object to which a Network Element belongs."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Activiteitencomplex",
-              "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Nutsvoorzieningnetwerk",
-              "range_uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Utility Network",
-              "range_puri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-              "range_label": {
-                "en": "Utility Network"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "inNetwork",
-            "label-nl": "inNetwerk",
-            "ap-label-nl": "inNetwerk",
-            "ap-definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
-            "definition-nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
-            "definition-en": "Reference to a Network object to which a Network Element belongs.",
-            "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork"
-          }
-        },
         {
           "uri": "https://vocab.belgif.be/ns/utility-services#function",
           "name": "function",
@@ -5647,7 +5603,7 @@
             "en": "on"
           },
           "description": {
-            "en": "[UPDATED] Utility Network Element belonging to the complex."
+            "en": "Utility Network Element belonging to the complex."
           },
           "usage": {},
           "domain": [
@@ -5664,10 +5620,10 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Utility Network Element",
+              "range_uri": "#Utility Network Element",
               "range_puri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
               "range_label": {
-                "en": "[UPDATED] Utility Network Element"
+                "en": "Utility Network Element"
               }
             }
           ],
@@ -6127,9 +6083,9 @@
       "uri": "https://vocab.belgif.be/ns/network#LinkSequence",
       "name": "LinkSequence",
       "label": {
-        "en": "[UPDATED] Link Sequence"
+        "en": "Link Sequence"
       },
-      "sort": "[UPDATED] Link Sequence",
+      "sort": "Link Sequence",
       "description": {
         "en": "Unbranched continuous path in a Network."
       },
@@ -6163,9 +6119,9 @@
       "uri": "https://vocab.belgif.be/ns/network#LinkSet",
       "name": "LinkSet",
       "label": {
-        "en": "[UPDATED] Link Set"
+        "en": "Link Set"
       },
-      "sort": "[UPDATED] Link Set",
+      "sort": "Link Set",
       "description": {
         "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network."
       },
@@ -6508,21 +6464,6 @@
       "name": {
         "en": "material type",
         "undefined": "materialType"
-      },
-      "description": {},
-      "domain": [
-        null
-      ],
-      "range": [
-        null
-      ],
-      "parents": []
-    },
-    {
-      "uri": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-      "name": {
-        "en": "inNetwork",
-        "undefined": "innetwork"
       },
       "description": {},
       "domain": [

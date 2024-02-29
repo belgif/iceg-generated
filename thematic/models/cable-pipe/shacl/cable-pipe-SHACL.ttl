@@ -143,12 +143,6 @@
     shacl:path <http://www.w3.org/ns/adms#identifier>
   ], [
     shacl:class <https://vocab.belgif.be/ns/utility-services#UtilityNetwork>;
-    shacl:description "[UPDATED] Reference to a Network object to which a Network Element belongs."@en;
-    shacl:minCount 1;
-    shacl:name "inNetwork"@en;
-    shacl:path <https://vocab.belgif.be/ns/utility-services#inNetwork>
-  ], [
-    shacl:class <https://vocab.belgif.be/ns/utility-services#UtilityNetwork>;
     shacl:description "Utility Network to which the Activity Complex belongs."@en;
     shacl:minCount 1;
     shacl:name "in network"@en;
@@ -161,7 +155,7 @@
     shacl:path dc:title
   ], [
     shacl:class <https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement>;
-    shacl:description "[UPDATED] Utility Network Element belonging to the complex."@en;
+    shacl:description "Utility Network Element belonging to the complex."@en;
     shacl:name "on"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#on>
   ];
@@ -815,7 +809,7 @@
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation>
   ], [
     shacl:class skos:Concept;
-    shacl:description "[UPDATED] Indicates whether a Utility Node Container can be considered hazardous."@en;
+    shacl:description "Indicates whether a Utility Node Container can be considered hazardous."@en;
     shacl:maxCount 1;
     shacl:name "risk"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk>
@@ -872,7 +866,7 @@
   shacl:closed false;
   shacl:property [
     shacl:class <https://vocab.belgif.be/ns/network#DirectedLink>;
-    shacl:description "[UPDATED] Directed Link that is part of the Link Sequence."@en;
+    shacl:description "Directed Link that is part of the Link Sequence."@en;
     shacl:minCount 1;
     shacl:name "link"@en;
     shacl:path <https://vocab.belgif.be/ns/network#LinkSequence.link>
@@ -889,7 +883,7 @@
   shacl:closed false;
   shacl:property [
     shacl:class <https://data.vlaanderen.be/ns/netwerk#GeneriekeLink>;
-    shacl:description "[UPDATED] Utility Link Sequence or Utility Link that is part of the Link Set."@en;
+    shacl:description "Utility Link Sequence or Utility Link that is part of the Link Set."@en;
     shacl:minCount 1;
     shacl:name "link"@en;
     shacl:path <https://vocab.belgif.be/ns/network#LinkSet.link>
@@ -901,7 +895,7 @@
     shacl:path <https://vocab.belgif.be/ns/utility-services#inNetwork>
   ], [
     shacl:class skos:Concept;
-    shacl:description "[UPDATED] Type of material that makes up the Link Set."@en;
+    shacl:description "Type of material that makes up the Link Set."@en;
     shacl:maxCount 1;
     shacl:name "material type"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#materialType>
@@ -913,30 +907,30 @@
     shacl:path <https://vocab.belgif.be/ns/utility-services#utilityDeliveryType>
   ], [
     shacl:class skos:Concept;
-    shacl:description "[UPDATED] Indicates whether the Link Set can be considered hazardous."@en;
+    shacl:description "Indicates whether the Link Set can be considered hazardous."@en;
     shacl:name "risk"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.risk>
   ], [
     shacl:datatype rdf:langString;
-    shacl:description "[UPDATED] Further specification of the Link Set."@en;
+    shacl:description "Further specification of the Link Set."@en;
     shacl:name "technical specification"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#technicalSpecification>
   ], [
     shacl:class <https://vocab.belgif.be/ns/utility-services#Appearance>;
-    shacl:description "[UPDATED] Appearance of the Link Set."@en;
+    shacl:description "Appearance of the Link Set."@en;
     shacl:maxCount 1;
     shacl:name "appearance"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.appearance>
   ], [
     shacl:class skos:Concept;
-    shacl:description "[UPDATED] Way to alert for the presence of the Link Set."@en;
+    shacl:description "Way to alert for the presence of the Link Set."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "warning type"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#warningType>
   ], [
     shacl:class skos:Concept;
-    shacl:description "[UPDATED] Extent to which the Link Set is observable."@en;
+    shacl:description "Extent to which the Link Set is observable."@en;
     shacl:maxCount 1;
     shacl:name "visibility"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.visibility>
@@ -1011,13 +1005,13 @@
     shacl:path dc11:relation
   ], [
     shacl:datatype xsd:dateTime;
-    shacl:description "[UPDATED] The time from which the Utility Network Element no longer exists in the real world."@en;
+    shacl:description "The time from which the Utility Network Element no longer exists in the real world."@en;
     shacl:maxCount 1;
     shacl:name "valid to"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#validTo>
   ], [
     shacl:datatype xsd:dateTime;
-    shacl:description "[UPDATED] The time when the Utility Network Element started to exist in the real world."@en;
+    shacl:description "The time when the Utility Network Element started to exist in the real world."@en;
     shacl:maxCount 1;
     shacl:name "valid from"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#validFrom>

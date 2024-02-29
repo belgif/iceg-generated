@@ -818,7 +818,7 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/network#DirectedLink",
           "sh:description": {
-            "en": "[UPDATED] Directed Link that is part of the Link Sequence."
+            "en": "Directed Link that is part of the Link Sequence."
           },
           "sh:minCount": "1",
           "sh:name": {
@@ -848,7 +848,7 @@
         {
           "sh:class": "https://data.vlaanderen.be/ns/netwerk#GeneriekeLink",
           "sh:description": {
-            "en": "[UPDATED] Utility Link Sequence or Utility Link that is part of the Link Set."
+            "en": "Utility Link Sequence or Utility Link that is part of the Link Set."
           },
           "sh:minCount": "1",
           "sh:name": {
@@ -870,7 +870,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "[UPDATED] Type of material that makes up the Link Set."
+            "en": "Type of material that makes up the Link Set."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -892,7 +892,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "[UPDATED] Indicates whether the Link Set can be considered hazardous."
+            "en": "Indicates whether the Link Set can be considered hazardous."
           },
           "sh:name": {
             "en": "risk"
@@ -902,7 +902,7 @@
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "en": "[UPDATED] Further specification of the Link Set."
+            "en": "Further specification of the Link Set."
           },
           "sh:name": {
             "en": "technical specification"
@@ -912,7 +912,7 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Appearance",
           "sh:description": {
-            "en": "[UPDATED] Appearance of the Link Set."
+            "en": "Appearance of the Link Set."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -923,7 +923,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "[UPDATED] Way to alert for the presence of the Link Set."
+            "en": "Way to alert for the presence of the Link Set."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
@@ -935,7 +935,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "[UPDATED] Extent to which the Link Set is observable."
+            "en": "Extent to which the Link Set is observable."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -1076,7 +1076,7 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "en": "[UPDATED] The time from which the Utility Network Element no longer exists in the real world."
+            "en": "The time from which the Utility Network Element no longer exists in the real world."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -1087,7 +1087,7 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "en": "[UPDATED] The time when the Utility Network Element started to exist in the real world."
+            "en": "The time when the Utility Network Element started to exist in the real world."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -1276,7 +1276,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "[UPDATED] Indicates whether a Utility Node Container can be considered hazardous."
+            "en": "Indicates whether a Utility Node Container can be considered hazardous."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -2096,17 +2096,6 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "en": "[UPDATED] Reference to a Network object to which a Network Element belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "inNetwork"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-          "sh:description": {
             "en": "Utility Network to which the Activity Complex belongs."
           },
           "sh:minCount": "1",
@@ -2129,7 +2118,7 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
           "sh:description": {
-            "en": "[UPDATED] Utility Network Element belonging to the complex."
+            "en": "Utility Network Element belonging to the complex."
           },
           "sh:name": {
             "en": "on"

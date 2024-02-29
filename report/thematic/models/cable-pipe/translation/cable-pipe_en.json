@@ -34,14 +34,14 @@
         "en": "Appurtenance"
       },
       "usage": {
-        "en": "[UPDATED] Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
       }
     },
     {
       "name": "Cabinet",
       "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
       "definition": {
-        "en": "[UPDATED] Simple Utility Node Container that takes the shape of a cabinet."
+        "en": "Simple Utility Node Container that takes the shape of a cabinet."
       },
       "label": {
         "en": "Cabinet"
@@ -54,7 +54,7 @@
       "name": "Cable",
       "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
       "definition": {
-        "en": "[UPDATED] A Utility Link Set used to transmit electricity or data from one location to another."
+        "en": "A Utility Link Set used to transmit electricity or data from one location to another."
       },
       "label": {
         "en": "Cable"
@@ -110,7 +110,7 @@
       "name": "Duct",
       "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
-        "en": "[UPDATED] A Utility Link Set used to protect and route cables and pipes through an enclosing structure."
+        "en": "A Utility Link Set used to protect and route cables and pipes through an enclosing structure."
       },
       "label": {
         "en": "Duct"
@@ -143,7 +143,7 @@
       "name": "Manhole",
       "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
       "definition": {
-        "en": "[UPDATED] Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface."
+        "en": "Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface."
       },
       "label": {
         "en": "Manhole"
@@ -166,7 +166,7 @@
       "name": "Pipe",
       "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
       "definition": {
-        "en": "[UPDATED] A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+        "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
       },
       "label": {
         "en": "Pipe"
@@ -189,7 +189,7 @@
       "name": "Pole",
       "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
       "definition": {
-        "en": "[UPDATED] Simple Utility Node Container that takes the shape of a pole."
+        "en": "Simple Utility Node Container that takes the shape of a pole."
       },
       "label": {
         "en": "Pole"
@@ -235,7 +235,7 @@
       "name": "TelecommunicationsCable",
       "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
       "definition": {
-        "en": "[UPDATED] A Utility Link or Link Sequence used to convey data signals (PSTN, radio or computer) from one location to another."
+        "en": "A Utility Link or Link Sequence used to convey data signals (PSTN, radio or computer) from one location to another."
       },
       "label": {
         "en": "Telecommunications Cable"
@@ -294,10 +294,10 @@
         "en": "An unbranched continuous path in the Utility Network."
       },
       "label": {
-        "en": "[UPDATED] Utility Link Sequence"
+        "en": "Utility Link Sequence"
       },
       "usage": {
-        "en": "[UPDATED] In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
+        "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
       }
     },
     {
@@ -307,10 +307,10 @@
         "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
       },
       "label": {
-        "en": "[UPDATED] Utility Link Set"
+        "en": "Utility Link Set"
       },
       "usage": {
-        "en": "[UPDATED] This class also extends the Link Set featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) Link Sequence or (more simple) Link class."
+        "en": "This class also extends the Link Set featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) Link Sequence or (more simple) Link class."
       }
     },
     {
@@ -333,7 +333,7 @@
         "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network."
       },
       "label": {
-        "en": "[UPDATED] Utility Network Element"
+        "en": "Utility Network Element"
       },
       "usage": {
         "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc)."
@@ -356,7 +356,7 @@
       "name": "UtilityNodeContainer",
       "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
       "definition": {
-        "en": "[UPDATED] Point shaped Utility Network Element, potential carrier of Utility Nodes."
+        "en": "Point shaped Utility Network Element, potential carrier of Utility Nodes."
       },
       "label": {
         "en": "Utility Node Container"
@@ -401,7 +401,7 @@
       "name": "warningType",
       "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
       "definition": {
-        "en": "[UPDATED] Way to alert for the presence of the Link Set."
+        "en": "Way to alert for the presence of the Link Set."
       },
       "label": {
         "en": "warning type"
@@ -421,7 +421,7 @@
       "name": "validTo",
       "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
       "definition": {
-        "en": "[UPDATED] The time from which the Utility Network Element no longer exists in the real world."
+        "en": "The time from which the Utility Network Element no longer exists in the real world."
       },
       "label": {
         "en": "valid to"
@@ -431,7 +431,7 @@
       "name": "validFrom",
       "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
       "definition": {
-        "en": "[UPDATED] The time when the Utility Network Element started to exist in the real world."
+        "en": "The time when the Utility Network Element started to exist in the real world."
       },
       "label": {
         "en": "valid from"
@@ -507,7 +507,7 @@
       "name": "technicalSpecification",
       "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
       "definition": {
-        "en": "[UPDATED] Further specification of the Link Set."
+        "en": "Further specification of the Link Set."
       },
       "label": {
         "en": "technical specification"
@@ -635,20 +635,10 @@
       "name": "materialType",
       "EA-Guid": "{68620BC6-B294-4fb0-99E7-81111B70A9AF}",
       "definition": {
-        "en": "[UPDATED] Type of material that makes up the Link Set."
+        "en": "Type of material that makes up the Link Set."
       },
       "label": {
         "en": "material type"
-      }
-    },
-    {
-      "name": "innetwork",
-      "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
-      "definition": {
-        "en": "[UPDATED] Reference to a Network object to which a Network Element belongs."
-      },
-      "label": {
-        "en": "inNetwork"
       }
     },
     {
@@ -890,7 +880,7 @@
       "name": "risk",
       "EA-Guid": "{D53BCB73-D335-450e-9E1E-532956F36F0B}",
       "definition": {
-        "en": "[UPDATED] Indicates whether a Utility Node Container can be considered hazardous."
+        "en": "Indicates whether a Utility Node Container can be considered hazardous."
       },
       "label": {
         "en": "risk"
@@ -982,7 +972,7 @@
       "name": "visibility",
       "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "definition": {
-        "en": "[UPDATED] Extent to which the Link Set is observable."
+        "en": "Extent to which the Link Set is observable."
       },
       "label": {
         "en": "visibility"
@@ -995,7 +985,7 @@
       "name": "risk",
       "EA-Guid": "{4680B8E0-ADA5-4df0-BB22-757CF168E14E}",
       "definition": {
-        "en": "[UPDATED] Indicates whether the Link Set can be considered hazardous."
+        "en": "Indicates whether the Link Set can be considered hazardous."
       },
       "label": {
         "en": "risk"
@@ -1005,7 +995,7 @@
       "name": "appearance",
       "EA-Guid": "{451C5196-58DF-4df8-AE6F-13A5828A6E6F}",
       "definition": {
-        "en": "[UPDATED] Appearance of the Link Set."
+        "en": "Appearance of the Link Set."
       },
       "label": {
         "en": "appearance"
@@ -1561,7 +1551,7 @@
         "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place."
       },
       "label": {
-        "en": "[UPDATED] Activity Complex"
+        "en": "Activity Complex"
       },
       "usage": {
         "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
@@ -1637,7 +1627,7 @@
         "en": "Unbranched continuous path in a Network."
       },
       "label": {
-        "en": "[UPDATED] Link Sequence"
+        "en": "Link Sequence"
       },
       "usage": {
         "en": "For example, a route in the Network."
@@ -1650,7 +1640,7 @@
         "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network."
       },
       "label": {
-        "en": "[UPDATED] Link Set"
+        "en": "Link Set"
       }
     },
     {
@@ -1708,7 +1698,7 @@
       "name": "on",
       "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
       "definition": {
-        "en": "[UPDATED] Utility Network Element belonging to the complex."
+        "en": "Utility Network Element belonging to the complex."
       },
       "label": {
         "en": "on"
@@ -1888,7 +1878,7 @@
       "name": "link",
       "EA-Guid": "{811CE60F-2092-42db-9375-9FEFD31E1E2F}",
       "definition": {
-        "en": "[UPDATED] Utility Link Sequence or Utility Link that is part of the Link Set."
+        "en": "Utility Link Sequence or Utility Link that is part of the Link Set."
       },
       "label": {
         "en": "link"
@@ -1898,7 +1888,7 @@
       "name": "link",
       "EA-Guid": "{B4090BF4-12B5-44cd-9FDC-6E5347DDBB6A}",
       "definition": {
-        "en": "[UPDATED] Directed Link that is part of the Link Sequence."
+        "en": "Directed Link that is part of the Link Sequence."
       },
       "label": {
         "en": "link"

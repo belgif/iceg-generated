@@ -6455,110 +6455,6 @@
         {
             "@id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "innetwork",
-            "inpackage": "ACTIVE_PACKAGE",
-            "ap-definition-en": {
-                "en": "Reference to a Network object to which a Network Element belongs."
-            },
-            "ap-label-en": {
-                "en": "inNetwork"
-            },
-            "definition": {
-                "en": "Reference to a Network object to which a Network Element belongs."
-            },
-            "label": {
-                "en": "inNetwork"
-            },
-            "extra": {
-                "EA-Name": "inNetwerk",
-                "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
-                "EA-Package": "OSLO-Generiek",
-                "EA-Type": "attribute",
-                "EA-Domain": "Activiteitencomplex",
-                "EA-Domain-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
-                "EA-Range": "Nutsvoorzieningnetwerk",
-                "RangeData": {
-                    "EA-Name": "Nutsvoorzieningnetwerk",
-                    "EA-GUID": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
-                    "EA-Package": "IMKL-LD",
-                    "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
-                },
-                "label": {
-                    "en": "inNetwork"
-                },
-                "definition": {
-                    "en": "Reference to a Network object to which a Network Element belongs."
-                },
-                "usage": "",
-                "ap-label-en": {
-                    "en": "inNetwork"
-                },
-                "ap-definition-en": {
-                    "en": "Reference to a Network object to which a Network Element belongs."
-                },
-                "ap-usageNote-en": "",
-                "ap-codelist": "",
-                "RawTags": [
-                    {
-                        "key": "label-en",
-                        "value": "inNetwork",
-                        "note": "null"
-                    },
-                    {
-                        "key": "label-nl",
-                        "value": "inNetwerk",
-                        "note": "null"
-                    },
-                    {
-                        "key": "ap-label-nl",
-                        "value": "inNetwerk",
-                        "note": "null"
-                    },
-                    {
-                        "key": "ap-definition-nl",
-                        "value": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-nl",
-                        "value": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "definition-en",
-                        "value": "Reference to a Network object to which a Network Element belongs.",
-                        "note": "null"
-                    },
-                    {
-                        "key": "uri",
-                        "value": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-                        "note": "null"
-                    }
-                ],
-                "Scope": "FULL_DEFINITON"
-            },
-            "codelist": [],
-            "domain": [
-                {
-                    "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-                    "EA-Name": "Activiteitencomplex"
-                }
-            ],
-            "range": [
-                {
-                    "EA-Name": "Nutsvoorzieningnetwerk",
-                    "EA-GUID": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
-                    "EA-Package": "IMKL-LD",
-                    "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
-                }
-            ],
-            "generalization": [],
-            "minCardinality": "1",
-            "maxCardinality": "*"
-        },
-        {
-            "@id": "https://vocab.belgif.be/ns/utility-services#inNetwork",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "name": "inNetwork",
             "inpackage": "ACTIVE_PACKAGE",
             "ap-definition-en": {
@@ -25747,12 +25643,12 @@
     "config": "config/config-ap.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "025",
+    "dummy": "026",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "229e7d32507196a5ece2f65a1a5b3d935e248340",
-    "toolchaincommit": "ed9966e99d4f6ac5d2abe0f6bba0c035f56bdb92",
+    "documentcommit": "1b43d2f44745a6b748e1ca9b4eb3b3a2737a1f2c",
+    "toolchaincommit": "ad6d491d06c82d9f59ea151a4b45f8582f72ff9d",
     "hostname": "https://belgif.github.io/"
 }
