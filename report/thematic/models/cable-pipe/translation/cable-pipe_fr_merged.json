@@ -399,7 +399,7 @@
       ],
       "usage": {
         "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
-        "fr": "Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur du Noeud Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
+        "fr": "Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur de Noeud de Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
       }
     },
     {
@@ -1122,7 +1122,7 @@
       ],
       "usage": {
         "en": "A Duct (or Conduit, or Duct-bank, or Wireway) is a linear object which belongs to the structural network. It is the outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s).",
-        "fr": "Enter your translation here"
+        "fr": "Une Canalisation (ou fourreau ou goulotte) est un object linéaire appartement au réseau d'infrastructure. Il s'agit de l'enveloppe externe. Une Canalisation peut contenir des Conduites, des Câbles et d'autres Canalisations."
       }
     },
     {
@@ -4136,8 +4136,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "9f5325919bfed6efd825ebc372aa1fcfa38eebb5",
-  "dummy": "028",
+  "documentcommit": "d782d87c0e3dfba5be8789db5eeac9713a21441b",
+  "dummy": "029",
   "eap": "IMKL-LD.eap",
   "editors": [],
   "externalproperties": [
@@ -4154,7 +4154,7 @@
       "codelist": [],
       "definition": {
         "en": "Annotation of which the Annotation is a part.",
-        "fr": "Enter your translation here"
+        "fr": "Annotation dont l'Annotation est une partie."
       },
       "domain": [
         {
@@ -4306,7 +4306,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "whole",
-        "fr": "Enter your translation here"
+        "fr": "ensemble"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -4321,7 +4321,7 @@
       ],
       "usage": {
         "en": "E.g. the Dimension to which the dimension line belongs.",
-        "fr": "Enter your translation here"
+        "fr": "Par ex., la Dimension à laquelle la cote appartient."
       }
     },
     {
@@ -4337,7 +4337,7 @@
       "codelist": [],
       "definition": {
         "en": "Annotation that is part of the Annotation.",
-        "fr": "Enter your translation here"
+        "fr": "Annotation qui fait part de l'Annotation."
       },
       "domain": [
         {
@@ -4489,7 +4489,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "part",
-        "fr": "Enter your translation here"
+        "fr": "partie"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -4504,7 +4504,7 @@
       ],
       "usage": {
         "en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
-        "fr": "Enter your translation here"
+        "fr": "Par ex., la cote dans le cas d'une Dimension, composée de deux flèches et d'une cote indicative."
       }
     },
     {
@@ -4667,7 +4667,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Node that is contained by the Utility Node Container.",
-        "fr": "Enter your translation here"
+        "fr": "Noeud de Service contenu par le Conteneur de Noeud de Service."
       },
       "domain": [
         {
@@ -4787,7 +4787,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "node",
-        "fr": "Enter your translation here"
+        "fr": "noeud"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -4814,7 +4814,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network associated with the Utility Network.",
-        "fr": "Enter your translation here"
+        "fr": "Réseau de Service associé avec le Réseau de Service."
       },
       "domain": [
         {
@@ -4954,7 +4954,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "network",
-        "fr": "Enter your translation here"
+        "fr": "réseau"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -4981,7 +4981,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network Element belonging to the network.",
-        "fr": "Enter your translation here"
+        "fr": "Elément du Réseau de Service appartement au réseau."
       },
       "domain": [
         {
@@ -5101,7 +5101,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "element",
-        "fr": "Enter your translation here"
+        "fr": "élément"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -5128,7 +5128,7 @@
       "codelist": [],
       "definition": {
         "en": "Activity Complex belonging to the network.",
-        "fr": "Enter your translation here"
+        "fr": "Complexe d'Activités appartenant au réseau."
       },
       "domain": [
         {
@@ -5258,7 +5258,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "activity complex reference",
-        "fr": "Enter your translation here"
+        "fr": "référence à un complexe d'activité"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -5285,7 +5285,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network to which the element belongs.",
-        "fr": "Enter your translation here"
+        "fr": "Réseau de Service auquel l'élément appartient."
       },
       "domain": [
         {
@@ -5405,7 +5405,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "in network",
-        "fr": "Enter your translation here"
+        "fr": "dans le réseau"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -5432,7 +5432,7 @@
       "codelist": [],
       "definition": {
         "en": "Other Pipe located in the Pipe.",
-        "fr": "Enter your translation here"
+        "fr": "Autre Conduite située dans la Conduite."
       },
       "domain": [
         {
@@ -5552,7 +5552,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "pipe",
-        "fr": "Enter your translation here"
+        "fr": "conduite"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -5579,7 +5579,7 @@
       "codelist": [],
       "definition": {
         "en": "Cable located in the Pipe.",
-        "fr": "Enter your translation here"
+        "fr": "Câble situé dans la Conduite."
       },
       "domain": [
         {
@@ -5699,7 +5699,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "cable",
-        "fr": "Enter your translation here"
+        "fr": "câble"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -5726,7 +5726,7 @@
       "codelist": [],
       "definition": {
         "en": "Pipe located in the Duct.",
-        "fr": "Enter your translation here"
+        "fr": "Conduite située dans la Conduite."
       },
       "domain": [
         {
@@ -5846,7 +5846,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "pipe",
-        "fr": "Enter your translation here"
+        "fr": "conduite"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -5873,7 +5873,7 @@
       "codelist": [],
       "definition": {
         "en": "Duct located in the Duct.",
-        "fr": "Enter your translation here"
+        "fr": "Canalisation située dans la Canalisation."
       },
       "domain": [
         {
@@ -5993,7 +5993,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "duct",
-        "fr": "Enter your translation here"
+        "fr": "canalisation"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -6020,7 +6020,7 @@
       "codelist": [],
       "definition": {
         "en": "Cable located in the Duct.",
-        "fr": "Enter your translation here"
+        "fr": "Câble situé dans la Conduite."
       },
       "domain": [
         {
@@ -6140,7 +6140,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "cable",
-        "fr": "Enter your translation here"
+        "fr": "câble"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -7900,7 +7900,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network to which the Activity Complex belongs.",
-        "fr": "Enter your translation here"
+        "fr": "Réseau de Service auquel le Complexe d'Activités appartient."
       },
       "domain": [
         {
@@ -8040,7 +8040,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "in network",
-        "fr": "Enter your translation here"
+        "fr": "dans le réseau"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -10029,7 +10029,7 @@
       ],
       "usage": {
         "en": "Typical elements are relief, landforms, water bodies, vegetation.",
-        "fr": "Enter your translation here"
+        "fr": "Les éléments typiques comprennent le relief, les formes du terrain, les plans d'eau et la végétation."
       }
     },
     {
@@ -11278,7 +11278,7 @@
       ],
       "usage": {
         "en": "NOTE  An external object identifier is a unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object. The identifier is an identifier of the spatial object, not an identifier of the real-world phenomenon.",
-        "fr": "Enter your translation here"
+        "fr": "REMARQUE Un identifiant externe d'objet est un identifiant d'objet unique publié par l'organisme responsable, qui peut être utilisé par des applications externes pour faire référence à l'objet spatial. L'identifiant est un identifiant de l'objet spatial, et non un identifiant du phénomène du monde réel."
       }
     },
     {
@@ -12121,7 +12121,7 @@
       ],
       "usage": {
         "en": "NOTE 1 Several names in different languages may be expressed.\nNOTE 2 It is recommended that the language of the name (part of the Geographical/Name data type) be filled whenever possible.",
-        "fr": "Enter your translation here"
+        "fr": "NOTE 1 Plusieurs noms dans différentes langues peuvent être indiqués.\nNOTE 2 Il est recommandé de remplir la langue du nom (partie du datatype Nom Géographique) chaque fois que cela est possible."
       }
     },
     {
@@ -13028,7 +13028,7 @@
       ],
       "usage": {
         "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
-        "fr": "Enter your translation here"
+        "fr": "Dans ce contexte, il s'agit généralement d'une Dimension sur une carte de câbles ou de conduite, par exemple la distance d'un câble par rapport à une façade. Elle peut se composer de parties (par exemple, une ligne de cote, une cote indicative, deux flèches) qui sont également des Annotations en elles-mêmes."
       }
     },
     {
@@ -21764,7 +21764,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network to which the element belongs.",
-        "fr": "Enter your translation here"
+        "fr": "Réseau de Service auquel l'élément appartient."
       },
       "domain": [
         {
@@ -21856,7 +21856,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "in network",
-        "fr": "Enter your translation here"
+        "fr": "dans le réseau"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -21883,7 +21883,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network to which the element belongs.",
-        "fr": "Enter your translation here"
+        "fr": "Réseau de Service auquel l'élément appartient."
       },
       "domain": [
         {
@@ -21975,7 +21975,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "in network",
-        "fr": "Enter your translation here"
+        "fr": "dans le réseau"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -22002,7 +22002,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network to which the element belongs.",
-        "fr": "Enter your translation here"
+        "fr": "Réseau de Service auquel l'élément appartient."
       },
       "domain": [
         {
@@ -22094,7 +22094,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "in network",
-        "fr": "Enter your translation here"
+        "fr": "dans le réseau"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -22121,7 +22121,7 @@
       "codelist": [],
       "definition": {
         "en": "Utility Network to which the element belongs.",
-        "fr": "Enter your translation here"
+        "fr": "Réseau de Service auquel l'élément appartient."
       },
       "domain": [
         {
@@ -22213,7 +22213,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "in network",
-        "fr": "Enter your translation here"
+        "fr": "dans le réseau"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -22682,7 +22682,7 @@
       ],
       "usage": {
         "en": "The measurement of the object - in this case, the duct - from side to side.",
-        "fr": "Enter your translation here"
+        "fr": "La mesure de l'objet - dans ce cas, la canalisation - d'un côté à l'autre."
       }
     },
     {
@@ -22698,7 +22698,7 @@
       "codelist": [],
       "definition": {
         "en": "Reference to a Document containing additional information about the Network.",
-        "fr": "Enter your translation here"
+        "fr": "Référence à un Document contenant des informations supplémentaires sur le Réseau."
       },
       "domain": [
         {
@@ -22778,7 +22778,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "documentation",
-        "fr": "Enter your translation here"
+        "fr": "documentation"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -26003,7 +26003,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of the Pipe as a container.",
-        "fr": "Enter your translation here"
+        "fr": "Type de Conduite comme conteneur."
       },
       "domain": [
         {
@@ -26083,7 +26083,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "container type",
-        "fr": "Enter your translation here"
+        "fr": "type de conteneur"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -26110,7 +26110,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of the Duct as a container.",
-        "fr": "Enter your translation here"
+        "fr": "Type de Canalisation comme conteneur."
       },
       "domain": [
         {
@@ -26190,7 +26190,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "container type",
-        "fr": "Enter your translation here"
+        "fr": "type de conteneur"
       },
       "maxCardinality": "1",
       "minCardinality": "0",
@@ -26441,7 +26441,7 @@
       "codelist": [],
       "definition": {
         "en": "Type of Appurtenance.",
-        "fr": "Enter your translation here"
+        "fr": "Type d'Accessoire"
       },
       "domain": [
         {
@@ -26521,7 +26521,7 @@
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
         "en": "appurtenance type",
-        "fr": "Enter your translation here"
+        "fr": "type d'accessoire"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
@@ -26544,7 +26544,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_fr.j2",
   "title": "Câbles et Conduites",
-  "toolchaincommit": "5f3195e5aebe1aed25e6a567d070633a698891e7",
+  "toolchaincommit": "97a81d5e2fe80fc0a35b81ae7c5917ab655d42b7",
   "translation": [
     {
       "language": "en",

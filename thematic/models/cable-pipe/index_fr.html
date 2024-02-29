@@ -1065,9 +1065,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/9f5325919bfed6efd825ebc372aa1fcfa38eebb5">https://github.com/belgif/ICEGthema-imkl/tree/9f5325919bfed6efd825ebc372aa1fcfa38eebb5</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/d782d87c0e3dfba5be8789db5eeac9713a21441b">https://github.com/belgif/ICEGthema-imkl/tree/d782d87c0e3dfba5be8789db5eeac9713a21441b</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/9f5325919bfed6efd825ebc372aa1fcfa38eebb5/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/9f5325919bfed6efd825ebc372aa1fcfa38eebb5/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/d782d87c0e3dfba5be8789db5eeac9713a21441b/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/d782d87c0e3dfba5be8789db5eeac9713a21441b/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/Informatievlaanderen/OSLOthema-imkl/issues">https://github.com/Informatievlaanderen/OSLOthema-imkl/issues</a></dd>
                   
@@ -1231,7 +1231,7 @@
                   <dd>Partie physique du Réseau de Service pouvant être représenté sous forme d&#39;un point.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur du Noeud Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc.</dd>
+                  <dd>Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur de Noeud de Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc.</dd>
                   
                   
                   <dt>Sous-classe de
@@ -1243,8 +1243,8 @@
                   <dt>Propriétés</dt>
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
-                    <a href="#Appurtenance%3AappurtenanceType">Enter your translation here</a>, 
-                    <a href="#Appurtenance%3Aheight">hauteur</a>.
+                    <a href="#Appurtenance%3Aheight">hauteur</a>, 
+                    <a href="#Appurtenance%3AappurtenanceType">type d&#39;accessoire</a>.
                   </dd>
                   
                 </dl>
@@ -1265,26 +1265,6 @@
 
                   <tbody class="supertype">
                     
-                    <tr id="Appurtenance%3AappurtenanceType" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Type d&#39;Accessoire" data-placement="right">Type d&#39;Accessoire</a>
-                        
-                        
-                      </td>
-                      <td>1..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
                     <tr id="Appurtenance%3Aheight" typeof="rdfs:Property" resource="https://schema.org/height">
                       <td>
                         <code property="rdfs:label">
@@ -1301,6 +1281,26 @@
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Hauteur de l’Accessoire.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Appurtenance%3AappurtenanceType" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType" data-placement="right">
+                            type d&#39;accessoire</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Type d&#39;Accessoire" data-placement="right">Type d&#39;Accessoire</a>
+                        
+                        
+                      </td>
+                      <td>1..*</td>
+                      <td property="rdfs:comment">Type d&#39;Accessoire</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1364,9 +1364,9 @@
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
                     <a href="#Annotation%3ArotationAngle">angle de rotation</a>, 
                     <a href="#Annotation%3AassociatedWith">associé à</a>, 
-                    <a href="#Annotation%3Awhole">Enter your translation here</a>, 
-                    <a href="#Annotation%3Apart">Enter your translation here</a>, 
+                    <a href="#Annotation%3Awhole">ensemble</a>, 
                     <a href="#Annotation%3Alocation">localisation</a>, 
+                    <a href="#Annotation%3Apart">partie</a>, 
                     <a href="#Annotation%3Atext">texte</a>, 
                     <a href="#Annotation%3AannotationType">type de l&#39;annotation</a>.
                   </dd>
@@ -1433,7 +1433,7 @@
                       <td>
                         <code property="rdfs:label">
                             <a href="https://vocab.belgif.be/ns/utility-services#whole" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#whole" data-placement="right">
-                            Enter your translation here</a>
+                            ensemble</a>
                           </code>
                       </td>
                       <td>
@@ -1444,28 +1444,8 @@
                         
                       </td>
                       <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote">Enter your translation here</td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="Annotation%3Apart" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#part">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#part" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#part" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Annotation" data-placement="right">Annotation</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote">Enter your translation here</td>
+                      <td property="rdfs:comment">Annotation dont l&#39;Annotation est une partie.</td>
+                      <td property="skos:scopeNote">Par ex., la Dimension à laquelle la cote appartient.</td>
                       <td></td>
                     </tr>
                     
@@ -1486,6 +1466,26 @@
                       <td>1</td>
                       <td property="rdfs:comment">Géométrie de l&#39;Annotation.</td>
                       <td property="skos:scopeNote">Par ex.: l'emplacement et la forme d'une Indication de mesure.</td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Annotation%3Apart" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#part">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#part" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#part" data-placement="right">
+                            partie</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Annotation" data-placement="right">Annotation</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Annotation qui fait part de l&#39;Annotation.</td>
+                      <td property="skos:scopeNote">Par ex., la cote dans le cas d'une Dimension, composée de deux flèches et d'une cote indicative.</td>
                       <td></td>
                     </tr>
                     
@@ -1525,7 +1525,7 @@
                       </td>
                       <td>1</td>
                       <td property="rdfs:comment">Nature de l&#39;Annotation.</td>
-                      <td property="skos:scopeNote">Enter your translation here</td>
+                      <td property="skos:scopeNote">Dans ce contexte, il s'agit généralement d'une Dimension sur une carte de câbles ou de conduite, par exemple la distance d'un câble par rapport à une façade. Elle peut se composer de parties (par exemple, une ligne de cote, une cote indicative, deux flèches) qui sont également des Annotations en elles-mêmes.</td>
                       <td></td>
                     </tr>
                     
@@ -1633,7 +1633,7 @@
                   <dd>Un Ensemble de Tronçons de Service utilisé pour protéger et guider des câbles et conduites à travers une structure enveloppante.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>Enter your translation here</dd>
+                  <dd>Une Canalisation (ou fourreau ou goulotte) est un object linéaire appartement au réseau d'infrastructure. Il s'agit de l'enveloppe externe. Une Canalisation peut contenir des Conduites, des Câbles et d'autres Canalisations.</dd>
                   
                   
                   <dt>Sous-classe de
@@ -1646,11 +1646,11 @@
                   <dt>Propriétés</dt>
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
-                    <a href="#Duct%3AcontainerType">Enter your translation here</a>, 
-                    <a href="#Duct%3Apipe">Enter your translation here</a>, 
-                    <a href="#Duct%3Aduct">Enter your translation here</a>, 
-                    <a href="#Duct%3Acable">Enter your translation here</a>, 
-                    <a href="#Duct%3AductWidth">largeur de la canalisation</a>.
+                    <a href="#Duct%3Aduct">canalisation</a>, 
+                    <a href="#Duct%3Apipe">conduite</a>, 
+                    <a href="#Duct%3Acable">câble</a>, 
+                    <a href="#Duct%3AductWidth">largeur de la canalisation</a>, 
+                    <a href="#Duct%3AcontainerType">type de conteneur</a>.
                   </dd>
                   
                 </dl>
@@ -1671,51 +1671,11 @@
 
                   <tbody class="supertype">
                     
-                    <tr id="Duct%3AcontainerType" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Duct.containerType">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#Duct.containerType" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Duct.containerType" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Type conteneur" data-placement="right">Type conteneur</a>
-                        
-                        
-                      </td>
-                      <td>0..1</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="Duct%3Apipe" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Duct.pipe">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#Duct.pipe" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Duct.pipe" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Conduite" data-placement="right">Conduite</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
                     <tr id="Duct%3Aduct" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Duct.duct">
                       <td>
                         <code property="rdfs:label">
                             <a href="https://vocab.belgif.be/ns/utility-services#Duct.duct" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Duct.duct" data-placement="right">
-                            Enter your translation here</a>
+                            canalisation</a>
                           </code>
                       </td>
                       <td>
@@ -1726,7 +1686,27 @@
                         
                       </td>
                       <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
+                      <td property="rdfs:comment">Canalisation située dans la Canalisation.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Duct%3Apipe" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Duct.pipe">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#Duct.pipe" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Duct.pipe" data-placement="right">
+                            conduite</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Conduite" data-placement="right">Conduite</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Conduite située dans la Conduite.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1735,7 +1715,7 @@
                       <td>
                         <code property="rdfs:label">
                             <a href="https://vocab.belgif.be/ns/utility-services#Duct.cable" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Duct.cable" data-placement="right">
-                            Enter your translation here</a>
+                            câble</a>
                           </code>
                       </td>
                       <td>
@@ -1746,7 +1726,7 @@
                         
                       </td>
                       <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
+                      <td property="rdfs:comment">Câble situé dans la Conduite.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1767,7 +1747,27 @@
                       </td>
                       <td>1</td>
                       <td property="rdfs:comment">Largeur de la Canalisation</td>
-                      <td property="skos:scopeNote">Enter your translation here</td>
+                      <td property="skos:scopeNote">La mesure de l'objet - dans ce cas, la canalisation - d'un côté à l'autre.</td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Duct%3AcontainerType" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Duct.containerType">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#Duct.containerType" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Duct.containerType" data-placement="right">
+                            type de conteneur</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Type conteneur" data-placement="right">Type conteneur</a>
+                        
+                        
+                      </td>
+                      <td>0..1</td>
+                      <td property="rdfs:comment">Type de Canalisation comme conteneur.</td>
+                      <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
                     
@@ -1791,8 +1791,8 @@
                   <dt>Propriétés</dt>
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
+                    <a href="#ActivityComplex%3AinNetwork">dans le réseau</a>, 
                     <a href="#ActivityComplex%3Adocumentation">documentation</a>, 
-                    <a href="#ActivityComplex%3AinNetwork">Enter your translation here</a>, 
                     <a href="#ActivityComplex%3Afunction">fonction</a>, 
                     <a href="#ActivityComplex%3Ageometry">géométrie</a>, 
                     <a href="#ActivityComplex%3Aidentifier">identifiant</a>, 
@@ -1818,6 +1818,26 @@
 
                   <tbody class="supertype">
                     
+                    <tr id="ActivityComplex%3AinNetwork" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork" data-placement="right">
+                            dans le réseau</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Réseau de Service" data-placement="right">Réseau de Service</a>
+                        
+                        
+                      </td>
+                      <td>1..*</td>
+                      <td property="rdfs:comment">Réseau de Service auquel le Complexe d&#39;Activités appartient.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
                     <tr id="ActivityComplex%3Adocumentation" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#documentation">
                       <td>
                         <code property="rdfs:label">
@@ -1834,26 +1854,6 @@
                       </td>
                       <td>0..*</td>
                       <td property="rdfs:comment">Référence à un Document contenant des informations supplémentaires sur le Complexe d’Activités.</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="ActivityComplex%3AinNetwork" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Réseau de Service" data-placement="right">Réseau de Service</a>
-                        
-                        
-                      </td>
-                      <td>1..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1914,7 +1914,7 @@
                       </td>
                       <td>1..*</td>
                       <td property="rdfs:comment">Identifiant externe du complexe.</td>
-                      <td property="skos:scopeNote">Enter your translation here</td>
+                      <td property="skos:scopeNote">REMARQUE Un identifiant externe d'objet est un identifiant d'objet unique publié par l'organisme responsable, qui peut être utilisé par des applications externes pour faire référence à l'objet spatial. L'identifiant est un identifiant de l'objet spatial, et non un identifiant du phénomène du monde réel.</td>
                       <td></td>
                     </tr>
                     
@@ -1934,7 +1934,8 @@
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Nom sous lequel le complexe est connu.</td>
-                      <td property="skos:scopeNote">Enter your translation here</td>
+                      <td property="skos:scopeNote">NOTE 1 Plusieurs noms dans différentes langues peuvent être indiqués.
+NOTE 2 Il est recommandé de remplir la langue du nom (partie du datatype Nom Géographique) chaque fois que cela est possible.</td>
                       <td></td>
                     </tr>
                     
@@ -1982,12 +1983,12 @@
                   <dt>Propriétés</dt>
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
+                    <a href="#Pipe%3Apipe">conduite</a>, 
+                    <a href="#Pipe%3Acable">câble</a>, 
                     <a href="#Pipe%3ApipeDiameter">diamètre de la conduite</a>, 
-                    <a href="#Pipe%3AcontainerType">Enter your translation here</a>, 
-                    <a href="#Pipe%3Apipe">Enter your translation here</a>, 
-                    <a href="#Pipe%3Acable">Enter your translation here</a>, 
                     <a href="#Pipe%3Asubtheme">sous-thème</a>, 
-                    <a href="#Pipe%3Apressure">tension</a>.
+                    <a href="#Pipe%3Apressure">tension</a>, 
+                    <a href="#Pipe%3AcontainerType">type de conteneur</a>.
                   </dd>
                   
                 </dl>
@@ -2008,6 +2009,46 @@
 
                   <tbody class="supertype">
                     
+                    <tr id="Pipe%3Apipe" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Pipe.pipe">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#Pipe.pipe" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Pipe.pipe" data-placement="right">
+                            conduite</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Conduite" data-placement="right">Conduite</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Autre Conduite située dans la Conduite.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Pipe%3Acable" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Pipe.cable">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#Pipe.cable" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Pipe.cable" data-placement="right">
+                            câble</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Câble" data-placement="right">Câble</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Câble situé dans la Conduite.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
                     <tr id="Pipe%3ApipeDiameter" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#pipeDiameter">
                       <td>
                         <code property="rdfs:label">
@@ -2025,66 +2066,6 @@
                       <td>1</td>
                       <td property="rdfs:comment">Diamètre extérieur de la Conduite.</td>
                       <td property="skos:scopeNote">Pour les objets de forme convexe (par exemple un cercle), le diamètre est défini comme la plus grande distance pouvant être formée entre deux tangentes parallèles.</td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="Pipe%3AcontainerType" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Pipe.containerType">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#Pipe.containerType" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Pipe.containerType" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Type conteneur" data-placement="right">Type conteneur</a>
-                        
-                        
-                      </td>
-                      <td>0..1</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="Pipe%3Apipe" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Pipe.pipe">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#Pipe.pipe" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Pipe.pipe" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Conduite" data-placement="right">Conduite</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="Pipe%3Acable" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Pipe.cable">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#Pipe.cable" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Pipe.cable" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Câble" data-placement="right">Câble</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
                     
@@ -2125,6 +2106,26 @@
                       <td>0..1</td>
                       <td property="rdfs:comment">La pression opérationnelle maximale admissible à laquelle un produit est transporté dans une Conduite.</td>
                       <td property="skos:scopeNote">L'unité de mesure de la pression est généralement exprimée en « bar ».</td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Pipe%3AcontainerType" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Pipe.containerType">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#Pipe.containerType" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Pipe.containerType" data-placement="right">
+                            type de conteneur</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Type conteneur" data-placement="right">Type conteneur</a>
+                        
+                        
+                      </td>
+                      <td>0..1</td>
+                      <td property="rdfs:comment">Type de Conduite comme conteneur.</td>
+                      <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
                     
@@ -2537,8 +2538,8 @@
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
                     <a href="#UtilityNodeContainer%3Aappearance">apparence</a>, 
-                    <a href="#UtilityNodeContainer%3Anode">Enter your translation here</a>, 
                     <a href="#UtilityNodeContainer%3Ageometry">géométrie</a>, 
+                    <a href="#UtilityNodeContainer%3Anode">noeud</a>, 
                     <a href="#UtilityNodeContainer%3Aorientation">orientation</a>, 
                     <a href="#UtilityNodeContainer%3Arisk">risque</a>, 
                     <a href="#UtilityNodeContainer%3Avisibility">visibilité</a>.
@@ -2582,26 +2583,6 @@
                       <td></td>
                     </tr>
                     
-                    <tr id="UtilityNodeContainer%3Anode" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#node">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#node" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#node" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Noeud de Service" data-placement="right">Noeud de Service</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
                     <tr id="UtilityNodeContainer%3Ageometry" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/network#Node.geometry">
                       <td>
                         <code property="rdfs:label">
@@ -2618,6 +2599,26 @@
                       </td>
                       <td>1</td>
                       <td property="rdfs:comment">Géométrie du conteneur</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="UtilityNodeContainer%3Anode" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#node">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#node" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#node" data-placement="right">
+                            noeud</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Noeud de Service" data-placement="right">Noeud de Service</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Noeud de Service contenu par le Conteneur de Noeud de Service.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -3035,9 +3036,9 @@
                   <dt>Propriétés</dt>
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
+                    <a href="#UtilityNetworkElement%3AinNetwork">dans le réseau</a>, 
                     <a href="#UtilityNetworkElement%3Adocumentation">documentation</a>, 
                     <a href="#UtilityNetworkElement%3AverticalPositionDetail">détail de la position verticale</a>, 
-                    <a href="#UtilityNetworkElement%3AinNetwork">Enter your translation here</a>, 
                     <a href="#UtilityNetworkElement%3Aidentifier">identifiant</a>, 
                     <a href="#UtilityNetworkElement%3AverticalPosition">position verticale</a>, 
                     <a href="#UtilityNetworkElement%3AcurrentStatus">statut actuel</a>, 
@@ -3062,6 +3063,26 @@
                   </thead>
 
                   <tbody class="supertype">
+                    
+                    <tr id="UtilityNetworkElement%3AinNetwork" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork" data-placement="right">
+                            dans le réseau</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Réseau de Service" data-placement="right">Réseau de Service</a>
+                        
+                        
+                      </td>
+                      <td>1..*</td>
+                      <td property="rdfs:comment">Réseau de Service auquel l&#39;élément appartient.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
                     
                     <tr id="UtilityNetworkElement%3Adocumentation" typeof="rdfs:Property" resource="http://purl.org/dc/elements/1.1/relation">
                       <td>
@@ -3100,26 +3121,6 @@
                       <td>0..*</td>
                       <td property="rdfs:comment"></td>
                       <td property="skos:scopeNote">Par ex.  : profondeur.</td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="UtilityNetworkElement%3AinNetwork" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Réseau de Service" data-placement="right">Réseau de Service</a>
-                        
-                        
-                      </td>
-                      <td>1..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
                     
@@ -3268,7 +3269,7 @@
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
                     <a href="#UtilityLinkSet%3Aappearance">apparence</a>, 
-                    <a href="#UtilityLinkSet%3AinNetwork">Enter your translation here</a>, 
+                    <a href="#UtilityLinkSet%3AinNetwork">dans le réseau</a>, 
                     <a href="#UtilityLinkSet%3Arisk">risque</a>, 
                     <a href="#UtilityLinkSet%3AtechnicalSpecification">spécification technique</a>, 
                     <a href="#UtilityLinkSet%3Alink">tronçon</a>, 
@@ -3320,7 +3321,7 @@
                       <td>
                         <code property="rdfs:label">
                             <a href="https://vocab.belgif.be/ns/utility-services#inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#inNetwork" data-placement="right">
-                            Enter your translation here</a>
+                            dans le réseau</a>
                           </code>
                       </td>
                       <td>
@@ -3331,7 +3332,7 @@
                         
                       </td>
                       <td>1..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
+                      <td property="rdfs:comment">Réseau de Service auquel l&#39;élément appartient.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -3642,7 +3643,7 @@
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
                     <a href="#UtilityNode%3Aappearance">apparence</a>, 
-                    <a href="#UtilityNode%3AinNetwork">Enter your translation here</a>, 
+                    <a href="#UtilityNode%3AinNetwork">dans le réseau</a>, 
                     <a href="#UtilityNode%3Ageometry">géométrie</a>, 
                     <a href="#UtilityNode%3Aorientation">orientation</a>, 
                     <a href="#UtilityNode%3Arisk">risque</a>, 
@@ -3693,7 +3694,7 @@
                       <td>
                         <code property="rdfs:label">
                             <a href="https://vocab.belgif.be/ns/utility-services#inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#inNetwork" data-placement="right">
-                            Enter your translation here</a>
+                            dans le réseau</a>
                           </code>
                       </td>
                       <td>
@@ -3704,7 +3705,7 @@
                         
                       </td>
                       <td>1..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
+                      <td property="rdfs:comment">Réseau de Service auquel l&#39;élément appartient.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -4079,14 +4080,14 @@
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
                     <a href="#UtilityNetwork%3Adisclaimer">disclaimer</a>, 
+                    <a href="#UtilityNetwork%3Adocumentation">documentation</a>, 
                     <a href="#UtilityNetwork%3AstandardVerticalPositionDetail">détail de la position verticale standard</a>, 
-                    <a href="#UtilityNetwork%3Adocumentation">Enter your translation here</a>, 
-                    <a href="#UtilityNetwork%3Anetwork">Enter your translation here</a>, 
-                    <a href="#UtilityNetwork%3Aelement">Enter your translation here</a>, 
-                    <a href="#UtilityNetwork%3AactivityComplexReference">Enter your translation here</a>, 
                     <a href="#UtilityNetwork%3AgeographicalName">nom géographique</a>, 
                     <a href="#UtilityNetwork%3AauthorityRole">partie compétente</a>, 
-                    <a href="#UtilityNetwork%3AutilityNetworkType">type du réseau de service</a>.
+                    <a href="#UtilityNetwork%3AactivityComplexReference">référence à un complexe d&#39;activité</a>, 
+                    <a href="#UtilityNetwork%3Anetwork">réseau</a>, 
+                    <a href="#UtilityNetwork%3AutilityNetworkType">type du réseau de service</a>, 
+                    <a href="#UtilityNetwork%3Aelement">élément</a>.
                   </dd>
                   
                 </dl>
@@ -4127,6 +4128,26 @@
                       <td></td>
                     </tr>
                     
+                    <tr id="UtilityNetwork%3Adocumentation" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#documentation">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#documentation" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#documentation" data-placement="right">
+                            documentation</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Document" data-placement="right">Document</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Référence à un Document contenant des informations supplémentaires sur le Réseau.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
                     <tr id="UtilityNetwork%3AstandardVerticalPositionDetail" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail">
                       <td>
                         <code property="rdfs:label">
@@ -4144,86 +4165,6 @@
                       <td>0..*</td>
                       <td property="rdfs:comment">Position Verticale standard des éléments du réseau.</td>
                       <td property="skos:scopeNote">Par ex. la Profondeur standard à laquelle les éléments sont situés.</td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="UtilityNetwork%3Adocumentation" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#documentation">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#documentation" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#documentation" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Document" data-placement="right">Document</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="UtilityNetwork%3Anetwork" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#network">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#network" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#network" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Réseau de Service" data-placement="right">Réseau de Service</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="UtilityNetwork%3Aelement" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#element">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#element" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#element" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Elément du Réseau de Service" data-placement="right">Elément du Réseau de Service</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                    <tr id="UtilityNetwork%3AactivityComplexReference" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#activityComplexReference">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-placement="right">
-                            Enter your translation here</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Complexe d&#39;Activités" data-placement="right">Complexe d&#39;Activités</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
-                      <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
                     
@@ -4267,6 +4208,46 @@
                       <td></td>
                     </tr>
                     
+                    <tr id="UtilityNetwork%3AactivityComplexReference" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#activityComplexReference">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-placement="right">
+                            référence à un complexe d&#39;activité</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Complexe d&#39;Activités" data-placement="right">Complexe d&#39;Activités</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Complexe d&#39;Activités appartenant au réseau.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="UtilityNetwork%3Anetwork" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#network">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#network" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#network" data-placement="right">
+                            réseau</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Réseau de Service" data-placement="right">Réseau de Service</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Réseau de Service associé avec le Réseau de Service.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
                     <tr id="UtilityNetwork%3AutilityNetworkType" typeof="rdfs:Property" resource="http://purl.org/dc/elements/1.1/type">
                       <td>
                         <code property="rdfs:label">
@@ -4284,6 +4265,26 @@
                       <td>1</td>
                       <td property="rdfs:comment">Le type du Réseau de Service ou le thème du Réseau de Service.</td>
                       <td property="skos:scopeNote">Utilise la liste de codes  Type de Réseau de Service » pour décrire les Réseaux de Service possibles. Cela inclut également la valeur « crossTheme » à utiliser pour les Réseaux de Service qui peuvent contenir des câbles ou des conduites de différents thèmes, qui sont généralement utilisés par les fournisseurs de Réseaux de Service qui fournissent des conduites.</td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="UtilityNetwork%3Aelement" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#element">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#element" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#element" data-placement="right">
+                            élément</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Elément du Réseau de Service" data-placement="right">Elément du Réseau de Service</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Elément du Réseau de Service appartement au réseau.</td>
+                      <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
                     
@@ -4340,7 +4341,7 @@
                   <dt>Propriétés</dt>
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
-                    <a href="#UtilityLinkSequence%3AinNetwork">Enter your translation here</a>, 
+                    <a href="#UtilityLinkSequence%3AinNetwork">dans le réseau</a>, 
                     <a href="#UtilityLinkSequence%3Alink">tronçon</a>.
                   </dd>
                   
@@ -4366,7 +4367,7 @@
                       <td>
                         <code property="rdfs:label">
                             <a href="https://vocab.belgif.be/ns/utility-services#inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#inNetwork" data-placement="right">
-                            Enter your translation here</a>
+                            dans le réseau</a>
                           </code>
                       </td>
                       <td>
@@ -4377,7 +4378,7 @@
                         
                       </td>
                       <td>1..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
+                      <td property="rdfs:comment">Réseau de Service auquel l&#39;élément appartient.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -4516,7 +4517,7 @@
                   <dt>Propriétés</dt>
                   
                   <dd>Pour cette entité, les propriétés suivantes sont définies:
-                    <a href="#UtilityLink%3AinNetwork">Enter your translation here</a>, 
+                    <a href="#UtilityLink%3AinNetwork">dans le réseau</a>, 
                     <a href="#UtilityLink%3AcentrelineGeometry">géométrie de l&#39;axe</a>, 
                     <a href="#UtilityLink%3AstartNode">nœud de départ</a>, 
                     <a href="#UtilityLink%3AendNode">nœud final</a>.
@@ -4544,7 +4545,7 @@
                       <td>
                         <code property="rdfs:label">
                             <a href="https://vocab.belgif.be/ns/utility-services#inNetwork" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#inNetwork" data-placement="right">
-                            Enter your translation here</a>
+                            dans le réseau</a>
                           </code>
                       </td>
                       <td>
@@ -4555,7 +4556,7 @@
                         
                       </td>
                       <td>1..*</td>
-                      <td property="rdfs:comment">Enter your translation here</td>
+                      <td property="rdfs:comment">Réseau de Service auquel l&#39;élément appartient.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -4944,7 +4945,7 @@
                       </td>
                       <td>1</td>
                       <td property="rdfs:comment">Géométrie de l&#39;Elément Topographique.</td>
-                      <td property="skos:scopeNote">Enter your translation here</td>
+                      <td property="skos:scopeNote">Les éléments typiques comprennent le relief, les formes du terrain, les plans d'eau et la végétation.</td>
                       <td></td>
                     </tr>
                     

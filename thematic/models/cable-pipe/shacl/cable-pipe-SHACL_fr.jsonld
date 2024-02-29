@@ -60,10 +60,10 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Annotation",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Annotation qui fait part de l'Annotation."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "partie"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#part"
         },
@@ -82,10 +82,10 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Annotation",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Annotation dont l'Annotation est une partie."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "ensemble"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#whole"
         },
@@ -164,11 +164,11 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Type d'Accessoire"
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "type d'accessoire"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType"
         }
@@ -284,31 +284,31 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Type de Canalisation comme conteneur."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "type de conteneur"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.containerType"
         },
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Cable",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Câble situé dans la Conduite."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "câble"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.cable"
         },
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Duct",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Canalisation située dans la Canalisation."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "canalisation"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.duct"
         },
@@ -327,10 +327,10 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Pipe",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Conduite située dans la Conduite."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "conduite"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Duct.pipe"
         }
@@ -423,11 +423,11 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Type de Conduite comme conteneur."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "type de conteneur"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Pipe.containerType"
         },
@@ -445,20 +445,20 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Cable",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Câble situé dans la Conduite."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "câble"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Pipe.cable"
         },
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Pipe",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Autre Conduite située dans la Conduite."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "conduite"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#Pipe.pipe"
         },
@@ -799,11 +799,11 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Réseau de Service auquel l'élément appartient."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "dans le réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
         }
@@ -829,11 +829,11 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Réseau de Service auquel l'élément appartient."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "dans le réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
         }
@@ -859,11 +859,11 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Réseau de Service auquel l'élément appartient."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "dans le réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
         },
@@ -964,10 +964,10 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Complexe d'Activités appartenant au réseau."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "référence à un complexe d'activité"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
         },
@@ -995,30 +995,30 @@
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Référence à un Document contenant des informations supplémentaires sur le Réseau."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "documentation"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#documentation"
         },
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Elément du Réseau de Service appartement au réseau."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "élément"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#element"
         },
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Réseau de Service associé avec le Réseau de Service."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#network"
         },
@@ -1110,11 +1110,11 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Réseau de Service auquel l'élément appartient."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "dans le réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork"
         },
@@ -1180,11 +1180,11 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Réseau de Service auquel l'élément appartient."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "dans le réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
         },
@@ -1255,10 +1255,10 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Noeud de Service contenu par le Conteneur de Noeud de Service."
           },
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "noeud"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#node"
         },
@@ -2096,11 +2096,11 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
           "sh:description": {
-            "fr": "Enter your translation here"
+            "fr": "Réseau de Service auquel le Complexe d'Activités appartient."
           },
           "sh:minCount": "1",
           "sh:name": {
-            "fr": "Enter your translation here"
+            "fr": "dans le réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork"
         },
