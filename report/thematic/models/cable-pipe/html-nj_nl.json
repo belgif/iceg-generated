@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/b5eea5129a915b5e7e07c221313a79e4c41ad566",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/b5eea5129a915b5e7e07c221313a79e4c41ad566/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/9f5325919bfed6efd825ebc372aa1fcfa38eebb5",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/9f5325919bfed6efd825ebc372aa1fcfa38eebb5/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -434,7 +434,7 @@
       },
       "usage": {
         "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
-        "nl": "[UPDATED] Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc."
+        "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc."
       },
       "parents": [
         {
@@ -564,7 +564,7 @@
       "sort": "Kast",
       "description": {
         "en": "Simple Utility Node Container that takes the shape of a cabinet.",
-        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast."
+        "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast."
       },
       "usage": {
         "en": "Contains typically smaller mountable Appurtenances and Cables.",
@@ -603,7 +603,7 @@
       "sort": "Kabel",
       "description": {
         "en": "A Utility Link Set used to transmit electricity or data from one location to another.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen."
+        "nl": "Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen."
       },
       "usage": {},
       "parents": [
@@ -931,7 +931,7 @@
       "sort": "Kanaal",
       "description": {
         "en": "A Utility Link Set used to protect and route cables and pipes through an enclosing structure.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie."
+        "nl": "Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie."
       },
       "usage": {
         "en": "A Duct (or Conduit, or Duct-bank, or Wireway) is a linear object which belongs to the structural network. It is the outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s).",
@@ -1343,7 +1343,7 @@
       "sort": "Mangat",
       "description": {
         "en": "Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface.",
-        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond."
+        "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond."
       },
       "usage": {
         "en": "E.g. sewer cover.",
@@ -1463,7 +1463,7 @@
       "sort": "Pijp",
       "description": {
         "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere."
+        "nl": "Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere."
       },
       "usage": {},
       "parents": [
@@ -1883,7 +1883,7 @@
       "sort": "Paal",
       "description": {
         "en": "Simple Utility Node Container that takes the shape of a pole.",
-        "nl": "[UPDATED] Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast."
+        "nl": "Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast."
       },
       "usage": {
         "en": "Typical carrier of mountable Appurtenances and Cables.",
@@ -2311,7 +2311,7 @@
       "sort": "Telecommunicatiekabel",
       "description": {
         "en": "A Utility Link or Link Sequence used to convey data signals (PSTN, radio or computer) from one location to another.",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren."
+        "nl": "Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren."
       },
       "usage": {},
       "parents": [
@@ -2963,16 +2963,16 @@
       "name": "UtilityLinkSequence",
       "label": {
         "en": "Utility Link Sequence",
-        "nl": "[UPDATED] Nutsvoorzieninglinksequentie"
+        "nl": "Nutsvoorzieninglinksequentie"
       },
-      "sort": "[UPDATED] Nutsvoorzieninglinksequentie",
+      "sort": "Nutsvoorzieninglinksequentie",
       "description": {
         "en": "An unbranched continuous path in the Utility Network.",
         "nl": "Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk."
       },
       "usage": {
         "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links.",
-        "nl": "[UPDATED] In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks."
+        "nl": "In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks."
       },
       "parents": [
         {
@@ -3062,7 +3062,7 @@
           },
           "description": {
             "en": "Directed Link that is part of the Link Sequence.",
-            "nl": "[UPDATED] GerichteLink die deel uitmaakt van de Linksequentie."
+            "nl": "GerichteLink die deel uitmaakt van de Linksequentie."
           },
           "usage": {},
           "domain": [
@@ -3106,16 +3106,16 @@
       "name": "UtilityLinkSet",
       "label": {
         "en": "Utility Link Set",
-        "nl": "[UPDATED] Nutsvoorzieninglinkset"
+        "nl": "Nutsvoorzieninglinkset"
       },
-      "sort": "[UPDATED] Nutsvoorzieninglinkset",
+      "sort": "Nutsvoorzieninglinkset",
       "description": {
         "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes.",
         "nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk."
       },
       "usage": {
         "en": "This class also extends the Link Set featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) Link Sequence or (more simple) Link class.",
-        "nl": "[UPDATED] In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc."
+        "nl": "In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc."
       },
       "parents": [
         {
@@ -3156,7 +3156,7 @@
           },
           "description": {
             "en": "Way to alert for the presence of the Link Set.",
-            "nl": "[UPDATED] Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
+            "nl": "Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
           },
           "usage": {},
           "domain": [
@@ -3258,7 +3258,7 @@
           },
           "description": {
             "en": "Further specification of the Link Set.",
-            "nl": "[UPDATED] Nadere bepaling van de linkset."
+            "nl": "Nadere bepaling van de linkset."
           },
           "usage": {
             "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
@@ -3310,7 +3310,7 @@
           },
           "description": {
             "en": "Type of material that makes up the Link Set.",
-            "nl": "[UPDATED] Soort materiaal waaruit de Linkset bestaat."
+            "nl": "Soort materiaal waaruit de Linkset bestaat."
           },
           "usage": {},
           "domain": [
@@ -3406,7 +3406,7 @@
           },
           "description": {
             "en": "Extent to which the Link Set is observable.",
-            "nl": "[UPDATED] Mate waarin de linkset waarneembaar is."
+            "nl": "Mate waarin de linkset waarneembaar is."
           },
           "usage": {
             "en": "For example, not visible above ground.",
@@ -3459,7 +3459,7 @@
           },
           "description": {
             "en": "Indicates whether the Link Set can be considered hazardous.",
-            "nl": "[UPDATED] Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
+            "nl": "Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
           },
           "usage": {},
           "domain": [
@@ -3506,7 +3506,7 @@
           },
           "description": {
             "en": "Appearance of the Link Set.",
-            "nl": "[UPDATED] Uitzicht van de Linkset."
+            "nl": "Uitzicht van de Linkset."
           },
           "usage": {},
           "domain": [
@@ -3553,7 +3553,7 @@
           },
           "description": {
             "en": "Utility Link Sequence or Utility Link that is part of the Link Set.",
-            "nl": "[UPDATED] Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
+            "nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
           },
           "usage": {},
           "domain": [
@@ -3945,11 +3945,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Nustvoorzieningnetwerkelement",
+              "range_uri": "#Nustvoorzieningnetwerkelement",
               "range_puri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
               "range_label": {
                 "en": "Utility Network Element",
-                "nl": "[UPDATED] Nustvoorzieningnetwerkelement"
+                "nl": "Nustvoorzieningnetwerkelement"
               }
             }
           ],
@@ -3992,11 +3992,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Activiteitencomplex",
+              "range_uri": "#Activiteitencomplex",
               "range_puri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
               "range_label": {
                 "en": "Activity Complex",
-                "nl": "[UPDATED] Activiteitencomplex"
+                "nl": "Activiteitencomplex"
               }
             }
           ],
@@ -4072,9 +4072,9 @@
       "name": "UtilityNetworkElement",
       "label": {
         "en": "Utility Network Element",
-        "nl": "[UPDATED] Nustvoorzieningnetwerkelement"
+        "nl": "Nustvoorzieningnetwerkelement"
       },
-      "sort": "[UPDATED] Nustvoorzieningnetwerkelement",
+      "sort": "Nustvoorzieningnetwerkelement",
       "description": {
         "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.",
         "nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult."
@@ -4156,7 +4156,7 @@
           },
           "description": {
             "en": "The time from which the Utility Network Element no longer exists in the real world.",
-            "nl": "[UPDATED] Tijdstip tot wanneer het element in de werkelijkheid bestond."
+            "nl": "Tijdstip tot wanneer het element in de werkelijkheid bestond."
           },
           "usage": {},
           "domain": [
@@ -4202,7 +4202,7 @@
           },
           "description": {
             "en": "The time when the Utility Network Element started to exist in the real world.",
-            "nl": "[UPDATED] Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
+            "nl": "Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
           },
           "usage": {},
           "domain": [
@@ -4928,7 +4928,7 @@
       "sort": "Nutsvoorzieningknoopcontainer",
       "description": {
         "en": "Point shaped Utility Network Element, potential carrier of Utility Nodes.",
-        "nl": "[UPDATED] Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen."
+        "nl": "Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen."
       },
       "usage": {
         "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.",
@@ -5015,7 +5015,7 @@
           },
           "description": {
             "en": "Indicates whether a Utility Node Container can be considered hazardous.",
-            "nl": "[UPDATED] Geeft aan of de container als gevaarlijk kan beschouwd worden."
+            "nl": "Geeft aan of de container als gevaarlijk kan beschouwd worden."
           },
           "usage": {},
           "domain": [
@@ -5862,9 +5862,9 @@
       "name": "ActivityComplex",
       "label": {
         "en": "Activity Complex",
-        "nl": "[UPDATED] Activiteitencomplex"
+        "nl": "Activiteitencomplex"
       },
-      "sort": "[UPDATED] Activiteitencomplex",
+      "sort": "Activiteitencomplex",
       "description": {
         "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place.",
         "nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening."
@@ -5997,7 +5997,7 @@
           },
           "description": {
             "en": "Utility Network Element belonging to the complex.",
-            "nl": "[UPDATED] Nutsvoorzieningnetwerkelement dat behoort tot het complex."
+            "nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex."
           },
           "usage": {},
           "domain": [
@@ -6014,11 +6014,11 @@
           ],
           "scopedrange": [
             {
-              "range_uri": "#[UPDATED] Nustvoorzieningnetwerkelement",
+              "range_uri": "#Nustvoorzieningnetwerkelement",
               "range_puri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
               "range_label": {
                 "en": "Utility Network Element",
-                "nl": "[UPDATED] Nustvoorzieningnetwerkelement"
+                "nl": "Nustvoorzieningnetwerkelement"
               }
             }
           ],
@@ -6510,9 +6510,9 @@
       "name": "LinkSequence",
       "label": {
         "en": "Link Sequence",
-        "nl": "[UPDATED] Linksequentie"
+        "nl": "Linksequentie"
       },
-      "sort": "[UPDATED] Linksequentie",
+      "sort": "Linksequentie",
       "description": {
         "en": "Unbranched continuous path in a Network.",
         "nl": "Onvertakt doorlopend pad in een Netwerk."
@@ -6549,9 +6549,9 @@
       "name": "LinkSet",
       "label": {
         "en": "Link Set",
-        "nl": "[UPDATED] Linkset"
+        "nl": "Linkset"
       },
-      "sort": "[UPDATED] Linkset",
+      "sort": "Linkset",
       "description": {
         "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network.",
         "nl": "Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk."
@@ -10345,11 +10345,11 @@
           },
           "description": {
             "en": "Geometry expressed in gml format.",
-            "nl": "[UPDATED] Geometrie uitgedrukt in gml-formaat."
+            "nl": "Geometrie uitgedrukt in gml-formaat."
           },
           "usage": {
             "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
-            "nl": "[UPDATED] Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
+            "nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
           },
           "domain": [
             {
@@ -10430,7 +10430,7 @@
       },
       "usage": {
         "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
-        "nl": "[UPDATED] OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
+        "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
       },
       "parents": [],
       "rawTags": {
@@ -10537,7 +10537,7 @@
           },
           "usage": {
             "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
-            "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
+            "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype."
           },
           "domain": [
             {
@@ -10588,7 +10588,7 @@
           },
           "usage": {
             "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
-            "nl": "[UPDATED] Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
+            "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype."
           },
           "domain": [
             {

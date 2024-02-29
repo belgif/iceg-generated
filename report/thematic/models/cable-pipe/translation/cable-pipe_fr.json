@@ -6,15 +6,15 @@
       "EA-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
       "definition": {
         "en": "A short explanation or note added to an Object.",
-        "fr": "[UPDATED] Une courte explication ou une note ajoutée à un Objet."
+        "fr": "Une courte explication ou une note ajoutée à un Objet."
       },
       "label": {
         "en": "Annotation",
-        "fr": "[UPDATED] Annotation"
+        "fr": "Annotation"
       },
       "usage": {
         "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
-        "fr": "[UPDATED] Dans ce contexte, il s'agit généralement d'une Indication de mesure sur un plan de câble ou de conduite, par ex. la distance d'un câble par rapport à une façade. Peut se composer d'éléments (par ex.: une ligne de dimensionnement, une ligne de guidage de dimensionnement, deux flèches) qui sont également des Annotations en soi."
+        "fr": "Dans ce contexte, il s'agit généralement d'une Indication de mesure sur un plan de câble ou de conduite, par ex. la distance d'un câble par rapport à une façade. Peut se composer d'éléments (par ex.: une ligne de dimensionnement, une ligne de guidage de dimensionnement, deux flèches) qui sont également des Annotations en soi."
       }
     },
     {
@@ -22,11 +22,11 @@
       "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
       "definition": {
         "en": "The way an item looks.",
-        "fr": "[UPDATED] L'apparence d'un objet."
+        "fr": "L'apparence d'un objet."
       },
       "label": {
         "en": "Appearance",
-        "fr": "[UPDATED] Apparence"
+        "fr": "Apparence"
       }
     },
     {
@@ -34,15 +34,15 @@
       "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
       "definition": {
         "en": "Physical point-shaped part of the UtilityNetwork.",
-        "fr": "[UPDATED] Partie physique du Réseau de Service pouvant être représenté sous forme d'un point."
+        "fr": "Partie physique du Réseau de Service pouvant être représenté sous forme d'un point."
       },
       "label": {
         "en": "Appurtenance",
-        "fr": "[UPDATED] Accessoire"
+        "fr": "Accessoire"
       },
       "usage": {
         "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
-        "fr": "[UPDATED] Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur du Noeud Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
+        "fr": "Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur du Noeud Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
       }
     },
     {
@@ -50,15 +50,15 @@
       "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
       "definition": {
         "en": "Simple Utility Node Container that takes the shape of a cabinet.",
-        "fr": "[UPDATED] Simple Conteneur de Noeud de Service qui prend la forme d'une armoire."
+        "fr": "Simple Conteneur de Noeud de Service qui prend la forme d'une armoire."
       },
       "label": {
         "en": "Cabinet",
-        "fr": "[UPDATED] Armoire"
+        "fr": "Armoire"
       },
       "usage": {
         "en": "Contains typically smaller mountable Appurtenances and Cables.",
-        "fr": "[UPDATED] Contient des Accessoires et des Câbles montables généralement plus petits."
+        "fr": "Contient des Accessoires et des Câbles montables généralement plus petits."
       }
     },
     {
@@ -66,11 +66,11 @@
       "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
       "definition": {
         "en": "A Utility Link Set used to transmit electricity or data from one location to another.",
-        "fr": "[UPDATED] Un Ensemble de Tronçons de Service utilisé pour transférer de l'électricité ou des données d'un endroit à un autre."
+        "fr": "Un Ensemble de Tronçons de Service utilisé pour transférer de l'électricité ou des données d'un endroit à un autre."
       },
       "label": {
         "en": "Cable",
-        "fr": "[UPDATED] Câble"
+        "fr": "Câble"
       }
     },
     {
@@ -78,15 +78,15 @@
       "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "definition": {
         "en": "Object that could potentially contain cables or pipes/ducts.",
-        "fr": "[UPDATED] Objet pouvant potentiellement inclure des câbles ou des conduites."
+        "fr": "Objet pouvant potentiellement inclure des câbles ou des conduites."
       },
       "label": {
         "en": "Cable and Pipe Container",
-        "fr": "[UPDATED] Conteneur de Cable et Conduite"
+        "fr": "Conteneur de Cable et Conduite"
       },
       "usage": {
         "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
-        "fr": "[UPDATED] Par ex. si l'objet est une Conduite : une Conduite peut inclure des Câbles ou d'autres Conduites. Analogue aux conduites de type Canal. Les Câbles ne sont pas des Conteneurs de Câble et Conduite. REMARQUE : Le fait que le Conteneur de Câble et Conduite contienne éventuellement d'autres éléments est représenté par les relations sortantes vers ces autres relations (par ex.: Canalisation.conduite, Conduite.Câble, Canalisation.Câble, Conduite.Conduite, etc)."
+        "fr": "Par ex. si l'objet est une Conduite : une Conduite peut inclure des Câbles ou d'autres Conduites. Analogue aux conduites de type Canal. Les Câbles ne sont pas des Conteneurs de Câble et Conduite. REMARQUE : Le fait que le Conteneur de Câble et Conduite contienne éventuellement d'autres éléments est représenté par les relations sortantes vers ces autres relations (par ex.: Canalisation.conduite, Conduite.Câble, Canalisation.Câble, Conduite.Conduite, etc)."
       }
     },
     {
@@ -94,11 +94,11 @@
       "EA-Guid": "{9CDB7CF9-D28B-4f65-806C-7091ADF65E98}",
       "definition": {
         "en": "Object describing the connection of a cable or pipe to a building or other physical object.",
-        "fr": "[UPDATED] Objet décrivant la connexion d'un câble ou d'une conduite à un bâtiment ou à un autre objet physique"
+        "fr": "Objet décrivant la connexion d'un câble ou d'une conduite à un bâtiment ou à un autre objet physique"
       },
       "label": {
         "en": "Connection",
-        "fr": "[UPDATED] Connexion"
+        "fr": "Connexion"
       }
     },
     {
@@ -106,11 +106,11 @@
       "EA-Guid": "{1BD92463-822E-49e6-B186-9E2997C706D4}",
       "definition": {
         "en": "Vertical Position below the Reference Surface.",
-        "fr": "[UPDATED] Position verticale sous la Surface de Référence."
+        "fr": "Position verticale sous la Surface de Référence."
       },
       "label": {
         "en": "Depth",
-        "fr": "[UPDATED] Profondeur"
+        "fr": "Profondeur"
       }
     },
     {
@@ -118,15 +118,15 @@
       "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
       "definition": {
         "en": "Type of Annotation that indicates the size of an Object.",
-        "fr": "[UPDATED] Type d'Annotation indiquant la taille d'un Objet."
+        "fr": "Type d'Annotation indiquant la taille d'un Objet."
       },
       "label": {
         "en": "Dimension",
-        "fr": "[UPDATED] Retrieving data. Wait a few seconds and try to cut or copy again."
+        "fr": "Retrieving data. Wait a few seconds and try to cut or copy again."
       },
       "usage": {
         "en": "For example, the dimensions of a room.",
-        "fr": "[UPDATED] Par ex.: les dimensions d'une pièce."
+        "fr": "Par ex.: les dimensions d'une pièce."
       }
     },
     {
@@ -134,11 +134,11 @@
       "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
         "en": "A Utility Link Set used to protect and route cables and pipes through an enclosing structure.",
-        "fr": "[UPDATED] Un Ensemble de Tronçons de Service utilisé pour protéger et guider des câbles et conduites à travers une structure enveloppante."
+        "fr": "Un Ensemble de Tronçons de Service utilisé pour protéger et guider des câbles et conduites à travers une structure enveloppante."
       },
       "label": {
         "en": "Duct",
-        "fr": "[UPDATED] Canalisation"
+        "fr": "Canalisation"
       },
       "usage": {
         "en": "A Duct (or Conduit, or Duct-bank, or Wireway) is a linear object which belongs to the structural network. It is the outermost casing. A Duct may contain Pipe(s), Cable(s) or other Duct(s).",
@@ -150,11 +150,11 @@
       "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
       "definition": {
         "en": "A Cable used to transport electricity from one location to another.",
-        "fr": "[UPDATED] Câble utilisé pour transporter l'électricité d'un endroit à un autre."
+        "fr": "Câble utilisé pour transporter l'électricité d'un endroit à un autre."
       },
       "label": {
         "en": "Electricity Cable",
-        "fr": "[UPDATED] Câble Electrique"
+        "fr": "Câble Electrique"
       }
     },
     {
@@ -162,11 +162,11 @@
       "EA-Guid": "{2E4FF2C4-A20C-455b-ABD5-8837E052C157}",
       "definition": {
         "en": "Vertical Position above the Reference Surface.",
-        "fr": "[UPDATED] Position verticale au-dessus de la Surface de Référence."
+        "fr": "Position verticale au-dessus de la Surface de Référence."
       },
       "label": {
         "en": "Height",
-        "fr": "[UPDATED] Hauteur"
+        "fr": "Hauteur"
       }
     },
     {
@@ -174,15 +174,15 @@
       "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
       "definition": {
         "en": "Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface.",
-        "fr": "[UPDATED] Simple Conteneur de Noeud de Service qui prend la forme d'une ouverture couverte dans le revêtement routier et qui permet d'accéder au sous-sol."
+        "fr": "Simple Conteneur de Noeud de Service qui prend la forme d'une ouverture couverte dans le revêtement routier et qui permet d'accéder au sous-sol."
       },
       "label": {
         "en": "Manhole",
-        "fr": "[UPDATED] Trou d'Homme"
+        "fr": "Trou d'Homme"
       },
       "usage": {
         "en": "E.g. sewer cover.",
-        "fr": "[UPDATED] Par ex.: une taque d'égout."
+        "fr": "Par ex.: une taque d'égout."
       }
     },
     {
@@ -190,11 +190,11 @@
       "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
       "definition": {
         "en": "A pipe used to transport oil, gas or chemicals from one location to another.",
-        "fr": "[UPDATED] Une conduite utilisée pour transporter des hydrocarbures, du gaz ou des produits chimiques d'un endroit à un autre."
+        "fr": "Une conduite utilisée pour transporter des hydrocarbures, du gaz ou des produits chimiques d'un endroit à un autre."
       },
       "label": {
         "en": "Oil Gas Chemicals Pipe",
-        "fr": "[UPDATED] Conduite d'Hydrocarbure, de Gaz ou de Produits Chimiques"
+        "fr": "Conduite d'Hydrocarbure, de Gaz ou de Produits Chimiques"
       }
     },
     {
@@ -202,11 +202,11 @@
       "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
       "definition": {
         "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another.",
-        "fr": "[UPDATED] Un Ensemble de Tronçons de Service pour le transport de solides, de liquides, de produits chimiques ou de gaz d'un endroit à un autre."
+        "fr": "Un Ensemble de Tronçons de Service pour le transport de solides, de liquides, de produits chimiques ou de gaz d'un endroit à un autre."
       },
       "label": {
         "en": "Pipe",
-        "fr": "[UPDATED] Conduite"
+        "fr": "Conduite"
       }
     },
     {
@@ -214,15 +214,15 @@
       "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
       "definition": {
         "en": "Drawing showing the parts or details of something.",
-        "fr": "[UPDATED] Dessin montrant les parties ou les détails de quelque chose."
+        "fr": "Dessin montrant les parties ou les détails de quelque chose."
       },
       "label": {
         "en": "Plan",
-        "fr": "[UPDATED] Plan"
+        "fr": "Plan"
       },
       "usage": {
         "en": "Eg a ground plan, a street plan.",
-        "fr": "[UPDATED] Par ex.: une carte, un plan de ville."
+        "fr": "Par ex.: une carte, un plan de ville."
       }
     },
     {
@@ -230,15 +230,15 @@
       "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
       "definition": {
         "en": "Simple Utility Node Container that takes the shape of a pole.",
-        "fr": "[UPDATED] Simple Conteneur de Noeud de Service qui prend la forme d’un mât."
+        "fr": "Simple Conteneur de Noeud de Service qui prend la forme d’un mât."
       },
       "label": {
         "en": "Pole",
-        "fr": "[UPDATED] Poteau"
+        "fr": "Poteau"
       },
       "usage": {
         "en": "Typical carrier of mountable Appurtenances and Cables.",
-        "fr": "[UPDATED] Généralement support des Accessoires et des Câbles montables."
+        "fr": "Généralement support des Accessoires et des Câbles montables."
       }
     },
     {
@@ -246,11 +246,11 @@
       "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "definition": {
         "en": "Area where digging is not allowed.",
-        "fr": "[UPDATED] Zone où il est interdit de creuser."
+        "fr": "Zone où il est interdit de creuser."
       },
       "label": {
         "en": "Protected Area",
-        "fr": "[UPDATED] Zone protégée"
+        "fr": "Zone protégée"
       }
     },
     {
@@ -258,15 +258,15 @@
       "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
       "definition": {
         "en": "Surface relative to which a position is measured.",
-        "fr": "[UPDATED] Surface par rapport à laquelle une position est mesurée."
+        "fr": "Surface par rapport à laquelle une position est mesurée."
       },
       "label": {
         "en": "Reference Surface",
-        "fr": "[UPDATED] Surface de Référence"
+        "fr": "Surface de Référence"
       },
       "usage": {
         "en": "In this context typically the ground level.",
-        "fr": "[UPDATED] Dans ce contexte, typiquement le niveau du sol."
+        "fr": "Dans ce contexte, typiquement le niveau du sol."
       }
     },
     {
@@ -274,11 +274,11 @@
       "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
       "definition": {
         "en": "A sewer pipe used to convey wastewater (sewer) from one location to another.",
-        "fr": "[UPDATED] Une conduite utilisée pour transporter des eaux usées d'un endroit à un autre."
+        "fr": "Une conduite utilisée pour transporter des eaux usées d'un endroit à un autre."
       },
       "label": {
         "en": "Sewer Pipe",
-        "fr": "[UPDATED] Conduite d'Eaux Usées"
+        "fr": "Conduite d'Eaux Usées"
       }
     },
     {
@@ -286,11 +286,11 @@
       "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
       "definition": {
         "en": "A Utility Link or Link Sequence used to convey data signals (PSTN, radio or computer) from one location to another.",
-        "fr": "[UPDATED] Un Ensemble de Tronçons de Service utilisé pour transporter des signaux de données (PSTN, radio ou ordinateur) d'un endroit à un autre."
+        "fr": "Un Ensemble de Tronçons de Service utilisé pour transporter des signaux de données (PSTN, radio ou ordinateur) d'un endroit à un autre."
       },
       "label": {
         "en": "Telecommunications Cable",
-        "fr": "[UPDATED] Cable de Télécommunication"
+        "fr": "Cable de Télécommunication"
       }
     },
     {
@@ -298,11 +298,11 @@
       "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
       "definition": {
         "en": "A pipe used to disseminate heating or cooling from one location to another.",
-        "fr": "[UPDATED] Une Conduite utilisée pour transporter le chauffage ou le refroidissement d'un endroit à un autre."
+        "fr": "Une Conduite utilisée pour transporter le chauffage ou le refroidissement d'un endroit à un autre."
       },
       "label": {
         "en": "Thermal Pipe",
-        "fr": "[UPDATED] Conduite Thermique"
+        "fr": "Conduite Thermique"
       }
     },
     {
@@ -310,15 +310,15 @@
       "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
       "definition": {
         "en": "Part of the description of the shape and features of the earth's surface.",
-        "fr": "[UPDATED] Partie de la description de la forme et des caractéristiques de la surface du sol."
+        "fr": "Partie de la description de la forme et des caractéristiques de la surface du sol."
       },
       "label": {
         "en": "Topographical Element",
-        "fr": "[UPDATED] Élément Topographique"
+        "fr": "Élément Topographique"
       },
       "usage": {
         "en": "Typical elements are relief, landforms, water bodies, vegetation.",
-        "fr": "[UPDATED] Les éléments typiques comprennent le relief, les reliefs géomorphologiques, les plans d'eau et la végétation."
+        "fr": "Les éléments typiques comprennent le relief, les reliefs géomorphologiques, les plans d'eau et la végétation."
       }
     },
     {
@@ -326,15 +326,15 @@
       "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
       "definition": {
         "en": "Simple UtilityNodeContainer that takes the shape of a Tower.",
-        "fr": "[UPDATED] Simple Conteneur de Noeud de Service qui prend la forme d'une Tour."
+        "fr": "Simple Conteneur de Noeud de Service qui prend la forme d'une Tour."
       },
       "label": {
         "en": "Tower",
-        "fr": "[UPDATED] Tour"
+        "fr": "Tour"
       },
       "usage": {
         "en": "Typical carrier of mountable Appurtenances and Cables.",
-        "fr": "[UPDATED] Généralement support des Accessoires et des Câbles montables."
+        "fr": "Généralement support des Accessoires et des Câbles montables."
       }
     },
     {
@@ -342,11 +342,11 @@
       "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
       "definition": {
         "en": "A linear spatial object that describes the geometry and connectivity between two points in a Utility Network.",
-        "fr": "[UPDATED] Objet spatial linéaire décrivant la géométrie et la connectivité entre deux points d'un Réseau de Service."
+        "fr": "Objet spatial linéaire décrivant la géométrie et la connectivité entre deux points d'un Réseau de Service."
       },
       "label": {
         "en": "Utility Link",
-        "fr": "[UPDATED] Tronçon de Service"
+        "fr": "Tronçon de Service"
       }
     },
     {
@@ -354,15 +354,15 @@
       "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
       "definition": {
         "en": "An unbranched continuous path in the Utility Network.",
-        "fr": "[UPDATED] Un chemin continu non ramifié dans le Réseau de Service."
+        "fr": "Un chemin continu non ramifié dans le Réseau de Service."
       },
       "label": {
         "en": "Utility Link Sequence",
-        "fr": "[UPDATED] Séquence de Tronçons de Service"
+        "fr": "Séquence de Tronçons de Service"
       },
       "usage": {
         "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links.",
-        "fr": "[UPDATED] En principe, il s'agit d'un itinéraire dans le réseau, par ex. une conduite d'eau dans le sens de l'écoulement. Les itinéraires ont une direction, c'est pourquoi la Séquence de Tronçons est composée de Tronçons Orientés."
+        "fr": "En principe, il s'agit d'un itinéraire dans le réseau, par ex. une conduite d'eau dans le sens de l'écoulement. Les itinéraires ont une direction, c'est pourquoi la Séquence de Tronçons est composée de Tronçons Orientés."
       }
     },
     {
@@ -370,15 +370,15 @@
       "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
       "definition": {
         "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes.",
-        "fr": "[UPDATED] Collection d'objets spatiaux linéaires ayant une fonction ou une importance spécifique dans le Réseau de Service."
+        "fr": "Collection d'objets spatiaux linéaires ayant une fonction ou une importance spécifique dans le Réseau de Service."
       },
       "label": {
         "en": "Utility Link Set",
-        "fr": "[UPDATED] Ensemble de Tronçons de Service"
+        "fr": "Ensemble de Tronçons de Service"
       },
       "usage": {
         "en": "This class also extends the Link Set featureType, which allows Cable, Pipe and Duct classes to use either the (more complex) Link Sequence or (more simple) Link class.",
-        "fr": "[UPDATED] En pratique, il s'agit d'une collection de Séquence de Tronçons de Service et/ou de Tronçons de Service. REMARQUE : est abstrait, nécessite une spécialisation plus poussée, par ex. Câble Electrique, Conduite d'Eaux Usées, etc."
+        "fr": "En pratique, il s'agit d'une collection de Séquence de Tronçons de Service et/ou de Tronçons de Service. REMARQUE : est abstrait, nécessite une spécialisation plus poussée, par ex. Câble Electrique, Conduite d'Eaux Usées, etc."
       }
     },
     {
@@ -386,15 +386,15 @@
       "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
       "definition": {
         "en": "Collection of network elements of one type of utility service.",
-        "fr": "[UPDATED] Collection d'éléments de réseau d'un type de service."
+        "fr": "Collection d'éléments de réseau d'un type de service."
       },
       "label": {
         "en": "Utility Network",
-        "fr": "[UPDATED] Réseau de Service"
+        "fr": "Réseau de Service"
       },
       "usage": {
         "en": "For example, an electricity network, a sewerage network, a gas network. The network elements in question are, for example, the elements of the network of an internet provider: optical cables arriving in cabinets on the street via multiplexers connected to copper cables to the homes in that street.",
-        "fr": "[UPDATED] Par ex.: un réseau électrique, un réseau d'égouts, un réseau de gaz. Les éléments de réseau en question sont, par ex., les éléments du réseau d'un fournisseur d'accès à Internet : des câbles optiques arrivant dans des armoires situées dans la rue, via des multiplexeurs connectés à des câbles en cuivre jusqu'aux maisons situées dans cette rue."
+        "fr": "Par ex.: un réseau électrique, un réseau d'égouts, un réseau de gaz. Les éléments de réseau en question sont, par ex., les éléments du réseau d'un fournisseur d'accès à Internet : des câbles optiques arrivant dans des armoires situées dans la rue, via des multiplexeurs connectés à des câbles en cuivre jusqu'aux maisons situées dans cette rue."
       }
     },
     {
@@ -402,15 +402,15 @@
       "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
       "definition": {
         "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.",
-        "fr": "[UPDATED] Élément d'un Réseau de Service qui remplit une fonction importante dans ce réseau."
+        "fr": "Élément d'un Réseau de Service qui remplit une fonction importante dans ce réseau."
       },
       "label": {
         "en": "Utility Network Element",
-        "fr": "[UPDATED] Elément du Réseau de Service"
+        "fr": "Elément du Réseau de Service"
       },
       "usage": {
         "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).",
-        "fr": "[UPDATED] REMARQUE : est abstrait, doit être spécifié (par ex. Câble Electrique, Conduite d'Eaux Usées, Trou d'Homme, Armoire, etc.)."
+        "fr": "REMARQUE : est abstrait, doit être spécifié (par ex. Câble Electrique, Conduite d'Eaux Usées, Trou d'Homme, Armoire, etc.)."
       }
     },
     {
@@ -418,15 +418,15 @@
       "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
       "definition": {
         "en": "Point-shaped spatial object that plays an important role in a Utility Network.",
-        "fr": "[UPDATED] Objet spatial qui joue un rôle important dans un Réseau de Service et qui peut être représenté sous forme d'un point."
+        "fr": "Objet spatial qui joue un rôle important dans un Réseau de Service et qui peut être représenté sous forme d'un point."
       },
       "label": {
         "en": "Utility Node",
-        "fr": "[UPDATED] Noeud de Service"
+        "fr": "Noeud de Service"
       },
       "usage": {
         "en": "Can stand alone or form beginning or end of a Utility Link. NOTE: is abstract, should be further specialised as Appurtenance or a subclass thereof.",
-        "fr": "[UPDATED] Peut être autonome ou constituer le début ou la fin d'un Tronçon de Service. REMARQUE : est abstrait, devrait être spécialisé en tant qu'Accessoire ou une sous-classe de celui-ci."
+        "fr": "Peut être autonome ou constituer le début ou la fin d'un Tronçon de Service. REMARQUE : est abstrait, devrait être spécialisé en tant qu'Accessoire ou une sous-classe de celui-ci."
       }
     },
     {
@@ -434,15 +434,15 @@
       "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
       "definition": {
         "en": "Point shaped Utility Network Element, potential carrier of Utility Nodes.",
-        "fr": "[UPDATED] Élément du Réseau de Service porteur potentiel de nœuds de service qui peut être représenté sous forme d'un point."
+        "fr": "Élément du Réseau de Service porteur potentiel de nœuds de service qui peut être représenté sous forme d'un point."
       },
       "label": {
         "en": "Utility Node Container",
-        "fr": "[UPDATED] Conteneur de Noeud de Service"
+        "fr": "Conteneur de Noeud de Service"
       },
       "usage": {
         "en": "Eg Tower, Pole, Manhole, Cabinet. Eg a Cabinet contains switches, connections etc that form Nodes in the Utility Network.",
-        "fr": "[UPDATED] Par ex.: Tour, Poteau, Trou d'Homme, Armoire. Par ex.: une Armoire contient des interrupteurs, des connexions, etc. qui forment des Nœuds dans le Réseau de Service."
+        "fr": "Par ex.: Tour, Poteau, Trou d'Homme, Armoire. Par ex.: une Armoire contient des interrupteurs, des connexions, etc. qui forment des Nœuds dans le Réseau de Service."
       }
     },
     {
@@ -450,11 +450,11 @@
       "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
       "definition": {
         "en": "Position in vertical direction relative to a Reference Surface.",
-        "fr": "[UPDATED] Position verticale par rapport à une Surface de Référence."
+        "fr": "Position verticale par rapport à une Surface de Référence."
       },
       "label": {
         "en": "Vertical Position",
-        "fr": "[UPDATED] Position Verticale"
+        "fr": "Position Verticale"
       }
     },
     {
@@ -462,11 +462,11 @@
       "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
       "definition": {
         "en": "A water pipe used to convey water from one location to another.",
-        "fr": "[UPDATED] Une Conduite utilisée pour transporter l’eau d'un endroit à un autre."
+        "fr": "Une Conduite utilisée pour transporter l’eau d'un endroit à un autre."
       },
       "label": {
         "en": "Water Pipe",
-        "fr": "[UPDATED] Conduite d'Eau"
+        "fr": "Conduite d'Eau"
       }
     }
   ],
@@ -476,11 +476,11 @@
       "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
       "definition": {
         "en": "Type of water.",
-        "fr": "[UPDATED] Type d'eau."
+        "fr": "Type d'eau."
       },
       "label": {
         "en": "water type",
-        "fr": "[UPDATED] type d'eau"
+        "fr": "type d'eau"
       }
     },
     {
@@ -488,11 +488,11 @@
       "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
       "definition": {
         "en": "Way to alert for the presence of the Link Set.",
-        "fr": "[UPDATED] Manière d’avertir de la présence de l'Ensemble de Tronçons."
+        "fr": "Manière d’avertir de la présence de l'Ensemble de Tronçons."
       },
       "label": {
         "en": "warning type",
-        "fr": "[UPDATED] type d'avertissement"
+        "fr": "type d'avertissement"
       }
     },
     {
@@ -500,11 +500,11 @@
       "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
       "label": {
         "en": "vertical position detail",
-        "fr": "[UPDATED] détail de la position verticale"
+        "fr": "détail de la position verticale"
       },
       "usage": {
         "en": "E.g. depth.",
-        "fr": "[UPDATED] Par ex.  : profondeur."
+        "fr": "Par ex.  : profondeur."
       }
     },
     {
@@ -512,11 +512,11 @@
       "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
       "definition": {
         "en": "The time from which the Utility Network Element no longer exists in the real world.",
-        "fr": "[UPDATED] Date jusqu’à laquelle l’élément existe dans la réalité."
+        "fr": "Date jusqu’à laquelle l’élément existe dans la réalité."
       },
       "label": {
         "en": "valid to",
-        "fr": "[UPDATED] valable jusque"
+        "fr": "valable jusque"
       }
     },
     {
@@ -524,11 +524,11 @@
       "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
       "definition": {
         "en": "The time when the Utility Network Element started to exist in the real world.",
-        "fr": "[UPDATED] Date à partir de laquelle l’élément existe dans la réalité."
+        "fr": "Date à partir de laquelle l’élément existe dans la réalité."
       },
       "label": {
         "en": "valid from",
-        "fr": "[UPDATED] valable dès"
+        "fr": "valable dès"
       }
     },
     {
@@ -536,15 +536,15 @@
       "EA-Guid": "{4E6C7DB7-08AF-4e6b-B569-1F5E04CE754F}",
       "definition": {
         "en": "Way in which the utility is delivered.",
-        "fr": "[UPDATED] La manière dont le service est fourni."
+        "fr": "La manière dont le service est fourni."
       },
       "label": {
         "en": "utility delivery type",
-        "fr": "[UPDATED] type de fourniture de service"
+        "fr": "type de fourniture de service"
       },
       "usage": {
         "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
-        "fr": "[UPDATED] Par ex.: transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
+        "fr": "Par ex.: transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
       }
     },
     {
@@ -552,11 +552,11 @@
       "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
       "definition": {
         "en": "Heigt of the Tower.",
-        "fr": "[UPDATED] Hauteur de la Tour."
+        "fr": "Hauteur de la Tour."
       },
       "label": {
         "en": "tower height",
-        "fr": "[UPDATED] hauteur de la tour"
+        "fr": "hauteur de la tour"
       }
     },
     {
@@ -564,11 +564,11 @@
       "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
       "definition": {
         "en": "The type of thermal product transported through the Thermal Pipe.",
-        "fr": "[UPDATED] Le type de produit thermique transporté par la ConduiteThermique."
+        "fr": "Le type de produit thermique transporté par la ConduiteThermique."
       },
       "label": {
         "en": "thermal product type",
-        "fr": "[UPDATED] type de Produit Thermique"
+        "fr": "type de Produit Thermique"
       }
     },
     {
@@ -576,15 +576,15 @@
       "EA-Guid": "{DF186437-0131-4785-8474-9974B20650FD}",
       "definition": {
         "en": "Text of the Annotation.",
-        "fr": "[UPDATED] Texte de l'Annotation."
+        "fr": "Texte de l'Annotation."
       },
       "label": {
         "en": "text",
-        "fr": "[UPDATED] texte"
+        "fr": "texte"
       },
       "usage": {
         "en": "E.g. the size in the case of a Dimension.",
-        "fr": "[UPDATED] Par ex.: la taille dans le cas d'une Indication de mesure."
+        "fr": "Par ex.: la taille dans le cas d'une Indication de mesure."
       }
     },
     {
@@ -592,11 +592,11 @@
       "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
       "definition": {
         "en": "The maximum allowable temperature of the contents of the Pipe.",
-        "fr": "[UPDATED] Température maximale admissible du contenu de la Conduite."
+        "fr": "Température maximale admissible du contenu de la Conduite."
       },
       "label": {
         "en": "temperature",
-        "fr": "[UPDATED] température"
+        "fr": "température"
       }
     },
     {
@@ -604,11 +604,11 @@
       "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
       "definition": {
         "en": "Type of cable material.",
-        "fr": "[UPDATED] Type de matériau du câble."
+        "fr": "Type de matériau du câble."
       },
       "label": {
         "en": "telecommunications cable material type",
-        "fr": "[UPDATED] type de Matériau du Cable de Télécommunication"
+        "fr": "type de Matériau du Cable de Télécommunication"
       }
     },
     {
@@ -616,15 +616,15 @@
       "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
       "definition": {
         "en": "Further specification of the Link Set.",
-        "fr": "[UPDATED] Précision sur l'Ensemble de Tronçons."
+        "fr": "Précision sur l'Ensemble de Tronçons."
       },
       "label": {
         "en": "technical specification",
-        "fr": "[UPDATED] spécification technique"
+        "fr": "spécification technique"
       },
       "usage": {
         "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
-        "fr": "[UPDATED] Par ex.: 4g10 pour spécifier un câble à 4 fils d'un diamètre de 10mm."
+        "fr": "Par ex.: 4g10 pour spécifier un câble à 4 fils d'un diamètre de 10mm."
       }
     },
     {
@@ -632,15 +632,15 @@
       "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
       "definition": {
         "en": "Default Vertical Position of elements in the network.",
-        "fr": "[UPDATED] Position Verticale standard des éléments du réseau."
+        "fr": "Position Verticale standard des éléments du réseau."
       },
       "label": {
         "en": "standard vertical position detail",
-        "fr": "[UPDATED] détail de la position verticale standard"
+        "fr": "détail de la position verticale standard"
       },
       "usage": {
         "en": "E.g. the default Depth at which the elements are located.",
-        "fr": "[UPDATED] Par ex. la Profondeur standard à laquelle les éléments sont situés."
+        "fr": "Par ex. la Profondeur standard à laquelle les éléments sont situés."
       }
     },
     {
@@ -648,11 +648,11 @@
       "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
       "definition": {
         "en": "Type of sewer water.",
-        "fr": "[UPDATED] Type d'eaux usées."
+        "fr": "Type d'eaux usées."
       },
       "label": {
         "en": "sewer water type",
-        "fr": "[UPDATED] type d'eaux usées"
+        "fr": "type d'eaux usées"
       }
     },
     {
@@ -660,15 +660,15 @@
       "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
       "definition": {
         "en": "Angle by which the Annotation should be rotated when displayed.",
-        "fr": "[UPDATED] Angle de rotation de l'Annotation à l'affichage."
+        "fr": "Angle de rotation de l'Annotation à l'affichage."
       },
       "label": {
         "en": "rotation angle",
-        "fr": "[UPDATED] angle de rotation"
+        "fr": "angle de rotation"
       },
       "usage": {
         "en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable.",
-        "fr": "[UPDATED] Généralement pour aligner l'Annotation à l'Objet auquel elle se rapporte, par ex. parallèlement au câble."
+        "fr": "Généralement pour aligner l'Annotation à l'Objet auquel elle se rapporte, par ex. parallèlement au câble."
       }
     },
     {
@@ -676,15 +676,15 @@
       "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
       "definition": {
         "en": "Reference to the Reference Surface.",
-        "fr": "[UPDATED] Référence à la Surface de Référence."
+        "fr": "Référence à la Surface de Référence."
       },
       "label": {
         "en": "reference surface",
-        "fr": "[UPDATED] surface de référence"
+        "fr": "surface de référence"
       },
       "usage": {
         "en": "For example, the ground level.",
-        "fr": "[UPDATED] Par ex., le niveau du sol."
+        "fr": "Par ex., le niveau du sol."
       }
     },
     {
@@ -692,15 +692,15 @@
       "EA-Guid": "{277E93E2-BA37-4447-ABD1-D5DD8A203C49}",
       "definition": {
         "en": "The maximum allowable operating pressure at which a product is transported through a Pipe.",
-        "fr": "[UPDATED] La pression opérationnelle maximale admissible à laquelle un produit est transporté dans une Conduite."
+        "fr": "La pression opérationnelle maximale admissible à laquelle un produit est transporté dans une Conduite."
       },
       "label": {
         "en": "pressure",
-        "fr": "[UPDATED] tension"
+        "fr": "tension"
       },
       "usage": {
         "en": "The unit of measurement for pressure is usually expressed in 'bar'.",
-        "fr": "[UPDATED] L'unité de mesure de la pression est généralement exprimée en « bar »."
+        "fr": "L'unité de mesure de la pression est généralement exprimée en « bar »."
       }
     },
     {
@@ -708,11 +708,11 @@
       "EA-Guid": "{AB08957F-2B69-41d5-9AA0-0236F59F1144}",
       "definition": {
         "en": "The height of the Pole.",
-        "fr": "[UPDATED] Hauteur du Poteau."
+        "fr": "Hauteur du Poteau."
       },
       "label": {
         "en": "pole height",
-        "fr": "[UPDATED] hauteur du poteau"
+        "fr": "hauteur du poteau"
       }
     },
     {
@@ -720,15 +720,15 @@
       "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
       "definition": {
         "en": "Outer diameter of the Pipe.",
-        "fr": "[UPDATED] Diamètre extérieur de la Conduite."
+        "fr": "Diamètre extérieur de la Conduite."
       },
       "label": {
         "en": "pipe diameter",
-        "fr": "[UPDATED] diamètre de la conduite"
+        "fr": "diamètre de la conduite"
       },
       "usage": {
         "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
-        "fr": "[UPDATED] Pour les objets de forme convexe (par exemple un cercle), le diamètre est défini comme la plus grande distance pouvant être formée entre deux tangentes parallèles."
+        "fr": "Pour les objets de forme convexe (par exemple un cercle), le diamètre est défini comme la plus grande distance pouvant être formée entre deux tangentes parallèles."
       }
     },
     {
@@ -736,11 +736,11 @@
       "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
       "definition": {
         "en": "Voltage during load.",
-        "fr": "[UPDATED] tension de fonctionnement"
+        "fr": "tension de fonctionnement"
       },
       "label": {
         "en": "operating voltage",
-        "fr": "[UPDATED] werkspanning"
+        "fr": "werkspanning"
       }
     },
     {
@@ -748,11 +748,11 @@
       "EA-Guid": "{3D899D97-F9FB-4713-AF79-B35E4B6E73FF}",
       "definition": {
         "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe.",
-        "fr": "[UPDATED] Le type d'hydrocarbure, de gaz ou de produit chimique transporté par la conduite d'hydrocarbure, de gaz ou de produit chimique."
+        "fr": "Le type d'hydrocarbure, de gaz ou de produit chimique transporté par la conduite d'hydrocarbure, de gaz ou de produit chimique."
       },
       "label": {
         "en": "oil gas chemicals product type",
-        "fr": "[UPDATED] type d'hydrocarbure, de gaz ou de produit chimique"
+        "fr": "type d'hydrocarbure, de gaz ou de produit chimique"
       }
     },
     {
@@ -760,11 +760,11 @@
       "EA-Guid": "{D80FB65E-9810-4c90-B645-6A15AA20DE7E}",
       "definition": {
         "en": "Voltage without load.",
-        "fr": "[UPDATED] Tension hors fonctionnement"
+        "fr": "Tension hors fonctionnement"
       },
       "label": {
         "en": "nominal voltage",
-        "fr": "[UPDATED] tension nominale"
+        "fr": "tension nominale"
       }
     },
     {
@@ -772,11 +772,11 @@
       "EA-Guid": "{68620BC6-B294-4fb0-99E7-81111B70A9AF}",
       "definition": {
         "en": "Type of material that makes up the Link Set.",
-        "fr": "[UPDATED] Type de matériau constituant l'Ensemble de Tronçons."
+        "fr": "Type de matériau constituant l'Ensemble de Tronçons."
       },
       "label": {
         "en": "material type",
-        "fr": "[UPDATED] type de matériel"
+        "fr": "type de matériel"
       }
     },
     {
@@ -832,11 +832,11 @@
       "EA-Guid": "{B9D2CF04-9D78-481c-BC1E-27F84F2EB431}",
       "definition": {
         "en": "Element identifier.",
-        "fr": "[UPDATED] Identifiant de l'élément."
+        "fr": "Identifiant de l'élément."
       },
       "label": {
         "en": "identifier",
-        "fr": "[UPDATED] identifiant"
+        "fr": "identifiant"
       }
     },
     {
@@ -844,11 +844,11 @@
       "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
       "definition": {
         "en": "Name by which the network is known.",
-        "fr": "[UPDATED] Nom sous lequel le réseau est connu."
+        "fr": "Nom sous lequel le réseau est connu."
       },
       "label": {
         "en": "geographical name",
-        "fr": "[UPDATED] nom géographique"
+        "fr": "nom géographique"
       }
     },
     {
@@ -856,15 +856,15 @@
       "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
       "definition": {
         "en": "Activities carried out by the complex.",
-        "fr": "[UPDATED] Activités exercées par le complexe."
+        "fr": "Activités exercées par le complexe."
       },
       "label": {
         "en": "function",
-        "fr": "[UPDATED] fonction"
+        "fr": "fonction"
       },
       "usage": {
         "en": "Possibly supplemented with information about inputs and outputs of the activities.",
-        "fr": "[UPDATED] Complété éventuellement par des informations sur les inputs et les outputs des activités."
+        "fr": "Complété éventuellement par des informations sur les inputs et les outputs des activités."
       }
     },
     {
@@ -872,11 +872,11 @@
       "EA-Guid": "{CF953F89-815C-4736-9F26-C63AB01A7040}",
       "definition": {
         "en": "Width of the Duct.",
-        "fr": "[UPDATED] Largeur de la Canalisation"
+        "fr": "Largeur de la Canalisation"
       },
       "label": {
         "en": "duct width",
-        "fr": "[UPDATED] largeur de la canalisation"
+        "fr": "largeur de la canalisation"
       },
       "usage": {
         "en": "The measurement of the object - in this case, the duct - from side to side.",
@@ -900,11 +900,11 @@
       "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
       "definition": {
         "en": "Reference to a Document with additional information about the complex.",
-        "fr": "[UPDATED] Référence à un Document contenant des informations supplémentaires sur le Complexe d’Activités."
+        "fr": "Référence à un Document contenant des informations supplémentaires sur le Complexe d’Activités."
       },
       "label": {
         "en": "documentation",
-        "fr": "[UPDATED] documentation"
+        "fr": "documentation"
       }
     },
     {
@@ -912,15 +912,15 @@
       "EA-Guid": "{402EBC20-6752-4cb9-A310-47F1119B60DD}",
       "definition": {
         "en": "The Vertical Position as distance from the Reference Surface.",
-        "fr": "[UPDATED] La Position Verticale comme distance par rapport à la Surface de Référence."
+        "fr": "La Position Verticale comme distance par rapport à la Surface de Référence."
       },
       "label": {
         "en": "distance",
-        "fr": "[UPDATED] distance"
+        "fr": "distance"
       },
       "usage": {
         "en": "For example, the distance from ground level.",
-        "fr": "[UPDATED] Par ex., la distance par rapport au niveau du sol."
+        "fr": "Par ex., la distance par rapport au niveau du sol."
       }
     },
     {
@@ -928,11 +928,11 @@
       "EA-Guid": "{84D05DCC-DF57-4ec2-A1D3-CDB55EAC6E4C}",
       "definition": {
         "en": "Legal text describing confidentiality clauses applying to the utility network information.",
-        "fr": "[UPDATED] Texte juridique décrivant les clauses de confidentialité applicables aux informations du réseau de service."
+        "fr": "Texte juridique décrivant les clauses de confidentialité applicables aux informations du réseau de service."
       },
       "label": {
         "en": "disclaimer",
-        "fr": "[UPDATED] disclaimer"
+        "fr": "disclaimer"
       }
     },
     {
@@ -940,11 +940,11 @@
       "EA-Guid": "{4BFA1700-E708-414a-AFB9-70E236965A52}",
       "definition": {
         "en": "Distance below the Reference Surface.",
-        "fr": "[UPDATED] Distance au-dessous de la Surface de Référence."
+        "fr": "Distance au-dessous de la Surface de Référence."
       },
       "label": {
         "en": "depth",
-        "fr": "[UPDATED] profondeur"
+        "fr": "profondeur"
       }
     },
     {
@@ -952,11 +952,11 @@
       "EA-Guid": "{620BDA84-47A6-4539-A478-BD9784B7D738}",
       "definition": {
         "en": "The status of the element with respect to its completion and use.",
-        "fr": "[UPDATED] Le statut de l'élément en ce qui concerne son achèvement et son utilisation."
+        "fr": "Le statut de l'élément en ce qui concerne son achèvement et son utilisation."
       },
       "label": {
         "en": "current status",
-        "fr": "[UPDATED] statut actuel"
+        "fr": "statut actuel"
       }
     },
     {
@@ -964,11 +964,11 @@
       "EA-Guid": "{320A079D-1C70-465e-85DA-E31BE1A1DD0D}",
       "definition": {
         "en": "The color of the object.",
-        "fr": "[UPDATED] La couleur de l'objet."
+        "fr": "La couleur de l'objet."
       },
       "label": {
         "en": "color",
-        "fr": "[UPDATED] couleur"
+        "fr": "couleur"
       }
     },
     {
@@ -976,11 +976,11 @@
       "EA-Guid": "{D1E13FF4-FCAA-4046-BCFC-A7B0D1C3B0FA}",
       "definition": {
         "en": "Diameter of the Cable.",
-        "fr": "[UPDATED] Diamètre du câble."
+        "fr": "Diamètre du câble."
       },
       "label": {
         "en": "cable diameter",
-        "fr": "[UPDATED] diamètre du câble"
+        "fr": "diamètre du câble"
       }
     },
     {
@@ -988,11 +988,11 @@
       "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
       "definition": {
         "en": "Parties authorized to manage, operate or own the Utility Network.",
-        "fr": "[UPDATED] Parties autorisées à gérer ou exploiter le Réseau de Service, ou qui en est le propriétaire."
+        "fr": "Parties autorisées à gérer ou exploiter le Réseau de Service, ou qui en est le propriétaire."
       },
       "label": {
         "en": "authority role",
-        "fr": "[UPDATED] partie compétente"
+        "fr": "partie compétente"
       }
     },
     {
@@ -1000,15 +1000,15 @@
       "EA-Guid": "{F7F51210-A7F4-4437-9BDF-7C629E2F219C}",
       "definition": {
         "en": "Object to which the Annotation refers.",
-        "fr": "[UPDATED] Objet auquel l'Annotation se rapporte"
+        "fr": "Objet auquel l'Annotation se rapporte"
       },
       "label": {
         "en": "associated with",
-        "fr": "[UPDATED] associé à"
+        "fr": "associé à"
       },
       "usage": {
         "en": "For example a cable.",
-        "fr": "[UPDATED] Par ex.: un câble."
+        "fr": "Par ex.: un câble."
       }
     },
     {
@@ -1016,11 +1016,11 @@
       "EA-Guid": "{9F470422-C6B3-4c74-BC4E-860AF8AD44E7}",
       "definition": {
         "en": "Address of the Connection.",
-        "fr": "[UPDATED] Adresse de la connexion."
+        "fr": "Adresse de la connexion."
       },
       "label": {
         "en": "address",
-        "fr": "[UPDATED] adresse"
+        "fr": "adresse"
       }
     },
     {
@@ -1028,11 +1028,11 @@
       "EA-Guid": "{669729F3-407B-4d0e-AFC8-F53D8EABC85D}",
       "definition": {
         "en": "The Positional Accuracy of the Survey.",
-        "fr": "[UPDATED] Précision positionnelle de la Mesure."
+        "fr": "Précision positionnelle de la Mesure."
       },
       "label": {
         "en": "accuracy",
-        "fr": "[UPDATED] précision"
+        "fr": "précision"
       }
     },
     {
@@ -1040,15 +1040,15 @@
       "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
       "definition": {
         "en": "The Vertical Position as a position in a vertical coordinate system.",
-        "fr": "[UPDATED] Position verticale comme position dans un système de coordonnées verticales."
+        "fr": "Position verticale comme position dans un système de coordonnées verticales."
       },
       "label": {
         "en": "vertical position",
-        "fr": "[UPDATED] position verticale"
+        "fr": "position verticale"
       },
       "usage": {
         "en": "For example, in Belgium the z-coordinate in TAW.",
-        "fr": "[UPDATED] Par ex., en Belgique, la coordonnée z dans le DNG."
+        "fr": "Par ex., en Belgique, la coordonnée z dans le DNG."
       }
     },
     {
@@ -1056,11 +1056,11 @@
       "EA-Guid": "{CB78D103-BABF-4d04-BDDB-5146D44A72EF}",
       "definition": {
         "en": "Extent to which the container is observable.",
-        "fr": "[UPDATED] Mesure dans laquelle le conteneur est visible."
+        "fr": "Mesure dans laquelle le conteneur est visible."
       },
       "label": {
         "en": "visibility",
-        "fr": "[UPDATED] visibilité"
+        "fr": "visibilité"
       }
     },
     {
@@ -1068,11 +1068,11 @@
       "EA-Guid": "{D53BCB73-D335-450e-9E1E-532956F36F0B}",
       "definition": {
         "en": "Indicates whether a Utility Node Container can be considered hazardous.",
-        "fr": "[UPDATED] Indique si le conteneur peut être considéré comme dangereux."
+        "fr": "Indique si le conteneur peut être considéré comme dangereux."
       },
       "label": {
         "en": "risk",
-        "fr": "[UPDATED] risque"
+        "fr": "risque"
       }
     },
     {
@@ -1080,11 +1080,11 @@
       "EA-Guid": "{9E9E6F1D-85EE-452e-BB76-512A6EB93731}",
       "definition": {
         "en": "Angle by which to rotate the symbol representing the container on a map.",
-        "fr": "[UPDATED] Angle de rotation du symbole représentant le conteneur sur la carte."
+        "fr": "Angle de rotation du symbole représentant le conteneur sur la carte."
       },
       "label": {
         "en": "orientation",
-        "fr": "[UPDATED] orientation"
+        "fr": "orientation"
       }
     },
     {
@@ -1092,15 +1092,15 @@
       "EA-Guid": "{ACE6F98E-D2DC-40fb-B473-8E0BC8C66040}",
       "definition": {
         "en": "Appearance of the container.",
-        "fr": "[UPDATED] Apparence du conteneur."
+        "fr": "Apparence du conteneur."
       },
       "label": {
         "en": "appearance",
-        "fr": "[UPDATED] apparence"
+        "fr": "apparence"
       },
       "usage": {
         "en": "For example the color.",
-        "fr": "[UPDATED] Par ex.: la couleur."
+        "fr": "Par ex.: la couleur."
       }
     },
     {
@@ -1108,15 +1108,15 @@
       "EA-Guid": "{A9A65420-5DE4-4dc4-80E0-D03317ECF385}",
       "definition": {
         "en": "Extent to which the Node is observable.",
-        "fr": "[UPDATED] Mesure dans laquelle le Noeud est visible."
+        "fr": "Mesure dans laquelle le Noeud est visible."
       },
       "label": {
         "en": "visibility",
-        "fr": "[UPDATED] visibilité"
+        "fr": "visibilité"
       },
       "usage": {
         "en": "For example, not visible above ground.",
-        "fr": "[UPDATED] Par ex.: Invisible en Surface."
+        "fr": "Par ex.: Invisible en Surface."
       }
     },
     {
@@ -1124,11 +1124,11 @@
       "EA-Guid": "{3846A060-B6A3-4e1c-8C23-6824A4215BB9}",
       "definition": {
         "en": "Indicates whether the Node can be considered hazardous.",
-        "fr": "[UPDATED] Indique si le Nœud peut être considéré comme dangereux."
+        "fr": "Indique si le Nœud peut être considéré comme dangereux."
       },
       "label": {
         "en": "risk",
-        "fr": "[UPDATED] risque"
+        "fr": "risque"
       }
     },
     {
@@ -1136,11 +1136,11 @@
       "EA-Guid": "{B51C2121-D6ED-437e-8786-E6B4573C28C9}",
       "definition": {
         "en": "Angle by which the symbol representing the Node on map should be rotated.",
-        "fr": "[UPDATED] Angle de rotation du symbole représentant le Nœud sur la carte."
+        "fr": "Angle de rotation du symbole représentant le Nœud sur la carte."
       },
       "label": {
         "en": "orientation",
-        "fr": "[UPDATED] orientation"
+        "fr": "orientation"
       }
     },
     {
@@ -1148,15 +1148,15 @@
       "EA-Guid": "{D9335DED-CB05-4e08-9E35-992400B607AF}",
       "definition": {
         "en": "Appearance of the Node.",
-        "fr": "[UPDATED] Apparence du Noeud."
+        "fr": "Apparence du Noeud."
       },
       "label": {
         "en": "appearance",
-        "fr": "[UPDATED] apparence"
+        "fr": "apparence"
       },
       "usage": {
         "en": "For example the color.",
-        "fr": "[UPDATED] Par ex.: la couleur."
+        "fr": "Par ex.: la couleur."
       }
     },
     {
@@ -1164,15 +1164,15 @@
       "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
       "definition": {
         "en": "General indication of the Vertical Position of the element.",
-        "fr": "[UPDATED] Indication générale de la PositionvVerticale de l'élément."
+        "fr": "Indication générale de la PositionvVerticale de l'élément."
       },
       "label": {
         "en": "vertical position",
-        "fr": "[UPDATED] position verticale"
+        "fr": "position verticale"
       },
       "usage": {
         "en": "E.g. underground, above ground.",
-        "fr": "[UPDATED] Par ex.: souterrain, en surface."
+        "fr": "Par ex.: souterrain, en surface."
       }
     },
     {
@@ -1180,15 +1180,15 @@
       "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "definition": {
         "en": "Extent to which the Link Set is observable.",
-        "fr": "[UPDATED] Mesure dans laquelle l'ensemble de tronçons est visible."
+        "fr": "Mesure dans laquelle l'ensemble de tronçons est visible."
       },
       "label": {
         "en": "visibility",
-        "fr": "[UPDATED] visibilité"
+        "fr": "visibilité"
       },
       "usage": {
         "en": "For example, not visible above ground.",
-        "fr": "[UPDATED] Par ex.: Invisible en Surface."
+        "fr": "Par ex.: Invisible en Surface."
       }
     },
     {
@@ -1196,11 +1196,11 @@
       "EA-Guid": "{4680B8E0-ADA5-4df0-BB22-757CF168E14E}",
       "definition": {
         "en": "Indicates whether the Link Set can be considered hazardous.",
-        "fr": "[UPDATED] Indique si l'Ensemble de Tronçons peut être considéré comme dangereux."
+        "fr": "Indique si l'Ensemble de Tronçons peut être considéré comme dangereux."
       },
       "label": {
         "en": "risk",
-        "fr": "[UPDATED] risque"
+        "fr": "risque"
       }
     },
     {
@@ -1208,11 +1208,11 @@
       "EA-Guid": "{451C5196-58DF-4df8-AE6F-13A5828A6E6F}",
       "definition": {
         "en": "Appearance of the Link Set.",
-        "fr": "[UPDATED] Apparence de l'Ensemble de Tronçons."
+        "fr": "Apparence de l'Ensemble de Tronçons."
       },
       "label": {
         "en": "appearance",
-        "fr": "[UPDATED] apparence"
+        "fr": "apparence"
       }
     },
     {
@@ -1220,11 +1220,11 @@
       "EA-Guid": "{BEBD754F-44EA-46ce-96B8-6AE3DF508400}",
       "definition": {
         "en": "Agent who carried out the Survey.",
-        "fr": "[UPDATED] Agent qui a effectué la mesure."
+        "fr": "Agent qui a effectué la mesure."
       },
       "label": {
         "en": "recorded by",
-        "fr": "[UPDATED] exécuté par"
+        "fr": "exécuté par"
       }
     },
     {
@@ -1232,11 +1232,11 @@
       "EA-Guid": "{5CF54001-0D21-41e1-B29D-97CC7EC9F020}",
       "definition": {
         "en": "Type of the method used.",
-        "fr": "[UPDATED] Nature de la méthode utilisée."
+        "fr": "Nature de la méthode utilisée."
       },
       "label": {
         "en": "method",
-        "fr": "[UPDATED] méthode"
+        "fr": "méthode"
       }
     },
     {
@@ -1244,15 +1244,15 @@
       "EA-Guid": "{D0CCE6E4-1ACB-424b-A647-35AB3C9294FE}",
       "definition": {
         "en": "The Vertical Position of the ReferenceSurface as position in a vertical coordinate system.",
-        "fr": "[UPDATED] Position verticale de la Surface de Référence comme position dans un système de coordonnées verticales."
+        "fr": "Position verticale de la Surface de Référence comme position dans un système de coordonnées verticales."
       },
       "label": {
         "en": "vertical position",
-        "fr": "[UPDATED] position verticale"
+        "fr": "position verticale"
       },
       "usage": {
         "en": "Typical the groundlevel.",
-        "fr": "[UPDATED] Par ex., en Belgique, la coordonnée z dans le DNG."
+        "fr": "Par ex., en Belgique, la coordonnée z dans le DNG."
       }
     },
     {
@@ -1260,11 +1260,11 @@
       "EA-Guid": "{3819ED88-81D8-4541-B26B-A64C5CDE020D}",
       "definition": {
         "en": "Classification of the Pipe according to the thematic domain to which it belongs.",
-        "fr": "[UPDATED] Classification de la Conduite en fonction du domaine thématique auquel elle appartient."
+        "fr": "Classification de la Conduite en fonction du domaine thématique auquel elle appartient."
       },
       "label": {
         "en": "subtheme",
-        "fr": "[UPDATED] sous-thème"
+        "fr": "sous-thème"
       }
     },
     {
@@ -1296,11 +1296,11 @@
       "EA-Guid": "{8FBCB721-4DB1-47f4-9694-E06978259957}",
       "definition": {
         "en": "Appurtenance classification.",
-        "fr": "[UPDATED] Nature de l'Accessoire."
+        "fr": "Nature de l'Accessoire."
       },
       "label": {
         "en": "appurtenance type",
-        "fr": "[UPDATED] type d'accessoire"
+        "fr": "type d'accessoire"
       }
     },
     {
@@ -1308,11 +1308,11 @@
       "EA-Guid": "{92F903FE-6F84-43f6-A09B-CC9D355D8C89}",
       "definition": {
         "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
-        "fr": "[UPDATED] Classification d'un câble, d'une canalisation ou d'éléments de canalisation en fonction du domaine thématique auquel ils appartiennent."
+        "fr": "Classification d'un câble, d'une canalisation ou d'éléments de canalisation en fonction du domaine thématique auquel ils appartiennent."
       },
       "label": {
         "en": "subtheme",
-        "fr": "[UPDATED] sous-thème"
+        "fr": "sous-thème"
       }
     },
     {
@@ -1334,15 +1334,15 @@
       "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
       "definition": {
         "en": "Distance between two points on a curve.",
-        "fr": "[UPDATED] Distance entre deux points sur une courbe."
+        "fr": "Distance entre deux points sur une courbe."
       },
       "label": {
         "en": "Length",
-        "fr": "[UPDATED] Longueur"
+        "fr": "Longueur"
       },
       "usage": {
         "en": "Used here to describe the size of something, for example the height of a tower.",
-        "fr": "[UPDATED] Utilisé ici pour décrire la taille de quelque chose, par ex. la hauteur d'une tour."
+        "fr": "Utilisé ici pour décrire la taille de quelque chose, par ex. la hauteur d'une tour."
       }
     },
     {
@@ -1350,11 +1350,11 @@
       "EA-Guid": "{889C9976-B9C7-47d5-849B-C0D9B0D55915}",
       "definition": {
         "en": "A measured amount of a certain quantity, expressed in some unit.",
-        "fr": "[UPDATED] Une quantité (mesurée) d’une grandeur déterminée, exprimée dans une unité déterminée."
+        "fr": "Une quantité (mesurée) d’une grandeur déterminée, exprimée dans une unité déterminée."
       },
       "label": {
         "en": "Measure",
-        "fr": "[UPDATED] Taille"
+        "fr": "Taille"
       }
     },
     {
@@ -1362,7 +1362,7 @@
       "EA-Guid": "{AC115F40-08A9-47dc-96A2-547A024E7F0D}",
       "label": {
         "en": "Unit of Measure",
-        "fr": "[UPDATED] Unité de Mesure"
+        "fr": "Unité de Mesure"
       }
     },
     {
@@ -1370,7 +1370,7 @@
       "EA-Guid": "{51E1B009-115C-4cc2-9C42-546B04A2AF9B}",
       "label": {
         "en": "UOM Length",
-        "fr": "[UPDATED] Unité de Longueur"
+        "fr": "Unité de Longueur"
       }
     },
     {
@@ -1378,15 +1378,15 @@
       "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
       "definition": {
         "en": "Degree to which a specified position represents the actual position.",
-        "fr": "[UPDATED] Mesure dans laquelle une position donnée représente la position réelle."
+        "fr": "Mesure dans laquelle une position donnée représente la position réelle."
       },
       "label": {
         "en": "Positional Accuracy",
-        "fr": "[UPDATED] Précision de la Position"
+        "fr": "Précision de la Position"
       },
       "usage": {
         "en": "For example, expressed as the maximum deviation in cm between both positions.",
-        "fr": "[UPDATED] Par ex.: exprimé comme l'écart maximal en cm entre les deux positions."
+        "fr": "Par ex.: exprimé comme l'écart maximal en cm entre les deux positions."
       }
     },
     {
@@ -1394,11 +1394,11 @@
       "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
       "definition": {
         "en": "Someone or something that can act or produce an effect.",
-        "fr": "[UPDATED] Quelqu'un ou quelque chose qui peut agir ou produire un effet."
+        "fr": "Quelqu'un ou quelque chose qui peut agir ou produire un effet."
       },
       "label": {
         "en": "Agent",
-        "fr": "[UPDATED] Agent"
+        "fr": "Agent"
       }
     },
     {
@@ -1406,15 +1406,15 @@
       "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
       "definition": {
         "en": "A 1-dimensional geometric primitive.",
-        "fr": "[UPDATED] Primitive géométrique unidimensionnelle."
+        "fr": "Primitive géométrique unidimensionnelle."
       },
       "label": {
         "en": "Curve",
-        "fr": "[UPDATED] Courbe"
+        "fr": "Courbe"
       },
       "usage": {
         "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
-        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par une Courbe elle-même, 1 coordonnée suffit pour localiser un point sur la Courbe, par ex. la distance le long de la Courbe à partir du point de départ. Une Courbe a une longueur mais pas de largeur ni de hauteur, ce qui ne l'empêche pas de serpenter dans l'espace 3D. Les Courbes sont généralement représentées par des polylignes, qui sont des ensembles de points consécutifs où les points intermédiaires de la Courbe sont obtenus par interpolation. Lorsque la méthode d'interpolation est linéaire, vous obtenez une Ligne Polygonale (une ligne angulaire reliant des points successifs par une ligne droite). D'autres méthodes d'interpolation donnent lieu à des arcs de cercle, des cubic splines, des courbes de Bézier, etc. (dont les points de contrôle ne sont pas nécessairement situés sur la Courbe). Une Courbe est délimitée par ses points de départ et d'arrivée."
+        "fr": "La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par une Courbe elle-même, 1 coordonnée suffit pour localiser un point sur la Courbe, par ex. la distance le long de la Courbe à partir du point de départ. Une Courbe a une longueur mais pas de largeur ni de hauteur, ce qui ne l'empêche pas de serpenter dans l'espace 3D. Les Courbes sont généralement représentées par des polylignes, qui sont des ensembles de points consécutifs où les points intermédiaires de la Courbe sont obtenus par interpolation. Lorsque la méthode d'interpolation est linéaire, vous obtenez une Ligne Polygonale (une ligne angulaire reliant des points successifs par une ligne droite). D'autres méthodes d'interpolation donnent lieu à des arcs de cercle, des cubic splines, des courbes de Bézier, etc. (dont les points de contrôle ne sont pas nécessairement situés sur la Courbe). Une Courbe est délimitée par ses points de départ et d'arrivée."
       }
     },
     {
@@ -1422,15 +1422,15 @@
       "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
       "definition": {
         "en": "A 0-dimensional geometric primitive.",
-        "fr": "[UPDATED] Primitive géométrique zéro-dimensionnelle."
+        "fr": "Primitive géométrique zéro-dimensionnelle."
       },
       "label": {
         "en": "Point",
-        "fr": "[UPDATED] Point"
+        "fr": "Point"
       },
       "usage": {
         "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
-        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par un Point lui-même, aucune coordonnée n'est nécessaire, puisqu'il n'y a qu'un seul point. Un point n'a donc ni largeur, ni longueur, ni profondeur. ATTENTION : cela ne signifie pas qu'un Point ne peut pas avoir de coordonnées dans un autre système de coordonnées, par ex. des coordonnées xyz dans un système de coordonnées à 3 axes orthogonaux."
+        "fr": "La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par un Point lui-même, aucune coordonnée n'est nécessaire, puisqu'il n'y a qu'un seul point. Un point n'a donc ni largeur, ni longueur, ni profondeur. ATTENTION : cela ne signifie pas qu'un Point ne peut pas avoir de coordonnées dans un autre système de coordonnées, par ex. des coordonnées xyz dans un système de coordonnées à 3 axes orthogonaux."
       }
     },
     {
@@ -1438,11 +1438,11 @@
       "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
       "definition": {
         "en": "Kind of container.",
-        "fr": "[UPDATED] Nature du conteneur."
+        "fr": "Nature du conteneur."
       },
       "label": {
         "en": "Container Type Value",
-        "fr": "[UPDATED] Type conteneur"
+        "fr": "Type conteneur"
       }
     },
     {
@@ -1450,11 +1450,11 @@
       "EA-Guid": "{8B274381-D55D-4519-AAC1-D795D69B5003}",
       "definition": {
         "en": "To what extent the object is observable.",
-        "fr": "[UPDATED] Dans quelle mesure l'objet est visible."
+        "fr": "Dans quelle mesure l'objet est visible."
       },
       "label": {
         "en": "Visibility Type Value",
-        "fr": "[UPDATED] Type de Visibilité"
+        "fr": "Type de Visibilité"
       }
     },
     {
@@ -1462,11 +1462,11 @@
       "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
       "definition": {
         "en": "The nature of the risk.",
-        "fr": "[UPDATED] La nature du risque"
+        "fr": "La nature du risque"
       },
       "label": {
         "en": "Risk Type Value",
-        "fr": "[UPDATED] type du risque"
+        "fr": "type du risque"
       }
     },
     {
@@ -1474,11 +1474,11 @@
       "EA-Guid": "{D8B48467-825B-4904-B96D-99B05F82D1E7}",
       "definition": {
         "en": "Color of the element.",
-        "fr": "[UPDATED] La couleur de l'élément"
+        "fr": "La couleur de l'élément"
       },
       "label": {
         "en": "Color Value",
-        "fr": "[UPDATED] Couleur"
+        "fr": "Couleur"
       }
     },
     {
@@ -1486,11 +1486,11 @@
       "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
       "definition": {
         "en": "The kind of material used.",
-        "fr": "[UPDATED] La nature du matériel"
+        "fr": "La nature du matériel"
       },
       "label": {
         "en": "Material Type Value",
-        "fr": "[UPDATED] Type du Matériel"
+        "fr": "Type du Matériel"
       }
     },
     {
@@ -1498,11 +1498,11 @@
       "EA-Guid": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
       "definition": {
         "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong.",
-        "fr": "[UPDATED] Classification d'un câble, d'une canalisation ou d'éléments de canalisation en fonction du domaine thématique auquel ils appartiennent."
+        "fr": "Classification d'un câble, d'une canalisation ou d'éléments de canalisation en fonction du domaine thématique auquel ils appartiennent."
       },
       "label": {
         "en": "Subtheme Value",
-        "fr": "[UPDATED] Sous-thème"
+        "fr": "Sous-thème"
       }
     },
     {
@@ -1510,11 +1510,11 @@
       "EA-Guid": "{216EAE99-067D-42f0-896F-0497F500AF65}",
       "definition": {
         "en": "Classification of utility network types.",
-        "fr": "[UPDATED] Classification des types de Réseaux de Service."
+        "fr": "Classification des types de Réseaux de Service."
       },
       "label": {
         "en": "Utility Network Type Value",
-        "fr": "[UPDATED] Type du Réseau de Service"
+        "fr": "Type du Réseau de Service"
       }
     },
     {
@@ -1522,11 +1522,11 @@
       "EA-Guid": "{AD6B4EE2-398B-4a03-BDA1-AF15D5EC8843}",
       "definition": {
         "en": "The state of the facility component.",
-        "fr": "[UPDATED] Le statut du composant de l'installation."
+        "fr": "Le statut du composant de l'installation."
       },
       "label": {
         "en": "Condition of Facility Value",
-        "fr": "[UPDATED] Statut de l'Installation"
+        "fr": "Statut de l'Installation"
       }
     },
     {
@@ -1534,7 +1534,7 @@
       "EA-Guid": "{75E41100-4B17-4450-A30D-9B65EF8E95C9}",
       "label": {
         "en": "Vertical Position Value",
-        "fr": "[UPDATED] Type de Position Verticale"
+        "fr": "Type de Position Verticale"
       }
     },
     {
@@ -1542,11 +1542,11 @@
       "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
       "definition": {
         "en": "Classification of utility network types.",
-        "fr": "[UPDATED] Classification des types de services."
+        "fr": "Classification des types de services."
       },
       "label": {
         "en": "Utility Delivery Type Value",
-        "fr": "[UPDATED] Type de Fourniture de Service"
+        "fr": "Type de Fourniture de Service"
       }
     },
     {
@@ -1554,11 +1554,11 @@
       "EA-Guid": "{9D3B762F-D306-436c-AF88-A6BB81CDA763}",
       "definition": {
         "en": "Classification of warning types.",
-        "fr": "[UPDATED] Classification des types d’avertissements."
+        "fr": "Classification des types d’avertissements."
       },
       "label": {
         "en": "Warning Type Value",
-        "fr": "[UPDATED] Type d'Avertissement"
+        "fr": "Type d'Avertissement"
       }
     },
     {
@@ -1566,11 +1566,11 @@
       "EA-Guid": "{4993E731-18FC-455f-8679-DC8F668B04E2}",
       "definition": {
         "en": "Kind of material the telecommunication cable is made of.",
-        "fr": "[UPDATED] Nature du matériau dans lequel est fait le Câble de Télécommunication."
+        "fr": "Nature du matériau dans lequel est fait le Câble de Télécommunication."
       },
       "label": {
         "en": "Telecommunications Cable Material Type Value",
-        "fr": "[UPDATED] Type de Matériau du Cable de Télécommunication"
+        "fr": "Type de Matériau du Cable de Télécommunication"
       }
     },
     {
@@ -1578,11 +1578,11 @@
       "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
       "definition": {
         "en": "Classification of oil, gas or chemicals.",
-        "fr": "[UPDATED] Classification d'hydrocarbure, du gaz ou des produits chimiques."
+        "fr": "Classification d'hydrocarbure, du gaz ou des produits chimiques."
       },
       "label": {
         "en": "Oil Gas Chemicals Product Type Value",
-        "fr": "[UPDATED] Type d'hydrocarbure, du gaz ou des produits chimiques"
+        "fr": "Type d'hydrocarbure, du gaz ou des produits chimiques"
       }
     },
     {
@@ -1590,11 +1590,11 @@
       "EA-Guid": "{6E79C43A-E2A6-40ce-8B1B-731472FC1FCB}",
       "definition": {
         "en": "Nature of sewage.",
-        "fr": "[UPDATED] Nature des eaux usées."
+        "fr": "Nature des eaux usées."
       },
       "label": {
         "en": "Sewer Water Type Value",
-        "fr": "[UPDATED] Type d'eaux usées"
+        "fr": "Type d'eaux usées"
       }
     },
     {
@@ -1602,11 +1602,11 @@
       "EA-Guid": "{979037AB-2661-43c1-84E1-F12623E177FE}",
       "definition": {
         "en": "Kind of water.",
-        "fr": "[UPDATED] Nature de l'eau."
+        "fr": "Nature de l'eau."
       },
       "label": {
         "en": "Water Type Value",
-        "fr": "[UPDATED] Type d'Eau"
+        "fr": "Type d'Eau"
       }
     },
     {
@@ -1614,11 +1614,11 @@
       "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
       "definition": {
         "en": "Classification of thermal product.",
-        "fr": "[UPDATED] Classification du produit thermique."
+        "fr": "Classification du produit thermique."
       },
       "label": {
         "en": "Thermal Product Type Value",
-        "fr": "[UPDATED] Type du Produit Thermique"
+        "fr": "Type du Produit Thermique"
       }
     },
     {
@@ -1626,11 +1626,11 @@
       "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
       "definition": {
         "en": "TO DO",
-        "fr": "[UPDATED] "
+        "fr": ""
       },
       "label": {
         "en": "Sign",
-        "fr": "[UPDATED] Signe"
+        "fr": "Signe"
       }
     },
     {
@@ -1638,11 +1638,11 @@
       "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
       "definition": {
         "en": "Appurtenance classification.",
-        "fr": "[UPDATED] Classification des accessaoires."
+        "fr": "Classification des accessaoires."
       },
       "label": {
         "en": "Appurtenance Type Value",
-        "fr": "[UPDATED] Type d'Accessoire"
+        "fr": "Type d'Accessoire"
       }
     },
     {
@@ -1650,11 +1650,11 @@
       "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
       "definition": {
         "en": "Classification of economic activity.",
-        "fr": "[UPDATED] Classification de l’activité économique."
+        "fr": "Classification de l’activité économique."
       },
       "label": {
         "en": "Economic Activity Value",
-        "fr": "[UPDATED] Type d'Activité Economique"
+        "fr": "Type d'Activité Economique"
       }
     },
     {
@@ -1662,11 +1662,11 @@
       "EA-Guid": "{6D0DD9F7-83BC-4aa8-93A3-14BA50E9078F}",
       "definition": {
         "en": "The value of inputs and outputs.",
-        "fr": "[UPDATED] La valeur de l’entrée et de la sortie."
+        "fr": "La valeur de l’entrée et de la sortie."
       },
       "label": {
         "en": "Input Output Value",
-        "fr": "[UPDATED] Type Entrée Sortie"
+        "fr": "Type Entrée Sortie"
       }
     },
     {
@@ -1674,11 +1674,11 @@
       "EA-Guid": "{923B5591-8826-4e70-8DCD-E88CB85A974E}",
       "definition": {
         "en": "Kind of annotation.",
-        "fr": "[UPDATED] Nature de l'annotation"
+        "fr": "Nature de l'annotation"
       },
       "label": {
         "en": "Annotation Type",
-        "fr": "[UPDATED] Type d'annotation"
+        "fr": "Type d'annotation"
       }
     },
     {
@@ -1686,11 +1686,11 @@
       "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
       "definition": {
         "en": "Classification of the topographic element.",
-        "fr": "[UPDATED] Classification de l'élément topographique."
+        "fr": "Classification de l'élément topographique."
       },
       "label": {
         "en": "Topographical Element Type",
-        "fr": "[UPDATED] Type d'Elément Topographique"
+        "fr": "Type d'Elément Topographique"
       }
     },
     {
@@ -1698,11 +1698,11 @@
       "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
       "definition": {
         "en": "Document mediatype.",
-        "fr": "[UPDATED] Mediatype du document"
+        "fr": "Mediatype du document"
       },
       "label": {
         "en": "Document Mediatype",
-        "fr": "[UPDATED] MediaType du Document"
+        "fr": "MediaType du Document"
       }
     },
     {
@@ -1710,11 +1710,11 @@
       "EA-Guid": "{97C446AC-1E38-4007-A6B7-478C220DE467}",
       "definition": {
         "en": "Kind of document.",
-        "fr": "[UPDATED] Nature du document"
+        "fr": "Nature du document"
       },
       "label": {
         "en": "Document Type",
-        "fr": "[UPDATED] Type du Document"
+        "fr": "Type du Document"
       }
     },
     {
@@ -1722,11 +1722,11 @@
       "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
       "definition": {
         "en": "The kind of reference surface.",
-        "fr": "[UPDATED] La nature de la Surface de Référence."
+        "fr": "La nature de la Surface de Référence."
       },
       "label": {
         "en": "Reference Surface Type",
-        "fr": "[UPDATED] Surface de Référence"
+        "fr": "Surface de Référence"
       }
     },
     {
@@ -1734,11 +1734,11 @@
       "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
       "definition": {
         "en": "The way the measurement result was determined.",
-        "fr": "[UPDATED] La manière dont le résultat de la mesure a été déterminé"
+        "fr": "La manière dont le résultat de la mesure a été déterminé"
       },
       "label": {
         "en": "Method of Measurement",
-        "fr": "[UPDATED] Méthode de Mesure"
+        "fr": "Méthode de Mesure"
       }
     },
     {
@@ -1746,11 +1746,11 @@
       "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
       "definition": {
         "en": "Classification of protected area.",
-        "fr": "[UPDATED] Classification des types de zones protégées"
+        "fr": "Classification des types de zones protégées"
       },
       "label": {
         "en": "Protected Area Value",
-        "fr": "[UPDATED] Type de la zone protégée"
+        "fr": "Type de la zone protégée"
       }
     },
     {
@@ -1758,15 +1758,15 @@
       "EA-Guid": "{82BFE44B-9A87-4166-BDD5-402AC1405D9F}",
       "definition": {
         "en": "Information used to uniquely identify an object.",
-        "fr": "[UPDATED] Information utilisée pour identifier un objet de manière unique."
+        "fr": "Information utilisée pour identifier un objet de manière unique."
       },
       "label": {
         "en": "Identifier",
-        "fr": "[UPDATED] Identifiant"
+        "fr": "Identifiant"
       },
       "usage": {
         "en": "The starting point here is that this string is assigned by an organisation and that this is done according to a well-defined system.",
-        "fr": "[UPDATED] Le point de départ est que cette chaîne de caractères est attribuée par une organisation et que cela se fait selon un système bien défini."
+        "fr": "Le point de départ est que cette chaîne de caractères est attribuée par une organisation et que cela se fait selon un système bien défini."
       }
     },
     {
@@ -1774,15 +1774,15 @@
       "EA-Guid": "{000197CE-3A4A-4354-8328-2EA003847C3C}",
       "definition": {
         "en": "More readable representation containing only the basic data of the address,intended for using an address as an attribute of another object.",
-        "fr": "[UPDATED] Représentation plus lisible ne contenant que les données de base de l'adresse; à utiliser comme attribut d'un autre objet."
+        "fr": "Représentation plus lisible ne contenant que les données de base de l'adresse; à utiliser comme attribut d'un autre objet."
       },
       "label": {
         "en": "Address Representation",
-        "fr": "[UPDATED] Représentation de l'adresse"
+        "fr": "Représentation de l'adresse"
       },
       "usage": {
         "en": "Eg as attribute ve person or building. The address representation does not only refer to Belgian addresses, it can be used to represent foreign addresses (where address designations other than house number or bus number may be used or where address components such as address areas occur).",
-        "fr": "[UPDATED] Par ex. comme attribut d’une personne ou d’un bâtiment… La représentation des adresses ne concerne pas seulement les adresses belges, elle peut être utilisée pour afficher des adresses étrangères (où d’autres indications d'adresse que le numéro de maison ou le numéro de boîte peuvent être utilisées ou d'autres composants d'adresse tels que les zones d'adresses)."
+        "fr": "Par ex. comme attribut d’une personne ou d’un bâtiment… La représentation des adresses ne concerne pas seulement les adresses belges, elle peut être utilisée pour afficher des adresses étrangères (où d’autres indications d'adresse que le numéro de maison ou le numéro de boîte peuvent être utilisées ou d'autres composants d'adresse tels que les zones d'adresses)."
       }
     },
     {
@@ -1790,15 +1790,15 @@
       "EA-Guid": "{372EA823-D942-4310-81CA-B95912579A06}",
       "definition": {
         "en": "Shape and position characteristics of an object.",
-        "fr": "[UPDATED] Caractéristiques de forme et de position d'un objet."
+        "fr": "Caractéristiques de forme et de position d'un objet."
       },
       "label": {
         "en": "Geometry",
-        "fr": "[UPDATED] Géométrie"
+        "fr": "Géométrie"
       },
       "usage": {
         "en": "Describes these features through points, lines, polygons and coordinates.",
-        "fr": "[UPDATED] Décrit ces caractéristiques par des points,  lignes, polygones, etc. et des coordonnées. REMARQUE : Si nécessaire, utilisez les sous-classes Point ou Courbe. Pour les autres cas, utilisez les types <a href=\">Simple Features Vocabulary\"</a>, par ex. LineString, Polygon, Surface, etc. Ou utilisez Geometrie, dans la sérialisation WKT ou GML, le type de géométrie est également mentionné."
+        "fr": "Décrit ces caractéristiques par des points,  lignes, polygones, etc. et des coordonnées. REMARQUE : Si nécessaire, utilisez les sous-classes Point ou Courbe. Pour les autres cas, utilisez les types <a href=\">Simple Features Vocabulary\"</a>, par ex. LineString, Polygon, Surface, etc. Ou utilisez Geometrie, dans la sérialisation WKT ou GML, le type de géométrie est également mentionné."
       }
     },
     {
@@ -1806,11 +1806,11 @@
       "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
       "definition": {
         "en": "Entity from which all entities are derived.",
-        "fr": "[UPDATED] Entité faîtière"
+        "fr": "Entité faîtière"
       },
       "label": {
         "en": "Object",
-        "fr": "[UPDATED] Objet"
+        "fr": "Objet"
       }
     },
     {
@@ -1818,11 +1818,11 @@
       "EA-Guid": "{24D7FBAF-82F0-4ac5-86AA-A7549CB249B0}",
       "definition": {
         "en": "Indication of a geographical position, by means of coordinates, a toponym, an address label, a reference to a place/region, an address or another geographical object.",
-        "fr": "[UPDATED] Indication d'une position géographique, au moyen de coordonnées, d'un toponyme, d'une étiquette d'adresse, d'une référence à un lieu/une région, d'une adresse ou d'un autre objet géographique."
+        "fr": "Indication d'une position géographique, au moyen de coordonnées, d'un toponyme, d'une étiquette d'adresse, d'une référence à un lieu/une région, d'une adresse ou d'un autre objet géographique."
       },
       "label": {
         "en": "Location",
-        "fr": "[UPDATED] Localisation"
+        "fr": "Localisation"
       }
     },
     {
@@ -1830,11 +1830,11 @@
       "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
       "definition": {
         "en": "Information recorded on a data carrier.",
-        "fr": "[UPDATED] Information enregistrée sur un support de données."
+        "fr": "Information enregistrée sur un support de données."
       },
       "label": {
         "en": "Document",
-        "fr": "[UPDATED] Document"
+        "fr": "Document"
       }
     },
     {
@@ -1842,15 +1842,15 @@
       "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
       "definition": {
         "en": "Indication of a quantity.",
-        "fr": "[UPDATED] Indication d'une quantité."
+        "fr": "Indication d'une quantité."
       },
       "label": {
         "en": "Number",
-        "fr": "[UPDATED] Nombre"
+        "fr": "Nombre"
       },
       "usage": {
         "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\\\"https://www.w3.org/TR/xmlschema-2/\\\">xsd data types</a> Integer, Float, Decimal, Double etc.",
-        "fr": "[UPDATED] REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
+        "fr": "REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
       }
     },
     {
@@ -1858,15 +1858,15 @@
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
         "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
-        "fr": "[UPDATED] Informations permettant de se référer de manière structurée et unique à une unité de bâtiments, un poste d’amarrage, un emplacement ou une parcelle sur la base d'un nom de commune, d'un nom de rue, d'un numéro de maison et éventuellement d'un numéro de boîte et d'un code postal."
+        "fr": "Informations permettant de se référer de manière structurée et unique à une unité de bâtiments, un poste d’amarrage, un emplacement ou une parcelle sur la base d'un nom de commune, d'un nom de rue, d'un numéro de maison et éventuellement d'un numéro de boîte et d'un code postal."
       },
       "label": {
         "en": "Address",
-        "fr": "[UPDATED] Adresse"
+        "fr": "Adresse"
       },
       "usage": {
         "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
-        "fr": "[UPDATED] La définition se réfère aux adresses belges. Dans d'autres pays, une adresse peut éventuellement se référer à d'autres objets géographiques (pas une unité de bâtiment ou une parcelle) ou consister en d'autres désignations (différentes du numéro de maison et du numéro de boîte) ou en des éléments autres que le nom de la rue, le nom de la commune ou le code postal. D'autres indications d'adresse que le numéro de maison ou le numéro de boîte (par ex., désignation de l'entrée, désignation de l'escalier, désignation de l'étage) ou un nom de bâtiment ou de chambre sont possibles grâce à une association avec l'extension de l'adresse. L'échange d'adresses étrangères doit être effectué à l'aide de l'objet représentation d'adresse."
+        "fr": "La définition se réfère aux adresses belges. Dans d'autres pays, une adresse peut éventuellement se référer à d'autres objets géographiques (pas une unité de bâtiment ou une parcelle) ou consister en d'autres désignations (différentes du numéro de maison et du numéro de boîte) ou en des éléments autres que le nom de la rue, le nom de la commune ou le code postal. D'autres indications d'adresse que le numéro de maison ou le numéro de boîte (par ex., désignation de l'entrée, désignation de l'escalier, désignation de l'étage) ou un nom de bâtiment ou de chambre sont possibles grâce à une association avec l'extension de l'adresse. L'échange d'adresses étrangères doit être effectué à l'aide de l'objet représentation d'adresse."
       }
     },
     {
@@ -1874,15 +1874,15 @@
       "EA-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
       "definition": {
         "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place.",
-        "fr": "[UPDATED] Unité technique et économique gérée par le même opérateur où se déroulent certaines activités de production et de services."
+        "fr": "Unité technique et économique gérée par le même opérateur où se déroulent certaines activités de production et de services."
       },
       "label": {
         "en": "Activity Complex",
-        "fr": "[UPDATED] Complexe d'Activités"
+        "fr": "Complexe d'Activités"
       },
       "usage": {
         "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
-        "fr": "[UPDATED] Dans la pratique, un site, un terrain, un équipement, une installation, un bâtiment où l'activité a lieu. Dans le contexte des câbles et des conduites, il s'agit par ex. d'une centrale électrique, d'une station de pompage, d'une station d'épuration, etc. Comprend l'infrastructure, l'équipement et le matériel nécessaires à cet effet. Peut inclure plusieurs sites dans la mesure où ils font partie du même complexe. L'activité est de préférence indiquée par les codes NACE."
+        "fr": "Dans la pratique, un site, un terrain, un équipement, une installation, un bâtiment où l'activité a lieu. Dans le contexte des câbles et des conduites, il s'agit par ex. d'une centrale électrique, d'une station de pompage, d'une station d'épuration, etc. Comprend l'infrastructure, l'équipement et le matériel nécessaires à cet effet. Peut inclure plusieurs sites dans la mesure où ils font partie du même complexe. L'activité est de préférence indiquée par les codes NACE."
       }
     },
     {
@@ -1890,15 +1890,15 @@
       "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
       "definition": {
         "en": "Holder of the coordinates of a position in a coordinate reference system.",
-        "fr": "[UPDATED] Contient les coordonnées d'une position dans un système de référence de coordonnées."
+        "fr": "Contient les coordonnées d'une position dans un système de référence de coordonnées."
       },
       "label": {
         "en": "Direct Position",
-        "fr": "[UPDATED] Position Directe"
+        "fr": "Position Directe"
       },
       "usage": {
         "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
-        "fr": "[UPDATED] Généralement utilisé pour décrire la géométrie d'un objet spatial ou les primitives géométriques (par exemple point, ligne, plan) qui composent cet objet. Cependant, un DirectPosition peut également être autonome pour décrire une position dans l'espace. La position est donnée dans un système de référence de coordonnées. Ce système de référence est explicitement spécifié avec DirectPosition, sauf s'il fait partie d'un objet spatial (par exemple une primitive géométrique) pour lequel un système de référence est déjà indiqué. Pour information : un système de référence de coordonnées diffère d'un système de référence spatiale indirecte dans la mesure où les positions sont spécifiées directement par des coordonnées plutôt qu'indirectement par une adresse ou un nom de lieu."
+        "fr": "Généralement utilisé pour décrire la géométrie d'un objet spatial ou les primitives géométriques (par exemple point, ligne, plan) qui composent cet objet. Cependant, un DirectPosition peut également être autonome pour décrire une position dans l'espace. La position est donnée dans un système de référence de coordonnées. Ce système de référence est explicitement spécifié avec DirectPosition, sauf s'il fait partie d'un objet spatial (par exemple une primitive géométrique) pour lequel un système de référence est déjà indiqué. Pour information : un système de référence de coordonnées diffère d'un système de référence spatiale indirecte dans la mesure où les positions sont spécifiées directement par des coordonnées plutôt qu'indirectement par une adresse ou un nom de lieu."
       }
     },
     {
@@ -1906,11 +1906,11 @@
       "EA-Guid": "{AE548CAC-0093-4236-9116-7B5DDD565129}",
       "definition": {
         "en": "The function of something expressed as an activity and optional input and/or output.",
-        "fr": "[UPDATED] La fonction de quelque chose exprimée sous forme d'activité et d'input et/ou d’output optionnels."
+        "fr": "La fonction de quelque chose exprimée sous forme d'activité et d'input et/ou d’output optionnels."
       },
       "label": {
         "en": "Function",
-        "fr": "[UPDATED] Fonction"
+        "fr": "Fonction"
       }
     },
     {
@@ -1918,11 +1918,11 @@
       "EA-Guid": "{F3D7A5E3-73B4-466d-A3F3-E0259CBD68A4}",
       "definition": {
         "en": "Determining the exact size of something by measuring it.",
-        "fr": "[UPDATED] Détermination de la taille exacte d'une chose en la mesurant."
+        "fr": "Détermination de la taille exacte d'une chose en la mesurant."
       },
       "label": {
         "en": "Survey",
-        "fr": "[UPDATED] Mesure"
+        "fr": "Mesure"
       }
     },
     {
@@ -1930,11 +1930,11 @@
       "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "definition": {
         "en": "A link either in its positive or negative direction.",
-        "fr": "[UPDATED] Tronçon dans le sens positif ou négatif."
+        "fr": "Tronçon dans le sens positif ou négatif."
       },
       "label": {
         "en": "Directed Link",
-        "fr": "[UPDATED] Tronçon Orienté"
+        "fr": "Tronçon Orienté"
       }
     },
     {
@@ -1942,11 +1942,11 @@
       "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
       "definition": {
         "en": "Linear Network Element.",
-        "fr": "[UPDATED] Élément de réseau linéaire."
+        "fr": "Élément de réseau linéaire."
       },
       "label": {
         "en": "Generic Link",
-        "fr": "[UPDATED] Tronçon Générique"
+        "fr": "Tronçon Générique"
       }
     },
     {
@@ -1954,11 +1954,11 @@
       "EA-Guid": "{8F85F084-8291-4781-AD0D-57AD8517284F}",
       "definition": {
         "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes.",
-        "fr": "[UPDATED] Élément de réseau curviligne reliant deux positions et représentant un chemin homogène dans le Réseau. Les positions connectées sont représentées par des Nœuds."
+        "fr": "Élément de réseau curviligne reliant deux positions et représentant un chemin homogène dans le Réseau. Les positions connectées sont représentées par des Nœuds."
       },
       "label": {
         "en": "Link",
-        "fr": "[UPDATED] Tronçon"
+        "fr": "Tronçon"
       }
     },
     {
@@ -1966,15 +1966,15 @@
       "EA-Guid": "{99B8D562-8B03-4b77-9B30-2B5F70753408}",
       "definition": {
         "en": "Unbranched continuous path in a Network.",
-        "fr": "[UPDATED] Chemin continu sans embranchements dans un Réseau."
+        "fr": "Chemin continu sans embranchements dans un Réseau."
       },
       "label": {
         "en": "Link Sequence",
-        "fr": "[UPDATED] Séquence de Tronçons"
+        "fr": "Séquence de Tronçons"
       },
       "usage": {
         "en": "For example, a route in the Network.",
-        "fr": "[UPDATED] Par ex.: un itinéraire dans le Réseau."
+        "fr": "Par ex.: un itinéraire dans le Réseau."
       }
     },
     {
@@ -1982,11 +1982,11 @@
       "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
       "definition": {
         "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network.",
-        "fr": "[UPDATED] Collection de Séquences de Tronçons et/ou de Tronçons ayant une fonction ou une importance spécifique dans le Réseau."
+        "fr": "Collection de Séquences de Tronçons et/ou de Tronçons ayant une fonction ou une importance spécifique dans le Réseau."
       },
       "label": {
         "en": "Link Set",
-        "fr": "[UPDATED] Ensemble de Tronçons"
+        "fr": "Ensemble de Tronçons"
       }
     },
     {
@@ -1994,15 +1994,15 @@
       "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}",
       "definition": {
         "en": "Collection of Network Elements.",
-        "fr": "[UPDATED] Collection d'Éléments de réseau."
+        "fr": "Collection d'Éléments de réseau."
       },
       "label": {
         "en": "Network",
-        "fr": "[UPDATED] Réseau"
+        "fr": "Réseau"
       },
       "usage": {
         "en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport.",
-        "fr": "[UPDATED] La raison pour laquelle les Éléments du réseau sont réunis dans un Réseau peut être différente, par ex. parce qu'ils sont adaptés à un type particulier de moyen de transport."
+        "fr": "La raison pour laquelle les Éléments du réseau sont réunis dans un Réseau peut être différente, par ex. parce qu'ils sont adaptés à un type particulier de moyen de transport."
       }
     },
     {
@@ -2010,11 +2010,11 @@
       "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
       "definition": {
         "en": "Significant position in the Network that always coincides with the beginning or end of a Link.",
-        "fr": "[UPDATED] Position significative dans le Réseau qui coïncide toujours avec le début ou la fin d'un Tronçon."
+        "fr": "Position significative dans le Réseau qui coïncide toujours avec le début ou la fin d'un Tronçon."
       },
       "label": {
         "en": "Node",
-        "fr": "[UPDATED] Noeud"
+        "fr": "Noeud"
       }
     }
   ],
@@ -2056,11 +2056,11 @@
       "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
       "definition": {
         "en": "Utility Network Element belonging to the complex.",
-        "fr": "[UPDATED] Élément du Réseau de Service appartenant au complexe."
+        "fr": "Élément du Réseau de Service appartenant au complexe."
       },
       "label": {
         "en": "on",
-        "fr": "[UPDATED] sur"
+        "fr": "sur"
       }
     },
     {
@@ -2188,11 +2188,11 @@
       "EA-Guid": "{FA832228-665E-4467-A9FF-B970B7EE6B03}",
       "definition": {
         "en": "Node that is the end of the Link.",
-        "fr": "[UPDATED] Noeud par lequel le Tronçon commence."
+        "fr": "Noeud par lequel le Tronçon commence."
       },
       "label": {
         "en": "end node",
-        "fr": "[UPDATED] nœud final"
+        "fr": "nœud final"
       }
     },
     {
@@ -2200,11 +2200,11 @@
       "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
       "definition": {
         "en": "Link of which this Node is the end Node.",
-        "fr": "[UPDATED] Tronçon dont le Nœud est le Nœud Final."
+        "fr": "Tronçon dont le Nœud est le Nœud Final."
       },
       "label": {
         "en": "end link",
-        "fr": "[UPDATED] tronçon final"
+        "fr": "tronçon final"
       }
     },
     {
@@ -2212,11 +2212,11 @@
       "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
       "definition": {
         "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link.",
-        "fr": "[UPDATED] Indique si le Tronçon Orienté suit ou non le sens original du Tronçon (positif si parallèle, négatif si opposé)."
+        "fr": "Indique si le Tronçon Orienté suit ou non le sens original du Tronçon (positif si parallèle, négatif si opposé)."
       },
       "label": {
         "en": "direction",
-        "fr": "[UPDATED] direction"
+        "fr": "direction"
       }
     },
     {
@@ -2224,11 +2224,11 @@
       "EA-Guid": "{6087554F-C158-4fb6-934F-F94321A053D8}",
       "definition": {
         "en": "Node that starts the Link.",
-        "fr": "[UPDATED] Noeud par lequel le Tronçon se termine."
+        "fr": "Noeud par lequel le Tronçon se termine."
       },
       "label": {
         "en": "start node",
-        "fr": "[UPDATED] nœud de départ"
+        "fr": "nœud de départ"
       }
     },
     {
@@ -2236,11 +2236,11 @@
       "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
       "definition": {
         "en": "Link of which this Node is the start Node.",
-        "fr": "[UPDATED] Tronçon dont le Nœud est le Nœud de Départ."
+        "fr": "Tronçon dont le Nœud est le Nœud de Départ."
       },
       "label": {
         "en": "begin link",
-        "fr": "[UPDATED] tronçon de départ"
+        "fr": "tronçon de départ"
       }
     },
     {
@@ -2248,11 +2248,11 @@
       "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
       "definition": {
         "en": "Geometry of the Node.",
-        "fr": "[UPDATED] Géométrie du Nœud."
+        "fr": "Géométrie du Nœud."
       },
       "label": {
         "en": "geometry",
-        "fr": "[UPDATED] géométrie"
+        "fr": "géométrie"
       }
     },
     {
@@ -2260,11 +2260,11 @@
       "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
       "definition": {
         "en": "Geometry of the container.",
-        "fr": "[UPDATED] Géométrie du conteneur"
+        "fr": "Géométrie du conteneur"
       },
       "label": {
         "en": "geometry",
-        "fr": "[UPDATED] géométrie"
+        "fr": "géométrie"
       }
     },
     {
@@ -2272,11 +2272,11 @@
       "EA-Guid": "{811CE60F-2092-42db-9375-9FEFD31E1E2F}",
       "definition": {
         "en": "Utility Link Sequence or Utility Link that is part of the Link Set.",
-        "fr": "[UPDATED] Séquence de Tronçons de Service ou Tronçon de Service faisant partie de l'Ensemble de Tronçons."
+        "fr": "Séquence de Tronçons de Service ou Tronçon de Service faisant partie de l'Ensemble de Tronçons."
       },
       "label": {
         "en": "link",
-        "fr": "[UPDATED] tronçon"
+        "fr": "tronçon"
       }
     },
     {
@@ -2284,11 +2284,11 @@
       "EA-Guid": "{B4090BF4-12B5-44cd-9FDC-6E5347DDBB6A}",
       "definition": {
         "en": "Directed Link that is part of the Link Sequence.",
-        "fr": "[UPDATED] Tronçon Orienté faisant partie de la Séquence de Tronçons."
+        "fr": "Tronçon Orienté faisant partie de la Séquence de Tronçons."
       },
       "label": {
         "en": "link",
-        "fr": "[UPDATED] tronçon"
+        "fr": "tronçon"
       }
     },
     {
@@ -2296,11 +2296,11 @@
       "EA-Guid": "{43D2E535-52C3-4008-990F-57D9080C843E}",
       "definition": {
         "en": "The geometry of the centerline of the Link.",
-        "fr": "[UPDATED] La géométrie de l’axe du tronçon."
+        "fr": "La géométrie de l’axe du tronçon."
       },
       "label": {
         "en": "centreline geometry",
-        "fr": "[UPDATED] géométrie de l'axe"
+        "fr": "géométrie de l'axe"
       }
     },
     {
@@ -2308,11 +2308,11 @@
       "EA-Guid": "{DFA56CED-AF76-4077-AA73-25EAF7B3BF3E}",
       "definition": {
         "en": "Reference to the Link.",
-        "fr": "[UPDATED] Référence du Tronçon Orienté."
+        "fr": "Référence du Tronçon Orienté."
       },
       "label": {
         "en": "link",
-        "fr": "[UPDATED] tronçon"
+        "fr": "tronçon"
       }
     },
     {
@@ -2320,11 +2320,11 @@
       "EA-Guid": "{19868C0F-5DAB-45f8-A997-72B8BC4358E7}",
       "definition": {
         "en": "Output the result of the activity in the function.",
-        "fr": "[UPDATED] Production du résultat de l’activité dans la fonction."
+        "fr": "Production du résultat de l’activité dans la fonction."
       },
       "label": {
         "en": "output",
-        "fr": "[UPDATED] output"
+        "fr": "output"
       }
     },
     {
@@ -2332,11 +2332,11 @@
       "EA-Guid": "{D0FE6894-3FD4-4ff3-8475-7AD33E5FBBDC}",
       "definition": {
         "en": "Input for the activity in the function.",
-        "fr": "[UPDATED] Entrée pour l'activité dans la fonction."
+        "fr": "Entrée pour l'activité dans la fonction."
       },
       "label": {
         "en": "input",
-        "fr": "[UPDATED] input"
+        "fr": "input"
       }
     },
     {
@@ -2344,15 +2344,15 @@
       "EA-Guid": "{F70F22E8-22A0-4c24-BBB2-3ECBC29AABCD}",
       "definition": {
         "en": "Classification of the activity.",
-        "fr": "[UPDATED] Classification de l'activité."
+        "fr": "Classification de l'activité."
       },
       "label": {
         "en": "activity",
-        "fr": "[UPDATED] activité"
+        "fr": "activité"
       },
       "usage": {
         "en": "Preferably use the NACE codes.",
-        "fr": "[UPDATED] Utilisez de préférence les codes NACE."
+        "fr": "Utilisez de préférence les codes NACE."
       }
     },
     {
@@ -2360,11 +2360,11 @@
       "EA-Guid": "{A85FB6B8-4B1E-44b2-8F83-3154C27A3D7F}",
       "definition": {
         "en": "The way the geometry was determined.",
-        "fr": "[UPDATED] La manière dont la géométrie a été déterminée."
+        "fr": "La manière dont la géométrie a été déterminée."
       },
       "label": {
         "en": "survey",
-        "fr": "[UPDATED] mesure"
+        "fr": "mesure"
       }
     },
     {
@@ -2372,11 +2372,11 @@
       "EA-Guid": "{BAD41103-19C8-4665-9B51-882FED3485BA}",
       "definition": {
         "en": "The way the position was determined.",
-        "fr": "[UPDATED] La manière dont la position a été déterminée."
+        "fr": "La manière dont la position a été déterminée."
       },
       "label": {
         "en": "survey",
-        "fr": "[UPDATED] mesure"
+        "fr": "mesure"
       }
     },
     {
@@ -2396,15 +2396,15 @@
       "EA-Guid": "{B50209E4-649A-4254-91F5-EC1CE741AC30}",
       "definition": {
         "en": "Address from which the address representation is derived.",
-        "fr": "[UPDATED] Adresse à partir de laquelle la représentation de l'adresse est dérivée."
+        "fr": "Adresse à partir de laquelle la représentation de l'adresse est dérivée."
       },
       "label": {
         "en": "refers to",
-        "fr": "[UPDATED] référence à"
+        "fr": "référence à"
       },
       "usage": {
         "en": "This can only be done for Belgian addresses as address means a Belgian address.",
-        "fr": "[UPDATED] Cette opération n'est possible que pour les adresses belges, vu qu’on entend par adresse, une adresse belge."
+        "fr": "Cette opération n'est possible que pour les adresses belges, vu qu’on entend par adresse, une adresse belge."
       }
     },
     {
@@ -2412,11 +2412,11 @@
       "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
         "en": "Municipal name from address.",
-        "fr": "[UPDATED] Nom de la commune de l’adresse."
+        "fr": "Nom de la commune de l’adresse."
       },
       "label": {
         "en": "municipality name",
-        "fr": "[UPDATED] nom de la commune"
+        "fr": "nom de la commune"
       }
     },
     {
@@ -2424,11 +2424,11 @@
       "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
       "definition": {
         "en": "Country in which the address is located.",
-        "fr": "[UPDATED] Pays dans lequel l'adresse se situe."
+        "fr": "Pays dans lequel l'adresse se situe."
       },
       "label": {
         "en": "country",
-        "fr": "[UPDATED] pays"
+        "fr": "pays"
       }
     },
     {
@@ -2436,15 +2436,15 @@
       "EA-Guid": "{8D4E1B8A-E644-40ae-934D-AB99591AA272}",
       "definition": {
         "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots.",
-        "fr": "[UPDATED] Code alphanumérique attribué officiellement aux unités de bâtiments, postes d'amarrage, emplacements ou parcelles."
+        "fr": "Code alphanumérique attribué officiellement aux unités de bâtiments, postes d'amarrage, emplacements ou parcelles."
       },
       "label": {
         "en": "house number",
-        "fr": "[UPDATED] numéro de la maison"
+        "fr": "numéro de la maison"
       },
       "usage": {
         "en": "Specialization of Address representation: location indication for Belgian addresses.",
-        "fr": "[UPDATED] Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
+        "fr": "Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
       }
     },
     {
@@ -2452,15 +2452,15 @@
       "EA-Guid": "{C2D96375-F4C9-4843-8BB8-720BDFB01C6F}",
       "definition": {
         "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number.",
-        "fr": "[UPDATED] Code alphanumérique attribué officiellement et ajouté au numéro de maison pour distinguer plusieurs unités de bâtiments, emplacements, postes d’amarrage ou parcelles portant le même numéro de maison."
+        "fr": "Code alphanumérique attribué officiellement et ajouté au numéro de maison pour distinguer plusieurs unités de bâtiments, emplacements, postes d’amarrage ou parcelles portant le même numéro de maison."
       },
       "label": {
         "en": "box number",
-        "fr": "[UPDATED] numéro de boîte"
+        "fr": "numéro de boîte"
       },
       "usage": {
         "en": "Specialisation of Address Presentation:location indication for Belgian addresses.",
-        "fr": "[UPDATED] Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
+        "fr": "Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
       }
     },
     {
@@ -2468,11 +2468,11 @@
       "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
       "definition": {
         "en": "The height of the Appurtenance.",
-        "fr": "[UPDATED] Hauteur de l’Accessoire."
+        "fr": "Hauteur de l’Accessoire."
       },
       "label": {
         "en": "height",
-        "fr": "[UPDATED] hauteur"
+        "fr": "hauteur"
       }
     },
     {
@@ -2480,11 +2480,11 @@
       "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
       "definition": {
         "en": "Distance above the Reference Surface.",
-        "fr": "[UPDATED] Distance au-dessus de la Surface de Référence."
+        "fr": "Distance au-dessus de la Surface de Référence."
       },
       "label": {
         "en": "height",
-        "fr": "[UPDATED] hauteur"
+        "fr": "hauteur"
       }
     },
     {
@@ -2492,11 +2492,11 @@
       "EA-Guid": "{319584C1-3AA8-49fb-AA76-6E86040D3F31}",
       "definition": {
         "en": "Location of the Protected Area.",
-        "fr": "[UPDATED] Localisation de la Zone Protégée."
+        "fr": "Localisation de la Zone Protégée."
       },
       "label": {
         "en": "location",
-        "fr": "[UPDATED] localisation"
+        "fr": "localisation"
       }
     },
     {
@@ -2504,11 +2504,11 @@
       "EA-Guid": "{CF7A8796-A603-40bd-BEB3-0A061B4D12D2}",
       "definition": {
         "en": "Street name of address.",
-        "fr": "[UPDATED] Nom de la rue de l’adresse."
+        "fr": "Nom de la rue de l’adresse."
       },
       "label": {
         "en": "street name",
-        "fr": "[UPDATED] nom de la rue"
+        "fr": "nom de la rue"
       }
     },
     {
@@ -2516,11 +2516,11 @@
       "EA-Guid": "{0C3DC406-E0CB-4dad-830C-552FECE0607D}",
       "definition": {
         "en": "Name denoting the geographical area that groups addresses for postal purposes.",
-        "fr": "[UPDATED] Nom désignant la zone géographique qui regroupe les adresses à des fins postales."
+        "fr": "Nom désignant la zone géographique qui regroupe les adresses à des fins postales."
       },
       "label": {
         "en": "postal name",
-        "fr": "[UPDATED] dénomination postale"
+        "fr": "dénomination postale"
       }
     },
     {
@@ -2528,11 +2528,11 @@
       "EA-Guid": "{79059549-95C0-406d-A855-3AB01E5D9374}",
       "definition": {
         "en": "Code denoting the geographical area that groups addresses for postal purposes.",
-        "fr": "[UPDATED] Code désignant la zone géographique qui regroupe les adresses à des fins postales."
+        "fr": "Code désignant la zone géographique qui regroupe les adresses à des fins postales."
       },
       "label": {
         "en": "postal code",
-        "fr": "[UPDATED] code postal"
+        "fr": "code postal"
       }
     },
     {
@@ -2540,11 +2540,11 @@
       "EA-Guid": "{B0415347-2C6D-4b21-9C85-D880A76C823D}",
       "definition": {
         "en": "PO Box number in a post office.",
-        "fr": "[UPDATED] Numéro de boîte postale dans un bureau de poste."
+        "fr": "Numéro de boîte postale dans un bureau de poste."
       },
       "label": {
         "en": "PO box",
-        "fr": "[UPDATED] boîte "
+        "fr": "boîte "
       }
     },
     {
@@ -2552,11 +2552,11 @@
       "EA-Guid": "{961B165A-2D89-419f-842D-09B23DFB1C7B}",
       "definition": {
         "en": "Name or description of the geographic object the address locator designates.",
-        "fr": "[UPDATED] Nom ou description de l'objet géographique désigné par le localisateur d'adresse."
+        "fr": "Nom ou description de l'objet géographique désigné par le localisateur d'adresse."
       },
       "label": {
         "en": "location name",
-        "fr": "[UPDATED] nom lieu"
+        "fr": "nom lieu"
       }
     },
     {
@@ -2564,11 +2564,11 @@
       "EA-Guid": "{3D6659FE-98C9-4e40-BC96-D4F2A5098925}",
       "definition": {
         "en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc.",
-        "fr": "[UPDATED] Code alphanumérique qui identifie de manière unique le localisateur d'adresse dans la rue, l'unité administrative, etc."
+        "fr": "Code alphanumérique qui identifie de manière unique le localisateur d'adresse dans la rue, l'unité administrative, etc."
       },
       "label": {
         "en": "location indication",
-        "fr": "[UPDATED] indication du lieu"
+        "fr": "indication du lieu"
       }
     },
     {
@@ -2576,15 +2576,15 @@
       "EA-Guid": "{B180BBBC-C7FF-47b1-B8A3-9FB429C38692}",
       "definition": {
         "en": "Location for which the Vertical Position applies.",
-        "fr": "[UPDATED] Localisation à laquelle s’applique la Position Verticale."
+        "fr": "Localisation à laquelle s’applique la Position Verticale."
       },
       "label": {
         "en": "location",
-        "fr": "[UPDATED] localisation"
+        "fr": "localisation"
       },
       "usage": {
         "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface.",
-        "fr": "[UPDATED] Typiquement les coordonnées xy du Point de la surface de la Terre où la Position Verticale est mesurée. Ou les coordonnées xy de la conduite ou du câble, ou la zone dans laquelle il se trouve."
+        "fr": "Typiquement les coordonnées xy du Point de la surface de la Terre où la Position Verticale est mesurée. Ou les coordonnées xy de la conduite ou du câble, ou la zone dans laquelle il se trouve."
       }
     },
     {
@@ -2592,15 +2592,15 @@
       "EA-Guid": "{285B6C5C-1FB8-4d04-A3B9-5A880226BC2C}",
       "definition": {
         "en": "Geometry of the Annotation.",
-        "fr": "[UPDATED] Géométrie de l'Annotation."
+        "fr": "Géométrie de l'Annotation."
       },
       "label": {
         "en": "location",
-        "fr": "[UPDATED] localisation"
+        "fr": "localisation"
       },
       "usage": {
         "en": "E.g. the location and shape of a Dimension.",
-        "fr": "[UPDATED] Par ex.: l'emplacement et la forme d'une Indication de mesure."
+        "fr": "Par ex.: l'emplacement et la forme d'une Indication de mesure."
       }
     },
     {
@@ -2608,11 +2608,11 @@
       "EA-Guid": "{EB66BB3E-599B-4e06-9BFA-041434772A53}",
       "definition": {
         "en": "Shape and position features of an object,",
-        "fr": "[UPDATED] Géométrie de l'Elément Topographique."
+        "fr": "Géométrie de l'Elément Topographique."
       },
       "label": {
         "en": "location",
-        "fr": "[UPDATED] localisation"
+        "fr": "localisation"
       },
       "usage": {
         "en": "Typical elements are relief, landforms, water bodies, vegetation.",
@@ -2624,15 +2624,15 @@
       "EA-Guid": "{C0CAAE0B-80A5-40c1-B32F-188074D5A190}",
       "definition": {
         "en": "Location of the Reference Surface.",
-        "fr": "[UPDATED] Localisation de la Surface de Référence."
+        "fr": "Localisation de la Surface de Référence."
       },
       "label": {
         "en": "location",
-        "fr": "[UPDATED] localisation"
+        "fr": "localisation"
       },
       "usage": {
         "en": "Typically the xy-coordinates of a Point on the earth's surface for which the Vertical Position of the Reference Surface applies. Or the Geometry of (part of) the Reference Surface.",
-        "fr": "[UPDATED] Typiquement les coordonnées xy d'un Point sur la surface de la Terre pour lequel la Position Verticale de la Surface de Référence s'applique. Ou la Géométrie (d’une partie) de la Surface de Référence."
+        "fr": "Typiquement les coordonnées xy d'un Point sur la surface de la Terre pour lequel la Position Verticale de la Surface de Référence s'applique. Ou la Géométrie (d’une partie) de la Surface de Référence."
       }
     },
     {
@@ -2640,11 +2640,11 @@
       "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
       "definition": {
         "en": "Geometry of the site covered by the Plan.",
-        "fr": "[UPDATED] Géométrie du site couvert par le Plan."
+        "fr": "Géométrie du site couvert par le Plan."
       },
       "label": {
         "en": "location",
-        "fr": "[UPDATED] localisation"
+        "fr": "localisation"
       }
     },
     {
@@ -2652,11 +2652,11 @@
       "EA-Guid": "{D3EDDD4A-1F53-4c15-B099-7879E7D2121F}",
       "definition": {
         "en": "Geometry of the complex to describe its location and size.",
-        "fr": "[UPDATED] Géométrie du Complexe d’activités pour décrire son emplacement et son étendue."
+        "fr": "Géométrie du Complexe d’activités pour décrire son emplacement et son étendue."
       },
       "label": {
         "en": "geometry",
-        "fr": "[UPDATED] géométrie"
+        "fr": "géométrie"
       }
     },
     {
@@ -2664,11 +2664,11 @@
       "EA-Guid": "{086D84C0-C685-48ff-8360-D5104AEC0B66}",
       "definition": {
         "en": "Geometry of the Protected Area.",
-        "fr": "[UPDATED] Géométrie de la Zone Protégée."
+        "fr": "Géométrie de la Zone Protégée."
       },
       "label": {
         "en": "geometry",
-        "fr": "[UPDATED] géométrie"
+        "fr": "géométrie"
       }
     },
     {
@@ -2676,15 +2676,15 @@
       "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
       "definition": {
         "en": "The complete address in one string, formatted or not.",
-        "fr": "[UPDATED] L'adresse complète sous forme d'une chaîne de caractères, formatée ou non."
+        "fr": "L'adresse complète sous forme d'une chaîne de caractères, formatée ou non."
       },
       "label": {
         "en": "full address",
-        "fr": "[UPDATED] Adresse complète"
+        "fr": "Adresse complète"
       },
       "usage": {
         "en": "Avoids errors when splitting an address into its components. Displays the prescribed order of the different parts.",
-        "fr": "[UPDATED] Évite les erreurs dues au découpage de l'adresse en ses différents éléments. Affiche l'ordre prescrit des différentes parties."
+        "fr": "Évite les erreurs dues au découpage de l'adresse en ses différents éléments. Affiche l'ordre prescrit des différentes parties."
       }
     },
     {
@@ -2692,11 +2692,11 @@
       "EA-Guid": "{E33A216E-2CA4-4c37-8857-D2D37262F35B}",
       "definition": {
         "en": "The region of address, usually a province or state or similar area that typically includes several places.",
-        "fr": "[UPDATED] La région de l'adresse, généralement une province, une entité fédérée ou une zone similaire qui comprend généralement plusieurs endroits."
+        "fr": "La région de l'adresse, généralement une province, une entité fédérée ou une zone similaire qui comprend généralement plusieurs endroits."
       },
       "label": {
         "en": "administrative unit level 2",
-        "fr": "[UPDATED] unité administrative niveau 2"
+        "fr": "unité administrative niveau 2"
       }
     },
     {
@@ -2704,11 +2704,11 @@
       "EA-Guid": "{8DC1493A-7FA0-47cc-85D4-A2CFCAFFCEC6}",
       "definition": {
         "en": "Highest Administrative Unit of the address, usually a country.",
-        "fr": "[UPDATED] Unité administrative la plus élevée de l’adresse, généralement un pays."
+        "fr": "Unité administrative la plus élevée de l’adresse, généralement un pays."
       },
       "label": {
         "en": "administrative unit level 1",
-        "fr": "[UPDATED] unité administrative niveau 1"
+        "fr": "unité administrative niveau 1"
       }
     },
     {
@@ -2716,15 +2716,15 @@
       "EA-Guid": "{060EBDC2-5490-4b36-8887-9C681BEE4C98}",
       "definition": {
         "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit.",
-        "fr": "[UPDATED] Nom d'une zone géographique ou d'un lieu qui regroupe un certain nombre d'objets adressables afin de les adresser sans que la zone ou le lieu ne soit une unité administrative."
+        "fr": "Nom d'une zone géographique ou d'un lieu qui regroupe un certain nombre d'objets adressables afin de les adresser sans que la zone ou le lieu ne soit une unité administrative."
       },
       "label": {
         "en": "address area",
-        "fr": "[UPDATED] zone de l'adresse"
+        "fr": "zone de l'adresse"
       },
       "usage": {
         "en": "E.g. the name of the hamlet in which the address is located.",
-        "fr": "[UPDATED] Par ex., le nom du hameau dans lequel se trouve l'adresse."
+        "fr": "Par ex., le nom du hameau dans lequel se trouve l'adresse."
       }
     },
     {
@@ -2732,11 +2732,11 @@
       "EA-Guid": "{F9CF816D-8C32-4c37-ACF4-164ABDFA26A7}",
       "definition": {
         "en": "The place where the Document is stored or can be consulted.",
-        "fr": "[UPDATED] Emplacement où le document est stocké ou consultable."
+        "fr": "Emplacement où le document est stocké ou consultable."
       },
       "label": {
         "en": "document location",
-        "fr": "[UPDATED] localisation du document"
+        "fr": "localisation du document"
       }
     },
     {
@@ -2744,11 +2744,11 @@
       "EA-Guid": "{CAB540CE-2448-4f13-8C42-36FC9E80F055}",
       "definition": {
         "en": "Name from the agent who assigned the identifier.",
-        "fr": "[UPDATED] Nom de l'agent qui a attribué l'identifiant."
+        "fr": "Nom de l'agent qui a attribué l'identifiant."
       },
       "label": {
         "en": "assigned by (String)",
-        "fr": "[UPDATED] attribué par (Chaîne de caractères)"
+        "fr": "attribué par (Chaîne de caractères)"
       }
     },
     {
@@ -2756,11 +2756,11 @@
       "EA-Guid": "{CCB506D5-DE86-4a26-9E83-8DD33411D059}",
       "definition": {
         "en": "External Identifier of the complex.",
-        "fr": "[UPDATED] Identifiant externe du complexe."
+        "fr": "Identifiant externe du complexe."
       },
       "label": {
         "en": "identifier",
-        "fr": "[UPDATED] identifiant"
+        "fr": "identifiant"
       },
       "usage": {
         "en": "NOTE  An external object identifier is a unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object. The identifier is an identifier of the spatial object, not an identifier of the real-world phenomenon.",
@@ -2772,11 +2772,11 @@
       "EA-Guid": "{9360E849-B3F3-473f-8FA3-E280E57CD0E9}",
       "definition": {
         "en": "Identifier of the Document.",
-        "fr": "[UPDATED] Identifiant du Document."
+        "fr": "Identifiant du Document."
       },
       "label": {
         "en": "document identifier",
-        "fr": "[UPDATED] identifiant du document"
+        "fr": "identifiant du document"
       }
     },
     {
@@ -2784,15 +2784,15 @@
       "EA-Guid": "{283FF600-0E03-430b-AD12-3959852FCECE}",
       "definition": {
         "en": "String used to uniquely identify the object.",
-        "fr": "[UPDATED] Chaîne de caractères utilisée pour identifier l'objet de manière unique."
+        "fr": "Chaîne de caractères utilisée pour identifier l'objet de manière unique."
       },
       "label": {
         "en": "identifier",
-        "fr": "[UPDATED] identifiant"
+        "fr": "identifiant"
       },
       "usage": {
         "en": "Type of the string refers to the identifier (incl its version), the string itself to the actual identifier.",
-        "fr": "[UPDATED] Le type de la chaîne de caractères fait référence à l'identifiant (y compris sa version), la chaîne elle-même à l'identifiant réel."
+        "fr": "Le type de la chaîne de caractères fait référence à l'identifiant (y compris sa version), la chaîne elle-même à l'identifiant réel."
       }
     },
     {
@@ -2800,15 +2800,15 @@
       "EA-Guid": "{51FC18F5-A6A3-4869-A42E-DB57B5020058}",
       "definition": {
         "en": "Geometry expressed in wkt format.",
-        "fr": "[UPDATED] Géométrie exprimée au format WKT."
+        "fr": "Géométrie exprimée au format WKT."
       },
       "label": {
         "en": "wkt",
-        "fr": "[UPDATED] sous format WKT"
+        "fr": "sous format WKT"
       },
       "usage": {
         "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
-        "fr": "[UPDATED] Utilisez <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktLiteral</a> comme type de données."
+        "fr": "Utilisez <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktLiteral</a> comme type de données."
       }
     },
     {
@@ -2816,15 +2816,15 @@
       "EA-Guid": "{C6EFD7E3-420E-4e78-8EDB-7DF71919616D}",
       "definition": {
         "en": "Direct Position expressed in wkt format.",
-        "fr": "[UPDATED] Position directe exprimée au format WKT."
+        "fr": "Position directe exprimée au format WKT."
       },
       "label": {
         "en": "wkt",
-        "fr": "[UPDATED] wkt"
+        "fr": "wkt"
       },
       "usage": {
         "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> as datatype.",
-        "fr": "[UPDATED] Utilisez <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> comme type de données."
+        "fr": "Utilisez <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> comme type de données."
       }
     },
     {
@@ -2832,15 +2832,15 @@
       "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "definition": {
         "en": "Geometry expressed in gml format.",
-        "fr": "[UPDATED] Géométrie exprimée au format GML."
+        "fr": "Géométrie exprimée au format GML."
       },
       "label": {
         "en": "gml",
-        "fr": "[UPDATED] sous format GML"
+        "fr": "sous format GML"
       },
       "usage": {
         "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
-        "fr": "[UPDATED] Utilisez h<a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> comme type de données."
+        "fr": "Utilisez h<a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> comme type de données."
       }
     },
     {
@@ -2848,15 +2848,15 @@
       "EA-Guid": "{885CCC32-8976-4960-9770-83DBA03AC131}",
       "definition": {
         "en": "Direct Position expressed in gml format.",
-        "fr": "[UPDATED] Position directe exprimée au format GML."
+        "fr": "Position directe exprimée au format GML."
       },
       "label": {
         "en": "gml",
-        "fr": "[UPDATED] gml"
+        "fr": "gml"
       },
       "usage": {
         "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
-        "fr": "[UPDATED] Utilisez <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> comme type de données."
+        "fr": "Utilisez <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> comme type de données."
       }
     },
     {
@@ -2864,11 +2864,11 @@
       "EA-Guid": "{8AC95801-716E-4f15-8F59-4EC2A2E8A534}",
       "definition": {
         "en": "Name by which the complex is known.",
-        "fr": "[UPDATED] Nom sous lequel le complexe est connu."
+        "fr": "Nom sous lequel le complexe est connu."
       },
       "label": {
         "en": "name",
-        "fr": "[UPDATED] nom"
+        "fr": "nom"
       },
       "usage": {
         "en": "NOTE 1 Several names in different languages may be expressed.\nNOTE 2 It is recommended that the language of the name (part of the Geographical/Name data type) be filled whenever possible.",
@@ -2880,11 +2880,11 @@
       "EA-Guid": "{78315B70-7A7F-431b-BE60-F3B46EE2F912}",
       "definition": {
         "en": "Time the identifier was assigned.",
-        "fr": "[UPDATED] Date à laquelle l’identifiant a été attribué."
+        "fr": "Date à laquelle l’identifiant a été attribué."
       },
       "label": {
         "en": "assigned on",
-        "fr": "[UPDATED] date d'attribution"
+        "fr": "date d'attribution"
       }
     },
     {
@@ -2892,11 +2892,11 @@
       "EA-Guid": "{1E54387C-CF55-4a50-A953-506127298048}",
       "definition": {
         "en": "Link to the agent who assigned the identifier.",
-        "fr": "[UPDATED] Lien vers l'agent qui a émis l'identifiant."
+        "fr": "Lien vers l'agent qui a émis l'identifiant."
       },
       "label": {
         "en": "assigned by",
-        "fr": "[UPDATED] attribué par"
+        "fr": "attribué par"
       }
     },
     {
@@ -2904,15 +2904,15 @@
       "EA-Guid": "{B560020E-E50C-441a-9BC3-8CA309CA04DB}",
       "definition": {
         "en": "The type of utility network or the utility network theme.",
-        "fr": "[UPDATED] Le type du Réseau de Service ou le thème du Réseau de Service."
+        "fr": "Le type du Réseau de Service ou le thème du Réseau de Service."
       },
       "label": {
         "en": "utility network type",
-        "fr": "[UPDATED] type du réseau de service"
+        "fr": "type du réseau de service"
       },
       "usage": {
         "en": "Uses the Utility Network Type code list to describe the possible utility networks. This also includes the 'crossTheme' value to be used for utility networks that may contain cables or pipes from different themes, typically used by utility network providers that supply pipes.",
-        "fr": "[UPDATED] Utilise la liste de codes  Type de Réseau de Service » pour décrire les Réseaux de Service possibles. Cela inclut également la valeur « crossTheme » à utiliser pour les Réseaux de Service qui peuvent contenir des câbles ou des conduites de différents thèmes, qui sont généralement utilisés par les fournisseurs de Réseaux de Service qui fournissent des conduites."
+        "fr": "Utilise la liste de codes  Type de Réseau de Service » pour décrire les Réseaux de Service possibles. Cela inclut également la valeur « crossTheme » à utiliser pour les Réseaux de Service qui peuvent contenir des câbles ou des conduites de différents thèmes, qui sont généralement utilisés par les fournisseurs de Réseaux de Service qui fournissent des conduites."
       }
     },
     {
@@ -2920,15 +2920,15 @@
       "EA-Guid": "{3CFB2E82-225C-4884-9E31-E482A0748F97}",
       "definition": {
         "en": "The type of Reference Surface.",
-        "fr": "[UPDATED] Type de Surface de Référence."
+        "fr": "Type de Surface de Référence."
       },
       "label": {
         "en": "type",
-        "fr": "[UPDATED] type"
+        "fr": "type"
       },
       "usage": {
         "en": "Typical the groundlevel.",
-        "fr": "[UPDATED] Typiquement le niveau du sol."
+        "fr": "Typiquement le niveau du sol."
       }
     },
     {
@@ -2936,11 +2936,11 @@
       "EA-Guid": "{97C241A0-58A7-4a76-945C-7A50E18BE147}",
       "definition": {
         "en": "Classification of different types of protected areas.",
-        "fr": "[UPDATED] Nature de la Zone Protégée."
+        "fr": "Nature de la Zone Protégée."
       },
       "label": {
         "en": "type",
-        "fr": "[UPDATED] type"
+        "fr": "type"
       }
     },
     {
@@ -2948,11 +2948,11 @@
       "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
       "definition": {
         "en": "Type of the Topographical Element.",
-        "fr": "[UPDATED] Nature de l'Elément Topographique."
+        "fr": "Nature de l'Elément Topographique."
       },
       "label": {
         "en": "topographical element type",
-        "fr": "[UPDATED] type d'élément topographique"
+        "fr": "type d'élément topographique"
       }
     },
     {
@@ -2960,11 +2960,11 @@
       "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
       "definition": {
         "en": "Classification of the document.",
-        "fr": "[UPDATED] Classification du Document."
+        "fr": "Classification du Document."
       },
       "label": {
         "en": "document type",
-        "fr": "[UPDATED] type de document"
+        "fr": "type de document"
       }
     },
     {
@@ -2972,11 +2972,11 @@
       "EA-Guid": "{F76FE708-2CA4-40c4-B99E-0599432A2960}",
       "definition": {
         "en": "Classification of the Annotation.",
-        "fr": "[UPDATED] Nature de l'Annotation."
+        "fr": "Nature de l'Annotation."
       },
       "label": {
         "en": "annotation type",
-        "fr": "[UPDATED] type de l'annotation"
+        "fr": "type de l'annotation"
       },
       "usage": {
         "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
@@ -2988,11 +2988,11 @@
       "EA-Guid": "{1BD28B6D-5215-4811-B9A0-5282FB8641B1}",
       "definition": {
         "en": "Name of the Protected Area.",
-        "fr": "[UPDATED] Nom de la Zone Protégée."
+        "fr": "Nom de la Zone Protégée."
       },
       "label": {
         "en": "name",
-        "fr": "[UPDATED] nom"
+        "fr": "nom"
       }
     },
     {
@@ -3000,11 +3000,11 @@
       "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
       "definition": {
         "en": "Object to which the document refers.",
-        "fr": "[UPDATED] Objet auquel le Document se rapporte."
+        "fr": "Objet auquel le Document se rapporte."
       },
       "label": {
         "en": "refers to",
-        "fr": "[UPDATED] verwijst Naar"
+        "fr": "verwijst Naar"
       }
     },
     {
@@ -3012,11 +3012,11 @@
       "EA-Guid": "{8A6073D6-54F4-4273-8D01-3A5C9AE86471}",
       "definition": {
         "en": "Reference to a Document containing additional information about the element.",
-        "fr": "[UPDATED] Référence à un Document contenant des informations supplémentaires sur l’élément."
+        "fr": "Référence à un Document contenant des informations supplémentaires sur l’élément."
       },
       "label": {
         "en": "documentation",
-        "fr": "[UPDATED] documentation"
+        "fr": "documentation"
       }
     },
     {
@@ -3024,11 +3024,11 @@
       "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
       "definition": {
         "en": "Nature of the data carrier on which the Document is stored.",
-        "fr": "[UPDATED] Nature du support de données sur lequel le Document est stocké."
+        "fr": "Nature du support de données sur lequel le Document est stocké."
       },
       "label": {
         "en": "document mediatype",
-        "fr": "[UPDATED] type de support de document"
+        "fr": "type de support de document"
       }
     },
     {
@@ -3036,11 +3036,11 @@
       "EA-Guid": "{72FF6C37-B881-412b-BCDA-6C7841BB57C3}",
       "definition": {
         "en": "Description of the Document.",
-        "fr": "[UPDATED] Description du Document."
+        "fr": "Description du Document."
       },
       "label": {
         "en": "description",
-        "fr": "[UPDATED] description"
+        "fr": "description"
       }
     },
     {
@@ -3048,11 +3048,11 @@
       "EA-Guid": "{AB1E6036-8E1E-4240-A610-2FF6B3833D52}",
       "definition": {
         "en": "A more detailed description of the function.",
-        "fr": "[UPDATED] Une description plus détaillée de la fonction."
+        "fr": "Une description plus détaillée de la fonction."
       },
       "label": {
         "en": "description",
-        "fr": "[UPDATED] description"
+        "fr": "description"
       }
     },
     {
@@ -3060,11 +3060,11 @@
       "EA-Guid": "{767E63D8-08FC-45e3-8FD0-CA01DA4E5F0B}",
       "definition": {
         "en": "Description of the Protected Area.",
-        "fr": "[UPDATED] Description de la Zone Protégée."
+        "fr": "Description de la Zone Protégée."
       },
       "label": {
         "en": "description",
-        "fr": "[UPDATED] description"
+        "fr": "description"
       }
     },
     {
@@ -3072,11 +3072,11 @@
       "EA-Guid": "{A46FB68D-F943-48ac-B943-B63B769B47CF}",
       "definition": {
         "en": "The moment at which the Survey took place.",
-        "fr": "[UPDATED] La date à laquelle la Mesure a eu lieu."
+        "fr": "La date à laquelle la Mesure a eu lieu."
       },
       "label": {
         "en": "date",
-        "fr": "[UPDATED] date"
+        "fr": "date"
       }
     },
     {
@@ -3084,15 +3084,15 @@
       "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
       "definition": {
         "en": "Unit identifier.",
-        "fr": "[UPDATED] Identifiant de l'unité."
+        "fr": "Identifiant de l'unité."
       },
       "label": {
         "en": "uom identifier",
-        "fr": "[UPDATED] identifiant de l'unité"
+        "fr": "identifiant de l'unité"
       },
       "usage": {
         "en": "E.g. m for meter.",
-        "fr": "[UPDATED] Par ex.: m pour mètre."
+        "fr": "Par ex.: m pour mètre."
       }
     },
     {
@@ -3100,11 +3100,11 @@
       "EA-Guid": "{C278F0FF-9F4B-496b-8F25-3927000B9D57}",
       "definition": {
         "en": "The amount.",
-        "fr": "[UPDATED] La quantité."
+        "fr": "La quantité."
       },
       "label": {
         "en": "value",
-        "fr": "[UPDATED] valeur"
+        "fr": "valeur"
       }
     },
     {
@@ -3112,11 +3112,11 @@
       "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
       "definition": {
         "en": "Unit in which the quantity is expressed.",
-        "fr": "[UPDATED] Unité dans laquelle la quantité est exprimée."
+        "fr": "Unité dans laquelle la quantité est exprimée."
       },
       "label": {
         "en": "uom",
-        "fr": "[UPDATED] unité"
+        "fr": "unité"
       }
     },
     {
@@ -3124,15 +3124,15 @@
       "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
       "definition": {
         "en": "Unit in which the Length is expressed.",
-        "fr": "[UPDATED] Unité dans laquelle la Longueur est exprimée."
+        "fr": "Unité dans laquelle la Longueur est exprimée."
       },
       "label": {
         "en": "uom",
-        "fr": "[UPDATED] unité"
+        "fr": "unité"
       },
       "usage": {
         "en": "E.g. meters, centimeters.",
-        "fr": "[UPDATED] Par ex.: mètres, centimètres."
+        "fr": "Par ex.: mètres, centimètres."
       }
     }
   ]
