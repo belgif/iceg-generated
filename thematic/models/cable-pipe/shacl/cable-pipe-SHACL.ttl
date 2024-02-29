@@ -9,7 +9,40 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://belgif.github.io//thematic/models/cable-pipe> <https://belgif.github.io//thematic/models/cable-pipeshapes> <https://belgif.github.io//thematic/models/cable-pipe#LengteShape>,
+<https://belgif.github.io//thematic/models/cable-pipe> <https://belgif.github.io//thematic/models/cable-pipeshapes> <https://belgif.github.io//thematic/models/cable-pipe#AnnotatieShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#UiterlijkShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#ToebehorenShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#KastShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#KabelShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#KabelEnLeidingContainerShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#AansluitingShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#DiepteShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#MaataanduidingShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#KanaalShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#ElectriciteitskabelShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#HoogteShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#MangatShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalienPijpShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#PijpShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#PlanShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#PaalShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlakShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#RioolpijpShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#ThermischePijpShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#TopografischElementShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#TorenShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinkShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksequentieShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksetShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkelementShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopcontainerShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#VerticalePositieShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#WaterleidingShape>,
+    <https://belgif.github.io//thematic/models/cable-pipe#LengteShape>,
     <https://belgif.github.io//thematic/models/cable-pipe#MaatShape>,
     <https://belgif.github.io//thematic/models/cable-pipe#MeeteenheidShape>,
     <https://belgif.github.io//thematic/models/cable-pipe#LengteeenheidShape>,
@@ -62,40 +95,7 @@
     <https://belgif.github.io//thematic/models/cable-pipe#LinksequentieShape>,
     <https://belgif.github.io//thematic/models/cable-pipe#LinkSetShape>,
     <https://belgif.github.io//thematic/models/cable-pipe#NetwerkShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#KnoopShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#AnnotatieShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#UiterlijkShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#ToebehorenShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#KastShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#KabelShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#KabelEnLeidingContainerShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#AansluitingShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#DiepteShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#MaataanduidingShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#KanaalShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#ElectriciteitskabelShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#HoogteShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#MangatShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalienPijpShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#PijpShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#PlanShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#PaalShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlakShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#RioolpijpShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#ThermischePijpShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#TopografischElementShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#TorenShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinkShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksequentieShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieninglinksetShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerkelementShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningknoopcontainerShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#VerticalePositieShape>,
-    <https://belgif.github.io//thematic/models/cable-pipe#WaterleidingShape> .
+    <https://belgif.github.io//thematic/models/cable-pipe#KnoopShape> .
 
 <https://belgif.github.io//thematic/models/cable-pipe#AansluitingShape> a shacl:NodeShape;
   shacl:closed false;
@@ -143,7 +143,7 @@
     shacl:path <http://www.w3.org/ns/adms#identifier>
   ], [
     shacl:class <https://vocab.belgif.be/ns/utility-services#UtilityNetwork>;
-    shacl:description "Reference to a Network object to which a Network Element belongs."@en;
+    shacl:description "[UPDATED] Reference to a Network object to which a Network Element belongs."@en;
     shacl:minCount 1;
     shacl:name "inNetwork"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#inNetwork>
@@ -815,7 +815,7 @@
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.orientation>
   ], [
     shacl:class skos:Concept;
-    shacl:description "Indicates whether a Utility Node Container can be considered hazardous."@en;
+    shacl:description "[UPDATED] Indicates whether a Utility Node Container can be considered hazardous."@en;
     shacl:maxCount 1;
     shacl:name "risk"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer.risk>
@@ -901,7 +901,7 @@
     shacl:path <https://vocab.belgif.be/ns/utility-services#inNetwork>
   ], [
     shacl:class skos:Concept;
-    shacl:description "Type of material that makes up the Link Set."@en;
+    shacl:description "[UPDATED] Type of material that makes up the Link Set."@en;
     shacl:maxCount 1;
     shacl:name "material type"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#materialType>
@@ -913,30 +913,30 @@
     shacl:path <https://vocab.belgif.be/ns/utility-services#utilityDeliveryType>
   ], [
     shacl:class skos:Concept;
-    shacl:description "Indicates whether the Link Set can be considered hazardous."@en;
+    shacl:description "[UPDATED] Indicates whether the Link Set can be considered hazardous."@en;
     shacl:name "risk"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.risk>
   ], [
     shacl:datatype rdf:langString;
-    shacl:description "Further specification of the Link Set."@en;
+    shacl:description "[UPDATED] Further specification of the Link Set."@en;
     shacl:name "technical specification"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#technicalSpecification>
   ], [
     shacl:class <https://vocab.belgif.be/ns/utility-services#Appearance>;
-    shacl:description "Appearance of the Link Set."@en;
+    shacl:description "[UPDATED] Appearance of the Link Set."@en;
     shacl:maxCount 1;
     shacl:name "appearance"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.appearance>
   ], [
     shacl:class skos:Concept;
-    shacl:description "Way to alert for the presence of the Link Set."@en;
+    shacl:description "[UPDATED] Way to alert for the presence of the Link Set."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "warning type"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#warningType>
   ], [
     shacl:class skos:Concept;
-    shacl:description "Extent to which the Link Set is observable."@en;
+    shacl:description "[UPDATED] Extent to which the Link Set is observable."@en;
     shacl:maxCount 1;
     shacl:name "visibility"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityLinkSet.visibility>
@@ -1011,13 +1011,13 @@
     shacl:path dc11:relation
   ], [
     shacl:datatype xsd:dateTime;
-    shacl:description "The time from which the Utility Network Element no longer exists in the real world."@en;
+    shacl:description "[UPDATED] The time from which the Utility Network Element no longer exists in the real world."@en;
     shacl:maxCount 1;
     shacl:name "valid to"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#validTo>
   ], [
     shacl:datatype xsd:dateTime;
-    shacl:description "The time when the Utility Network Element started to exist in the real world."@en;
+    shacl:description "[UPDATED] The time when the Utility Network Element started to exist in the real world."@en;
     shacl:maxCount 1;
     shacl:name "valid from"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#validFrom>

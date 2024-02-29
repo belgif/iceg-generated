@@ -41,979 +41,6 @@
   "@id": "https://belgif.github.io//thematic/models/cable-pipe",
   "shapes": [
     {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
-          "sh:description": {
-            "en": "Unit in which the Length is expressed."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "uom"
-          },
-          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length.uom"
-        }
-      ],
-      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MaatShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
-          "sh:description": {
-            "en": "Unit in which the quantity is expressed."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "uom"
-          },
-          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom"
-        },
-        {
-          "sh:class": "https://schema.org/Number",
-          "sh:description": {
-            "en": "The amount."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "value"
-          },
-          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.value"
-        }
-      ],
-      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MeeteenheidShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": {
-            "en": "Unit identifier."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "uom identifier"
-          },
-          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier"
-        }
-      ],
-      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteeenheidShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PositioneleNauwkeurigheidShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AgentShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://purl.org/dc/terms/Agent"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#CurveShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.opengis.net/ont/geosparql#Curve"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PuntShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.opengis.net/ont/sf#Point"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ContainertypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ZichtbaarheidstypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RisicotypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KleurShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MateriaaltypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#SubthemaShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerktypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#FaciliteitstatusShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#VerticalePositietypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningleveringstypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WaarschuwingstypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelmateriaaltypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalientypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RioolwatertypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WatertypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ThermischProducttypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TekenShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ToebehorentypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#EconomischeActiviteittypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#InputoutputtypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatietypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TopografischElementtypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumentmediumtypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumenttypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlaktypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OpmetingsmethodeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedtypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#IdentificatorShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:description": {
-            "en": "String used to uniquely identify the object."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "http://www.w3.org/2004/02/skos/core#notation"
-        },
-        {
-          "sh:class": "http://purl.org/dc/terms/Agent",
-          "sh:description": {
-            "en": "Link to the agent who assigned the identifier."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "assigned by"
-          },
-          "sh:path": "http://purl.org/dc/terms/creator"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": {
-            "en": "Name from the agent who assigned the identifier."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "assigned by (String)"
-          },
-          "sh:path": "http://www.w3.org/ns/adms#schemaAgency"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": {
-            "en": "Time the identifier was assigned."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "assigned on"
-          },
-          "sh:path": "http://purl.org/dc/terms/issued"
-        }
-      ],
-      "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AdresvoorstellingShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Highest Administrative Unit of the address, usually a country."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "administrative unit level 1"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "The region of address, usually a province or state or similar area that typically includes several places."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "administrative unit level 2"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "address area"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#addressArea"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": {
-            "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "box number"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Municipal name from address."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "municipality name"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/address#municipalityName"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": {
-            "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "house number"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Country in which the address is located."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "country"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/address#country"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": {
-            "en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc."
-          },
-          "sh:name": {
-            "en": "location indication"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Name or description of the geographic object the address locator designates."
-          },
-          "sh:name": {
-            "en": "location name"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#locatorName"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": {
-            "en": "PO Box number in a post office."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "PO box"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#poBox"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": {
-            "en": "Code denoting the geographical area that groups addresses for postal purposes."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "postal code"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#postCode"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Name denoting the geographical area that groups addresses for postal purposes."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "postal name"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#postName"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Street name of address."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "street name"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/address#Adress",
-          "sh:description": {
-            "en": "Address from which the address representation is derived."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "refers to"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/address#refersTo"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "The complete address in one string, formatted or not."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "full address"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
-        }
-      ],
-      "sh:targetClass": "http://www.w3.org/ns/locn#Address"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeometrieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:description": {
-            "en": "Geometry expressed in gml format."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "gml"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
-        },
-        {
-          "sh:description": {
-            "en": "Geometry expressed in wkt format."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "wkt"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#Survey",
-          "sh:description": {
-            "en": "The way the geometry was determined."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "survey"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/generic#Geometry.survey"
-        }
-      ],
-      "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ObjectShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/ns/prov#Entity"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LocatieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://www.w3.org/ns/prov#Location"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumentShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Description of the Document."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/description"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Classification of the document."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "document type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/adms#Identifier",
-          "sh:description": {
-            "en": "Identifier of the Document."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "document identifier"
-          },
-          "sh:path": "http://www.w3.org/ns/adms#Identifier"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
-          "sh:description": {
-            "en": "The place where the Document is stored or can be consulted."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "document location"
-          },
-          "sh:path": "http://www.w3.org/ns/dcat#accessURL"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Nature of the data carrier on which the Document is stored."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "document mediatype"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/format"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/prov#Entity",
-          "sh:description": {
-            "en": "Object to which the document refers."
-          },
-          "sh:name": {
-            "en": "refers to"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/relation"
-        }
-      ],
-      "sh:targetClass": "http://xmlns.com/foaf/0.1/Document"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GetalShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://schema.org/Number"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AdresShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://vocab.belgif.be/ns/address#Adress"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ActiviteitencomplexShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://xmlns.com/foaf/0.1/Document",
-          "sh:description": {
-            "en": "Reference to a Document with additional information about the complex."
-          },
-          "sh:name": {
-            "en": "documentation"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#documentation"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#Function",
-          "sh:description": {
-            "en": "Activities carried out by the complex."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "function"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#function"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Geometry",
-          "sh:description": {
-            "en": "Geometry of the complex to describe its location and size."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "geometry"
-          },
-          "sh:path": "http://www.w3.org/ns/locn#geometry"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/adms#Identifier",
-          "sh:description": {
-            "en": "External Identifier of the complex."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "identifier"
-          },
-          "sh:path": "http://www.w3.org/ns/adms#identifier"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-          "sh:description": {
-            "en": "Reference to a Network object to which a Network Element belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "inNetwork"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
-          "sh:description": {
-            "en": "Utility Network to which the Activity Complex belongs."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "in network"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "Name by which the complex is known."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "name"
-          },
-          "sh:path": "http://purl.org/dc/terms/title"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
-          "sh:description": {
-            "en": "[UPDATED] Utility Network Element belonging to the complex."
-          },
-          "sh:name": {
-            "en": "on"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#on"
-        }
-      ],
-      "sh:targetClass": "https://vocab.belgif.be/ns/generic#ActivityComplex"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DirectePositieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:description": {
-            "en": "Direct Position expressed in gml format."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "gml"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#Survey",
-          "sh:description": {
-            "en": "The way the position was determined."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "survey"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/generic#DirectPosition.survey"
-        },
-        {
-          "sh:description": {
-            "en": "Direct Position expressed in wkt format."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "wkt"
-          },
-          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
-        }
-      ],
-      "sh:targetClass": "https://vocab.belgif.be/ns/generic#DirectPosition"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#FunctieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Classification of the activity."
-          },
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "activity"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/generic#activity"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-          "sh:description": {
-            "en": "A more detailed description of the function."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "description"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/description"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Input for the activity in the function."
-          },
-          "sh:name": {
-            "en": "input"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/generic#input"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Output the result of the activity in the function."
-          },
-          "sh:name": {
-            "en": "output"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/generic#output"
-        }
-      ],
-      "sh:targetClass": "https://vocab.belgif.be/ns/generic#Function"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OpmetingShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
-          "sh:description": {
-            "en": "The moment at which the Survey took place."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "date"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/date"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of the method used."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "method"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#Survey.method"
-        },
-        {
-          "sh:class": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
-          "sh:description": {
-            "en": "The Positional Accuracy of the Survey."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "accuracy"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#accuracy"
-        },
-        {
-          "sh:class": "http://purl.org/dc/terms/Agent",
-          "sh:description": {
-            "en": "Agent who carried out the Survey."
-          },
-          "sh:maxCount": "1",
-          "sh:name": {
-            "en": "recorded by"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#Survey.recordedBy"
-        }
-      ],
-      "sh:targetClass": "https://vocab.belgif.be/ns/generic#Survey"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GerichteLinkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
-          "sh:description": {
-            "en": "Reference to the Link."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "link"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#DirectedLink.link"
-        },
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "direction"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/network#direction"
-        }
-      ],
-      "sh:targetClass": "https://vocab.belgif.be/ns/network#DirectedLink"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeneriekeLinkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://vocab.belgif.be/ns/network#GenericLink"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://vocab.belgif.be/ns/network#Link"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinksequentieShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://vocab.belgif.be/ns/network#LinkSequence"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkSetShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://vocab.belgif.be/ns/network#LinkSet"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NetwerkShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://vocab.belgif.be/ns/network#Network"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KnoopShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "https://vocab.belgif.be/ns/network#Node"
-    },
-    {
       "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatieShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -1843,7 +870,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "Type of material that makes up the Link Set."
+            "en": "[UPDATED] Type of material that makes up the Link Set."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -1865,7 +892,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "Indicates whether the Link Set can be considered hazardous."
+            "en": "[UPDATED] Indicates whether the Link Set can be considered hazardous."
           },
           "sh:name": {
             "en": "risk"
@@ -1875,7 +902,7 @@
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
           "sh:description": {
-            "en": "Further specification of the Link Set."
+            "en": "[UPDATED] Further specification of the Link Set."
           },
           "sh:name": {
             "en": "technical specification"
@@ -1885,7 +912,7 @@
         {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#Appearance",
           "sh:description": {
-            "en": "Appearance of the Link Set."
+            "en": "[UPDATED] Appearance of the Link Set."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -1896,7 +923,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "Way to alert for the presence of the Link Set."
+            "en": "[UPDATED] Way to alert for the presence of the Link Set."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
@@ -1908,7 +935,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "Extent to which the Link Set is observable."
+            "en": "[UPDATED] Extent to which the Link Set is observable."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -2049,7 +1076,7 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "en": "The time from which the Utility Network Element no longer exists in the real world."
+            "en": "[UPDATED] The time from which the Utility Network Element no longer exists in the real world."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -2060,7 +1087,7 @@
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
           "sh:description": {
-            "en": "The time when the Utility Network Element started to exist in the real world."
+            "en": "[UPDATED] The time when the Utility Network Element started to exist in the real world."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -2249,7 +1276,7 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "Indicates whether a Utility Node Container can be considered hazardous."
+            "en": "[UPDATED] Indicates whether a Utility Node Container can be considered hazardous."
           },
           "sh:maxCount": "1",
           "sh:name": {
@@ -2354,6 +1381,979 @@
         }
       ],
       "sh:targetClass": "https://vocab.belgif.be/ns/utility-services#WaterPipe"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength",
+          "sh:description": {
+            "en": "Unit in which the Length is expressed."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "uom"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length.uom"
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Length"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MaatShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure",
+          "sh:description": {
+            "en": "Unit in which the quantity is expressed."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "uom"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.uom"
+        },
+        {
+          "sh:class": "https://schema.org/Number",
+          "sh:description": {
+            "en": "The amount."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "value"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure.value"
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#Measure"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MeeteenheidShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Unit identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "uom identifier"
+          },
+          "sh:path": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure.uomIdentifier"
+        }
+      ],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UnitOfMeasure"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LengteeenheidShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19103/2015/MeasureTypes#UomLength"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PositioneleNauwkeurigheidShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AgentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://purl.org/dc/terms/Agent"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#CurveShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/geosparql#Curve"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#PuntShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.opengis.net/ont/sf#Point"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ContainertypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ZichtbaarheidstypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RisicotypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KleurShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#MateriaaltypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#SubthemaShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningnetwerktypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#FaciliteitstatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#VerticalePositietypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NutsvoorzieningleveringstypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WaarschuwingstypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TelecommunicatiekabelmateriaaltypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OlieGasChemicalientypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#RioolwatertypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#WatertypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ThermischProducttypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TekenShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ToebehorentypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#EconomischeActiviteittypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#InputoutputtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AnnotatietypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#TopografischElementtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumentmediumtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumenttypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ReferentieoppervlaktypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OpmetingsmethodeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#BeschermdGebiedtypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#IdentificatorShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "en": "String used to uniquely identify the object."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/Agent",
+          "sh:description": {
+            "en": "Link to the agent who assigned the identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "assigned by"
+          },
+          "sh:path": "http://purl.org/dc/terms/creator"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Name from the agent who assigned the identifier."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "assigned by (String)"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#schemaAgency"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "Time the identifier was assigned."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "assigned on"
+          },
+          "sh:path": "http://purl.org/dc/terms/issued"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AdresvoorstellingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Highest Administrative Unit of the address, usually a country."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administrative unit level 1"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL1"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "The region of address, usually a province or state or similar area that typically includes several places."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "administrative unit level 2"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#adminUnitL2"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "address area"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#addressArea"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "box number"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation.boxNumber"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Municipal name from address."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "municipality name"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/address#municipalityName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "house number"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/address#AddressRepresentation.houseNumber"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Country in which the address is located."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "country"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/address#country"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc."
+          },
+          "sh:name": {
+            "en": "location indication"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorDesignator"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name or description of the geographic object the address locator designates."
+          },
+          "sh:name": {
+            "en": "location name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#locatorName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "PO Box number in a post office."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "PO box"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#poBox"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Code denoting the geographical area that groups addresses for postal purposes."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "postal code"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postCode"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name denoting the geographical area that groups addresses for postal purposes."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "postal name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#postName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Street name of address."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "street name"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#thoroughfare"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/address#Adress",
+          "sh:description": {
+            "en": "Address from which the address representation is derived."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "refers to"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/address#refersTo"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "The complete address in one string, formatted or not."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "full address"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#fullAddress"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Address"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeometrieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "en": "Geometry expressed in gml format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "gml"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
+        },
+        {
+          "sh:description": {
+            "en": "Geometry expressed in wkt format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "wkt"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#Survey",
+          "sh:description": {
+            "en": "The way the geometry was determined."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "survey"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/generic#Geometry.survey"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ObjectShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/ns/prov#Entity"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LocatieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/ns/prov#Location"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DocumentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Description of the Document."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the document."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "document type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:description": {
+            "en": "Identifier of the Document."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "document identifier"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#Identifier"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "sh:description": {
+            "en": "The place where the Document is stored or can be consulted."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "document location"
+          },
+          "sh:path": "http://www.w3.org/ns/dcat#accessURL"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Nature of the data carrier on which the Document is stored."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "document mediatype"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/format"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/prov#Entity",
+          "sh:description": {
+            "en": "Object to which the document refers."
+          },
+          "sh:name": {
+            "en": "refers to"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/relation"
+        }
+      ],
+      "sh:targetClass": "http://xmlns.com/foaf/0.1/Document"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GetalShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://schema.org/Number"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#AdresShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/address#Adress"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#ActiviteitencomplexShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://xmlns.com/foaf/0.1/Document",
+          "sh:description": {
+            "en": "Reference to a Document with additional information about the complex."
+          },
+          "sh:name": {
+            "en": "documentation"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#documentation"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#Function",
+          "sh:description": {
+            "en": "Activities carried out by the complex."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "function"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#function"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Geometry",
+          "sh:description": {
+            "en": "Geometry of the complex to describe its location and size."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "geometry"
+          },
+          "sh:path": "http://www.w3.org/ns/locn#geometry"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:description": {
+            "en": "External Identifier of the complex."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#identifier"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "[UPDATED] Reference to a Network object to which a Network Element belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "inNetwork"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#inNetwork"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork",
+          "sh:description": {
+            "en": "Utility Network to which the Activity Complex belongs."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "in network"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/generic#ActivityComplex.inNetwork"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "Name by which the complex is known."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "name"
+          },
+          "sh:path": "http://purl.org/dc/terms/title"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
+          "sh:description": {
+            "en": "[UPDATED] Utility Network Element belonging to the complex."
+          },
+          "sh:name": {
+            "en": "on"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#on"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#ActivityComplex"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#DirectePositieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:description": {
+            "en": "Direct Position expressed in gml format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "gml"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asGML"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#Survey",
+          "sh:description": {
+            "en": "The way the position was determined."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "survey"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/generic#DirectPosition.survey"
+        },
+        {
+          "sh:description": {
+            "en": "Direct Position expressed in wkt format."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "wkt"
+          },
+          "sh:path": "http://www.opengis.net/ont/geosparql#asWKT"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#DirectPosition"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#FunctieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Classification of the activity."
+          },
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "activity"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/generic#activity"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": {
+            "en": "A more detailed description of the function."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "description"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/description"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Input for the activity in the function."
+          },
+          "sh:name": {
+            "en": "input"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/generic#input"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Output the result of the activity in the function."
+          },
+          "sh:name": {
+            "en": "output"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/generic#output"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#Function"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#OpmetingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "sh:description": {
+            "en": "The moment at which the Survey took place."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "date"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/date"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of the method used."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "method"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Survey.method"
+        },
+        {
+          "sh:class": "http://def.isotc211.org/iso19157/2013/DataQuality_2#DQ_PositionalAccuracy",
+          "sh:description": {
+            "en": "The Positional Accuracy of the Survey."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "accuracy"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#accuracy"
+        },
+        {
+          "sh:class": "http://purl.org/dc/terms/Agent",
+          "sh:description": {
+            "en": "Agent who carried out the Survey."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "recorded by"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Survey.recordedBy"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/generic#Survey"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GerichteLinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/netwerk#Link",
+          "sh:description": {
+            "en": "Reference to the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "link"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#DirectedLink.link"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Indicates if the Directed Link agrees (positive) or disagrees (negative) with the positive direction of the Link."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "direction"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/network#direction"
+        }
+      ],
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#DirectedLink"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#GeneriekeLinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#GenericLink"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#Link"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinksequentieShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#LinkSequence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#LinkSetShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#LinkSet"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#NetwerkShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#Network"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/cable-pipe#KnoopShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://vocab.belgif.be/ns/network#Node"
     }
   ]
 }
