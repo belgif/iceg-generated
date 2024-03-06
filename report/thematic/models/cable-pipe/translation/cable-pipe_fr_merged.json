@@ -360,7 +360,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+            "value": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
           },
           {
             "key": "uri",
@@ -385,7 +385,7 @@
         },
         "parentclasses": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
         "usage": {
-          "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+          "en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -398,7 +398,7 @@
         "https://vocab.belgif.be/ns/utility-services#UtilityNode"
       ],
       "usage": {
-        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
+        "en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
         "fr": "[UPDATED] Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur de Noeud de Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
       }
     },
@@ -678,7 +678,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
+            "note": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n",
             "value": "NOTE"
           }
         ],
@@ -699,7 +699,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+          "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -710,7 +710,7 @@
       "name": "CableAndPipeContainer",
       "parents": [],
       "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n",
         "fr": "[UPDATED] Par ex. si l'objet est une Conduite : une Conduite peut inclure des Câbles ou d'autres Conduites. Analogue aux conduites de type Canal. Les Câbles ne sont pas des Conteneurs de Câble et Conduite. REMARQUE : Le fait que le Conteneur de Câble et Conduite contienne éventuellement d'autres éléments est représenté par les relations sortantes vers ces autres relations (par ex.: Canalisation.conduite, Conduite.Câble, Canalisation.Câble, Conduite.Conduite, etc)."
       }
     },
@@ -1353,7 +1353,7 @@
           {
             "key": "usageNote-en",
             "note": "Manholes perform following functions:\nProvide drainage for the conduit system so that freezing water does not damage the conduit or wires.\nProvide a location for bending the conduit run without damaging the wires.\nProvide a junction for conduits coming from different directions.\nProvide access to the system for maintenance.",
-            "value": "E.g. sewer cover."
+            "value": "For example sewer cover."
           },
           {
             "key": "label-nl",
@@ -1408,7 +1408,7 @@
         },
         "parentclasses": "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer",
         "usage": {
-          "en": "E.g. sewer cover."
+          "en": "For example sewer cover."
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -1421,8 +1421,8 @@
         "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
       ],
       "usage": {
-        "en": "E.g. sewer cover.",
-        "fr": "[UPDATED] Par ex.: une taque d'égout."
+        "en": "For example sewer cover.",
+        "fr": "Par ex.: une taque d'égout."
       }
     },
     {
@@ -1523,13 +1523,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
       "ap-definition-en": {
-        "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
       },
       "ap-label-en": {
         "en": "Pipe"
       },
       "definition": {
-        "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another.",
+        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes",
         "fr": "[UPDATED] Un ensemble de liaisons utilitaires destiné au transport de solides, de liquides, de produits chimiques ou de gaz d'un endroit à un autre ou comme enveloppe pour des câbles ou d'autres tuyaux."
       },
       "extra": {
@@ -1561,7 +1561,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+            "value": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
           },
           {
             "key": "label-nl",
@@ -1592,14 +1592,14 @@
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+          "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
         },
         "ap-label-en": {
           "en": "Pipe"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+          "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
         },
         "label": {
           "en": "Pipe"
@@ -3039,7 +3039,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc)."
+            "value": "NOTE: is abstract, must be specialized (For example as Electricity Cable, Sewer, Manhole, Cabinet etc)."
           },
           {
             "key": "label-nl",
@@ -3094,7 +3094,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc)."
+          "en": "NOTE: is abstract, must be specialized (For example as Electricity Cable, Sewer, Manhole, Cabinet etc)."
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -3105,8 +3105,8 @@
       "name": "UtilityNetworkElement",
       "parents": [],
       "usage": {
-        "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).",
-        "fr": "[UPDATED] REMARQUE : est abstrait, doit être spécifié (par ex. Câble Electrique, Conduite d'Eaux Usées, Trou d'Homme, Armoire, etc.)."
+        "en": "NOTE: is abstract, must be specialized (For example as Electricity Cable, Sewer, Manhole, Cabinet etc).",
+        "fr": "REMARQUE : est abstrait, doit être spécifié (par ex. Câble Electrique, Conduite d'Eaux Usées, Trou d'Homme, Armoire, etc.)."
       }
     },
     {
@@ -4146,8 +4146,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "73baa2a7c028ac525a3f31fc03a11f5d64538115",
-  "dummy": "031",
+  "documentcommit": "d5080ae05cfa78285ff49c552d64e23cc8a75d81",
+  "dummy": "032",
   "eap": "IMKL-LD.eap",
   "editors": [],
   "externalproperties": [
@@ -4201,7 +4201,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "E.g. the Dimension to which the dimension line belongs.",
+            "note": "For example the Dimension to which the dimension line belongs.",
             "value": "NOTE"
           },
           {
@@ -4266,7 +4266,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "E.g. the Dimension to which the dimension line belongs.",
+            "note": "For example the Dimension to which the dimension line belongs.",
             "value": "NOTE"
           },
           {
@@ -4309,7 +4309,7 @@
         },
         "sourceRole": "null",
         "usage": {
-          "en": "E.g. the Dimension to which the dimension line belongs."
+          "en": "For example the Dimension to which the dimension line belongs."
         }
       },
       "generalization": [],
@@ -4330,8 +4330,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. the Dimension to which the dimension line belongs.",
-        "fr": "[UPDATED] Par ex., la Dimension à laquelle la cote appartient."
+        "en": "For example the Dimension to which the dimension line belongs.",
+        "fr": "Par ex., la Dimension à laquelle la cote appartient."
       }
     },
     {
@@ -4364,7 +4364,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
+            "note": "For example the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
             "value": "NOTE"
           },
           {
@@ -4429,7 +4429,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
+            "note": "For example the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
             "value": "NOTE"
           },
           {
@@ -4492,7 +4492,7 @@
         },
         "sourceRole": "null",
         "usage": {
-          "en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line."
+          "en": "For example the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line."
         }
       },
       "generalization": [],
@@ -4513,8 +4513,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
-        "fr": "[UPDATED] Par ex., la cote dans le cas d'une Dimension, composée de deux flèches et d'une cote indicative."
+        "en": "For example the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
+        "fr": "Par ex., la cote dans le cas d'une Dimension, composée de deux flèches et d'une cote indicative."
       }
     },
     {
@@ -9880,7 +9880,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. the location and shape of a Dimension."
+            "value": "For example the location and shape of a Dimension."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -9899,7 +9899,7 @@
           "en": "location"
         },
         "usage": {
-          "en": "E.g. the location and shape of a Dimension."
+          "en": "For example the location and shape of a Dimension."
         }
       },
       "generalization": [],
@@ -9920,8 +9920,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. the location and shape of a Dimension.",
-        "fr": "[UPDATED] Par ex.: l'emplacement et la forme d'une Indication de mesure."
+        "en": "For example the location and shape of a Dimension.",
+        "fr": "Par ex.: l'emplacement et la forme d'une Indication de mesure."
       }
     },
     {
@@ -10900,7 +10900,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. the name of the hamlet in which the address is located."
+            "value": "For example the name of the hamlet in which the address is located."
           },
           {
             "key": "ap-label-nl",
@@ -10934,7 +10934,7 @@
           "en": "address area"
         },
         "usage": {
-          "en": "E.g. the name of the hamlet in which the address is located."
+          "en": "For example the name of the hamlet in which the address is located."
         }
       },
       "generalization": [],
@@ -10954,8 +10954,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. the name of the hamlet in which the address is located.",
-        "fr": "[UPDATED] Par ex., le nom du hameau dans lequel se trouve l'adresse."
+        "en": "For example the name of the hamlet in which the address is located.",
+        "fr": "Par ex., le nom du hameau dans lequel se trouve l'adresse."
       }
     },
     {
@@ -12997,7 +12997,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+            "value": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
           }
         ],
         "Scope": "TRANSLATIONS_ONLY",
@@ -13016,7 +13016,7 @@
           "en": "annotation type"
         },
         "usage": {
-          "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+          "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
         }
       },
       "generalization": [],
@@ -13037,8 +13037,8 @@
         }
       ],
       "usage": {
-        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
-        "fr": "[UPDATED] Dans ce contexte, il s'agit généralement d'une Dimension sur une carte de câbles ou de conduite, par exemple la distance d'un câble par rapport à une façade. Elle peut se composer de parties (par exemple, une ligne de cote, une cote indicative, deux flèches) qui sont également des Annotations en elles-mêmes."
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
+        "fr": "Dans ce contexte, il s'agit généralement d'une Dimension sur une carte de câbles ou de conduite, par exemple la distance d'un câble par rapport à une façade. Elle peut se composer de parties (par exemple, une ligne de cote, une cote indicative, deux flèches) qui sont également des Annotations en elles-mêmes."
       }
     },
     {
@@ -13970,7 +13970,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. m for meter."
+            "value": "For example"
           }
         ],
         "Scope": "NOTHING",
@@ -13989,7 +13989,7 @@
           "en": "uom identifier"
         },
         "usage": {
-          "en": "E.g. m for meter."
+          "en": "For example"
         }
       },
       "generalization": [],
@@ -14009,7 +14009,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. m for meter.",
+        "en": "For example",
         "fr": "[UPDATED] Par ex.: m pour mètre."
       }
     },
@@ -14311,7 +14311,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. meters, centimeters."
+            "value": "For example meters, centimeters."
           }
         ],
         "Scope": "NOTHING",
@@ -14330,7 +14330,7 @@
           "en": "uom"
         },
         "usage": {
-          "en": "E.g. meters, centimeters."
+          "en": "For example meters, centimeters."
         }
       },
       "generalization": [],
@@ -14351,8 +14351,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. meters, centimeters.",
-        "fr": "[UPDATED] Par ex.: mètres, centimètres."
+        "en": "For example meters, centimeters.",
+        "fr": "Par ex.: mètres, centimètres."
       }
     }
   ],
@@ -14977,7 +14977,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, For example the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
             "value": "NOTE"
           }
         ],
@@ -14998,7 +14998,7 @@
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
         "usage": {
-          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
+          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, For example the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -15008,8 +15008,8 @@
       },
       "name": "Curve",
       "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
-        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par une Courbe elle-même, 1 coordonnée suffit pour localiser un point sur la Courbe, par ex. la distance le long de la Courbe à partir du point de départ. Une Courbe a une longueur mais pas de largeur ni de hauteur, ce qui ne l'empêche pas de serpenter dans l'espace 3D. Les Courbes sont généralement représentées par des polylignes, qui sont des ensembles de points consécutifs où les points intermédiaires de la Courbe sont obtenus par interpolation. Lorsque la méthode d'interpolation est linéaire, vous obtenez une Ligne Polygonale (une ligne angulaire reliant des points successifs par une ligne droite). D'autres méthodes d'interpolation donnent lieu à des arcs de cercle, des cubic splines, des courbes de Bézier, etc. (dont les points de contrôle ne sont pas nécessairement situés sur la Courbe). Une Courbe est délimitée par ses points de départ et d'arrivée."
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, For example the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+        "fr": "La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par une Courbe elle-même, 1 coordonnée suffit pour localiser un point sur la Courbe, par ex. la distance le long de la Courbe à partir du point de départ. Une Courbe a une longueur mais pas de largeur ni de hauteur, ce qui ne l'empêche pas de serpenter dans l'espace 3D. Les Courbes sont généralement représentées par des polylignes, qui sont des ensembles de points consécutifs où les points intermédiaires de la Courbe sont obtenus par interpolation. Lorsque la méthode d'interpolation est linéaire, vous obtenez une Ligne Polygonale (une ligne angulaire reliant des points successifs par une ligne droite). D'autres méthodes d'interpolation donnent lieu à des arcs de cercle, des cubic splines, des courbes de Bézier, etc. (dont les points de contrôle ne sont pas nécessairement situés sur la Courbe). Une Courbe est délimitée par ses points de départ et d'arrivée."
       }
     },
     {
@@ -15088,7 +15088,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+            "note": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, For example xyz-coordinates in and 3-axis orthogonal coordinate system.",
             "value": "NOTE"
           }
         ],
@@ -15109,7 +15109,7 @@
         },
         "parentclasses": "http://www.w3.org/ns/locn#Geometry",
         "usage": {
-          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
+          "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, For example xyz-coordinates in and 3-axis orthogonal coordinate system."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -15119,8 +15119,8 @@
       },
       "name": "Point",
       "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
-        "fr": "[UPDATED] La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par un Point lui-même, aucune coordonnée n'est nécessaire, puisqu'il n'y a qu'un seul point. Un point n'a donc ni largeur, ni longueur, ni profondeur. ATTENTION : cela ne signifie pas qu'un Point ne peut pas avoir de coordonnées dans un autre système de coordonnées, par ex. des coordonnées xyz dans un système de coordonnées à 3 axes orthogonaux."
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, For example xyz-coordinates in and 3-axis orthogonal coordinate system.",
+        "fr": "La dimension doit être comprise dans un sens mathématique : le nombre minimum de coordonnées nécessaires pour représenter tout point faisant partie de la primitive. Dans le système de coordonnées formé par un Point lui-même, aucune coordonnée n'est nécessaire, puisqu'il n'y a qu'un seul point. Un point n'a donc ni largeur, ni longueur, ni profondeur. ATTENTION : cela ne signifie pas qu'un Point ne peut pas avoir de coordonnées dans un autre système de coordonnées, par ex. des coordonnées xyz dans un système de coordonnées à 3 axes orthogonaux."
       }
     },
     {
@@ -18082,7 +18082,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
+            "note": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (For example entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
             "value": "NOTE"
           },
           {
@@ -18113,7 +18113,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
+          "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (For example entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -18123,8 +18123,8 @@
       },
       "name": "Address",
       "usage": {
-        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
-        "fr": "[UPDATED] La définition se réfère aux adresses belges. Dans d'autres pays, une adresse peut éventuellement se référer à d'autres objets géographiques (pas une unité de bâtiment ou une parcelle) ou consister en d'autres désignations (différentes du numéro de maison et du numéro de boîte) ou en des éléments autres que le nom de la rue, le nom de la commune ou le code postal. D'autres indications d'adresse que le numéro de maison ou le numéro de boîte (par ex., désignation de l'entrée, désignation de l'escalier, désignation de l'étage) ou un nom de bâtiment ou de chambre sont possibles grâce à une association avec l'extension de l'adresse. L'échange d'adresses étrangères doit être effectué à l'aide de l'objet représentation d'adresse."
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (For example entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
+        "fr": "La définition se réfère aux adresses belges. Dans d'autres pays, une adresse peut éventuellement se référer à d'autres objets géographiques (pas une unité de bâtiment ou une parcelle) ou consister en d'autres désignations (différentes du numéro de maison et du numéro de boîte) ou en des éléments autres que le nom de la rue, le nom de la commune ou le code postal. D'autres indications d'adresse que le numéro de maison ou le numéro de boîte (par ex., désignation de l'entrée, désignation de l'escalier, désignation de l'étage) ou un nom de bâtiment ou de chambre sont possibles grâce à une association avec l'extension de l'adresse. L'échange d'adresses étrangères doit être effectué à l'aide de l'objet représentation d'adresse."
       }
     },
     {
@@ -18161,7 +18161,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
+            "note": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to For example a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
             "value": "NOTE"
           },
           {
@@ -18217,7 +18217,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
+          "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to For example a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -18227,8 +18227,8 @@
       },
       "name": "ActivityComplex",
       "usage": {
-        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
-        "fr": "[UPDATED] Dans la pratique, un site, un terrain, un équipement, une installation, un bâtiment où l'activité a lieu. Dans le contexte des câbles et des conduites, il s'agit par ex. d'une centrale électrique, d'une station de pompage, d'une station d'épuration, etc. Comprend l'infrastructure, l'équipement et le matériel nécessaires à cet effet. Peut inclure plusieurs sites dans la mesure où ils font partie du même complexe. L'activité est de préférence indiquée par les codes NACE."
+        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to For example a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
+        "fr": "Dans la pratique, un site, un terrain, un équipement, une installation, un bâtiment où l'activité a lieu. Dans le contexte des câbles et des conduites, il s'agit par ex. d'une centrale électrique, d'une station de pompage, d'une station d'épuration, etc. Comprend l'infrastructure, l'équipement et le matériel nécessaires à cet effet. Peut inclure plusieurs sites dans la mesure où ils font partie du même complexe. L'activité est de préférence indiquée par les codes NACE."
       }
     },
     {
@@ -18270,7 +18270,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
+            "note": "Typically used to describe the geometry of a spatial object or the geometric primitives (For example point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
             "value": "NOTE"
           },
           {
@@ -18316,7 +18316,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
+          "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (For example point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -18326,8 +18326,8 @@
       },
       "name": "DirectPosition",
       "usage": {
-        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
-        "fr": "[UPDATED] Généralement utilisé pour décrire la géométrie d'un objet spatial ou les primitives géométriques (par exemple point, ligne, plan) qui composent cet objet. Cependant, un DirectPosition peut également être autonome pour décrire une position dans l'espace. La position est donnée dans un système de référence de coordonnées. Ce système de référence est explicitement spécifié avec DirectPosition, sauf s'il fait partie d'un objet spatial (par exemple une primitive géométrique) pour lequel un système de référence est déjà indiqué. Pour information : un système de référence de coordonnées diffère d'un système de référence spatiale indirecte dans la mesure où les positions sont spécifiées directement par des coordonnées plutôt qu'indirectement par une adresse ou un nom de lieu."
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (For example point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
+        "fr": "Généralement utilisé pour décrire la géométrie d'un objet spatial ou les primitives géométriques (par exemple point, ligne, plan) qui composent cet objet. Cependant, un DirectPosition peut également être autonome pour décrire une position dans l'espace. La position est donnée dans un système de référence de coordonnées. Ce système de référence est explicitement spécifié avec DirectPosition, sauf s'il fait partie d'un objet spatial (par exemple une primitive géométrique) pour lequel un système de référence est déjà indiqué. Pour information : un système de référence de coordonnées diffère d'un système de référence spatiale indirecte dans la mesure où les positions sont spécifiées directement par des coordonnées plutôt qu'indirectement par une adresse ou un nom de lieu."
       }
     },
     {
@@ -19435,7 +19435,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. depth."
+            "value": "For example depth."
           },
           {
             "key": "uri",
@@ -19457,7 +19457,7 @@
           "en": "vertical position detail"
         },
         "usage": {
-          "en": "E.g. depth."
+          "en": "For example depth."
         }
       },
       "generalization": [],
@@ -19478,8 +19478,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. depth.",
-        "fr": "[UPDATED] Par ex.  : profondeur."
+        "en": "For example depth.",
+        "fr": "Par ex.  : profondeur."
       }
     },
     {
@@ -19771,7 +19771,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
+            "value": "For example transport, distribution and collection from gas, electricity and sewage respectively."
           },
           {
             "key": "uri",
@@ -19795,7 +19795,7 @@
           "en": "utility delivery type"
         },
         "usage": {
-          "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
+          "en": "For example transport, distribution and collection from gas, electricity and sewage respectively."
         }
       },
       "generalization": [],
@@ -19816,8 +19816,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
-        "fr": "[UPDATED] Par ex.: transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
+        "en": "For example transport, distribution and collection from gas, electricity and sewage respectively.",
+        "fr": "Par ex.: transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
       }
     },
     {
@@ -20112,7 +20112,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. the size in the case of a Dimension."
+            "value": "For example the size in the case of a Dimension."
           },
           {
             "key": "uri",
@@ -20136,7 +20136,7 @@
           "en": "text"
         },
         "usage": {
-          "en": "E.g. the size in the case of a Dimension."
+          "en": "For example the size in the case of a Dimension."
         }
       },
       "generalization": [],
@@ -20156,8 +20156,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. the size in the case of a Dimension.",
-        "fr": "[UPDATED] Par ex.: la taille dans le cas d'une Indication de mesure."
+        "en": "For example the size in the case of a Dimension.",
+        "fr": "Par ex.: la taille dans le cas d'une Indication de mesure."
       }
     },
     {
@@ -20165,14 +20165,14 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
       "ap-definition-en": {
-        "en": "Temperature of pipe contents."
+        "en": "The maximum allowable temperature of the contents of the Pipe."
       },
       "ap-label-en": {
         "en": "temperature"
       },
       "codelist": [],
       "definition": {
-        "en": "Temperature of pipe contents.",
+        "en": "The maximum allowable temperature of the contents of the Pipe.",
         "fr": "[UPDATED] Température du contenu de la conduite."
       },
       "domain": [
@@ -20204,7 +20204,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Temperature of pipe contents."
+            "value": "The maximum allowable temperature of the contents of the Pipe."
           },
           {
             "key": "label-nl",
@@ -20235,14 +20235,14 @@
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Temperature of pipe contents."
+          "en": "The maximum allowable temperature of the contents of the Pipe."
         },
         "ap-label-en": {
           "en": "temperature"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Temperature of pipe contents."
+          "en": "The maximum allowable temperature of the contents of the Pipe."
         },
         "label": {
           "en": "temperature"
@@ -20447,7 +20447,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm."
+            "value": "For example 4g10 used to specify a 4-core cable with a diameter of 10 mm."
           },
           {
             "key": "definition-en",
@@ -20476,7 +20476,7 @@
           "en": "technical specification"
         },
         "usage": {
-          "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm."
+          "en": "For example 4g10 used to specify a 4-core cable with a diameter of 10 mm."
         }
       },
       "generalization": [],
@@ -20496,8 +20496,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
-        "fr": "[UPDATED] Par ex.: 4g10 pour spécifier un câble à 4 fils d'un diamètre de 10mm."
+        "en": "For example 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
+        "fr": "Par ex.: 4g10 pour spécifier un câble à 4 fils d'un diamètre de 10mm."
       }
     },
     {
@@ -20579,7 +20579,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. the default Depth at which the elements are located."
+            "value": "For example the default Depth at which the elements are located."
           },
           {
             "key": "uri",
@@ -20603,7 +20603,7 @@
           "en": "standard vertical position detail"
         },
         "usage": {
-          "en": "E.g. the default Depth at which the elements are located."
+          "en": "For example the default Depth at which the elements are located."
         }
       },
       "generalization": [],
@@ -20624,8 +20624,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. the default Depth at which the elements are located.",
-        "fr": "[UPDATED] Par ex. la Profondeur standard à laquelle les éléments sont situés."
+        "en": "For example the default Depth at which the elements are located.",
+        "fr": "Par ex. la Profondeur standard à laquelle les éléments sont situés."
       }
     },
     {
@@ -20814,7 +20814,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable."
+            "value": "Typically to align the Annotation with the Object it relates to, for example parallel to the cable."
           },
           {
             "key": "uri",
@@ -20838,7 +20838,7 @@
           "en": "rotation angle"
         },
         "usage": {
-          "en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable."
+          "en": "Typically to align the Annotation with the Object it relates to, for example parallel to the cable."
         }
       },
       "generalization": [],
@@ -20859,7 +20859,7 @@
         }
       ],
       "usage": {
-        "en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable.",
+        "en": "Typically to align the Annotation with the Object it relates to, for example parallel to the cable.",
         "fr": "[UPDATED] Généralement pour aligner l'Annotation à l'Objet auquel elle se rapporte, par ex. parallèlement au câble."
       }
     },
@@ -21270,7 +21270,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
+            "value": "For convex shaped objects (For example a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
           },
           {
             "key": "label-nl",
@@ -21319,7 +21319,7 @@
           "en": "pipe diameter"
         },
         "usage": {
-          "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
+          "en": "For convex shaped objects (For example a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
         }
       },
       "generalization": [],
@@ -21340,8 +21340,8 @@
         }
       ],
       "usage": {
-        "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
-        "fr": "[UPDATED] Pour les objets de forme convexe (par exemple un cercle), le diamètre est défini comme la plus grande distance pouvant être formée entre deux tangentes parallèles."
+        "en": "For convex shaped objects (For example a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
+        "fr": "Pour les objets de forme convexe (par exemple un cercle), le diamètre est défini comme la plus grande distance pouvant être formée entre deux tangentes parallèles."
       }
     },
     {
@@ -25171,7 +25171,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "E.g. underground, above ground."
+            "value": "For example underground, above ground."
           },
           {
             "key": "uri",
@@ -25195,7 +25195,7 @@
           "en": "vertical position"
         },
         "usage": {
-          "en": "E.g. underground, above ground."
+          "en": "For example underground, above ground."
         }
       },
       "generalization": [],
@@ -25216,8 +25216,8 @@
         }
       ],
       "usage": {
-        "en": "E.g. underground, above ground.",
-        "fr": "[UPDATED] Par ex.: souterrain, en surface."
+        "en": "For example underground, above ground.",
+        "fr": "Par ex.: souterrain, en surface."
       }
     },
     {
@@ -26565,7 +26565,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_fr.j2",
   "title": "Câbles et Conduites",
-  "toolchaincommit": "9488c79e431a7457e34194ff97dcb8b6c960e36a",
+  "toolchaincommit": "da591c9ca2d3f5e41c81addbca7f7f2e4e54c24f",
   "translation": [
     {
       "language": "en",

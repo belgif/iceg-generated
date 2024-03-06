@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/73baa2a7c028ac525a3f31fc03a11f5d64538115",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/73baa2a7c028ac525a3f31fc03a11f5d64538115/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/d5080ae05cfa78285ff49c552d64e23cc8a75d81",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/d5080ae05cfa78285ff49c552d64e23cc8a75d81/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -59,7 +59,7 @@
             "en": "Text of the Annotation."
           },
           "usage": {
-            "en": "[UPDATED] E.g. the size in the case of a Dimension."
+            "en": "For example the size in the case of a Dimension."
           },
           "domain": [
             {
@@ -93,7 +93,7 @@
             "definition-en": "Text of the Annotation.",
             "usageNote-nl": "Bvb de maat in het geval van een Maataanduiding.",
             "ap-usageNote-nl": "Bvb de maat in het geval van een Maataanduiding.",
-            "usageNote-en": "E.g. the size in the case of a Dimension.",
+            "usageNote-en": "For example the size in the case of a Dimension.",
             "uri": "https://vocab.belgif.be/ns/utility-services#text"
           }
         },
@@ -108,7 +108,7 @@
             "en": "Angle by which the Annotation should be rotated when displayed."
           },
           "usage": {
-            "en": "[UPDATED] Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable."
+            "en": "Typically to align the Annotation with the Object it relates to, for example parallel to the cable."
           },
           "domain": [
             {
@@ -142,7 +142,7 @@
             "usageNote-nl": "Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel.",
             "ap-usageNote-nl": "Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel.",
             "definition-en": "Angle by which the Annotation should be rotated when displayed.",
-            "usageNote-en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable.",
+            "usageNote-en": "Typically to align the Annotation with the Object it relates to, for example parallel to the cable.",
             "uri": "https://vocab.belgif.be/ns/utility-services#rotationAngle"
           }
         },
@@ -206,7 +206,7 @@
             "en": "Annotation of which the Annotation is a part."
           },
           "usage": {
-            "en": "[UPDATED] E.g. the Dimension to which the dimension line belongs."
+            "en": "For example the Dimension to which the dimension line belongs."
           },
           "domain": [
             {
@@ -237,7 +237,7 @@
             "ap-label-nl": "geheel",
             "ap-definition-nl": "Annotatie waarvan de Annotatie deel uitmaakt.",
             "label-nl": "geheel",
-            "usageNote-en": "E.g. the Dimension to which the dimension line belongs.",
+            "usageNote-en": "For example the Dimension to which the dimension line belongs.",
             "definition-nl": "Annotatie waarvan de Annotatie deel uitmaakt.",
             "uri": "https://vocab.belgif.be/ns/utility-services#whole",
             "usageNote-nl": "Bvb de Maataanduiding waartoe de maatvoeringslijn behoort.",
@@ -255,7 +255,7 @@
             "en": "Annotation that is part of the Annotation."
           },
           "usage": {
-            "en": "[UPDATED] E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line."
+            "en": "For example the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line."
           },
           "domain": [
             {
@@ -282,7 +282,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-nl": "deel",
-            "usageNote-en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
+            "usageNote-en": "For example the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
             "ap-usageNote-nl": "Bvb de maatvoeringslijn in het geval van een Maataanduiding bestaande uit twee pijlen en een maatvoeringshulplijn.",
             "uri": "https://vocab.belgif.be/ns/utility-services#part",
             "ap-label-nl": "deel",
@@ -304,7 +304,7 @@
             "en": "Geometry of the Annotation."
           },
           "usage": {
-            "en": "[UPDATED] E.g. the location and shape of a Dimension."
+            "en": "For example the location and shape of a Dimension."
           },
           "domain": [
             {
@@ -338,7 +338,7 @@
             "definition-en": "Geometry of the Annotation.",
             "ap-usageNote-nl": "Bvb de ligging en vorm van een Maataanduiding.",
             "uri": "http://www.w3.org/ns/locn#geometry",
-            "usageNote-en": "E.g. the location and shape of a Dimension."
+            "usageNote-en": "For example the location and shape of a Dimension."
           }
         },
         {
@@ -352,7 +352,7 @@
             "en": "Classification of the Annotation."
           },
           "usage": {
-            "en": "[UPDATED] In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+            "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
           },
           "domain": [
             {
@@ -385,7 +385,7 @@
             "definition-nl": "Aard van de Annotatie.",
             "definition-en": "Classification of the Annotation.",
             "uri": "http://purl.org/dc/elements/1.1/type",
-            "usageNote-en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+            "usageNote-en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
           }
         }
       ]
@@ -401,7 +401,7 @@
         "en": "Physical point-shaped part of the UtilityNetwork."
       },
       "usage": {
-        "en": "[UPDATED] Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+        "en": "[UPDATED] an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
       },
       "parents": [
         {
@@ -421,7 +421,7 @@
         "definition-nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk.",
         "usageNote-nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
         "ap-usageNote-nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
-        "usageNote-en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
+        "usageNote-en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
         "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
       },
       "properties": [
@@ -679,10 +679,10 @@
       },
       "sort": "Cable and Pipe Container",
       "description": {
-        "en": "[UPDATED] Object that could potentially contain cables and/or pipes/ducts."
+        "en": "Object that could potentially contain cables and/or pipes/ducts."
       },
       "usage": {
-        "en": "[UPDATED] For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+        "en": "[UPDATED] For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
       },
       "parents": [],
       "rawTags": {
@@ -695,7 +695,7 @@
         "ap-usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
         "uri": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
         "definition-en": "Object that could potentially contain cables and/or pipes/ducts.",
-        "usageNote-en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+        "usageNote-en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
       },
       "properties": []
     },
@@ -1253,7 +1253,7 @@
         "en": "Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface."
       },
       "usage": {
-        "en": "[UPDATED] E.g. sewer cover."
+        "en": "For example sewer cover."
       },
       "parents": [
         {
@@ -1267,7 +1267,7 @@
       "rawTags": {
         "label-en": "Manhole",
         "definition-en": "Simple Utility Node Container that takes the form of a covered opening in the road surface providing access to the subsurface.",
-        "usageNote-en": "E.g. sewer cover.",
+        "usageNote-en": "For example sewer cover.",
         "label-nl": "Mangat",
         "ap-label-nl": "Mangat",
         "ap-definition-nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond.",
@@ -1362,7 +1362,7 @@
       },
       "sort": "Pipe",
       "description": {
-        "en": "[UPDATED] A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+        "en": "[UPDATED] A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
       },
       "usage": {},
       "parents": [
@@ -1383,7 +1383,7 @@
       ],
       "rawTags": {
         "label-en": "Pipe",
-        "definition-en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another.",
+        "definition-en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes",
         "label-nl": "Pijp",
         "ap-label-nl": "Pijp",
         "ap-definition-nl": "Een Nutsvoorzieninglinkset bedoeld voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere of als omhulsel van Kabels of andere Pijpen.",
@@ -1450,7 +1450,7 @@
             "en": "Outer diameter of the Pipe."
           },
           "usage": {
-            "en": "[UPDATED] For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
+            "en": "For convex shaped objects (For example a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
           },
           "domain": [
             {
@@ -1478,7 +1478,7 @@
           "rawTags": {
             "label-en": "pipe diameter",
             "definition-en": "Outer diameter of the Pipe.",
-            "usageNote-en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
+            "usageNote-en": "For convex shaped objects (For example a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
             "label-nl": "pijpdiameter",
             "ap-label-nl": "pijpdiameter",
             "ap-definition-nl": "Buitendiameter van de Pijp.",
@@ -1676,7 +1676,7 @@
         "en": "Drawing showing the parts or details of something."
       },
       "usage": {
-        "en": "[UPDATED] For example, in this context, an additional detail plan or, for example, a longitudinal profile."
+        "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
       },
       "parents": [
         {
@@ -2307,7 +2307,7 @@
             "en": "temperature"
           },
           "description": {
-            "en": "[UPDATED] Temperature of pipe contents."
+            "en": "The maximum allowable temperature of the contents of the Pipe."
           },
           "usage": {},
           "domain": [
@@ -2335,7 +2335,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "temperature",
-            "definition-en": "Temperature of pipe contents.",
+            "definition-en": "The maximum allowable temperature of the contents of the Pipe.",
             "label-nl": "temperatuur",
             "ap-label-nl": "temperatuur",
             "ap-definition-nl": "Temperatuur van de inhoud van de pijp.",
@@ -2774,7 +2774,7 @@
         "en": "An unbranched continuous path in the Utility Network."
       },
       "usage": {
-        "en": "[UPDATED] In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
+        "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
       },
       "parents": [
         {
@@ -2999,7 +2999,7 @@
             "en": "Way in which the utility is delivered."
           },
           "usage": {
-            "en": "[UPDATED] E.g. transport, distribution and collection from gas, electricity and sewage respectively."
+            "en": "For example transport, distribution and collection from gas, electricity and sewage respectively."
           },
           "domain": [
             {
@@ -3033,7 +3033,7 @@
             "definition-nl": "Manier waarop de nutsvoorziening wordt geleverd.",
             "usageNote-nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater.",
             "ap-usageNote-nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater.",
-            "usageNote-en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
+            "usageNote-en": "For example transport, distribution and collection from gas, electricity and sewage respectively.",
             "uri": "https://vocab.belgif.be/ns/utility-services#utilityDeliveryType"
           }
         },
@@ -3048,7 +3048,7 @@
             "en": "Further specification of the Link Set."
           },
           "usage": {
-            "en": "[UPDATED] E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm."
+            "en": "For example 4g10 used to specify a 4-core cable with a diameter of 10 mm."
           },
           "domain": [
             {
@@ -3081,7 +3081,7 @@
             "definition-nl": "Nadere bepaling van de linkset.",
             "usageNote-nl": "Bijvoorbeeld 4g10 om 4-aderige kabel van 10mm doorsnee te specifiëren.",
             "ap-usageNote-nl": "Bijvoorbeeld 4g10 om 4-aderige kabel van 10mm doorsnee te specifiëren.",
-            "usageNote-en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
+            "usageNote-en": "For example 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
             "definition-en": "Further specification of the Link Set.",
             "uri": "https://vocab.belgif.be/ns/utility-services#technicalSpecification"
           }
@@ -3370,7 +3370,7 @@
         "en": "Collection of network elements of one type of utility service."
       },
       "usage": {
-        "en": "[UPDATED] For example, an electricity network, a sewerage network, a gas network. The network elements in question are, for example, the elements of the network of an internet provider: optical cables arriving in cabinets on the street via multiplexers connected to copper cables to the homes in that street."
+        "en": "For example, an electricity network, a sewerage network, a gas network. The network elements in question are, for example, the elements of the network of an internet provider: optical cables arriving in cabinets on the street via multiplexers connected to copper cables to the homes in that street."
       },
       "parents": [
         {
@@ -3405,7 +3405,7 @@
             "en": "Default Vertical Position of elements in the network."
           },
           "usage": {
-            "en": "[UPDATED] E.g. the default Depth at which the elements are located."
+            "en": "For example the default Depth at which the elements are located."
           },
           "domain": [
             {
@@ -3439,7 +3439,7 @@
             "usageNote-nl": "Bv de standaard Diepte waarop de elementen zich bevinden.",
             "ap-usageNote-nl": "Bv de standaard Diepte waarop de elementen zich bevinden.",
             "definition-en": "Default Vertical Position of elements in the network.",
-            "usageNote-en": "E.g. the default Depth at which the elements are located.",
+            "usageNote-en": "For example the default Depth at which the elements are located.",
             "uri": "https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail"
           }
         },
@@ -3815,13 +3815,13 @@
         "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network."
       },
       "usage": {
-        "en": "[UPDATED] NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc)."
+        "en": "NOTE: is abstract, must be specialized (For example as Electricity Cable, Sewer, Manhole, Cabinet etc)."
       },
       "parents": [],
       "rawTags": {
         "label-en": "Utility Network Element",
         "definition-en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network.",
-        "usageNote-en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).",
+        "usageNote-en": "NOTE: is abstract, must be specialized (For example as Electricity Cable, Sewer, Manhole, Cabinet etc).",
         "label-nl": "Nustvoorzieningnetwerkelement",
         "ap-label-nl": "Nustvoorzieningnetwerkelement",
         "ap-definition-nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult.",
@@ -3840,7 +3840,7 @@
           },
           "description": {},
           "usage": {
-            "en": "[UPDATED] E.g. depth."
+            "en": "For example depth."
           },
           "domain": [
             {
@@ -3873,7 +3873,7 @@
             "definition-nl": "Detail van de VerticalePositie van het element.",
             "usageNote-nl": "Bv diepte.",
             "ap-usageNote-nl": "Bv diepte.",
-            "usageNote-en": "E.g. depth.",
+            "usageNote-en": "For example depth.",
             "uri": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail"
           }
         },
@@ -4064,7 +4064,7 @@
             "en": "General indication of the Vertical Position of the element."
           },
           "usage": {
-            "en": "[UPDATED] E.g. underground, above ground."
+            "en": "For example underground, above ground."
           },
           "domain": [
             {
@@ -4098,7 +4098,7 @@
             "usageNote-nl": "Bv ondergronds, bovengronds.",
             "ap-usageNote-nl": "Bv ondergronds, bovengronds.",
             "definition-en": "General indication of the Vertical Position of the element.",
-            "usageNote-en": "E.g. underground, above ground.",
+            "usageNote-en": "For example underground, above ground.",
             "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.verticalPosition"
           }
         },
@@ -5014,7 +5014,7 @@
             "en": "Unit identifier."
           },
           "usage": {
-            "en": "[UPDATED] E.g. m for meter."
+            "en": "[UPDATED] For example"
           },
           "domain": [
             {
@@ -5049,7 +5049,7 @@
             "usageNote-nl": "Bvb m voor meter.",
             "ap-usageNote-nl": "Bvb m voor meter.",
             "definition-en": "Unit identifier.",
-            "usageNote-en": "E.g. m for meter."
+            "usageNote-en": "For example"
           }
         }
       ]
@@ -5463,7 +5463,7 @@
         "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
       },
       "usage": {
-        "en": "[UPDATED] The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (For example entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
       },
       "parents": [],
       "rawTags": {
@@ -5473,7 +5473,7 @@
         "label-nl": "Adres",
         "label-en": "Address",
         "definition-en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code.",
-        "usageNote-en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
+        "usageNote-en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (For example entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
         "ap-label-nl": "Adres",
         "uri": "https://vocab.belgif.be/ns/address#Adress"
       },
@@ -5490,13 +5490,13 @@
         "en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place."
       },
       "usage": {
-        "en": "[UPDATED] In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
+        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to For example a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
       },
       "parents": [],
       "rawTags": {
         "label-en": "Activity Complex",
         "definition-en": "Technical and economic unit managed by the same operator where certain activities regarding production and services take place.",
-        "usageNote-en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
+        "usageNote-en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to For example a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
         "label-nl": "Activiteitencomplex",
         "ap-label-nl": "Activiteitencomplex",
         "ap-definition-nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening.",
@@ -6151,7 +6151,7 @@
         "en": "Collection of Network Elements."
       },
       "usage": {
-        "en": "[UPDATED] The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport."
+        "en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport."
       },
       "parents": [],
       "rawTags": {
@@ -8392,7 +8392,7 @@
         "en": "Distance between two points on a curve."
       },
       "usage": {
-        "en": "[UPDATED] Used here to describe the size of something, for example the height of a tower."
+        "en": "Used here to describe the size of something, for example the height of a tower."
       },
       "parents": [
         {
@@ -8427,7 +8427,7 @@
             "en": "Unit in which the Length is expressed."
           },
           "usage": {
-            "en": "[UPDATED] E.g. meters, centimeters."
+            "en": "For example meters, centimeters."
           },
           "domain": [
             {
@@ -8462,7 +8462,7 @@
             "usageNote-nl": "Bvb meter, centimeter.",
             "ap-usageNote-nl": "Bvb meter, centimeter.",
             "definition-en": "Unit in which the Length is expressed.",
-            "usageNote-en": "E.g. meters, centimeters."
+            "usageNote-en": "For example meters, centimeters."
           }
         }
       ]
@@ -8590,7 +8590,7 @@
         "en": "A 1-dimensional geometric primitive."
       },
       "usage": {
-        "en": "[UPDATED] Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, For example the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
       },
       "parents": [
         {
@@ -8611,7 +8611,7 @@
         "usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
         "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
         "definition-en": "A 1-dimensional geometric primitive.",
-        "usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
+        "usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, For example the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
       },
       "properties": []
     },
@@ -8626,7 +8626,7 @@
         "en": "A 0-dimensional geometric primitive."
       },
       "usage": {
-        "en": "[UPDATED] Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, For example xyz-coordinates in and 3-axis orthogonal coordinate system."
       },
       "parents": [
         {
@@ -8647,7 +8647,7 @@
         "usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
         "ap-usageNote-nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
         "definition-en": "A 0-dimensional geometric primitive.",
-        "usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
+        "usageNote-en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, For example xyz-coordinates in and 3-axis orthogonal coordinate system."
       },
       "properties": []
     },
@@ -9554,7 +9554,7 @@
             "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit."
           },
           "usage": {
-            "en": "[UPDATED] E.g. the name of the hamlet in which the address is located."
+            "en": "For example the name of the hamlet in which the address is located."
           },
           "domain": [
             {
@@ -9586,7 +9586,7 @@
             "ap-usageNote-nl": "Bvb de naam van het gehucht waarin het adres ligt.",
             "definition-en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit.",
             "label-en": "address area",
-            "usageNote-en": "E.g. the name of the hamlet in which the address is located.",
+            "usageNote-en": "For example the name of the hamlet in which the address is located.",
             "ap-label-nl": "adresgebied",
             "definition-nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is",
             "usageNote-nl": "Bvb de naam van het gehucht waarin het adres ligt."
@@ -9829,14 +9829,14 @@
         "en": "Holder of the coordinates of a position in a coordinate reference system."
       },
       "usage": {
-        "en": "[UPDATED] Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (For example point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       },
       "parents": [],
       "rawTags": {
         "definition-nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem.",
         "label-nl": "DirectePositie",
         "usageNote-nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam.",
-        "usageNote-en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
+        "usageNote-en": "Typically used to describe the geometry of a spatial object or the geometric primitives (For example point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
         "ap-label-nl": "DirectePositie",
         "definition-en": "Holder of the coordinates of a position in a coordinate reference system.",
         "label-en": "Direct Position",

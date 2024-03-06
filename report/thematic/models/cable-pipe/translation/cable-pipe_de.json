@@ -41,7 +41,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
+        "en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
         "de": "Enter your translation here"
       }
     },
@@ -85,7 +85,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n",
         "de": "Enter your translation here"
       }
     },
@@ -181,7 +181,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. sewer cover.",
+        "en": "For example sewer cover.",
         "de": "Enter your translation here"
       }
     },
@@ -205,7 +205,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another.",
+        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes",
         "de": "Enter your translation here"
       }
     },
@@ -409,7 +409,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc).",
+        "en": "NOTE: is abstract, must be specialized (For example as Electricity Cable, Sewer, Manhole, Cabinet etc).",
         "de": "Enter your translation here"
       }
     },
@@ -507,7 +507,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. depth.",
+        "en": "For example depth.",
         "de": "Enter your translation here"
       }
     },
@@ -547,7 +547,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively.",
+        "en": "For example transport, distribution and collection from gas, electricity and sewage respectively.",
         "de": "Enter your translation here"
       }
     },
@@ -587,7 +587,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. the size in the case of a Dimension.",
+        "en": "For example the size in the case of a Dimension.",
         "de": "Enter your translation here"
       }
     },
@@ -599,7 +599,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Temperature of pipe contents.",
+        "en": "The maximum allowable temperature of the contents of the Pipe.",
         "de": "Enter your translation here"
       }
     },
@@ -627,7 +627,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
+        "en": "For example 4g10 used to specify a 4-core cable with a diameter of 10 mm.",
         "de": "Enter your translation here"
       }
     },
@@ -643,7 +643,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. the default Depth at which the elements are located.",
+        "en": "For example the default Depth at which the elements are located.",
         "de": "Enter your translation here"
       }
     },
@@ -671,7 +671,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable.",
+        "en": "Typically to align the Annotation with the Object it relates to, for example parallel to the cable.",
         "de": "Enter your translation here"
       }
     },
@@ -731,7 +731,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
+        "en": "For convex shaped objects (For example a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery.",
         "de": "Enter your translation here"
       }
     },
@@ -1175,7 +1175,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. underground, above ground.",
+        "en": "For example underground, above ground.",
         "de": "Enter your translation here"
       }
     },
@@ -1417,7 +1417,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, For example the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points.",
         "de": "Enter your translation here"
       }
     },
@@ -1433,7 +1433,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system.",
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, For example xyz-coordinates in and 3-axis orthogonal coordinate system.",
         "de": "Enter your translation here"
       }
     },
@@ -1869,7 +1869,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
+        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (For example entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation.",
         "de": "Enter your translation here"
       }
     },
@@ -1885,7 +1885,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
+        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to For example a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes.",
         "de": "Enter your translation here"
       }
     },
@@ -1901,7 +1901,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (For example point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name.",
         "de": "Enter your translation here"
       }
     },
@@ -2035,7 +2035,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. the Dimension to which the dimension line belongs.",
+        "en": "For example the Dimension to which the dimension line belongs.",
         "de": "Enter your translation here"
       }
     },
@@ -2051,7 +2051,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
+        "en": "For example the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line.",
         "de": "Enter your translation here"
       }
     },
@@ -2603,7 +2603,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. the location and shape of a Dimension.",
+        "en": "For example the location and shape of a Dimension.",
         "de": "Enter your translation here"
       }
     },
@@ -2727,7 +2727,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. the name of the hamlet in which the address is located.",
+        "en": "For example the name of the hamlet in which the address is located.",
         "de": "Enter your translation here"
       }
     },
@@ -2983,7 +2983,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
         "de": "Enter your translation here"
       }
     },
@@ -3095,7 +3095,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. m for meter.",
+        "en": "For example",
         "de": "Enter your translation here"
       }
     },
@@ -3135,7 +3135,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "E.g. meters, centimeters.",
+        "en": "For example meters, centimeters.",
         "de": "Enter your translation here"
       }
     }
