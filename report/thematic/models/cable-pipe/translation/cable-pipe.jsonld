@@ -1234,7 +1234,7 @@
             "@id": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
-                "en": "Object that could potentially contain cables or pipes/ducts."
+                "en": "Object that could potentially contain cables and/or pipes/ducts."
             },
             "usage": {
                 "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
@@ -1243,7 +1243,7 @@
                 "en": "Cable and Pipe Container"
             },
             "definition": {
-                "en": "Object that could potentially contain cables or pipes/ducts."
+                "en": "Object that could potentially contain cables and/or pipes/ducts."
             },
             "label": {
                 "en": "Cable and Pipe Container"
@@ -1260,7 +1260,7 @@
                     "en": "Cable and Pipe Container"
                 },
                 "definition": {
-                    "en": "Object that could potentially contain cables or pipes/ducts."
+                    "en": "Object that could potentially contain cables and/or pipes/ducts."
                 },
                 "usage": {
                     "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
@@ -1269,7 +1269,7 @@
                     "en": "Cable and Pipe Container"
                 },
                 "ap-definition-en": {
-                    "en": "Object that could potentially contain cables or pipes/ducts."
+                    "en": "Object that could potentially contain cables and/or pipes/ducts."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -1316,7 +1316,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Object that could potentially contain cables or pipes/ducts.",
+                        "value": "Object that could potentially contain cables and/or pipes/ducts.",
                         "note": "null"
                     },
                     {
@@ -2211,8 +2211,11 @@
             "ap-definition-en": {
                 "en": "Drawing showing the parts or details of something."
             },
+            "ap-usageNote-en": {
+                "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
+            },
             "usage": {
-                "en": "Eg a ground plan, a street plan."
+                "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
             },
             "ap-label-en": {
                 "en": "Plan"
@@ -2245,7 +2248,7 @@
                     "en": "Drawing showing the parts or details of something."
                 },
                 "usage": {
-                    "en": "Eg a ground plan, a street plan."
+                    "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
                 },
                 "ap-label-en": {
                     "en": "Plan"
@@ -2253,7 +2256,9 @@
                 "ap-definition-en": {
                     "en": "Drawing showing the parts or details of something."
                 },
-                "ap-usageNote-en": "",
+                "ap-usageNote-en": {
+                    "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
+                },
                 "ap-codelist": "",
                 "RawTags": [
                     {
@@ -2288,22 +2293,27 @@
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "Bvb plattegrond, stratenplan.",
+                        "value": "Bijvoorbeeld in deze context een bijkomend detailplan of bijvoorbeeld een lengteprofiel.",
                         "note": "null"
                     },
                     {
                         "key": "ap-usageNote-nl",
-                        "value": "Bvb plattegrond, stratenplan.",
+                        "value": "Bijvoorbeeld in deze context een bijkomend detailplan of bijvoorbeeld een lengteprofiel.",
                         "note": "null"
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "Eg a ground plan, a street plan.",
+                        "value": "For example, in this context, an additional detail plan or, for example, a longitudinal profile.",
                         "note": "null"
                     },
                     {
                         "key": "uri",
                         "value": "https://vocab.belgif.be/ns/utility-services#Plan",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-usageNote-en",
+                        "value": "For example, in this context, an additional detail plan or, for example, a longitudinal profile.",
                         "note": "null"
                     }
                 ],
@@ -2429,13 +2439,13 @@
             "@id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
-                "en": "Area where digging is not allowed."
+                "en": "Area within which certain regulations apply when carrying out works."
             },
             "ap-label-en": {
                 "en": "Protected Area"
             },
             "definition": {
-                "en": "Area where digging is not allowed."
+                "en": "Area within which certain regulations apply when carrying out works."
             },
             "label": {
                 "en": "Protected Area"
@@ -2452,14 +2462,14 @@
                     "en": "Protected Area"
                 },
                 "definition": {
-                    "en": "Area where digging is not allowed."
+                    "en": "Area within which certain regulations apply when carrying out works."
                 },
                 "usage": "",
                 "ap-label-en": {
                     "en": "Protected Area"
                 },
                 "ap-definition-en": {
-                    "en": "Area where digging is not allowed."
+                    "en": "Area within which certain regulations apply when carrying out works."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -2491,12 +2501,12 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "Area where digging is not allowed.",
+                        "value": "Area within which certain regulations apply when carrying out works.",
                         "note": "null"
                     },
                     {
                         "key": "usageNote-nl",
-                        "value": "Bvb een drinkwatergebied of ondergrondse gasopslag moeten extra maatregelen worden genomen om de nevenschade of veiligheid van de graafwerken te beperken.",
+                        "value": "Bijvoorbeeldeen drinkwatergebied of ondergrondse gasopslag moeten extra maatregelen worden genomen om de nevenschade of veiligheid van de graafwerken te beperken.",
                         "note": "null"
                     },
                     {
@@ -4147,6 +4157,9 @@
             "ap-definition-en": {
                 "en": "Way to alert for the presence of the Link Set."
             },
+            "usage": {
+                "en": "For example, an underground protective plate or net."
+            },
             "ap-label-en": {
                 "en": "warning type"
             },
@@ -4176,7 +4189,9 @@
                 "definition": {
                     "en": "Way to alert for the presence of the Link Set."
                 },
-                "usage": "",
+                "usage": {
+                    "en": "For example, an underground protective plate or net."
+                },
                 "ap-label-en": {
                     "en": "warning type"
                 },
@@ -4229,6 +4244,11 @@
                     {
                         "key": "uri",
                         "value": "https://vocab.belgif.be/ns/utility-services#warningType",
+                        "note": "null"
+                    },
+                    {
+                        "key": "usageNote-en",
+                        "value": "For example, an underground protective plate or net.",
                         "note": "null"
                     }
                 ],
@@ -5031,13 +5051,13 @@
             "name": "temperature",
             "inpackage": "ACTIVE_PACKAGE",
             "ap-definition-en": {
-                "en": "The maximum allowable temperature of the contents of the Pipe."
+                "en": "Temperature of pipe contents."
             },
             "ap-label-en": {
                 "en": "temperature"
             },
             "definition": {
-                "en": "The maximum allowable temperature of the contents of the Pipe."
+                "en": "Temperature of pipe contents."
             },
             "label": {
                 "en": "temperature"
@@ -5060,14 +5080,14 @@
                     "en": "temperature"
                 },
                 "definition": {
-                    "en": "The maximum allowable temperature of the contents of the Pipe."
+                    "en": "Temperature of pipe contents."
                 },
                 "usage": "",
                 "ap-label-en": {
                     "en": "temperature"
                 },
                 "ap-definition-en": {
-                    "en": "The maximum allowable temperature of the contents of the Pipe."
+                    "en": "Temperature of pipe contents."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -5079,7 +5099,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "The maximum allowable temperature of the contents of the Pipe.",
+                        "value": "Temperature of pipe contents.",
                         "note": "null"
                     },
                     {
@@ -5094,12 +5114,12 @@
                     },
                     {
                         "key": "ap-definition-nl",
-                        "value": "De maximum toelaatbare temperatuur van de inhoud van de Pijp.",
+                        "value": "Temperatuur van de inhoud van de pijp.",
                         "note": "null"
                     },
                     {
                         "key": "definition-nl",
-                        "value": "De maximum toelaatbare temperatuur van de inhoud van de Pijp.",
+                        "value": "Temperatuur van de inhoud van de pijp.",
                         "note": "null"
                     },
                     {
@@ -25780,12 +25800,12 @@
     "config": "config/config-ap.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "030",
+    "dummy": "031",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "c6cd8803eaa0a347065b134d9cc533faea276577",
-    "toolchaincommit": "37f887b30548155f28949ae4ccf3968d9aa64431",
+    "documentcommit": "73baa2a7c028ac525a3f31fc03a11f5d64538115",
+    "toolchaincommit": "9488c79e431a7457e34194ff97dcb8b6c960e36a",
     "hostname": "https://belgif.github.io/"
 }

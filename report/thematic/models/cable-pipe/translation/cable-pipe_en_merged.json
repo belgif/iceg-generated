@@ -198,7 +198,7 @@
       "name": "Annotation",
       "parents": [],
       "usage": {
-        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+        "en": "[UPDATED] In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
       }
     },
     {
@@ -391,7 +391,7 @@
         "https://vocab.belgif.be/ns/utility-services#UtilityNode"
       ],
       "usage": {
-        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+        "en": "[UPDATED] Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
       }
     },
     {
@@ -601,13 +601,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "ap-definition-en": {
-        "en": "Object that could potentially contain cables or pipes/ducts."
+        "en": "Object that could potentially contain cables and/or pipes/ducts."
       },
       "ap-label-en": {
         "en": "Cable and Pipe Container"
       },
       "definition": {
-        "en": "Object that could potentially contain cables or pipes/ducts."
+        "en": "[UPDATED] Object that could potentially contain cables and/or pipes/ducts."
       },
       "extra": {
         "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
@@ -660,7 +660,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Object that could potentially contain cables or pipes/ducts."
+            "value": "Object that could potentially contain cables and/or pipes/ducts."
           },
           {
             "key": "usageNote-en",
@@ -671,14 +671,14 @@
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Object that could potentially contain cables or pipes/ducts."
+          "en": "Object that could potentially contain cables and/or pipes/ducts."
         },
         "ap-label-en": {
           "en": "Cable and Pipe Container"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Object that could potentially contain cables or pipes/ducts."
+          "en": "Object that could potentially contain cables and/or pipes/ducts."
         },
         "label": {
           "en": "Cable and Pipe Container"
@@ -695,7 +695,7 @@
       "name": "CableAndPipeContainer",
       "parents": [],
       "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+        "en": "[UPDATED] For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
       }
     },
     {
@@ -1389,7 +1389,7 @@
         "https://vocab.belgif.be/ns/utility-services#UtilityNodeContainer"
       ],
       "usage": {
-        "en": "E.g. sewer cover."
+        "en": "[UPDATED] E.g. sewer cover."
       }
     },
     {
@@ -1494,7 +1494,7 @@
         "en": "Pipe"
       },
       "definition": {
-        "en": "A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
+        "en": "[UPDATED] A Utility Link Set for transporting solids, liquids, chemicals or gases from one location to another."
       },
       "extra": {
         "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
@@ -1591,6 +1591,9 @@
       "ap-label-en": {
         "en": "Plan"
       },
+      "ap-usageNote-en": {
+        "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
+      },
       "definition": {
         "en": "Drawing showing the parts or details of something."
       },
@@ -1642,22 +1645,27 @@
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Bvb plattegrond, stratenplan."
+            "value": "Bijvoorbeeld in deze context een bijkomend detailplan of bijvoorbeeld een lengteprofiel."
           },
           {
             "key": "ap-usageNote-nl",
             "note": "null",
-            "value": "Bvb plattegrond, stratenplan."
+            "value": "Bijvoorbeeld in deze context een bijkomend detailplan of bijvoorbeeld een lengteprofiel."
           },
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Eg a ground plan, a street plan."
+            "value": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
           },
           {
             "key": "uri",
             "note": "null",
             "value": "https://vocab.belgif.be/ns/utility-services#Plan"
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -1668,7 +1676,9 @@
         "ap-label-en": {
           "en": "Plan"
         },
-        "ap-usageNote-en": "",
+        "ap-usageNote-en": {
+          "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
+        },
         "definition": {
           "en": "Drawing showing the parts or details of something."
         },
@@ -1677,7 +1687,7 @@
         },
         "parentclasses": "http://xmlns.com/foaf/0.1/Document",
         "usage": {
-          "en": "Eg a ground plan, a street plan."
+          "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile."
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -1689,7 +1699,7 @@
         "http://xmlns.com/foaf/0.1/Document"
       ],
       "usage": {
-        "en": "Eg a ground plan, a street plan."
+        "en": "[UPDATED] For example, in this context, an additional detail plan or, for example, a longitudinal profile."
       }
     },
     {
@@ -1808,13 +1818,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "ap-definition-en": {
-        "en": "Area where digging is not allowed."
+        "en": "Area within which certain regulations apply when carrying out works."
       },
       "ap-label-en": {
         "en": "Protected Area"
       },
       "definition": {
-        "en": "Area where digging is not allowed."
+        "en": "Area within which certain regulations apply when carrying out works."
       },
       "extra": {
         "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
@@ -1852,12 +1862,12 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Area where digging is not allowed."
+            "value": "Area within which certain regulations apply when carrying out works."
           },
           {
             "key": "usageNote-nl",
             "note": "null",
-            "value": "Bvb een drinkwatergebied of ondergrondse gasopslag moeten extra maatregelen worden genomen om de nevenschade of veiligheid van de graafwerken te beperken."
+            "value": "Bijvoorbeeldeen drinkwatergebied of ondergrondse gasopslag moeten extra maatregelen worden genomen om de nevenschade of veiligheid van de graafwerken te beperken."
           },
           {
             "key": "uri",
@@ -1868,14 +1878,14 @@
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Area where digging is not allowed."
+          "en": "Area within which certain regulations apply when carrying out works."
         },
         "ap-label-en": {
           "en": "Protected Area"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Area where digging is not allowed."
+          "en": "Area within which certain regulations apply when carrying out works."
         },
         "label": {
           "en": "Protected Area"
@@ -2691,7 +2701,7 @@
         "https://data.vlaanderen.be/ns/netwerk#Linksequentie"
       ],
       "usage": {
-        "en": "In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
+        "en": "[UPDATED] In fact, a route in the network, for example a water pipe in the flow direction. Routes have a direction, which is why the Link Sequence is composed of Directed Links."
       }
     },
     {
@@ -2920,7 +2930,7 @@
         "https://data.vlaanderen.be/ns/netwerk#Netwerk"
       ],
       "usage": {
-        "en": "For example, an electricity network, a sewerage network, a gas network. The network elements in question are, for example, the elements of the network of an internet provider: optical cables arriving in cabinets on the street via multiplexers connected to copper cables to the homes in that street."
+        "en": "[UPDATED] For example, an electricity network, a sewerage network, a gas network. The network elements in question are, for example, the elements of the network of an internet provider: optical cables arriving in cabinets on the street via multiplexers connected to copper cables to the homes in that street."
       }
     },
     {
@@ -3022,7 +3032,7 @@
       "name": "UtilityNetworkElement",
       "parents": [],
       "usage": {
-        "en": "NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc)."
+        "en": "[UPDATED] NOTE: is abstract, must be specialized (e.g. as Electricity Cable, Sewer, Manhole, Cabinet etc)."
       }
     },
     {
@@ -4052,8 +4062,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "c6cd8803eaa0a347065b134d9cc533faea276577",
-  "dummy": "030",
+  "documentcommit": "73baa2a7c028ac525a3f31fc03a11f5d64538115",
+  "dummy": "031",
   "eap": "IMKL-LD.eap",
   "editors": [],
   "externalproperties": [
@@ -4234,7 +4244,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. the Dimension to which the dimension line belongs."
+        "en": "[UPDATED] E.g. the Dimension to which the dimension line belongs."
       }
     },
     {
@@ -4414,7 +4424,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line."
+        "en": "[UPDATED] E.g. the dimension line in the case of a Dimension, consisting of two arrows and a dimension guide line."
       }
     },
     {
@@ -9727,7 +9737,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. the location and shape of a Dimension."
+        "en": "[UPDATED] E.g. the location and shape of a Dimension."
       }
     },
     {
@@ -10739,7 +10749,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. the name of the hamlet in which the address is located."
+        "en": "[UPDATED] E.g. the name of the hamlet in which the address is located."
       }
     },
     {
@@ -12776,7 +12786,7 @@
         }
       ],
       "usage": {
-        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+        "en": "[UPDATED] In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
       }
     },
     {
@@ -13729,7 +13739,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. m for meter."
+        "en": "[UPDATED] E.g. m for meter."
       }
     },
     {
@@ -14064,7 +14074,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. meters, centimeters."
+        "en": "[UPDATED] E.g. meters, centimeters."
       }
     }
   ],
@@ -14174,7 +14184,7 @@
       },
       "name": "Length",
       "usage": {
-        "en": "Used here to describe the size of something, for example the height of a tower."
+        "en": "[UPDATED] Used here to describe the size of something, for example the height of a tower."
       }
     },
     {
@@ -14706,7 +14716,7 @@
       },
       "name": "Curve",
       "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
+        "en": "[UPDATED] Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
       }
     },
     {
@@ -14814,7 +14824,7 @@
       },
       "name": "Point",
       "usage": {
-        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
+        "en": "[UPDATED] Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
       }
     },
     {
@@ -17744,7 +17754,7 @@
       },
       "name": "Address",
       "usage": {
-        "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
+        "en": "[UPDATED] The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
       }
     },
     {
@@ -17845,7 +17855,7 @@
       },
       "name": "ActivityComplex",
       "usage": {
-        "en": "In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
+        "en": "[UPDATED] In practice, a site, plot, facility, installation, building where the activity takes place. In the context of cables and pipes, it refers to e.g. a power plant, a pumping station, a sewage treatment plant, etc. Includes the infrastructure, equipment and material required for it. May include several sites as long as they are part of the same complex. The activity is preferably identified by NACE codes."
       }
     },
     {
@@ -17941,7 +17951,7 @@
       },
       "name": "DirectPosition",
       "usage": {
-        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
+        "en": "[UPDATED] Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       }
     },
     {
@@ -18613,7 +18623,7 @@
       },
       "name": "Network",
       "usage": {
-        "en": "The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport."
+        "en": "[UPDATED] The reason why the Network Elements are brought together in a Network may differ, for example because they are suitable for a certain type of transport."
       }
     },
     {
@@ -18908,6 +18918,11 @@
             "key": "uri",
             "note": "null",
             "value": "https://vocab.belgif.be/ns/utility-services#warningType"
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "For example, an underground protective plate or net."
           }
         ],
         "Scope": "FULL_DEFINITON",
@@ -18925,7 +18940,9 @@
         "label": {
           "en": "warning type"
         },
-        "usage": ""
+        "usage": {
+          "en": "For example, an underground protective plate or net."
+        }
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
@@ -18942,7 +18959,10 @@
           "EA-Package": "IMKL-LD",
           "uri": "http://www.w3.org/2004/02/skos/core#Concept"
         }
-      ]
+      ],
+      "usage": {
+        "en": "For example, an underground protective plate or net."
+      }
     },
     {
       "@id": "https://vocab.belgif.be/ns/utility-services#verticalPositionDetail",
@@ -19056,7 +19076,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. depth."
+        "en": "[UPDATED] E.g. depth."
       }
     },
     {
@@ -19387,7 +19407,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. transport, distribution and collection from gas, electricity and sewage respectively."
+        "en": "[UPDATED] E.g. transport, distribution and collection from gas, electricity and sewage respectively."
       }
     },
     {
@@ -19720,7 +19740,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. the size in the case of a Dimension."
+        "en": "[UPDATED] E.g. the size in the case of a Dimension."
       }
     },
     {
@@ -19728,14 +19748,14 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
       "ap-definition-en": {
-        "en": "The maximum allowable temperature of the contents of the Pipe."
+        "en": "Temperature of pipe contents."
       },
       "ap-label-en": {
         "en": "temperature"
       },
       "codelist": [],
       "definition": {
-        "en": "The maximum allowable temperature of the contents of the Pipe."
+        "en": "[UPDATED] Temperature of pipe contents."
       },
       "domain": [
         {
@@ -19766,7 +19786,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "The maximum allowable temperature of the contents of the Pipe."
+            "value": "Temperature of pipe contents."
           },
           {
             "key": "label-nl",
@@ -19781,12 +19801,12 @@
           {
             "key": "ap-definition-nl",
             "note": "null",
-            "value": "De maximum toelaatbare temperatuur van de inhoud van de Pijp."
+            "value": "Temperatuur van de inhoud van de pijp."
           },
           {
             "key": "definition-nl",
             "note": "null",
-            "value": "De maximum toelaatbare temperatuur van de inhoud van de Pijp."
+            "value": "Temperatuur van de inhoud van de pijp."
           },
           {
             "key": "uri",
@@ -19797,14 +19817,14 @@
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "The maximum allowable temperature of the contents of the Pipe."
+          "en": "Temperature of pipe contents."
         },
         "ap-label-en": {
           "en": "temperature"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "The maximum allowable temperature of the contents of the Pipe."
+          "en": "Temperature of pipe contents."
         },
         "label": {
           "en": "temperature"
@@ -20053,7 +20073,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm."
+        "en": "[UPDATED] E.g. 4g10 used to specify a 4-core cable with a diameter of 10 mm."
       }
     },
     {
@@ -20178,7 +20198,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. the default Depth at which the elements are located."
+        "en": "[UPDATED] E.g. the default Depth at which the elements are located."
       }
     },
     {
@@ -20408,7 +20428,7 @@
         }
       ],
       "usage": {
-        "en": "Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable."
+        "en": "[UPDATED] Typically to align the Annotation with the Object it relates to, e.g. parallel to the cable."
       }
     },
     {
@@ -20878,7 +20898,7 @@
         }
       ],
       "usage": {
-        "en": "For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
+        "en": "[UPDATED] For convex shaped objects (e.g. a circle) the diameter is defined to be the largest distance that can be formed between two opposite parallel lines tangent to its boundery."
       }
     },
     {
@@ -24677,7 +24697,7 @@
         }
       ],
       "usage": {
-        "en": "E.g. underground, above ground."
+        "en": "[UPDATED] E.g. underground, above ground."
       }
     },
     {
@@ -25999,7 +26019,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "37f887b30548155f28949ae4ccf3968d9aa64431",
+  "toolchaincommit": "9488c79e431a7457e34194ff97dcb8b6c960e36a",
   "translation": [
     {
       "language": "en",
