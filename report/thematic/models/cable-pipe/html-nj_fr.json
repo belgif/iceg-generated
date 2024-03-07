@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/babc0ff8da2c1491e41da82c196c9b506b9f4304",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/babc0ff8da2c1491e41da82c196c9b506b9f4304/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/5c50c4640c594333a54b9e6061e3fae28f31ee35",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/5c50c4640c594333a54b9e6061e3fae28f31ee35/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -731,7 +731,7 @@
       "sort": "Conteneur de Cable et Conduite",
       "description": {
         "en": "Object that could potentially contain cables and/or pipes/ducts.",
-        "fr": "[UPDATED] Objet pouvant potentiellement inclure des câbles ou des conduites."
+        "fr": "Objet pouvant potentiellement inclure des câbles ou des conduites."
       },
       "usage": {
         "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
@@ -1800,7 +1800,7 @@
       },
       "usage": {
         "en": "For example, in this context, an additional detail plan or, for example, a longitudinal profile.",
-        "fr": "[UPDATED] Par ex.: une carte, un plan de ville."
+        "fr": "Par ex.: une carte, un plan de ville."
       },
       "parents": [
         {
@@ -2471,8 +2471,8 @@
             "fr": "température"
           },
           "description": {
-            "en": "The maximum allowable temperature of the contents of the Pipe.",
-            "fr": "[UPDATED] Température du contenu de la conduite."
+            "en": "Temperature of the contents of the pipe.",
+            "fr": "Température du contenu de la conduite."
           },
           "usage": {},
           "domain": [
@@ -2501,7 +2501,7 @@
           "codelist_uri": "",
           "rawTags": {
             "label-en": "temperature",
-            "definition-en": "The maximum allowable temperature of the contents of the Pipe.",
+            "definition-en": "Temperature of the contents of the pipe.",
             "label-nl": "temperatuur",
             "ap-label-nl": "temperatuur",
             "ap-definition-nl": "Temperatuur van de inhoud van de pijp.",
@@ -3161,7 +3161,7 @@
           },
           "usage": {
             "en": "For example, an underground protective plate or net.",
-            "fr": "Enter your translation here"
+            "fr": "Par exemple, une plaque ou un filet de protection enterré."
           },
           "domain": [
             {
