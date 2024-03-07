@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/d5080ae05cfa78285ff49c552d64e23cc8a75d81",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/d5080ae05cfa78285ff49c552d64e23cc8a75d81/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/babc0ff8da2c1491e41da82c196c9b506b9f4304",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/babc0ff8da2c1491e41da82c196c9b506b9f4304/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -34,14 +34,14 @@
         "nl": "Een korte uitleg of notitie toegevoegd aan een Object."
       },
       "usage": {
-        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
         "nl": "[UPDATED] In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bijvoorbeeld de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bijvoorbeeld maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn."
       },
       "parents": [],
       "rawTags": {
         "label-en": "Annotation",
         "definition-en": "A short explanation or note added to an Object.",
-        "usageNote-en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
+        "usageNote-en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
         "label-nl": "Annotatie",
         "ap-label-nl": "Annotatie",
         "ap-definition-nl": "Een korte uitleg of notitie toegevoegd aan een Object.",
@@ -433,7 +433,7 @@
         "nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk."
       },
       "usage": {
-        "en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
+        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
         "nl": "[UPDATED] Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bijvoorbeeld inspectieluik, hydrant, splitter, meter, pomp etc."
       },
       "parents": [
@@ -454,7 +454,7 @@
         "definition-nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk.",
         "usageNote-nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
         "ap-usageNote-nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
-        "usageNote-en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
+        "usageNote-en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
         "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
       },
       "properties": [
@@ -734,7 +734,7 @@
         "nl": "[UPDATED] Object dat potentieel kabels en/of leidingen kan omvatten."
       },
       "usage": {
-        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n",
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
         "nl": "[UPDATED] Bijvoorbeeld als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bijvoorbeeld Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
       },
       "parents": [],
@@ -748,7 +748,7 @@
         "ap-usageNote-nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
         "uri": "https://vocab.belgif.be/ns/utility-services#CableAndPipeContainer",
         "definition-en": "Object that could potentially contain cables and/or pipes/ducts.",
-        "usageNote-en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
+        "usageNote-en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
       },
       "properties": []
     },
@@ -1462,8 +1462,8 @@
       },
       "sort": "Pijp",
       "description": {
-        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes",
-        "nl": "[UPDATED] Een Nutsvoorzieninglinkset bedoeld voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere of als omhulsel van Kabels of andere Pijpen."
+        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes.",
+        "nl": "Een Nutsvoorzieninglinkset bedoeld voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere of als omhulsel van Kabels of andere Pijpen."
       },
       "usage": {},
       "parents": [
@@ -1484,7 +1484,7 @@
       ],
       "rawTags": {
         "label-en": "Pipe",
-        "definition-en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes",
+        "definition-en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes.",
         "label-nl": "Pijp",
         "ap-label-nl": "Pijp",
         "ap-definition-nl": "Een Nutsvoorzieninglinkset bedoeld voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere of als omhulsel van Kabels of andere Pijpen.",
@@ -5367,7 +5367,7 @@
             "nl": "Identificator van de eenheid."
           },
           "usage": {
-            "en": "For example",
+            "en": "For example m for meter.",
             "nl": "[UPDATED] Bijvoorbeeld m voor meter."
           },
           "domain": [
@@ -5403,7 +5403,7 @@
             "usageNote-nl": "Bvb m voor meter.",
             "ap-usageNote-nl": "Bvb m voor meter.",
             "definition-en": "Unit identifier.",
-            "usageNote-en": "For example"
+            "usageNote-en": "For example m for meter."
           }
         }
       ]

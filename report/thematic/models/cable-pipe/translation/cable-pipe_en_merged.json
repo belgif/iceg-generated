@@ -133,7 +133,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+            "value": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
           },
           {
             "key": "label-nl",
@@ -188,7 +188,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+          "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -198,7 +198,7 @@
       "name": "Annotation",
       "parents": [],
       "usage": {
-        "en": "[UPDATED] In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
       }
     },
     {
@@ -354,7 +354,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+            "value": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
           },
           {
             "key": "uri",
@@ -379,7 +379,7 @@
         },
         "parentclasses": "https://vocab.belgif.be/ns/utility-services#UtilityNode",
         "usage": {
-          "en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+          "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -391,7 +391,7 @@
         "https://vocab.belgif.be/ns/utility-services#UtilityNode"
       ],
       "usage": {
-        "en": "[UPDATED] an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+        "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
       }
     },
     {
@@ -664,7 +664,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n",
+            "note": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).",
             "value": "NOTE"
           }
         ],
@@ -685,7 +685,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
+          "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
         }
       },
       "inpackage": "ACTIVE_PACKAGE",
@@ -695,7 +695,7 @@
       "name": "CableAndPipeContainer",
       "parents": [],
       "usage": {
-        "en": "[UPDATED] For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
       }
     },
     {
@@ -1488,13 +1488,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
       "ap-definition-en": {
-        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
       },
       "ap-label-en": {
         "en": "Pipe"
       },
       "definition": {
-        "en": "[UPDATED] A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+        "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
       },
       "extra": {
         "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
@@ -1525,7 +1525,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+            "value": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
           },
           {
             "key": "label-nl",
@@ -1556,14 +1556,14 @@
         "Scope": "FULL_DEFINITON",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+          "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
         },
         "ap-label-en": {
           "en": "Pipe"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+          "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
         },
         "label": {
           "en": "Pipe"
@@ -4062,8 +4062,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "d5080ae05cfa78285ff49c552d64e23cc8a75d81",
-  "dummy": "032",
+  "documentcommit": "babc0ff8da2c1491e41da82c196c9b506b9f4304",
+  "dummy": "033",
   "eap": "IMKL-LD.eap",
   "editors": [],
   "externalproperties": [
@@ -13701,7 +13701,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "For example"
+            "value": "For example m for meter."
           }
         ],
         "Scope": "NOTHING",
@@ -13720,7 +13720,7 @@
           "en": "uom identifier"
         },
         "usage": {
-          "en": "For example"
+          "en": "For example m for meter."
         }
       },
       "generalization": [],
@@ -13739,7 +13739,7 @@
         }
       ],
       "usage": {
-        "en": "[UPDATED] For example"
+        "en": "For example m for meter."
       }
     },
     {
@@ -26019,7 +26019,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "da591c9ca2d3f5e41c81addbca7f7f2e4e54c24f",
+  "toolchaincommit": "908fc78a8713c5f1d8260508958b8014347858a9",
   "translation": [
     {
       "language": "en",

@@ -745,7 +745,7 @@
                 "en": "A short explanation or note added to an Object."
             },
             "usage": {
-                "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+                "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
             },
             "ap-label-en": {
                 "en": "Annotation"
@@ -771,7 +771,7 @@
                     "en": "A short explanation or note added to an Object."
                 },
                 "usage": {
-                    "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
+                    "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
                 },
                 "ap-label-en": {
                     "en": "Annotation"
@@ -794,7 +794,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
+                        "value": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (For example dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves.",
                         "note": "null"
                     },
                     {
@@ -927,7 +927,7 @@
                 "en": "Physical point-shaped part of the UtilityNetwork."
             },
             "usage": {
-                "en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+                "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
             },
             "ap-label-en": {
                 "en": "Appurtenance"
@@ -960,7 +960,7 @@
                     "en": "Physical point-shaped part of the UtilityNetwork."
                 },
                 "usage": {
-                    "en": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
+                    "en": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
                 },
                 "ap-label-en": {
                     "en": "Appurtenance"
@@ -1013,7 +1013,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "an stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
+                        "value": "Can stand alone as a Utility Node, but is often mounted on a carrier (the Utility Node Container). For example an inspection hatch, a hydrant, a splitter, a meter, a pump etc.",
                         "note": "null"
                     },
                     {
@@ -1237,7 +1237,7 @@
                 "en": "Object that could potentially contain cables and/or pipes/ducts."
             },
             "usage": {
-                "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
+                "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
             },
             "ap-label-en": {
                 "en": "Cable and Pipe Container"
@@ -1263,7 +1263,7 @@
                     "en": "Object that could potentially contain cables and/or pipes/ducts."
                 },
                 "usage": {
-                    "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
+                    "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
                 },
                 "ap-label-en": {
                     "en": "Cable and Pipe Container"
@@ -1322,7 +1322,7 @@
                     {
                         "key": "usageNote-en",
                         "value": "NOTE",
-                        "note": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc).\r\n"
+                        "note": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not Cable and Pipe Containers. NOTE: whether the Cable and Pipe Container ultimately contains other elements is indicated by the outgoing relations to those other relations (For example Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
                     }
                 ],
                 "Scope": "FULL_DEFINITON"
@@ -2112,13 +2112,13 @@
             "@id": "https://vocab.belgif.be/ns/utility-services#Pipe",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "ap-definition-en": {
-                "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+                "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
             },
             "ap-label-en": {
                 "en": "Pipe"
             },
             "definition": {
-                "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+                "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
             },
             "label": {
                 "en": "Pipe"
@@ -2148,14 +2148,14 @@
                     "en": "Pipe"
                 },
                 "definition": {
-                    "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+                    "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
                 },
                 "usage": "",
                 "ap-label-en": {
                     "en": "Pipe"
                 },
                 "ap-definition-en": {
-                    "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes"
+                    "en": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes."
                 },
                 "ap-usageNote-en": "",
                 "ap-codelist": "",
@@ -2167,7 +2167,7 @@
                     },
                     {
                         "key": "definition-en",
-                        "value": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes",
+                        "value": "A Utility Link Set intended for the transportation of solids, liquids, chemicals or gases from one location to another or as a casing for Cables or other Pipes.",
                         "note": "null"
                     },
                     {
@@ -25314,7 +25314,7 @@
                 "en": "Unit identifier."
             },
             "usage": {
-                "en": "For example"
+                "en": "For example m for meter."
             },
             "ap-label-en": {
                 "en": "uom identifier"
@@ -25345,7 +25345,7 @@
                     "en": "Unit identifier."
                 },
                 "usage": {
-                    "en": "For example"
+                    "en": "For example m for meter."
                 },
                 "ap-label-en": {
                     "en": "uom identifier"
@@ -25403,7 +25403,7 @@
                     },
                     {
                         "key": "usageNote-en",
-                        "value": "For example",
+                        "value": "For example m for meter.",
                         "note": "null"
                     }
                 ],
