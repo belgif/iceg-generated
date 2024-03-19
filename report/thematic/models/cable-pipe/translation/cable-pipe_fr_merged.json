@@ -78,7 +78,24 @@
   },
   "@id": "https://vocab.belgif.be/ns/utility-services",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
-  "authors": [],
+  "authors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "KLIP"
+      },
+      "foaf:firstName": "Ivy",
+      "foaf:lastName": "Van De Kerchove"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "KLIP"
+      },
+      "foaf:firstName": "Liesbeth",
+      "foaf:lastName": "Rombouts"
+    }
+  ],
   "baseURI": "https://vocab.belgif.be/ns/utility-services#",
   "branchtag": "main",
   "classes": [
@@ -3506,15 +3523,306 @@
     }
   ],
   "config": "config/config-ap.json",
-  "contributors": [],
+  "contributors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Telenet"
+      },
+      "foaf:firstName": "Katleen",
+      "foaf:lastName": "Wouters"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Haven van Antwerpen-Brugge"
+      },
+      "foaf:firstName": "Philippe",
+      "foaf:lastName": "Warmoes"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Fluxys"
+      },
+      "foaf:firstName": "Chris",
+      "foaf:lastName": "Vyaene"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Proximus"
+      },
+      "foaf:firstName": "Kris",
+      "foaf:lastName": "Vlaeminck"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:firstName": "Michiel",
+      "foaf:lastName": "Vansteenkiste"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Proximus"
+      },
+      "foaf:firstName": "Rob",
+      "foaf:lastName": "Vansteenbrugge"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "G.I.M."
+      },
+      "foaf:firstName": "Bernard",
+      "foaf:lastName": "Vanmoerbeke"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Agentschap Wegen & Verkeer"
+      },
+      "foaf:firstName": "Raf",
+      "foaf:lastName": "Vanlathem"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:firstName": "Rob",
+      "foaf:lastName": "Vangeneugden"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "KLIM"
+      },
+      "foaf:firstName": "Danny",
+      "foaf:lastName": "Vanderhaeghen"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Veerle",
+      "foaf:lastName": "Van den Bulcke"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "BVBA-Vanhulle"
+      },
+      "foaf:firstName": "Johan",
+      "foaf:lastName": "Van Hulle"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Stad Antwerpen - Stadsontwikkeling"
+      },
+      "foaf:firstName": "Gitte",
+      "foaf:lastName": "Van Gompel"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "De Watergroep"
+      },
+      "foaf:firstName": "Simon",
+      "foaf:lastName": "Thirion"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:firstName": "Dimitri",
+      "foaf:lastName": "Strobbe"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Fluxys Belgium"
+      },
+      "foaf:firstName": "Gontran",
+      "foaf:lastName": "Soumoy"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Fluvius"
+      },
+      "foaf:firstName": "Werner",
+      "foaf:lastName": "Poel"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Société Wallonne des eaux"
+      },
+      "foaf:firstName": "Valentin",
+      "foaf:lastName": "Pierson"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:firstName": "Ilse",
+      "foaf:lastName": "Pauwelyn"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Vlaamse Milieumaatschappij"
+      },
+      "foaf:firstName": "Katleen",
+      "foaf:lastName": "Miserez"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "De Vlaamse Waterweg nv"
+      },
+      "foaf:firstName": "Inge",
+      "foaf:lastName": "Lemmens"
+    },
+    {
+      "@type": "foaf:Person",
+      "foaf:firstName": "Adrien",
+      "foaf:lastName": "Legat"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Fluxys"
+      },
+      "foaf:firstName": "Jan",
+      "foaf:lastName": "Jermei"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Sibelga"
+      },
+      "foaf:firstName": "Eric",
+      "foaf:lastName": "Jabé"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "paradigm brussels"
+      },
+      "foaf:firstName": "Claude",
+      "foaf:lastName": "Hannecart"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "KLIP"
+      },
+      "foaf:firstName": "Niels",
+      "foaf:lastName": "Gabriëls"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Geo Solutions"
+      },
+      "foaf:firstName": "Frank",
+      "foaf:lastName": "Engelen"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Bruxelles Mobilité"
+      },
+      "foaf:firstName": "Scott",
+      "foaf:lastName": "Emond"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "CIRB"
+      },
+      "foaf:firstName": "François",
+      "foaf:lastName": "Du Mortier"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Infrabel"
+      },
+      "foaf:firstName": "Kurt",
+      "foaf:lastName": "Decock"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Fluxys Belgium"
+      },
+      "foaf:firstName": "Ingrid",
+      "foaf:lastName": "De Paepe-Harmsen"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "De Watergroep"
+      },
+      "foaf:firstName": "Carl",
+      "foaf:lastName": "De Moor"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "PIDPA"
+      },
+      "foaf:firstName": "Bart",
+      "foaf:lastName": "De Maeyer"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Nils",
+      "foaf:lastName": "Callens"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Haven van Antwerpen-Brugge"
+      },
+      "foaf:firstName": "Patricia",
+      "foaf:lastName": "Bongaerts"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Benny Appeltans"
+      },
+      "foaf:firstName": "Benny",
+      "foaf:lastName": "Appeltans"
+    }
+  ],
   "contributors-column": "Role",
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "7b7a3cefc7f88a5de8c13014689ff5589fb5cde9",
-  "dummy": "037",
+  "documentcommit": "2b1d990ad3f8f1ec211e776b90a44bcd363201a1",
+  "dummy": "038",
   "eap": "IMKL-LD.eap",
-  "editors": [],
+  "editors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Geert",
+      "foaf:lastName": "Thijs"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Jef",
+      "foaf:lastName": "Liekens"
+    }
+  ],
   "externalproperties": [
     {
       "@id": "https://vocab.belgif.be/ns/utility-services#whole",
@@ -25930,7 +26238,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_fr.j2",
   "title": "Câbles et Conduites",
-  "toolchaincommit": "d4a6e0e2f20fb2732b996784fd8c883d5594fb81",
+  "toolchaincommit": "ba8401d7e5629aad5fe9ab3d0199eea799c1a799",
   "translation": [
     {
       "language": "en",
