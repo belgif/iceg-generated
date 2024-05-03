@@ -164,8 +164,21 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
             "nl": "Aard van de toebehoren."
           },
+          "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "nl": "toebehorentype"
@@ -972,6 +985,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+        },
+        {
           "sh:class": "http://purl.org/dc/terms/Agent",
           "sh:description": {
             "nl": "Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
@@ -1064,6 +1087,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#identifier"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie"
+        },
+        {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
             "nl": "Verwijzing naar een Document met extra informatie over het element."
@@ -1090,6 +1123,7 @@
             "nl": "Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
           },
           "sh:maxCount": "1",
+          "sh:minCount": "1",
           "sh:name": {
             "nl": "geldigVan"
           },

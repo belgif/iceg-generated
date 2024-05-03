@@ -164,8 +164,21 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
+            "fr": "Enter your translation here"
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "fr": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
             "fr": "Type d'Accessoire"
           },
+          "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "fr": "type d'accessoire"
@@ -972,6 +985,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "sh:description": {
+            "fr": "Enter your translation here"
+          },
+          "sh:name": {
+            "fr": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+        },
+        {
           "sh:class": "http://purl.org/dc/terms/Agent",
           "sh:description": {
             "fr": "Parties autorisées à gérer ou exploiter le Réseau de Service, ou qui en est le propriétaire."
@@ -1064,6 +1087,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#identifier"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "fr": "Enter your translation here"
+          },
+          "sh:name": {
+            "fr": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie"
+        },
+        {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
             "fr": "Référence à un Document contenant des informations supplémentaires sur l’élément."
@@ -1090,6 +1123,7 @@
             "fr": "Date à partir de laquelle l’élément existe dans la réalité."
           },
           "sh:maxCount": "1",
+          "sh:minCount": "1",
           "sh:name": {
             "fr": "valable dès"
           },

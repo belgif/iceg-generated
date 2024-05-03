@@ -537,9 +537,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/927b8973519b65351d26d54829de15814d283887">https://github.com/belgif/ICEGthema-imkl/tree/927b8973519b65351d26d54829de15814d283887</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/231377f138d141f271dea5991ae3d56809ef5b42">https://github.com/belgif/ICEGthema-imkl/tree/231377f138d141f271dea5991ae3d56809ef5b42</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/927b8973519b65351d26d54829de15814d283887/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/927b8973519b65351d26d54829de15814d283887/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/231377f138d141f271dea5991ae3d56809ef5b42/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/231377f138d141f271dea5991ae3d56809ef5b42/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/Informatievlaanderen/OSLOthema-imkl/issues">https://github.com/Informatievlaanderen/OSLOthema-imkl/issues</a></dd>
                   
@@ -1126,7 +1126,8 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                   
                   <dd>For this entity the following properties are defined:
                     <a href="#Appurtenance%3AappurtenanceType">appurtenance type</a>, 
-                    <a href="#Appurtenance%3Aheight">height</a>.
+                    <a href="#Appurtenance%3Aheight">height</a>, 
+                    <a href="#Appurtenance%3Asubtheme">subtheme</a>.
                   </dd>
                   
                 </dl>
@@ -1161,7 +1162,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                         
                       </td>
-                      <td>1..*</td>
+                      <td>1</td>
                       <td property="rdfs:comment">Type of Appurtenance.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
@@ -1183,6 +1184,26 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">The height of the Appurtenance.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Appurtenance%3Asubtheme" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme" data-placement="right">
+                            subtheme</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Subtheme Value" data-placement="right">Subtheme Value</a>
+                        
+                        
+                      </td>
+                      <td>1</td>
+                      <td property="rdfs:comment">Classification of a Appurtunance according to the thematic domain to which they belong.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -3555,6 +3576,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                     <a href="#UtilityNetwork%3Aelement">element</a>, 
                     <a href="#UtilityNetwork%3AgeographicalName">geographical name</a>, 
                     <a href="#UtilityNetwork%3Anetwork">network</a>, 
+                    <a href="#UtilityNetwork%3Aprotectedarea">protectedArea</a>, 
                     <a href="#UtilityNetwork%3AstandardVerticalPositionDetail">standard vertical position detail</a>, 
                     <a href="#UtilityNetwork%3AutilityNetworkType">utility network type</a>.
                   </dd>
@@ -3717,6 +3739,26 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       <td></td>
                     </tr>
                     
+                    <tr id="UtilityNetwork%3Aprotectedarea" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#ProtectedArea">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#ProtectedArea" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#ProtectedArea" data-placement="right">
+                            protectedArea</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Protected Area" data-placement="right">Protected Area</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Area within which certain regulations apply when carrying out works.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
                     <tr id="UtilityNetwork%3AstandardVerticalPositionDetail" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#standardVerticalPositionDetail">
                       <td>
                         <code property="rdfs:label">
@@ -3781,6 +3823,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                     <a href="#UtilityNetworkElement%3Adocumentation">documentation</a>, 
                     <a href="#UtilityNetworkElement%3Aidentifier">identifier</a>, 
                     <a href="#UtilityNetworkElement%3AinNetwork">in network</a>, 
+                    <a href="#UtilityNetworkElement%3Autilitynetworkelement%7Cr%3Dutilityfacilityreference%7Ck%3Dinspire-bm%3A%3Aactivitycomplex">UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex</a>, 
                     <a href="#UtilityNetworkElement%3AvalidFrom">valid from</a>, 
                     <a href="#UtilityNetworkElement%3AvalidTo">valid to</a>, 
                     <a href="#UtilityNetworkElement%3AverticalPosition">vertical position</a>, 
@@ -3885,6 +3928,26 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                       <td></td>
                     </tr>
                     
+                    <tr id="UtilityNetworkElement%3Autilitynetworkelement%7Cr%3Dutilityfacilityreference%7Ck%3Dinspire-bm%3A%3Aactivitycomplex" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie" data-placement="right">
+                            UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Activity Complex" data-placement="right">Activity Complex</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Reference to a complex of activities related to this (element of a) utility network.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
                     <tr id="UtilityNetworkElement%3AvalidFrom" typeof="rdfs:Property" resource="https://vocab.belgif.be/ns/utility-services#validFrom">
                       <td>
                         <code property="rdfs:label">
@@ -3899,7 +3962,7 @@ NOTE 2 It is recommended that the language of the name (part of the Geographical
                         
                         
                       </td>
-                      <td>0..1</td>
+                      <td>1</td>
                       <td property="rdfs:comment">The time when the Utility Network Element started to exist in the real world.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>

@@ -273,8 +273,11 @@
     "ThermischProducttype": "http://www.w3.org/2004/02/skos/core#Concept",
     "ThermischePijp": "https://vocab.belgif.be/ns/utility-services#ThermalPipe",
     "Toebehoren": "https://vocab.belgif.be/ns/utility-services#Appurtenance",
+    "Toebehoren.subthema": {
+      "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+      "@type": "@id"
+    },
     "Toebehoren.toebehorentype": {
-      "@container": "@set",
       "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType",
       "@type": "@id"
     },
@@ -339,6 +342,11 @@
     },
     "activiteitencomplexreferentie": {
       "@container": "@set",
+      "@id": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie",
+      "@type": "@id"
+    },
+    "activitycomplexreferentie": {
+      "@container": "@set",
       "@id": "https://vocab.belgif.be/ns/utility-services#activityComplexReference",
       "@type": "@id"
     },
@@ -370,6 +378,11 @@
     },
     "annotatietype": {
       "@id": "http://purl.org/dc/elements/1.1/type",
+      "@type": "@id"
+    },
+    "beschermdGebied": {
+      "@container": "@set",
+      "@id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
       "@type": "@id"
     },
     "beschrijving": {

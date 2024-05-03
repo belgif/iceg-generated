@@ -164,8 +164,21 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
+            "en": "Classification of a Appurtunance according to the thematic domain to which they belong."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "subtheme"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
             "en": "Type of Appurtenance."
           },
+          "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "appurtenance type"
@@ -972,6 +985,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "sh:description": {
+            "en": "Area within which certain regulations apply when carrying out works."
+          },
+          "sh:name": {
+            "en": "protectedArea"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+        },
+        {
           "sh:class": "http://purl.org/dc/terms/Agent",
           "sh:description": {
             "en": "Parties authorized to manage, operate or own the Utility Network."
@@ -1064,6 +1087,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#identifier"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "en": "Reference to a complex of activities related to this (element of a) utility network."
+          },
+          "sh:name": {
+            "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie"
+        },
+        {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
           "sh:description": {
             "en": "Reference to a Document containing additional information about the element."
@@ -1090,6 +1123,7 @@
             "en": "The time when the Utility Network Element started to exist in the real world."
           },
           "sh:maxCount": "1",
+          "sh:minCount": "1",
           "sh:name": {
             "en": "valid from"
           },

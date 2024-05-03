@@ -3718,8 +3718,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "927b8973519b65351d26d54829de15814d283887",
-  "dummy": "039",
+  "documentcommit": "231377f138d141f271dea5991ae3d56809ef5b42",
+  "dummy": "040",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -4225,7 +4225,7 @@
         "label": {
           "en": "on"
         },
-        "sourceRole": "null",
+        "sourceRole": "activiteitencomplexreferentie",
         "usage": ""
       },
       "generalization": [],
@@ -4766,7 +4766,7 @@
         "EA-Domain": "Nutsvoorzieningnetwerk",
         "EA-Domain-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
         "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
-        "EA-Name": "activiteitencomplexreferentie",
+        "EA-Name": "activitycomplexreferentie",
         "EA-Package": "",
         "EA-Range": "Activiteitencomplex",
         "EA-Type": "connector",
@@ -4831,7 +4831,7 @@
           "en": "Activity Complex belonging to the network."
         },
         "derived": "false",
-        "destRole": "activiteitencomplexreferentie",
+        "destRole": "activitycomplexreferentie",
         "label": {
           "en": "activity complex reference"
         },
@@ -18948,7 +18948,7 @@
         "en": "valid from"
       },
       "maxCardinality": "1",
-      "minCardinality": "0",
+      "minCardinality": "1",
       "name": "validFrom",
       "range": [
         {
@@ -23109,6 +23109,171 @@
       ]
     },
     {
+      "@id": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
+      "ap-definition-en": {
+        "en": "Reference to a complex of activities related to this (element of a) utility network."
+      },
+      "ap-label-en": {
+        "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Reference to a complex of activities related to this (element of a) utility network."
+      },
+      "domain": [
+        {
+          "EA-Name": "Nutsvoorzieningnetwerkelement",
+          "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "ap-label-nl",
+            "note": "nutsvoorzieningreferentie",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "nutsvoorzieningreferentie",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Reference to a complex of activities related to this (element of a) utility network.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "Reference to a complex of activities related to this (element of a) utility network.",
+            "value": "NOTE"
+          },
+          {
+            "key": "package",
+            "note": "IMKL-LD",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Nutsvoorzieningnetwerkelement",
+        "EA-Domain-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
+        "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
+        "EA-Name": "activiteitencomplexreferentie",
+        "EA-Package": "",
+        "EA-Range": "Activiteitencomplex",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
+          "EA-Name": "Activiteitencomplex",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
+        },
+        "RawTags": [
+          {
+            "key": "ap-label-nl",
+            "note": "nutsvoorzieningreferentie",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "nutsvoorzieningreferentie",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Reference to a complex of activities related to this (element of a) utility network.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "Reference to a complex of activities related to this (element of a) utility network.",
+            "value": "NOTE"
+          },
+          {
+            "key": "package",
+            "note": "IMKL-LD",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Reference to a complex of activities related to this (element of a) utility network."
+        },
+        "ap-label-en": {
+          "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Reference to a complex of activities related to this (element of a) utility network."
+        },
+        "derived": "false",
+        "destRole": "activiteitencomplexreferentie",
+        "label": {
+          "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"
+        },
+        "sourceRole": "op",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "utilitynetworkelement|r=utilityfacilityreference|k=inspire-bm::activitycomplex",
+      "range": [
+        {
+          "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
+          "EA-Name": "Activiteitencomplex",
+          "EA-Package": "OSLO-Generiek",
+          "uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
+        }
+      ]
+    },
+    {
       "@id": "https://vocab.belgif.be/ns/utility-services#accuracy",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{669729F3-407B-4d0e-AFC8-F53D8EABC85D}",
@@ -25044,6 +25209,101 @@
       }
     },
     {
+      "@id": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{8FC7B82E-E230-46e4-82B8-C752C0EF688E}",
+      "ap-definition-en": {
+        "en": "Area within which certain regulations apply when carrying out works."
+      },
+      "ap-label-en": {
+        "en": "protectedArea"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Area within which certain regulations apply when carrying out works."
+      },
+      "domain": [
+        {
+          "EA-Name": "Nutsvoorzieningnetwerk",
+          "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Nutsvoorzieningnetwerk",
+        "EA-Domain-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
+        "EA-Guid": "{8FC7B82E-E230-46e4-82B8-C752C0EF688E}",
+        "EA-Name": "beschermdGebied",
+        "EA-Package": "IMKL-LD",
+        "EA-Range": "BeschermdGebied",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
+          "EA-Name": "BeschermdGebied",
+          "EA-Package": "IMKL-LD",
+          "uri": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "beschermdGebied"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "protectedArea"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Gebied waarbinnen bepaalde voorschriften gelden bij het uitvoeren van werken."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Area within which certain regulations apply when carrying out works."
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Area within which certain regulations apply when carrying out works."
+        },
+        "ap-label-en": {
+          "en": "protectedArea"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Area within which certain regulations apply when carrying out works."
+        },
+        "label": {
+          "en": "protectedArea"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "protectedArea"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "protectedarea",
+      "range": [
+        {
+          "EA-GUID": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
+          "EA-Name": "BeschermdGebied",
+          "EA-Package": "IMKL-LD",
+          "uri": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+        }
+      ]
+    },
+    {
       "@id": "https://vocab.belgif.be/ns/utility-services#Pipe.subtheme",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{3819ED88-81D8-4541-B26B-A64C5CDE020D}",
@@ -25579,6 +25839,111 @@
       ]
     },
     {
+      "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{38DB83FF-9A3D-4bb5-8A65-5AA99647148D}",
+      "ap-definition-en": {
+        "en": "Classification of a Appurtunance according to the thematic domain to which they belong."
+      },
+      "ap-label-en": {
+        "en": "subtheme"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Classification of a Appurtunance according to the thematic domain to which they belong."
+      },
+      "domain": [
+        {
+          "EA-Name": "Toebehoren",
+          "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Toebehoren",
+        "EA-Domain-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
+        "EA-Guid": "{38DB83FF-9A3D-4bb5-8A65-5AA99647148D}",
+        "EA-Name": "subthema",
+        "EA-Package": "IMKL-LD",
+        "EA-Range": "Subthema",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
+          "EA-Name": "Subthema",
+          "EA-Package": "IMKL-LD",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme"
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "subthema"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "subtheme"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Classificatie van Toebehoren een volgens het thematisch domein waar deze toe behoren."
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Classification of a Appurtunance according to the thematic domain to which they belong."
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "null",
+            "value": "Classificatie van Toebehoren een volgens het thematisch domein waar deze toe behoren."
+          },
+          {
+            "key": "ap-definition-en",
+            "note": "null",
+            "value": "Classification of a Appurtunance according to the thematic domain to which they belong."
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Classification of a Appurtunance according to the thematic domain to which they belong."
+        },
+        "ap-label-en": {
+          "en": "subtheme"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Classification of a Appurtunance according to the thematic domain to which they belong."
+        },
+        "label": {
+          "en": "subtheme"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "en": "subtheme"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "subtheme",
+      "range": [
+        {
+          "EA-GUID": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
+          "EA-Name": "Subthema",
+          "EA-Package": "IMKL-LD",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ]
+    },
+    {
       "@id": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{588CFC97-081D-4a31-965F-F8FD557D0C55}",
@@ -25671,7 +26036,7 @@
       "label": {
         "en": "appurtenance type"
       },
-      "maxCardinality": "*",
+      "maxCardinality": "1",
       "minCardinality": "1",
       "name": "appurtenanceType",
       "range": [
@@ -25692,7 +26057,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "d2b414006047ab3b284b32ecfd4940dafae2c3d1",
+  "toolchaincommit": "59c761dec62cbba48715dfadb0f8408f23a01504",
   "translation": [
     {
       "language": "en",

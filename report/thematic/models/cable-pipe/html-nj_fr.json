@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/927b8973519b65351d26d54829de15814d283887",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/927b8973519b65351d26d54829de15814d283887/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/231377f138d141f271dea5991ae3d56809ef5b42",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/231377f138d141f271dea5991ae3d56809ef5b42/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -459,6 +459,53 @@
       },
       "properties": [
         {
+          "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+          "name": "subtheme",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "subtheme",
+            "fr": "Enter your translation here"
+          },
+          "description": {
+            "en": "Classification of a Appurtunance according to the thematic domain to which they belong.",
+            "fr": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Toebehoren",
+              "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Subthema",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Sous-thème",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Subtheme Value",
+                "fr": "Sous-thème"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+            "label-nl": "subthema",
+            "label-en": "subtheme",
+            "definition-nl": "Classificatie van Toebehoren een volgens het thematisch domein waar deze toe behoren.",
+            "definition-en": "Classification of a Appurtunance according to the thematic domain to which they belong.",
+            "ap-definition-nl": "Classificatie van Toebehoren een volgens het thematisch domein waar deze toe behoren.",
+            "ap-definition-en": "Classification of a Appurtunance according to the thematic domain to which they belong."
+          }
+        },
+        {
           "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance.appurtenanceType",
           "name": "appurtenanceType",
           "sort": "type d'accessoire",
@@ -493,7 +540,7 @@
               }
             }
           ],
-          "cardinality": "1..*",
+          "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
             "label-en": "appurtenance type",
@@ -3875,6 +3922,51 @@
           }
         },
         {
+          "uri": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+          "name": "protectedarea",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "protectedArea",
+            "fr": "Enter your translation here"
+          },
+          "description": {
+            "en": "Area within which certain regulations apply when carrying out works.",
+            "fr": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Nutsvoorzieningnetwerk",
+              "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetwork"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "BeschermdGebied",
+              "range_uri": "https://vocab.belgif.be/ns/utility-services#ProtectedArea"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Zone protégée",
+              "range_puri": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+              "range_label": {
+                "en": "Protected Area",
+                "fr": "Zone protégée"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+            "label-nl": "beschermdGebied",
+            "label-en": "protectedArea",
+            "definition-nl": "Gebied waarbinnen bepaalde voorschriften gelden bij het uitvoeren van werken.",
+            "definition-en": "Area within which certain regulations apply when carrying out works."
+          }
+        },
+        {
           "uri": "https://vocab.belgif.be/ns/utility-services#network",
           "name": "network",
           "sort": "réseau",
@@ -4231,7 +4323,7 @@
               }
             }
           ],
-          "cardinality": "0..1",
+          "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
             "label-en": "valid from",
@@ -4335,6 +4427,55 @@
             "ap-definition-nl": "De status van het element met betrekking tot de voltooiing en het gebruik ervan.",
             "definition-nl": "De status van het element met betrekking tot de voltooiing en het gebruik ervan.",
             "uri": "https://vocab.belgif.be/ns/utility-services#currentStatus"
+          }
+        },
+        {
+          "uri": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie",
+          "name": "utilitynetworkelement|r=utilityfacilityreference|k=inspire-bm::activitycomplex",
+          "sort": "Enter your translation here",
+          "label": {
+            "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex",
+            "fr": "Enter your translation here"
+          },
+          "description": {
+            "en": "Reference to a complex of activities related to this (element of a) utility network.",
+            "fr": "Enter your translation here"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Nutsvoorzieningnetwerkelement",
+              "uri": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Activiteitencomplex",
+              "range_uri": "https://vocab.belgif.be/ns/generic#ActivityComplex"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Complexe d'Activités",
+              "range_puri": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+              "range_label": {
+                "en": "Activity Complex",
+                "fr": "Complexe d'Activités"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "ap-label-nl": "nutsvoorzieningreferentie",
+            "label-nl": "nutsvoorzieningreferentie",
+            "label-en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex",
+            "definition-en": "Reference to a complex of activities related to this (element of a) utility network.",
+            "definition-nl": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
+            "ap-definition-nl": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
+            "ap-definition-en": "Reference to a complex of activities related to this (element of a) utility network.",
+            "package": "IMKL-LD",
+            "ap-label-en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"
           }
         },
         {
@@ -7215,6 +7356,22 @@
       "parents": []
     },
     {
+      "uri": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie",
+      "name": {
+        "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex",
+        "fr": "Enter your translation here",
+        "undefined": "utilitynetworkelement|r=utilityfacilityreference|k=inspire-bm::activitycomplex"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://vocab.belgif.be/ns/utility-services#accuracy",
       "name": {
         "en": "accuracy",
@@ -7487,6 +7644,22 @@
       "parents": []
     },
     {
+      "uri": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
+      "name": {
+        "en": "protectedArea",
+        "fr": "Enter your translation here",
+        "undefined": "protectedarea"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
       "uri": "https://vocab.belgif.be/ns/utility-services#Pipe.subtheme",
       "name": {
         "en": "subtheme",
@@ -7555,6 +7728,22 @@
       "name": {
         "en": "subtheme",
         "fr": "sous-thème",
+        "undefined": "subtheme"
+      },
+      "description": {},
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://vocab.belgif.be/ns/utility-services#Appurtenance.subtheme",
+      "name": {
+        "en": "subtheme",
+        "fr": "Enter your translation here",
         "undefined": "subtheme"
       },
       "description": {},
