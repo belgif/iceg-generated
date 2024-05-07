@@ -1,0 +1,962 @@
+{
+  "baseURI": "http://vocab.belgif.be/ns/hydrant#",
+  "classes": [
+    {
+      "EA-Guid": "{3FF0CCF7-BB19-401d-B0CC-9A9F51E24A0A}",
+      "name": "Inspection",
+      "label": {
+        "en": "Inspection"
+      },
+      "definition": {
+        "en": "The act of looking at something carefully in order to discover information."
+      }
+    },
+    {
+      "EA-Guid": "{55E41866-DA5F-4798-B28E-8802087E13BA}",
+      "name": "Maintenacne",
+      "label": {
+        "en": "Maintenacne"
+      },
+      "definition": {
+        "en": "The work needed to keep something in good condition"
+      }
+    },
+    {
+      "EA-Guid": "{11055AA7-C93F-4f04-B5A0-A8C0A89C6045}",
+      "name": "Outlet",
+      "label": {
+        "en": "Outlet"
+      },
+      "definition": {
+        "en": "A circular opening through which water can be discharged from a fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{A6544A40-2FCD-4459-A56E-A23A45CD67B2}",
+      "name": "Usage",
+      "label": {
+        "en": "Usage"
+      },
+      "definition": {
+        "en": "The use of something."
+      }
+    }
+  ],
+  "properties": [
+    {
+      "EA-Guid": "{B63014F3-D19C-496c-BFD0-744CA84E9FDF}",
+      "name": "waterType",
+      "label": {
+        "en": "water type"
+      },
+      "definition": {
+        "en": "The particular kind of liquid which is running through a pipe."
+      }
+    },
+    {
+      "EA-Guid": "{B82B8247-1E19-4c18-A4E6-1E6798C07E17}",
+      "name": "statusRemark",
+      "label": {
+        "en": "status remark"
+      },
+      "definition": {
+        "en": "A comment about minor flows affecting the fire hydrant despite being operational."
+      }
+    },
+    {
+      "EA-Guid": "{0B547478-26C1-48de-9439-BEE53BFAECCD}",
+      "name": "startDate",
+      "label": {
+        "en": "start date"
+      },
+      "definition": {
+        "en": "The date on which the current version of the area or object starts to be used."
+      }
+    },
+    {
+      "EA-Guid": "{7484646D-2B33-4d98-BFFF-7879C5EEDE93}",
+      "name": "diameter",
+      "label": {
+        "en": "diameter"
+      },
+      "definition": {
+        "en": "The measurement of the circular opening through which water can be discharged from a fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{9C5428E9-3BCA-46b1-AFC2-2406B4E6F1EF}",
+      "name": "openingKey",
+      "label": {
+        "en": "opening key"
+      },
+      "definition": {
+        "en": "A tool used to open a fire hydrant by removing the cover of a fire hydrant's outlet."
+      }
+    },
+    {
+      "EA-Guid": "{56A5F120-17D6-413c-B25C-9FA492DFA3DB}",
+      "name": "flowPressure",
+      "label": {
+        "en": "flow pressure"
+      },
+      "definition": {
+        "en": "The amount of force with which water moves to a pipe."
+      }
+    },
+    {
+      "EA-Guid": "{8F5359F2-94BB-4a18-9F9A-95B019C51DCB}",
+      "name": "diameter",
+      "label": {
+        "en": "diameter"
+      },
+      "definition": {
+        "en": "The measurement of the circular opening through which the water flow, pressure or volume can be controlled in a fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{EFC4993B-A5D3-4f2c-989A-5CC2CBC3E425}",
+      "name": "performedBy",
+      "label": {
+        "en": "performed by"
+      },
+      "definition": {
+        "en": "The organisation that used the Object."
+      }
+    },
+    {
+      "EA-Guid": "{D63BEA7C-333A-4096-BBDB-18767B2E7FEE}",
+      "name": "location",
+      "label": {
+        "en": "location"
+      },
+      "definition": {
+        "en": "The approximate or precise location of the usage of something."
+      }
+    },
+    {
+      "EA-Guid": "{54F04DDD-0C60-4728-8536-3670E504F5E3}",
+      "name": "flowRate",
+      "label": {
+        "en": "flow rate"
+      },
+      "definition": {
+        "en": "The nominal rate at which water flows through the pipe."
+      }
+    },
+    {
+      "EA-Guid": "{1BBEB495-84D5-4f96-B8F2-88491B946A21}",
+      "name": "diameter",
+      "label": {
+        "en": "diameter"
+      },
+      "definition": {
+        "en": "The nominal diameter of the underground water pipe going along the street."
+      }
+    },
+    {
+      "EA-Guid": "{69CB98C2-E8BB-4517-867F-0F8681FAE888}",
+      "name": "classification",
+      "label": {
+        "en": "classification"
+      },
+      "definition": {
+        "en": "The categorisation of pipes."
+      }
+    },
+    {
+      "EA-Guid": "{A87EB6B6-F2DE-4c09-89F1-EBEF76F0DB96}",
+      "name": "requestedBy",
+      "label": {
+        "en": "requested by"
+      },
+      "definition": {
+        "en": "The organisation that requested the maintenance."
+      }
+    },
+    {
+      "EA-Guid": "{598E2E7E-F82F-46db-911E-22209110C5A7}",
+      "name": "performedBy",
+      "label": {
+        "en": "performed by"
+      },
+      "definition": {
+        "en": "The organisation that performed the maintenance."
+      }
+    },
+    {
+      "EA-Guid": "{F5C84B9B-86A5-41af-9D29-0546242AF9CC}",
+      "name": "performedBy",
+      "label": {
+        "en": "performed by"
+      },
+      "definition": {
+        "en": "The organisation that performed the inspection."
+      }
+    },
+    {
+      "EA-Guid": "{AC76E63A-081C-467f-A428-572A02FA45A2}",
+      "name": "type",
+      "label": {
+        "en": "type"
+      },
+      "definition": {
+        "en": "The particular kind of fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{1F627C97-5F05-4031-8B4F-AA7DF16F4158}",
+      "name": "flowRate",
+      "label": {
+        "en": "flow rate"
+      },
+      "definition": {
+        "en": "The nominal rate at which water flows through the fire hydrant."
+      }
+    }
+  ],
+  "externals": [
+    {
+      "EA-Guid": "{5BEE6ACA-4309-41b4-9B14-D40A749AC02E}",
+      "name": "Contactpoint",
+      "label": {
+        "en": "ContactPoint"
+      },
+      "definition": {
+        "en": "Information (i.e., e-mail address and telephone number) of a person or department through which the user can get in touch with."
+      }
+    },
+    {
+      "EA-Guid": "{68104B31-0399-443c-9C41-66924D3E0DB6}",
+      "name": "Measure",
+      "label": {
+        "en": "Measure"
+      },
+      "definition": {
+        "en": "A representation of a measure value. The decimal value is followed by a space and the unit of the measure."
+      }
+    },
+    {
+      "EA-Guid": "{568DA1CE-7231-4c8c-B750-597599AF23F0}",
+      "name": "Geographicalname",
+      "label": {
+        "en": "GeographicalName"
+      },
+      "definition": {
+        "en": "Proper noun applied to a real world entity."
+      },
+      "usage": {
+        "en": "This can be substituted by LangString"
+      }
+    },
+    {
+      "EA-Guid": "{81641152-B7F1-43ee-A0F4-3EE6AAF409FD}",
+      "name": "Hydranttype",
+      "label": {
+        "en": "HydrantType"
+      },
+      "definition": {
+        "en": "The type of fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{0402D145-E1F5-47ae-BE66-C4D8F1877372}",
+      "name": "Pipetype",
+      "label": {
+        "en": "PipeType"
+      },
+      "definition": {
+        "en": "The type of pipe."
+      }
+    },
+    {
+      "EA-Guid": "{D6B8D879-0403-43ae-8876-46FF38BDE5A2}",
+      "name": "Status",
+      "label": {
+        "en": "Status"
+      },
+      "definition": {
+        "en": "Entity status."
+      }
+    },
+    {
+      "EA-Guid": "{1C74B15B-D62C-4419-9C07-AE8CEFC975AE}",
+      "name": "OpeningKeyType",
+      "label": {
+        "en": "opening key type"
+      },
+      "definition": {
+        "en": "The type of a metal instrument by which the bolt of a lock is turned."
+      }
+    },
+    {
+      "EA-Guid": "{1CF28BA7-7F20-46bf-9E6C-684C714D1759}",
+      "name": "NativenessValue",
+      "label": {
+        "en": "nativeness value"
+      },
+      "definition": {
+        "en": "The nativeness of a geographical name."
+      },
+      "usage": {
+        "en": "Concepts of this codelist should be used: http://inspire.ec.europa.eu/codelist/NativenessValue"
+      }
+    },
+    {
+      "EA-Guid": "{C2863BF0-39BB-4562-94AE-4573F8494888}",
+      "name": "NameStatusValue",
+      "label": {
+        "en": "name status value"
+      },
+      "definition": {
+        "en": "The status of a geographical name, that is the information enabling to discern which credit should be given to the name with respect to its standardisation and/or its topicality."
+      },
+      "usage": {
+        "en": "NOTE The precise definition of the values 'Official', 'Standardised', 'Historical' and 'Other' can only be decided by Member States according to their legislation and practice."
+      }
+    },
+    {
+      "EA-Guid": "{F35B45B1-378C-4a5c-80E0-9FC1055845AA}",
+      "name": "PipeClassificationType",
+      "label": {
+        "en": "pipe classification type"
+      }
+    },
+    {
+      "EA-Guid": "{D3462BDC-4779-4260-B169-B66D45B1ABE9}",
+      "name": "Identifier",
+      "label": {
+        "en": "Identifier"
+      },
+      "definition": {
+        "en": "The Identifier class represents any identifier issued by any authority, whether a government agency or not. It captures the identifier itself, the type of identifier, and details of the issuing authority, the date on which the identifier was issued."
+      }
+    },
+    {
+      "EA-Guid": "{FE401594-21E9-47a5-9A3D-B338D4A7187A}",
+      "name": "Addressrepresentation",
+      "label": {
+        "en": "AddressRepresentation"
+      },
+      "definition": {
+        "en": "More readable representation with only the basic data of the address, intended to use an address as an attribute of another object."
+      }
+    },
+    {
+      "EA-Guid": "{8D2D3310-0E88-4590-9FCA-08B04F442CED}",
+      "name": "Geometry",
+      "label": {
+        "en": "Geometry"
+      },
+      "definition": {
+        "en": "The Geometry class provides the means to identify a Location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."
+      }
+    },
+    {
+      "EA-Guid": "{F2D3E5C1-D0D1-4bf3-97FB-1ADD5B4074EB}",
+      "name": "Organization",
+      "label": {
+        "en": "Organization"
+      },
+      "definition": {
+        "en": "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures."
+      }
+    },
+    {
+      "EA-Guid": "{AEDD5D56-7E75-45f8-BA25-26AD278C10F6}",
+      "name": "Firehydrant",
+      "label": {
+        "en": "FireHydrant"
+      },
+      "definition": {
+        "en": "A fire hydrant is a fitting in a street or other public place with a nozzle by which a fire hose may be attached to a water main."
+      }
+    },
+    {
+      "EA-Guid": "{219508CB-BA72-4d48-91AA-C3478FFD12DE}",
+      "name": "Pipe",
+      "label": {
+        "en": "Pipe"
+      },
+      "definition": {
+        "en": "A pipe is a passage of water flowing in a closed conduit (i.e., not subject to atmospheric pressure)."
+      }
+    },
+    {
+      "EA-Guid": "{E82A7AE9-9FAF-47e1-873B-85E603056D15}",
+      "name": "Valve",
+      "label": {
+        "en": "Valve"
+      },
+      "definition": {
+        "en": "A valve is a device designed to control water flow, pressure or volume."
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "{A14219BD-E2FA-4b53-A79F-E8BB2022C9B5}",
+      "name": "wkt",
+      "label": {
+        "en": "wkt"
+      },
+      "definition": {
+        "en": "The well-known text representation string describing the point, line or polygon."
+      },
+      "usage": {
+        "en": "Use \"http://www.opengis.net/ont/geosparql#wktLiteral\" as type for the literal."
+      }
+    },
+    {
+      "EA-Guid": "{E0B8F6A8-7A6C-4a1c-BB15-4CA99C425672}",
+      "name": "longitude",
+      "label": {
+        "en": "longitude"
+      },
+      "definition": {
+        "en": "The longitude."
+      }
+    },
+    {
+      "EA-Guid": "{8CFC8417-6547-487c-9207-9582F26C41C3}",
+      "name": "latitude",
+      "label": {
+        "en": "latitude"
+      },
+      "definition": {
+        "en": "The latitude."
+      }
+    },
+    {
+      "EA-Guid": "{6BF58FEF-FD6D-4fa6-BBBC-988FCF2BC9D4}",
+      "name": "gml",
+      "label": {
+        "en": "gml"
+      },
+      "definition": {
+        "en": "The geometry written in Geography Markup Language."
+      },
+      "usage": {
+        "en": "Use \"http://www.opengis.net/ont/geosparql#gmlLiteral\" as type for the literal."
+      }
+    },
+    {
+      "EA-Guid": "{A55BAE28-FEC5-4379-AA75-4ED2195DCCD7}",
+      "name": "geometrytype",
+      "label": {
+        "en": "geometryType"
+      },
+      "definition": {
+        "en": "The geometry type, e.g. point, line or polygon."
+      }
+    },
+    {
+      "EA-Guid": "{3D8E5A37-EF2F-4ce8-AD93-E35FE2200B6C}",
+      "name": "crs",
+      "label": {
+        "en": "crs"
+      },
+      "definition": {
+        "en": "An identifier for the coordinate reference system."
+      }
+    },
+    {
+      "EA-Guid": "{C43F03EE-28AB-4125-8DDB-408AE234D5D7}",
+      "name": "coordinates",
+      "label": {
+        "en": "coordinates"
+      },
+      "definition": {
+        "en": "The coordinate list."
+      }
+    },
+    {
+      "EA-Guid": "{972FE72A-C71E-4c02-B0C2-75C86C515C61}",
+      "name": "value",
+      "label": {
+        "en": "value"
+      },
+      "definition": {
+        "en": "Number with a scale. The value of uom (Units Of Measure) attribute is a reference to a Reference System for the amount, either a ratio or position scale."
+      }
+    },
+    {
+      "EA-Guid": "{FE9B875F-FBF0-4851-842B-9338CBFCF99F}",
+      "name": "type",
+      "label": {
+        "en": "type"
+      },
+      "definition": {
+        "en": "The distinction between whether an organisation is a private or public entity."
+      }
+    },
+    {
+      "EA-Guid": "{EEB3694E-D526-489f-A5C3-A1120D5E2E13}",
+      "name": "streetname",
+      "label": {
+        "en": "streetname"
+      },
+      "definition": {
+        "en": "Streetname of the address."
+      }
+    },
+    {
+      "EA-Guid": "{CB03AF76-3636-454e-A1C7-BFFD95FC9A93}",
+      "name": "postalcode",
+      "label": {
+        "en": "postalcode"
+      },
+      "definition": {
+        "en": "Code designating the geographical area that groups addresses for postal purposes."
+      }
+    },
+    {
+      "EA-Guid": "{964E467A-FE4B-4e7d-A11C-FAF63903AC44}",
+      "name": "geometry",
+      "label": {
+        "en": "geometry"
+      },
+      "definition": {
+        "en": "The fire hydrant's location as a point, expressed using coordinates in some coordinate reference system."
+      }
+    },
+    {
+      "EA-Guid": "{4BB2C0CE-E63E-4b70-9CE9-3F44D556B2E0}",
+      "name": "geometry",
+      "label": {
+        "en": "geometry"
+      },
+      "definition": {
+        "en": "The pipe's location as a point, expressed using coordinates in some coordinate reference system."
+      }
+    },
+    {
+      "EA-Guid": "{0903D87C-9523-47f2-8235-60EDF66071AD}",
+      "name": "status",
+      "label": {
+        "en": "status"
+      },
+      "definition": {
+        "en": "The condition in which a fire hydrant can be found."
+      }
+    },
+    {
+      "EA-Guid": "{696C90BB-793F-4d26-9DF0-622C464C8F05}",
+      "name": "status",
+      "label": {
+        "en": "status"
+      },
+      "definition": {
+        "en": "The condition in which a pipe can be found."
+      }
+    },
+    {
+      "EA-Guid": "{DA7DEC59-D407-4c7c-8F63-7E951091BB3B}",
+      "name": "issuingauthorityname",
+      "label": {
+        "en": "issuingAuthorityName"
+      },
+      "definition": {
+        "en": "The name of the agency responsible for issuing the Identifier."
+      }
+    },
+    {
+      "EA-Guid": "{A202C8AA-5D52-47f2-A0A3-42A39B23A664}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier"
+      },
+      "definition": {
+        "en": "Any identifier issued by any authority, whether a government agency or not."
+      }
+    },
+    {
+      "EA-Guid": "{B1AEA6A1-C8A9-468f-8F8E-5C84B9A0AAD1}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier"
+      },
+      "definition": {
+        "en": "Any identifier issued by any authority, whether a government agency or not. It captures the identifier itself, the type of identifier, and details of the issuing authority, the date on which the identifier was issued."
+      }
+    },
+    {
+      "EA-Guid": "{BD25B004-D802-4690-B752-7C6E8AFA7670}",
+      "name": "name",
+      "label": {
+        "en": "name"
+      },
+      "definition": {
+        "en": "The legally recognised name of the organization"
+      }
+    },
+    {
+      "EA-Guid": "{398F8A02-C0D9-4e63-A2FC-84B93E814246}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier"
+      },
+      "definition": {
+        "en": "The value of this property is the Identifier itself."
+      }
+    },
+    {
+      "EA-Guid": "{CD9F8AE9-6FB9-4e89-9F1B-35445127226B}",
+      "name": "address",
+      "label": {
+        "en": "address"
+      },
+      "definition": {
+        "en": "The address representation that corresponds to the fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{06B98968-3C55-4edb-9AE1-2FEACA203425}",
+      "name": "address",
+      "label": {
+        "en": "address"
+      },
+      "definition": {
+        "en": "The address representation that corresponds to the pipe."
+      }
+    },
+    {
+      "EA-Guid": "{869749F2-B146-4d52-AD55-30E7B4E7C649}",
+      "name": "supplies",
+      "label": {
+        "en": "supplies"
+      },
+      "definition": {
+        "en": "The pipe providing water to the fire hydrant. It is possible that one pipe is connected to several hydrants."
+      }
+    },
+    {
+      "EA-Guid": "{869749F2-B146-4d52-AD55-30E7B4E7C649}",
+      "name": "isSuppliedBy",
+      "label": {
+        "en": "is supplied by"
+      },
+      "definition": {
+        "en": "The fire hydrant receiving water from the pipe."
+      }
+    },
+    {
+      "EA-Guid": "{CC12C5D8-64AF-469e-9418-699EA9D35158}",
+      "name": "isOperatedBy",
+      "label": {
+        "en": "is operated by"
+      },
+      "definition": {
+        "en": "The organization in charge of controlling and maintaining the fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{6E3DE02B-9F30-4371-B925-C681861F6377}",
+      "name": "isOperatedBy",
+      "label": {
+        "en": "is operated by"
+      },
+      "definition": {
+        "en": "The organization in charge of controlling and maintaining the pipe."
+      }
+    },
+    {
+      "EA-Guid": "{40C58437-4226-43d5-A1CE-9A062C80E2CC}",
+      "name": "isConnectedTo",
+      "label": {
+        "en": "is connected to"
+      },
+      "definition": {
+        "en": "The pipe through which the fire hydrant provides water."
+      }
+    },
+    {
+      "EA-Guid": "{6E0577C4-13FB-418a-AA57-551F93FFBF8C}",
+      "name": "isConnectedTo",
+      "label": {
+        "en": "is connected to"
+      },
+      "definition": {
+        "en": "A pipe can be attached to other pipes."
+      }
+    },
+    {
+      "EA-Guid": "{4754E1FC-0C16-4191-919F-1B7DFD802A47}",
+      "name": "hasUsage",
+      "label": {
+        "en": "has usage"
+      },
+      "definition": {
+        "en": "The usage of the fire hydrant by an organization."
+      }
+    },
+    {
+      "EA-Guid": "{0B52BDA6-EE60-4e6c-BCCA-7D53408BD9EC}",
+      "name": "hasMaintenance",
+      "label": {
+        "en": "has maintenance"
+      },
+      "definition": {
+        "en": "The maintenance the fire hydrants has or will receive."
+      }
+    },
+    {
+      "EA-Guid": "{F47FB6D5-2088-42bb-ABA0-F9571F1C3EAF}",
+      "name": "hasInspection",
+      "label": {
+        "en": "has inspection"
+      },
+      "definition": {
+        "en": "The inspection the fire hydrants has or will receive."
+      }
+    },
+    {
+      "EA-Guid": "{157C9C0A-11B7-4aac-A7A2-4DE0EB50BA83}",
+      "name": "uom",
+      "label": {
+        "en": "uom"
+      },
+      "definition": {
+        "en": "Standard units of measurements used when accounting for stock, and expressing them in quantities."
+      },
+      "usage": {
+        "en": "Concepts of this codelist should be used from the EU Vocabulary <a href=\"https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/measurement-unit\">Measurement unit</a>."
+      }
+    },
+    {
+      "EA-Guid": "{18F56C80-F57E-4011-97C8-6D53045FEEF8}",
+      "name": "spelling",
+      "label": {
+        "en": "spelling"
+      },
+      "definition": {
+        "en": "A proper way of writing the geographical name."
+      }
+    },
+    {
+      "EA-Guid": "{33158FF4-4543-4718-A65B-740EAF610D71}",
+      "name": "sourceofname",
+      "label": {
+        "en": "sourceOfName"
+      },
+      "definition": {
+        "en": "Original data source from which the geographical name is taken from and integrated in the data set providing/publishing it. For some named spatial objects it might refer again to the publishing data set if no other information is available."
+      }
+    },
+    {
+      "EA-Guid": "{7A80A224-D27E-4944-AA5C-F09BF1F098B4}",
+      "name": "nativeness",
+      "label": {
+        "en": "nativeness"
+      },
+      "definition": {
+        "en": "Information enabling to acknowledge if the name is the one that is/was used in the area where the spatial object is situated at the instant when the name is/was in use."
+      },
+      "usage": {
+        "en": "Concepts of this codelist should be used from the INSPIRE <a href=\"http://inspire.ec.europa.eu/codelist/NativenessValue\">Nativeness</a> code list."
+      }
+    },
+    {
+      "EA-Guid": "{E89DC8CD-2B68-44ca-8617-6EC272539CDA}",
+      "name": "namestatus",
+      "label": {
+        "en": "nameStatus"
+      },
+      "definition": {
+        "en": "Qualitative information enabling to discern which credit should be given to the name with respect to its standardisation and/or its topicality."
+      },
+      "usage": {
+        "en": "NOTE The Geographical Names application schema does not explicitly make a preference between different names (e.g. official endonyms) of a specific real world entity. The necessary information for making the preference (e.g. the linguistic status of the administrative or geographic area in question), for a certain use case, must be obtained from other data or information sources. For example, the status of the language of the name may be known through queries on the geometries of named places against the geometry of administrative units recorded in a certain source with the language statuses information. \r\n\r\nConcepts of this codelist should be used from the INSPIRE <a href=\"https://inspire.ec.europa.eu/codelist/NameStatusValue\">Name Status</a> code list."
+      }
+    },
+    {
+      "EA-Guid": "{211F41A0-710B-44ef-8CCD-F3013B5F8A20}",
+      "name": "municipalityname",
+      "label": {
+        "en": "municipalityName"
+      },
+      "definition": {
+        "en": "Municipal name of the address."
+      }
+    },
+    {
+      "EA-Guid": "{12EAEA58-77E9-4dc5-A07E-622BDF32F51B}",
+      "name": "housenumber",
+      "label": {
+        "en": "houseNumber"
+      },
+      "definition": {
+        "en": "Alphanumeric code officially assigned to building units, berths, pitches or parcels."
+      }
+    },
+    {
+      "EA-Guid": "{75B1B338-5BB8-499f-9D03-F62158721BF2}",
+      "name": "type",
+      "label": {
+        "en": "type"
+      },
+      "definition": {
+        "en": "The particular kind of pipe."
+      }
+    },
+    {
+      "EA-Guid": "{39ED8CD5-6AFA-4ed1-9A53-76592B8620D3}",
+      "name": "dateofissue",
+      "label": {
+        "en": "dateOfIssue"
+      },
+      "definition": {
+        "en": "The date on which the Identifier was assigned."
+      }
+    },
+    {
+      "EA-Guid": "{6B19DC91-0D54-4792-804B-7D2E9CE3DA27}",
+      "name": "isPartOf",
+      "label": {
+        "en": "is part of"
+      },
+      "definition": {
+        "en": "The fire hydrant to which the valve is physically attached."
+      }
+    },
+    {
+      "EA-Guid": "{F283DF90-8B19-479d-AE85-BDA3A4450C81}",
+      "name": "isPartOf",
+      "label": {
+        "en": "is part of"
+      },
+      "definition": {
+        "en": "The fire hydrant to which the outlet is physically attached."
+      }
+    },
+    {
+      "EA-Guid": "{F283DF90-8B19-479d-AE85-BDA3A4450C81}",
+      "name": "hasPart",
+      "label": {
+        "en": "has part"
+      },
+      "definition": {
+        "en": "The outlet which is physically attached to a fire hydrant."
+      }
+    },
+    {
+      "EA-Guid": "{5C06FDCD-6246-4916-B418-C79FE65B091C}",
+      "name": "description",
+      "label": {
+        "en": "description"
+      },
+      "definition": {
+        "en": "A textual explanation about who performed the  maintenance of a particular Object and what was done to the Object in order to warrant a good condition."
+      }
+    },
+    {
+      "EA-Guid": "{99C046FD-A630-49ba-BE48-0AF1EBAD5DEB}",
+      "name": "description",
+      "label": {
+        "en": "description"
+      },
+      "definition": {
+        "en": "A textual explanation about who used the Object, the purpose and other relevant details to mention."
+      }
+    },
+    {
+      "EA-Guid": "{166780B4-11DE-42de-BA74-EEF6A43AABA9}",
+      "name": "description",
+      "label": {
+        "en": "description"
+      },
+      "definition": {
+        "en": "A textual explanation about who performed the  inspection of a particular Object and what was observed."
+      }
+    },
+    {
+      "EA-Guid": "{00214657-795D-4f97-8BCE-41DD63E13296}",
+      "name": "date",
+      "label": {
+        "en": "date"
+      },
+      "definition": {
+        "en": "The date and time of the maintenance."
+      }
+    },
+    {
+      "EA-Guid": "{F40F78DB-511F-46ce-B2CF-B8495EC54177}",
+      "name": "date",
+      "label": {
+        "en": "date"
+      },
+      "definition": {
+        "en": "The time and date on which a Fire Hydrant was used during an emergency intervention."
+      }
+    },
+    {
+      "EA-Guid": "{B932E87A-EDEC-4cc2-AAA5-5273328487B6}",
+      "name": "date",
+      "label": {
+        "en": "date"
+      },
+      "definition": {
+        "en": "The date and time of the inspection."
+      }
+    },
+    {
+      "EA-Guid": "{F851959B-EA03-4e18-9814-D4AB5DF8706B}",
+      "name": "issuingauthorityuri",
+      "label": {
+        "en": "issuingAuthorityURI"
+      },
+      "definition": {
+        "en": "The URI of the issuing authority."
+      }
+    },
+    {
+      "EA-Guid": "{DCD2D21E-B277-47ad-ABB1-AD9B92C085A8}",
+      "name": "schemeuri",
+      "label": {
+        "en": "schemeURI"
+      },
+      "definition": {
+        "en": "URI of the scheme used to construct the identifier."
+      }
+    },
+    {
+      "EA-Guid": "{5E65F7B2-DCB1-4ef1-81CF-E3209DBE419A}",
+      "name": "schemename",
+      "label": {
+        "en": "schemeName"
+      },
+      "definition": {
+        "en": "Name of the scheme used to construct the identifier."
+      }
+    },
+    {
+      "EA-Guid": "{B3332719-D54D-4201-BD28-EF8526953B7F}",
+      "name": "hasTelephone",
+      "label": {
+        "en": "has telephone"
+      },
+      "definition": {
+        "en": "A telephone number through which the ContactPoint can be contacted."
+      }
+    },
+    {
+      "EA-Guid": "{2CFDAD74-C274-445e-AA4E-C3DCC1DE4293}",
+      "name": "hasEmail",
+      "label": {
+        "en": "has email"
+      },
+      "definition": {
+        "en": "Email address of the ContactPoint."
+      }
+    },
+    {
+      "EA-Guid": "{E5A6E659-1A13-46db-A2E0-29ECF4ABD882}",
+      "name": "contactPoint",
+      "label": {
+        "en": "contact point"
+      },
+      "definition": {
+        "en": "The main contact information of the resource."
+      }
+    }
+  ]
+}
