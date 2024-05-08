@@ -5443,120 +5443,6 @@
       "name": "isOperatedBy",
       "inpackage": "UNKNOWN",
       "ap-definition-en": {
-        "en": "The organization in charge of controlling and maintaining the fire hydrant."
-      },
-      "ap-label-en": {
-        "en": "is operated by"
-      },
-      "definition": {
-        "en": "The organization in charge of controlling and maintaining the fire hydrant."
-      },
-      "label": {
-        "en": "is operated by"
-      },
-      "extra": {
-        "EA-Name": "isOperatedBy",
-        "EA-Guid": "{CC12C5D8-64AF-469e-9418-699EA9D35158}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "FireHydrant",
-        "EA-Domain-Guid": "{AEDD5D56-7E75-45f8-BA25-26AD278C10F6}",
-        "EA-Range": "Organization",
-        "RangeData": {
-          "EA-Name": "Organization",
-          "EA-GUID": "{F2D3E5C1-D0D1-4bf3-97FB-1ADD5B4074EB}",
-          "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
-        },
-        "sourceRole": "null",
-        "destRole": "isOperatedBy",
-        "label": {
-          "en": "is operated by"
-        },
-        "definition": {
-          "en": "The organization in charge of controlling and maintaining the fire hydrant."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "is operated by"
-        },
-        "ap-definition-en": {
-          "en": "The organization in charge of controlling and maintaining the fire hydrant."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "is operated by"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "The organization in charge of controlling and maintaining the fire hydrant."
-          },
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://vocab.belgif.be/ns/hydrant#isOperatedBy"
-          },
-          {
-            "key": "ap-definition-en",
-            "value": "NOTE",
-            "note": "The organization in charge of controlling and maintaining the fire hydrant."
-          }
-        ],
-        "DestRoleTags": [
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "is operated by"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "The organization in charge of controlling and maintaining the fire hydrant."
-          },
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://vocab.belgif.be/ns/hydrant#isOperatedBy"
-          },
-          {
-            "key": "ap-definition-en",
-            "value": "NOTE",
-            "note": "The organization in charge of controlling and maintaining the fire hydrant."
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://saref.etsi.org/saref4watr/FireHydrant",
-          "EA-Name": "FireHydrant"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Organization",
-          "EA-GUID": "{F2D3E5C1-D0D1-4bf3-97FB-1ADD5B4074EB}",
-          "EA-Package": "org",
-          "uri": "http://www.w3.org/ns/org#Organization"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "isOperatedBy",
-      "inpackage": "UNKNOWN",
-      "ap-definition-en": {
         "en": "The organization in charge of controlling and maintaining the pipe."
       },
       "ap-label-en": {
@@ -5651,6 +5537,120 @@
         {
           "uri": "https://saref.etsi.org/saref4watr/Pipe",
           "EA-Name": "Pipe"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Organization",
+          "EA-GUID": "{F2D3E5C1-D0D1-4bf3-97FB-1ADD5B4074EB}",
+          "EA-Package": "org",
+          "uri": "http://www.w3.org/ns/org#Organization"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://vocab.belgif.be/ns/hydrant#isOperatedBy",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "isOperatedBy",
+      "inpackage": "UNKNOWN",
+      "ap-definition-en": {
+        "en": "The organization in charge of controlling and maintaining the fire hydrant."
+      },
+      "ap-label-en": {
+        "en": "is operated by"
+      },
+      "definition": {
+        "en": "The organization in charge of controlling and maintaining the fire hydrant."
+      },
+      "label": {
+        "en": "is operated by"
+      },
+      "extra": {
+        "EA-Name": "isOperatedBy",
+        "EA-Guid": "{CC12C5D8-64AF-469e-9418-699EA9D35158}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "FireHydrant",
+        "EA-Domain-Guid": "{AEDD5D56-7E75-45f8-BA25-26AD278C10F6}",
+        "EA-Range": "Organization",
+        "RangeData": {
+          "EA-Name": "Organization",
+          "EA-GUID": "{F2D3E5C1-D0D1-4bf3-97FB-1ADD5B4074EB}",
+          "EA-Package": "org",
+          "uri": "http://www.w3.org/ns/org#Organization"
+        },
+        "sourceRole": "null",
+        "destRole": "isOperatedBy",
+        "label": {
+          "en": "is operated by"
+        },
+        "definition": {
+          "en": "The organization in charge of controlling and maintaining the fire hydrant."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "is operated by"
+        },
+        "ap-definition-en": {
+          "en": "The organization in charge of controlling and maintaining the fire hydrant."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is operated by"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "The organization in charge of controlling and maintaining the fire hydrant."
+          },
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://vocab.belgif.be/ns/hydrant#isOperatedBy"
+          },
+          {
+            "key": "ap-definition-en",
+            "value": "NOTE",
+            "note": "The organization in charge of controlling and maintaining the fire hydrant."
+          }
+        ],
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is operated by"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "The organization in charge of controlling and maintaining the fire hydrant."
+          },
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://vocab.belgif.be/ns/hydrant#isOperatedBy"
+          },
+          {
+            "key": "ap-definition-en",
+            "value": "NOTE",
+            "note": "The organization in charge of controlling and maintaining the fire hydrant."
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://saref.etsi.org/saref4watr/FireHydrant",
+          "EA-Name": "FireHydrant"
         }
       ],
       "range": [
@@ -7017,120 +7017,6 @@
       "@id": "http://purl.org/dc/terms/isPartOf",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": "isPartOf",
-      "inpackage": "OTHER_PACKAGE",
-      "ap-definition-en": {
-        "en": "The fire hydrant to which the valve is physically attached."
-      },
-      "ap-label-en": {
-        "en": "is part of"
-      },
-      "definition": {
-        "en": "The fire hydrant to which the valve is physically attached."
-      },
-      "label": {
-        "en": "is part of"
-      },
-      "extra": {
-        "EA-Name": "isPartOf",
-        "EA-Guid": "{6B19DC91-0D54-4792-804B-7D2E9CE3DA27}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Valve",
-        "EA-Domain-Guid": "{E82A7AE9-9FAF-47e1-873B-85E603056D15}",
-        "EA-Range": "FireHydrant",
-        "RangeData": {
-          "EA-Name": "FireHydrant",
-          "EA-GUID": "{AEDD5D56-7E75-45f8-BA25-26AD278C10F6}",
-          "EA-Package": "saref4watr",
-          "uri": "https://saref.etsi.org/saref4watr/FireHydrant"
-        },
-        "sourceRole": "null",
-        "destRole": "isPartOf",
-        "label": {
-          "en": "is part of"
-        },
-        "definition": {
-          "en": "The fire hydrant to which the valve is physically attached."
-        },
-        "usage": "",
-        "ap-label-en": {
-          "en": "is part of"
-        },
-        "ap-definition-en": {
-          "en": "The fire hydrant to which the valve is physically attached."
-        },
-        "ap-usageNote-en": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/isPartOf"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "The fire hydrant to which the valve is physically attached."
-          },
-          {
-            "key": "ap-definition-en",
-            "value": "NOTE",
-            "note": "The fire hydrant to which the valve is physically attached."
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "is part of"
-          }
-        ],
-        "DestRoleTags": [
-          {
-            "key": "uri",
-            "value": "NOTE",
-            "note": "http://purl.org/dc/terms/isPartOf"
-          },
-          {
-            "key": "definition-en",
-            "value": "NOTE",
-            "note": "The fire hydrant to which the valve is physically attached."
-          },
-          {
-            "key": "ap-definition-en",
-            "value": "NOTE",
-            "note": "The fire hydrant to which the valve is physically attached."
-          },
-          {
-            "key": "label-en",
-            "value": "NOTE",
-            "note": "is part of"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://saref.etsi.org/saref4watr/Valve",
-          "EA-Name": "Valve"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "FireHydrant",
-          "EA-GUID": "{AEDD5D56-7E75-45f8-BA25-26AD278C10F6}",
-          "EA-Package": "saref4watr",
-          "uri": "https://saref.etsi.org/saref4watr/FireHydrant"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isPartOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": "isPartOf",
       "inpackage": "UNKNOWN",
       "ap-definition-en": {
         "en": "The fire hydrant to which the outlet is physically attached."
@@ -7237,6 +7123,120 @@
         {
           "uri": "http://vocab.belgif.be/ns/hydrant#Outlet",
           "EA-Name": "Outlet"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "FireHydrant",
+          "EA-GUID": "{AEDD5D56-7E75-45f8-BA25-26AD278C10F6}",
+          "EA-Package": "saref4watr",
+          "uri": "https://saref.etsi.org/saref4watr/FireHydrant"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isPartOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": "isPartOf",
+      "inpackage": "OTHER_PACKAGE",
+      "ap-definition-en": {
+        "en": "The fire hydrant to which the valve is physically attached."
+      },
+      "ap-label-en": {
+        "en": "is part of"
+      },
+      "definition": {
+        "en": "The fire hydrant to which the valve is physically attached."
+      },
+      "label": {
+        "en": "is part of"
+      },
+      "extra": {
+        "EA-Name": "isPartOf",
+        "EA-Guid": "{6B19DC91-0D54-4792-804B-7D2E9CE3DA27}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Valve",
+        "EA-Domain-Guid": "{E82A7AE9-9FAF-47e1-873B-85E603056D15}",
+        "EA-Range": "FireHydrant",
+        "RangeData": {
+          "EA-Name": "FireHydrant",
+          "EA-GUID": "{AEDD5D56-7E75-45f8-BA25-26AD278C10F6}",
+          "EA-Package": "saref4watr",
+          "uri": "https://saref.etsi.org/saref4watr/FireHydrant"
+        },
+        "sourceRole": "null",
+        "destRole": "isPartOf",
+        "label": {
+          "en": "is part of"
+        },
+        "definition": {
+          "en": "The fire hydrant to which the valve is physically attached."
+        },
+        "usage": "",
+        "ap-label-en": {
+          "en": "is part of"
+        },
+        "ap-definition-en": {
+          "en": "The fire hydrant to which the valve is physically attached."
+        },
+        "ap-usageNote-en": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://purl.org/dc/terms/isPartOf"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "The fire hydrant to which the valve is physically attached."
+          },
+          {
+            "key": "ap-definition-en",
+            "value": "NOTE",
+            "note": "The fire hydrant to which the valve is physically attached."
+          },
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is part of"
+          }
+        ],
+        "DestRoleTags": [
+          {
+            "key": "uri",
+            "value": "NOTE",
+            "note": "http://purl.org/dc/terms/isPartOf"
+          },
+          {
+            "key": "definition-en",
+            "value": "NOTE",
+            "note": "The fire hydrant to which the valve is physically attached."
+          },
+          {
+            "key": "ap-definition-en",
+            "value": "NOTE",
+            "note": "The fire hydrant to which the valve is physically attached."
+          },
+          {
+            "key": "label-en",
+            "value": "NOTE",
+            "note": "is part of"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://saref.etsi.org/saref4watr/Valve",
+          "EA-Name": "Valve"
         }
       ],
       "range": [
@@ -8464,13 +8464,13 @@
   "config": "config/config-ap.json",
   "branchtag": "main",
   "disabled": false,
-  "dummy": "005",
+  "dummy": "006",
   "filename": "config/hydrant.json",
   "navigation": {},
   "repository": "https://github.com/belgif/ICEGthema-hydrant",
   "urlref": "/thematic/models/hydrant",
-  "documentcommit": "a880adea0a954a103844e9df2e05215038cfe453",
-  "toolchaincommit": "505c1093d55d0df3b0829eae9086061c884a0fd8",
+  "documentcommit": "2ec1cc6cf138c92add70a8ac03caead868552537",
+  "toolchaincommit": "d20f87ea6556f1b50a6cef8c9f092271ea564999",
   "hostname": "https://belgif.github.io/",
   "translation": [
     {
