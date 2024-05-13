@@ -13,8 +13,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/f050121b3d6e138841a68a670a20935b05eeb1d5",
-    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/f050121b3d6e138841a68a670a20935b05eeb1d5/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-imkl/tree/10d63df77d0adb5805f55bd44f28bfb7add26c43",
+    "changelogurl": "https://github.com/belgif/ICEGthema-imkl/blob/10d63df77d0adb5805f55bd44f28bfb7add26c43/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -3797,10 +3797,10 @@
         },
         {
           "uri": "https://vocab.belgif.be/ns/utility-services#activityComplexReference",
-          "name": "activityComplexReference",
-          "sort": "[UPDATED] activity complex reference",
+          "name": "utilityFacilityReference",
+          "sort": "utility facility reference",
           "label": {
-            "en": "[UPDATED] activity complex reference"
+            "en": "utility facility reference"
           },
           "description": {
             "en": "Activity Complex belonging to the network."
@@ -3830,13 +3830,13 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "ap-label-nl": "activiteitencomplexreferentie",
+            "ap-label-nl": "nutsvoorzieningInrichtingReferentie",
             "package": "IMKL-LD",
             "ap-definition-nl": "Activiteitencomplex dat tot het netwerk behoort.",
             "definition-nl": "Activiteitencomplex dat tot het netwerk behoort.",
-            "label-en": "activity complex reference",
+            "label-en": "utility facility reference",
             "definition-en": "Activity Complex belonging to the network.",
-            "label-nl": "activiteitencomplexreferentie",
+            "label-nl": "nutsvoorzieningInrichtingReferentie",
             "uri": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
           }
         },
@@ -4054,9 +4054,9 @@
         {
           "uri": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
           "name": "utilityfacilityreference",
-          "sort": "utilityFacilityreference",
+          "sort": "[UPDATED] utilityFacilityReference",
           "label": {
-            "en": "utilityFacilityreference"
+            "en": "[UPDATED] utilityFacilityReference"
           },
           "description": {
             "en": "Reference to a complex of activities related to this (element of a) utility network."
@@ -4088,13 +4088,13 @@
           "rawTags": {
             "ap-label-nl": "nutsvoorzieningInrichtingReferentie",
             "label-nl": "nutsvoorzieningInrichtingReferentie",
-            "label-en": "utilityFacilityreference",
+            "label-en": "utilityFacilityReference",
             "definition-en": "Reference to a complex of activities related to this (element of a) utility network.",
             "definition-nl": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
             "ap-definition-nl": "Verwijzing naar een Activiteitencomplex waarop het element betrekking heeft.",
             "ap-definition-en": "Reference to a complex of activities related to this (element of a) utility network.",
             "package": "IMKL-LD",
-            "ap-label-en": "utilityFacilityreference"
+            "ap-label-en": "utilityFacilityReference"
           }
         },
         {
@@ -6583,7 +6583,7 @@
     {
       "uri": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
       "name": {
-        "en": "utilityFacilityreference",
+        "en": "[UPDATED] utilityFacilityReference",
         "undefined": "utilityfacilityreference"
       },
       "description": {},

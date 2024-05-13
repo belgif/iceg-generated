@@ -537,9 +537,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Brondata</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/f050121b3d6e138841a68a670a20935b05eeb1d5">https://github.com/belgif/ICEGthema-imkl/tree/f050121b3d6e138841a68a670a20935b05eeb1d5</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/tree/10d63df77d0adb5805f55bd44f28bfb7add26c43">https://github.com/belgif/ICEGthema-imkl/tree/10d63df77d0adb5805f55bd44f28bfb7add26c43</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/f050121b3d6e138841a68a670a20935b05eeb1d5/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/f050121b3d6e138841a68a670a20935b05eeb1d5/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-imkl/blob/10d63df77d0adb5805f55bd44f28bfb7add26c43/CHANGELOG">https://github.com/belgif/ICEGthema-imkl/blob/10d63df77d0adb5805f55bd44f28bfb7add26c43/CHANGELOG</a></dd>
                   <dt>Opmerkingen en feedback</dt>
                   <dd><a href="https://github.com/Informatievlaanderen/OSLOthema-imkl/issues">https://github.com/Informatievlaanderen/OSLOthema-imkl/issues</a></dd>
                   
@@ -3313,7 +3313,6 @@ OPMERKING 2 Het wordt aanbevolen dat de taal van de naam (onderdeel van het gege
                   <dt>Eigenschappen</dt>
                   
                   <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                    <a href="#UtilityNetwork%3AactivityComplexReference">[UPDATED] nutsvoorzieningInrichtingReferentie</a>, 
                     <a href="#UtilityNetwork%3AauthorityRole">bevoegdePartij</a>, 
                     <a href="#UtilityNetwork%3Adisclaimer">disclaimer</a>, 
                     <a href="#UtilityNetwork%3Adocumentation">documentatie</a>, 
@@ -3321,6 +3320,7 @@ OPMERKING 2 Het wordt aanbevolen dat de taal van de naam (onderdeel van het gege
                     <a href="#UtilityNetwork%3Aprotectedarea">Enter your translation here</a>, 
                     <a href="#UtilityNetwork%3AgeographicalName">geografischeNaam</a>, 
                     <a href="#UtilityNetwork%3Anetwork">netwerk</a>, 
+                    <a href="#UtilityNetwork%3AutilityFacilityReference">nutsvoorzieningInrichtingReferentie</a>, 
                     <a href="#UtilityNetwork%3AutilityNetworkType">nutsvoorzieningnetwerktype</a>, 
                     <a href="#UtilityNetwork%3AstandardVerticalPositionDetail">standaardVerticalePositiedetail</a>.
                   </dd>
@@ -3342,26 +3342,6 @@ OPMERKING 2 Het wordt aanbevolen dat de taal van de naam (onderdeel van het gege
                   </thead>
 
                   <tbody class="supertype">
-                    
-                    <tr id="UtilityNetwork%3AactivityComplexReference" typeof="rdfs:Eigenschap" resource="https://vocab.belgif.be/ns/utility-services#activityComplexReference">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-placement="right">
-                            [UPDATED] nutsvoorzieningInrichtingReferentie</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Activiteitencomplex" data-placement="right">Activiteitencomplex</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">Activiteitencomplex dat tot het netwerk behoort.</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
                     
                     <tr id="UtilityNetwork%3AauthorityRole" typeof="rdfs:Eigenschap" resource="https://vocab.belgif.be/ns/utility-services#authorityRole">
                       <td>
@@ -3499,6 +3479,26 @@ OPMERKING 2 Het wordt aanbevolen dat de taal van de naam (onderdeel van het gege
                       </td>
                       <td>0..*</td>
                       <td property="rdfs:comment">Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="UtilityNetwork%3AutilityFacilityReference" typeof="rdfs:Eigenschap" resource="https://vocab.belgif.be/ns/utility-services#activityComplexReference">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-toggle="tooltip" data-content="https://vocab.belgif.be/ns/utility-services#activityComplexReference" data-placement="right">
+                            nutsvoorzieningInrichtingReferentie</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Activiteitencomplex" data-placement="right">Activiteitencomplex</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Activiteitencomplex dat tot het netwerk behoort.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>

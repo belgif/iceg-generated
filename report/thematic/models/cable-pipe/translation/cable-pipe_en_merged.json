@@ -3718,8 +3718,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
   "disabled": false,
-  "documentcommit": "f050121b3d6e138841a68a670a20935b05eeb1d5",
-  "dummy": "041",
+  "documentcommit": "10d63df77d0adb5805f55bd44f28bfb7add26c43",
+  "dummy": "042",
   "eap": "IMKL-LD.eap",
   "editors": [
     {
@@ -4708,7 +4708,7 @@
         "en": "Activity Complex belonging to the network."
       },
       "ap-label-en": {
-        "en": "activity complex reference"
+        "en": "utility facility reference"
       },
       "codelist": [],
       "definition": {
@@ -4724,7 +4724,7 @@
         "DestRoleTags": [
           {
             "key": "ap-label-nl",
-            "note": "activiteitencomplexreferentie",
+            "note": "nutsvoorzieningInrichtingReferentie",
             "value": "NOTE"
           },
           {
@@ -4744,7 +4744,7 @@
           },
           {
             "key": "label-en",
-            "note": "activity complex reference",
+            "note": "utility facility reference",
             "value": "NOTE"
           },
           {
@@ -4754,7 +4754,7 @@
           },
           {
             "key": "label-nl",
-            "note": "activiteitencomplexreferentie",
+            "note": "nutsvoorzieningInrichtingReferentie",
             "value": "NOTE"
           },
           {
@@ -4779,7 +4779,7 @@
         "RawTags": [
           {
             "key": "ap-label-nl",
-            "note": "activiteitencomplexreferentie",
+            "note": "nutsvoorzieningInrichtingReferentie",
             "value": "NOTE"
           },
           {
@@ -4799,7 +4799,7 @@
           },
           {
             "key": "label-en",
-            "note": "activity complex reference",
+            "note": "utility facility reference",
             "value": "NOTE"
           },
           {
@@ -4809,7 +4809,7 @@
           },
           {
             "key": "label-nl",
-            "note": "activiteitencomplexreferentie",
+            "note": "nutsvoorzieningInrichtingReferentie",
             "value": "NOTE"
           },
           {
@@ -4824,7 +4824,7 @@
           "en": "Activity Complex belonging to the network."
         },
         "ap-label-en": {
-          "en": "activity complex reference"
+          "en": "utility facility reference"
         },
         "ap-usageNote-en": "",
         "definition": {
@@ -4833,7 +4833,7 @@
         "derived": "false",
         "destRole": "nutsvoorzieningInrichtingReferentie",
         "label": {
-          "en": "activity complex reference"
+          "en": "utility facility reference"
         },
         "sourceRole": "null",
         "usage": ""
@@ -4841,11 +4841,11 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "en": "[UPDATED] activity complex reference"
+        "en": "utility facility reference"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
-      "name": "activityComplexReference",
+      "name": "utilityFacilityReference",
       "range": [
         {
           "EA-GUID": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
@@ -20792,7 +20792,7 @@
         "en": "Reference to a complex of activities related to this (element of a) utility network."
       },
       "ap-label-en": {
-        "en": "utilityFacilityreference"
+        "en": "utilityFacilityReference"
       },
       "codelist": [],
       "definition": {
@@ -20818,7 +20818,7 @@
           },
           {
             "key": "label-en",
-            "note": "utilityFacilityreference",
+            "note": "utilityFacilityReference",
             "value": "NOTE"
           },
           {
@@ -20848,7 +20848,7 @@
           },
           {
             "key": "ap-label-en",
-            "note": "utilityFacilityreference",
+            "note": "utilityFacilityReference",
             "value": "NOTE"
           }
         ],
@@ -20878,7 +20878,7 @@
           },
           {
             "key": "label-en",
-            "note": "utilityFacilityreference",
+            "note": "utilityFacilityReference",
             "value": "NOTE"
           },
           {
@@ -20908,7 +20908,7 @@
           },
           {
             "key": "ap-label-en",
-            "note": "utilityFacilityreference",
+            "note": "utilityFacilityReference",
             "value": "NOTE"
           }
         ],
@@ -20918,7 +20918,7 @@
           "en": "Reference to a complex of activities related to this (element of a) utility network."
         },
         "ap-label-en": {
-          "en": "utilityFacilityreference"
+          "en": "utilityFacilityReference"
         },
         "ap-usageNote-en": "",
         "definition": {
@@ -20927,7 +20927,7 @@
         "derived": "false",
         "destRole": "nutsvoorzieningInrichtingReferentie",
         "label": {
-          "en": "utilityFacilityreference"
+          "en": "utilityFacilityReference"
         },
         "sourceRole": "op",
         "usage": ""
@@ -20935,7 +20935,7 @@
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "en": "utilityFacilityreference"
+        "en": "[UPDATED] utilityFacilityReference"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -26057,7 +26057,7 @@
   "standaardregisterurl": "TODO",
   "template": "cable-pipe_en.j2",
   "title": "Cables and Pipes",
-  "toolchaincommit": "d461e4390efa2c60128a32b3263a566572125f86",
+  "toolchaincommit": "e9a720ed120caf7213653cd109093527fa61ca11",
   "translation": [
     {
       "language": "en",
