@@ -945,11 +945,6 @@
     shacl:name "geographical name"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#geographicalName>
   ], [
-    shacl:class <https://vocab.belgif.be/ns/generic#ActivityComplex>;
-    shacl:description "Activity Complex belonging to the network."@en;
-    shacl:name "activity complex reference"@en;
-    shacl:path <https://vocab.belgif.be/ns/utility-services#activityComplexReference>
-  ], [
     shacl:class <https://vocab.belgif.be/ns/utility-services#ProtectedArea>;
     shacl:description "Area within which certain regulations apply when carrying out works."@en;
     shacl:name "protectedArea"@en;
@@ -981,6 +976,11 @@
     shacl:name "network"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#network>
   ], [
+    shacl:class <https://vocab.belgif.be/ns/generic#ActivityComplex>;
+    shacl:description "Activity Complex belonging to the network."@en;
+    shacl:name "[UPDATED] activity complex reference"@en;
+    shacl:path <https://vocab.belgif.be/ns/utility-services#activityComplexReference>
+  ], [
     shacl:class skos:Concept;
     shacl:description "The type of utility network or the utility network theme."@en;
     shacl:maxCount 1;
@@ -1003,11 +1003,6 @@
     shacl:maxCount 1;
     shacl:name "identifier"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#identifier>
-  ], [
-    shacl:class <https://vocab.belgif.be/ns/generic#ActivityComplex>;
-    shacl:description "Reference to a complex of activities related to this (element of a) utility network."@en;
-    shacl:name "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"@en;
-    shacl:path <https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie>
   ], [
     shacl:class foaf:Document;
     shacl:description "Reference to a Document containing additional information about the element."@en;
@@ -1039,6 +1034,11 @@
     shacl:minCount 1;
     shacl:name "in network"@en;
     shacl:path <https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork>
+  ], [
+    shacl:class <https://vocab.belgif.be/ns/generic#ActivityComplex>;
+    shacl:description "Reference to a complex of activities related to this (element of a) utility network."@en;
+    shacl:name "utilityFacilityreference"@en;
+    shacl:path <https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie>
   ], [
     shacl:class skos:Concept;
     shacl:description "General indication of the Vertical Position of the element."@en;

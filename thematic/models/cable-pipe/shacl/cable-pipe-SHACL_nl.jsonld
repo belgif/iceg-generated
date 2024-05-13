@@ -975,16 +975,6 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#geographicalName"
         },
         {
-          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-          "sh:description": {
-            "nl": "Activiteitencomplex dat tot het netwerk behoort."
-          },
-          "sh:name": {
-            "nl": "activiteitencomplexreferentie"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
-        },
-        {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
           "sh:description": {
             "nl": "Enter your translation here"
@@ -1046,6 +1036,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#network"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "nl": "Activiteitencomplex dat tot het netwerk behoort."
+          },
+          "sh:name": {
+            "nl": "[UPDATED] nutsvoorzieningInrichtingReferentie"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
+        },
+        {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
             "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
@@ -1085,16 +1085,6 @@
             "nl": "identificator"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#identifier"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-          "sh:description": {
-            "nl": "Enter your translation here"
-          },
-          "sh:name": {
-            "nl": "Enter your translation here"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
@@ -1151,6 +1141,16 @@
             "nl": "in netwerk"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "nl": "Enter your translation here"
+          },
+          "sh:name": {
+            "nl": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",

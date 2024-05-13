@@ -975,16 +975,6 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#geographicalName"
         },
         {
-          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-          "sh:description": {
-            "en": "Activity Complex belonging to the network."
-          },
-          "sh:name": {
-            "en": "activity complex reference"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
-        },
-        {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
           "sh:description": {
             "en": "Area within which certain regulations apply when carrying out works."
@@ -1046,6 +1036,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#network"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "en": "Activity Complex belonging to the network."
+          },
+          "sh:name": {
+            "en": "[UPDATED] activity complex reference"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
+        },
+        {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
             "en": "The type of utility network or the utility network theme."
@@ -1085,16 +1085,6 @@
             "en": "identifier"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#identifier"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-          "sh:description": {
-            "en": "Reference to a complex of activities related to this (element of a) utility network."
-          },
-          "sh:name": {
-            "en": "UtilityNetworkElement|r=utilityFacilityreference|k=INSPIRE-BM::ActivityComplex"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
@@ -1151,6 +1141,16 @@
             "en": "in network"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "en": "Reference to a complex of activities related to this (element of a) utility network."
+          },
+          "sh:name": {
+            "en": "utilityFacilityreference"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",

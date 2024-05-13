@@ -975,16 +975,6 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#geographicalName"
         },
         {
-          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-          "sh:description": {
-            "fr": "Complexe d'Activités appartenant au réseau."
-          },
-          "sh:name": {
-            "fr": "référence à un complexe d'activité"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
-        },
-        {
           "sh:class": "https://vocab.belgif.be/ns/utility-services#ProtectedArea",
           "sh:description": {
             "fr": "Enter your translation here"
@@ -1046,6 +1036,16 @@
           "sh:path": "https://vocab.belgif.be/ns/utility-services#network"
         },
         {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "fr": "Complexe d'Activités appartenant au réseau."
+          },
+          "sh:name": {
+            "fr": "[UPDATED] référence à un dispositif de service"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#activityComplexReference"
+        },
+        {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
             "fr": "Le type du Réseau de Service ou le thème du Réseau de Service."
@@ -1085,16 +1085,6 @@
             "fr": "identifiant"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#identifier"
-        },
-        {
-          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
-          "sh:description": {
-            "fr": "Enter your translation here"
-          },
-          "sh:name": {
-            "fr": "Enter your translation here"
-          },
-          "sh:path": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie"
         },
         {
           "sh:class": "http://xmlns.com/foaf/0.1/Document",
@@ -1151,6 +1141,16 @@
             "fr": "dans le réseau"
           },
           "sh:path": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork"
+        },
+        {
+          "sh:class": "https://vocab.belgif.be/ns/generic#ActivityComplex",
+          "sh:description": {
+            "fr": "Enter your translation here"
+          },
+          "sh:name": {
+            "fr": "Enter your translation here"
+          },
+          "sh:path": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",

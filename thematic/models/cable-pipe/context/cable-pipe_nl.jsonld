@@ -209,6 +209,11 @@
       "@id": "https://vocab.belgif.be/ns/utility-services#documentation",
       "@type": "@id"
     },
+    "Nutsvoorzieningnetwerk.nutsvoorzieningInrichtingReferentie": {
+      "@container": "@set",
+      "@id": "https://vocab.belgif.be/ns/utility-services#activityComplexReference",
+      "@type": "@id"
+    },
     "Nutsvoorzieningnetwerkelement": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement",
     "Nutsvoorzieningnetwerkelement.documentatie": {
       "@container": "@set",
@@ -218,6 +223,11 @@
     "Nutsvoorzieningnetwerkelement.inNetwerk": {
       "@container": "@set",
       "@id": "https://vocab.belgif.be/ns/utility-services#UtilityNetworkElement.inNetwork",
+      "@type": "@id"
+    },
+    "Nutsvoorzieningnetwerkelement.nutsvoorzieningInrichtingReferentie": {
+      "@container": "@set",
+      "@id": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
       "@type": "@id"
     },
     "Nutsvoorzieningnetwerkelement.verticalePositie": {
@@ -338,16 +348,6 @@
     "activiteit": {
       "@container": "@set",
       "@id": "https://vocab.belgif.be/ns/generic#activity",
-      "@type": "@id"
-    },
-    "activiteitencomplexreferentie": {
-      "@container": "@set",
-      "@id": "https://vocab.belgif.be/ns/utility-services#activiteitencomplexreferentie",
-      "@type": "@id"
-    },
-    "activitycomplexreferentie": {
-      "@container": "@set",
-      "@id": "https://vocab.belgif.be/ns/utility-services#activityComplexReference",
       "@type": "@id"
     },
     "administratieveeenheidniveau1": {
