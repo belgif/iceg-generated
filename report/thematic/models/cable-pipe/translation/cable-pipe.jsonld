@@ -6077,19 +6077,19 @@
         {
             "@id": "https://vocab.belgif.be/ns/utility-services#nutsvoorzieningInrichtingReferentie",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "name": "utilityfacilityreference",
+            "name": "utilityFacilityReference",
             "inpackage": "ACTIVE_PACKAGE",
             "ap-definition-en": {
                 "en": "Reference to a complex of activities related to this (element of a) utility network."
             },
             "ap-label-en": {
-                "en": "utilityFacilityReference"
+                "en": "utility facility reference"
             },
             "definition": {
                 "en": "Reference to a complex of activities related to this (element of a) utility network."
             },
             "label": {
-                "en": "utilityFacilityReference"
+                "en": "utility facility reference"
             },
             "extra": {
                 "EA-Name": "nutsvoorzieningInrichtingReferentie",
@@ -6109,14 +6109,14 @@
                 "sourceRole": "op",
                 "destRole": "nutsvoorzieningInrichtingReferentie",
                 "label": {
-                    "en": "utilityFacilityReference"
+                    "en": "utility facility reference"
                 },
                 "definition": {
                     "en": "Reference to a complex of activities related to this (element of a) utility network."
                 },
                 "usage": "",
                 "ap-label-en": {
-                    "en": "utilityFacilityReference"
+                    "en": "utility facility reference"
                 },
                 "ap-definition-en": {
                     "en": "Reference to a complex of activities related to this (element of a) utility network."
@@ -6137,7 +6137,7 @@
                     {
                         "key": "label-en",
                         "value": "NOTE",
-                        "note": "utilityFacilityReference"
+                        "note": "utility facility reference"
                     },
                     {
                         "key": "definition-en",
@@ -6167,7 +6167,7 @@
                     {
                         "key": "ap-label-en",
                         "value": "NOTE",
-                        "note": "utilityFacilityReference"
+                        "note": "utility facility reference"
                     }
                 ],
                 "DestRoleTags": [
@@ -6184,7 +6184,7 @@
                     {
                         "key": "label-en",
                         "value": "NOTE",
-                        "note": "utilityFacilityReference"
+                        "note": "utility facility reference"
                     },
                     {
                         "key": "definition-en",
@@ -6214,7 +6214,7 @@
                     {
                         "key": "ap-label-en",
                         "value": "NOTE",
-                        "note": "utilityFacilityReference"
+                        "note": "utility facility reference"
                     }
                 ],
                 "Scope": "FULL_DEFINITON"
@@ -25835,12 +25835,12 @@
     "config": "config/config-ap.json",
     "branchtag": "main",
     "disabled": false,
-    "dummy": "042",
+    "dummy": "043",
     "filename": "config/cable-pipe.json",
     "navigation": {},
     "repository": "https://github.com/belgif/ICEGthema-imkl",
     "urlref": "/thematic/models/cable-pipe",
-    "documentcommit": "10d63df77d0adb5805f55bd44f28bfb7add26c43",
-    "toolchaincommit": "e9a720ed120caf7213653cd109093527fa61ca11",
+    "documentcommit": "63fda66b7340cad3e5a99ae11dec985c912d4d94",
+    "toolchaincommit": "946fdb961fa4dd4f73f6411b21fdf50ffbad06ba",
     "hostname": "https://belgif.github.io/"
 }
