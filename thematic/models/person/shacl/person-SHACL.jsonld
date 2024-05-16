@@ -1,0 +1,633 @@
+{
+  "@context": {
+    "@vocab": "https://belgif.github.io//thematic/models/person",
+    "qb": "http://purl.org/linked-data/cube#",
+    "qb:codeList": {
+      "@type": "@id"
+    },
+    "sh": "http://www.w3.org/ns/shacl#",
+    "sh:class": {
+      "@type": "@id"
+    },
+    "sh:datatype": {
+      "@type": "@id"
+    },
+    "sh:description": {
+      "@container": "@language"
+    },
+    "sh:maxCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:minCount": {
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "sh:name": {
+      "@container": "@language"
+    },
+    "sh:path": {
+      "@type": "@id"
+    },
+    "sh:property": {
+      "@type": "@id"
+    },
+    "sh:targetClass": {
+      "@type": "@id"
+    },
+    "shapes": {
+      "@type": "@id"
+    },
+    "vl": "https://purl.eu/ns/shacl#"
+  },
+  "@id": "https://belgif.github.io//thematic/models/person",
+  "shapes": [
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#BirthShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#TemporalPosition",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "birth date"
+          },
+          "sh:path": "http://fixme.com#birthDate"
+        },
+        {
+          "sh:class": "http://fixme.com#Locality",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "place of birth"
+          },
+          "sh:path": "http://fixme.com#placeOfBirth"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Birth"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#CitizenshipShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#Country",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "jurisdiction"
+          },
+          "sh:path": "http://fixme.com#jurisdiction"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Citizenship"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#CivilStatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of civil status."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "civil status value"
+          },
+          "sh:path": "http://fixme.com#civilStatusValue"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#CivilStatus"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ContactInformationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#ContactInformationType",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "information type"
+          },
+          "sh:path": "http://fixme.com#informationType"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:name": {
+            "en": "information value"
+          },
+          "sh:path": "http://fixme.com#informationValue"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#ContactInformation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ContactInformationTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#ContactInformationType"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DeathShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#TemporalPosition",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "death date"
+          },
+          "sh:path": "http://fixme.com#deathDate"
+        },
+        {
+          "sh:class": "http://fixme.com#Locality",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "place of death"
+          },
+          "sh:path": "http://fixme.com#placeOfDeath"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Death"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DescentShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "descent type"
+          },
+          "sh:path": "http://fixme.com#descentType"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Descent"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DesignationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#DesignationType",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "designation type"
+          },
+          "sh:path": "http://fixme.com#designationType"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:name": {
+            "en": "designation value"
+          },
+          "sh:path": "http://fixme.com#designationValue"
+        },
+        {
+          "sh:class": "http://fixme.com#Language",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "language"
+          },
+          "sh:path": "http://fixme.com#language"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Designation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DesignationTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#DesignationType"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DiplomaticPostShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#Country",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "country"
+          },
+          "sh:path": "http://fixme.com#country"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "country"
+          },
+          "sh:path": "http://fixme.com#identifier"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#DiplomaticPost"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DiplomaticStatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#DiplomaticStatus"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DomesticResidenceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#DomesticResidence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ForeignResidenceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#DiplomaticPost",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "diplomatic post"
+          },
+          "sh:path": "http://fixme.com#diplomaticPost"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#ForeignResidence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#GuardianshipShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#GuardianshipType",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#guardianshipType"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Guardianship"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#GuardianshipTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#GuardianshipType"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#HouseholdShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
+            "en": "Address of the residence of the household."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "household address"
+          },
+          "sh:path": "http://fixme.com#householdAddress"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Household"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#HouseholdRoleShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#HouseholdRoleType",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "role type"
+          },
+          "sh:path": "http://fixme.com#roleType"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#HouseholdRole"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#HouseholdRoleTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#HouseholdRoleType"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#InternationaLegalStatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#Country",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "jurisdiction"
+          },
+          "sh:path": "http://fixme.com#jurisdiction"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#InternationaLegalStatus"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#InternationalProtectionStatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#InternationalProtectionStatus"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#MarriageShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#Marriage"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#NobilityTitleShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#NobilityTitle"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#PersonRelation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#RecordShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "identifier"
+          },
+          "sh:path": "http://fixme.com#identifier"
+        },
+        {
+          "sh:class": "http://fixme.com#RecordStatus",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "record status"
+          },
+          "sh:path": "http://fixme.com#recordStatus"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Record"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#RegisteredPersonShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#RegisteredPerson"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#RelationRoleShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#RelationRoleType",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "role type"
+          },
+          "sh:path": "http://fixme.com#roleType"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#RelationRole"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#RelationRoleTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#RelationRoleType"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ResidenceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
+            "en": "Address of the place of residence."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "residence address"
+          },
+          "sh:path": "http://fixme.com#address"
+        },
+        {
+          "sh:class": "http://fixme.com#ResidenceType",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "residence type"
+          },
+          "sh:path": "http://fixme.com#residenceType"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Residence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ResidenceTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#ResidenceType"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ResidencyShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#Country",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "jurisdiction"
+          },
+          "sh:path": "http://fixme.com#jurisdiction"
+        },
+        {
+          "sh:class": "http://fixme.com#Residence",
+          "sh:name": {
+            "en": "residence"
+          },
+          "sh:path": "http://fixme.com#residence"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Residency"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ResidencyTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#ResidencyType"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#StatutoryCohabitationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#StatutoryCohabitation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#CivilStatusValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DescentTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#GenderShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#PersonShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#Birth",
+          "sh:description": {
+            "en": "Birth data of a person."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "has birth"
+          },
+          "sh:path": "http://fixme.com#birth"
+        },
+        {
+          "sh:class": "http://fixme.com#Citizenship",
+          "sh:name": {
+            "en": "citizenship"
+          },
+          "sh:path": "http://fixme.com#citizenship"
+        },
+        {
+          "sh:class": "http://fixme.com#ContactInformation",
+          "sh:description": {
+            "en": "Information such as email, telephone that allows the Person to be contacted."
+          },
+          "sh:name": {
+            "en": "contact information"
+          },
+          "sh:path": "http://schema.org/contactPoint"
+        },
+        {
+          "sh:class": "http://fixme.com#Death",
+          "sh:description": {
+            "en": "Decease data of a person."
+          },
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "has decease"
+          },
+          "sh:path": "http://fixme.com#death"
+        },
+        {
+          "sh:class": "http://fixme.com#Designation",
+          "sh:name": {
+            "en": "designation"
+          },
+          "sh:path": "http://fixme.com#designation"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Part of person's full name received from the previous generation."
+          },
+          "sh:name": {
+            "en": "family name"
+          },
+          "sh:path": "http://xmlns.com/foaf/0.1/familyName"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "The administrative gender of the person."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "gender"
+          },
+          "sh:path": "http://fixme.com#gender"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Name given to a child at birth. Distinguishes the child from the other children in the family."
+          },
+          "sh:name": {
+            "en": "given name"
+          },
+          "sh:path": "http://xmlns.com/foaf/0.1/givenName"
+        },
+        {
+          "sh:class": "http://fixme.com#NobilityTitle",
+          "sh:maxCount": "1",
+          "sh:name": {
+            "en": "nobility title"
+          },
+          "sh:path": "http://fixme.com#nobilityTitle"
+        }
+      ],
+      "sh:targetClass": "http://www.w3.org/ns/person#Person"
+    }
+  ]
+}

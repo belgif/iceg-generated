@@ -1,0 +1,692 @@
+{
+  "classes": [],
+  "properties": [],
+  "externals": [
+    {
+      "EA-Guid": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+      "name": "Birth",
+      "label": {
+        "en": "Birth",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The person being born.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D88DC311-AF17-4e4b-B108-7CBAB51CAF60}",
+      "name": "Citizenship",
+      "label": {
+        "en": "Citizenship",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E12D29AC-62A7-4b7a-A4B5-948D6FFDB40E}",
+      "name": "CivilStatus",
+      "label": {
+        "en": "Civil Status",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Status of a person according to civil law.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+      "name": "ContactInformation",
+      "label": {
+        "en": "Contact Information",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
+      "name": "ContactInformationType",
+      "label": {
+        "en": "Contact Information Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8762DAE0-F5E0-4016-A694-2CFBB90BF82B}",
+      "name": "Death",
+      "label": {
+        "en": "Death",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Death of a person.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{1B563855-E1D4-4337-9C32-A823CCB602A4}",
+      "name": "Descent",
+      "label": {
+        "en": "Descent",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Descent is the descending line of blood relationship between different generations.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent).",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+      "name": "Designation",
+      "label": {
+        "en": "Designation",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9D9A9E0E-D60D-44aa-A4DA-81AD61A91998}",
+      "name": "DesignationType",
+      "label": {
+        "en": "Designation Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+      "name": "DiplomaticPost",
+      "label": {
+        "en": "Diplomatic Post",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F24E6DB6-BEC8-4319-BB3C-600F53305FCF}",
+      "name": "DiplomaticStatus",
+      "label": {
+        "en": "Diplomatic Status",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{57DDEECB-14B7-46b7-B1D0-CA8494CA55D3}",
+      "name": "DomesticResidence",
+      "label": {
+        "en": "Domestic Residence",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{82257739-323D-4e6a-A20C-14710DE402FD}",
+      "name": "ForeignResidence",
+      "label": {
+        "en": "Foreign Residence",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{6EA567A1-A34A-4a9a-B236-9462219AA989}",
+      "name": "Guardianship",
+      "label": {
+        "en": "Guardianship",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{EC163DD9-5BAC-4d8a-9C9D-D3A452534A76}",
+      "name": "GuardianshipType",
+      "label": {
+        "en": "Guardianship Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F747041B-2DF2-462f-BA4C-512BB880AE58}",
+      "name": "Household",
+      "label": {
+        "en": "Household",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{0B5DCF0D-7A27-418d-9356-6C94DF7F404E}",
+      "name": "HouseholdRole",
+      "label": {
+        "en": "Household Role",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4327C917-D92A-4dc3-830A-483E5A8822A5}",
+      "name": "HouseholdRoleType",
+      "label": {
+        "en": "Household Role Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
+      "name": "InternationalLegalStatus",
+      "label": {
+        "en": "International Legal Status",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{257FF210-5084-4fd0-9FAD-C77177BDFB03}",
+      "name": "InternationalProtectionStatus",
+      "label": {
+        "en": "International Protection Status",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{DD46B871-D9CC-4c52-81A8-588A7AC8AA61}",
+      "name": "Marriage",
+      "label": {
+        "en": "Marriage",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A form of cohabitation of two persons, organized by civil or religious law.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Can, just like living together, form the basis of a household.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8C5B9183-38D6-4e93-82A7-D72676CB3214}",
+      "name": "NobilityTitle",
+      "label": {
+        "en": "Nobility Title",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BFF63A93-DCFC-468f-B259-203C4B4BE6C0}",
+      "name": "PersonRelation",
+      "label": {
+        "en": "Person Relation",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
+      "name": "Record",
+      "label": {
+        "en": "Record",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{68F9C64F-B2BC-4cdc-983F-633E88F5A446}",
+      "name": "RegisteredPerson",
+      "label": {
+        "en": "Registered Person",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Person whose details are officially listed in a register.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. surname and first name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
+      "name": "RelationRole",
+      "label": {
+        "en": "Relation Role",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F8D9B817-9662-46a1-AC55-F2ECBB5A227A}",
+      "name": "RelationRoleType",
+      "label": {
+        "en": "Relation Role Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+      "name": "Residence",
+      "label": {
+        "en": "Residence",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Place where a Person lives or stays permanently or temporarily.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{859A1F75-BB98-4534-A8C0-10843743ADB5}",
+      "name": "ResidenceType",
+      "label": {
+        "en": "Residence Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{39842E58-770A-45ff-8987-5939EE40B446}",
+      "name": "Residency",
+      "label": {
+        "en": "Residency",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{803F017C-2816-4239-A528-92CF4F386ABF}",
+      "name": "ResidencyType",
+      "label": {
+        "en": "Residency Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ADF14A72-93D4-4305-BAE7-D21FF167C213}",
+      "name": "StatutoryCohabitation",
+      "label": {
+        "en": "Statutory Cohabitation",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Arrangement whereby two people who are not married live together.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Can, just like a marriage, form the basis of a household. Can be legally registered.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B15F30FA-A41B-4fbb-B6AF-EF28FF1AC54E}",
+      "name": "CivilStatusValue",
+      "label": {
+        "en": "Civil Status Value",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{73CBE8CC-FD89-425f-8566-4907DDDCFAA1}",
+      "name": "DescentType",
+      "label": {
+        "en": "Descent Type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AFEADC8C-6EA5-43aa-B518-44B201827911}",
+      "name": "Gender",
+      "label": {
+        "en": "Gender",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+      "name": "Person",
+      "label": {
+        "en": "Person",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A natural person.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "In case law, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a physical person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.).",
+        "fr": "Enter your translation here"
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "{32C99145-23F2-41a9-A925-D03726D07904}",
+      "name": "givenName",
+      "label": {
+        "en": "given name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Name given to a child at birth. Distinguishes the child from the other children in the family.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E969EC3E-BAD8-4e66-848E-74C2D10167EE}",
+      "name": "familyName",
+      "label": {
+        "en": "family name",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Part of person's full name received from the previous generation.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Called family name because it indicates a familial relationship.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{9D300EEB-6A4C-45ec-948F-FBA9C1E28E75}",
+      "name": "contactInformation",
+      "label": {
+        "en": "contact information",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Information such as email, telephone that allows the Person to be contacted.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3F4E03B6-8C31-48ea-AC59-8828F0541EA5}",
+      "name": "roleType",
+      "label": {
+        "en": "role type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{8F2C3305-F7E7-4655-B420-E0DEE0407768}",
+      "name": "roleType",
+      "label": {
+        "en": "role type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{67F847F6-9619-4c66-9B5C-B4146572DA7B}",
+      "name": "residenceType",
+      "label": {
+        "en": "residence type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BC08CC5E-44C2-4a3b-88D0-27F372EFDA13}",
+      "name": "residence",
+      "label": {
+        "en": "residence",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7A1B23E7-6B55-4110-AF4F-E73A1851805E}",
+      "name": "recordStatus",
+      "label": {
+        "en": "record status",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5DF4BEE7-33CC-4b11-813A-197B0C65A656}",
+      "name": "placeOfDeath",
+      "label": {
+        "en": "place of death",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3287B7A4-7042-4162-8B17-54D6A4186927}",
+      "name": "placeOfBirth",
+      "label": {
+        "en": "place of birth",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CCE9C781-3024-4bd7-82F5-09927A9A788E}",
+      "name": "nobilityTitle",
+      "label": {
+        "en": "nobility title",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F020BE1B-AAEE-4a14-B98A-A99B39854E6C}",
+      "name": "language",
+      "label": {
+        "en": "language",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{77BB5D59-A7EA-4b5c-AE1B-34B92BED68A5}",
+      "name": "jurisdiction",
+      "label": {
+        "en": "jurisdiction",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{91411DD3-82CA-4c06-91D0-67AC695271DF}",
+      "name": "jurisdiction",
+      "label": {
+        "en": "jurisdiction",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{CCDE10A8-3FC6-49b4-9859-D1C8BD1FE49C}",
+      "name": "jurisdiction",
+      "label": {
+        "en": "jurisdiction",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{07748B92-D506-48b9-B6DF-AF30781AA7AB}",
+      "name": "informationValue",
+      "label": {
+        "en": "information value",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{F1F01F59-9649-4380-8209-92EED4C3F970}",
+      "name": "informationType",
+      "label": {
+        "en": "information type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{FF10322C-3C80-4bcd-8AB4-79F5B5EDF661}",
+      "name": "identifier",
+      "label": {
+        "en": "identifier",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{BE83AF8D-A915-473e-983B-49648ECDFD5F}",
+      "name": "country",
+      "label": {
+        "en": "country",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{ABB83A56-6E80-4410-BA4F-DAD2A17CFE9D}",
+      "name": "householdAddress",
+      "label": {
+        "en": "household address",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Address of the residence of the household.",
+        "fr": "Enter your translation here"
+      },
+      "usage": {
+        "en": "Often a criterion to determine whether persons are part of the same household.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{5EEEE243-FE30-4510-8F7B-5897D8F9746D}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{D221FE11-18B1-4a0f-9C2E-82D550B07149}",
+      "name": "gender",
+      "label": {
+        "en": "gender",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The administrative gender of the person.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{AF67AA1A-F2D8-4089-BE68-B694D344FA3D}",
+      "name": "diplomaticPost",
+      "label": {
+        "en": "diplomatic post",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{E0285153-5A86-4ff9-B915-39B9C73F48E3}",
+      "name": "designationValue",
+      "label": {
+        "en": "designation value",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{A8A963FB-E5B8-4ac4-AFDF-0B197A0FF184}",
+      "name": "designationType",
+      "label": {
+        "en": "designation type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{562ECB8F-5AB0-479c-98C5-8CF5C1605424}",
+      "name": "designation",
+      "label": {
+        "en": "designation",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{B7706C6B-B91D-4db9-A431-3335D953C00C}",
+      "name": "descentType",
+      "label": {
+        "en": "descent type",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{59A029D4-0BF5-402c-B012-2335940FF00F}",
+      "name": "deathDate",
+      "label": {
+        "en": "death date",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{67EC2722-A569-4d34-861D-B4DA184E2FFC}",
+      "name": "hasDecease",
+      "label": {
+        "en": "has decease",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Decease data of a person.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
+      "name": "country",
+      "label": {
+        "en": "country",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{77F4819E-ABD2-4763-B152-8F344F31A0C6}",
+      "name": "civilStatusValue",
+      "label": {
+        "en": "civil status value",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Type of civil status.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{7B76B739-F264-4658-9C30-9DFA604E79D5}",
+      "name": "citizenship",
+      "label": {
+        "en": "citizenship",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{3D0E3FD2-2EDE-45f5-B66E-3892908C5330}",
+      "name": "birthDate",
+      "label": {
+        "en": "birth date",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{C3B22F27-C8E4-4e9d-8410-05D3AAF74920}",
+      "name": "hasBirth",
+      "label": {
+        "en": "has birth",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Birth data of a person.",
+        "fr": "Enter your translation here"
+      }
+    },
+    {
+      "EA-Guid": "{D2AEE069-1764-43f4-BD00-1D0522CC6929}",
+      "name": "residenceAddress",
+      "label": {
+        "en": "residence address",
+        "fr": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Address of the place of residence.",
+        "fr": "Enter your translation here"
+      }
+    }
+  ]
+}

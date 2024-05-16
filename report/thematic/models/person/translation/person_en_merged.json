@@ -1,0 +1,5166 @@
+{
+  "@context": {
+    "affiliation": {
+      "@id": "http://schema.org/affiliation"
+    },
+    "authors": {
+      "@id": "foaf:maker",
+      "@type": "foaf:Person"
+    },
+    "classes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "contributors": {
+      "@id": "dcterms:contributor",
+      "@type": "foaf:Person"
+    },
+    "datatypes": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "domain": {
+      "@id": "rdfs:domain"
+    },
+    "editors": {
+      "@id": "rec:editor",
+      "@type": "foaf:Person"
+    },
+    "externals": {
+      "@id": "rdfs:seeAlso",
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Class"
+    },
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "generalization": {
+      "@id": "rdfs:subPropertyOf"
+    },
+    "issued": {
+      "@id": "dcterms:issued"
+    },
+    "label": {
+      "@container": "@language",
+      "@id": "rdfs:label"
+    },
+    "maxCardinality": {
+      "@id": "sh:maxCount"
+    },
+    "minCardinality": {
+      "@id": "sh:minCount"
+    },
+    "modified": {
+      "@id": "dcterms:modified",
+      "@type": "xsd:date"
+    },
+    "name": {
+      "@id": "rdfs:label"
+    },
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "person": "http://www.w3.org/ns/person#",
+    "properties": {
+      "@reverse": "rdfs:isDefinedBy"
+    },
+    "qb": "http://purl.org/linked-data/cube#",
+    "range": {
+      "@id": "rdfs:range"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "rec": "http://www.w3.org/2001/02pd/rec54#",
+    "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
+    "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+    "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+    "sh": "http://w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vann": "http://purl.org/vocab/vann/",
+    "vlaanderen": "http://data.vlaanderen.be/ns/",
+    "void": "http://rdfs.org/ns/void#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://fixme.com",
+  "@type": "http://www.w3.org/2002/07/owl#Ontology",
+  "authors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.ksz-bcss.fgov.be/",
+        "foaf:name": "Crossroads Bank for Social Security"
+      },
+      "foaf:firstName": "Vincent",
+      "foaf:lastName": "Turine",
+      "foaf:mbox": "vincent.turine@ksz-bcss.fgov.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://www.ksz-bcss.fgov.be/",
+        "foaf:name": "Crossroads Bank for Social Security"
+      },
+      "foaf:firstName": "Jonas",
+      "foaf:lastName": "De Meulenaere",
+      "foaf:mbox": "jonas.demeulenaere@ksz-bcss.fgov.be"
+    }
+  ],
+  "branchtag": "main",
+  "classes": [],
+  "config": "config/config-ap.json",
+  "contributors": [],
+  "contributors-column": "Role",
+  "contributors-file": "stakeholders.csv",
+  "diagram": "iceg-person",
+  "disabled": false,
+  "documentcommit": "3f072b64745b70244be3d121e5df9655bbc8dab9",
+  "dummy": "001",
+  "eap": "ICEG-Person.eap",
+  "editors": [
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://data.vlaanderen.be/",
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Mathieu",
+      "foaf:lastName": "Tulpinck",
+      "foaf:mbox": "mathieu.tulpinck@vlaanderen.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://data.vlaanderen.be/",
+        "foaf:name": "Digitaal Vlaanderen"
+      },
+      "foaf:firstName": "Geert",
+      "foaf:lastName": "Thijs",
+      "foaf:mbox": "geert.thijs@vlaanderen.be"
+    },
+    {
+      "@type": "foaf:Person",
+      "affiliation": {
+        "foaf:homepage": "https://bosa.belgium.be/en",
+        "foaf:name": "FOD BOSA"
+      },
+      "foaf:firstName": "Liesbet",
+      "foaf:lastName": "D’Hondt",
+      "foaf:mbox": "liesbet.dhondt@bosa.fgov.be"
+    }
+  ],
+  "externalproperties": [
+    {
+      "@id": "http://xmlns.com/foaf/0.1/givenName",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{32C99145-23F2-41a9-A925-D03726D07904}",
+      "ap-definition-en": {
+        "en": "Name given to a child at birth. Distinguishes the child from the other children in the family."
+      },
+      "ap-label-en": {
+        "en": "given name"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Name given to a child at birth. Distinguishes the child from the other children in the family."
+      },
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{32C99145-23F2-41a9-A925-D03726D07904}",
+        "EA-Name": "givenName",
+        "EA-Package": "person",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://xmlns.com/foaf/0.1/givenName"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Naam die een kind bij geboorte wordt gegeven. Onderscheidt het kind van de andere kinderen in de familie."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "given name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Name given to a child at birth. Distinguishes the child from the other children in the family."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Name given to a child at birth. Distinguishes the child from the other children in the family."
+        },
+        "ap-label-en": {
+          "en": "given name"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Name given to a child at birth. Distinguishes the child from the other children in the family."
+        },
+        "label": {
+          "en": "given name"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "given name"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "givenName",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "http://xmlns.com/foaf/0.1/familyName",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{E969EC3E-BAD8-4e66-848E-74C2D10167EE}",
+      "ap-definition-en": {
+        "en": "Part of person's full name received from the previous generation."
+      },
+      "ap-label-en": {
+        "en": "family name"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Part of person's full name received from the previous generation."
+      },
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{E969EC3E-BAD8-4e66-848E-74C2D10167EE}",
+        "EA-Name": "familyName",
+        "EA-Package": "person",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "Ook wel familienaam genoemd omdat de achternaam een familiale verwantschap aanduidt."
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://xmlns.com/foaf/0.1/familyName"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Gedeelte van de volledige naam vd persoon ontvangen van de vorige generatie."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "family name"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Part of person's full name received from the previous generation."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Called family name because it indicates a familial relationship."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Part of person's full name received from the previous generation."
+        },
+        "ap-label-en": {
+          "en": "family name"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Part of person's full name received from the previous generation."
+        },
+        "label": {
+          "en": "family name"
+        },
+        "usage": {
+          "en": "Called family name because it indicates a familial relationship."
+        }
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "family name"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "familyName",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "usage": {
+        "en": "Called family name because it indicates a familial relationship."
+      }
+    },
+    {
+      "@id": "http://schema.org/contactPoint",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{9D300EEB-6A4C-45ec-948F-FBA9C1E28E75}",
+      "ap-definition-en": {
+        "en": "Information such as email, telephone that allows the Person to be contacted."
+      },
+      "ap-label-en": {
+        "en": "contact information"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Information such as email, telephone that allows the Person to be contacted."
+      },
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{9D300EEB-6A4C-45ec-948F-FBA9C1E28E75}",
+        "EA-Name": "contactInformation",
+        "EA-Package": "person",
+        "EA-Range": "ContactInformation",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+          "EA-Name": "ContactInformation",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#ContactInformation"
+        },
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Informatie zoals email, telefoon... die toelaat de Persoon te contacteren."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://schema.org/contactPoint"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "contact information"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Information such as email, telephone that allows the Person to be contacted."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Information such as email, telephone that allows the Person to be contacted."
+        },
+        "ap-label-en": {
+          "en": "contact information"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Information such as email, telephone that allows the Person to be contacted."
+        },
+        "label": {
+          "en": "contact information"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "contact information"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "contactInformation",
+      "range": [
+        {
+          "EA-GUID": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+          "EA-Name": "ContactInformation",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#ContactInformation"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#roleType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{3F4E03B6-8C31-48ea-AC59-8828F0541EA5}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "role type"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "RelationRole",
+          "uri": "http://fixme.com#RelationRole"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "RelationRole",
+        "EA-Domain-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
+        "EA-Guid": "{3F4E03B6-8C31-48ea-AC59-8828F0541EA5}",
+        "EA-Name": "roleType",
+        "EA-Package": "person",
+        "EA-Range": "RelationRoleType",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{F8D9B817-9662-46a1-AC55-F2ECBB5A227A}",
+          "EA-Name": "RelationRoleType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#RelationRoleType"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "role type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "role type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "role type"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "role type"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "roleType",
+      "range": [
+        {
+          "EA-GUID": "{F8D9B817-9662-46a1-AC55-F2ECBB5A227A}",
+          "EA-Name": "RelationRoleType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#RelationRoleType"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#roleType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{8F2C3305-F7E7-4655-B420-E0DEE0407768}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "role type"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "HouseholdRole",
+          "uri": "http://fixme.com#HouseholdRole"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "HouseholdRole",
+        "EA-Domain-Guid": "{0B5DCF0D-7A27-418d-9356-6C94DF7F404E}",
+        "EA-Guid": "{8F2C3305-F7E7-4655-B420-E0DEE0407768}",
+        "EA-Name": "roleType",
+        "EA-Package": "person",
+        "EA-Range": "HouseholdRoleType",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{4327C917-D92A-4dc3-830A-483E5A8822A5}",
+          "EA-Name": "HouseholdRoleType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#HouseholdRoleType"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "role type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "role type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "role type"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "role type"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "roleType",
+      "range": [
+        {
+          "EA-GUID": "{4327C917-D92A-4dc3-830A-483E5A8822A5}",
+          "EA-Name": "HouseholdRoleType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#HouseholdRoleType"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#residenceType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{67F847F6-9619-4c66-9B5C-B4146572DA7B}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "residence type"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Residence",
+          "uri": "http://fixme.com#Residence"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Residence",
+        "EA-Domain-Guid": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+        "EA-Guid": "{67F847F6-9619-4c66-9B5C-B4146572DA7B}",
+        "EA-Name": "residenceType",
+        "EA-Package": "person",
+        "EA-Range": "ResidenceType",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{859A1F75-BB98-4534-A8C0-10843743ADB5}",
+          "EA-Name": "ResidenceType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#ResidenceType"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "residence type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "residence type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "residence type"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "residence type"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "1",
+      "name": "residenceType",
+      "range": [
+        {
+          "EA-GUID": "{859A1F75-BB98-4534-A8C0-10843743ADB5}",
+          "EA-Name": "ResidenceType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#ResidenceType"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#residence",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{BC08CC5E-44C2-4a3b-88D0-27F372EFDA13}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "residence"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Residency",
+          "uri": "http://fixme.com#Residency"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "residence",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Residency",
+        "EA-Domain-Guid": "{39842E58-770A-45ff-8987-5939EE40B446}",
+        "EA-Guid": "{BC08CC5E-44C2-4a3b-88D0-27F372EFDA13}",
+        "EA-Name": "residence",
+        "EA-Package": "",
+        "EA-Range": "Residence",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+          "EA-Name": "Residence",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Residence"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "residence",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "residence"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "residence",
+        "label": {
+          "en": "residence"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "residence"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "residence",
+      "range": [
+        {
+          "EA-GUID": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+          "EA-Name": "Residence",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Residence"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#recordStatus",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{7A1B23E7-6B55-4110-AF4F-E73A1851805E}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "record status"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Record",
+          "uri": "http://fixme.com#Record"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Record",
+        "EA-Domain-Guid": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
+        "EA-Guid": "{7A1B23E7-6B55-4110-AF4F-E73A1851805E}",
+        "EA-Name": "recordStatus",
+        "EA-Package": "registry",
+        "EA-Range": "RecordStatus",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{CDF023F5-8597-4b0f-95CF-CF09AD338E1A}",
+          "EA-Name": "RecordStatus",
+          "EA-Package": "registry",
+          "uri": "http://fixme.com#RecordStatus"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "record status"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "record status"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "record status"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "record status"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "recordStatus",
+      "range": [
+        {
+          "EA-GUID": "{CDF023F5-8597-4b0f-95CF-CF09AD338E1A}",
+          "EA-Name": "RecordStatus",
+          "EA-Package": "registry",
+          "uri": "http://fixme.com#RecordStatus"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#placeOfDeath",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{5DF4BEE7-33CC-4b11-813A-197B0C65A656}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "place of death"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Death",
+          "uri": "http://fixme.com#Death"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Death",
+        "EA-Domain-Guid": "{8762DAE0-F5E0-4016-A694-2CFBB90BF82B}",
+        "EA-Guid": "{5DF4BEE7-33CC-4b11-813A-197B0C65A656}",
+        "EA-Name": "placeOfDeath",
+        "EA-Package": "person",
+        "EA-Range": "Locality",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{2FDC08B7-108A-48ca-B352-A95E4B58D6AA}",
+          "EA-Name": "Locality",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Locality"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "place of death"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "place of death"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "place of death"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "place of death"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "placeOfDeath",
+      "range": [
+        {
+          "EA-GUID": "{2FDC08B7-108A-48ca-B352-A95E4B58D6AA}",
+          "EA-Name": "Locality",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Locality"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#placeOfBirth",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{3287B7A4-7042-4162-8B17-54D6A4186927}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "place of birth"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Birth",
+          "uri": "http://fixme.com#Birth"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Birth",
+        "EA-Domain-Guid": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+        "EA-Guid": "{3287B7A4-7042-4162-8B17-54D6A4186927}",
+        "EA-Name": "placeOfBirth",
+        "EA-Package": "person",
+        "EA-Range": "Locality",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{2FDC08B7-108A-48ca-B352-A95E4B58D6AA}",
+          "EA-Name": "Locality",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Locality"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "place of birth"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "place of birth"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "place of birth"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "place of birth"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "placeOfBirth",
+      "range": [
+        {
+          "EA-GUID": "{2FDC08B7-108A-48ca-B352-A95E4B58D6AA}",
+          "EA-Name": "Locality",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Locality"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#nobilityTitle",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{CCE9C781-3024-4bd7-82F5-09927A9A788E}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "nobility title"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{CCE9C781-3024-4bd7-82F5-09927A9A788E}",
+        "EA-Name": "nobilityTitle",
+        "EA-Package": "person",
+        "EA-Range": "NobilityTitle",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{8C5B9183-38D6-4e93-82A7-D72676CB3214}",
+          "EA-Name": "NobilityTitle",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#NobilityTitle"
+        },
+        "RawTags": [
+          {
+            "key": "ap-usageNote-nl",
+            "note": "null",
+            "value": "TODO"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "null",
+            "value": "TODO"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "nobility title"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "nobility title"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "nobility title"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "nobility title"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "nobilityTitle",
+      "range": [
+        {
+          "EA-GUID": "{8C5B9183-38D6-4e93-82A7-D72676CB3214}",
+          "EA-Name": "NobilityTitle",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#NobilityTitle"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#language",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{F020BE1B-AAEE-4a14-B98A-A99B39854E6C}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "language"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Designation",
+          "uri": "http://fixme.com#Designation"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Designation",
+        "EA-Domain-Guid": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+        "EA-Guid": "{F020BE1B-AAEE-4a14-B98A-A99B39854E6C}",
+        "EA-Name": "language",
+        "EA-Package": "person",
+        "EA-Range": "Language",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{0B7A723E-EA24-482b-9880-E68CF3BC7A5A}",
+          "EA-Name": "Language",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#Language"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "language"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "language"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "language"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "language"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "language",
+      "range": [
+        {
+          "EA-GUID": "{0B7A723E-EA24-482b-9880-E68CF3BC7A5A}",
+          "EA-Name": "Language",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#Language"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#jurisdiction",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{77BB5D59-A7EA-4b5c-AE1B-34B92BED68A5}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "jurisdiction"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Residency",
+          "uri": "http://fixme.com#Residency"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Residency",
+        "EA-Domain-Guid": "{39842E58-770A-45ff-8987-5939EE40B446}",
+        "EA-Guid": "{77BB5D59-A7EA-4b5c-AE1B-34B92BED68A5}",
+        "EA-Name": "jurisdiction",
+        "EA-Package": "person",
+        "EA-Range": "Country",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "jurisdiction"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "jurisdiction"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "jurisdiction"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "jurisdiction"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "jurisdiction",
+      "range": [
+        {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#jurisdiction",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{91411DD3-82CA-4c06-91D0-67AC695271DF}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "jurisdiction"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Citizenship",
+          "uri": "http://fixme.com#Citizenship"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Citizenship",
+        "EA-Domain-Guid": "{D88DC311-AF17-4e4b-B108-7CBAB51CAF60}",
+        "EA-Guid": "{91411DD3-82CA-4c06-91D0-67AC695271DF}",
+        "EA-Name": "jurisdiction",
+        "EA-Package": "person",
+        "EA-Range": "Country",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "jurisdiction"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "jurisdiction"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "jurisdiction"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "jurisdiction"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "jurisdiction",
+      "range": [
+        {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#jurisdiction",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{CCDE10A8-3FC6-49b4-9859-D1C8BD1FE49C}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "jurisdiction"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "InternationaLegalStatus",
+          "uri": "http://fixme.com#InternationaLegalStatus"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "InternationaLegalStatus",
+        "EA-Domain-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
+        "EA-Guid": "{CCDE10A8-3FC6-49b4-9859-D1C8BD1FE49C}",
+        "EA-Name": "jurisdiction",
+        "EA-Package": "person",
+        "EA-Range": "Country",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "jurisdiction"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "jurisdiction"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "jurisdiction"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "jurisdiction"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "jurisdiction",
+      "range": [
+        {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#informationValue",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{07748B92-D506-48b9-B6DF-AF30781AA7AB}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "information value"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "ContactInformation",
+          "uri": "http://fixme.com#ContactInformation"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "ContactInformation",
+        "EA-Domain-Guid": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+        "EA-Guid": "{07748B92-D506-48b9-B6DF-AF30781AA7AB}",
+        "EA-Name": "informationValue",
+        "EA-Package": "person",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "information value"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "information value"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "information value"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "information value"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "informationValue",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#informationType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{F1F01F59-9649-4380-8209-92EED4C3F970}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "information type"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "ContactInformation",
+          "uri": "http://fixme.com#ContactInformation"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "ContactInformation",
+        "EA-Domain-Guid": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+        "EA-Guid": "{F1F01F59-9649-4380-8209-92EED4C3F970}",
+        "EA-Name": "informationType",
+        "EA-Package": "person",
+        "EA-Range": "ContactInformationType",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
+          "EA-Name": "ContactInformationType",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#ContactInformationType"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "information type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "information type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "information type"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "information type"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "informationType",
+      "range": [
+        {
+          "EA-GUID": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
+          "EA-Name": "ContactInformationType",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#ContactInformationType"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#identifier",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{FF10322C-3C80-4bcd-8AB4-79F5B5EDF661}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "identifier"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Record",
+          "uri": "http://fixme.com#Record"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Record",
+        "EA-Domain-Guid": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
+        "EA-Guid": "{FF10322C-3C80-4bcd-8AB4-79F5B5EDF661}",
+        "EA-Name": "identifier",
+        "EA-Package": "registry",
+        "EA-Range": "Identifier",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{7341FC50-B5BB-4f1f-AB72-41C68E7C8AAA}",
+          "EA-Name": "Identifier",
+          "EA-Package": "adms",
+          "uri": "http://www.w3.org/ns/adms#Identifier"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "identifier"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "identifier"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "identifier"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "identifier"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "identifier",
+      "range": [
+        {
+          "EA-GUID": "{7341FC50-B5BB-4f1f-AB72-41C68E7C8AAA}",
+          "EA-Name": "Identifier",
+          "EA-Package": "adms",
+          "uri": "http://www.w3.org/ns/adms#Identifier"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#identifier",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{BE83AF8D-A915-473e-983B-49648ECDFD5F}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "country"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "DiplomaticPost",
+          "uri": "http://fixme.com#DiplomaticPost"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "DiplomaticPost",
+        "EA-Domain-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+        "EA-Guid": "{BE83AF8D-A915-473e-983B-49648ECDFD5F}",
+        "EA-Name": "identifier",
+        "EA-Package": "generic",
+        "EA-Range": "Identifier",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{7341FC50-B5BB-4f1f-AB72-41C68E7C8AAA}",
+          "EA-Name": "Identifier",
+          "EA-Package": "adms",
+          "uri": "http://www.w3.org/ns/adms#Identifier"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "country"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "country"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "country"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "country"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "1",
+      "name": "country",
+      "range": [
+        {
+          "EA-GUID": "{7341FC50-B5BB-4f1f-AB72-41C68E7C8AAA}",
+          "EA-Name": "Identifier",
+          "EA-Package": "adms",
+          "uri": "http://www.w3.org/ns/adms#Identifier"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#householdAddress",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{ABB83A56-6E80-4410-BA4F-DAD2A17CFE9D}",
+      "ap-definition-en": {
+        "en": "Address of the residence of the household."
+      },
+      "ap-label-en": {
+        "en": "household address"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Address of the residence of the household."
+      },
+      "domain": [
+        {
+          "EA-Name": "Household",
+          "uri": "http://fixme.com#Household"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Household",
+        "EA-Domain-Guid": "{F747041B-2DF2-462f-BA4C-512BB880AE58}",
+        "EA-Guid": "{ABB83A56-6E80-4410-BA4F-DAD2A17CFE9D}",
+        "EA-Name": "householdAddress",
+        "EA-Package": "person",
+        "EA-Range": "Address",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{179D4C3D-13CC-448e-AAFE-1AE99305C550}",
+          "EA-Name": "Address",
+          "EA-Package": "location",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        },
+        "RawTags": [
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Dikwijls een criterium om te bepalen of personen deel uitmaken van eenzelfde Gezin."
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Adres vd verblijfplaats vh gezin."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "Dikwijls een criterium om te bepalen of personen deel uitmaken van eenzelfde gezin."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Verblijfplaats vh Gezin."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "household address"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Address of the residence of the household."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Often a criterion to determine whether persons are part of the same household."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Address of the residence of the household."
+        },
+        "ap-label-en": {
+          "en": "household address"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Address of the residence of the household."
+        },
+        "label": {
+          "en": "household address"
+        },
+        "usage": {
+          "en": "Often a criterion to determine whether persons are part of the same household."
+        }
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "household address"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "householdAddress",
+      "range": [
+        {
+          "EA-GUID": "{179D4C3D-13CC-448e-AAFE-1AE99305C550}",
+          "EA-Name": "Address",
+          "EA-Package": "location",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        }
+      ],
+      "usage": {
+        "en": "Often a criterion to determine whether persons are part of the same household."
+      }
+    },
+    {
+      "@id": "http://fixme.com#guardianshipType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{5EEEE243-FE30-4510-8F7B-5897D8F9746D}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Guardianship",
+          "uri": "http://fixme.com#Guardianship"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Guardianship",
+        "EA-Domain-Guid": "{6EA567A1-A34A-4a9a-B236-9462219AA989}",
+        "EA-Guid": "{5EEEE243-FE30-4510-8F7B-5897D8F9746D}",
+        "EA-Name": "guardianshipType",
+        "EA-Package": "person",
+        "EA-Range": "GuardianshipType",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{EC163DD9-5BAC-4d8a-9C9D-D3A452534A76}",
+          "EA-Name": "GuardianshipType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#GuardianshipType"
+        },
+        "RawTags": [],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": "",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "",
+      "range": [
+        {
+          "EA-GUID": "{EC163DD9-5BAC-4d8a-9C9D-D3A452534A76}",
+          "EA-Name": "GuardianshipType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#GuardianshipType"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#gender",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{D221FE11-18B1-4a0f-9C2E-82D550B07149}",
+      "ap-definition-en": {
+        "en": "The administrative gender of the person."
+      },
+      "ap-label-en": {
+        "en": "gender"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "The administrative gender of the person."
+      },
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{D221FE11-18B1-4a0f-9C2E-82D550B07149}",
+        "EA-Name": "gender",
+        "EA-Package": "person",
+        "EA-Range": "Gender",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{AFEADC8C-6EA5-43aa-B518-44B201827911}",
+          "EA-Name": "Gender",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Het administratief geslacht ve persoon."
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Het administratief geslacht ve persoon."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "The administrative gender of the person."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "gender"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The administrative gender of the person."
+        },
+        "ap-label-en": {
+          "en": "gender"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The administrative gender of the person."
+        },
+        "label": {
+          "en": "gender"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "gender"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "gender",
+      "range": [
+        {
+          "EA-GUID": "{AFEADC8C-6EA5-43aa-B518-44B201827911}",
+          "EA-Name": "Gender",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#diplomaticPost",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{AF67AA1A-F2D8-4089-BE68-B694D344FA3D}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "diplomatic post"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "ForeignResidence",
+          "uri": "http://fixme.com#ForeignResidence"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "ForeignResidence",
+        "EA-Domain-Guid": "{82257739-323D-4e6a-A20C-14710DE402FD}",
+        "EA-Guid": "{AF67AA1A-F2D8-4089-BE68-B694D344FA3D}",
+        "EA-Name": "diplomaticPost",
+        "EA-Package": "person",
+        "EA-Range": "DiplomaticPost",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+          "EA-Name": "DiplomaticPost",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#DiplomaticPost"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "diplomatic post"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "diplomatic post"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "diplomatic post"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "diplomatic post"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "diplomaticPost",
+      "range": [
+        {
+          "EA-GUID": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+          "EA-Name": "DiplomaticPost",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#DiplomaticPost"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#designationValue",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "EA-Guid": "{E0285153-5A86-4ff9-B915-39B9C73F48E3}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "designation value"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Designation",
+          "uri": "http://fixme.com#Designation"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Designation",
+        "EA-Domain-Guid": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+        "EA-Guid": "{E0285153-5A86-4ff9-B915-39B9C73F48E3}",
+        "EA-Name": "designationValue",
+        "EA-Package": "person",
+        "EA-Range": "String",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "designation value"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "designation value"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "designation value"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "designation value"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "designationValue",
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#designationType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{A8A963FB-E5B8-4ac4-AFDF-0B197A0FF184}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "designation type"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Designation",
+          "uri": "http://fixme.com#Designation"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Designation",
+        "EA-Domain-Guid": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+        "EA-Guid": "{A8A963FB-E5B8-4ac4-AFDF-0B197A0FF184}",
+        "EA-Name": "designationType",
+        "EA-Package": "person",
+        "EA-Range": "DesignationType",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{9D9A9E0E-D60D-44aa-A4DA-81AD61A91998}",
+          "EA-Name": "DesignationType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#DesignationType"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "designation type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "designation type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "designation type"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "designation type"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "designationType",
+      "range": [
+        {
+          "EA-GUID": "{9D9A9E0E-D60D-44aa-A4DA-81AD61A91998}",
+          "EA-Name": "DesignationType",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#DesignationType"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#designation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{562ECB8F-5AB0-479c-98C5-8CF5C1605424}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "designation"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{562ECB8F-5AB0-479c-98C5-8CF5C1605424}",
+        "EA-Name": "designation",
+        "EA-Package": "person",
+        "EA-Range": "Designation",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+          "EA-Name": "Designation",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Designation"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "designation"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "designation"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "designation"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "designation"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "designation",
+      "range": [
+        {
+          "EA-GUID": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+          "EA-Name": "Designation",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Designation"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#descentType",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{B7706C6B-B91D-4db9-A431-3335D953C00C}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "descent type"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Descent",
+          "uri": "http://fixme.com#Descent"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Descent",
+        "EA-Domain-Guid": "{1B563855-E1D4-4337-9C32-A823CCB602A4}",
+        "EA-Guid": "{B7706C6B-B91D-4db9-A431-3335D953C00C}",
+        "EA-Name": "descentType",
+        "EA-Package": "person",
+        "EA-Range": "DescentType",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{73CBE8CC-FD89-425f-8566-4907DDDCFAA1}",
+          "EA-Name": "DescentType",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "descent type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "descent type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "descent type"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "descent type"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "descentType",
+      "range": [
+        {
+          "EA-GUID": "{73CBE8CC-FD89-425f-8566-4907DDDCFAA1}",
+          "EA-Name": "DescentType",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#deathDate",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{59A029D4-0BF5-402c-B012-2335940FF00F}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "death date"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Death",
+          "uri": "http://fixme.com#Death"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Death",
+        "EA-Domain-Guid": "{8762DAE0-F5E0-4016-A694-2CFBB90BF82B}",
+        "EA-Guid": "{59A029D4-0BF5-402c-B012-2335940FF00F}",
+        "EA-Name": "deathDate",
+        "EA-Package": "person",
+        "EA-Range": "TemporalPosition",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{46E29600-0E51-4101-9031-441A25E584C1}",
+          "EA-Name": "TemporalPosition",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#TemporalPosition"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "death date"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "death date"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "death date"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "death date"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "deathDate",
+      "range": [
+        {
+          "EA-GUID": "{46E29600-0E51-4101-9031-441A25E584C1}",
+          "EA-Name": "TemporalPosition",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#TemporalPosition"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#death",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{67EC2722-A569-4d34-861D-B4DA184E2FFC}",
+      "ap-definition-en": {
+        "en": "Decease data of a person."
+      },
+      "ap-label-en": {
+        "en": "has decease"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Decease data of a person."
+      },
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "has decease",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Overlijdensgegevens vd persoon.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Decease data of a person.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Overlijdensgegevens vd persoon.",
+            "value": "NOTE"
+          },
+          {
+            "key": "parentURI",
+            "note": "http://purl.org/vocab/bio/0.1/death",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{67EC2722-A569-4d34-861D-B4DA184E2FFC}",
+        "EA-Name": "death",
+        "EA-Package": "",
+        "EA-Range": "Death",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{8762DAE0-F5E0-4016-A694-2CFBB90BF82B}",
+          "EA-Name": "Death",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Death"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "has decease",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Overlijdensgegevens vd persoon.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Decease data of a person.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Overlijdensgegevens vd persoon.",
+            "value": "NOTE"
+          },
+          {
+            "key": "parentURI",
+            "note": "http://purl.org/vocab/bio/0.1/death",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Decease data of a person."
+        },
+        "ap-label-en": {
+          "en": "has decease"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Decease data of a person."
+        },
+        "derived": "false",
+        "destRole": "death",
+        "label": {
+          "en": "has decease"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [
+        "http://purl.org/vocab/bio/0.1/death"
+      ],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "has decease"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "hasDecease",
+      "range": [
+        {
+          "EA-GUID": "{8762DAE0-F5E0-4016-A694-2CFBB90BF82B}",
+          "EA-Name": "Death",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Death"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#country",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "country"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "DiplomaticPost",
+          "uri": "http://fixme.com#DiplomaticPost"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "DiplomaticPost",
+        "EA-Domain-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+        "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
+        "EA-Name": "country",
+        "EA-Package": "generic",
+        "EA-Range": "Country",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "country"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "country"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "country"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "country"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "country",
+      "range": [
+        {
+          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
+          "EA-Name": "Country",
+          "EA-Package": "location",
+          "uri": "http://fixme.com#Country"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#civilStatusValue",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{77F4819E-ABD2-4763-B152-8F344F31A0C6}",
+      "ap-definition-en": {
+        "en": "Type of civil status."
+      },
+      "ap-label-en": {
+        "en": "civil status value"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Type of civil status."
+      },
+      "domain": [
+        {
+          "EA-Name": "CivilStatus",
+          "uri": "http://fixme.com#CivilStatus"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "CivilStatus",
+        "EA-Domain-Guid": "{E12D29AC-62A7-4b7a-A4B5-948D6FFDB40E}",
+        "EA-Guid": "{77F4819E-ABD2-4763-B152-8F344F31A0C6}",
+        "EA-Name": "civilStatusValue",
+        "EA-Package": "person",
+        "EA-Range": "CivilStatusValue",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{B15F30FA-A41B-4fbb-B6AF-EF28FF1AC54E}",
+          "EA-Name": "CivilStatusValue",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Aard vd burgerlijke staat."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "parentURI",
+            "note": "null",
+            "value": "http://purl.org/dc/elements/1.1/type"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Aard vd Burgerlijke Staat."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "civil status value"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Type of civil status."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Type of civil status."
+        },
+        "ap-label-en": {
+          "en": "civil status value"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Type of civil status."
+        },
+        "label": {
+          "en": "civil status value"
+        },
+        "usage": ""
+      },
+      "generalization": [
+        "http://purl.org/dc/elements/1.1/type"
+      ],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "civil status value"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "civilStatusValue",
+      "range": [
+        {
+          "EA-GUID": "{B15F30FA-A41B-4fbb-B6AF-EF28FF1AC54E}",
+          "EA-Name": "CivilStatusValue",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#citizenship",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{7B76B739-F264-4658-9C30-9DFA604E79D5}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "citizenship"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "citizenship",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{7B76B739-F264-4658-9C30-9DFA604E79D5}",
+        "EA-Name": "citizenship",
+        "EA-Package": "",
+        "EA-Range": "Citizenship",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{D88DC311-AF17-4e4b-B108-7CBAB51CAF60}",
+          "EA-Name": "Citizenship",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Citizenship"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "citizenship",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "citizenship"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "citizenship",
+        "label": {
+          "en": "citizenship"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "citizenship"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "citizenship",
+      "range": [
+        {
+          "EA-GUID": "{D88DC311-AF17-4e4b-B108-7CBAB51CAF60}",
+          "EA-Name": "Citizenship",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Citizenship"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#birthDate",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{3D0E3FD2-2EDE-45f5-B66E-3892908C5330}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "birth date"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "Birth",
+          "uri": "http://fixme.com#Birth"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Birth",
+        "EA-Domain-Guid": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+        "EA-Guid": "{3D0E3FD2-2EDE-45f5-B66E-3892908C5330}",
+        "EA-Name": "birthDate",
+        "EA-Package": "person",
+        "EA-Range": "TemporalPosition",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{46E29600-0E51-4101-9031-441A25E584C1}",
+          "EA-Name": "TemporalPosition",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#TemporalPosition"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "birth date"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "birth date"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "birth date"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "birth date"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "birthDate",
+      "range": [
+        {
+          "EA-GUID": "{46E29600-0E51-4101-9031-441A25E584C1}",
+          "EA-Name": "TemporalPosition",
+          "EA-Package": "generic",
+          "uri": "http://fixme.com#TemporalPosition"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#birth",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{C3B22F27-C8E4-4e9d-8410-05D3AAF74920}",
+      "ap-definition-en": {
+        "en": "Birth data of a person."
+      },
+      "ap-label-en": {
+        "en": "has birth"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Birth data of a person."
+      },
+      "domain": [
+        {
+          "EA-Name": "Person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "has birth",
+            "value": "NOTE"
+          },
+          {
+            "key": "parentURI",
+            "note": "http://purl.org/vocab/bio/0.1/birth",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Birth data of a person.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "De geboortegegevens vd persoon.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "De geboortegegevens vd persoon.",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Person",
+        "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Guid": "{C3B22F27-C8E4-4e9d-8410-05D3AAF74920}",
+        "EA-Name": "birth",
+        "EA-Package": "",
+        "EA-Range": "Birth",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+          "EA-Name": "Birth",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Birth"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "has birth",
+            "value": "NOTE"
+          },
+          {
+            "key": "parentURI",
+            "note": "http://purl.org/vocab/bio/0.1/birth",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Birth data of a person.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "De geboortegegevens vd persoon.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "De geboortegegevens vd persoon.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Birth data of a person."
+        },
+        "ap-label-en": {
+          "en": "has birth"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Birth data of a person."
+        },
+        "derived": "false",
+        "destRole": "birth",
+        "label": {
+          "en": "has birth"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [
+        "http://purl.org/vocab/bio/0.1/birth"
+      ],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "has birth"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "hasBirth",
+      "range": [
+        {
+          "EA-GUID": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+          "EA-Name": "Birth",
+          "EA-Package": "person",
+          "uri": "http://fixme.com#Birth"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#address",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{D2AEE069-1764-43f4-BD00-1D0522CC6929}",
+      "ap-definition-en": {
+        "en": "Address of the place of residence."
+      },
+      "ap-label-en": {
+        "en": "residence address"
+      },
+      "codelist": [],
+      "definition": {
+        "en": "Address of the place of residence."
+      },
+      "domain": [
+        {
+          "EA-Name": "Residence",
+          "uri": "http://fixme.com#Residence"
+        }
+      ],
+      "extra": {
+        "EA-Domain": "Residence",
+        "EA-Domain-Guid": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+        "EA-Guid": "{D2AEE069-1764-43f4-BD00-1D0522CC6929}",
+        "EA-Name": "address",
+        "EA-Package": "person",
+        "EA-Range": "Address",
+        "EA-Type": "attribute",
+        "RangeData": {
+          "EA-GUID": "{179D4C3D-13CC-448e-AAFE-1AE99305C550}",
+          "EA-Name": "Address",
+          "EA-Package": "location",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        },
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Plaats waar een persoon al dan niet tijdelijk woont of logeert."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Adres vd Verblijfplaats."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "residence address"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Address of the place of residence."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Address of the place of residence."
+        },
+        "ap-label-en": {
+          "en": "residence address"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Address of the place of residence."
+        },
+        "label": {
+          "en": "residence address"
+        },
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "residence address"
+      },
+      "maxCardinality": "1",
+      "minCardinality": "1",
+      "name": "residenceAddress",
+      "range": [
+        {
+          "EA-GUID": "{179D4C3D-13CC-448e-AAFE-1AE99305C550}",
+          "EA-Name": "Address",
+          "EA-Package": "location",
+          "uri": "http://www.w3.org/ns/locn#Address"
+        }
+      ]
+    }
+  ],
+  "externals": [
+    {
+      "@id": "http://fixme.com#Birth",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+      "ap-definition-en": {
+        "en": "The person being born."
+      },
+      "ap-label-en": {
+        "en": "Birth"
+      },
+      "definition": {
+        "en": "The person being born."
+      },
+      "extra": {
+        "EA-Guid": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+        "EA-Name": "Birth",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [
+          {
+            "label": "Life Event",
+            "name": "LifeEvent",
+            "package": "person",
+            "uri": "http://fixme.com#LifeEvent"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Het ter wereld komen vd persoon."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Het ter wereld komen vd Persoon."
+          },
+          {
+            "key": "equivalent",
+            "note": "null",
+            "value": "http://purl.org/vocab/bio/0.1/Birth"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Birth"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "The person being born."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "The person being born."
+        },
+        "ap-label-en": {
+          "en": "Birth"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "The person being born."
+        },
+        "label": {
+          "en": "Birth"
+        },
+        "parentclasses": "http://fixme.com#LifeEvent",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Birth"
+      },
+      "name": "Birth"
+    },
+    {
+      "@id": "http://fixme.com#Citizenship",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{D88DC311-AF17-4e4b-B108-7CBAB51CAF60}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Citizenship"
+      },
+      "extra": {
+        "EA-Guid": "{D88DC311-AF17-4e4b-B108-7CBAB51CAF60}",
+        "EA-Name": "Citizenship",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Citizenship"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Citizenship"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Citizenship"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Citizenship"
+      },
+      "name": "Citizenship"
+    },
+    {
+      "@id": "http://fixme.com#CivilStatus",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{E12D29AC-62A7-4b7a-A4B5-948D6FFDB40E}",
+      "ap-definition-en": {
+        "en": "Status of a person according to civil law."
+      },
+      "ap-label-en": {
+        "en": "Civil Status"
+      },
+      "ap-usageNote-en": {
+        "en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
+      },
+      "definition": {
+        "en": "Status of a person according to civil law."
+      },
+      "extra": {
+        "EA-Guid": "{E12D29AC-62A7-4b7a-A4B5-948D6FFDB40E}",
+        "EA-Name": "CivilStatus",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Burgerrechtelijke toestand van een persoon."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "Slaat op huwelijk, partnerregistratie, afstamming, voogdij etc. Is maw de toestand van bepaalde verhoudingen tussen personen."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Burgerrechtelijke toestand van een Persoon."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Slaat op huwelijk,partnerregistratie,afstamming,voogdij etc. Is maw de toestand van bepaalde verhoudingen tussen personen."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Civil Status"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Status of a person according to civil law."
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Status of a person according to civil law."
+        },
+        "ap-label-en": {
+          "en": "Civil Status"
+        },
+        "ap-usageNote-en": {
+          "en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
+        },
+        "definition": {
+          "en": "Status of a person according to civil law."
+        },
+        "label": {
+          "en": "Civil Status"
+        },
+        "parentclasses": "",
+        "usage": {
+          "en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Civil Status"
+      },
+      "name": "CivilStatus",
+      "usage": {
+        "en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
+      }
+    },
+    {
+      "@id": "http://fixme.com#ContactInformation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Contact Information"
+      },
+      "extra": {
+        "EA-Guid": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+        "EA-Name": "ContactInformation",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Contact Information"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Contact Information"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Contact Information"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Contact Information"
+      },
+      "name": "ContactInformation"
+    },
+    {
+      "@id": "http://fixme.com#ContactInformationType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Contact Information Type"
+      },
+      "extra": {
+        "EA-Guid": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
+        "EA-Name": "ContactInformationType",
+        "EA-Package": "generic",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Contact Information Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Contact Information Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Contact Information Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Contact Information Type"
+      },
+      "name": "ContactInformationType"
+    },
+    {
+      "@id": "http://fixme.com#Death",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{8762DAE0-F5E0-4016-A694-2CFBB90BF82B}",
+      "ap-definition-en": {
+        "en": "Death of a person."
+      },
+      "ap-label-en": {
+        "en": "Death"
+      },
+      "definition": {
+        "en": "Death of a person."
+      },
+      "extra": {
+        "EA-Guid": "{8762DAE0-F5E0-4016-A694-2CFBB90BF82B}",
+        "EA-Name": "Death",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [
+          {
+            "label": "Life Event",
+            "name": "LifeEvent",
+            "package": "person",
+            "uri": "http://fixme.com#LifeEvent"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Het doodgaan vd Persoon."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Het doodgaan vd Persoon."
+          },
+          {
+            "key": "equivalent",
+            "note": "null",
+            "value": "http://purl.org/vocab/bio/0.1/Death"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Death"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Death of a person."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Death of a person."
+        },
+        "ap-label-en": {
+          "en": "Death"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Death of a person."
+        },
+        "label": {
+          "en": "Death"
+        },
+        "parentclasses": "http://fixme.com#LifeEvent",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Death"
+      },
+      "name": "Death"
+    },
+    {
+      "@id": "http://fixme.com#Descent",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{1B563855-E1D4-4337-9C32-A823CCB602A4}",
+      "ap-definition-en": {
+        "en": "Descent is the descending line of blood relationship between different generations."
+      },
+      "ap-label-en": {
+        "en": "Descent"
+      },
+      "definition": {
+        "en": "Descent is the descending line of blood relationship between different generations."
+      },
+      "extra": {
+        "EA-Guid": "{1B563855-E1D4-4337-9C32-A823CCB602A4}",
+        "EA-Name": "Descent",
+        "EA-Package": "person",
+        "EA-Parents": "PersonRelation",
+        "EA-Parents2": [
+          {
+            "label": "Person Relation",
+            "name": "PersonRelation",
+            "package": "person",
+            "uri": "http://fixme.com#PersonRelation"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Afstamming is de dalende lijn van bloedverwantschap tussen verschillende generaties."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "De afstamming kan ook niet-biologisch zijn, bv adoptie. Afstamming kan ook in opgaande lijn worden bekeken. Het begrip is enger dan verwantschap dat oa ook huwelijk inhoudt."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Afstamming is de dalende lijn van bloedverwantschap tussen verschillende generaties."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "De afstamming kan ook niet-biologisch zijn,bv adoptie. Afstamming kan ook in opgaande lijn worden bekeken. Het begrip is enger dan verwantschap dat oa ook huwelijk inhoudt."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Descent"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Descent is the descending line of blood relationship between different generations."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent).",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Descent is the descending line of blood relationship between different generations."
+        },
+        "ap-label-en": {
+          "en": "Descent"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Descent is the descending line of blood relationship between different generations."
+        },
+        "label": {
+          "en": "Descent"
+        },
+        "parentclasses": "http://fixme.com#PersonRelation",
+        "usage": {
+          "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent)."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Descent"
+      },
+      "name": "Descent",
+      "usage": {
+        "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent)."
+      }
+    },
+    {
+      "@id": "http://fixme.com#Designation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Designation"
+      },
+      "extra": {
+        "EA-Guid": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
+        "EA-Name": "Designation",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Designation"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Designation"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Designation"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Designation"
+      },
+      "name": "Designation"
+    },
+    {
+      "@id": "http://fixme.com#DesignationType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{9D9A9E0E-D60D-44aa-A4DA-81AD61A91998}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Designation Type"
+      },
+      "extra": {
+        "EA-Guid": "{9D9A9E0E-D60D-44aa-A4DA-81AD61A91998}",
+        "EA-Name": "DesignationType",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Designation Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Designation Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Designation Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Designation Type"
+      },
+      "name": "DesignationType"
+    },
+    {
+      "@id": "http://fixme.com#DiplomaticPost",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Diplomatic Post"
+      },
+      "extra": {
+        "EA-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+        "EA-Name": "DiplomaticPost",
+        "EA-Package": "generic",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Diplomatic Post"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Diplomatic Post"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Diplomatic Post"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Diplomatic Post"
+      },
+      "name": "DiplomaticPost"
+    },
+    {
+      "@id": "http://fixme.com#DiplomaticStatus",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{F24E6DB6-BEC8-4319-BB3C-600F53305FCF}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Diplomatic Status"
+      },
+      "extra": {
+        "EA-Guid": "{F24E6DB6-BEC8-4319-BB3C-600F53305FCF}",
+        "EA-Name": "DiplomaticStatus",
+        "EA-Package": "person",
+        "EA-Parents": "InternationaLegalStatus",
+        "EA-Parents2": [
+          {
+            "label": "International Legal Status",
+            "name": "InternationaLegalStatus",
+            "package": "person",
+            "uri": "http://fixme.com#InternationaLegalStatus"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Diplomatic Status"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Diplomatic Status"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Diplomatic Status"
+        },
+        "parentclasses": "http://fixme.com#InternationaLegalStatus",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Diplomatic Status"
+      },
+      "name": "DiplomaticStatus"
+    },
+    {
+      "@id": "http://fixme.com#DomesticResidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{57DDEECB-14B7-46b7-B1D0-CA8494CA55D3}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Domestic Residence"
+      },
+      "extra": {
+        "EA-Guid": "{57DDEECB-14B7-46b7-B1D0-CA8494CA55D3}",
+        "EA-Name": "DomesticResidence",
+        "EA-Package": "person",
+        "EA-Parents": "Residence",
+        "EA-Parents2": [
+          {
+            "label": "Residence",
+            "name": "Residence",
+            "package": "person",
+            "uri": "http://fixme.com#Residence"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Domestic Residence"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Domestic Residence"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Domestic Residence"
+        },
+        "parentclasses": "http://fixme.com#Residence",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Domestic Residence"
+      },
+      "name": "DomesticResidence"
+    },
+    {
+      "@id": "http://fixme.com#ForeignResidence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{82257739-323D-4e6a-A20C-14710DE402FD}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Foreign Residence"
+      },
+      "extra": {
+        "EA-Guid": "{82257739-323D-4e6a-A20C-14710DE402FD}",
+        "EA-Name": "ForeignResidence",
+        "EA-Package": "person",
+        "EA-Parents": "Residence",
+        "EA-Parents2": [
+          {
+            "label": "Residence",
+            "name": "Residence",
+            "package": "person",
+            "uri": "http://fixme.com#Residence"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Foreign Residence"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Foreign Residence"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Foreign Residence"
+        },
+        "parentclasses": "http://fixme.com#Residence",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Foreign Residence"
+      },
+      "name": "ForeignResidence"
+    },
+    {
+      "@id": "http://fixme.com#Guardianship",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{6EA567A1-A34A-4a9a-B236-9462219AA989}",
+      "ap-definition-en": {
+        "en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods."
+      },
+      "ap-label-en": {
+        "en": "Guardianship"
+      },
+      "definition": {
+        "en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods."
+      },
+      "extra": {
+        "EA-Guid": "{6EA567A1-A34A-4a9a-B236-9462219AA989}",
+        "EA-Name": "Guardianship",
+        "EA-Package": "person",
+        "EA-Parents": "PersonRelation",
+        "EA-Parents2": [
+          {
+            "label": "Person Relation",
+            "name": "PersonRelation",
+            "package": "person",
+            "uri": "http://fixme.com#PersonRelation"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Situatie waarbij een persoon die optreedt als voogd ve ander persoon en in die hoedanigheid instaat voor deze persoon en zijn goederen."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "Dit is bv het geval voor minderjarigen die hun ouders zijn verloren of voor meerderjarigen die hun verstandelijke vermogens zijn verloren."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Situatie waarbij een Persoon die optreedt als voogd ve ander Persoon en in die hoedanigheid instaat voor deze persoon en zijn goederen."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Guardianship"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods."
+        },
+        "ap-label-en": {
+          "en": "Guardianship"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods."
+        },
+        "label": {
+          "en": "Guardianship"
+        },
+        "parentclasses": "http://fixme.com#PersonRelation",
+        "usage": {
+          "en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Guardianship"
+      },
+      "name": "Guardianship",
+      "usage": {
+        "en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties."
+      }
+    },
+    {
+      "@id": "http://fixme.com#GuardianshipType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{EC163DD9-5BAC-4d8a-9C9D-D3A452534A76}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Guardianship Type"
+      },
+      "extra": {
+        "EA-Guid": "{EC163DD9-5BAC-4d8a-9C9D-D3A452534A76}",
+        "EA-Name": "GuardianshipType",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Guardianship Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Guardianship Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Guardianship Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Guardianship Type"
+      },
+      "name": "GuardianshipType"
+    },
+    {
+      "@id": "http://fixme.com#Household",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{F747041B-2DF2-462f-BA4C-512BB880AE58}",
+      "ap-definition-en": {
+        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+      },
+      "ap-label-en": {
+        "en": "Household"
+      },
+      "definition": {
+        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+      },
+      "extra": {
+        "EA-Guid": "{F747041B-2DF2-462f-BA4C-512BB880AE58}",
+        "EA-Name": "Household",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [
+          {
+            "label": "",
+            "name": "Organization",
+            "package": "organization",
+            "uri": "http://fixme.com#Organization"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Samenwerkingsvorm die een herkenbare sociale eenheid vormt (bv tgv huwelijk), met al dan niet verwante personen die duurzame banden hebben en elkaar onderling steun en verzorging verlenen."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "Ruimer begrip dan familie waar het gezin louter bestaat uit nabije bloedverwanten, bv een eenpersoonsgezin of living apart together. Gezinsleden hebben doorgaans dezelfde verblijfplaats."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Samenwerkingsvorm die een herkenbare sociale eenheid vormt (bv tgv huwelijk),met al dan niet verwante personen die duurzame banden hebben en elkaar onderling steun en verzorging verlenen."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Ruimer begrip dan familie waar het Gezin louter bestaat uit nabije bloedverwanten,bv een Eenpersoonsgezin of een Living Together Apart Gezin. Gezinsleden hebben doorgaans dezelfde Verblijfplaats."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Household"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+        },
+        "ap-label-en": {
+          "en": "Household"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+        },
+        "label": {
+          "en": "Household"
+        },
+        "parentclasses": "http://fixme.com#Organization",
+        "usage": {
+          "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Household"
+      },
+      "name": "Household",
+      "usage": {
+        "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
+      }
+    },
+    {
+      "@id": "http://fixme.com#HouseholdRole",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{0B5DCF0D-7A27-418d-9356-6C94DF7F404E}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Household Role"
+      },
+      "extra": {
+        "EA-Guid": "{0B5DCF0D-7A27-418d-9356-6C94DF7F404E}",
+        "EA-Name": "HouseholdRole",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Household Role"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Household Role"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Household Role"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Household Role"
+      },
+      "name": "HouseholdRole"
+    },
+    {
+      "@id": "http://fixme.com#HouseholdRoleType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{4327C917-D92A-4dc3-830A-483E5A8822A5}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Household Role Type"
+      },
+      "extra": {
+        "EA-Guid": "{4327C917-D92A-4dc3-830A-483E5A8822A5}",
+        "EA-Name": "HouseholdRoleType",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Household Role Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Household Role Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Household Role Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Household Role Type"
+      },
+      "name": "HouseholdRoleType"
+    },
+    {
+      "@id": "http://fixme.com#InternationaLegalStatus",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "International Legal Status"
+      },
+      "extra": {
+        "EA-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
+        "EA-Name": "InternationaLegalStatus",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "International Legal Status"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "International Legal Status"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "International Legal Status"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "International Legal Status"
+      },
+      "name": "InternationalLegalStatus"
+    },
+    {
+      "@id": "http://fixme.com#InternationalProtectionStatus",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{257FF210-5084-4fd0-9FAD-C77177BDFB03}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "International Protection Status"
+      },
+      "extra": {
+        "EA-Guid": "{257FF210-5084-4fd0-9FAD-C77177BDFB03}",
+        "EA-Name": "InternationalProtectionStatus",
+        "EA-Package": "person",
+        "EA-Parents": "InternationaLegalStatus",
+        "EA-Parents2": [
+          {
+            "label": "International Legal Status",
+            "name": "InternationaLegalStatus",
+            "package": "person",
+            "uri": "http://fixme.com#InternationaLegalStatus"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "International Protection Status"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "International Protection Status"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "International Protection Status"
+        },
+        "parentclasses": "http://fixme.com#InternationaLegalStatus",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "International Protection Status"
+      },
+      "name": "InternationalProtectionStatus"
+    },
+    {
+      "@id": "http://fixme.com#Marriage",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{DD46B871-D9CC-4c52-81A8-588A7AC8AA61}",
+      "ap-definition-en": {
+        "en": "A form of cohabitation of two persons, organized by civil or religious law."
+      },
+      "ap-label-en": {
+        "en": "Marriage"
+      },
+      "definition": {
+        "en": "A form of cohabitation of two persons, organized by civil or religious law."
+      },
+      "extra": {
+        "EA-Guid": "{DD46B871-D9CC-4c52-81A8-588A7AC8AA61}",
+        "EA-Name": "Marriage",
+        "EA-Package": "person",
+        "EA-Parents": "PersonRelation",
+        "EA-Parents2": [
+          {
+            "label": "Person Relation",
+            "name": "PersonRelation",
+            "package": "person",
+            "uri": "http://fixme.com#PersonRelation"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Een door burgerlijk of religieus recht geregelde samenlevingsvorm van twee personen."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "Kan, net als bv samenwonen, de basis vormen van een gezin."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Een door burgerlijk of religieus recht geregelde samenlevingsvorm van twee personen."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Kan,net als bv Samenwonen,de basis vormen van een Gezin."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Marriage"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A form of cohabitation of two persons, organized by civil or religious law."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "null",
+            "value": "Can, just like living together, form the basis of a household."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A form of cohabitation of two persons, organized by civil or religious law."
+        },
+        "ap-label-en": {
+          "en": "Marriage"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A form of cohabitation of two persons, organized by civil or religious law."
+        },
+        "label": {
+          "en": "Marriage"
+        },
+        "parentclasses": "http://fixme.com#PersonRelation",
+        "usage": {
+          "en": "Can, just like living together, form the basis of a household."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Marriage"
+      },
+      "name": "Marriage",
+      "usage": {
+        "en": "Can, just like living together, form the basis of a household."
+      }
+    },
+    {
+      "@id": "http://fixme.com#NobilityTitle",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{8C5B9183-38D6-4e93-82A7-D72676CB3214}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Nobility Title"
+      },
+      "extra": {
+        "EA-Guid": "{8C5B9183-38D6-4e93-82A7-D72676CB3214}",
+        "EA-Name": "NobilityTitle",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Nobility Title"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Nobility Title"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Nobility Title"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Nobility Title"
+      },
+      "name": "NobilityTitle"
+    },
+    {
+      "@id": "http://fixme.com#PersonRelation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{BFF63A93-DCFC-468f-B259-203C4B4BE6C0}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Person Relation"
+      },
+      "extra": {
+        "EA-Guid": "{BFF63A93-DCFC-468f-B259-203C4B4BE6C0}",
+        "EA-Name": "PersonRelation",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Person Relation"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Person Relation"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Person Relation"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Person Relation"
+      },
+      "name": "PersonRelation"
+    },
+    {
+      "@id": "http://fixme.com#Record",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Record"
+      },
+      "extra": {
+        "EA-Guid": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
+        "EA-Name": "Record",
+        "EA-Package": "registry",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Record"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Record"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Record"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Record"
+      },
+      "name": "Record"
+    },
+    {
+      "@id": "http://fixme.com#RegisteredPerson",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{68F9C64F-B2BC-4cdc-983F-633E88F5A446}",
+      "ap-definition-en": {
+        "en": "Person whose details are officially listed in a register."
+      },
+      "ap-label-en": {
+        "en": "Registered Person"
+      },
+      "definition": {
+        "en": "Person whose details are officially listed in a register."
+      },
+      "extra": {
+        "EA-Guid": "{68F9C64F-B2BC-4cdc-983F-633E88F5A446}",
+        "EA-Name": "RegisteredPerson",
+        "EA-Package": "person",
+        "EA-Parents": "Person",
+        "EA-Parents2": [
+          {
+            "label": "Person",
+            "name": "Person",
+            "package": "person",
+            "uri": "http://www.w3.org/ns/person#Person"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Persoon waarvan de gegevens zijn ingeschreven in een register."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": "Doorgaans is dit register een bevolkingsregister maar het kan bv ook een kiesregister zijn. De ingeschreven gegevens hebben betrekking op de identeit (vb naam en voornaam) en de Verblijfplaats vd persoon en op belangrijke levensgebeurtenissen zoals geboorte, huwelijk, overlijden etc. Deze gegevens worden typisch geregistreerd door de overheid, ze bieden de ingeschreven persoon wettelijke bescherming en laten de overheid toe om basisstatistieken op te stellen over zijn bevolking.",
+            "value": "NOTE"
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "Doorgaans is dit register een bevolkingsregister maar het kan bv ook een kiesregister zijn. De ingeschreven gegevens hebben betrekking op de identeit (vb Naam en Voornaam) en de Verblijfplaats vd Persoon en op belangrijke levensgebeurtenissen zoals Geboorte, Huwelijk, Overlijden etc. Deze gegevens worden typisch geregistreerd door de overheid, ze bieden de ingeschreven Persoon wettelijke bescherming en laten de overheid toe om basisstatistieken op te stellen over zijn bevolking.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Persoon waarvan de gegevens zijn ingeschreven in een register."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Registered Person"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Person whose details are officially listed in a register."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. surname and first name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population.",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Person whose details are officially listed in a register."
+        },
+        "ap-label-en": {
+          "en": "Registered Person"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Person whose details are officially listed in a register."
+        },
+        "label": {
+          "en": "Registered Person"
+        },
+        "parentclasses": "http://www.w3.org/ns/person#Person",
+        "usage": {
+          "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. surname and first name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Registered Person"
+      },
+      "name": "RegisteredPerson",
+      "usage": {
+        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. surname and first name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
+      }
+    },
+    {
+      "@id": "http://fixme.com#RelationRole",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Relation Role"
+      },
+      "extra": {
+        "EA-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
+        "EA-Name": "RelationRole",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Relation Role"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Relation Role"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Relation Role"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Relation Role"
+      },
+      "name": "RelationRole"
+    },
+    {
+      "@id": "http://fixme.com#RelationRoleType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{F8D9B817-9662-46a1-AC55-F2ECBB5A227A}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Relation Role Type"
+      },
+      "extra": {
+        "EA-Guid": "{F8D9B817-9662-46a1-AC55-F2ECBB5A227A}",
+        "EA-Name": "RelationRoleType",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Relation Role Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Relation Role Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Relation Role Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Relation Role Type"
+      },
+      "name": "RelationRoleType"
+    },
+    {
+      "@id": "http://fixme.com#Residence",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+      "ap-definition-en": {
+        "en": "Place where a Person lives or stays permanently or temporarily."
+      },
+      "ap-label-en": {
+        "en": "Residence"
+      },
+      "definition": {
+        "en": "Place where a Person lives or stays permanently or temporarily."
+      },
+      "extra": {
+        "EA-Guid": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+        "EA-Name": "Residence",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Plaats waar een persoon al dan niet tijdelijk woont of logeert."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Plaats waar een Persoon al dan niet tijdelijk woont of logeert."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Residence"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Place where a Person lives or stays permanently or temporarily."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Place where a Person lives or stays permanently or temporarily."
+        },
+        "ap-label-en": {
+          "en": "Residence"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "Place where a Person lives or stays permanently or temporarily."
+        },
+        "label": {
+          "en": "Residence"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Residence"
+      },
+      "name": "Residence"
+    },
+    {
+      "@id": "http://fixme.com#ResidenceType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{859A1F75-BB98-4534-A8C0-10843743ADB5}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Residence Type"
+      },
+      "extra": {
+        "EA-Guid": "{859A1F75-BB98-4534-A8C0-10843743ADB5}",
+        "EA-Name": "ResidenceType",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Residence Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Residence Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Residence Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Residence Type"
+      },
+      "name": "ResidenceType"
+    },
+    {
+      "@id": "http://fixme.com#Residency",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{39842E58-770A-45ff-8987-5939EE40B446}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Residency"
+      },
+      "extra": {
+        "EA-Guid": "{39842E58-770A-45ff-8987-5939EE40B446}",
+        "EA-Name": "Residency",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Residency"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Residency"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Residency"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Residency"
+      },
+      "name": "Residency"
+    },
+    {
+      "@id": "http://fixme.com#ResidencyType",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{803F017C-2816-4239-A528-92CF4F386ABF}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Residency Type"
+      },
+      "extra": {
+        "EA-Guid": "{803F017C-2816-4239-A528-92CF4F386ABF}",
+        "EA-Name": "ResidencyType",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Residency Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Residency Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Residency Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Residency Type"
+      },
+      "name": "ResidencyType"
+    },
+    {
+      "@id": "http://fixme.com#StatutoryCohabitation",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{ADF14A72-93D4-4305-BAE7-D21FF167C213}",
+      "ap-definition-en": {
+        "en": "Arrangement whereby two people who are not married live together."
+      },
+      "ap-label-en": {
+        "en": "Statutory Cohabitation"
+      },
+      "ap-usageNote-en": {
+        "en": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+      },
+      "definition": {
+        "en": "Arrangement whereby two people who are not married live together."
+      },
+      "extra": {
+        "EA-Guid": "{ADF14A72-93D4-4305-BAE7-D21FF167C213}",
+        "EA-Name": "StatutoryCohabitation",
+        "EA-Package": "person",
+        "EA-Parents": "PersonRelation",
+        "EA-Parents2": [
+          {
+            "label": "Person Relation",
+            "name": "PersonRelation",
+            "package": "person",
+            "uri": "http://fixme.com#PersonRelation"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Regeling waarbij twee personen die niet getrouwd zijn samenleven."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": "Kan, net als bv een huwelijk, de basis vormen van een gezin."
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Regeling waarbij twee personen die niet getrouwd zijn samenleven."
+          },
+          {
+            "key": "usageNote-nl",
+            "note": "null",
+            "value": "Kan,net als bv een Huwelijk,de basis vormen van een Gezin."
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Statutory Cohabitation"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Arrangement whereby two people who are not married live together."
+          },
+          {
+            "key": "ap-usageNote-en",
+            "note": "null",
+            "value": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "Arrangement whereby two people who are not married live together."
+        },
+        "ap-label-en": {
+          "en": "Statutory Cohabitation"
+        },
+        "ap-usageNote-en": {
+          "en": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+        },
+        "definition": {
+          "en": "Arrangement whereby two people who are not married live together."
+        },
+        "label": {
+          "en": "Statutory Cohabitation"
+        },
+        "parentclasses": "http://fixme.com#PersonRelation",
+        "usage": {
+          "en": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Statutory Cohabitation"
+      },
+      "name": "StatutoryCohabitation",
+      "usage": {
+        "en": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+      }
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{B15F30FA-A41B-4fbb-B6AF-EF28FF1AC54E}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Civil Status Value"
+      },
+      "extra": {
+        "EA-Guid": "{B15F30FA-A41B-4fbb-B6AF-EF28FF1AC54E}",
+        "EA-Name": "CivilStatusValue",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Aard vd burgerlijke staat ve persoon."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/2004/02/skos/core#Concept"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Civil Status Value"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Civil Status Value"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Civil Status Value"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Civil Status Value"
+      },
+      "name": "CivilStatusValue"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{73CBE8CC-FD89-425f-8566-4907DDDCFAA1}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Descent Type"
+      },
+      "extra": {
+        "EA-Guid": "{73CBE8CC-FD89-425f-8566-4907DDDCFAA1}",
+        "EA-Name": "DescentType",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Aard vd afstamming tussen twee personen."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/2004/02/skos/core#Concept"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Descent Type"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Descent Type"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Descent Type"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Descent Type"
+      },
+      "name": "DescentType"
+    },
+    {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{AFEADC8C-6EA5-43aa-B518-44B201827911}",
+      "ap-codelist": "http://publications.europa.eu/mdr/authority/human-sex/",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "Gender"
+      },
+      "extra": {
+        "EA-Guid": "{AFEADC8C-6EA5-43aa-B518-44B201827911}",
+        "EA-Name": "Gender",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [],
+        "EA-Type": "ENUMERATION",
+        "RawTags": [
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "http://publications.europa.eu/mdr/authority/human-sex/"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Het feit of men een man of een vrouw is."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": " ",
+            "value": " "
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/2004/02/skos/core#Concept"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Gender"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "http://publications.europa.eu/mdr/authority/human-sex/",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "Gender"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "label": {
+          "en": "Gender"
+        },
+        "parentclasses": "",
+        "usage": ""
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Gender"
+      },
+      "name": "Gender"
+    },
+    {
+      "@id": "http://www.w3.org/ns/person#Person",
+      "@type": "http://www.w3.org/2002/07/owl#Class",
+      "EA-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+      "ap-definition-en": {
+        "en": "A natural person."
+      },
+      "ap-label-en": {
+        "en": "Person"
+      },
+      "definition": {
+        "en": "A natural person."
+      },
+      "extra": {
+        "EA-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+        "EA-Name": "Person",
+        "EA-Package": "person",
+        "EA-Parents": "",
+        "EA-Parents2": [
+          {
+            "label": "Legal Subject",
+            "name": "LegalSubject",
+            "package": "legal",
+            "uri": "http://fixme.com#LegalSubject"
+          },
+          {
+            "label": "",
+            "name": "Agent",
+            "package": "generic",
+            "uri": "http://fixme.com#Agent"
+          }
+        ],
+        "EA-Type": "CLASS",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "note": " ",
+            "value": "Natuurlijk persoon."
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "note": "In de rechtspraak betreft het een persoon (in de wettelijke betekenis, ttz met eigen rechtspersoonlijkheid) van de menselijke soort, ttz een fysiek persoon. Tegenhanger is de rechtspersoon, een juridische constructie die een private of publieke organisatie dezelfde rechtspersoonlijkheid geeft als een natuurlijk persoon (kan bv ook schulden hebben, contracten afsluiten, aangeklaagd worden etc).",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://www.w3.org/ns/person#Person"
+          },
+          {
+            "key": "label-en",
+            "note": "null",
+            "value": "Person"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A natural person."
+          },
+          {
+            "key": "usageNote-en",
+            "note": "In case law, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a physical person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.).",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "A natural person."
+        },
+        "ap-label-en": {
+          "en": "Person"
+        },
+        "ap-usageNote-en": "",
+        "definition": {
+          "en": "A natural person."
+        },
+        "label": {
+          "en": "Person"
+        },
+        "parentclasses": "http://fixme.com#LegalSubject, http://fixme.com#Agent",
+        "usage": {
+          "en": "In case law, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a physical person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
+        }
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "Person"
+      },
+      "name": "Person",
+      "usage": {
+        "en": "In case law, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a physical person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
+      }
+    }
+  ],
+  "extra": {
+    "EA-Guid": "{F532A238-B2A4-44b6-B3D1-DC8ACC03B971}",
+    "EA-Name": "diagram",
+    "RawTags": [],
+    "issued": "TODO",
+    "license": "TODO"
+  },
+  "feedbackurl": "https://github.com/belgif/thematic/issues",
+  "filename": "config/eap-mapping.json",
+  "hostname": "https://belgif.github.io/",
+  "issued": "TODO",
+  "label": {
+    "en": "person",
+    "nl": "person"
+  },
+  "license": "TODO",
+  "name": "person",
+  "navigation": {},
+  "properties": [],
+  "publication-date": "2024-05-16",
+  "publication-state": "For acceptance",
+  "repository": "https://github.com/belgif/ICEGthema-person",
+  "repourl": "https://github.com/belgif/ICEGthema-person/tree/main",
+  "site": "site-skeleton/person",
+  "standaardregisterurl": "TODO",
+  "template": "person.j2",
+  "title": "Person",
+  "toolchaincommit": "8fb73aa91d79ddbf128490e886b5f950bf39ea8d",
+  "translation": [
+    {
+      "language": "en",
+      "mergefile": "person_en_merged.json",
+      "template": "person.j2",
+      "title": "Person",
+      "translationjson": "person_en.json"
+    }
+  ],
+  "type": "ap",
+  "urlref": "/thematic/models/person",
+  "versionurl": "https://belgif.github.io/thematic/models/person"
+}

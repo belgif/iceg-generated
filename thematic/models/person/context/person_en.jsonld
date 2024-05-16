@@ -1,0 +1,174 @@
+{
+  "@context": {
+    "Birth": "http://fixme.com#Birth",
+    "Citizenship": "http://fixme.com#Citizenship",
+    "CivilStatus": "http://fixme.com#CivilStatus",
+    "CivilStatusValue": "http://www.w3.org/2004/02/skos/core#Concept",
+    "ContactInformation": "http://fixme.com#ContactInformation",
+    "ContactInformationType": "http://fixme.com#ContactInformationType",
+    "Death": "http://fixme.com#Death",
+    "Descent": "http://fixme.com#Descent",
+    "DescentType": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Designation": "http://fixme.com#Designation",
+    "DesignationType": "http://fixme.com#DesignationType",
+    "DiplomaticPost": "http://fixme.com#DiplomaticPost",
+    "DiplomaticStatus": "http://fixme.com#DiplomaticStatus",
+    "DomesticResidence": "http://fixme.com#DomesticResidence",
+    "ForeignResidence": "http://fixme.com#ForeignResidence",
+    "Gender": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Guardianship": "http://fixme.com#Guardianship",
+    "GuardianshipType": "http://fixme.com#GuardianshipType",
+    "Household": "http://fixme.com#Household",
+    "HouseholdRole": "http://fixme.com#HouseholdRole",
+    "HouseholdRoleType": "http://fixme.com#HouseholdRoleType",
+    "InternationaLegalStatus": "http://fixme.com#InternationaLegalStatus",
+    "InternationalProtectionStatus": "http://fixme.com#InternationalProtectionStatus",
+    "Marriage": "http://fixme.com#Marriage",
+    "NobilityTitle": "http://fixme.com#NobilityTitle",
+    "Person": "http://www.w3.org/ns/person#Person",
+    "PersonRelation": "http://fixme.com#PersonRelation",
+    "Record": "http://fixme.com#Record",
+    "RegisteredPerson": "http://fixme.com#RegisteredPerson",
+    "RelationRole": "http://fixme.com#RelationRole",
+    "RelationRoleType": "http://fixme.com#RelationRoleType",
+    "Residence": "http://fixme.com#Residence",
+    "ResidenceType": "http://fixme.com#ResidenceType",
+    "Residency": "http://fixme.com#Residency",
+    "ResidencyType": "http://fixme.com#ResidencyType",
+    "StatutoryCohabitation": "http://fixme.com#StatutoryCohabitation",
+    "address": {
+      "@id": "http://fixme.com#address",
+      "@type": "@id"
+    },
+    "birth": {
+      "@id": "http://fixme.com#birth",
+      "@type": "@id"
+    },
+    "birthDate": {
+      "@id": "http://fixme.com#birthDate",
+      "@type": "@id"
+    },
+    "citizenship": {
+      "@container": "@set",
+      "@id": "http://fixme.com#citizenship",
+      "@type": "@id"
+    },
+    "civilStatusValue": {
+      "@id": "http://fixme.com#civilStatusValue",
+      "@type": "@id"
+    },
+    "contactInformation": {
+      "@container": "@set",
+      "@id": "http://schema.org/contactPoint",
+      "@type": "@id"
+    },
+    "country": {
+      "@id": "http://fixme.com#country",
+      "@type": "@id"
+    },
+    "death": {
+      "@id": "http://fixme.com#death",
+      "@type": "@id"
+    },
+    "deathDate": {
+      "@id": "http://fixme.com#deathDate",
+      "@type": "@id"
+    },
+    "descentType": {
+      "@id": "http://fixme.com#descentType",
+      "@type": "@id"
+    },
+    "designation": {
+      "@container": "@set",
+      "@id": "http://fixme.com#designation",
+      "@type": "@id"
+    },
+    "designationType": {
+      "@id": "http://fixme.com#designationType",
+      "@type": "@id"
+    },
+    "designationValue": {
+      "@container": "@set",
+      "@id": "http://fixme.com#designationValue",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "diplomaticPost": {
+      "@id": "http://fixme.com#diplomaticPost",
+      "@type": "@id"
+    },
+    "familyName": {
+      "@container": "@set",
+      "@id": "http://xmlns.com/foaf/0.1/familyName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "gender": {
+      "@id": "http://fixme.com#gender",
+      "@type": "@id"
+    },
+    "givenName": {
+      "@container": "@set",
+      "@id": "http://xmlns.com/foaf/0.1/givenName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "guardianshipType": {
+      "@id": "http://fixme.com#guardianshipType",
+      "@type": "@id"
+    },
+    "householdAddress": {
+      "@id": "http://fixme.com#householdAddress",
+      "@type": "@id"
+    },
+    "identifier": {
+      "@container": "@set",
+      "@id": "http://fixme.com#identifier",
+      "@type": "@id"
+    },
+    "informationType": {
+      "@id": "http://fixme.com#informationType",
+      "@type": "@id"
+    },
+    "informationValue": {
+      "@container": "@set",
+      "@id": "http://fixme.com#informationValue",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "jurisdiction": {
+      "@id": "http://fixme.com#jurisdiction",
+      "@type": "@id"
+    },
+    "language": {
+      "@id": "http://fixme.com#language",
+      "@type": "@id"
+    },
+    "nobilityTitle": {
+      "@id": "http://fixme.com#nobilityTitle",
+      "@type": "@id"
+    },
+    "placeOfBirth": {
+      "@id": "http://fixme.com#placeOfBirth",
+      "@type": "@id"
+    },
+    "placeOfDeath": {
+      "@id": "http://fixme.com#placeOfDeath",
+      "@type": "@id"
+    },
+    "recordStatus": {
+      "@id": "http://fixme.com#recordStatus",
+      "@type": "@id"
+    },
+    "residence": {
+      "@container": "@set",
+      "@id": "http://fixme.com#residence",
+      "@type": "@id"
+    },
+    "residenceType": {
+      "@container": "@set",
+      "@id": "http://fixme.com#residenceType",
+      "@type": "@id"
+    },
+    "roleType": {
+      "@id": "http://fixme.com#roleType",
+      "@type": "@id"
+    }
+  }
+}
