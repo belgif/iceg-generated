@@ -1,99 +1,110 @@
 {
   "@context": {
-    "Birth": "http://fixme.com#Birth",
+    "Birth": "http://vocab.belgif.be/ns/person#Birth",
     "Citizenship": "http://fixme.com#Citizenship",
-    "CivilStatus": "http://fixme.com#CivilStatus",
+    "CivilStatus": "http://vocab.belgif.be/ns/person#CivilStatus",
     "CivilStatusValue": "http://www.w3.org/2004/02/skos/core#Concept",
-    "ContactInformation": "http://fixme.com#ContactInformation",
-    "ContactInformationType": "http://fixme.com#ContactInformationType",
-    "Death": "http://fixme.com#Death",
-    "Descent": "http://fixme.com#Descent",
+    "ContactMedium": "http://fixme.com#ContactMedium",
+    "ContactPoint": "http://data.europa.eu/m8g/ContactPoint",
+    "Death": "http://vocab.belgif.be/ns/person#Death",
+    "Descent": "http://vocab.belgif.be/ns/person#Descent",
     "DescentType": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Designation": "http://fixme.com#Designation",
-    "DesignationType": "http://fixme.com#DesignationType",
-    "DiplomaticPost": "http://fixme.com#DiplomaticPost",
-    "DiplomaticStatus": "http://fixme.com#DiplomaticStatus",
-    "DomesticResidence": "http://fixme.com#DomesticResidence",
-    "ForeignResidence": "http://fixme.com#ForeignResidence",
-    "Gender": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Guardianship": "http://fixme.com#Guardianship",
-    "GuardianshipType": "http://fixme.com#GuardianshipType",
-    "Household": "http://fixme.com#Household",
-    "HouseholdRole": "http://fixme.com#HouseholdRole",
-    "HouseholdRoleType": "http://fixme.com#HouseholdRoleType",
-    "InternationaLegalStatus": "http://fixme.com#InternationaLegalStatus",
-    "InternationalProtectionStatus": "http://fixme.com#InternationalProtectionStatus",
-    "Marriage": "http://fixme.com#Marriage",
+    "DiplomaticPost": "http://vocab.belgif.be/ns/organization#DiplomaticPost",
+    "DiplomaticPost.identifier": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/ns/adms#identifier",
+      "@type": "@id"
+    },
+    "DiplomaticStatus": "http://vocab.belgif.be/ns/person#DiplomaticStatus",
+    "DomesticResidence": "http://vocab.belgif.be/ns/person#DomesticResidence",
+    "EUCitizenship": "http://vocab.belgif.be/ns/person#EUCitizenship",
+    "ForeignResidence": "http://vocab.belgif.be/ns/person#ForeignResidence",
+    "GenderCode": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Guardianship": "http://vocab.belgif.be/ns/person#Guardianship",
+    "GuardianshipType": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Household": "http://vocab.belgif.be/ns/person#Household",
+    "HouseholdRole": "http://vocab.belgif.be/ns/person#HouseholdRole",
+    "HouseholdRole.roleValue": {
+      "@id": "http://purl.org/dc/elements/1.1/type",
+      "@type": "@id"
+    },
+    "HouseholdRoleValue": "http://www.w3.org/2004/02/skos/core#Concept",
+    "InternationalProtectionStatus": "http://vocab.belgif.be/ns/person#InternationalProtectionStatus",
+    "Marriage": "http://vocab.belgif.be/ns/person#Marriage",
     "NobilityTitle": "http://fixme.com#NobilityTitle",
     "Person": "http://www.w3.org/ns/person#Person",
-    "PersonRelation": "http://fixme.com#PersonRelation",
-    "Record": "http://fixme.com#Record",
-    "RegisteredPerson": "http://fixme.com#RegisteredPerson",
-    "RelationRole": "http://fixme.com#RelationRole",
-    "RelationRoleType": "http://fixme.com#RelationRoleType",
+    "PersonRelation": "http://vocab.belgif.be/ns/person#PersonRelation",
+    "PersonRelationRole": "http://vocab.belgif.be/ns/person#PersonRelationRole",
+    "PersonRelationRole.roleValue": {
+      "@id": "http://fixme.com#roleValue",
+      "@type": "@id"
+    },
+    "PersonRelationRoleValue": "http://www.w3.org/2004/02/skos/core#Concept",
+    "PublicLegalStatus": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+    "Record": "http://vocab.belgif.be/ns/person#Record",
+    "Record.identifier": {
+      "@id": "http://fixme.com#identifier",
+      "@type": "@id"
+    },
+    "RegisteredPerson": "http://vocab.belgif.be/ns/person#RegisteredPerson",
     "Residence": "http://fixme.com#Residence",
-    "ResidenceType": "http://fixme.com#ResidenceType",
-    "Residency": "http://fixme.com#Residency",
-    "ResidencyType": "http://fixme.com#ResidencyType",
-    "StatutoryCohabitation": "http://fixme.com#StatutoryCohabitation",
+    "ResidenceType": "http://www.w3.org/2004/02/skos/core#Concept",
+    "Residency": "http://vocab.belgif.be/ns/person#Residency",
+    "ResidencyType": "http://www.w3.org/2004/02/skos/core#Concept",
+    "StatutoryCohabitation": "http://vocab.belgif.be/ns/person#StatutoryCohabitation",
     "address": {
       "@id": "http://fixme.com#address",
       "@type": "@id"
     },
+    "alternativeName": {
+      "@container": "@set",
+      "@id": "http://purl.org/dc/terms/alternative",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
     "birth": {
-      "@id": "http://fixme.com#birth",
+      "@id": "http://purl.org/vocab/bio/0.1/birth",
       "@type": "@id"
     },
     "birthDate": {
-      "@id": "http://fixme.com#birthDate",
+      "@id": "http://data.europa.eu/m8g/birthDate",
       "@type": "@id"
     },
-    "citizenship": {
-      "@container": "@set",
-      "@id": "http://fixme.com#citizenship",
+    "civilStatus": {
+      "@id": "http://fixme.com#civilStatus",
       "@type": "@id"
     },
     "civilStatusValue": {
-      "@id": "http://fixme.com#civilStatusValue",
+      "@id": "http://purl.org/dc/elements/1.1/type",
       "@type": "@id"
     },
-    "contactInformation": {
+    "contactMedium": {
+      "@id": "http://purl.org/dc/elements/1.1/type",
+      "@type": "@id"
+    },
+    "contactPoint": {
       "@container": "@set",
-      "@id": "http://schema.org/contactPoint",
+      "@id": "http://data.europa.eu/m8g/contactPoint",
       "@type": "@id"
     },
-    "country": {
-      "@id": "http://fixme.com#country",
-      "@type": "@id"
+    "contactValue": {
+      "@container": "@set",
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "death": {
-      "@id": "http://fixme.com#death",
+      "@id": "http://purl.org/vocab/bio/0.1/death",
       "@type": "@id"
     },
     "deathDate": {
-      "@id": "http://fixme.com#deathDate",
+      "@id": "http://data.europa.eu/m8g/deathDate",
       "@type": "@id"
     },
     "descentType": {
-      "@id": "http://fixme.com#descentType",
+      "@id": "http://purl.org/dc/elements/1.1/type",
       "@type": "@id"
-    },
-    "designation": {
-      "@container": "@set",
-      "@id": "http://fixme.com#designation",
-      "@type": "@id"
-    },
-    "designationType": {
-      "@id": "http://fixme.com#designationType",
-      "@type": "@id"
-    },
-    "designationValue": {
-      "@container": "@set",
-      "@id": "http://fixme.com#designationValue",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "diplomaticPost": {
-      "@id": "http://fixme.com#diplomaticPost",
+      "@id": "http://vocab.belgif.be/ns/person#diplomaticPost",
       "@type": "@id"
     },
     "familyName": {
@@ -101,8 +112,12 @@
       "@id": "http://xmlns.com/foaf/0.1/familyName",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
+    "fullName": {
+      "@id": "http://xmlns.com/foaf/0.1/name",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
     "gender": {
-      "@id": "http://fixme.com#gender",
+      "@id": "http://data.europa.eu/m8g/gender",
       "@type": "@id"
     },
     "givenName": {
@@ -111,45 +126,49 @@
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "guardianshipType": {
-      "@id": "http://fixme.com#guardianshipType",
+      "@id": "http://purl.org/dc/elements/1.1/type",
       "@type": "@id"
     },
     "householdAddress": {
-      "@id": "http://fixme.com#householdAddress",
+      "@id": "http://vocab.belgif.be/ns/person#householdAddress",
       "@type": "@id"
-    },
-    "identifier": {
-      "@container": "@set",
-      "@id": "http://fixme.com#identifier",
-      "@type": "@id"
-    },
-    "informationType": {
-      "@id": "http://fixme.com#informationType",
-      "@type": "@id"
-    },
-    "informationValue": {
-      "@container": "@set",
-      "@id": "http://fixme.com#informationValue",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "jurisdiction": {
       "@id": "http://fixme.com#jurisdiction",
       "@type": "@id"
     },
-    "language": {
-      "@id": "http://fixme.com#language",
-      "@type": "@id"
+    "maidenName": {
+      "@id": "http://vocab.belgif.be/ns/person#maidenName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "matronymicName": {
+      "@id": "http://data.europa.eu/m8g/matronymicName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "nobilityTitle": {
+      "@container": "@set",
       "@id": "http://fixme.com#nobilityTitle",
       "@type": "@id"
     },
+    "patronymicName": {
+      "@id": "http://www.w3.org/ns/person#patronymicName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
     "placeOfBirth": {
-      "@id": "http://fixme.com#placeOfBirth",
+      "@id": "http://www.w3.org/ns/person#placeOfBirth",
       "@type": "@id"
     },
     "placeOfDeath": {
-      "@id": "http://fixme.com#placeOfDeath",
+      "@id": "http://www.w3.org/ns/person#placeOfDeath",
+      "@type": "@id"
+    },
+    "preferredGivenName": {
+      "@id": "http://vocab.belgif.be/ns/person#preferredGivenName",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "publicLegalStatus": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/person#publicLegalStatus",
       "@type": "@id"
     },
     "recordStatus": {
@@ -163,11 +182,12 @@
     },
     "residenceType": {
       "@container": "@set",
-      "@id": "http://fixme.com#residenceType",
+      "@id": "http://purl.org/dc/elements/1.1/type",
       "@type": "@id"
     },
-    "roleType": {
-      "@id": "http://fixme.com#roleType",
+    "residency": {
+      "@container": "@set",
+      "@id": "http://fixme.com#residency",
       "@type": "@id"
     }
   }

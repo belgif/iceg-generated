@@ -12,8 +12,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-person/tree/3f072b64745b70244be3d121e5df9655bbc8dab9",
-    "changelogurl": "https://github.com/belgif/ICEGthema-person/blob/3f072b64745b70244be3d121e5df9655bbc8dab9/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-person/tree/f6e2ccb61c9ec171d0f1abedc6712dc70fc900b5",
+    "changelogurl": "https://github.com/belgif/ICEGthema-person/blob/f6e2ccb61c9ec171d0f1abedc6712dc70fc900b5/CHANGELOG",
     "feedbackurl": "https://github.com/belgif/thematic/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -21,104 +21,95 @@
   },
   "classes": [
     {
-      "uri": "http://fixme.com#Birth",
-      "name": "Birth",
+      "uri": "http://data.europa.eu/m8g/ContactPoint",
+      "name": "ContactPoint",
       "label": {
-        "en": "Birth"
+        "en": "Contact Point"
       },
-      "sort": "Birth",
+      "sort": "Contact Point",
       "description": {
-        "en": "The person being born."
+        "en": "Information such as email, telephone that allows the person to be contacted."
       },
       "usage": {},
-      "parents": [
-        {
-          "label": "Life Event",
-          "name": "LifeEvent",
-          "package": "person",
-          "uri": "http://fixme.com#LifeEvent",
-          "scoped_uri": "http://fixme.com#LifeEvent"
-        }
-      ],
+      "parents": [],
       "rawTags": {
-        "ap-definition-nl": "Het ter wereld komen vd persoon.",
-        "ap-usageNote-nl": " ",
-        "definition-nl": "Het ter wereld komen vd Persoon.",
-        "equivalent": "http://purl.org/vocab/bio/0.1/Birth",
-        "label-en": "Birth",
-        "definition-en": "The person being born."
+        "label-en": "Contact Point",
+        "definition-en": "Information such as email, telephone that allows the person to be contacted.",
+        "uri": "http://data.europa.eu/m8g/ContactPoint"
       },
       "properties": [
         {
-          "uri": "http://fixme.com#placeOfBirth",
-          "name": "placeOfBirth",
-          "sort": "place of birth",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+          "name": "contactValue",
+          "sort": "contact value",
           "label": {
-            "en": "place of birth"
+            "en": "contact value"
           },
           "description": {},
           "usage": {},
           "domain": [
             {
-              "EA-Name": "Birth",
-              "uri": "http://fixme.com#Birth"
+              "EA-Name": "ContactPoint",
+              "uri": "http://data.europa.eu/m8g/ContactPoint"
             }
           ],
           "range": [
             {
-              "range_label": "Locality",
-              "range_uri": "http://fixme.com#Locality"
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://fixme.com#Locality",
-              "range_puri": "http://fixme.com#Locality",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
               "range_label": {
-                "en": "Locality"
+                "en": "String"
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "place of birth"
+            "label-en": "contact value",
+            "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
           }
         },
         {
-          "uri": "http://fixme.com#birthDate",
-          "name": "birthDate",
-          "sort": "birth date",
+          "uri": "http://purl.org/dc/elements/1.1/type",
+          "name": "contactMedium",
+          "sort": "contact medium",
           "label": {
-            "en": "birth date"
+            "en": "contact medium"
           },
           "description": {},
           "usage": {},
           "domain": [
             {
-              "EA-Name": "Birth",
-              "uri": "http://fixme.com#Birth"
+              "EA-Name": "ContactPoint",
+              "uri": "http://data.europa.eu/m8g/ContactPoint"
             }
           ],
           "range": [
             {
-              "range_label": "TemporalPosition",
-              "range_uri": "http://fixme.com#TemporalPosition"
+              "range_label": "ContactInformationType",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://fixme.com#TemporalPosition",
-              "range_puri": "http://fixme.com#TemporalPosition",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "TemporalPosition"
+                "en": "ContactInformationType"
               }
             }
           ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "birth date"
+            "label-en": "contact medium",
+            "uri": "http://purl.org/dc/elements/1.1/type"
           }
         }
       ]
@@ -130,1190 +121,27 @@
         "en": "Citizenship"
       },
       "sort": "Citizenship",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Citizenship"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#jurisdiction",
-          "name": "jurisdiction",
-          "sort": "jurisdiction",
-          "label": {
-            "en": "jurisdiction"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Citizenship",
-              "uri": "http://fixme.com#Citizenship"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Country",
-              "range_uri": "http://fixme.com#Country"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://fixme.com#Country",
-              "range_puri": "http://fixme.com#Country",
-              "range_label": {
-                "en": "Country"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "jurisdiction"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#CivilStatus",
-      "name": "CivilStatus",
-      "label": {
-        "en": "Civil Status"
-      },
-      "sort": "Civil Status",
       "description": {
-        "en": "Status of a person according to civil law."
+        "en": "Legal connection of a person with a state, which carries certain rights and obligations."
       },
       "usage": {
-        "en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
-      },
-      "parents": [],
-      "rawTags": {
-        "ap-definition-nl": "Burgerrechtelijke toestand van een persoon.",
-        "ap-usageNote-nl": "Slaat op huwelijk, partnerregistratie, afstamming, voogdij etc. Is maw de toestand van bepaalde verhoudingen tussen personen.",
-        "definition-nl": "Burgerrechtelijke toestand van een Persoon.",
-        "usageNote-nl": "Slaat op huwelijk,partnerregistratie,afstamming,voogdij etc. Is maw de toestand van bepaalde verhoudingen tussen personen.",
-        "label-en": "Civil Status",
-        "definition-en": "Status of a person according to civil law.",
-        "ap-usageNote-en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#civilStatusValue",
-          "name": "civilStatusValue",
-          "sort": "civil status value",
-          "label": {
-            "en": "civil status value"
-          },
-          "description": {
-            "en": "Type of civil status."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "CivilStatus",
-              "uri": "http://fixme.com#CivilStatus"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "CivilStatusValue",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Civil Status Value",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "en": "Civil Status Value"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "ap-definition-nl": "Aard vd burgerlijke staat.",
-            "ap-usageNote-nl": " ",
-            "parentURI": "http://purl.org/dc/elements/1.1/type",
-            "definition-nl": "Aard vd Burgerlijke Staat.",
-            "label-en": "civil status value",
-            "definition-en": "Type of civil status."
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#ContactInformation",
-      "name": "ContactInformation",
-      "label": {
-        "en": "Contact Information"
-      },
-      "sort": "Contact Information",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Contact Information"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#informationValue",
-          "name": "informationValue",
-          "sort": "information value",
-          "label": {
-            "en": "information value"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ContactInformation",
-              "uri": "http://fixme.com#ContactInformation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "en": "String"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "information value"
-          }
-        },
-        {
-          "uri": "http://fixme.com#informationType",
-          "name": "informationType",
-          "sort": "information type",
-          "label": {
-            "en": "information type"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ContactInformation",
-              "uri": "http://fixme.com#ContactInformation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "ContactInformationType",
-              "range_uri": "http://fixme.com#ContactInformationType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Contact Information Type",
-              "range_puri": "http://fixme.com#ContactInformationType",
-              "range_label": {
-                "en": "Contact Information Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "information type"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#Death",
-      "name": "Death",
-      "label": {
-        "en": "Death"
-      },
-      "sort": "Death",
-      "description": {
-        "en": "Death of a person."
-      },
-      "usage": {},
-      "parents": [
-        {
-          "label": "Life Event",
-          "name": "LifeEvent",
-          "package": "person",
-          "uri": "http://fixme.com#LifeEvent",
-          "scoped_uri": "http://fixme.com#LifeEvent"
-        }
-      ],
-      "rawTags": {
-        "ap-definition-nl": "Het doodgaan vd Persoon.",
-        "definition-nl": "Het doodgaan vd Persoon.",
-        "equivalent": "http://purl.org/vocab/bio/0.1/Death",
-        "label-en": "Death",
-        "definition-en": "Death of a person."
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#placeOfDeath",
-          "name": "placeOfDeath",
-          "sort": "place of death",
-          "label": {
-            "en": "place of death"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Death",
-              "uri": "http://fixme.com#Death"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Locality",
-              "range_uri": "http://fixme.com#Locality"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://fixme.com#Locality",
-              "range_puri": "http://fixme.com#Locality",
-              "range_label": {
-                "en": "Locality"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "place of death"
-          }
-        },
-        {
-          "uri": "http://fixme.com#deathDate",
-          "name": "deathDate",
-          "sort": "death date",
-          "label": {
-            "en": "death date"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Death",
-              "uri": "http://fixme.com#Death"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "TemporalPosition",
-              "range_uri": "http://fixme.com#TemporalPosition"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://fixme.com#TemporalPosition",
-              "range_puri": "http://fixme.com#TemporalPosition",
-              "range_label": {
-                "en": "TemporalPosition"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "death date"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#Descent",
-      "name": "Descent",
-      "label": {
-        "en": "Descent"
-      },
-      "sort": "Descent",
-      "description": {
-        "en": "Descent is the descending line of blood relationship between different generations."
-      },
-      "usage": {
-        "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent)."
+        "en": "In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French."
       },
       "parents": [
         {
-          "label": "Person Relation",
-          "name": "PersonRelation",
+          "label": "Public Legal Status",
+          "name": "PublicLegalStatus",
           "package": "person",
-          "uri": "http://fixme.com#PersonRelation",
-          "scoped_uri": "#Person Relation"
+          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+          "scoped_uri": "#Public Legal Status"
         }
       ],
       "rawTags": {
-        "ap-definition-nl": "Afstamming is de dalende lijn van bloedverwantschap tussen verschillende generaties.",
-        "ap-usageNote-nl": "De afstamming kan ook niet-biologisch zijn, bv adoptie. Afstamming kan ook in opgaande lijn worden bekeken. Het begrip is enger dan verwantschap dat oa ook huwelijk inhoudt.",
-        "definition-nl": "Afstamming is de dalende lijn van bloedverwantschap tussen verschillende generaties.",
-        "usageNote-nl": "De afstamming kan ook niet-biologisch zijn,bv adoptie. Afstamming kan ook in opgaande lijn worden bekeken. Het begrip is enger dan verwantschap dat oa ook huwelijk inhoudt.",
-        "label-en": "Descent",
-        "definition-en": "Descent is the descending line of blood relationship between different generations.",
-        "usageNote-en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent)."
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#descentType",
-          "name": "descentType",
-          "sort": "descent type",
-          "label": {
-            "en": "descent type"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Descent",
-              "uri": "http://fixme.com#Descent"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DescentType",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Descent Type",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "en": "Descent Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "descent type"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#Designation",
-      "name": "Designation",
-      "label": {
-        "en": "Designation"
-      },
-      "sort": "Designation",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Designation"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#language",
-          "name": "language",
-          "sort": "language",
-          "label": {
-            "en": "language"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Designation",
-              "uri": "http://fixme.com#Designation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Language",
-              "range_uri": "http://fixme.com#Language"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://fixme.com#Language",
-              "range_puri": "http://fixme.com#Language",
-              "range_label": {
-                "en": "Language"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "language"
-          }
-        },
-        {
-          "uri": "http://fixme.com#designationValue",
-          "name": "designationValue",
-          "sort": "designation value",
-          "label": {
-            "en": "designation value"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Designation",
-              "uri": "http://fixme.com#Designation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_label": {
-                "en": "String"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "designation value"
-          }
-        },
-        {
-          "uri": "http://fixme.com#designationType",
-          "name": "designationType",
-          "sort": "designation type",
-          "label": {
-            "en": "designation type"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Designation",
-              "uri": "http://fixme.com#Designation"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DesignationType",
-              "range_uri": "http://fixme.com#DesignationType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Designation Type",
-              "range_puri": "http://fixme.com#DesignationType",
-              "range_label": {
-                "en": "Designation Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "designation type"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#DiplomaticPost",
-      "name": "DiplomaticPost",
-      "label": {
-        "en": "Diplomatic Post"
-      },
-      "sort": "Diplomatic Post",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Diplomatic Post"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#identifier",
-          "name": "country",
-          "sort": "country",
-          "label": {
-            "en": "country"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "DiplomaticPost",
-              "uri": "http://fixme.com#DiplomaticPost"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Identifier",
-              "range_uri": "http://www.w3.org/ns/adms#Identifier"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/ns/adms#Identifier",
-              "range_puri": "http://www.w3.org/ns/adms#Identifier",
-              "range_label": {
-                "en": "Identifier"
-              }
-            }
-          ],
-          "cardinality": "1..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "country"
-          }
-        },
-        {
-          "uri": "http://fixme.com#country",
-          "name": "country",
-          "sort": "country",
-          "label": {
-            "en": "country"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "DiplomaticPost",
-              "uri": "http://fixme.com#DiplomaticPost"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Country",
-              "range_uri": "http://fixme.com#Country"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://fixme.com#Country",
-              "range_puri": "http://fixme.com#Country",
-              "range_label": {
-                "en": "Country"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "country"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#DiplomaticStatus",
-      "name": "DiplomaticStatus",
-      "label": {
-        "en": "Diplomatic Status"
-      },
-      "sort": "Diplomatic Status",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "International Legal Status",
-          "name": "InternationaLegalStatus",
-          "package": "person",
-          "uri": "http://fixme.com#InternationaLegalStatus",
-          "scoped_uri": "#International Legal Status"
-        }
-      ],
-      "rawTags": {
-        "label-en": "Diplomatic Status"
+        "label-en": "Citizenship",
+        "usageNote-en": "In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French.",
+        "definition-en": "Legal connection of a person with a state, which carries certain rights and obligations."
       },
       "properties": []
-    },
-    {
-      "uri": "http://fixme.com#DomesticResidence",
-      "name": "DomesticResidence",
-      "label": {
-        "en": "Domestic Residence"
-      },
-      "sort": "Domestic Residence",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Residence",
-          "name": "Residence",
-          "package": "person",
-          "uri": "http://fixme.com#Residence",
-          "scoped_uri": "#Residence"
-        }
-      ],
-      "rawTags": {
-        "label-en": "Domestic Residence"
-      },
-      "properties": []
-    },
-    {
-      "uri": "http://fixme.com#ForeignResidence",
-      "name": "ForeignResidence",
-      "label": {
-        "en": "Foreign Residence"
-      },
-      "sort": "Foreign Residence",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "Residence",
-          "name": "Residence",
-          "package": "person",
-          "uri": "http://fixme.com#Residence",
-          "scoped_uri": "#Residence"
-        }
-      ],
-      "rawTags": {
-        "label-en": "Foreign Residence"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#diplomaticPost",
-          "name": "diplomaticPost",
-          "sort": "diplomatic post",
-          "label": {
-            "en": "diplomatic post"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "ForeignResidence",
-              "uri": "http://fixme.com#ForeignResidence"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DiplomaticPost",
-              "range_uri": "http://fixme.com#DiplomaticPost"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Diplomatic Post",
-              "range_puri": "http://fixme.com#DiplomaticPost",
-              "range_label": {
-                "en": "Diplomatic Post"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "diplomatic post"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#Guardianship",
-      "name": "Guardianship",
-      "label": {
-        "en": "Guardianship"
-      },
-      "sort": "Guardianship",
-      "description": {
-        "en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods."
-      },
-      "usage": {
-        "en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties."
-      },
-      "parents": [
-        {
-          "label": "Person Relation",
-          "name": "PersonRelation",
-          "package": "person",
-          "uri": "http://fixme.com#PersonRelation",
-          "scoped_uri": "#Person Relation"
-        }
-      ],
-      "rawTags": {
-        "ap-definition-nl": "Situatie waarbij een persoon die optreedt als voogd ve ander persoon en in die hoedanigheid instaat voor deze persoon en zijn goederen.",
-        "ap-usageNote-nl": "Dit is bv het geval voor minderjarigen die hun ouders zijn verloren of voor meerderjarigen die hun verstandelijke vermogens zijn verloren.",
-        "definition-nl": "Situatie waarbij een Persoon die optreedt als voogd ve ander Persoon en in die hoedanigheid instaat voor deze persoon en zijn goederen.",
-        "label-en": "Guardianship",
-        "definition-en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods.",
-        "usageNote-en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties."
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#guardianshipType",
-          "name": "",
-          "sort": "",
-          "label": {},
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Guardianship",
-              "uri": "http://fixme.com#Guardianship"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "GuardianshipType",
-              "range_uri": "http://fixme.com#GuardianshipType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Guardianship Type",
-              "range_puri": "http://fixme.com#GuardianshipType",
-              "range_label": {
-                "en": "Guardianship Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {}
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#Household",
-      "name": "Household",
-      "label": {
-        "en": "Household"
-      },
-      "sort": "Household",
-      "description": {
-        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
-      },
-      "usage": {
-        "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
-      },
-      "parents": [
-        {
-          "label": "Organization",
-          "name": "Organization",
-          "package": "organization",
-          "uri": "http://fixme.com#Organization",
-          "scoped_uri": "http://fixme.com#Organization"
-        }
-      ],
-      "rawTags": {
-        "ap-definition-nl": "Samenwerkingsvorm die een herkenbare sociale eenheid vormt (bv tgv huwelijk), met al dan niet verwante personen die duurzame banden hebben en elkaar onderling steun en verzorging verlenen.",
-        "ap-usageNote-nl": "Ruimer begrip dan familie waar het gezin louter bestaat uit nabije bloedverwanten, bv een eenpersoonsgezin of living apart together. Gezinsleden hebben doorgaans dezelfde verblijfplaats.",
-        "definition-nl": "Samenwerkingsvorm die een herkenbare sociale eenheid vormt (bv tgv huwelijk),met al dan niet verwante personen die duurzame banden hebben en elkaar onderling steun en verzorging verlenen.",
-        "usageNote-nl": "Ruimer begrip dan familie waar het Gezin louter bestaat uit nabije bloedverwanten,bv een Eenpersoonsgezin of een Living Together Apart Gezin. Gezinsleden hebben doorgaans dezelfde Verblijfplaats.",
-        "label-en": "Household",
-        "definition-en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care.",
-        "usageNote-en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#householdAddress",
-          "name": "householdAddress",
-          "sort": "household address",
-          "label": {
-            "en": "household address"
-          },
-          "description": {
-            "en": "Address of the residence of the household."
-          },
-          "usage": {
-            "en": "Often a criterion to determine whether persons are part of the same household."
-          },
-          "domain": [
-            {
-              "EA-Name": "Household",
-              "uri": "http://fixme.com#Household"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Address",
-              "range_uri": "http://www.w3.org/ns/locn#Address"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/ns/locn#Address",
-              "range_puri": "http://www.w3.org/ns/locn#Address",
-              "range_label": {
-                "en": "Address"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "usageNote-nl": "Dikwijls een criterium om te bepalen of personen deel uitmaken van eenzelfde Gezin.",
-            "ap-definition-nl": "Adres vd verblijfplaats vh gezin.",
-            "ap-usageNote-nl": "Dikwijls een criterium om te bepalen of personen deel uitmaken van eenzelfde gezin.",
-            "definition-nl": "Verblijfplaats vh Gezin.",
-            "label-en": "household address",
-            "definition-en": "Address of the residence of the household.",
-            "usageNote-en": "Often a criterion to determine whether persons are part of the same household."
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#HouseholdRole",
-      "name": "HouseholdRole",
-      "label": {
-        "en": "Household Role"
-      },
-      "sort": "Household Role",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Household Role"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#roleType",
-          "name": "roleType",
-          "sort": "role type",
-          "label": {
-            "en": "role type"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "HouseholdRole",
-              "uri": "http://fixme.com#HouseholdRole"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "HouseholdRoleType",
-              "range_uri": "http://fixme.com#HouseholdRoleType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Household Role Type",
-              "range_puri": "http://fixme.com#HouseholdRoleType",
-              "range_label": {
-                "en": "Household Role Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "role type"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#InternationaLegalStatus",
-      "name": "InternationalLegalStatus",
-      "label": {
-        "en": "International Legal Status"
-      },
-      "sort": "International Legal Status",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "International Legal Status"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#jurisdiction",
-          "name": "jurisdiction",
-          "sort": "jurisdiction",
-          "label": {
-            "en": "jurisdiction"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "InternationaLegalStatus",
-              "uri": "http://fixme.com#InternationaLegalStatus"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Country",
-              "range_uri": "http://fixme.com#Country"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://fixme.com#Country",
-              "range_puri": "http://fixme.com#Country",
-              "range_label": {
-                "en": "Country"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "jurisdiction"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#InternationalProtectionStatus",
-      "name": "InternationalProtectionStatus",
-      "label": {
-        "en": "International Protection Status"
-      },
-      "sort": "International Protection Status",
-      "description": {},
-      "usage": {},
-      "parents": [
-        {
-          "label": "International Legal Status",
-          "name": "InternationaLegalStatus",
-          "package": "person",
-          "uri": "http://fixme.com#InternationaLegalStatus",
-          "scoped_uri": "#International Legal Status"
-        }
-      ],
-      "rawTags": {
-        "label-en": "International Protection Status"
-      },
-      "properties": []
-    },
-    {
-      "uri": "http://fixme.com#Marriage",
-      "name": "Marriage",
-      "label": {
-        "en": "Marriage"
-      },
-      "sort": "Marriage",
-      "description": {
-        "en": "A form of cohabitation of two persons, organized by civil or religious law."
-      },
-      "usage": {
-        "en": "Can, just like living together, form the basis of a household."
-      },
-      "parents": [
-        {
-          "label": "Person Relation",
-          "name": "PersonRelation",
-          "package": "person",
-          "uri": "http://fixme.com#PersonRelation",
-          "scoped_uri": "#Person Relation"
-        }
-      ],
-      "rawTags": {
-        "ap-definition-nl": "Een door burgerlijk of religieus recht geregelde samenlevingsvorm van twee personen.",
-        "ap-usageNote-nl": "Kan, net als bv samenwonen, de basis vormen van een gezin.",
-        "definition-nl": "Een door burgerlijk of religieus recht geregelde samenlevingsvorm van twee personen.",
-        "usageNote-nl": "Kan,net als bv Samenwonen,de basis vormen van een Gezin.",
-        "label-en": "Marriage",
-        "definition-en": "A form of cohabitation of two persons, organized by civil or religious law.",
-        "usageNote-en": "Can, just like living together, form the basis of a household."
-      },
-      "properties": []
-    },
-    {
-      "uri": "http://fixme.com#PersonRelation",
-      "name": "PersonRelation",
-      "label": {
-        "en": "Person Relation"
-      },
-      "sort": "Person Relation",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Person Relation"
-      },
-      "properties": []
-    },
-    {
-      "uri": "http://fixme.com#Record",
-      "name": "Record",
-      "label": {
-        "en": "Record"
-      },
-      "sort": "Record",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Record"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#recordStatus",
-          "name": "recordStatus",
-          "sort": "record status",
-          "label": {
-            "en": "record status"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Record",
-              "uri": "http://fixme.com#Record"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "RecordStatus",
-              "range_uri": "http://fixme.com#RecordStatus"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://fixme.com#RecordStatus",
-              "range_puri": "http://fixme.com#RecordStatus",
-              "range_label": {
-                "en": "RecordStatus"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "record status"
-          }
-        },
-        {
-          "uri": "http://fixme.com#identifier",
-          "name": "identifier",
-          "sort": "identifier",
-          "label": {
-            "en": "identifier"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Record",
-              "uri": "http://fixme.com#Record"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Identifier",
-              "range_uri": "http://www.w3.org/ns/adms#Identifier"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/ns/adms#Identifier",
-              "range_puri": "http://www.w3.org/ns/adms#Identifier",
-              "range_label": {
-                "en": "Identifier"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "identifier"
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://fixme.com#RegisteredPerson",
-      "name": "RegisteredPerson",
-      "label": {
-        "en": "Registered Person"
-      },
-      "sort": "Registered Person",
-      "description": {
-        "en": "Person whose details are officially listed in a register."
-      },
-      "usage": {
-        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. surname and first name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
-      },
-      "parents": [
-        {
-          "label": "Person",
-          "name": "Person",
-          "package": "person",
-          "uri": "http://www.w3.org/ns/person#Person",
-          "scoped_uri": "#Person"
-        }
-      ],
-      "rawTags": {
-        "ap-definition-nl": "Persoon waarvan de gegevens zijn ingeschreven in een register.",
-        "ap-usageNote-nl": "Doorgaans is dit register een bevolkingsregister maar het kan bv ook een kiesregister zijn. De ingeschreven gegevens hebben betrekking op de identeit (vb naam en voornaam) en de Verblijfplaats vd persoon en op belangrijke levensgebeurtenissen zoals geboorte, huwelijk, overlijden etc. Deze gegevens worden typisch geregistreerd door de overheid, ze bieden de ingeschreven persoon wettelijke bescherming en laten de overheid toe om basisstatistieken op te stellen over zijn bevolking.",
-        "usageNote-nl": "Doorgaans is dit register een bevolkingsregister maar het kan bv ook een kiesregister zijn. De ingeschreven gegevens hebben betrekking op de identeit (vb Naam en Voornaam) en de Verblijfplaats vd Persoon en op belangrijke levensgebeurtenissen zoals Geboorte, Huwelijk, Overlijden etc. Deze gegevens worden typisch geregistreerd door de overheid, ze bieden de ingeschreven Persoon wettelijke bescherming en laten de overheid toe om basisstatistieken op te stellen over zijn bevolking.",
-        "definition-nl": "Persoon waarvan de gegevens zijn ingeschreven in een register.",
-        "label-en": "Registered Person",
-        "definition-en": "Person whose details are officially listed in a register.",
-        "usageNote-en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. surname and first name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
-      },
-      "properties": []
-    },
-    {
-      "uri": "http://fixme.com#RelationRole",
-      "name": "RelationRole",
-      "label": {
-        "en": "Relation Role"
-      },
-      "sort": "Relation Role",
-      "description": {},
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Relation Role"
-      },
-      "properties": [
-        {
-          "uri": "http://fixme.com#roleType",
-          "name": "roleType",
-          "sort": "role type",
-          "label": {
-            "en": "role type"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "RelationRole",
-              "uri": "http://fixme.com#RelationRole"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "RelationRoleType",
-              "range_uri": "http://fixme.com#RelationRoleType"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Relation Role Type",
-              "range_puri": "http://fixme.com#RelationRoleType",
-              "range_label": {
-                "en": "Relation Role Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "role type"
-          }
-        }
-      ]
     },
     {
       "uri": "http://fixme.com#Residence",
@@ -1323,19 +151,17 @@
       },
       "sort": "Residence",
       "description": {
-        "en": "Place where a Person lives or stays permanently or temporarily."
+        "en": "Place where a person lives or stays permanently or temporarily."
       },
       "usage": {},
       "parents": [],
       "rawTags": {
-        "ap-definition-nl": "Plaats waar een persoon al dan niet tijdelijk woont of logeert.",
-        "definition-nl": "Plaats waar een Persoon al dan niet tijdelijk woont of logeert.",
         "label-en": "Residence",
-        "definition-en": "Place where a Person lives or stays permanently or temporarily."
+        "definition-en": "Place where a person lives or stays permanently or temporarily."
       },
       "properties": [
         {
-          "uri": "http://fixme.com#residenceType",
+          "uri": "http://purl.org/dc/elements/1.1/type",
           "name": "residenceType",
           "sort": "residence type",
           "label": {
@@ -1352,22 +178,23 @@
           "range": [
             {
               "range_label": "ResidenceType",
-              "range_uri": "http://fixme.com#ResidenceType"
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
             }
           ],
           "scopedrange": [
             {
               "range_uri": "#Residence Type",
-              "range_puri": "http://fixme.com#ResidenceType",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
                 "en": "Residence Type"
               }
             }
           ],
-          "cardinality": "1..*",
+          "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "residence type"
+            "label-en": "residence type",
+            "uri": "http://purl.org/dc/elements/1.1/type"
           }
         },
         {
@@ -1415,17 +242,1154 @@
       ]
     },
     {
-      "uri": "http://fixme.com#Residency",
+      "uri": "http://vocab.belgif.be/ns/organization#DiplomaticPost",
+      "name": "DiplomaticPost",
+      "label": {
+        "en": "Diplomatic Post"
+      },
+      "sort": "Diplomatic Post",
+      "description": {
+        "en": "Base from which a country conducts its diplomatic and consular activities in a foreign country."
+      },
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-en": "Diplomatic Post",
+        "uri": "http://vocab.belgif.be/ns/organization#DiplomaticPost",
+        "definition-en": "Base from which a country conducts its diplomatic and consular activities in a foreign country."
+      },
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/adms#identifier",
+          "name": "country",
+          "sort": "country",
+          "label": {
+            "en": "country"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "DiplomaticPost",
+              "uri": "http://vocab.belgif.be/ns/organization#DiplomaticPost"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Identifier",
+              "range_uri": "http://www.w3.org/ns/adms#Identifier"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/ns/adms#Identifier",
+              "range_puri": "http://www.w3.org/ns/adms#Identifier",
+              "range_label": {
+                "en": "Identifier"
+              }
+            }
+          ],
+          "cardinality": "1..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "country",
+            "uri": "http://www.w3.org/ns/adms#identifier"
+          }
+        },
+        {
+          "uri": "http://fixme.com#jurisdiction",
+          "name": "country",
+          "sort": "country",
+          "label": {
+            "en": "country"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "DiplomaticPost",
+              "uri": "http://vocab.belgif.be/ns/organization#DiplomaticPost"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Country",
+              "range_uri": "http://fixme.com#Country"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#Country",
+              "range_puri": "http://fixme.com#Country",
+              "range_label": {
+                "en": "Country"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "country"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Birth",
+      "name": "Birth",
+      "label": {
+        "en": "Birth"
+      },
+      "sort": "Birth",
+      "description": {
+        "en": "The person being born."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Life Event",
+          "name": "LifeEvent",
+          "package": "person",
+          "uri": "http://data.europa.eu/m8g/LifeEvent",
+          "scoped_uri": "http://data.europa.eu/m8g/LifeEvent"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Birth",
+        "definition-en": "The person being born.",
+        "uri": "http://vocab.belgif.be/ns/person#Birth"
+      },
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/person#placeOfBirth",
+          "name": "placeOfBirth",
+          "sort": "place of birth",
+          "label": {
+            "en": "place of birth"
+          },
+          "description": {
+            "en": "The place of birth of the person."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Birth",
+              "uri": "http://vocab.belgif.be/ns/person#Birth"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Locality",
+              "range_uri": "http://fixme.com#Locality"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#Locality",
+              "range_puri": "http://fixme.com#Locality",
+              "range_label": {
+                "en": "Locality"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "place of birth",
+            "uri": "http://www.w3.org/ns/person#placeOfBirth",
+            "definition-en": "The place of birth of the person."
+          }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/birthDate",
+          "name": "birthDate",
+          "sort": "birth date",
+          "label": {
+            "en": "birth date"
+          },
+          "description": {
+            "en": "The date on which the person was born."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Birth",
+              "uri": "http://vocab.belgif.be/ns/person#Birth"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TemporalPosition",
+              "range_uri": "http://fixme.com#TemporalPosition"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#TemporalPosition",
+              "range_puri": "http://fixme.com#TemporalPosition",
+              "range_label": {
+                "en": "TemporalPosition"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "birth date",
+            "uri": "http://data.europa.eu/m8g/birthDate",
+            "definition-en": "The date on which the person was born."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#CivilStatus",
+      "name": "CivilStatus",
+      "label": {
+        "en": "Civil Status"
+      },
+      "sort": "Civil Status",
+      "description": {
+        "en": "Status of a person according to civil law."
+      },
+      "usage": {
+        "en": "Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
+      },
+      "parents": [],
+      "rawTags": {
+        "label-en": "Civil Status",
+        "definition-en": "Status of a person according to civil law.",
+        "uri": "http://vocab.belgif.be/ns/person#CivilStatus",
+        "usageNote-en": "Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
+      },
+      "properties": [
+        {
+          "uri": "http://purl.org/dc/elements/1.1/type",
+          "name": "civilStatusValue",
+          "sort": "civil status value",
+          "label": {
+            "en": "civil status value"
+          },
+          "description": {
+            "en": "Value of civil status."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "CivilStatus",
+              "uri": "http://vocab.belgif.be/ns/person#CivilStatus"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "CivilStatusValue",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Civil Status Value",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Civil Status Value"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "civil status value",
+            "definition-en": "Value of civil status.",
+            "uri": "http://purl.org/dc/elements/1.1/type"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Death",
+      "name": "Death",
+      "label": {
+        "en": "Death"
+      },
+      "sort": "Death",
+      "description": {
+        "en": "Death of a person."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Life Event",
+          "name": "LifeEvent",
+          "package": "person",
+          "uri": "http://data.europa.eu/m8g/LifeEvent",
+          "scoped_uri": "http://data.europa.eu/m8g/LifeEvent"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Death",
+        "definition-en": "Death of a person.",
+        "uri": "http://vocab.belgif.be/ns/person#Death"
+      },
+      "properties": [
+        {
+          "uri": "http://www.w3.org/ns/person#placeOfDeath",
+          "name": "placeOfDeath",
+          "sort": "place of death",
+          "label": {
+            "en": "place of death"
+          },
+          "description": {
+            "en": "The location where the person passed away."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Death",
+              "uri": "http://vocab.belgif.be/ns/person#Death"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Locality",
+              "range_uri": "http://fixme.com#Locality"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#Locality",
+              "range_puri": "http://fixme.com#Locality",
+              "range_label": {
+                "en": "Locality"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "place of death",
+            "uri": "http://www.w3.org/ns/person#placeOfDeath",
+            "definition-en": "The location where the person passed away."
+          }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/deathDate",
+          "name": "deathDate",
+          "sort": "death date",
+          "label": {
+            "en": "death date"
+          },
+          "description": {
+            "en": "The date on which the person deceased."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Death",
+              "uri": "http://vocab.belgif.be/ns/person#Death"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TemporalPosition",
+              "range_uri": "http://fixme.com#TemporalPosition"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#TemporalPosition",
+              "range_puri": "http://fixme.com#TemporalPosition",
+              "range_label": {
+                "en": "TemporalPosition"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "death date",
+            "uri": "http://data.europa.eu/m8g/deathDate",
+            "definition-en": "The date on which the person deceased."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Descent",
+      "name": "Descent",
+      "label": {
+        "en": "Descent"
+      },
+      "sort": "Descent",
+      "description": {
+        "en": "Descent is the descending line of blood relationship between different generations."
+      },
+      "usage": {
+        "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent)."
+      },
+      "parents": [
+        {
+          "label": "Person Relation",
+          "name": "PersonRelation",
+          "package": "person",
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
+          "scoped_uri": "#Person Relation"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Descent",
+        "definition-en": "Descent is the descending line of blood relationship between different generations.",
+        "usageNote-en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent).",
+        "uri": "http://vocab.belgif.be/ns/person#Descent"
+      },
+      "properties": [
+        {
+          "uri": "http://purl.org/dc/elements/1.1/type",
+          "name": "descentType",
+          "sort": "descent type",
+          "label": {
+            "en": "descent type"
+          },
+          "description": {
+            "en": "Type of descent."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Descent",
+              "uri": "http://vocab.belgif.be/ns/person#Descent"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DescentType",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Descent Type",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Descent Type"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "descent type",
+            "uri": "http://purl.org/dc/elements/1.1/type",
+            "definition-en": "Type of descent."
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#DiplomaticStatus",
+      "name": "DiplomaticStatus",
+      "label": {
+        "en": "Diplomatic Status"
+      },
+      "sort": "Diplomatic Status",
+      "description": {
+        "en": "Legal designation granted to natural persons, including diplomats and personnel of international organizations, who represent their home country or organization in a foreign country."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Public Legal Status",
+          "name": "PublicLegalStatus",
+          "package": "person",
+          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+          "scoped_uri": "#Public Legal Status"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Diplomatic Status",
+        "uri": "http://vocab.belgif.be/ns/person#DiplomaticStatus",
+        "definition-en": "Legal designation granted to natural persons, including diplomats and personnel of international organizations, who represent their home country or organization in a foreign country."
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#DomesticResidence",
+      "name": "DomesticResidence",
+      "label": {
+        "en": "Domestic Residence"
+      },
+      "sort": "Domestic Residence",
+      "description": {
+        "en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Residence",
+          "name": "Residence",
+          "package": "person",
+          "uri": "http://fixme.com#Residence",
+          "scoped_uri": "#Residence"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Domestic Residence",
+        "uri": "http://vocab.belgif.be/ns/person#DomesticResidence",
+        "definition-en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#EUCitizenship",
+      "name": "EuCitizenship",
+      "label": {
+        "en": "EU Citizenship"
+      },
+      "sort": "EU Citizenship",
+      "description": {
+        "en": "European Union citizenship is afforded to all nationals of member states of the European Union (EU)."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Citizenship",
+          "name": "Citizenship",
+          "package": "person",
+          "uri": "http://fixme.com#Citizenship",
+          "scoped_uri": "#Citizenship"
+        }
+      ],
+      "rawTags": {
+        "label-en": "EU Citizenship",
+        "uri": "http://vocab.belgif.be/ns/person#EUCitizenship",
+        "definition-en": "European Union citizenship is afforded to all nationals of member states of the European Union (EU)."
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#ForeignResidence",
+      "name": "ForeignResidence",
+      "label": {
+        "en": "Foreign Residence"
+      },
+      "sort": "Foreign Residence",
+      "description": {
+        "en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Residence",
+          "name": "Residence",
+          "package": "person",
+          "uri": "http://fixme.com#Residence",
+          "scoped_uri": "#Residence"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Foreign Residence",
+        "uri": "http://vocab.belgif.be/ns/person#ForeignResidence",
+        "definition-en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+      },
+      "properties": [
+        {
+          "uri": "http://vocab.belgif.be/ns/person#diplomaticPost",
+          "name": "diplomaticPost",
+          "sort": "diplomatic post",
+          "label": {
+            "en": "diplomatic post"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "ForeignResidence",
+              "uri": "http://vocab.belgif.be/ns/person#ForeignResidence"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "DiplomaticPost",
+              "range_uri": "http://vocab.belgif.be/ns/organization#DiplomaticPost"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Diplomatic Post",
+              "range_puri": "http://vocab.belgif.be/ns/organization#DiplomaticPost",
+              "range_label": {
+                "en": "Diplomatic Post"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "diplomatic post",
+            "uri": "http://vocab.belgif.be/ns/person#diplomaticPost"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Guardianship",
+      "name": "Guardianship",
+      "label": {
+        "en": "Guardianship"
+      },
+      "sort": "Guardianship",
+      "description": {
+        "en": "Situation where a person acting as guardian is mandated to act on behalf of another person and in that capacity is responsible for this person and his goods."
+      },
+      "usage": {
+        "en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties."
+      },
+      "parents": [
+        {
+          "label": "Person Relation",
+          "name": "PersonRelation",
+          "package": "person",
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
+          "scoped_uri": "#Person Relation"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Guardianship",
+        "definition-en": "Situation where a person acting as guardian is mandated to act on behalf of another person and in that capacity is responsible for this person and his goods.",
+        "usageNote-en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties.",
+        "uri": "http://vocab.belgif.be/ns/person#Guardianship"
+      },
+      "properties": [
+        {
+          "uri": "http://purl.org/dc/elements/1.1/type",
+          "name": "guardianshipType",
+          "sort": "guardianship type",
+          "label": {
+            "en": "guardianship type"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Guardianship",
+              "uri": "http://vocab.belgif.be/ns/person#Guardianship"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GuardianshipType",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Guardianship Type",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Guardianship Type"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "guardianship type",
+            "uri": "http://purl.org/dc/elements/1.1/type"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Household",
+      "name": "Household",
+      "label": {
+        "en": "Household"
+      },
+      "sort": "Household",
+      "description": {
+        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+      },
+      "usage": {
+        "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
+      },
+      "parents": [
+        {
+          "label": "Organization",
+          "name": "Organization",
+          "package": "organization",
+          "uri": "http://fixme.com#Organization",
+          "scoped_uri": "http://fixme.com#Organization"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Household",
+        "definition-en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care.",
+        "usageNote-en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence.",
+        "uri": "http://vocab.belgif.be/ns/person#Household"
+      },
+      "properties": [
+        {
+          "uri": "http://vocab.belgif.be/ns/person#householdAddress",
+          "name": "householdAddress",
+          "sort": "household address",
+          "label": {
+            "en": "household address"
+          },
+          "description": {
+            "en": "Address of the residence of the household."
+          },
+          "usage": {
+            "en": "Often used as a criterion to determine whether persons are part of the same household."
+          },
+          "domain": [
+            {
+              "EA-Name": "Household",
+              "uri": "http://vocab.belgif.be/ns/person#Household"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Address",
+              "range_uri": "http://www.w3.org/ns/locn#Address"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/ns/locn#Address",
+              "range_puri": "http://www.w3.org/ns/locn#Address",
+              "range_label": {
+                "en": "Address"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "household address",
+            "definition-en": "Address of the residence of the household.",
+            "usageNote-en": "Often used as a criterion to determine whether persons are part of the same household.",
+            "uri": "http://vocab.belgif.be/ns/person#householdAddress"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#HouseholdRole",
+      "name": "HouseholdRole",
+      "label": {
+        "en": "Household Role"
+      },
+      "sort": "Household Role",
+      "description": {
+        "en": "Role of the person within the household."
+      },
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-en": "Household Role",
+        "uri": "http://vocab.belgif.be/ns/person#HouseholdRole",
+        "definition-en": "Role of the person within the household."
+      },
+      "properties": [
+        {
+          "uri": "http://purl.org/dc/elements/1.1/type",
+          "name": "roleValue",
+          "sort": "role value",
+          "label": {
+            "en": "role value"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "HouseholdRole",
+              "uri": "http://vocab.belgif.be/ns/person#HouseholdRole"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "HouseholdRoleValue",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Household Role Value",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Household Role Value"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "role value",
+            "uri": "http://purl.org/dc/elements/1.1/type"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#InternationalProtectionStatus",
+      "name": "InternationalProtectionStatus",
+      "label": {
+        "en": "International Protection Status"
+      },
+      "sort": "International Protection Status",
+      "description": {
+        "en": "Legal designation granted under international law providing specific rights and obligations to natural persons who qualify."
+      },
+      "usage": {},
+      "parents": [
+        {
+          "label": "Public Legal Status",
+          "name": "PublicLegalStatus",
+          "package": "person",
+          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+          "scoped_uri": "#Public Legal Status"
+        }
+      ],
+      "rawTags": {
+        "label-en": "International Protection Status",
+        "uri": "http://vocab.belgif.be/ns/person#InternationalProtectionStatus",
+        "definition-en": "Legal designation granted under international law providing specific rights and obligations to natural persons who qualify."
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Marriage",
+      "name": "Marriage",
+      "label": {
+        "en": "Marriage"
+      },
+      "sort": "Marriage",
+      "description": {
+        "en": "A form of cohabitation of two persons, organized by civil or religious law."
+      },
+      "usage": {
+        "en": "Can, just like living together, form the basis of a household."
+      },
+      "parents": [
+        {
+          "label": "Person Relation",
+          "name": "PersonRelation",
+          "package": "person",
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
+          "scoped_uri": "#Person Relation"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Marriage",
+        "definition-en": "A form of cohabitation of two persons, organized by civil or religious law.",
+        "usageNote-en": "Can, just like living together, form the basis of a household.",
+        "uri": "http://vocab.belgif.be/ns/person#Marriage"
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
+      "name": "PersonRelation",
+      "label": {
+        "en": "Person Relation"
+      },
+      "sort": "Person Relation",
+      "description": {
+        "en": "Relation between two or more natural persons."
+      },
+      "usage": {
+        "en": "Typically, these are civil law relationships (see civil status) but not necessarily limited thereto."
+      },
+      "parents": [],
+      "rawTags": {
+        "label-en": "Person Relation",
+        "definition-en": "Relation between two or more natural persons.",
+        "usageNote-en": "Typically, these are civil law relationships (see civil status) but not necessarily limited thereto.",
+        "uri": "http://vocab.belgif.be/ns/person#PersonRelation"
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole",
+      "name": "RelationRole",
+      "label": {
+        "en": "Relation Role"
+      },
+      "sort": "Relation Role",
+      "description": {
+        "en": "Role of the person in the relation."
+      },
+      "usage": {
+        "en": "The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
+      },
+      "parents": [],
+      "rawTags": {
+        "label-en": "Relation Role",
+        "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole",
+        "definition-en": "Role of the person in the relation.",
+        "usageNote-en": "The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
+      },
+      "properties": [
+        {
+          "uri": "http://fixme.com#roleValue",
+          "name": "roleType",
+          "sort": "role type",
+          "label": {
+            "en": "role type"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "PersonRelationRole",
+              "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PersonRelationRoleValue",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Person Relation Role Value",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_label": {
+                "en": "Person Relation Role Value"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "role type"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+      "name": "PublicLegalStatus",
+      "label": {
+        "en": "Public Legal Status"
+      },
+      "sort": "Public Legal Status",
+      "description": {
+        "en": "Refers to the legal relationship that exist between a legal subject and a country or official body."
+      },
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-en": "Public Legal Status",
+        "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+        "definition-en": "Refers to the legal relationship that exist between a legal subject and a country or official body."
+      },
+      "properties": [
+        {
+          "uri": "http://fixme.com#residency",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "PublicLegalStatus",
+              "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Residency",
+              "range_uri": "http://vocab.belgif.be/ns/person#Residency"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Residency",
+              "range_puri": "http://vocab.belgif.be/ns/person#Residency",
+              "range_label": {
+                "en": "Residency"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {}
+        },
+        {
+          "uri": "http://fixme.com#jurisdiction",
+          "name": "jurisdiction",
+          "sort": "jurisdiction",
+          "label": {
+            "en": "jurisdiction"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "PublicLegalStatus",
+              "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Country",
+              "range_uri": "http://fixme.com#Country"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#Country",
+              "range_puri": "http://fixme.com#Country",
+              "range_label": {
+                "en": "Country"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "jurisdiction"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Record",
+      "name": "Record",
+      "label": {
+        "en": "Record"
+      },
+      "sort": "Record",
+      "description": {},
+      "usage": {},
+      "parents": [],
+      "rawTags": {
+        "label-en": "Record",
+        "uri": "http://vocab.belgif.be/ns/person#Record"
+      },
+      "properties": [
+        {
+          "uri": "http://fixme.com#recordStatus",
+          "name": "recordStatus",
+          "sort": "record status",
+          "label": {
+            "en": "record status"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Record",
+              "uri": "http://vocab.belgif.be/ns/person#Record"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "RecordStatus",
+              "range_uri": "http://fixme.com#RecordStatus"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#RecordStatus",
+              "range_puri": "http://fixme.com#RecordStatus",
+              "range_label": {
+                "en": "RecordStatus"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "record status"
+          }
+        },
+        {
+          "uri": "http://fixme.com#identifier",
+          "name": "identifier",
+          "sort": "identifier",
+          "label": {
+            "en": "identifier"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Record",
+              "uri": "http://vocab.belgif.be/ns/person#Record"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Identifier",
+              "range_uri": "http://www.w3.org/ns/adms#Identifier"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/ns/adms#Identifier",
+              "range_puri": "http://www.w3.org/ns/adms#Identifier",
+              "range_label": {
+                "en": "Identifier"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "identifier"
+          }
+        }
+      ]
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#RegisteredPerson",
+      "name": "RegisteredPerson",
+      "label": {
+        "en": "Registered Person"
+      },
+      "sort": "Registered Person",
+      "description": {
+        "en": "Person whose details are officially listed in a register."
+      },
+      "usage": {
+        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
+      },
+      "parents": [
+        {
+          "label": "Person",
+          "name": "Person",
+          "package": "person",
+          "uri": "http://www.w3.org/ns/person#Person",
+          "scoped_uri": "#Person"
+        }
+      ],
+      "rawTags": {
+        "label-en": "Registered Person",
+        "definition-en": "Person whose details are officially listed in a register.",
+        "usageNote-en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population.",
+        "uri": "http://vocab.belgif.be/ns/person#RegisteredPerson"
+      },
+      "properties": []
+    },
+    {
+      "uri": "http://vocab.belgif.be/ns/person#Residency",
       "name": "Residency",
       "label": {
         "en": "Residency"
       },
       "sort": "Residency",
-      "description": {},
+      "description": {
+        "en": "Describes the situation where an individual resides or maintains a residence in a specific jurisdiction, without necessarily implying any legal status or entitlements associated with that presence."
+      },
       "usage": {},
       "parents": [],
       "rawTags": {
-        "label-en": "Residency"
+        "label-en": "Residency",
+        "definition-en": "Describes the situation where an individual resides or maintains a residence in a specific jurisdiction, without necessarily implying any legal status or entitlements associated with that presence.",
+        "uri": "http://vocab.belgif.be/ns/person#Residency"
       },
       "properties": [
         {
@@ -1440,7 +1404,7 @@
           "domain": [
             {
               "EA-Name": "Residency",
-              "uri": "http://fixme.com#Residency"
+              "uri": "http://vocab.belgif.be/ns/person#Residency"
             }
           ],
           "range": [
@@ -1476,7 +1440,7 @@
           "domain": [
             {
               "EA-Name": "Residency",
-              "uri": "http://fixme.com#Residency"
+              "uri": "http://vocab.belgif.be/ns/person#Residency"
             }
           ],
           "range": [
@@ -1503,7 +1467,7 @@
       ]
     },
     {
-      "uri": "http://fixme.com#StatutoryCohabitation",
+      "uri": "http://vocab.belgif.be/ns/person#StatutoryCohabitation",
       "name": "StatutoryCohabitation",
       "label": {
         "en": "Statutory Cohabitation"
@@ -1513,25 +1477,22 @@
         "en": "Arrangement whereby two people who are not married live together."
       },
       "usage": {
-        "en": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+        "en": "Can, just like a marriage, form the basis of a household."
       },
       "parents": [
         {
           "label": "Person Relation",
           "name": "PersonRelation",
           "package": "person",
-          "uri": "http://fixme.com#PersonRelation",
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
           "scoped_uri": "#Person Relation"
         }
       ],
       "rawTags": {
-        "ap-definition-nl": "Regeling waarbij twee personen die niet getrouwd zijn samenleven.",
-        "ap-usageNote-nl": "Kan, net als bv een huwelijk, de basis vormen van een gezin.",
-        "definition-nl": "Regeling waarbij twee personen die niet getrouwd zijn samenleven.",
-        "usageNote-nl": "Kan,net als bv een Huwelijk,de basis vormen van een Gezin.",
         "label-en": "Statutory Cohabitation",
         "definition-en": "Arrangement whereby two people who are not married live together.",
-        "ap-usageNote-en": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+        "ap-usageNote-en": "Can, just like a marriage, form the basis of a household.",
+        "uri": "http://vocab.belgif.be/ns/person#StatutoryCohabitation"
       },
       "properties": []
     },
@@ -1546,7 +1507,7 @@
         "en": "A natural person."
       },
       "usage": {
-        "en": "In case law, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a physical person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
+        "en": "In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
       },
       "parents": [
         {
@@ -1565,14 +1526,52 @@
         }
       ],
       "rawTags": {
-        "ap-definition-nl": "Natuurlijk persoon.",
-        "ap-usageNote-nl": "In de rechtspraak betreft het een persoon (in de wettelijke betekenis, ttz met eigen rechtspersoonlijkheid) van de menselijke soort, ttz een fysiek persoon. Tegenhanger is de rechtspersoon, een juridische constructie die een private of publieke organisatie dezelfde rechtspersoonlijkheid geeft als een natuurlijk persoon (kan bv ook schulden hebben, contracten afsluiten, aangeklaagd worden etc).",
         "uri": "http://www.w3.org/ns/person#Person",
         "label-en": "Person",
         "definition-en": "A natural person.",
-        "usageNote-en": "In case law, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a physical person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
+        "usageNote-en": "In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
       },
       "properties": [
+        {
+          "uri": "http://xmlns.com/foaf/0.1/name",
+          "name": "fullName",
+          "sort": "full name",
+          "label": {
+            "en": "full name"
+          },
+          "description": {
+            "en": "The complete name of the person as one string."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "full name",
+            "definition-en": "The complete name of the person as one string.",
+            "uri": "http://xmlns.com/foaf/0.1/name"
+          }
+        },
         {
           "uri": "http://xmlns.com/foaf/0.1/givenName",
           "name": "givenName",
@@ -1608,9 +1607,7 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "ap-usageNote-nl": " ",
             "uri": "http://xmlns.com/foaf/0.1/givenName",
-            "ap-definition-nl": "Naam die een kind bij geboorte wordt gegeven. Onderscheidt het kind van de andere kinderen in de familie.",
             "label-en": "given name",
             "definition-en": "Name given to a child at birth. Distinguishes the child from the other children in the family."
           }
@@ -1652,23 +1649,21 @@
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "ap-usageNote-nl": "Ook wel familienaam genoemd omdat de achternaam een familiale verwantschap aanduidt.",
             "uri": "http://xmlns.com/foaf/0.1/familyName",
-            "ap-definition-nl": "Gedeelte van de volledige naam vd persoon ontvangen van de vorige generatie.",
             "label-en": "family name",
             "definition-en": "Part of person's full name received from the previous generation.",
             "usageNote-en": "Called family name because it indicates a familial relationship."
           }
         },
         {
-          "uri": "http://schema.org/contactPoint",
-          "name": "contactInformation",
-          "sort": "contact information",
+          "uri": "http://www.w3.org/ns/person#patronymicName",
+          "name": "patronymicName",
+          "sort": "patronymic name",
           "label": {
-            "en": "contact information"
+            "en": "patronymic name"
           },
           "description": {
-            "en": "Information such as email, telephone that allows the Person to be contacted."
+            "en": "Name based on the given name of the person's father."
           },
           "usage": {},
           "domain": [
@@ -1679,27 +1674,259 @@
           ],
           "range": [
             {
-              "range_label": "ContactInformation",
-              "range_uri": "http://fixme.com#ContactInformation"
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Contact Information",
-              "range_puri": "http://fixme.com#ContactInformation",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
               "range_label": {
-                "en": "Contact Information"
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://www.w3.org/ns/person#patronymicName",
+            "definition-en": "Name based on the given name of the person's father.",
+            "label-en": "patronymic name"
+          }
+        },
+        {
+          "uri": "http://vocab.belgif.be/ns/person#publicLegalStatus",
+          "name": "publicLegalStatus",
+          "sort": "public legal status",
+          "label": {
+            "en": "public legal status"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "PublicLegalStatus",
+              "range_uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Public Legal Status",
+              "range_puri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+              "range_label": {
+                "en": "Public Legal Status"
               }
             }
           ],
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "ap-definition-nl": "Informatie zoals email, telefoon... die toelaat de Persoon te contacteren.",
-            "ap-usageNote-nl": " ",
-            "uri": "http://schema.org/contactPoint",
-            "label-en": "contact information",
-            "definition-en": "Information such as email, telephone that allows the Person to be contacted."
+            "label-en": "public legal status",
+            "uri": "http://vocab.belgif.be/ns/person#publicLegalStatus"
+          }
+        },
+        {
+          "uri": "http://vocab.belgif.be/ns/person#preferredGivenName",
+          "name": "preferredGivenName",
+          "sort": "preferred given name",
+          "label": {
+            "en": "preferred given name"
+          },
+          "description": {
+            "en": "Given name that an individual chooses to be called and recognized by."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "preferred given name",
+            "definition-en": "Given name that an individual chooses to be called and recognized by.",
+            "uri": "http://vocab.belgif.be/ns/person#preferredGivenName"
+          }
+        },
+        {
+          "uri": "http://vocab.belgif.be/ns/person#maidenName",
+          "name": "maidenName",
+          "sort": "maiden name",
+          "label": {
+            "en": "maiden name"
+          },
+          "description": {
+            "en": "Used to refer to a woman's family name at birth, distinguishing it from any family name she may take after marriage."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "maiden name",
+            "uri": "http://vocab.belgif.be/ns/person#maidenName",
+            "definition-en": "Used to refer to a woman's family name at birth, distinguishing it from any family name she may take after marriage."
+          }
+        },
+        {
+          "uri": "http://purl.org/vocab/bio/0.1/death",
+          "name": "death",
+          "sort": "death",
+          "label": {
+            "en": "death"
+          },
+          "description": {
+            "en": "Refers to the death details of the person."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Death",
+              "range_uri": "http://vocab.belgif.be/ns/person#Death"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Death",
+              "range_puri": "http://vocab.belgif.be/ns/person#Death",
+              "range_label": {
+                "en": "Death"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "death",
+            "definition-en": "Refers to the death details of the person.",
+            "uri": "http://purl.org/vocab/bio/0.1/death"
+          }
+        },
+        {
+          "uri": "http://purl.org/vocab/bio/0.1/birth",
+          "name": "birth",
+          "sort": "birth",
+          "label": {
+            "en": "birth"
+          },
+          "description": {
+            "en": "Refers to the birth details of the person."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Birth",
+              "range_uri": "http://vocab.belgif.be/ns/person#Birth"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Birth",
+              "range_puri": "http://vocab.belgif.be/ns/person#Birth",
+              "range_label": {
+                "en": "Birth"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "birth",
+            "definition-en": "Refers to the birth details of the person.",
+            "uri": "http://purl.org/vocab/bio/0.1/birth"
+          }
+        },
+        {
+          "uri": "http://purl.org/dc/terms/alternative",
+          "name": "alternativeName",
+          "sort": "alternative name",
+          "label": {
+            "en": "alternative name"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": "",
+          "rawTags": {
+            "label-en": "alternative name",
+            "uri": "http://purl.org/dc/terms/alternative"
           }
         },
         {
@@ -1709,7 +1936,9 @@
           "label": {
             "en": "nobility title"
           },
-          "description": {},
+          "description": {
+            "en": "Honorary distinction of the person."
+          },
           "usage": {},
           "domain": [
             {
@@ -1732,16 +1961,87 @@
               }
             }
           ],
-          "cardinality": "0..1",
+          "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "ap-usageNote-nl": "TODO",
-            "ap-definition-nl": "TODO",
-            "label-en": "nobility title"
+            "label-en": "nobility title",
+            "definition-en": "Honorary distinction of the person."
           }
         },
         {
-          "uri": "http://fixme.com#gender",
+          "uri": "http://fixme.com#civilStatus",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "CivilStatus",
+              "range_uri": "http://vocab.belgif.be/ns/person#CivilStatus"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Civil Status",
+              "range_puri": "http://vocab.belgif.be/ns/person#CivilStatus",
+              "range_label": {
+                "en": "Civil Status"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {}
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/matronymicName",
+          "name": "matronymicName",
+          "sort": "matronymic name",
+          "label": {
+            "en": "matronymic name"
+          },
+          "description": {
+            "en": "Name based on the given name of the person's mother."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "Person",
+              "uri": "http://www.w3.org/ns/person#Person"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "en": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {
+            "uri": "http://data.europa.eu/m8g/matronymicName",
+            "label-en": "matronymic name",
+            "definition-en": "Name based on the given name of the person's mother."
+          }
+        },
+        {
+          "uri": "http://data.europa.eu/m8g/gender",
           "name": "gender",
           "sort": "gender",
           "label": {
@@ -1759,37 +2059,37 @@
           ],
           "range": [
             {
-              "range_label": "Gender",
+              "range_label": "GenderCode",
               "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Gender",
+              "range_uri": "#Gender Code",
               "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "Gender"
+                "en": "Gender Code"
               }
             }
           ],
           "cardinality": "1",
-          "codelist_uri": "http://publications.europa.eu/mdr/authority/human-sex/",
+          "codelist_uri": "",
           "rawTags": {
-            "definition-nl": "Het administratief geslacht ve persoon.",
-            "ap-definition-nl": "Het administratief geslacht ve persoon.",
-            "ap-usageNote-nl": " ",
             "definition-en": "The administrative gender of the person.",
-            "label-en": "gender"
+            "label-en": "gender",
+            "uri": "http://data.europa.eu/m8g/gender"
           }
         },
         {
-          "uri": "http://fixme.com#designation",
-          "name": "designation",
-          "sort": "designation",
+          "uri": "http://data.europa.eu/m8g/contactPoint",
+          "name": "contactPoint",
+          "sort": "contact point",
           "label": {
-            "en": "designation"
+            "en": "contact point"
           },
-          "description": {},
+          "description": {
+            "en": "Reference to the communication means through which the person can be contacted."
+          },
           "usage": {},
           "domain": [
             {
@@ -1799,143 +2099,25 @@
           ],
           "range": [
             {
-              "range_label": "Designation",
-              "range_uri": "http://fixme.com#Designation"
+              "range_label": "ContactPoint",
+              "range_uri": "https://schema.org/ContactPoint"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Designation",
-              "range_puri": "http://fixme.com#Designation",
+              "range_uri": "#Contact Point",
+              "range_puri": "https://schema.org/ContactPoint",
               "range_label": {
-                "en": "Designation"
+                "en": "Contact Point"
               }
             }
           ],
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "designation"
-          }
-        },
-        {
-          "uri": "http://fixme.com#death",
-          "name": "hasDecease",
-          "sort": "has decease",
-          "label": {
-            "en": "has decease"
-          },
-          "description": {
-            "en": "Decease data of a person."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Person",
-              "uri": "http://www.w3.org/ns/person#Person"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Death",
-              "range_uri": "http://fixme.com#Death"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Death",
-              "range_puri": "http://fixme.com#Death",
-              "range_label": {
-                "en": "Death"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "has decease",
-            "definition-nl": "Overlijdensgegevens vd persoon.",
-            "definition-en": "Decease data of a person.",
-            "ap-definition-nl": "Overlijdensgegevens vd persoon.",
-            "parentURI": "http://purl.org/vocab/bio/0.1/death"
-          }
-        },
-        {
-          "uri": "http://fixme.com#citizenship",
-          "name": "citizenship",
-          "sort": "citizenship",
-          "label": {
-            "en": "citizenship"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Person",
-              "uri": "http://www.w3.org/ns/person#Person"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Citizenship",
-              "range_uri": "http://fixme.com#Citizenship"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Citizenship",
-              "range_puri": "http://fixme.com#Citizenship",
-              "range_label": {
-                "en": "Citizenship"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "citizenship"
-          }
-        },
-        {
-          "uri": "http://fixme.com#birth",
-          "name": "hasBirth",
-          "sort": "has birth",
-          "label": {
-            "en": "has birth"
-          },
-          "description": {
-            "en": "Birth data of a person."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Person",
-              "uri": "http://www.w3.org/ns/person#Person"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Birth",
-              "range_uri": "http://fixme.com#Birth"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Birth",
-              "range_puri": "http://fixme.com#Birth",
-              "range_label": {
-                "en": "Birth"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "has birth",
-            "parentURI": "http://purl.org/vocab/bio/0.1/birth",
-            "definition-en": "Birth data of a person.",
-            "definition-nl": "De geboortegegevens vd persoon.",
-            "ap-definition-nl": "De geboortegegevens vd persoon."
+            "label-en": "contact point",
+            "definition-en": "Reference to the communication means through which the person can be contacted.",
+            "uri": "http://data.europa.eu/m8g/contactPoint"
           }
         }
       ]

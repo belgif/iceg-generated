@@ -3,13 +3,13 @@
   "properties": [],
   "externals": [
     {
-      "EA-Guid": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
-      "name": "Birth",
+      "EA-Guid": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
+      "name": "ContactPoint",
       "label": {
-        "en": "Birth"
+        "en": "Contact Point"
       },
       "definition": {
-        "en": "The person being born."
+        "en": "Information such as email, telephone that allows the person to be contacted."
       }
     },
     {
@@ -17,6 +17,56 @@
       "name": "Citizenship",
       "label": {
         "en": "Citizenship"
+      },
+      "definition": {
+        "en": "Legal connection of a person with a state, which carries certain rights and obligations."
+      },
+      "usage": {
+        "en": "In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French."
+      }
+    },
+    {
+      "EA-Guid": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
+      "name": "ContactInformationType",
+      "label": {
+        "en": "Contact Information Type"
+      }
+    },
+    {
+      "EA-Guid": "{8C5B9183-38D6-4e93-82A7-D72676CB3214}",
+      "name": "NobilityTitle",
+      "label": {
+        "en": "Nobility Title"
+      }
+    },
+    {
+      "EA-Guid": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
+      "name": "Residence",
+      "label": {
+        "en": "Residence"
+      },
+      "definition": {
+        "en": "Place where a person lives or stays permanently or temporarily."
+      }
+    },
+    {
+      "EA-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+      "name": "DiplomaticPost",
+      "label": {
+        "en": "Diplomatic Post"
+      },
+      "definition": {
+        "en": "Base from which a country conducts its diplomatic and consular activities in a foreign country."
+      }
+    },
+    {
+      "EA-Guid": "{15A6A4D4-BE93-4241-B5F3-3AD067938ABF}",
+      "name": "Birth",
+      "label": {
+        "en": "Birth"
+      },
+      "definition": {
+        "en": "The person being born."
       }
     },
     {
@@ -29,21 +79,7 @@
         "en": "Status of a person according to civil law."
       },
       "usage": {
-        "en": "Refers to marriage, partner registration, parentage, guardianship, etc. In other words, it is the state of certain relationships between persons."
-      }
-    },
-    {
-      "EA-Guid": "{1BE9F6E8-3C75-47dc-8F45-9CF8E50409E7}",
-      "name": "ContactInformation",
-      "label": {
-        "en": "Contact Information"
-      }
-    },
-    {
-      "EA-Guid": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
-      "name": "ContactInformationType",
-      "label": {
-        "en": "Contact Information Type"
+        "en": "Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
       }
     },
     {
@@ -70,31 +106,13 @@
       }
     },
     {
-      "EA-Guid": "{3071AF81-B3DF-4052-8E02-C9CEC312F145}",
-      "name": "Designation",
-      "label": {
-        "en": "Designation"
-      }
-    },
-    {
-      "EA-Guid": "{9D9A9E0E-D60D-44aa-A4DA-81AD61A91998}",
-      "name": "DesignationType",
-      "label": {
-        "en": "Designation Type"
-      }
-    },
-    {
-      "EA-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
-      "name": "DiplomaticPost",
-      "label": {
-        "en": "Diplomatic Post"
-      }
-    },
-    {
       "EA-Guid": "{F24E6DB6-BEC8-4319-BB3C-600F53305FCF}",
       "name": "DiplomaticStatus",
       "label": {
         "en": "Diplomatic Status"
+      },
+      "definition": {
+        "en": "Legal designation granted to natural persons, including diplomats and personnel of international organizations, who represent their home country or organization in a foreign country."
       }
     },
     {
@@ -102,6 +120,19 @@
       "name": "DomesticResidence",
       "label": {
         "en": "Domestic Residence"
+      },
+      "definition": {
+        "en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+      }
+    },
+    {
+      "EA-Guid": "{2DDE3B9A-BED5-41f0-89C2-61DFE275B9AD}",
+      "name": "EuCitizenship",
+      "label": {
+        "en": "EU Citizenship"
+      },
+      "definition": {
+        "en": "European Union citizenship is afforded to all nationals of member states of the European Union (EU)."
       }
     },
     {
@@ -109,6 +140,9 @@
       "name": "ForeignResidence",
       "label": {
         "en": "Foreign Residence"
+      },
+      "definition": {
+        "en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
       }
     },
     {
@@ -118,17 +152,10 @@
         "en": "Guardianship"
       },
       "definition": {
-        "en": "Situation where a person acting as guardian serves another person and in that capacity is responsible for this person and his goods."
+        "en": "Situation where a person acting as guardian is mandated to act on behalf of another person and in that capacity is responsible for this person and his goods."
       },
       "usage": {
         "en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties."
-      }
-    },
-    {
-      "EA-Guid": "{EC163DD9-5BAC-4d8a-9C9D-D3A452534A76}",
-      "name": "GuardianshipType",
-      "label": {
-        "en": "Guardianship Type"
       }
     },
     {
@@ -149,20 +176,9 @@
       "name": "HouseholdRole",
       "label": {
         "en": "Household Role"
-      }
-    },
-    {
-      "EA-Guid": "{4327C917-D92A-4dc3-830A-483E5A8822A5}",
-      "name": "HouseholdRoleType",
-      "label": {
-        "en": "Household Role Type"
-      }
-    },
-    {
-      "EA-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
-      "name": "InternationalLegalStatus",
-      "label": {
-        "en": "International Legal Status"
+      },
+      "definition": {
+        "en": "Role of the person within the household."
       }
     },
     {
@@ -170,6 +186,9 @@
       "name": "InternationalProtectionStatus",
       "label": {
         "en": "International Protection Status"
+      },
+      "definition": {
+        "en": "Legal designation granted under international law providing specific rights and obligations to natural persons who qualify."
       }
     },
     {
@@ -186,17 +205,39 @@
       }
     },
     {
-      "EA-Guid": "{8C5B9183-38D6-4e93-82A7-D72676CB3214}",
-      "name": "NobilityTitle",
-      "label": {
-        "en": "Nobility Title"
-      }
-    },
-    {
       "EA-Guid": "{BFF63A93-DCFC-468f-B259-203C4B4BE6C0}",
       "name": "PersonRelation",
       "label": {
         "en": "Person Relation"
+      },
+      "definition": {
+        "en": "Relation between two or more natural persons."
+      },
+      "usage": {
+        "en": "Typically, these are civil law relationships (see civil status) but not necessarily limited thereto."
+      }
+    },
+    {
+      "EA-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
+      "name": "RelationRole",
+      "label": {
+        "en": "Relation Role"
+      },
+      "definition": {
+        "en": "Role of the person in the relation."
+      },
+      "usage": {
+        "en": "The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
+      }
+    },
+    {
+      "EA-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
+      "name": "PublicLegalStatus",
+      "label": {
+        "en": "Public Legal Status"
+      },
+      "definition": {
+        "en": "Refers to the legal relationship that exist between a legal subject and a country or official body."
       }
     },
     {
@@ -216,38 +257,7 @@
         "en": "Person whose details are officially listed in a register."
       },
       "usage": {
-        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. surname and first name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
-      }
-    },
-    {
-      "EA-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
-      "name": "RelationRole",
-      "label": {
-        "en": "Relation Role"
-      }
-    },
-    {
-      "EA-Guid": "{F8D9B817-9662-46a1-AC55-F2ECBB5A227A}",
-      "name": "RelationRoleType",
-      "label": {
-        "en": "Relation Role Type"
-      }
-    },
-    {
-      "EA-Guid": "{32937993-457D-47c8-AC4E-C9A0F8C36706}",
-      "name": "Residence",
-      "label": {
-        "en": "Residence"
-      },
-      "definition": {
-        "en": "Place where a Person lives or stays permanently or temporarily."
-      }
-    },
-    {
-      "EA-Guid": "{859A1F75-BB98-4534-A8C0-10843743ADB5}",
-      "name": "ResidenceType",
-      "label": {
-        "en": "Residence Type"
+        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
       }
     },
     {
@@ -255,13 +265,9 @@
       "name": "Residency",
       "label": {
         "en": "Residency"
-      }
-    },
-    {
-      "EA-Guid": "{803F017C-2816-4239-A528-92CF4F386ABF}",
-      "name": "ResidencyType",
-      "label": {
-        "en": "Residency Type"
+      },
+      "definition": {
+        "en": "Describes the situation where an individual resides or maintains a residence in a specific jurisdiction, without necessarily implying any legal status or entitlements associated with that presence."
       }
     },
     {
@@ -274,7 +280,7 @@
         "en": "Arrangement whereby two people who are not married live together."
       },
       "usage": {
-        "en": "Can, just like a marriage, form the basis of a household. Can be legally registered."
+        "en": "Can, just like a marriage, form the basis of a household."
       }
     },
     {
@@ -293,9 +299,44 @@
     },
     {
       "EA-Guid": "{AFEADC8C-6EA5-43aa-B518-44B201827911}",
-      "name": "Gender",
+      "name": "GenderCode",
       "label": {
-        "en": "Gender"
+        "en": "Gender Code"
+      }
+    },
+    {
+      "EA-Guid": "{859A1F75-BB98-4534-A8C0-10843743ADB5}",
+      "name": "ResidenceType",
+      "label": {
+        "en": "Residence Type"
+      }
+    },
+    {
+      "EA-Guid": "{803F017C-2816-4239-A528-92CF4F386ABF}",
+      "name": "ResidencyType",
+      "label": {
+        "en": "Residency Type"
+      }
+    },
+    {
+      "EA-Guid": "{EC163DD9-5BAC-4d8a-9C9D-D3A452534A76}",
+      "name": "GuardianshipType",
+      "label": {
+        "en": "Guardianship Type"
+      }
+    },
+    {
+      "EA-Guid": "{F8D9B817-9662-46a1-AC55-F2ECBB5A227A}",
+      "name": "PersonRelationRoleValue",
+      "label": {
+        "en": "Person Relation Role Value"
+      }
+    },
+    {
+      "EA-Guid": "{4327C917-D92A-4dc3-830A-483E5A8822A5}",
+      "name": "HouseholdRoleValue",
+      "label": {
+        "en": "Household Role Value"
       }
     },
     {
@@ -308,11 +349,21 @@
         "en": "A natural person."
       },
       "usage": {
-        "en": "In case law, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a physical person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
+        "en": "In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
       }
     }
   ],
   "externalproperties": [
+    {
+      "EA-Guid": "{9423F036-93C7-4c5b-9C31-F79D618EFB93}",
+      "name": "fullName",
+      "label": {
+        "en": "full name"
+      },
+      "definition": {
+        "en": "The complete name of the person as one string."
+      }
+    },
     {
       "EA-Guid": "{32C99145-23F2-41a9-A925-D03726D07904}",
       "name": "givenName",
@@ -337,13 +388,169 @@
       }
     },
     {
-      "EA-Guid": "{9D300EEB-6A4C-45ec-948F-FBA9C1E28E75}",
-      "name": "contactInformation",
+      "EA-Guid": "{5DF4BEE7-33CC-4b11-813A-197B0C65A656}",
+      "name": "placeOfDeath",
       "label": {
-        "en": "contact information"
+        "en": "place of death"
       },
       "definition": {
-        "en": "Information such as email, telephone that allows the Person to be contacted."
+        "en": "The location where the person passed away."
+      }
+    },
+    {
+      "EA-Guid": "{3287B7A4-7042-4162-8B17-54D6A4186927}",
+      "name": "placeOfBirth",
+      "label": {
+        "en": "place of birth"
+      },
+      "definition": {
+        "en": "The place of birth of the person."
+      }
+    },
+    {
+      "EA-Guid": "{C8691638-92BF-4922-9B34-34E4E9A9A4CE}",
+      "name": "patronymicName",
+      "label": {
+        "en": "patronymic name"
+      },
+      "definition": {
+        "en": "Name based on the given name of the person's father."
+      }
+    },
+    {
+      "EA-Guid": "{BE83AF8D-A915-473e-983B-49648ECDFD5F}",
+      "name": "country",
+      "label": {
+        "en": "country"
+      }
+    },
+    {
+      "EA-Guid": "{07748B92-D506-48b9-B6DF-AF30781AA7AB}",
+      "name": "contactValue",
+      "label": {
+        "en": "contact value"
+      }
+    },
+    {
+      "EA-Guid": "{814A0319-2EB3-4b1d-B8A0-ADA3A3A15FB0}",
+      "name": "publicLegalStatus",
+      "label": {
+        "en": "public legal status"
+      }
+    },
+    {
+      "EA-Guid": "{5A51BDDA-AD7A-41a9-A8DD-745E695E82DC}",
+      "name": "preferredGivenName",
+      "label": {
+        "en": "preferred given name"
+      },
+      "definition": {
+        "en": "Given name that an individual chooses to be called and recognized by."
+      }
+    },
+    {
+      "EA-Guid": "{E5C6460A-6541-4410-BDD8-B518CFAA5C78}",
+      "name": "maidenName",
+      "label": {
+        "en": "maiden name"
+      },
+      "definition": {
+        "en": "Used to refer to a woman's family name at birth, distinguishing it from any family name she may take after marriage."
+      }
+    },
+    {
+      "EA-Guid": "{ABB83A56-6E80-4410-BA4F-DAD2A17CFE9D}",
+      "name": "householdAddress",
+      "label": {
+        "en": "household address"
+      },
+      "definition": {
+        "en": "Address of the residence of the household."
+      },
+      "usage": {
+        "en": "Often used as a criterion to determine whether persons are part of the same household."
+      }
+    },
+    {
+      "EA-Guid": "{AF67AA1A-F2D8-4089-BE68-B694D344FA3D}",
+      "name": "diplomaticPost",
+      "label": {
+        "en": "diplomatic post"
+      }
+    },
+    {
+      "EA-Guid": "{67EC2722-A569-4d34-861D-B4DA184E2FFC}",
+      "name": "death",
+      "label": {
+        "en": "death"
+      },
+      "definition": {
+        "en": "Refers to the death details of the person."
+      }
+    },
+    {
+      "EA-Guid": "{C3B22F27-C8E4-4e9d-8410-05D3AAF74920}",
+      "name": "birth",
+      "label": {
+        "en": "birth"
+      },
+      "definition": {
+        "en": "Refers to the birth details of the person."
+      }
+    },
+    {
+      "EA-Guid": "{A907A21C-15DE-4f01-B001-C6394E9686DA}",
+      "name": "alternativeName",
+      "label": {
+        "en": "alternative name"
+      }
+    },
+    {
+      "EA-Guid": "{8F2C3305-F7E7-4655-B420-E0DEE0407768}",
+      "name": "roleValue",
+      "label": {
+        "en": "role value"
+      }
+    },
+    {
+      "EA-Guid": "{67F847F6-9619-4c66-9B5C-B4146572DA7B}",
+      "name": "residenceType",
+      "label": {
+        "en": "residence type"
+      }
+    },
+    {
+      "EA-Guid": "{5EEEE243-FE30-4510-8F7B-5897D8F9746D}",
+      "name": "guardianshipType",
+      "label": {
+        "en": "guardianship type"
+      }
+    },
+    {
+      "EA-Guid": "{B7706C6B-B91D-4db9-A431-3335D953C00C}",
+      "name": "descentType",
+      "label": {
+        "en": "descent type"
+      },
+      "definition": {
+        "en": "Type of descent."
+      }
+    },
+    {
+      "EA-Guid": "{F1F01F59-9649-4380-8209-92EED4C3F970}",
+      "name": "contactMedium",
+      "label": {
+        "en": "contact medium"
+      }
+    },
+    {
+      "EA-Guid": "{77F4819E-ABD2-4763-B152-8F344F31A0C6}",
+      "name": "civilStatusValue",
+      "label": {
+        "en": "civil status value"
+      },
+      "definition": {
+        "en": "Value of civil status."
       }
     },
     {
@@ -354,18 +561,8 @@
       }
     },
     {
-      "EA-Guid": "{8F2C3305-F7E7-4655-B420-E0DEE0407768}",
-      "name": "roleType",
-      "label": {
-        "en": "role type"
-      }
-    },
-    {
-      "EA-Guid": "{67F847F6-9619-4c66-9B5C-B4146572DA7B}",
-      "name": "residenceType",
-      "label": {
-        "en": "residence type"
-      }
+      "EA-Guid": "{A35C5149-10E9-4b05-8E6C-793B1AFB7F9E}",
+      "name": ""
     },
     {
       "EA-Guid": "{BC08CC5E-44C2-4a3b-88D0-27F372EFDA13}",
@@ -382,42 +579,17 @@
       }
     },
     {
-      "EA-Guid": "{5DF4BEE7-33CC-4b11-813A-197B0C65A656}",
-      "name": "placeOfDeath",
-      "label": {
-        "en": "place of death"
-      }
-    },
-    {
-      "EA-Guid": "{3287B7A4-7042-4162-8B17-54D6A4186927}",
-      "name": "placeOfBirth",
-      "label": {
-        "en": "place of birth"
-      }
-    },
-    {
       "EA-Guid": "{CCE9C781-3024-4bd7-82F5-09927A9A788E}",
       "name": "nobilityTitle",
       "label": {
         "en": "nobility title"
-      }
-    },
-    {
-      "EA-Guid": "{F020BE1B-AAEE-4a14-B98A-A99B39854E6C}",
-      "name": "language",
-      "label": {
-        "en": "language"
+      },
+      "definition": {
+        "en": "Honorary distinction of the person."
       }
     },
     {
       "EA-Guid": "{77BB5D59-A7EA-4b5c-AE1B-34B92BED68A5}",
-      "name": "jurisdiction",
-      "label": {
-        "en": "jurisdiction"
-      }
-    },
-    {
-      "EA-Guid": "{91411DD3-82CA-4c06-91D0-67AC695271DF}",
       "name": "jurisdiction",
       "label": {
         "en": "jurisdiction"
@@ -431,17 +603,10 @@
       }
     },
     {
-      "EA-Guid": "{07748B92-D506-48b9-B6DF-AF30781AA7AB}",
-      "name": "informationValue",
+      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
+      "name": "country",
       "label": {
-        "en": "information value"
-      }
-    },
-    {
-      "EA-Guid": "{F1F01F59-9649-4380-8209-92EED4C3F970}",
-      "name": "informationType",
-      "label": {
-        "en": "information type"
+        "en": "country"
       }
     },
     {
@@ -452,28 +617,28 @@
       }
     },
     {
-      "EA-Guid": "{BE83AF8D-A915-473e-983B-49648ECDFD5F}",
-      "name": "country",
-      "label": {
-        "en": "country"
-      }
+      "EA-Guid": "{67AC03F6-A857-4222-8E25-DA7A74B07DFB}",
+      "name": ""
     },
     {
-      "EA-Guid": "{ABB83A56-6E80-4410-BA4F-DAD2A17CFE9D}",
-      "name": "householdAddress",
+      "EA-Guid": "{D2AEE069-1764-43f4-BD00-1D0522CC6929}",
+      "name": "residenceAddress",
       "label": {
-        "en": "household address"
+        "en": "residence address"
       },
       "definition": {
-        "en": "Address of the residence of the household."
-      },
-      "usage": {
-        "en": "Often a criterion to determine whether persons are part of the same household."
+        "en": "Address of the place of residence."
       }
     },
     {
-      "EA-Guid": "{5EEEE243-FE30-4510-8F7B-5897D8F9746D}",
-      "name": ""
+      "EA-Guid": "{CD9565C1-275D-4b67-B262-24453968E2A8}",
+      "name": "matronymicName",
+      "label": {
+        "en": "matronymic name"
+      },
+      "definition": {
+        "en": "Name based on the given name of the person's mother."
+      }
     },
     {
       "EA-Guid": "{D221FE11-18B1-4a0f-9C2E-82D550B07149}",
@@ -486,79 +651,23 @@
       }
     },
     {
-      "EA-Guid": "{AF67AA1A-F2D8-4089-BE68-B694D344FA3D}",
-      "name": "diplomaticPost",
-      "label": {
-        "en": "diplomatic post"
-      }
-    },
-    {
-      "EA-Guid": "{E0285153-5A86-4ff9-B915-39B9C73F48E3}",
-      "name": "designationValue",
-      "label": {
-        "en": "designation value"
-      }
-    },
-    {
-      "EA-Guid": "{A8A963FB-E5B8-4ac4-AFDF-0B197A0FF184}",
-      "name": "designationType",
-      "label": {
-        "en": "designation type"
-      }
-    },
-    {
-      "EA-Guid": "{562ECB8F-5AB0-479c-98C5-8CF5C1605424}",
-      "name": "designation",
-      "label": {
-        "en": "designation"
-      }
-    },
-    {
-      "EA-Guid": "{B7706C6B-B91D-4db9-A431-3335D953C00C}",
-      "name": "descentType",
-      "label": {
-        "en": "descent type"
-      }
-    },
-    {
       "EA-Guid": "{59A029D4-0BF5-402c-B012-2335940FF00F}",
       "name": "deathDate",
       "label": {
         "en": "death date"
-      }
-    },
-    {
-      "EA-Guid": "{67EC2722-A569-4d34-861D-B4DA184E2FFC}",
-      "name": "hasDecease",
-      "label": {
-        "en": "has decease"
       },
       "definition": {
-        "en": "Decease data of a person."
+        "en": "The date on which the person deceased."
       }
     },
     {
-      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
-      "name": "country",
+      "EA-Guid": "{9D300EEB-6A4C-45ec-948F-FBA9C1E28E75}",
+      "name": "contactPoint",
       "label": {
-        "en": "country"
-      }
-    },
-    {
-      "EA-Guid": "{77F4819E-ABD2-4763-B152-8F344F31A0C6}",
-      "name": "civilStatusValue",
-      "label": {
-        "en": "civil status value"
+        "en": "contact point"
       },
       "definition": {
-        "en": "Type of civil status."
-      }
-    },
-    {
-      "EA-Guid": "{7B76B739-F264-4658-9C30-9DFA604E79D5}",
-      "name": "citizenship",
-      "label": {
-        "en": "citizenship"
+        "en": "Reference to the communication means through which the person can be contacted."
       }
     },
     {
@@ -566,26 +675,9 @@
       "name": "birthDate",
       "label": {
         "en": "birth date"
-      }
-    },
-    {
-      "EA-Guid": "{C3B22F27-C8E4-4e9d-8410-05D3AAF74920}",
-      "name": "hasBirth",
-      "label": {
-        "en": "has birth"
       },
       "definition": {
-        "en": "Birth data of a person."
-      }
-    },
-    {
-      "EA-Guid": "{D2AEE069-1764-43f4-BD00-1D0522CC6929}",
-      "name": "residenceAddress",
-      "label": {
-        "en": "residence address"
-      },
-      "definition": {
-        "en": "Address of the place of residence."
+        "en": "The date on which the person was born."
       }
     }
   ]

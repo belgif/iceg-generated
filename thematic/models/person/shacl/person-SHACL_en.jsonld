@@ -41,47 +41,133 @@
   "@id": "https://belgif.github.io//thematic/models/person",
   "shapes": [
     {
+      "@id": "https://belgif.github.io//thematic/models/person#ContactPointShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "contact medium"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:name": {
+            "en": "contact value"
+          },
+          "sh:path": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+        }
+      ],
+      "sh:targetClass": "http://data.europa.eu/m8g/ContactPoint"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#CitizenshipShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#Citizenship"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ContactMediumShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#ContactMedium"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#NobilityTitleShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://fixme.com#NobilityTitle"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ResidenceShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/locn#Address",
+          "sh:description": {
+            "en": "Address of the place of residence."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "residence address"
+          },
+          "sh:path": "http://fixme.com#address"
+        },
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:name": {
+            "en": "residence type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        }
+      ],
+      "sh:targetClass": "http://fixme.com#Residence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#DiplomaticPostShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "country"
+          },
+          "sh:path": "http://www.w3.org/ns/adms#identifier"
+        },
+        {
+          "sh:class": "http://fixme.com#Country",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "country"
+          },
+          "sh:path": "http://fixme.com#jurisdiction"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/organization#DiplomaticPost"
+    },
+    {
       "@id": "https://belgif.github.io//thematic/models/person#BirthShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
           "sh:class": "http://fixme.com#TemporalPosition",
+          "sh:description": {
+            "en": "The date on which the person was born."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "birth date"
           },
-          "sh:path": "http://fixme.com#birthDate"
+          "sh:path": "http://data.europa.eu/m8g/birthDate"
         },
         {
           "sh:class": "http://fixme.com#Locality",
+          "sh:description": {
+            "en": "The place of birth of the person."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "place of birth"
           },
-          "sh:path": "http://fixme.com#placeOfBirth"
+          "sh:path": "http://www.w3.org/ns/person#placeOfBirth"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Birth"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#CitizenshipShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://fixme.com#Country",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "jurisdiction"
-          },
-          "sh:path": "http://fixme.com#jurisdiction"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#Citizenship"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Birth"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#CivilStatusShape",
@@ -91,48 +177,17 @@
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
-            "en": "Type of civil status."
+            "en": "Value of civil status."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "civil status value"
           },
-          "sh:path": "http://fixme.com#civilStatusValue"
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
       ],
-      "sh:targetClass": "http://fixme.com#CivilStatus"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#ContactInformationShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://fixme.com#ContactInformationType",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "information type"
-          },
-          "sh:path": "http://fixme.com#informationType"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:name": {
-            "en": "information value"
-          },
-          "sh:path": "http://fixme.com#informationValue"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#ContactInformation"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#ContactInformationTypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#ContactInformationType"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#CivilStatus"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#DeathShape",
@@ -141,24 +196,30 @@
       "sh:property": [
         {
           "sh:class": "http://fixme.com#TemporalPosition",
+          "sh:description": {
+            "en": "The date on which the person deceased."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "death date"
           },
-          "sh:path": "http://fixme.com#deathDate"
+          "sh:path": "http://data.europa.eu/m8g/deathDate"
         },
         {
           "sh:class": "http://fixme.com#Locality",
+          "sh:description": {
+            "en": "The location where the person passed away."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "place of death"
           },
-          "sh:path": "http://fixme.com#placeOfDeath"
+          "sh:path": "http://www.w3.org/ns/person#placeOfDeath"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Death"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Death"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#DescentShape",
@@ -167,94 +228,39 @@
       "sh:property": [
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": {
+            "en": "Type of descent."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "descent type"
           },
-          "sh:path": "http://fixme.com#descentType"
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Descent"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#DesignationShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://fixme.com#DesignationType",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "designation type"
-          },
-          "sh:path": "http://fixme.com#designationType"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:name": {
-            "en": "designation value"
-          },
-          "sh:path": "http://fixme.com#designationValue"
-        },
-        {
-          "sh:class": "http://fixme.com#Language",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "language"
-          },
-          "sh:path": "http://fixme.com#language"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#Designation"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#DesignationTypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#DesignationType"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#DiplomaticPostShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://fixme.com#Country",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "country"
-          },
-          "sh:path": "http://fixme.com#country"
-        },
-        {
-          "sh:class": "http://www.w3.org/ns/adms#Identifier",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "country"
-          },
-          "sh:path": "http://fixme.com#identifier"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#DiplomaticPost"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Descent"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#DiplomaticStatusShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "http://fixme.com#DiplomaticStatus"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#DiplomaticStatus"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#DomesticResidenceShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "http://fixme.com#DomesticResidence"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#DomesticResidence"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#EUCitizenshipShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#EUCitizenship"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#ForeignResidenceShape",
@@ -262,16 +268,16 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://fixme.com#DiplomaticPost",
+          "sh:class": "http://vocab.belgif.be/ns/organization#DiplomaticPost",
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "diplomatic post"
           },
-          "sh:path": "http://fixme.com#diplomaticPost"
+          "sh:path": "http://vocab.belgif.be/ns/person#diplomaticPost"
         }
       ],
-      "sh:targetClass": "http://fixme.com#ForeignResidence"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#ForeignResidence"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#GuardianshipShape",
@@ -279,21 +285,16 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://fixme.com#GuardianshipType",
-          "sh:description": "",
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:maxCount": "1",
           "sh:minCount": "1",
-          "sh:path": "http://fixme.com#guardianshipType"
+          "sh:name": {
+            "en": "guardianship type"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Guardianship"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#GuardianshipTypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#GuardianshipType"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Guardianship"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#HouseholdShape",
@@ -309,10 +310,10 @@
           "sh:name": {
             "en": "household address"
           },
-          "sh:path": "http://fixme.com#householdAddress"
+          "sh:path": "http://vocab.belgif.be/ns/person#householdAddress"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Household"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Household"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#HouseholdRoleShape",
@@ -320,26 +321,57 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://fixme.com#HouseholdRoleType",
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "role value"
+          },
+          "sh:path": "http://purl.org/dc/elements/1.1/type"
+        }
+      ],
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#HouseholdRole"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#InternationalProtectionStatusShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#InternationalProtectionStatus"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#MarriageShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Marriage"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#PersonRelation"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationRoleShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
             "en": "role type"
           },
-          "sh:path": "http://fixme.com#roleType"
+          "sh:path": "http://fixme.com#roleValue"
         }
       ],
-      "sh:targetClass": "http://fixme.com#HouseholdRole"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#PersonRelationRole"
     },
     {
-      "@id": "https://belgif.github.io//thematic/models/person#HouseholdRoleTypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#HouseholdRoleType"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#InternationaLegalStatusShape",
+      "@id": "https://belgif.github.io//thematic/models/person#PublicLegalStatusShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -351,37 +383,14 @@
             "en": "jurisdiction"
           },
           "sh:path": "http://fixme.com#jurisdiction"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/person#Residency",
+          "sh:description": "",
+          "sh:path": "http://fixme.com#residency"
         }
       ],
-      "sh:targetClass": "http://fixme.com#InternationaLegalStatus"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#InternationalProtectionStatusShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#InternationalProtectionStatus"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#MarriageShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#Marriage"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#NobilityTitleShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#NobilityTitle"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#PersonRelation"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#RecordShape",
@@ -407,73 +416,14 @@
           "sh:path": "http://fixme.com#recordStatus"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Record"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Record"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#RegisteredPersonShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "http://fixme.com#RegisteredPerson"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#RelationRoleShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://fixme.com#RelationRoleType",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "role type"
-          },
-          "sh:path": "http://fixme.com#roleType"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#RelationRole"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#RelationRoleTypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#RelationRoleType"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#ResidenceShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/ns/locn#Address",
-          "sh:description": {
-            "en": "Address of the place of residence."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "residence address"
-          },
-          "sh:path": "http://fixme.com#address"
-        },
-        {
-          "sh:class": "http://fixme.com#ResidenceType",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "residence type"
-          },
-          "sh:path": "http://fixme.com#residenceType"
-        }
-      ],
-      "sh:targetClass": "http://fixme.com#Residence"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#ResidenceTypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#ResidenceType"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#RegisteredPerson"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#ResidencyShape",
@@ -497,21 +447,14 @@
           "sh:path": "http://fixme.com#residence"
         }
       ],
-      "sh:targetClass": "http://fixme.com#Residency"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#ResidencyTypeShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://fixme.com#ResidencyType"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Residency"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#StatutoryCohabitationShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "http://fixme.com#StatutoryCohabitation"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#StatutoryCohabitation"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#CivilStatusValueShape",
@@ -528,7 +471,42 @@
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://belgif.github.io//thematic/models/person#GenderShape",
+      "@id": "https://belgif.github.io//thematic/models/person#GenderCodeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ResidenceTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#ResidencyTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#GuardianshipTypeShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationRoleValueShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    {
+      "@id": "https://belgif.github.io//thematic/models/person#HouseholdRoleValueShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
@@ -540,51 +518,50 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://fixme.com#Birth",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:name": {
+            "en": "alternative name"
+          },
+          "sh:path": "http://purl.org/dc/terms/alternative"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/person#Birth",
           "sh:description": {
-            "en": "Birth data of a person."
+            "en": "Refers to the birth details of the person."
           },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "en": "has birth"
+            "en": "birth"
           },
-          "sh:path": "http://fixme.com#birth"
+          "sh:path": "http://purl.org/vocab/bio/0.1/birth"
         },
         {
-          "sh:class": "http://fixme.com#Citizenship",
-          "sh:name": {
-            "en": "citizenship"
-          },
-          "sh:path": "http://fixme.com#citizenship"
+          "sh:class": "http://vocab.belgif.be/ns/person#CivilStatus",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:path": "http://fixme.com#civilStatus"
         },
         {
-          "sh:class": "http://fixme.com#ContactInformation",
+          "sh:class": "https://schema.org/ContactPoint",
           "sh:description": {
-            "en": "Information such as email, telephone that allows the Person to be contacted."
+            "en": "Reference to the communication means through which the person can be contacted."
           },
           "sh:name": {
-            "en": "contact information"
+            "en": "contact point"
           },
-          "sh:path": "http://schema.org/contactPoint"
+          "sh:path": "http://data.europa.eu/m8g/contactPoint"
         },
         {
-          "sh:class": "http://fixme.com#Death",
+          "sh:class": "http://vocab.belgif.be/ns/person#Death",
           "sh:description": {
-            "en": "Decease data of a person."
+            "en": "Refers to the death details of the person."
           },
           "sh:maxCount": "1",
           "sh:name": {
-            "en": "has decease"
+            "en": "death"
           },
-          "sh:path": "http://fixme.com#death"
-        },
-        {
-          "sh:class": "http://fixme.com#Designation",
-          "sh:name": {
-            "en": "designation"
-          },
-          "sh:path": "http://fixme.com#designation"
+          "sh:path": "http://purl.org/vocab/bio/0.1/death"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -597,6 +574,18 @@
           "sh:path": "http://xmlns.com/foaf/0.1/familyName"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "The complete name of the person as one string."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "full name"
+          },
+          "sh:path": "http://xmlns.com/foaf/0.1/name"
+        },
+        {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
             "en": "The administrative gender of the person."
@@ -606,7 +595,7 @@
           "sh:name": {
             "en": "gender"
           },
-          "sh:path": "http://fixme.com#gender"
+          "sh:path": "http://data.europa.eu/m8g/gender"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -619,12 +608,69 @@
           "sh:path": "http://xmlns.com/foaf/0.1/givenName"
         },
         {
-          "sh:class": "http://fixme.com#NobilityTitle",
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Used to refer to a woman's family name at birth, distinguishing it from any family name she may take after marriage."
+          },
           "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "maiden name"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/person#maidenName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Name based on the given name of the person's mother."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "matronymic name"
+          },
+          "sh:path": "http://data.europa.eu/m8g/matronymicName"
+        },
+        {
+          "sh:class": "http://fixme.com#NobilityTitle",
+          "sh:description": {
+            "en": "Honorary distinction of the person."
+          },
           "sh:name": {
             "en": "nobility title"
           },
           "sh:path": "http://fixme.com#nobilityTitle"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Name based on the given name of the person's father."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "patronymic name"
+          },
+          "sh:path": "http://www.w3.org/ns/person#patronymicName"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Given name that an individual chooses to be called and recognized by."
+          },
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": {
+            "en": "preferred given name"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/person#preferredGivenName"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+          "sh:name": {
+            "en": "public legal status"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/person#publicLegalStatus"
         }
       ],
       "sh:targetClass": "http://www.w3.org/ns/person#Person"
