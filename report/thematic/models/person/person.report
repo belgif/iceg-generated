@@ -2,356 +2,339 @@ Load mapping config:config/config-ap.json
 WARNING:You shouldn't use 'user' reserved word as column name in the table t_datatypes (it refers to the database user).
  Escape it in your SQL! 
 (e.g. SELECT [USER] FROM TABLE WHERE [USER]='Joe')
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo.persoon.OSLO²_usecase_Persoon_identificatiePersoon".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo.placeholder".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic.location".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic.adms".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.schema".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c.organization".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.dcterms".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.location".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.generic".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.organization".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.diagram".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c.time".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c.xsd".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.iso".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.iso.19107:2019".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.best".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.iso.3166-1:2020".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.nis".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo.persoon".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.service".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.file".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.registry-prov".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.dummy".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.location".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.generic".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.eupo".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.legal".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.registry".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.legal".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.registry".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.diagram.visualization".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.person".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.schema".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic.cccev".
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.nis, Model.iso.19107:2019, Model.iso.3166-1:2020, Model.oslo.persoon, Model.playground.legal, Model.semic.location, Model.playground.schema, Model.belgif, Model.belgif.generic, Model.w3c, Model.semic.adms, Model.belgif.best, Model.oslo.placeholder, Model.belgif.file, Model.oslo, Model.belgif.service, Model.belgif.registry, Model.diagram, Model.playground, Model.oslo.persoon.OSLO²_usecase_Persoon_identificatiePersoon, Model.w3c.xsd, Model.playground.registry, Model.iso, Model.semic.cccev, Model, Model.w3c.organization, Model.eupo, Model.belgif.person, Model.schema, Model.belgif.organization, Model.belgif.location, Model.belgif.registry-prov, Model.playground.generic, Model.playground.location, Model.w3c.time, Model.belgif.legal, Model.semic, Model.diagram.visualization, Model.belgif.dummy, Model.dcterms
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://data.europa.eu/m8g/): Model.semic.person, Model.semic.cv
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DateTime): Model.belgif.generic:DateTime, Model.w3c.xsd:DateTime, Model.belgif.generic:DateTime
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalEvent): Model.playground.legal:LegalEvent, Model.diagram.visualization:LegalEvent, Model.belgif.legal:LegalEvent, Model.playground.legal:LegalEvent
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#RecordStatus): Model.belgif.registry:RecordStatus, Model.playground.registry:RecordStatus, Model.playground.registry:RecordStatus
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Evidence): Model.semic.cccev:Evidence, Model.belgif.file:Evidence
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Record): Model.playground.registry:Record, Model.playground.legal:Record, Model.playground.registry:Record, Model.belgif.registry-prov:Record
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#RecordProperty): Model.belgif.registry:RecordProperty, Model.playground.registry:RecordProperty
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Output): Model.semic.cv:Output, Model.oslo.dienst:Output
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/AdminUnit): Model.semic.cv:AdminUnit, Model.semic.location:AdminUnit
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Event): Model.semic.cv:Event, Model.oslo.dienst:Gebeurtenis
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Date): Model.belgif.generic:Date, Model.w3c.xsd:Date
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AddressComponentType): Model.playground.location:AddressComponentType, Model.belgif.location:AddressComponentType
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.oslo.adres:AdministratiefNiveau, Model.oslo.generiek:ELI_status, Model.oslo.dienst:BewijsType, Model.oslo.dienst:COFOG, Model.belgif.person:ResidenceType, Model.oslo.adres:Locatorniveauwaarde, Model.belgif.person:CivilStatusValue, Model.oslo.adres:Locatienaamtype, Model.oslo.dienst:ADMSStatusVocabularium, Model.oslo.generiek:GeometrieSpecificatieWaarde, Model.belgif.person:PersonRelationRoleValue, Model.oslo.generiek:NAL_currency, Model.belgif.person:HouseholdRoleValue, Model.belgif.person:GuardianshipType, Model.belgif.person:ResidencyType, Model.oslo.generiek:NUTS, Model.oslo.generiek:Plaatscode, Model.belgif.person:NationalityCode, Model.belgif.person:RoleType, Model.oslo.organisatie:StopzettingType, Model.belgif.person:ContactInformationType, Model.oslo.adres:Statuswaarde, Model.oslo.dienst:NACE, Model.oslo.generiek:NAL_type, Model.oslo.dienst:KanaalType, Model.oslo.generiek:GeometrieMethodeWaarde, Model.oslo.adres:Locatieaanduidingtype, Model.oslo.dienst:CriteriumVereisteType, Model.belgif.person:GenderCode, Model.belgif.person:DescentType, Model.oslo.generiek:Taalcode, Model.belgif.person:HouseholdRelationType, Model.belgif.person:RelationRoleType, Model.oslo.dienst:GebeurtenisType, Model.oslo.dienst:ParticipatieRol, Model.oslo.dienst:OutputType, Model.oslo.generiek:Eurovoc
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Right): Model.playground.legal:Right, Model.playground:Right, Model.belgif.legal:Right
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Country): Model.belgif.generic:Country, Model.belgif.location:Country, Model.playground.location:Country
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Value): Model.playground.legal:Value, Model.playground.registry:Value, Model.belgif.registry:Value, Model.playground.registry:Value
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/BusinessEvent): Model.semic.cv:BusinessEvent, Model.oslo.dienst:BedrijfsGebeurtenis
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Jurisdiction): Model.playground:Jurisdiction, Model.playground.legal:Jurisdiction
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Property): Model.belgif.person:Property, Model.playground.legal:Property, Model.playground.registry:Property, Model.belgif.registry:Property, Model.playground.registry:Property, Model.belgif.generic:Property
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Outcome): Model.belgif.legal:Outcome, Model.diagram.visualization:Outcome
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Resource): Model.belgif.generic:Resource, Model.belgif.generic:Resource
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Gemeente): Model.belgif.person:Gemeente, Model.oslo.placeholder:Gemeente
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Registry): Model.belgif.registry:Registry, Model.playground.registry:Registry, Model.playground.legal:Registry
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Operation): Model.belgif.registry-prov:Operation, Model.playground.registry:Operation
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DurationDescription): Model.belgif.generic:DurationDescription, Model.belgif.generic:DurationDescription
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Event): Model.diagram.visualization:Event, Model.belgif.generic:Event
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.oslo.generiek:GeografischeNaam, Model.oslo.generiek:TaalString
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Identifier): Model.playground.location:Identifier, Model.belgif.best:Identifier, Model.playground.generic:Identifier
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Obligation): Model.playground.legal:Obligation, Model.playground:Obligation
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AdministrativeUnit): Model.belgif.location:AdministrativeUnit, Model.playground:AdministrativeUnit
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Address): Model.belgif.best:Address, Model.belgif.location:Address
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Case): Model.belgif.file:Case, Model.belgif.legal:Case
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalStatus): Model.playground.legal:LegalStatus, Model.playground.legal:LegalStatus, Model.belgif.person:LegalStatus, Model.belgif.legal:LegalStatus
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LangString): Model.belgif.generic:LangString, Model.playground:LangString
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Duration): Model.belgif.generic:Duration, Model.belgif.generic:Duration, Model.w3c.time:Duration
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Maintenance): Model.playground.legal:Maintenance, Model.belgif.registry:Maintenance
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Attestation): Model.playground.registry:Attestation, Model.belgif.registry:Attestation
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Location): Model.belgif.location:Location, Model.belgif.generic:Location
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Evidence): Model.semic.cv:Evidence, Model.oslo.dienst:Bewijs
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/LifeEvent): Model.oslo.dienst:LevensGebeurtenis, Model.semic.cv:LifeEvent, Model.belgif.person:LifeEvent
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalFact): Model.belgif.legal:LegalFact, Model.playground.legal:LegalFact
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/PublicOrganisation): Model.semic.cv:PublicOrganisation, Model.oslo.organisatie:PubliekeOrganisatie, Model.belgif.organization:PublicOrganisation
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#RoleType): Model.playground.registry:RoleType, Model.belgif.registry:RoleType
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Citizenship): Model.playground:Citizenship, Model.belgif.person:Citizenship
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalPosition): Model.playground.legal:LegalPosition, Model.playground:LegalPosition
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PeriodOfTime): Model.playground:PeriodOfTime, Model.belgif.generic:PeriodOfTime
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/person#Person): Model.belgif.person:Person, Model.semic.person:Person
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Version): Model.belgif.registry-prov:Version, Model.belgif.registry-prov:Version
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalSubject): Model.belgif.legal:LegalSubject, Model.playground.legal:LegalSubject, Model.playground.legal:LegalSubject
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalResource): Model.belgif.legal:LegalResource, Model.playground.legal:LegalResource
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Geometry): Model.playground.location:Geometry, Model.iso.19107:2019:Geometry, Model.playground.location:Geometry
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Cost): Model.oslo.dienst:Kost, Model.semic.cv:Cost
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PersonNumber): Model.belgif.person:PersonNumber, Model.belgif.person:PersonNumber
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/locn#Address): Model.semic.location:Address, Model.oslo.adres:AddressRepresentation
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#ResidencyStatus): Model.belgif.person:ResidencyStatus, Model.belgif.person:ResidencyStatus
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalAct): Model.playground.legal:LegalAct, Model.belgif.legal:LegalAct, Model.diagram.visualization:LegalAct
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Authority): Model.belgif.generic:Authority, Model.playground:Authority
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/ContactPoint): Model.semic.cv:ContactPoint, Model.belgif.person:ContactPoint
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#CountryCode): Model.belgif.person:CountryCode, Model.iso.3166-1:2020:CountryCode
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Agent): Model.diagram.visualization:Agent, Model.belgif.generic:Agent
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Channel): Model.oslo.dienst:Kanaal, Model.semic.cv:Channel
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Spatial): Model.diagram.visualization:Spatial, Model.belgif.location:Spatial
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Participation): Model.semic.cv:Participation, Model.oslo.dienst:Participatie
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#UnresolvedSpatial): Model.diagram.visualization:UnresolvedSpatial, Model.belgif.location:UnresolvedSpatial
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Point): Model.belgif.best:Point, Model.iso.19107:2019:Point
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Request): Model.diagram.visualization:Request, Model.belgif.legal:Request
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#person:RegisteredPerson): Model.playground:person:RegisteredPerson, Model.playground:person:RegisteredPerson
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PersonalRelation): Model.playground:PersonalRelation, Model.playground:PersonalRelation
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AttestationType): Model.belgif.registry:AttestationType, Model.playground.registry:AttestationType
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Municipality): Model.belgif.location:Municipality, Model.belgif.generic:Municipality, Model.belgif.best:Municipality
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#ResolvedSpatial): Model.diagram.visualization:ResolvedSpatial, Model.belgif.location:ResolvedSpatial
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/locn#Geometry): Model.oslo.generiek:Geometrie, Model.semic.location:Geometry
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Role): Model.playground.registry:Role, Model.belgif.registry:Role
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Designator): Model.playground.location:Designator, Model.belgif.location:Designator
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AttestationType/EIDCertificate): Model.belgif.registry:AttestationType:EIDCertificate, Model.playground.registry:AttestationType:EIDCertificate
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AttestationType/Passport): Model.playground.registry:AttestationType:Passport, Model.belgif.registry:AttestationType:Passport
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#jurisdiction): Model.belgif.person:ResidencyStatus:jurisdiction, Model.belgif.person:ProtectionStatus:jurisdiction, Model.belgif.person:Residency:jurisdiction, Model.belgif.person:PublicLegalStatus:jurisdiction, Model.belgif.organization:DiplomaticPost:jurisdiction, Model.playground:Legal:jurisdiction
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#end): Model.belgif.generic:Interval:end, Model.belgif.generic:PeriodOfTime:end, Model.belgif.generic:DateTimeInterval:end
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#propertyName): Model.playground.registry:Property:propertyName, Model.playground.registry:Property:propertyName, Model.playground.legal:Property:propertyName, Model.belgif.registry:Property:propertyName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.semic.cv:Evidence:description, Model.semic.cv:Event:description, Model.oslo.dienst:Participatie:beschrijving, Model.semic.cv:Channel:description, Model.oslo.dienst:Bewijs:beschrijving, Model.oslo.dienst:Gebeurtenis:beschrijving, Model.oslo.dienst:Output:beschrijving, Model.semic.cv:Cost:description, Model.oslo.dienst:Kost:beschrijving, Model.semic.cv:ServiceConcessionContract:description, Model.semic.cv:Participation:description, Model.oslo.dienst:PubliekeDienstverlening:beschrijving, Model.oslo.generiek:FormeelKader:beschrijving, Model.oslo.dienst:Richtlijn:beschrijving, Model.semic.cv:Output:description
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.playground.registry:History:value, Model.playground.registry:Assertion:value, Model.belgif.registry:Value:value, Model.playground.registry:Attestation:value, Model.playground.registry:Value:value, Model.belgif.generic:Duration:value, Model.playground.registry:RecordStatus:value
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.oslo.dienst:Bewijs:naam, Model.semic.cv:ServiceConcessionContract:name, Model.semic.cv:Requirement:name, Model.oslo.dienst:Output:naam, Model.oslo.dienst:Richtlijn:naam, Model.semic.cv:Evidence:name, Model.oslo.dienst:Gebeurtenis:naam, Model.oslo.generiek:FormeelKader:naam, Model.oslo.dienst:PubliekeDienstverlening:naam, Model.semic.cv:Event:name, Model.oslo.dienst:CriteriumVereiste:naam, Model.semic.cv:Output:name
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/code): Model.semic.location:AdminUnit:code, Model.semic.cv:AdminUnit:code
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#srs): Model.iso.19107:2019:Geometry:srs, Model.iso.19107:2019:DirectPosition:srs, Model.iso.19107:2019:Envelope:srs
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/matronymicName): Model.belgif.person:Person:matronymicName, Model.semic.person:Person:matronymicName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.semic.cv:Evidence:language, Model.oslo.dienst:Bewijs:taal, Model.semic.cv:Output:language, Model.oslo.dienst:PubliekeDienstverlening:taal, Model.oslo.dienst:Richtlijn:taal
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#status): Model.oslo.generiek:FormeelKader:status, Model.oslo.dienst:PubliekeDienstverlening:status
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asGML): Model.semic.location:Geometry:gml, Model.oslo.generiek:Geometrie:gml
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.semic.cv:Cost:identifier, Model.semic.cv:Event:identifier, Model.semic.cv:Output:identifier, Model.semic.cv:Requirement:identifier, Model.semic.cv:Channel:identifier, Model.semic.cv:ServiceConcessionContract:identifier, Model.semic.cv:Evidence:identifier, Model.semic.cv:Participation:identifier, Model.semic.cv:EvidenceType:indentifier
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#identifier): Model.belgif.legal:LegalResource:identifier, Model.playground.generic:Identifier:identifier, Model.belgif.registry:Record:identifier, Model.playground.registry:Record:identifier, Model.belgif.location:ResolvedSpatial:identifier, Model.belgif.registry-prov:Version:identifier, Model.playground.legal:LegalResource:identifier, Model.playground.registry:Record:identifier
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.oslo.dienst:Bewijs:type, Model.semic.cv:Event:type, Model.oslo.generiek:FormeelKader:type, Model.semic.cv:Channel:type, Model.oslo.dienst:PubliekeDienstverlening:type, Model.oslo.dienst:Gebeurtenis:type, Model.semic.cv:Requirement:type, Model.semic.cv:Output:type, Model.oslo.dienst:Output:type, Model.semic.cv:Evidence:type, Model.oslo.dienst:CriteriumVereiste:type, Model.oslo.dienst:Kanaal:type
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#effectiveFrom): Model.playground.registry:Statement:effectiveFrom, Model.belgif.registry-prov:Version:effectiveFrom, Model.playground.registry:Value:effectiveFrom, Model.belgif.registry:Value:effectiveFrom, Model.playground.registry:History:effectiveFrom, Model.playground.legal:LegalEvent:effectiveFrom
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#created): Model.playground.registry:History:created, Model.playground.legal:LegalEvent:created, Model.belgif.registry:Value:created
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.oslo.adres:Gemeentenaam:gemeentenaam, Model.dcterms:Location:placeName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#type): Model.playground:LegalPosition:type, Model.playground.registry:RecordStatus:type, Model.belgif.registry:Role:type, Model.playground.registry:Attestation:type, Model.playground.registry:Operation:type, Model.playground.registry:Role:type
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#adres): Model.oslo.gebouw:Gebouw:adres, Model.oslo.gebouw:Gebouweenheid:adres
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#code): Model.belgif.best:Address:code, Model.belgif.best:Municipality:code
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.oslo.organisatie:PubliekeOrganisatie:werkingsgebied, Model.oslo.dienst:PubliekeDienstverlening:toepassingsgebied, Model.semic.cv:PublicOrganisation:spatial
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://www.w3.org/2000/01/rdf-schema#label): Model.oslo.adres:Straatnaam:straatnaam, Model.oslo.adres:Locatienaam:naam, Model.oslo.adres:Adreslocator:naam
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#typeName): Model.playground.registry:Property:typeName, Model.belgif.registry:Property:typeName, Model.playground.legal:Property:typeName, Model.playground.registry:Property:typeName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asWKT): Model.oslo.generiek:Geometrie:wkt, Model.semic.location:Geometry:wkt
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/type): Model.belgif.person:Descent:descentType, Model.belgif.person:Residence:residenceType, Model.belgif.person:HouseholdRole:roleValue, Model.belgif.person:CivilStatus:civilStatusValue, Model.belgif.person:ContactPoint:contactMedium, Model.belgif.person:Guardianship:guardianshipType
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/currency): Model.semic.cv:Cost:currency, Model.oslo.dienst:Kost:valuta
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/birthDate): Model.semic.person:Person:dateOfBirth, Model.belgif.person:Birth:birthDate
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/person#patronymicName): Model.semic.person:Person:patronymicName, Model.belgif.person:Person:patronymicName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geometrie): Model.oslo.gebouw:Gebouweenheid:geometrie, Model.oslo.gebouw:Gebouw:geometrie
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/page): Model.oslo.dienst:Bewijs:documentatie, Model.semic.cv:Evidence:relatedDocumentation
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#geometry): Model.belgif.location:GeometricShape:geometry, Model.belgif.best:Address:geometry, Model.belgif.best:Municipality:geometry
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#start): Model.belgif.generic:DateTimeInterval:start, Model.belgif.generic:PeriodOfTime:start, Model.belgif.generic:Interval:start
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#location): Model.dcterms:Jurisdiction:location, Model.belgif.legal:LegalEvent:location, Model.belgif.generic:Event:location
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/alternative): Model.belgif.person:Person:alternativeName, Model.semic.person:Person:alternativeName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geldigheidsperiode): Model.oslo.gebouw:Gebouw:geldigheidsperiode, Model.oslo.gebouw:Gebouweenheid:geldigheidsperiode
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/processingTime): Model.semic.cv:Channel:processingTime, Model.oslo.dienst:PubliekeDienstverlening:verwerkingstijd
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/role): Model.oslo.dienst:Participatie:rol, Model.semic.cv:Participation:role
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#activity): Model.oslo.generiek:Generatie:activiteit, Model.oslo.generiek:Invalidatie:activiteit
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/gender): Model.belgif.person:Person:gender, Model.semic.person:Person:gender
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/givenName): Model.semic.person:Person:givenName, Model.belgif.person:Person:givenName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#identifier): Model.belgif.organization:DiplomaticPost:identifier, Model.oslo.generiek:Object:identificator
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/name): Model.belgif.person:Person:fullName, Model.semic.person:Person:fullName
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/level): Model.semic.cv:AdminUnit:level, Model.semic.location:AdminUnit:level
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#atTime): Model.oslo.generiek:Invalidatie:tijdstip, Model.oslo.generiek:Generatie:tijdstip
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#duration): Model.belgif.generic:DurationDescription:duration, Model.belgif.generic:PeriodOfTime:duration
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/deathDate): Model.belgif.person:Death:deathDate, Model.semic.person:Person:dateOfDeath
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/org#role): Model.oslo.organisatie:Lidmaatschap:rol, Model.oslo.organisatie:Positie:rol
-13:09:22 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/familyName): Model.belgif.person:Person:familyName, Model.semic.person:Person:familyName
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.diagram".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.diagram".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.diagram".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.diagram".
-13:09:22 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CivilStatusValue" .
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:CivilStatusValue".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:CivilStatusValue".
-13:09:22 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:CivilStatusValue".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DescentType" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:DescentType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:DescentType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:DescentType".
-13:09:23 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.belgif.person:GenderCode".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GenderCode" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GenderCode".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GenderCode".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GenderCode".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "StatutoryCohabitation" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Marriage" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Death" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Birth" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Residence" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Household" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:Organization".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Descent" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "RegisteredPerson" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Person" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.legal:LegalSubject".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:Agent".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactMedium" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:ContactMedium".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:ContactMedium".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:ContactMedium".
-13:09:23 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.belgif.person:NobilityTitle".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "NobilityTitle" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:NobilityTitle".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:NobilityTitle".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:NobilityTitle".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ResidenceType" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidenceType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidenceType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidenceType".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ResidencyType" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidencyType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidencyType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidencyType".
-13:09:23 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.belgif.person:GuardianshipType".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GuardianshipType" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GuardianshipType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GuardianshipType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GuardianshipType".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CivilStatus" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactPoint" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DomesticResidence" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ForeignResidence" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DiplomaticPost" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Record" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Guardianship" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PersonRelation" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PersonRelationRole" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Residency" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Citizenship" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InternationalProtectionStatus" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PublicLegalStatus" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DiplomaticStatus" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "HouseholdRole" .
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PersonRelationRoleValue" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRoleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRoleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRoleValue".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "HouseholdRoleValue" .
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRoleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRoleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRoleValue".
-13:09:23 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EUCitizenship" .
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Household)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Household)" does not have a name, it will be ignored.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Household:(Household -> HouseholdRole)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:Household:(Household -> HouseholdRole)" does not have a name, it will be ignored.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:birth" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Ignoring connector "Model.belgif.person:RegisteredPerson:record" since it lacks a defining package.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:civilStatus" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:civilStatus".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:civilStatus".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:civilStatus".
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property civilStatus without name, further processing this property will be incoherent
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:PublicLegalStatus:residency" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:residency".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:residency".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:residency".
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler -  Property residency without name, further processing this property will be incoherent
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Person)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Person)" does not have a name, it will be ignored.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:(Person -> HouseholdRole)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:Person:(Person -> HouseholdRole)" does not have a name, it will be ignored.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> Person)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> Person)" does not have a name, it will be ignored.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:(Person -> PersonRelationRole)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:Person:(Person -> PersonRelationRole)" does not have a name, it will be ignored.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Residency:residence" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:residence".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:residence".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:residence".
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:death" belongs to package "person" based on source and target definition.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:publicLegalStatus" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:publicLegalStatus".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:publicLegalStatus".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:publicLegalStatus".
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> PersonRelation)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> PersonRelation)" does not have a name, it will be ignored.
-13:09:23 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:PersonRelation:(PersonRelation -> PersonRelationRole)" belongs to package "person" based on source and target definition.
-13:09:23 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:PersonRelation:(PersonRelation -> PersonRelationRole)" does not have a name, it will be ignored.
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "Address" for attribute "Model.belgif.person:Residence:address": Model.semic.location:Address, Model.belgif.location:Address, Model.belgif.best:Address.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residence:residenceType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residence:residenceType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residence:residenceType".
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "Address" for attribute "Model.belgif.person:Household:householdAddress": Model.semic.location:Address, Model.belgif.location:Address, Model.belgif.best:Address.
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "ContactPoint" for attribute "Model.belgif.person:Person:contactPoint": Model.schema:ContactPoint, Model.semic.cv:ContactPoint, Model.belgif.person:ContactPoint.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:alternativeName".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:alternativeName".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Person:alternativeName".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactMedium".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactMedium".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactMedium".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ForeignResidence:diplomaticPost".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ForeignResidence:diplomaticPost".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ForeignResidence:diplomaticPost".
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "Identifier" for attribute "Model.belgif.organization:DiplomaticPost:identifier": Model.semic.adms:Identifier, Model.belgif.best:Identifier, Model.playground.location:Identifier, Model.playground.generic:Identifier.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:identifier".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:identifier".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:identifier".
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "Country" for attribute "Model.belgif.organization:DiplomaticPost:jurisdiction": Model.belgif.location:Country, Model.belgif.generic:Country, Model.playground.location:Country.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "Identifier" for attribute "Model.belgif.registry:Record:identifier": Model.semic.adms:Identifier, Model.belgif.best:Identifier, Model.playground.location:Identifier, Model.playground.generic:Identifier.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record:identifier".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record:identifier".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record:identifier".
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "RecordStatus" for attribute "Model.belgif.registry:Record:recordStatus": Model.playground.registry:RecordStatus, Model.playground.registry:RecordStatus, Model.belgif.registry:RecordStatus.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record:recordStatus".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record:recordStatus".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.registry:Record:recordStatus".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Guardianship:guardianshipType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Guardianship:guardianshipType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Guardianship:guardianshipType".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRole:roleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRole:roleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRole:roleValue".
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "Country" for attribute "Model.belgif.person:Residency:jurisdiction": Model.belgif.location:Country, Model.belgif.generic:Country, Model.playground.location:Country.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.Converter - Ambiguous data type "Country" for attribute "Model.belgif.person:PublicLegalStatus:jurisdiction": Model.belgif.location:Country, Model.belgif.generic:Country, Model.playground.location:Country.
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:jurisdiction".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRole:roleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRole:roleValue".
-13:09:23 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRole:roleValue".
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Single - {28180BB1-9107-47c0-8F57-A1566EAF4516}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Married - {239BEDA2-9034-4923-A37D-1AC621A3FF6A}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Divorced - {93F744A5-675B-4fec-80A8-E93709482BB6}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Widowed - {77FF850F-1CF6-4869-89BF-418B756795B8}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Paternity - {45BEFB04-9D3C-4d8f-ACBF-3B3D3DFA9262}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Maternity - {D035E731-33AF-42c8-8078-75896249D904}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Parenthood - {CEC97473-E91B-4691-9D5C-68B8E51BD8B4}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Telephone - {AA1DB98F-9A1E-4e73-82AE-0A5AA4D5EC8F}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Email - {E9F9699A-F491-407e-90D8-F7271AC4E78F}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: LegalDomicile - {892BC00A-8852-4178-BDD3-804A444FD67E}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: ReferenceAddress - {D9C60775-99FB-4662-BDC2-7D45C1888E95}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: ForeignPostalAddress - {D33E5DC0-CC28-499a-AD3D-87A5DAA85A49}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: MainResidence - {F6D77B95-77D6-4593-8D7C-6F869253C9D5}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: TemporaryResident - {DE4B1154-C936-460a-90A4-B42B436759C4}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: PermanentResident - {C582C6F2-D150-4e94-AE35-7CE9205BAFB9}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: DiplomaticResident - {A75247AF-961E-4e80-974D-BBB3CA17B1B2}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Husband - {CBC3D042-9F28-4782-B509-ED927D844304}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Wife - {2F020379-B427-403b-BA9E-296B92B3B855}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Son - {E0C7721C-3A1E-4e29-AB71-604EC98EEFCC}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Daughter - {C1A01403-AF54-4584-9A1D-9DBA6318BE52}
-13:09:23 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: ReferencePerson - {BD0367D7-4F61-4c2f-AEBB-AC6A157E5664}
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo.persoon.OSLO²_usecase_Persoon_identificatiePersoon".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo.placeholder".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic.location".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic.adms".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.schema".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c.organization".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.dcterms".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.location".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.generic".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.organization".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.diagram".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c.time".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.w3c.xsd".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.iso".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.iso.19107:2019".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.best".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.iso.3166-1:2020".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.nis".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.oslo.persoon".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.service".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.file".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.registry-prov".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.dummy".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.location".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.generic".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.eupo".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.legal".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.registry".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.legal".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.registry".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.diagram.visualization".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.belgif.person".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.playground.schema".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "baseURI" tag for "Model.semic.cccev".
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://fixme.com#): Model.w3c.organization, Model.eupo, Model.belgif.dummy, Model.playground.generic, Model.playground.legal, Model.belgif, Model.w3c.time, Model.belgif.best, Model.playground, Model.belgif.location, Model.playground.location, Model.w3c, Model.belgif.legal, Model.diagram, Model.playground.registry, Model.iso, Model.nis, Model.oslo.persoon, Model.oslo, Model.dcterms, Model.semic.location, Model.belgif.file, Model.belgif.registry-prov, Model.oslo.placeholder, Model.semic.cccev, Model.oslo.persoon.OSLO²_usecase_Persoon_identificatiePersoon, Model.iso.3166-1:2020, Model.schema, Model.w3c.xsd, Model.semic.adms, Model.belgif.registry, Model.playground.schema, Model.belgif.person, Model.belgif.service, Model, Model.belgif.organization, Model.semic, Model.diagram.visualization, Model.iso.19107:2019, Model.belgif.generic
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following packages map to the same URI (http://data.europa.eu/m8g/): Model.semic.cv, Model.semic.person
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Agent): Model.belgif.generic:Agent, Model.diagram.visualization:Agent
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalStatus): Model.playground.legal:LegalStatus, Model.belgif.person:LegalStatus, Model.belgif.legal:LegalStatus, Model.playground.legal:LegalStatus
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Output): Model.semic.cv:Output, Model.oslo.dienst:Output
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Spatial): Model.belgif.location:Spatial, Model.diagram.visualization:Spatial
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/2004/02/skos/core#Concept): Model.belgif.person:HouseholdRoleValue, Model.oslo.generiek:Taalcode, Model.belgif.person:ResidencyType, Model.oslo.dienst:GebeurtenisType, Model.oslo.dienst:BewijsType, Model.oslo.generiek:Plaatscode, Model.oslo.generiek:NAL_type, Model.belgif.person:GuardianshipType, Model.oslo.dienst:KanaalType, Model.oslo.adres:Locatieaanduidingtype, Model.belgif.person:PersonRelationRoleValue, Model.oslo.adres:AdministratiefNiveau, Model.oslo.adres:Locatorniveauwaarde, Model.oslo.dienst:ParticipatieRol, Model.belgif.person:ContactInformationType, Model.oslo.dienst:COFOG, Model.oslo.dienst:ADMSStatusVocabularium, Model.oslo.generiek:GeometrieMethodeWaarde, Model.oslo.generiek:GeometrieSpecificatieWaarde, Model.belgif.person:HouseholdRelationType, Model.belgif.person:RoleType, Model.belgif.person:GenderCode, Model.oslo.generiek:NAL_currency, Model.oslo.dienst:CriteriumVereisteType, Model.belgif.person:ResidenceType, Model.oslo.adres:Statuswaarde, Model.oslo.adres:Locatienaamtype, Model.belgif.person:RelationRoleType, Model.oslo.dienst:OutputType, Model.oslo.dienst:NACE, Model.belgif.person:DescentType, Model.oslo.generiek:Eurovoc, Model.belgif.person:CivilStatusValue, Model.oslo.generiek:ELI_status, Model.belgif.person:NationalityCode, Model.oslo.organisatie:StopzettingType, Model.oslo.generiek:NUTS
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#RoleType): Model.playground.registry:RoleType, Model.belgif.registry:RoleType
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AttestationType): Model.belgif.registry:AttestationType, Model.playground.registry:AttestationType
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#RecordProperty): Model.playground.registry:RecordProperty, Model.belgif.registry:RecordProperty
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/person#Person): Model.semic.person:Person, Model.belgif.person:Person
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/ContactPoint): Model.semic.cv:ContactPoint, Model.belgif.person:ContactPoint
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#CountryCode): Model.iso.3166-1:2020:CountryCode, Model.belgif.person:CountryCode
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Attestation): Model.playground.registry:Attestation, Model.belgif.registry:Attestation
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Point): Model.iso.19107:2019:Point, Model.belgif.best:Point
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Cost): Model.oslo.dienst:Kost, Model.semic.cv:Cost
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/locn#Geometry): Model.oslo.generiek:Geometrie, Model.semic.location:Geometry
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Outcome): Model.belgif.legal:Outcome, Model.diagram.visualization:Outcome
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#ResolvedSpatial): Model.belgif.location:ResolvedSpatial, Model.diagram.visualization:ResolvedSpatial
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Country): Model.belgif.location:Country, Model.playground.location:Country, Model.belgif.generic:Country
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Evidence): Model.semic.cccev:Evidence, Model.belgif.file:Evidence
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Duration): Model.belgif.generic:Duration, Model.w3c.time:Duration, Model.belgif.generic:Duration
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#person:RegisteredPerson): Model.playground:person:RegisteredPerson, Model.playground:person:RegisteredPerson
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AddressComponentType): Model.playground.location:AddressComponentType, Model.belgif.location:AddressComponentType
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Value): Model.belgif.registry:Value, Model.playground.legal:Value, Model.playground.registry:Value, Model.playground.registry:Value
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PeriodOfTime): Model.playground:PeriodOfTime, Model.belgif.generic:PeriodOfTime
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Date): Model.belgif.generic:Date, Model.w3c.xsd:Date
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Location): Model.belgif.location:Location, Model.belgif.generic:Location
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/PublicOrganisation): Model.belgif.organization:PublicOrganisation, Model.oslo.organisatie:PubliekeOrganisatie, Model.semic.cv:PublicOrganisation
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DurationDescription): Model.belgif.generic:DurationDescription, Model.belgif.generic:DurationDescription
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PersonalRelation): Model.playground:PersonalRelation, Model.playground:PersonalRelation
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Address): Model.belgif.best:Address, Model.belgif.location:Address
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Record): Model.belgif.registry-prov:Record, Model.playground.registry:Record, Model.playground.legal:Record, Model.playground.registry:Record
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#DateTime): Model.w3c.xsd:DateTime, Model.belgif.generic:DateTime, Model.belgif.generic:DateTime
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Participation): Model.oslo.dienst:Participatie, Model.semic.cv:Participation
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Authority): Model.playground:Authority, Model.belgif.generic:Authority
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Event): Model.belgif.generic:Event, Model.diagram.visualization:Event
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Identifier): Model.playground.generic:Identifier, Model.belgif.best:Identifier, Model.playground.location:Identifier
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalFact): Model.belgif.legal:LegalFact, Model.playground.legal:LegalFact
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Maintenance): Model.belgif.registry:Maintenance, Model.playground.legal:Maintenance
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#AdministrativeUnit): Model.belgif.location:AdministrativeUnit, Model.playground:AdministrativeUnit
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Gemeente): Model.belgif.person:Gemeente, Model.oslo.placeholder:Gemeente
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Operation): Model.belgif.registry-prov:Operation, Model.playground.registry:Operation
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Case): Model.belgif.file:Case, Model.belgif.legal:Case
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#UnresolvedSpatial): Model.belgif.location:UnresolvedSpatial, Model.diagram.visualization:UnresolvedSpatial
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Resource): Model.belgif.generic:Resource, Model.belgif.generic:Resource
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Citizenship): Model.playground:Citizenship, Model.belgif.person:Citizenship
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Municipality): Model.belgif.location:Municipality, Model.belgif.generic:Municipality, Model.belgif.best:Municipality
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#PersonNumber): Model.belgif.person:PersonNumber, Model.belgif.person:PersonNumber
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#ResidencyStatus): Model.belgif.person:ResidencyStatus, Model.belgif.person:ResidencyStatus
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Right): Model.playground.legal:Right, Model.belgif.legal:Right, Model.playground:Right
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Registry): Model.playground.registry:Registry, Model.belgif.registry:Registry, Model.playground.legal:Registry
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalResource): Model.belgif.legal:LegalResource, Model.playground.legal:LegalResource
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Property): Model.playground.registry:Property, Model.belgif.person:Property, Model.belgif.generic:Property, Model.playground.legal:Property, Model.playground.registry:Property, Model.belgif.registry:Property
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/ns/locn#Address): Model.semic.location:Address, Model.oslo.adres:AddressRepresentation
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalEvent): Model.playground.legal:LegalEvent, Model.playground.legal:LegalEvent, Model.diagram.visualization:LegalEvent, Model.belgif.legal:LegalEvent
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#RecordStatus): Model.playground.registry:RecordStatus, Model.playground.registry:RecordStatus, Model.belgif.registry:RecordStatus
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/BusinessEvent): Model.semic.cv:BusinessEvent, Model.oslo.dienst:BedrijfsGebeurtenis
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/LifeEvent): Model.belgif.person:LifeEvent, Model.oslo.dienst:LevensGebeurtenis, Model.semic.cv:LifeEvent
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Obligation): Model.playground:Obligation, Model.playground.legal:Obligation
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://www.w3.org/1999/02/22-rdf-syntax-ns#langString): Model.oslo.generiek:GeografischeNaam, Model.oslo.generiek:TaalString
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/AdminUnit): Model.semic.cv:AdminUnit, Model.semic.location:AdminUnit
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalSubject): Model.playground.legal:LegalSubject, Model.belgif.legal:LegalSubject, Model.playground.legal:LegalSubject
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Role): Model.belgif.registry:Role, Model.playground.registry:Role
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalAct): Model.diagram.visualization:LegalAct, Model.playground.legal:LegalAct, Model.belgif.legal:LegalAct
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Jurisdiction): Model.playground.legal:Jurisdiction, Model.playground:Jurisdiction
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LangString): Model.playground:LangString, Model.belgif.generic:LangString
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Designator): Model.playground.location:Designator, Model.belgif.location:Designator
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Version): Model.belgif.registry-prov:Version, Model.belgif.registry-prov:Version
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Request): Model.belgif.legal:Request, Model.diagram.visualization:Request
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#Geometry): Model.playground.location:Geometry, Model.iso.19107:2019:Geometry, Model.playground.location:Geometry
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Channel): Model.semic.cv:Channel, Model.oslo.dienst:Kanaal
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Evidence): Model.semic.cv:Evidence, Model.oslo.dienst:Bewijs
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://data.europa.eu/m8g/Event): Model.semic.cv:Event, Model.oslo.dienst:Gebeurtenis
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following elements map to the same URI (http://fixme.com#LegalPosition): Model.playground:LegalPosition, Model.playground.legal:LegalPosition
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AttestationType/EIDCertificate): Model.belgif.registry:AttestationType:EIDCertificate, Model.playground.registry:AttestationType:EIDCertificate
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following instances map to the same URI (http://fixme.com/AttestationType/Passport): Model.playground.registry:AttestationType:Passport, Model.belgif.registry:AttestationType:Passport
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#jurisdiction): Model.belgif.person:ResidencyStatus:jurisdiction, Model.belgif.person:ProtectionStatus:jurisdiction, Model.belgif.organization:DiplomaticPost:jurisdiction, Model.playground:Legal:jurisdiction, Model.belgif.person:PublicLegalStatus:jurisdiction
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/identifier): Model.semic.cv:ServiceConcessionContract:identifier, Model.semic.cv:EvidenceType:indentifier, Model.semic.cv:Requirement:identifier, Model.semic.cv:Participation:identifier, Model.semic.cv:Event:identifier, Model.semic.cv:Cost:identifier, Model.semic.cv:Channel:identifier, Model.semic.cv:Output:identifier, Model.semic.cv:Evidence:identifier
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#duration): Model.belgif.generic:PeriodOfTime:duration, Model.belgif.generic:DurationDescription:duration
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#effectiveFrom): Model.playground.registry:History:effectiveFrom, Model.playground.registry:Value:effectiveFrom, Model.belgif.registry-prov:Version:effectiveFrom, Model.playground.registry:Statement:effectiveFrom, Model.belgif.registry:Value:effectiveFrom, Model.playground.legal:LegalEvent:effectiveFrom
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#atTime): Model.oslo.generiek:Invalidatie:tijdstip, Model.oslo.generiek:Generatie:tijdstip
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#identifier): Model.belgif.legal:LegalResource:identifier, Model.playground.generic:Identifier:identifier, Model.belgif.registry:Record:identifier, Model.playground.registry:Record:identifier, Model.belgif.registry-prov:Version:identifier, Model.playground.registry:Record:identifier, Model.belgif.location:ResolvedSpatial:identifier, Model.playground.legal:LegalResource:identifier
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/person#patronymicName): Model.semic.person:Person:patronymicName, Model.belgif.person:Person:patronymicName
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/prov#activity): Model.oslo.generiek:Generatie:activiteit, Model.oslo.generiek:Invalidatie:activiteit
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/title): Model.semic.cv:Evidence:name, Model.oslo.generiek:FormeelKader:naam, Model.oslo.dienst:CriteriumVereiste:naam, Model.oslo.dienst:Richtlijn:naam, Model.semic.cv:Event:name, Model.semic.cv:Output:name, Model.oslo.dienst:Bewijs:naam, Model.semic.cv:ServiceConcessionContract:name, Model.oslo.dienst:Output:naam, Model.oslo.dienst:Gebeurtenis:naam, Model.semic.cv:Requirement:name, Model.oslo.dienst:PubliekeDienstverlening:naam
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#srs): Model.iso.19107:2019:Envelope:srs, Model.iso.19107:2019:Geometry:srs, Model.iso.19107:2019:DirectPosition:srs
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/birthDate): Model.belgif.person:Birth:birthDate, Model.semic.person:Person:dateOfBirth
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/familyName): Model.semic.person:Person:familyName, Model.belgif.person:Person:familyName
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#value): Model.playground.registry:Attestation:value, Model.playground.registry:History:value, Model.playground.registry:RecordStatus:value, Model.belgif.registry:Value:value, Model.playground.registry:Value:value, Model.belgif.generic:Duration:value, Model.playground.registry:Assertion:value
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/type): Model.semic.cv:Channel:type, Model.semic.cv:Output:type, Model.semic.cv:Event:type, Model.oslo.dienst:Bewijs:type, Model.oslo.dienst:Gebeurtenis:type, Model.semic.cv:Evidence:type, Model.oslo.generiek:FormeelKader:type, Model.oslo.dienst:PubliekeDienstverlening:type, Model.oslo.dienst:CriteriumVereiste:type, Model.semic.cv:Requirement:type, Model.oslo.dienst:Kanaal:type, Model.oslo.dienst:Output:type
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/language): Model.semic.cv:Evidence:language, Model.oslo.dienst:Bewijs:taal, Model.semic.cv:Output:language, Model.oslo.dienst:Richtlijn:taal, Model.oslo.dienst:PubliekeDienstverlening:taal
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/description): Model.semic.cv:Evidence:description, Model.semic.cv:Channel:description, Model.semic.cv:Participation:description, Model.oslo.dienst:PubliekeDienstverlening:beschrijving, Model.semic.cv:Output:description, Model.oslo.dienst:Bewijs:beschrijving, Model.semic.cv:ServiceConcessionContract:description, Model.oslo.dienst:Kost:beschrijving, Model.semic.cv:Cost:description, Model.oslo.dienst:Richtlijn:beschrijving, Model.oslo.dienst:Gebeurtenis:beschrijving, Model.oslo.dienst:Output:beschrijving, Model.oslo.dienst:Participatie:beschrijving, Model.semic.cv:Event:description, Model.oslo.generiek:FormeelKader:beschrijving
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/page): Model.semic.cv:Evidence:relatedDocumentation, Model.oslo.dienst:Bewijs:documentatie
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#end): Model.belgif.generic:DateTimeInterval:end, Model.belgif.generic:PeriodOfTime:end, Model.belgif.generic:Interval:end
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#type): Model.playground.registry:Attestation:type, Model.belgif.registry:Role:type, Model.playground:LegalPosition:type, Model.playground.registry:Role:type, Model.playground.registry:Operation:type, Model.playground.registry:RecordStatus:type
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#adres): Model.oslo.gebouw:Gebouweenheid:adres, Model.oslo.gebouw:Gebouw:adres
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/org#role): Model.oslo.organisatie:Lidmaatschap:rol, Model.oslo.organisatie:Positie:rol
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/role): Model.oslo.dienst:Participatie:rol, Model.semic.cv:Participation:role
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geldigheidsperiode): Model.oslo.gebouw:Gebouweenheid:geldigheidsperiode, Model.oslo.gebouw:Gebouw:geldigheidsperiode
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/gender): Model.semic.person:Person:gender, Model.belgif.person:Person:gender
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/spatial): Model.oslo.organisatie:PubliekeOrganisatie:werkingsgebied, Model.oslo.dienst:PubliekeDienstverlening:toepassingsgebied, Model.semic.cv:PublicOrganisation:spatial
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#geometry): Model.belgif.best:Address:geometry, Model.belgif.location:GeometricShape:geometry, Model.belgif.best:Municipality:geometry
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#created): Model.playground.registry:History:created, Model.belgif.registry:Value:created, Model.playground.legal:LegalEvent:created
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/elements/1.1/type): Model.belgif.person:Residence:residenceType, Model.belgif.person:Guardianship:guardianshipType, Model.belgif.person:ContactPoint:contactMedium, Model.belgif.person:CivilStatus:civilStatusValue, Model.belgif.person:HouseholdRole:roleValue, Model.belgif.person:Descent:descentType
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://data.vlaanderen.be/ns/gebouw#geometrie): Model.oslo.gebouw:Gebouw:geometrie, Model.oslo.gebouw:Gebouweenheid:geometrie
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/2000/01/rdf-schema#label): Model.dcterms:Location:placeName, Model.oslo.adres:Gemeentenaam:gemeentenaam
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#identifier): Model.oslo.generiek:Object:identificator, Model.belgif.organization:DiplomaticPost:identifier
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#start): Model.belgif.generic:Interval:start, Model.belgif.generic:PeriodOfTime:start, Model.belgif.generic:DateTimeInterval:start
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/currency): Model.oslo.dienst:Kost:valuta, Model.semic.cv:Cost:currency
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (https://www.w3.org/2000/01/rdf-schema#label): Model.oslo.adres:Locatienaam:naam, Model.oslo.adres:Straatnaam:straatnaam, Model.oslo.adres:Adreslocator:naam
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#propertyName): Model.playground.registry:Property:propertyName, Model.belgif.registry:Property:propertyName, Model.playground.registry:Property:propertyName, Model.playground.legal:Property:propertyName
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/code): Model.semic.location:AdminUnit:code, Model.semic.cv:AdminUnit:code
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#code): Model.belgif.best:Municipality:code, Model.belgif.best:Address:code
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#location): Model.belgif.generic:Event:location, Model.dcterms:Jurisdiction:location, Model.belgif.legal:LegalEvent:location
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/processingTime): Model.semic.cv:Channel:processingTime, Model.oslo.dienst:PubliekeDienstverlening:verwerkingstijd
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asGML): Model.semic.location:Geometry:gml, Model.oslo.generiek:Geometrie:gml
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/deathDate): Model.semic.person:Person:dateOfDeath, Model.belgif.person:Death:deathDate
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://fixme.com#typeName): Model.playground.registry:Property:typeName, Model.belgif.registry:Property:typeName, Model.playground.registry:Property:typeName, Model.playground.legal:Property:typeName
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://purl.org/dc/terms/alternative): Model.semic.person:Person:alternativeName, Model.belgif.person:Person:alternativeName
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.w3.org/ns/adms#status): Model.oslo.generiek:FormeelKader:status, Model.oslo.dienst:PubliekeDienstverlening:status
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/givenName): Model.semic.person:Person:givenName, Model.belgif.person:Person:givenName
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/level): Model.semic.location:AdminUnit:level, Model.semic.cv:AdminUnit:level
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://xmlns.com/foaf/0.1/name): Model.belgif.person:Person:fullName, Model.semic.person:Person:fullName
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://www.opengis.net/ont/geosparql#asWKT): Model.semic.location:Geometry:wkt, Model.oslo.generiek:Geometrie:wkt
+09:31:50 WARN  c.g.i.o.c.UriAssigner - The following properties (attribute or connector) map to the same URI (http://data.europa.eu/m8g/matronymicName): Model.semic.person:Person:matronymicName, Model.belgif.person:Person:matronymicName
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.diagram".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.diagram".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "issued" tag for "Model.diagram".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "license" tag for "Model.diagram".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CivilStatusValue" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:CivilStatusValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:CivilStatusValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:CivilStatusValue".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DescentType" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:DescentType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:DescentType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:DescentType".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GenderCode" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GenderCode".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GenderCode".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GenderCode".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "StatutoryCohabitation" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Marriage" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Death" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Birth" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Residence" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Household" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:Organization".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Descent" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "RegisteredPerson" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Person" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.legal:LegalSubject".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:Agent".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactMedium" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:ContactMedium".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:ContactMedium".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.generic:ContactMedium".
+09:31:50 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.belgif.person:NobilityTitle".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "NobilityTitle" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:NobilityTitle".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:NobilityTitle".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:NobilityTitle".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ResidenceType" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidenceType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidenceType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidenceType".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ResidencyType" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidencyType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidencyType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ResidencyType".
+09:31:50 WARN  c.g.i.o.c.Converter - No possible values defined for enumeration "Model.belgif.person:GuardianshipType".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "GuardianshipType" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GuardianshipType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GuardianshipType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:GuardianshipType".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "CivilStatus" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ContactPoint" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DomesticResidence" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "ForeignResidence" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DiplomaticPost" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Record" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Guardianship" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PersonRelation" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PersonRelationRole" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Residency" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "Citizenship" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "InternationalProtectionStatus" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PublicLegalStatus" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "DiplomaticStatus" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "HouseholdRole" .
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "PersonRelationRoleValue" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRoleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRoleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRoleValue".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "HouseholdRoleValue" .
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRoleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRoleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRoleValue".
+09:31:50 INFO  c.g.i.o.c.JSONLDOutputHandler - handle class "EUCitizenship" .
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:civilStatus" belongs to package "person" based on source and target definition.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:birth" belongs to package "person" based on source and target definition.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> Person)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> Person)" does not have a name, it will be ignored.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:(Person -> PersonRelationRole)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:Person:(Person -> PersonRelationRole)" does not have a name, it will be ignored.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:death" belongs to package "person" based on source and target definition.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Household)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Household)" does not have a name, it will be ignored.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Household:(Household -> HouseholdRole)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:Household:(Household -> HouseholdRole)" does not have a name, it will be ignored.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> PersonRelation)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:PersonRelationRole:(PersonRelationRole -> PersonRelation)" does not have a name, it will be ignored.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:PersonRelation:(PersonRelation -> PersonRelationRole)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:PersonRelation:(PersonRelation -> PersonRelationRole)" does not have a name, it will be ignored.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Person)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:HouseholdRole:(HouseholdRole -> Person)" does not have a name, it will be ignored.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:(Person -> HouseholdRole)" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.UriAssigner - Connector "Model.belgif.person:Person:(Person -> HouseholdRole)" does not have a name, it will be ignored.
+09:31:50 WARN  c.g.i.o.c.Converter - Package for connector Model.belgif.person:RegisteredPerson:record is unknown
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:RegisteredPerson:record".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:RegisteredPerson:record".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:RegisteredPerson:record".
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Person:publicLegalStatus" belongs to package "person" based on source and target definition.
+09:31:50 INFO  c.g.i.o.c.UriAssigner - Assuming connector "Model.belgif.person:Residency:residence" belongs to package "person" based on source and target definition.
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:residence".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:residence".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residency:residence".
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "Address" for attribute "Model.belgif.person:Residence:address": Model.semic.location:Address, Model.belgif.location:Address, Model.belgif.best:Address.
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residence:residenceType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residence:residenceType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Residence:residenceType".
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "Address" for attribute "Model.belgif.person:Household:householdAddress": Model.semic.location:Address, Model.belgif.location:Address, Model.belgif.best:Address.
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "ContactPoint" for attribute "Model.belgif.person:Person:contactPoint": Model.schema:ContactPoint, Model.semic.cv:ContactPoint, Model.belgif.person:ContactPoint.
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactMedium".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactMedium".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactMedium".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ContactPoint:contactValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ForeignResidence:diplomaticPost".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ForeignResidence:diplomaticPost".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:ForeignResidence:diplomaticPost".
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "Identifier" for attribute "Model.belgif.organization:DiplomaticPost:identifier": Model.semic.adms:Identifier, Model.belgif.best:Identifier, Model.playground.location:Identifier, Model.playground.generic:Identifier.
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:identifier".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:identifier".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:identifier".
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "Country" for attribute "Model.belgif.organization:DiplomaticPost:jurisdiction": Model.belgif.location:Country, Model.belgif.generic:Country, Model.playground.location:Country.
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:jurisdiction".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:jurisdiction".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.organization:DiplomaticPost:jurisdiction".
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "Identifier" for attribute "Model.belgif.registry:Record:identifier": Model.semic.adms:Identifier, Model.belgif.best:Identifier, Model.playground.location:Identifier, Model.playground.generic:Identifier.
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "RecordStatus" for attribute "Model.belgif.registry:Record:recordStatus": Model.playground.registry:RecordStatus, Model.playground.registry:RecordStatus, Model.belgif.registry:RecordStatus.
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Guardianship:guardianshipType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Guardianship:guardianshipType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:Guardianship:guardianshipType".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRole:roleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRole:roleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PersonRelationRole:roleValue".
+09:31:50 WARN  c.g.i.o.c.Converter - Ambiguous data type "Country" for attribute "Model.belgif.person:PublicLegalStatus:jurisdiction": Model.belgif.location:Country, Model.belgif.generic:Country, Model.playground.location:Country.
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:jurisdiction".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:jurisdiction".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:PublicLegalStatus:jurisdiction".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRole:roleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRole:roleValue".
+09:31:50 WARN  c.g.i.o.c.TagHelper - Missing "ap-definition-en" tag for "Model.belgif.person:HouseholdRole:roleValue".
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Unmarried - {28180BB1-9107-47c0-8F57-A1566EAF4516}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Married - {239BEDA2-9034-4923-A37D-1AC621A3FF6A}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Separated - {93F744A5-675B-4fec-80A8-E93709482BB6}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Widow - {77FF850F-1CF6-4869-89BF-418B756795B8}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: DeFactoCohabitation - {8464FEBE-B22F-4e6c-8E8F-A8268DFCA18E}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: StatutoryCohabitation - {B0A2690C-D30D-4340-88B8-471031BBFB74}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Paternity - {45BEFB04-9D3C-4d8f-ACBF-3B3D3DFA9262}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Maternity - {D035E731-33AF-42c8-8078-75896249D904}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Parenthood - {CEC97473-E91B-4691-9D5C-68B8E51BD8B4}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Male - {9E430D42-F03A-4f80-B76F-2E3A7D960B5B}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Female - {D9B20652-3DDA-4025-BACA-8B574525B64E}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: NotKnown - {E49E6589-B249-4fa4-879E-42BE73690D8E}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Phone - {AA1DB98F-9A1E-4e73-82AE-0A5AA4D5EC8F}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Email - {E9F9699A-F491-407e-90D8-F7271AC4E78F}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: LegalDomicile - {892BC00A-8852-4178-BDD3-804A444FD67E}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: ReferenceAddress - {D9C60775-99FB-4662-BDC2-7D45C1888E95}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: ForeignPostalAddress - {D33E5DC0-CC28-499a-AD3D-87A5DAA85A49}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: MainResidence - {F6D77B95-77D6-4593-8D7C-6F869253C9D5}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: TemporaryResident - {DE4B1154-C936-460a-90A4-B42B436759C4}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: PermanentResident - {C582C6F2-D150-4e94-AE35-7CE9205BAFB9}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: DiplomaticResident - {A75247AF-961E-4e80-974D-BBB3CA17B1B2}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: ShortTermStay - {9E491121-DB9B-499b-B84A-5146EBEBA500}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: LongTermStay - {DD22BE1A-014B-403d-BB84-40D45CDEFD82}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Spouse - {CBC3D042-9F28-4782-B509-ED927D844304}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Son - {E0C7721C-3A1E-4e29-AB71-604EC98EEFCC}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: Daughter - {C1A01403-AF54-4584-9A1D-9DBA6318BE52}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: StatutoryCohabitant - {022E9309-217E-42c3-87B9-E843DF173F81}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: DeFactoCohabitant - {9A3075B7-B28E-46a8-8227-55837571DE60}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: LegalGuardian - {98E1A0FF-71B0-465f-A4E4-30FC0511BCE6}
+09:31:50 WARN  c.g.i.o.c.JSONLDOutputHandler - INSTANCE NOT HANDLED: ReferencePerson - {BD0367D7-4F61-4c2f-AEBB-AC6A157E5664}

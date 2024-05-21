@@ -108,8 +108,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "iceg-person",
   "disabled": false,
-  "documentcommit": "f6e2ccb61c9ec171d0f1abedc6712dc70fc900b5",
-  "dummy": "002",
+  "documentcommit": "84b3ffd696919a9362da672d64380415d2700d43",
+  "dummy": "003",
   "eap": "ICEG-Person.eap",
   "editors": [
     {
@@ -664,7 +664,7 @@
         "en": "TODO"
       },
       "ap-label-en": {
-        "en": "country"
+        "en": "identifier"
       },
       "codelist": [],
       "domain": [
@@ -691,7 +691,7 @@
           {
             "key": "label-en",
             "note": "null",
-            "value": "country"
+            "value": "identifier"
           },
           {
             "key": "uri",
@@ -705,23 +705,23 @@
           "en": "TODO"
         },
         "ap-label-en": {
-          "en": "country"
+          "en": "identifier"
         },
         "ap-usageNote-en": "",
         "definition": "",
         "label": {
-          "en": "country"
+          "en": "identifier"
         },
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
       "label": {
-        "en": "country"
+        "en": "identifier"
       },
       "maxCardinality": "*",
       "minCardinality": "1",
-      "name": "country",
+      "name": "identifier",
       "range": [
         {
           "EA-GUID": "{7341FC50-B5BB-4f1f-AB72-41C68E7C8AAA}",
@@ -805,16 +805,109 @@
       ]
     },
     {
+      "@id": "http://vocab.belgif.be/ns/person#record",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{C87DCF0C-F256-421d-9A37-B12B47D539FE}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "ap-label-en": {
+        "en": "record"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "RegisteredPerson",
+          "uri": "http://vocab.belgif.be/ns/person#RegisteredPerson"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "record",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/person#record",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "RegisteredPerson",
+        "EA-Domain-Guid": "{68F9C64F-B2BC-4cdc-983F-633E88F5A446}",
+        "EA-Guid": "{C87DCF0C-F256-421d-9A37-B12B47D539FE}",
+        "EA-Name": "record",
+        "EA-Package": "",
+        "EA-Range": "Record",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
+          "EA-Name": "Record",
+          "EA-Package": "registry",
+          "uri": "http://vocab.belgif.be/ns/person#Record"
+        },
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "record",
+            "value": "NOTE"
+          },
+          {
+            "key": "uri",
+            "note": "http://vocab.belgif.be/ns/person#record",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": {
+          "en": "record"
+        },
+        "ap-usageNote-en": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "record",
+        "label": {
+          "en": "record"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "UNKNOWN",
+      "label": {
+        "en": "record"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "record",
+      "range": [
+        {
+          "EA-GUID": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
+          "EA-Name": "Record",
+          "EA-Package": "registry",
+          "uri": "http://vocab.belgif.be/ns/person#Record"
+        }
+      ]
+    },
+    {
       "@id": "http://vocab.belgif.be/ns/person#publicLegalStatus",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{814A0319-2EB3-4b1d-B8A0-ADA3A3A15FB0}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "The status of the person under public law."
       },
       "ap-label-en": {
         "en": "public legal status"
       },
       "codelist": [],
+      "definition": {
+        "en": "The status of the person under public law."
+      },
       "domain": [
         {
           "EA-Name": "Person",
@@ -826,6 +919,11 @@
           {
             "key": "label-en",
             "note": "public legal status",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "The status of the person under public law.",
             "value": "NOTE"
           },
           {
@@ -854,6 +952,11 @@
             "value": "NOTE"
           },
           {
+            "key": "definition-en",
+            "note": "The status of the person under public law.",
+            "value": "NOTE"
+          },
+          {
             "key": "uri",
             "note": "http://vocab.belgif.be/ns/person#publicLegalStatus",
             "value": "NOTE"
@@ -862,13 +965,15 @@
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "The status of the person under public law."
         },
         "ap-label-en": {
           "en": "public legal status"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "The status of the person under public law."
+        },
         "derived": "false",
         "destRole": "publicLegalStatus",
         "label": {
@@ -1108,7 +1213,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Often used as a criterion to determine whether persons are part of the same household."
+            "value": "Used as a criterion to determine whether persons are part of the same household."
           },
           {
             "key": "uri",
@@ -1132,7 +1237,7 @@
           "en": "household address"
         },
         "usage": {
-          "en": "Often used as a criterion to determine whether persons are part of the same household."
+          "en": "Used as a criterion to determine whether persons are part of the same household."
         }
       },
       "generalization": [],
@@ -1152,7 +1257,7 @@
         }
       ],
       "usage": {
-        "en": "Often used as a criterion to determine whether persons are part of the same household."
+        "en": "Used as a criterion to determine whether persons are part of the same household."
       }
     },
     {
@@ -1445,12 +1550,15 @@
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "EA-Guid": "{A907A21C-15DE-4f01-B001-C6394E9686DA}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Any name by which a person is known, other than their full name"
       },
       "ap-label-en": {
         "en": "alternative name"
       },
       "codelist": [],
+      "definition": {
+        "en": "Any name by which a person is known, other than their full name"
+      },
       "domain": [
         {
           "EA-Name": "Person",
@@ -1480,18 +1588,25 @@
             "key": "uri",
             "note": "null",
             "value": "http://purl.org/dc/terms/alternative"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Any name by which a person is known, other than their full name"
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Any name by which a person is known, other than their full name"
         },
         "ap-label-en": {
           "en": "alternative name"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Any name by which a person is known, other than their full name"
+        },
         "label": {
           "en": "alternative name"
         },
@@ -2054,64 +2169,6 @@
       ]
     },
     {
-      "@id": "http://fixme.com#residency",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{A35C5149-10E9-4b05-8E6C-793B1AFB7F9E}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "PublicLegalStatus",
-          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "PublicLegalStatus",
-        "EA-Domain-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
-        "EA-Guid": "{A35C5149-10E9-4b05-8E6C-793B1AFB7F9E}",
-        "EA-Name": "residency",
-        "EA-Package": "",
-        "EA-Range": "Residency",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{39842E58-770A-45ff-8987-5939EE40B446}",
-          "EA-Name": "Residency",
-          "EA-Package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#Residency"
-        },
-        "RawTags": [],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "derived": "false",
-        "destRole": "residency",
-        "label": "",
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{39842E58-770A-45ff-8987-5939EE40B446}",
-          "EA-Name": "Residency",
-          "EA-Package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#Residency"
-        }
-      ]
-    },
-    {
       "@id": "http://fixme.com#residence",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{BC08CC5E-44C2-4a3b-88D0-27F372EFDA13}",
@@ -2196,12 +2253,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{7A1B23E7-6B55-4110-AF4F-E73A1851805E}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "Refers to the current state or condition of a record within the base registry."
       },
       "ap-label-en": {
         "en": "record status"
       },
       "codelist": [],
+      "definition": {
+        "en": "Refers to the current state or condition of a record within the base registry."
+      },
       "domain": [
         {
           "EA-Name": "Record",
@@ -2227,18 +2287,25 @@
             "key": "label-en",
             "note": "null",
             "value": "record status"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "Refers to the current state or condition of a record within the base registry."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "Refers to the current state or condition of a record within the base registry."
         },
         "ap-label-en": {
           "en": "record status"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "Refers to the current state or condition of a record within the base registry."
+        },
         "label": {
           "en": "record status"
         },
@@ -2344,7 +2411,7 @@
     {
       "@id": "http://fixme.com#jurisdiction",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{77BB5D59-A7EA-4b5c-AE1B-34B92BED68A5}",
+      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
       "ap-definition-en": {
         "en": "TODO"
       },
@@ -2354,16 +2421,16 @@
       "codelist": [],
       "domain": [
         {
-          "EA-Name": "Residency",
-          "uri": "http://vocab.belgif.be/ns/person#Residency"
+          "EA-Name": "DiplomaticPost",
+          "uri": "http://vocab.belgif.be/ns/organization#DiplomaticPost"
         }
       ],
       "extra": {
-        "EA-Domain": "Residency",
-        "EA-Domain-Guid": "{39842E58-770A-45ff-8987-5939EE40B446}",
-        "EA-Guid": "{77BB5D59-A7EA-4b5c-AE1B-34B92BED68A5}",
+        "EA-Domain": "DiplomaticPost",
+        "EA-Domain-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
+        "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
         "EA-Name": "jurisdiction",
-        "EA-Package": "person",
+        "EA-Package": "organization",
         "EA-Range": "Country",
         "EA-Type": "attribute",
         "RangeData": {
@@ -2482,86 +2549,19 @@
       ]
     },
     {
-      "@id": "http://fixme.com#jurisdiction",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "ap-label-en": {
-        "en": "country"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "DiplomaticPost",
-          "uri": "http://vocab.belgif.be/ns/organization#DiplomaticPost"
-        }
-      ],
-      "extra": {
-        "EA-Domain": "DiplomaticPost",
-        "EA-Domain-Guid": "{9F8FC8D9-775A-49ad-9C31-A8FA56A9A463}",
-        "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
-        "EA-Name": "jurisdiction",
-        "EA-Package": "organization",
-        "EA-Range": "Country",
-        "EA-Type": "attribute",
-        "RangeData": {
-          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
-          "EA-Name": "Country",
-          "EA-Package": "location",
-          "uri": "http://fixme.com#Country"
-        },
-        "RawTags": [
-          {
-            "key": "label-en",
-            "note": "null",
-            "value": "country"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": {
-          "en": "country"
-        },
-        "ap-usageNote-en": "",
-        "definition": "",
-        "label": {
-          "en": "country"
-        },
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "en": "country"
-      },
-      "maxCardinality": "1",
-      "minCardinality": "1",
-      "name": "country",
-      "range": [
-        {
-          "EA-GUID": "{F4A46652-52B1-464a-95B6-19917DF3382F}",
-          "EA-Name": "Country",
-          "EA-Package": "location",
-          "uri": "http://fixme.com#Country"
-        }
-      ]
-    },
-    {
       "@id": "http://fixme.com#identifier",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{FF10322C-3C80-4bcd-8AB4-79F5B5EDF661}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records."
       },
       "ap-label-en": {
         "en": "identifier"
       },
       "codelist": [],
+      "definition": {
+        "en": "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records."
+      },
       "domain": [
         {
           "EA-Name": "Record",
@@ -2587,18 +2587,25 @@
             "key": "label-en",
             "note": "null",
             "value": "identifier"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records."
         },
         "ap-label-en": {
           "en": "identifier"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records."
+        },
         "label": {
           "en": "identifier"
         },
@@ -2626,9 +2633,15 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{67AC03F6-A857-4222-8E25-DA7A74B07DFB}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "The civil status of the person."
+      },
+      "ap-label-en": {
+        "en": "civil status"
       },
       "codelist": [],
+      "definition": {
+        "en": "The civil status of the person."
+      },
       "domain": [
         {
           "EA-Name": "Person",
@@ -2636,7 +2649,18 @@
         }
       ],
       "extra": {
-        "DestRoleTags": [],
+        "DestRoleTags": [
+          {
+            "key": "label-en",
+            "note": "civil status",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "The civil status of the person.",
+            "value": "NOTE"
+          }
+        ],
         "EA-Domain": "Person",
         "EA-Domain-Guid": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
         "EA-Guid": "{67AC03F6-A857-4222-8E25-DA7A74B07DFB}",
@@ -2650,26 +2674,46 @@
           "EA-Package": "person",
           "uri": "http://vocab.belgif.be/ns/person#CivilStatus"
         },
-        "RawTags": [],
+        "RawTags": [
+          {
+            "key": "label-en",
+            "note": "civil status",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "The civil status of the person.",
+            "value": "NOTE"
+          }
+        ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "The civil status of the person."
         },
-        "ap-label-en": "",
+        "ap-label-en": {
+          "en": "civil status"
+        },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "The civil status of the person."
+        },
         "derived": "false",
         "destRole": "civilStatus",
-        "label": "",
+        "label": {
+          "en": "civil status"
+        },
         "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "en": "civil status"
+      },
       "maxCardinality": "1",
       "minCardinality": "0",
-      "name": "",
+      "name": "civilStatus",
       "range": [
         {
           "EA-GUID": "{E12D29AC-62A7-4b7a-A4B5-948D6FFDB40E}",
@@ -2861,6 +2905,7 @@
       "@id": "http://data.europa.eu/m8g/gender",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{D221FE11-18B1-4a0f-9C2E-82D550B07149}",
+      "ap-codelist": "Follows the <a href=''https://www.iso.org/standard/81682.html\">ISO 5218 standard</a>: Not known, Male and Female. Value \"Not applicable\" is not used.",
       "ap-definition-en": {
         "en": "The administrative gender of the person."
       },
@@ -2906,10 +2951,15 @@
             "key": "uri",
             "note": "null",
             "value": "http://data.europa.eu/m8g/gender"
+          },
+          {
+            "key": "ap-codelist",
+            "note": "null",
+            "value": "Follows the <a href=''https://www.iso.org/standard/81682.html\">ISO 5218 standard</a>: Not known, Male and Female. Value \"Not applicable\" is not used."
           }
         ],
         "Scope": "NOTHING",
-        "ap-codelist": "",
+        "ap-codelist": "Follows the <a href=''https://www.iso.org/standard/81682.html\">ISO 5218 standard</a>: Not known, Male and Female. Value \"Not applicable\" is not used.",
         "ap-definition-en": {
           "en": "The administrative gender of the person."
         },
@@ -3295,7 +3345,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French.",
+            "note": "In Belgium, this matter is organized in the <a href=\" https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet\">Belgian Nationality Code</a>. We use the term \"citizenship\" instead of \"nationality\" to align with international practice (cf., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French.",
             "value": "NOTE"
           },
           {
@@ -3321,7 +3371,7 @@
         },
         "parentclasses": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
         "usage": {
-          "en": "In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French."
+          "en": "In Belgium, this matter is organized in the <a href=\" https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet\">Belgian Nationality Code</a>. We use the term \"citizenship\" instead of \"nationality\" to align with international practice (cf., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -3330,7 +3380,7 @@
       },
       "name": "Citizenship",
       "usage": {
-        "en": "In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French."
+        "en": "In Belgium, this matter is organized in the <a href=\" https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet\">Belgian Nationality Code</a>. We use the term \"citizenship\" instead of \"nationality\" to align with international practice (cf., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French."
       }
     },
     {
@@ -3649,7 +3699,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
+            "value": "Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
           }
         ],
         "Scope": "NOTHING",
@@ -3669,7 +3719,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
+          "en": "Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -3678,7 +3728,7 @@
       },
       "name": "CivilStatus",
       "usage": {
-        "en": "Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
+        "en": "Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
       }
     },
     {
@@ -3789,7 +3839,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent).",
+            "note": "The descent can be biological as well as non-biological, e.g. adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (i.e. no link between child and grandparent).",
             "value": "NOTE"
           },
           {
@@ -3815,7 +3865,7 @@
         },
         "parentclasses": "http://vocab.belgif.be/ns/person#PersonRelation",
         "usage": {
-          "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent)."
+          "en": "The descent can be biological as well as non-biological, e.g. adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (i.e. no link between child and grandparent)."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -3824,7 +3874,7 @@
       },
       "name": "Descent",
       "usage": {
-        "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent)."
+        "en": "The descent can be biological as well as non-biological, e.g. adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (i.e. no link between child and grandparent)."
       }
     },
     {
@@ -3900,13 +3950,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{57DDEECB-14B7-46b7-B1D0-CA8494CA55D3}",
       "ap-definition-en": {
-        "en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+        "en": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
       },
       "ap-label-en": {
         "en": "Domestic Residence"
       },
       "definition": {
-        "en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+        "en": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
       },
       "extra": {
         "EA-Guid": "{57DDEECB-14B7-46b7-B1D0-CA8494CA55D3}",
@@ -3936,20 +3986,20 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+            "value": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+          "en": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
         },
         "ap-label-en": {
           "en": "Domestic Residence"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+          "en": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
         },
         "label": {
           "en": "Domestic Residence"
@@ -4036,13 +4086,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{82257739-323D-4e6a-A20C-14710DE402FD}",
       "ap-definition-en": {
-        "en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+        "en": "Place outside the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
       },
       "ap-label-en": {
         "en": "Foreign Residence"
       },
       "definition": {
-        "en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+        "en": "Place outside the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
       },
       "extra": {
         "EA-Guid": "{82257739-323D-4e6a-A20C-14710DE402FD}",
@@ -4072,20 +4122,20 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+            "value": "Place outside the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+          "en": "Place outside the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
         },
         "ap-label-en": {
           "en": "Foreign Residence"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily."
+          "en": "Place outside the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
         },
         "label": {
           "en": "Foreign Residence"
@@ -4182,13 +4232,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{F747041B-2DF2-462f-BA4C-512BB880AE58}",
       "ap-definition-en": {
-        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+        "en": "Form of cooperation that forms a recognizable social unit (e.g. through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
       },
       "ap-label-en": {
         "en": "Household"
       },
       "definition": {
-        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+        "en": "Form of cooperation that forms a recognizable social unit (e.g. through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
       },
       "extra": {
         "EA-Guid": "{F747041B-2DF2-462f-BA4C-512BB880AE58}",
@@ -4213,12 +4263,12 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+            "value": "Form of cooperation that forms a recognizable social unit (e.g. through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
           },
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
+            "value": "It is a broader concept than family where the family consists not solely of close relatives, e.g. a single-person family or living separately together. Household members share the same residence."
           },
           {
             "key": "uri",
@@ -4229,21 +4279,21 @@
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+          "en": "Form of cooperation that forms a recognizable social unit (e.g. through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
         },
         "ap-label-en": {
           "en": "Household"
         },
         "ap-usageNote-en": "",
         "definition": {
-          "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
+          "en": "Form of cooperation that forms a recognizable social unit (e.g. through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care."
         },
         "label": {
           "en": "Household"
         },
         "parentclasses": "http://fixme.com#Organization",
         "usage": {
-          "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
+          "en": "It is a broader concept than family where the family consists not solely of close relatives, e.g. a single-person family or living separately together. Household members share the same residence."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -4252,7 +4302,7 @@
       },
       "name": "Household",
       "usage": {
-        "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence."
+        "en": "It is a broader concept than family where the family consists not solely of close relatives, e.g. a single-person family or living separately together. Household members share the same residence."
       }
     },
     {
@@ -4496,7 +4546,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "Typically, these are civil law relationships (see civil status) but not necessarily limited thereto."
+            "value": "Typically, these are civil law relationships but not necessarily limited thereto."
           },
           {
             "key": "uri",
@@ -4521,7 +4571,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "Typically, these are civil law relationships (see civil status) but not necessarily limited thereto."
+          "en": "Typically, these are civil law relationships but not necessarily limited thereto."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -4530,7 +4580,7 @@
       },
       "name": "PersonRelation",
       "usage": {
-        "en": "Typically, these are civil law relationships (see civil status) but not necessarily limited thereto."
+        "en": "Typically, these are civil law relationships but not necessarily limited thereto."
       }
     },
     {
@@ -4572,7 +4622,7 @@
           {
             "key": "usageNote-en",
             "note": "null",
-            "value": "The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
+            "value": "When a person relation implies direction, the role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
           }
         ],
         "Scope": "NOTHING",
@@ -4592,7 +4642,7 @@
         },
         "parentclasses": "",
         "usage": {
-          "en": "The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
+          "en": "When a person relation implies direction, the role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -4601,7 +4651,7 @@
       },
       "name": "RelationRole",
       "usage": {
-        "en": "The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
+        "en": "When a person relation implies direction, the role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target)."
       }
     },
     {
@@ -4670,10 +4720,13 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
       "ap-definition-en": {
-        "en": "TODO"
+        "en": "A record within an authentic source, specifically a base registry, is an entry of reliable and authoritative information collected, used, updated, and maintained by a responsible public organization."
       },
       "ap-label-en": {
         "en": "Record"
+      },
+      "definition": {
+        "en": "A record within an authentic source, specifically a base registry, is an entry of reliable and authoritative information collected, used, updated, and maintained by a responsible public organization."
       },
       "extra": {
         "EA-Guid": "{3FAA78C5-0774-40d8-93D7-F9294B4D3AB7}",
@@ -4692,18 +4745,25 @@
             "key": "uri",
             "note": "null",
             "value": "http://vocab.belgif.be/ns/person#Record"
+          },
+          {
+            "key": "definition-en",
+            "note": "null",
+            "value": "A record within an authentic source, specifically a base registry, is an entry of reliable and authoritative information collected, used, updated, and maintained by a responsible public organization."
           }
         ],
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "TODO"
+          "en": "A record within an authentic source, specifically a base registry, is an entry of reliable and authoritative information collected, used, updated, and maintained by a responsible public organization."
         },
         "ap-label-en": {
           "en": "Record"
         },
         "ap-usageNote-en": "",
-        "definition": "",
+        "definition": {
+          "en": "A record within an authentic source, specifically a base registry, is an entry of reliable and authoritative information collected, used, updated, and maintained by a responsible public organization."
+        },
         "label": {
           "en": "Record"
         },
@@ -4756,7 +4816,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population.",
+            "note": "This registry is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name), the place of residence of the person and to important life events such as birth, marriage, decease, etc. This data is typically registered by a public institution, they offer the registered person legal protection and they allow the public authorities to compile basic statistics about its population.",
             "value": "NOTE"
           },
           {
@@ -4782,7 +4842,7 @@
         },
         "parentclasses": "http://www.w3.org/ns/person#Person",
         "usage": {
-          "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
+          "en": "This registry is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name), the place of residence of the person and to important life events such as birth, marriage, decease, etc. This data is typically registered by a public institution, they offer the registered person legal protection and they allow the public authorities to compile basic statistics about its population."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -4791,7 +4851,7 @@
       },
       "name": "RegisteredPerson",
       "usage": {
-        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population."
+        "en": "This registry is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name), the place of residence of the person and to important life events such as birth, marriage, decease, etc. This data is typically registered by a public institution, they offer the registered person legal protection and they allow the public authorities to compile basic statistics about its population."
       }
     },
     {
@@ -4811,8 +4871,15 @@
         "EA-Guid": "{39842E58-770A-45ff-8987-5939EE40B446}",
         "EA-Name": "Residency",
         "EA-Package": "person",
-        "EA-Parents": "",
-        "EA-Parents2": [],
+        "EA-Parents": "PublicLegalStatus",
+        "EA-Parents2": [
+          {
+            "label": "Public Legal Status",
+            "name": "PublicLegalStatus",
+            "package": "person",
+            "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
+          }
+        ],
         "EA-Type": "CLASS",
         "RawTags": [
           {
@@ -4846,7 +4913,7 @@
         "label": {
           "en": "Residency"
         },
-        "parentclasses": "",
+        "parentclasses": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
         "usage": ""
       },
       "inpackage": "OTHER_PACKAGE",
@@ -4860,7 +4927,7 @@
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "EA-Guid": "{ADF14A72-93D4-4305-BAE7-D21FF167C213}",
       "ap-definition-en": {
-        "en": "Arrangement whereby two people who are not married live together."
+        "en": "Two people who are living together and make a declaration of statutory cohabitation to the competent municipality are statutory cohabitants."
       },
       "ap-label-en": {
         "en": "Statutory Cohabitation"
@@ -4869,7 +4936,7 @@
         "en": "Can, just like a marriage, form the basis of a household."
       },
       "definition": {
-        "en": "Arrangement whereby two people who are not married live together."
+        "en": "Two people who are living together and make a declaration of statutory cohabitation to the competent municipality are statutory cohabitants."
       },
       "extra": {
         "EA-Guid": "{ADF14A72-93D4-4305-BAE7-D21FF167C213}",
@@ -4894,7 +4961,7 @@
           {
             "key": "definition-en",
             "note": "null",
-            "value": "Arrangement whereby two people who are not married live together."
+            "value": "Two people who are living together and make a declaration of statutory cohabitation to the competent municipality are statutory cohabitants."
           },
           {
             "key": "ap-usageNote-en",
@@ -4910,7 +4977,7 @@
         "Scope": "NOTHING",
         "ap-codelist": "",
         "ap-definition-en": {
-          "en": "Arrangement whereby two people who are not married live together."
+          "en": "Two people who are living together and make a declaration of statutory cohabitation to the competent municipality are statutory cohabitants."
         },
         "ap-label-en": {
           "en": "Statutory Cohabitation"
@@ -4919,7 +4986,7 @@
           "en": "Can, just like a marriage, form the basis of a household."
         },
         "definition": {
-          "en": "Arrangement whereby two people who are not married live together."
+          "en": "Two people who are living together and make a declaration of statutory cohabitation to the competent municipality are statutory cohabitants."
         },
         "label": {
           "en": "Statutory Cohabitation"
@@ -5417,7 +5484,7 @@
           },
           {
             "key": "usageNote-en",
-            "note": "In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.).",
+            "note": "In legal terms, a person refers to a natural person, meaning an individual human being with their own legal personality. The counterpart is the legal person, a legal construction that grants a private or public organization legal personality. For example, a legal person can incur debts, enter into contracts and be sued.",
             "value": "NOTE"
           }
         ],
@@ -5438,7 +5505,7 @@
         },
         "parentclasses": "http://fixme.com#LegalSubject, http://fixme.com#Agent",
         "usage": {
-          "en": "In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
+          "en": "In legal terms, a person refers to a natural person, meaning an individual human being with their own legal personality. The counterpart is the legal person, a legal construction that grants a private or public organization legal personality. For example, a legal person can incur debts, enter into contracts and be sued."
         }
       },
       "inpackage": "OTHER_PACKAGE",
@@ -5447,7 +5514,7 @@
       },
       "name": "Person",
       "usage": {
-        "en": "In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.)."
+        "en": "In legal terms, a person refers to a natural person, meaning an individual human being with their own legal personality. The counterpart is the legal person, a legal construction that grants a private or public organization legal personality. For example, a legal person can incur debts, enter into contracts and be sued."
       }
     }
   ],
@@ -5478,7 +5545,7 @@
   "standaardregisterurl": "TODO",
   "template": "person.j2",
   "title": "Person",
-  "toolchaincommit": "cc9e36dfce6e8ee72a0921da01cb0180f72ee070",
+  "toolchaincommit": "0f83ac066948cc36a1ece3f04c2affaa76289ceb",
   "translation": [
     {
       "language": "en",

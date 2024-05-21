@@ -121,7 +121,7 @@
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
           "sh:minCount": "1",
           "sh:name": {
-            "en": "country"
+            "en": "identifier"
           },
           "sh:path": "http://www.w3.org/ns/adms#identifier"
         },
@@ -130,7 +130,7 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "en": "country"
+            "en": "jurisdiction"
           },
           "sh:path": "http://fixme.com#jurisdiction"
         }
@@ -383,11 +383,6 @@
             "en": "jurisdiction"
           },
           "sh:path": "http://fixme.com#jurisdiction"
-        },
-        {
-          "sh:class": "http://vocab.belgif.be/ns/person#Residency",
-          "sh:description": "",
-          "sh:path": "http://fixme.com#residency"
         }
       ],
       "sh:targetClass": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
@@ -399,6 +394,9 @@
       "sh:property": [
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
+          "sh:description": {
+            "en": "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
@@ -408,6 +406,9 @@
         },
         {
           "sh:class": "http://fixme.com#RecordStatus",
+          "sh:description": {
+            "en": "Refers to the current state or condition of a record within the base registry."
+          },
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
@@ -422,7 +423,15 @@
       "@id": "https://belgif.github.io//thematic/models/person#RegisteredPersonShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:class": "http://vocab.belgif.be/ns/person#Record",
+          "sh:name": {
+            "en": "record"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/person#record"
+        }
+      ],
       "sh:targetClass": "http://vocab.belgif.be/ns/person#RegisteredPerson"
     },
     {
@@ -430,15 +439,6 @@
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
-        {
-          "sh:class": "http://fixme.com#Country",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "jurisdiction"
-          },
-          "sh:path": "http://fixme.com#jurisdiction"
-        },
         {
           "sh:class": "http://fixme.com#Residence",
           "sh:name": {
@@ -519,6 +519,9 @@
       "sh:property": [
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": {
+            "en": "Any name by which a person is known, other than their full name"
+          },
           "sh:name": {
             "en": "alternative name"
           },
@@ -538,8 +541,13 @@
         },
         {
           "sh:class": "http://vocab.belgif.be/ns/person#CivilStatus",
-          "sh:description": "",
+          "sh:description": {
+            "en": "The civil status of the person."
+          },
           "sh:maxCount": "1",
+          "sh:name": {
+            "en": "civil status"
+          },
           "sh:path": "http://fixme.com#civilStatus"
         },
         {
@@ -586,6 +594,7 @@
           "sh:path": "http://xmlns.com/foaf/0.1/name"
         },
         {
+          "qb:codeList": "Follows the <a href=''https://www.iso.org/standard/81682.html\">ISO 5218 standard</a>: Not known, Male and Female. Value \"Not applicable\" is not used.",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": {
             "en": "The administrative gender of the person."
@@ -667,6 +676,9 @@
         },
         {
           "sh:class": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+          "sh:description": {
+            "en": "The status of the person under public law."
+          },
           "sh:name": {
             "en": "public legal status"
           },

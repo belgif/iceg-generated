@@ -171,6 +171,11 @@
       "@id": "http://vocab.belgif.be/ns/person#publicLegalStatus",
       "@type": "@id"
     },
+    "record": {
+      "@container": "@set",
+      "@id": "http://vocab.belgif.be/ns/person#record",
+      "@type": "@id"
+    },
     "recordStatus": {
       "@id": "http://fixme.com#recordStatus",
       "@type": "@id"
@@ -183,11 +188,6 @@
     "residenceType": {
       "@container": "@set",
       "@id": "http://purl.org/dc/elements/1.1/type",
-      "@type": "@id"
-    },
-    "residency": {
-      "@container": "@set",
-      "@id": "http://fixme.com#residency",
       "@type": "@id"
     }
   }

@@ -164,9 +164,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-person/tree/f6e2ccb61c9ec171d0f1abedc6712dc70fc900b5">https://github.com/belgif/ICEGthema-person/tree/f6e2ccb61c9ec171d0f1abedc6712dc70fc900b5</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-person/tree/84b3ffd696919a9362da672d64380415d2700d43">https://github.com/belgif/ICEGthema-person/tree/84b3ffd696919a9362da672d64380415d2700d43</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-person/blob/f6e2ccb61c9ec171d0f1abedc6712dc70fc900b5/CHANGELOG">https://github.com/belgif/ICEGthema-person/blob/f6e2ccb61c9ec171d0f1abedc6712dc70fc900b5/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-person/blob/84b3ffd696919a9362da672d64380415d2700d43/CHANGELOG">https://github.com/belgif/ICEGthema-person/blob/84b3ffd696919a9362da672d64380415d2700d43/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/belgif/thematic/issues">https://github.com/belgif/thematic/issues</a></dd>
                   
@@ -379,7 +379,7 @@
                   <dd>Legal connection of a person with a state, which carries certain rights and obligations.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href="https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to "nationaliteit" in Dutch en "nationalité" in French.</dd>
+                  <dd>In Belgium, this matter is organized in the <a href=" https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet">Belgian Nationality Code</a>. We use the term "citizenship" instead of "nationality" to align with international practice (cf., terminology used in <a href="https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to "nationaliteit" in Dutch en "nationalité" in French.</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -404,7 +404,7 @@
                   <dd>Status of a person according to civil law.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals.</dd>
+                  <dd>Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals.</dd>
                   
                   
                   <dt>Properties</dt>
@@ -628,7 +628,7 @@
                   <dd>Descent is the descending line of blood relationship between different generations.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent).</dd>
+                  <dd>The descent can be biological as well as non-biological, e.g. adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (i.e. no link between child and grandparent).</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -697,8 +697,8 @@
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
-                    <a href="#DiplomaticPost%3Acountry">country</a>, 
-                    <a href="#DiplomaticPost%3Acountry">country</a>.
+                    <a href="#DiplomaticPost%3Aidentifier">identifier</a>, 
+                    <a href="#DiplomaticPost%3Ajurisdiction">jurisdiction</a>.
                   </dd>
                   
                 </dl>
@@ -719,11 +719,11 @@
 
                   <tbody class="supertype">
                     
-                    <tr id="DiplomaticPost%3Acountry" typeof="rdfs:Property" resource="http://www.w3.org/ns/adms#identifier">
+                    <tr id="DiplomaticPost%3Aidentifier" typeof="rdfs:Property" resource="http://www.w3.org/ns/adms#identifier">
                       <td>
                         <code property="rdfs:label">
                             <a href="http://www.w3.org/ns/adms#identifier" data-toggle="tooltip" data-content="http://www.w3.org/ns/adms#identifier" data-placement="right">
-                            country</a>
+                            identifier</a>
                           </code>
                       </td>
                       <td>
@@ -739,11 +739,11 @@
                       <td></td>
                     </tr>
                     
-                    <tr id="DiplomaticPost%3Acountry" typeof="rdfs:Property" resource="http://fixme.com#jurisdiction">
+                    <tr id="DiplomaticPost%3Ajurisdiction" typeof="rdfs:Property" resource="http://fixme.com#jurisdiction">
                       <td>
                         <code property="rdfs:label">
                             <a href="http://fixme.com#jurisdiction" data-toggle="tooltip" data-content="http://fixme.com#jurisdiction" data-placement="right">
-                            country</a>
+                            jurisdiction</a>
                           </code>
                       </td>
                       <td>
@@ -792,7 +792,7 @@
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd>Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily.</dd>
+                  <dd>Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily.</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -836,7 +836,7 @@
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd>Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily.</dd>
+                  <dd>Place outside the jurisdiction of interest where a person lives or stays, either permanently or temporarily.</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -965,10 +965,10 @@
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd>Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care.</dd>
+                  <dd>Form of cooperation that forms a recognizable social unit (e.g. through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence.</dd>
+                  <dd>It is a broader concept than family where the family consists not solely of close relatives, e.g. a single-person family or living separately together. Household members share the same residence.</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -1016,7 +1016,7 @@
                       </td>
                       <td>0..1</td>
                       <td property="rdfs:comment">Address of the residence of the household.</td>
-                      <td property="skos:scopeNote">Often used as a criterion to determine whether persons are part of the same household.</td>
+                      <td property="skos:scopeNote">Used as a criterion to determine whether persons are part of the same household.</td>
                       <td></td>
                     </tr>
                     
@@ -1139,7 +1139,7 @@
                   <dd>A natural person.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.).</dd>
+                  <dd>In legal terms, a person refers to a natural person, meaning an individual human being with their own legal personality. The counterpart is the legal person, a legal construction that grants a private or public organization legal personality. For example, a legal person can incur debts, enter into contracts and be sued.</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -1151,9 +1151,9 @@
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
-                    <a href="#Person%3A"></a>, 
                     <a href="#Person%3AalternativeName">alternative name</a>, 
                     <a href="#Person%3Abirth">birth</a>, 
+                    <a href="#Person%3AcivilStatus">civil status</a>, 
                     <a href="#Person%3AcontactPoint">contact point</a>, 
                     <a href="#Person%3Adeath">death</a>, 
                     <a href="#Person%3AfamilyName">family name</a>, 
@@ -1186,26 +1186,6 @@
 
                   <tbody class="supertype">
                     
-                    <tr id="Person%3A" typeof="rdfs:Property" resource="http://fixme.com#civilStatus">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://fixme.com#civilStatus" data-toggle="tooltip" data-content="http://fixme.com#civilStatus" data-placement="right">
-                            </a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Civil Status" data-placement="right">Civil Status</a>
-                        
-                        
-                      </td>
-                      <td>0..1</td>
-                      <td property="rdfs:comment"></td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
                     <tr id="Person%3AalternativeName" typeof="rdfs:Property" resource="http://purl.org/dc/terms/alternative">
                       <td>
                         <code property="rdfs:label">
@@ -1221,7 +1201,7 @@
                         
                       </td>
                       <td>0..*</td>
-                      <td property="rdfs:comment"></td>
+                      <td property="rdfs:comment">Any name by which a person is known, other than their full name</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1242,6 +1222,26 @@
                       </td>
                       <td>1</td>
                       <td property="rdfs:comment">Refers to the birth details of the person.</td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="Person%3AcivilStatus" typeof="rdfs:Property" resource="http://fixme.com#civilStatus">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="http://fixme.com#civilStatus" data-toggle="tooltip" data-content="http://fixme.com#civilStatus" data-placement="right">
+                            civil status</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Civil Status" data-placement="right">Civil Status</a>
+                        
+                        
+                      </td>
+                      <td>0..1</td>
+                      <td property="rdfs:comment">The civil status of the person.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1343,7 +1343,7 @@
                       <td>1</td>
                       <td property="rdfs:comment">The administrative gender of the person.</td>
                       <td property="skos:scopeNote"></td>
-                      <td></td>
+                      <td><a href="Follows the &lt;a href=&#39;&#39;https://www.iso.org/standard/81682.html&quot;&gt;ISO 5218 standard&lt;/a&gt;: Not known, Male and Female. Value &quot;Not applicable&quot; is not used.">Link</a></td>
                     </tr>
                     
                     <tr id="Person%3AgivenName" typeof="rdfs:Property" resource="http://xmlns.com/foaf/0.1/givenName">
@@ -1481,7 +1481,7 @@
                         
                       </td>
                       <td>0..*</td>
-                      <td property="rdfs:comment"></td>
+                      <td property="rdfs:comment">The status of the person under public law.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1500,7 +1500,7 @@
                   <dd>Relation between two or more natural persons.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>Typically, these are civil law relationships (see civil status) but not necessarily limited thereto.</dd>
+                  <dd>Typically, these are civil law relationships but not necessarily limited thereto.</dd>
                   
                   
                   <dt>Properties</dt>
@@ -1523,7 +1523,6 @@
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
-                    <a href="#PublicLegalStatus%3A"></a>, 
                     <a href="#PublicLegalStatus%3Ajurisdiction">jurisdiction</a>.
                   </dd>
                   
@@ -1544,26 +1543,6 @@
                   </thead>
 
                   <tbody class="supertype">
-                    
-                    <tr id="PublicLegalStatus%3A" typeof="rdfs:Property" resource="http://fixme.com#residency">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://fixme.com#residency" data-toggle="tooltip" data-content="http://fixme.com#residency" data-placement="right">
-                            </a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Residency" data-placement="right">Residency</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment"></td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
                     
                     <tr id="PublicLegalStatus%3Ajurisdiction" typeof="rdfs:Property" resource="http://fixme.com#jurisdiction">
                       <td>
@@ -1596,7 +1575,7 @@
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd></dd>
+                  <dd>A record within an authentic source, specifically a base registry, is an entry of reliable and authoritative information collected, used, updated, and maintained by a responsible public organization.</dd>
                   
                   
                   <dt>Properties</dt>
@@ -1639,7 +1618,7 @@
                         
                       </td>
                       <td>1</td>
-                      <td property="rdfs:comment"></td>
+                      <td property="rdfs:comment">An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1659,7 +1638,7 @@
                         
                       </td>
                       <td>1</td>
-                      <td property="rdfs:comment"></td>
+                      <td property="rdfs:comment">Refers to the current state or condition of a record within the base registry.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1678,7 +1657,7 @@
                   <dd>Person whose details are officially listed in a register.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population.</dd>
+                  <dd>This registry is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name), the place of residence of the person and to important life events such as birth, marriage, decease, etc. This data is typically registered by a public institution, they offer the registered person legal protection and they allow the public authorities to compile basic statistics about its population.</dd>
                   
                   
                   <dt>Subclass of</dt>
@@ -1688,9 +1667,50 @@
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this entity.</dd>
+                  <dd>For this entity the following properties are defined:
+                    <a href="#RegisteredPerson%3Arecord">record</a>.
+                  </dd>
                   
                 </dl>
+              </div>
+              
+              <div class="u-table-overflow">
+                <table class="data-table">
+                  <thead>
+                    <tr class="data-table__header">
+                      <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Cardinality</th>
+                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Usage</th>
+                      <th class="data-table__header-title--sortable">Codelist</th>
+                    </tr>
+                  </thead>
+
+                  <tbody class="supertype">
+                    
+                    <tr id="RegisteredPerson%3Arecord" typeof="rdfs:Property" resource="http://vocab.belgif.be/ns/person#record">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="http://vocab.belgif.be/ns/person#record" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#record" data-placement="right">
+                            record</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Record" data-placement="right">Record</a>
+                        
+                        
+                      </td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment"></td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
               </div>
               
             </div>
@@ -1703,7 +1723,7 @@
                   <dd>Role of the person in the relation.</dd>
                   
                   <dt>Usage</dt>
-                  <dd>The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target).</dd>
+                  <dd>When a person relation implies direction, the role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target).</dd>
                   
                   
                   <dt>Properties</dt>
@@ -1843,10 +1863,14 @@
                   <dd>Describes the situation where an individual resides or maintains a residence in a specific jurisdiction, without necessarily implying any legal status or entitlements associated with that presence.</dd>
                   
                   
+                  <dt>Subclass of</dt>
+                  <dd>
+                    <a href="#Public Legal Status">Public Legal Status</a>
+                  </dd>
+                  
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
-                    <a href="#Residency%3Ajurisdiction">jurisdiction</a>, 
                     <a href="#Residency%3Aresidence">residence</a>.
                   </dd>
                   
@@ -1867,26 +1891,6 @@
                   </thead>
 
                   <tbody class="supertype">
-                    
-                    <tr id="Residency%3Ajurisdiction" typeof="rdfs:Property" resource="http://fixme.com#jurisdiction">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://fixme.com#jurisdiction" data-toggle="tooltip" data-content="http://fixme.com#jurisdiction" data-placement="right">
-                            jurisdiction</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="http://fixme.com#Country" data-toggle="tooltip" data-content="http://fixme.com#Country" data-placement="right">Country</a>
-                        
-                        
-                      </td>
-                      <td>1</td>
-                      <td property="rdfs:comment"></td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
                     
                     <tr id="Residency%3Aresidence" typeof="rdfs:Property" resource="http://fixme.com#residence">
                       <td>
@@ -1919,7 +1923,7 @@
               <div class="region region--no-space-top">
                 <dl>
                   <dt>Definition</dt>
-                  <dd>Arrangement whereby two people who are not married live together.</dd>
+                  <dd>Two people who are living together and make a declaration of statutory cohabitation to the competent municipality are statutory cohabitants.</dd>
                   
                   <dt>Usage</dt>
                   <dd>Can, just like a marriage, form the basis of a household.</dd>

@@ -141,13 +141,13 @@
   shacl:property [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
     shacl:minCount 1;
-    shacl:name "country"@en;
+    shacl:name "identifier"@en;
     shacl:path <http://www.w3.org/ns/adms#identifier>
   ], [
     shacl:class <http://fixme.com#Country>;
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name "country"@en;
+    shacl:name "jurisdiction"@en;
     shacl:path <http://fixme.com#jurisdiction>
   ];
   shacl:targetClass <http://vocab.belgif.be/ns/organization#DiplomaticPost> .
@@ -255,6 +255,7 @@
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
+    shacl:description "Any name by which a person is known, other than their full name"@en;
     shacl:name "alternative name"@en;
     shacl:path dc:alternative
   ], [
@@ -266,8 +267,9 @@
     shacl:path <http://purl.org/vocab/bio/0.1/birth>
   ], [
     shacl:class <http://vocab.belgif.be/ns/person#CivilStatus>;
-    shacl:description "";
+    shacl:description "The civil status of the person."@en;
     shacl:maxCount 1;
+    shacl:name "civil status"@en;
     shacl:path <http://fixme.com#civilStatus>
   ], [
     shacl:class schemas:ContactPoint;
@@ -339,6 +341,7 @@
     shacl:path <http://vocab.belgif.be/ns/person#preferredGivenName>
   ], [
     shacl:class <http://vocab.belgif.be/ns/person#PublicLegalStatus>;
+    shacl:description "The status of the person under public law."@en;
     shacl:name "public legal status"@en;
     shacl:path <http://vocab.belgif.be/ns/person#publicLegalStatus>
   ];
@@ -352,10 +355,6 @@
     shacl:minCount 1;
     shacl:name "jurisdiction"@en;
     shacl:path <http://fixme.com#jurisdiction>
-  ], [
-    shacl:class <http://vocab.belgif.be/ns/person#Residency>;
-    shacl:description "";
-    shacl:path <http://fixme.com#residency>
   ];
   shacl:targetClass <http://vocab.belgif.be/ns/person#PublicLegalStatus> .
 
@@ -363,12 +362,14 @@
   shacl:closed false;
   shacl:property [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
+    shacl:description "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "identifier"@en;
     shacl:path <http://fixme.com#identifier>
   ], [
     shacl:class <http://fixme.com#RecordStatus>;
+    shacl:description "Refers to the current state or condition of a record within the base registry."@en;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "record status"@en;
@@ -378,6 +379,11 @@
 
 <https://belgif.github.io//thematic/models/person#RegisteredPersonShape> a shacl:NodeShape;
   shacl:closed false;
+  shacl:property [
+    shacl:class <http://vocab.belgif.be/ns/person#Record>;
+    shacl:name "record"@en;
+    shacl:path <http://vocab.belgif.be/ns/person#record>
+  ];
   shacl:targetClass <http://vocab.belgif.be/ns/person#RegisteredPerson> .
 
 <https://belgif.github.io//thematic/models/person#ResidenceShape> a shacl:NodeShape;
@@ -403,12 +409,6 @@
 <https://belgif.github.io//thematic/models/person#ResidencyShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class <http://fixme.com#Country>;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "jurisdiction"@en;
-    shacl:path <http://fixme.com#jurisdiction>
-  ], [
     shacl:class <http://fixme.com#Residence>;
     shacl:name "residence"@en;
     shacl:path <http://fixme.com#residence>

@@ -26,7 +26,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "In Belgium, this matter is organized in the <a href= https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet>Belgian Nationality Code</a>. We use the term citizenship instead of nationality to align with international practice (e.g., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French.",
+        "en": "In Belgium, this matter is organized in the <a href=\" https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1984062835&table_name=wet\">Belgian Nationality Code</a>. We use the term \"citizenship\" instead of \"nationality\" to align with international practice (cf., terminology used in <a href=\"https://semiceu.github.io/Core-Person-Vocabulary/releases/2.1.1/\">SEMIC Core Person</a>). For the purposes of this data model, the term citizenship translates to \"nationaliteit\" in Dutch en \"nationalité\" in French.",
         "de": "Enter your translation here"
       }
     },
@@ -94,7 +94,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Refers to marriage, civil partnership, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals.",
+        "en": "Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals.",
         "de": "Enter your translation here"
       }
     },
@@ -122,7 +122,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "The descent can be biological as well as non-biological, eg adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (no link between child and grandparent).",
+        "en": "The descent can be biological as well as non-biological, e.g. adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (i.e. no link between child and grandparent).",
         "de": "Enter your translation here"
       }
     },
@@ -146,7 +146,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Place within the jurisdiction of the registry where a person lives or stays, either permanently or temporarily.",
+        "en": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily.",
         "de": "Enter your translation here"
       }
     },
@@ -170,7 +170,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Place outside the jurisdiction of the registry where a person lives or stays, either permanently or temporarily.",
+        "en": "Place outside the jurisdiction of interest where a person lives or stays, either permanently or temporarily.",
         "de": "Enter your translation here"
       }
     },
@@ -198,11 +198,11 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Form of cooperation that forms a recognizable social unit (eg through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care.",
+        "en": "Form of cooperation that forms a recognizable social unit (e.g. through marriage), with persons who are blood relatives or not, who have lasting ties and provide mutual support and care.",
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "It is a broader concept than family where the family consists not solely of close relatives, eg a single-person family or living separately together. Household members usually share the same residence.",
+        "en": "It is a broader concept than family where the family consists not solely of close relatives, e.g. a single-person family or living separately together. Household members share the same residence.",
         "de": "Enter your translation here"
       }
     },
@@ -258,7 +258,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Typically, these are civil law relationships (see civil status) but not necessarily limited thereto.",
+        "en": "Typically, these are civil law relationships but not necessarily limited thereto.",
         "de": "Enter your translation here"
       }
     },
@@ -274,7 +274,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "The role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target).",
+        "en": "When a person relation implies direction, the role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target).",
         "de": "Enter your translation here"
       }
     },
@@ -296,6 +296,10 @@
       "label": {
         "en": "Record",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "A record within an authentic source, specifically a base registry, is an entry of reliable and authoritative information collected, used, updated, and maintained by a responsible public organization.",
+        "de": "Enter your translation here"
       }
     },
     {
@@ -310,7 +314,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "This register is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name) and the place of residence of the person and to important life events such as birth, marriage, decease, etc. These data are typically registered by the government, they offer the registered person legal protection and they allow the government to compile basic statistics about its population.",
+        "en": "This registry is usually a population register, but it can also be an electoral register, for example. The registered data relates to the identity (e.g. family and given name), the place of residence of the person and to important life events such as birth, marriage, decease, etc. This data is typically registered by a public institution, they offer the registered person legal protection and they allow the public authorities to compile basic statistics about its population.",
         "de": "Enter your translation here"
       }
     },
@@ -334,7 +338,7 @@
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Arrangement whereby two people who are not married live together.",
+        "en": "Two people who are living together and make a declaration of statutory cohabitation to the competent municipality are statutory cohabitants.",
         "de": "Enter your translation here"
       },
       "usage": {
@@ -418,7 +422,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "In legal terms, it concerns a person (in the legal sense, ie with its own legal personality) of the human species, ie a natural person. The counterpart is the legal person, a legal construction that gives a private or public organization the same legal personality as a natural person (eg can also have debts, conclude contracts, be sued, etc.).",
+        "en": "In legal terms, a person refers to a natural person, meaning an individual human being with their own legal personality. The counterpart is the legal person, a legal construction that grants a private or public organization legal personality. For example, a legal person can incur debts, enter into contracts and be sued.",
         "de": "Enter your translation here"
       }
     }
@@ -502,9 +506,9 @@
     },
     {
       "EA-Guid": "{BE83AF8D-A915-473e-983B-49648ECDFD5F}",
-      "name": "country",
+      "name": "identifier",
       "label": {
-        "en": "country",
+        "en": "identifier",
         "de": "Enter your translation here"
       }
     },
@@ -517,10 +521,22 @@
       }
     },
     {
+      "EA-Guid": "{C87DCF0C-F256-421d-9A37-B12B47D539FE}",
+      "name": "record",
+      "label": {
+        "en": "record",
+        "de": "Enter your translation here"
+      }
+    },
+    {
       "EA-Guid": "{814A0319-2EB3-4b1d-B8A0-ADA3A3A15FB0}",
       "name": "publicLegalStatus",
       "label": {
         "en": "public legal status",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The status of the person under public law.",
         "de": "Enter your translation here"
       }
     },
@@ -560,7 +576,7 @@
         "de": "Enter your translation here"
       },
       "usage": {
-        "en": "Often used as a criterion to determine whether persons are part of the same household.",
+        "en": "Used as a criterion to determine whether persons are part of the same household.",
         "de": "Enter your translation here"
       }
     },
@@ -601,6 +617,10 @@
       "name": "alternativeName",
       "label": {
         "en": "alternative name",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Any name by which a person is known, other than their full name",
         "de": "Enter your translation here"
       }
     },
@@ -669,10 +689,6 @@
       }
     },
     {
-      "EA-Guid": "{A35C5149-10E9-4b05-8E6C-793B1AFB7F9E}",
-      "name": ""
-    },
-    {
       "EA-Guid": "{BC08CC5E-44C2-4a3b-88D0-27F372EFDA13}",
       "name": "residence",
       "label": {
@@ -685,6 +701,10 @@
       "name": "recordStatus",
       "label": {
         "en": "record status",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "Refers to the current state or condition of a record within the base registry.",
         "de": "Enter your translation here"
       }
     },
@@ -701,7 +721,7 @@
       }
     },
     {
-      "EA-Guid": "{77BB5D59-A7EA-4b5c-AE1B-34B92BED68A5}",
+      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
       "name": "jurisdiction",
       "label": {
         "en": "jurisdiction",
@@ -717,24 +737,28 @@
       }
     },
     {
-      "EA-Guid": "{28807D6C-393B-4c03-9F09-11C0BAEF5AFE}",
-      "name": "country",
-      "label": {
-        "en": "country",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{FF10322C-3C80-4bcd-8AB4-79F5B5EDF661}",
       "name": "identifier",
       "label": {
         "en": "identifier",
         "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "An identifier of a record within a base registry, is a unique reference assigned to each record to distinguish it from all other records.",
+        "de": "Enter your translation here"
       }
     },
     {
       "EA-Guid": "{67AC03F6-A857-4222-8E25-DA7A74B07DFB}",
-      "name": ""
+      "name": "civilStatus",
+      "label": {
+        "en": "civil status",
+        "de": "Enter your translation here"
+      },
+      "definition": {
+        "en": "The civil status of the person.",
+        "de": "Enter your translation here"
+      }
     },
     {
       "EA-Guid": "{D2AEE069-1764-43f4-BD00-1D0522CC6929}",
