@@ -108,8 +108,8 @@
   "contributors-file": "stakeholders.csv",
   "diagram": "iceg-person",
   "disabled": false,
-  "documentcommit": "d3b7774882b29dc77c67b368c81ebb3135d70ac1",
-  "dummy": "004",
+  "documentcommit": "2108ea0b0034ee50226a5f46d589d2d78d83b87b",
+  "dummy": "005",
   "eap": "ICEG-Person.eap",
   "editors": [
     {
@@ -2011,76 +2011,6 @@
     {
       "@id": "http://fixme.com#person",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{D67753FE-154E-481c-B3D5-D9D4AB135D10}",
-      "ap-definition-en": {
-        "en": "TODO"
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "EA-Name": "PersonRelationship",
-          "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-nl",
-            "note": "person",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "PersonRelationship",
-        "EA-Domain-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
-        "EA-Guid": "{D67753FE-154E-481c-B3D5-D9D4AB135D10}",
-        "EA-Name": "person",
-        "EA-Package": "",
-        "EA-Range": "Person",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
-          "EA-Name": "Person",
-          "EA-Package": "person",
-          "uri": "http://www.w3.org/ns/person#Person"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "person",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-en": {
-          "en": "TODO"
-        },
-        "ap-label-en": "",
-        "ap-usageNote-en": "",
-        "definition": "",
-        "derived": "false",
-        "destRole": "person",
-        "label": "",
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "maxCardinality": "1",
-      "minCardinality": "0",
-      "name": "",
-      "range": [
-        {
-          "EA-GUID": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
-          "EA-Name": "Person",
-          "EA-Package": "person",
-          "uri": "http://www.w3.org/ns/person#Person"
-        }
-      ]
-    },
-    {
-      "@id": "http://fixme.com#person",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{A4B31B8D-C887-4c1b-830C-E31B1C67CE62}",
       "ap-definition-en": {
         "en": "TODO"
@@ -2190,6 +2120,76 @@
         "destRole": "person",
         "label": "",
         "sourceRole": "countryRelationship",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "maxCardinality": "1",
+      "minCardinality": "0",
+      "name": "",
+      "range": [
+        {
+          "EA-GUID": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+          "EA-Name": "Person",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        }
+      ]
+    },
+    {
+      "@id": "http://fixme.com#person",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{D67753FE-154E-481c-B3D5-D9D4AB135D10}",
+      "ap-definition-en": {
+        "en": "TODO"
+      },
+      "codelist": [],
+      "domain": [
+        {
+          "EA-Name": "PersonRelationship",
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-nl",
+            "note": "person",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "PersonRelationship",
+        "EA-Domain-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
+        "EA-Guid": "{D67753FE-154E-481c-B3D5-D9D4AB135D10}",
+        "EA-Name": "person",
+        "EA-Package": "",
+        "EA-Range": "Person",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{736BD0D3-141C-4607-B26B-16EBB5346A5B}",
+          "EA-Name": "Person",
+          "EA-Package": "person",
+          "uri": "http://www.w3.org/ns/person#Person"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "person",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-en": {
+          "en": "TODO"
+        },
+        "ap-label-en": "",
+        "ap-usageNote-en": "",
+        "definition": "",
+        "derived": "false",
+        "destRole": "person",
+        "label": "",
+        "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
@@ -5158,7 +5158,7 @@
   "standaardregisterurl": "TODO",
   "template": "person.j2",
   "title": "Person",
-  "toolchaincommit": "2ac603a2eeb4fd7482c2258346cc31c0b6cd9f16",
+  "toolchaincommit": "4c6cb98307ff03d5b2184ea68471589e1defae49",
   "translation": [
     {
       "language": "en",
