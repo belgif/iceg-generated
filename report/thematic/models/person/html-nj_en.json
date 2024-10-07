@@ -12,8 +12,8 @@
     "documentconfig": {},
     "status": "For acceptance",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/belgif/ICEGthema-person/tree/84b3ffd696919a9362da672d64380415d2700d43",
-    "changelogurl": "https://github.com/belgif/ICEGthema-person/blob/84b3ffd696919a9362da672d64380415d2700d43/CHANGELOG",
+    "repositoryurl": "https://github.com/belgif/ICEGthema-person/tree/d3b7774882b29dc77c67b368c81ebb3135d70ac1",
+    "changelogurl": "https://github.com/belgif/ICEGthema-person/blob/d3b7774882b29dc77c67b368c81ebb3135d70ac1/CHANGELOG",
     "feedbackurl": "https://github.com/belgif/thematic/issues",
     "standaardregisterurl": "TODO",
     "usesVocs": [],
@@ -92,16 +92,16 @@
           ],
           "range": [
             {
-              "range_label": "ContactInformationType",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+              "range_label": "ContactMedium",
+              "range_uri": "http://fixme.com#ContactMedium"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_uri": "#Contact Medium",
+              "range_puri": "http://fixme.com#ContactMedium",
               "range_label": {
-                "en": "ContactInformationType"
+                "en": "Contact Medium"
               }
             }
           ],
@@ -129,11 +129,11 @@
       },
       "parents": [
         {
-          "label": "Public Legal Status",
-          "name": "PublicLegalStatus",
+          "label": "Country Relationship",
+          "name": "CountryRelationship",
           "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
-          "scoped_uri": "#Public Legal Status"
+          "uri": "http://vocab.belgif.be/ns/person#CountryRelationship",
+          "scoped_uri": "#Country Relationship"
         }
       ],
       "rawTags": {
@@ -289,7 +289,7 @@
               }
             }
           ],
-          "cardinality": "1..*",
+          "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
             "label-en": "identifier",
@@ -443,64 +443,89 @@
       ]
     },
     {
-      "uri": "http://vocab.belgif.be/ns/person#CivilStatus",
-      "name": "CivilStatus",
+      "uri": "http://vocab.belgif.be/ns/person#CountryRelationship",
+      "name": "CountryRelationship",
       "label": {
-        "en": "Civil Status"
+        "en": "Country Relationship"
       },
-      "sort": "Civil Status",
+      "sort": "Country Relationship",
       "description": {
-        "en": "Status of a person according to civil law."
+        "en": "Refers to the legal relationship that exist between a legal subject and a country or official body."
       },
-      "usage": {
-        "en": "Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
-      },
+      "usage": {},
       "parents": [],
       "rawTags": {
-        "label-en": "Civil Status",
-        "definition-en": "Status of a person according to civil law.",
-        "uri": "http://vocab.belgif.be/ns/person#CivilStatus",
-        "usageNote-en": "Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals."
+        "label-en": "Country Relationship",
+        "uri": "http://vocab.belgif.be/ns/person#CountryRelationship",
+        "definition-en": "Refers to the legal relationship that exist between a legal subject and a country or official body."
       },
       "properties": [
         {
-          "uri": "http://purl.org/dc/elements/1.1/type",
-          "name": "civilStatusValue",
-          "sort": "civil status value",
-          "label": {
-            "en": "civil status value"
-          },
-          "description": {
-            "en": "Value of civil status."
-          },
+          "uri": "http://fixme.com#person",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
           "usage": {},
           "domain": [
             {
-              "EA-Name": "CivilStatus",
-              "uri": "http://vocab.belgif.be/ns/person#CivilStatus"
+              "EA-Name": "CountryRelationship",
+              "uri": "http://vocab.belgif.be/ns/person#CountryRelationship"
             }
           ],
           "range": [
             {
-              "range_label": "CivilStatusValue",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+              "range_label": "Person",
+              "range_uri": "http://www.w3.org/ns/person#Person"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Civil Status Value",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_uri": "#Person",
+              "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "en": "Civil Status Value"
+                "en": "Person"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": "",
+          "rawTags": {}
+        },
+        {
+          "uri": "http://fixme.com#country",
+          "name": "jurisdiction",
+          "sort": "jurisdiction",
+          "label": {
+            "en": "jurisdiction"
+          },
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "CountryRelationship",
+              "uri": "http://vocab.belgif.be/ns/person#CountryRelationship"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Country",
+              "range_uri": "http://fixme.com#Country"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#Country",
+              "range_puri": "http://fixme.com#Country",
+              "range_label": {
+                "en": "Country"
               }
             }
           ],
           "cardinality": "1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "civil status value",
-            "definition-en": "Value of civil status.",
-            "uri": "http://purl.org/dc/elements/1.1/type"
+            "label-en": "jurisdiction"
           }
         }
       ]
@@ -628,11 +653,11 @@
       },
       "parents": [
         {
-          "label": "Person Relation",
-          "name": "PersonRelation",
+          "label": "Relation Role",
+          "name": "PersonRelationship",
           "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
-          "scoped_uri": "#Person Relation"
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole",
+          "scoped_uri": "#Relation Role"
         }
       ],
       "rawTags": {
@@ -640,74 +665,6 @@
         "definition-en": "Descent is the descending line of blood relationship between different generations.",
         "usageNote-en": "The descent can be biological as well as non-biological, e.g. adoption. Descent can also be viewed in the ascending line. The concept is narrower than kinship that also includes marriage. There must be a direct link between the persons (i.e. no link between child and grandparent).",
         "uri": "http://vocab.belgif.be/ns/person#Descent"
-      },
-      "properties": [
-        {
-          "uri": "http://purl.org/dc/elements/1.1/type",
-          "name": "descentType",
-          "sort": "descent type",
-          "label": {
-            "en": "descent type"
-          },
-          "description": {
-            "en": "Type of descent."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Descent",
-              "uri": "http://vocab.belgif.be/ns/person#Descent"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "DescentType",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Descent Type",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "en": "Descent Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "descent type",
-            "uri": "http://purl.org/dc/elements/1.1/type",
-            "definition-en": "Type of descent."
-          }
-        }
-      ]
-    },
-    {
-      "uri": "http://vocab.belgif.be/ns/person#DiplomaticStatus",
-      "name": "DiplomaticStatus",
-      "label": {
-        "en": "Diplomatic Status"
-      },
-      "sort": "Diplomatic Status",
-      "description": {
-        "en": "Legal designation granted to natural persons, including diplomats and personnel of international organizations, who represent their home country or organization in a foreign country."
-      },
-      "usage": {},
-      "parents": [
-        {
-          "label": "Public Legal Status",
-          "name": "PublicLegalStatus",
-          "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
-          "scoped_uri": "#Public Legal Status"
-        }
-      ],
-      "rawTags": {
-        "label-en": "Diplomatic Status",
-        "uri": "http://vocab.belgif.be/ns/person#DiplomaticStatus",
-        "definition-en": "Legal designation granted to natural persons, including diplomats and personnel of international organizations, who represent their home country or organization in a foreign country."
       },
       "properties": []
     },
@@ -735,33 +692,6 @@
         "label-en": "Domestic Residence",
         "uri": "http://vocab.belgif.be/ns/person#DomesticResidence",
         "definition-en": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily."
-      },
-      "properties": []
-    },
-    {
-      "uri": "http://vocab.belgif.be/ns/person#EUCitizenship",
-      "name": "EuCitizenship",
-      "label": {
-        "en": "EU Citizenship"
-      },
-      "sort": "EU Citizenship",
-      "description": {
-        "en": "European Union citizenship is afforded to all nationals of member states of the European Union (EU)."
-      },
-      "usage": {},
-      "parents": [
-        {
-          "label": "Citizenship",
-          "name": "Citizenship",
-          "package": "person",
-          "uri": "http://fixme.com#Citizenship",
-          "scoped_uri": "#Citizenship"
-        }
-      ],
-      "rawTags": {
-        "label-en": "EU Citizenship",
-        "uri": "http://vocab.belgif.be/ns/person#EUCitizenship",
-        "definition-en": "European Union citizenship is afforded to all nationals of member states of the European Union (EU)."
       },
       "properties": []
     },
@@ -845,11 +775,11 @@
       },
       "parents": [
         {
-          "label": "Person Relation",
-          "name": "PersonRelation",
+          "label": "Relation Role",
+          "name": "PersonRelationship",
           "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
-          "scoped_uri": "#Person Relation"
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole",
+          "scoped_uri": "#Relation Role"
         }
       ],
       "rawTags": {
@@ -858,45 +788,7 @@
         "usageNote-en": "This is the case, for example, for minors who have lost their parents or for adults who have lost their intellectual faculties.",
         "uri": "http://vocab.belgif.be/ns/person#Guardianship"
       },
-      "properties": [
-        {
-          "uri": "http://purl.org/dc/elements/1.1/type",
-          "name": "guardianshipType",
-          "sort": "guardianship type",
-          "label": {
-            "en": "guardianship type"
-          },
-          "description": {},
-          "usage": {},
-          "domain": [
-            {
-              "EA-Name": "Guardianship",
-              "uri": "http://vocab.belgif.be/ns/person#Guardianship"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "GuardianshipType",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Guardianship Type",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "en": "Guardianship Type"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": "",
-          "rawTags": {
-            "label-en": "guardianship type",
-            "uri": "http://purl.org/dc/elements/1.1/type"
-          }
-        }
-      ]
+      "properties": []
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Household",
@@ -991,12 +883,10 @@
       },
       "properties": [
         {
-          "uri": "http://purl.org/dc/elements/1.1/type",
-          "name": "roleValue",
-          "sort": "role value",
-          "label": {
-            "en": "role value"
-          },
+          "uri": "http://fixme.com#person",
+          "name": "",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
@@ -1007,24 +897,23 @@
           ],
           "range": [
             {
-              "range_label": "HouseholdRoleValue",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+              "range_label": "Person",
+              "range_uri": "http://www.w3.org/ns/person#Person"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Household Role Value",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_uri": "#Person",
+              "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "en": "Household Role Value"
+                "en": "Person"
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "role value",
-            "uri": "http://purl.org/dc/elements/1.1/type"
+            "label-nl": "person"
           }
         }
       ]
@@ -1042,11 +931,11 @@
       "usage": {},
       "parents": [
         {
-          "label": "Public Legal Status",
-          "name": "PublicLegalStatus",
+          "label": "Country Relationship",
+          "name": "CountryRelationship",
           "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
-          "scoped_uri": "#Public Legal Status"
+          "uri": "http://vocab.belgif.be/ns/person#CountryRelationship",
+          "scoped_uri": "#Country Relationship"
         }
       ],
       "rawTags": {
@@ -1054,7 +943,40 @@
         "uri": "http://vocab.belgif.be/ns/person#InternationalProtectionStatus",
         "definition-en": "Legal designation granted under international law providing specific rights and obligations to natural persons who qualify."
       },
-      "properties": []
+      "properties": [
+        {
+          "uri": "http://fixme.com#homeCountry",
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
+          "usage": {},
+          "domain": [
+            {
+              "EA-Name": "InternationalLegalStatus",
+              "uri": "http://vocab.belgif.be/ns/person#InternationalProtectionStatus"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Country",
+              "range_uri": "http://fixme.com#Country"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://fixme.com#Country",
+              "range_puri": "http://fixme.com#Country",
+              "range_label": {
+                "en": "Country"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": "",
+          "rawTags": {}
+        }
+      ]
     },
     {
       "uri": "http://vocab.belgif.be/ns/person#Marriage",
@@ -1071,11 +993,11 @@
       },
       "parents": [
         {
-          "label": "Person Relation",
-          "name": "PersonRelation",
+          "label": "Relation Role",
+          "name": "PersonRelationship",
           "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
-          "scoped_uri": "#Person Relation"
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole",
+          "scoped_uri": "#Relation Role"
         }
       ],
       "rawTags": {
@@ -1083,28 +1005,6 @@
         "definition-en": "A form of cohabitation of two persons, organized by civil or religious law.",
         "usageNote-en": "Can, just like living together, form the basis of a household.",
         "uri": "http://vocab.belgif.be/ns/person#Marriage"
-      },
-      "properties": []
-    },
-    {
-      "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
-      "name": "PersonRelation",
-      "label": {
-        "en": "Person Relation"
-      },
-      "sort": "Person Relation",
-      "description": {
-        "en": "Relation between two or more natural persons."
-      },
-      "usage": {
-        "en": "Typically, these are civil law relationships but not necessarily limited thereto."
-      },
-      "parents": [],
-      "rawTags": {
-        "label-en": "Person Relation",
-        "definition-en": "Relation between two or more natural persons.",
-        "usageNote-en": "Typically, these are civil law relationships but not necessarily limited thereto.",
-        "uri": "http://vocab.belgif.be/ns/person#PersonRelation"
       },
       "properties": []
     },
@@ -1130,95 +1030,71 @@
       },
       "properties": [
         {
-          "uri": "http://fixme.com#roleValue",
-          "name": "roleType",
-          "sort": "role type",
-          "label": {
-            "en": "role type"
-          },
+          "uri": "http://fixme.com#relative",
+          "name": "",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
             {
-              "EA-Name": "PersonRelationRole",
+              "EA-Name": "PersonRelationship",
               "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole"
             }
           ],
           "range": [
             {
-              "range_label": "PersonRelationRoleValue",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
+              "range_label": "Person",
+              "range_uri": "http://www.w3.org/ns/person#Person"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Person Relation Role Value",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "range_uri": "#Person",
+              "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "en": "Person Relation Role Value"
+                "en": "Person"
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "role type"
+            "label-nl": "relative"
           }
-        }
-      ]
-    },
-    {
-      "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
-      "name": "PublicLegalStatus",
-      "label": {
-        "en": "Public Legal Status"
-      },
-      "sort": "Public Legal Status",
-      "description": {
-        "en": "Refers to the legal relationship that exist between a legal subject and a country or official body."
-      },
-      "usage": {},
-      "parents": [],
-      "rawTags": {
-        "label-en": "Public Legal Status",
-        "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
-        "definition-en": "Refers to the legal relationship that exist between a legal subject and a country or official body."
-      },
-      "properties": [
+        },
         {
-          "uri": "http://fixme.com#jurisdiction",
-          "name": "jurisdiction",
-          "sort": "jurisdiction",
-          "label": {
-            "en": "jurisdiction"
-          },
+          "uri": "http://fixme.com#person",
+          "name": "",
+          "sort": "",
+          "label": {},
           "description": {},
           "usage": {},
           "domain": [
             {
-              "EA-Name": "PublicLegalStatus",
-              "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
+              "EA-Name": "PersonRelationship",
+              "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole"
             }
           ],
           "range": [
             {
-              "range_label": "Country",
-              "range_uri": "http://fixme.com#Country"
+              "range_label": "Person",
+              "range_uri": "http://www.w3.org/ns/person#Person"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://fixme.com#Country",
-              "range_puri": "http://fixme.com#Country",
+              "range_uri": "#Person",
+              "range_puri": "http://www.w3.org/ns/person#Person",
               "range_label": {
-                "en": "Country"
+                "en": "Person"
               }
             }
           ],
-          "cardinality": "1",
+          "cardinality": "0..1",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "jurisdiction"
+            "label-nl": "person"
           }
         }
       ]
@@ -1402,11 +1278,11 @@
       "usage": {},
       "parents": [
         {
-          "label": "Public Legal Status",
-          "name": "PublicLegalStatus",
+          "label": "Country Relationship",
+          "name": "CountryRelationship",
           "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
-          "scoped_uri": "#Public Legal Status"
+          "uri": "http://vocab.belgif.be/ns/person#CountryRelationship",
+          "scoped_uri": "#Country Relationship"
         }
       ],
       "rawTags": {
@@ -1468,11 +1344,11 @@
       },
       "parents": [
         {
-          "label": "Person Relation",
-          "name": "PersonRelation",
+          "label": "Relation Role",
+          "name": "PersonRelationship",
           "package": "person",
-          "uri": "http://vocab.belgif.be/ns/person#PersonRelation",
-          "scoped_uri": "#Person Relation"
+          "uri": "http://vocab.belgif.be/ns/person#PersonRelationRole",
+          "scoped_uri": "#Relation Role"
         }
       ],
       "rawTags": {
@@ -1684,13 +1560,13 @@
         },
         {
           "uri": "http://vocab.belgif.be/ns/person#publicLegalStatus",
-          "name": "publicLegalStatus",
-          "sort": "public legal status",
+          "name": "civilAuthorityRelation",
+          "sort": "civil authority relation",
           "label": {
-            "en": "public legal status"
+            "en": "civil authority relation"
           },
           "description": {
-            "en": "The status of the person under public law."
+            "en": "Relations of the person with civil authorities."
           },
           "usage": {},
           "domain": [
@@ -1701,24 +1577,24 @@
           ],
           "range": [
             {
-              "range_label": "PublicLegalStatus",
-              "range_uri": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
+              "range_label": "CountryRelationship",
+              "range_uri": "http://vocab.belgif.be/ns/person#CountryRelationship"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Public Legal Status",
-              "range_puri": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
+              "range_uri": "#Country Relationship",
+              "range_puri": "http://vocab.belgif.be/ns/person#CountryRelationship",
               "range_label": {
-                "en": "Public Legal Status"
+                "en": "Country Relationship"
               }
             }
           ],
           "cardinality": "0..*",
           "codelist_uri": "",
           "rawTags": {
-            "label-en": "public legal status",
-            "definition-en": "The status of the person under public law.",
+            "label-en": "civil authority relation",
+            "definition-en": "Relations of the person with civil authorities.",
             "uri": "http://vocab.belgif.be/ns/person#publicLegalStatus"
           }
         },
@@ -1963,14 +1839,10 @@
         },
         {
           "uri": "http://fixme.com#civilStatus",
-          "name": "civilStatus",
-          "sort": "civil status",
-          "label": {
-            "en": "civil status"
-          },
-          "description": {
-            "en": "The civil status of the person."
-          },
+          "name": "",
+          "sort": "",
+          "label": {},
+          "description": {},
           "usage": {},
           "domain": [
             {
@@ -1980,25 +1852,22 @@
           ],
           "range": [
             {
-              "range_label": "CivilStatus",
-              "range_uri": "http://vocab.belgif.be/ns/person#CivilStatus"
+              "range_label": "CivilStatusValue",
+              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "#Civil Status",
-              "range_puri": "http://vocab.belgif.be/ns/person#CivilStatus",
+              "range_uri": "#Civil Status Value",
+              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
               "range_label": {
-                "en": "Civil Status"
+                "en": "Civil Status Value"
               }
             }
           ],
-          "cardinality": "0..1",
+          "cardinality": "1",
           "codelist_uri": "",
-          "rawTags": {
-            "label-en": "civil status",
-            "definition-en": "The civil status of the person."
-          }
+          "rawTags": {}
         },
         {
           "uri": "http://data.europa.eu/m8g/matronymicName",

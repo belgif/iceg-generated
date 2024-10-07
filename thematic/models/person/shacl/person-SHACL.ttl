@@ -14,21 +14,17 @@
     <https://belgif.github.io//thematic/models/person#ResidenceShape>,
     <https://belgif.github.io//thematic/models/person#DiplomaticPostShape>,
     <https://belgif.github.io//thematic/models/person#BirthShape>,
-    <https://belgif.github.io//thematic/models/person#CivilStatusShape>,
+    <https://belgif.github.io//thematic/models/person#CountryRelationshipShape>,
     <https://belgif.github.io//thematic/models/person#DeathShape>,
     <https://belgif.github.io//thematic/models/person#DescentShape>,
-    <https://belgif.github.io//thematic/models/person#DiplomaticStatusShape>,
     <https://belgif.github.io//thematic/models/person#DomesticResidenceShape>,
-    <https://belgif.github.io//thematic/models/person#EUCitizenshipShape>,
     <https://belgif.github.io//thematic/models/person#ForeignResidenceShape>,
     <https://belgif.github.io//thematic/models/person#GuardianshipShape>,
     <https://belgif.github.io//thematic/models/person#HouseholdShape>,
     <https://belgif.github.io//thematic/models/person#HouseholdRoleShape>,
-    <https://belgif.github.io//thematic/models/person#InternationalProtectionStatusShape>,
+    <https://belgif.github.io//thematic/models/person#InternationalLegalStatusShape>,
     <https://belgif.github.io//thematic/models/person#MarriageShape>,
-    <https://belgif.github.io//thematic/models/person#PersonRelationShape>,
-    <https://belgif.github.io//thematic/models/person#PersonRelationRoleShape>,
-    <https://belgif.github.io//thematic/models/person#PublicLegalStatusShape>,
+    <https://belgif.github.io//thematic/models/person#PersonRelationshipShape>,
     <https://belgif.github.io//thematic/models/person#RecordShape>,
     <https://belgif.github.io//thematic/models/person#RegisteredPersonShape>,
     <https://belgif.github.io//thematic/models/person#ResidencyShape>,
@@ -66,18 +62,6 @@
   shacl:closed false;
   shacl:targetClass <http://fixme.com#Citizenship> .
 
-<https://belgif.github.io//thematic/models/person#CivilStatusShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:property [
-    shacl:class skos:Concept;
-    shacl:description "Value of civil status."@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "civil status value"@en;
-    shacl:path dc11:type
-  ];
-  shacl:targetClass <http://vocab.belgif.be/ns/person#CivilStatus> .
-
 <https://belgif.github.io//thematic/models/person#CivilStatusValueShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
@@ -89,7 +73,7 @@
 <https://belgif.github.io//thematic/models/person#ContactPointShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class skos:Concept;
+    shacl:class <http://fixme.com#ContactMedium>;
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "contact medium"@en;
@@ -100,6 +84,22 @@
     shacl:path rdf:value
   ];
   shacl:targetClass <http://data.europa.eu/m8g/ContactPoint> .
+
+<https://belgif.github.io//thematic/models/person#CountryRelationshipShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:property [
+    shacl:class <http://fixme.com#Country>;
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "jurisdiction"@en;
+    shacl:path <http://fixme.com#country>
+  ], [
+    shacl:class <http://www.w3.org/ns/person#Person>;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:path <http://fixme.com#person>
+  ];
+  shacl:targetClass <http://vocab.belgif.be/ns/person#CountryRelationship> .
 
 <https://belgif.github.io//thematic/models/person#DeathShape> a shacl:NodeShape;
   shacl:closed false;
@@ -122,14 +122,6 @@
 
 <https://belgif.github.io//thematic/models/person#DescentShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property [
-    shacl:class skos:Concept;
-    shacl:description "Type of descent."@en;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "descent type"@en;
-    shacl:path dc11:type
-  ];
   shacl:targetClass <http://vocab.belgif.be/ns/person#Descent> .
 
 <https://belgif.github.io//thematic/models/person#DescentTypeShape> a shacl:NodeShape;
@@ -140,7 +132,6 @@
   shacl:closed false;
   shacl:property [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
-    shacl:minCount 1;
     shacl:name "identifier"@en;
     shacl:path <http://www.w3.org/ns/adms#identifier>
   ], [
@@ -152,17 +143,9 @@
   ];
   shacl:targetClass <http://vocab.belgif.be/ns/organization#DiplomaticPost> .
 
-<https://belgif.github.io//thematic/models/person#DiplomaticStatusShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass <http://vocab.belgif.be/ns/person#DiplomaticStatus> .
-
 <https://belgif.github.io//thematic/models/person#DomesticResidenceShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <http://vocab.belgif.be/ns/person#DomesticResidence> .
-
-<https://belgif.github.io//thematic/models/person#EUCitizenshipShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass <http://vocab.belgif.be/ns/person#EUCitizenship> .
 
 <https://belgif.github.io//thematic/models/person#ForeignResidenceShape> a shacl:NodeShape;
   shacl:closed false;
@@ -181,13 +164,6 @@
 
 <https://belgif.github.io//thematic/models/person#GuardianshipShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property [
-    shacl:class skos:Concept;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "guardianship type"@en;
-    shacl:path dc11:type
-  ];
   shacl:targetClass <http://vocab.belgif.be/ns/person#Guardianship> .
 
 <https://belgif.github.io//thematic/models/person#GuardianshipTypeShape> a shacl:NodeShape;
@@ -197,11 +173,10 @@
 <https://belgif.github.io//thematic/models/person#HouseholdRoleShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
-    shacl:class skos:Concept;
+    shacl:class <http://www.w3.org/ns/person#Person>;
+    shacl:description "";
     shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "role value"@en;
-    shacl:path dc11:type
+    shacl:path <http://fixme.com#person>
   ];
   shacl:targetClass <http://vocab.belgif.be/ns/person#HouseholdRole> .
 
@@ -220,8 +195,15 @@
   ];
   shacl:targetClass <http://vocab.belgif.be/ns/person#Household> .
 
-<https://belgif.github.io//thematic/models/person#InternationalProtectionStatusShape> a shacl:NodeShape;
+<https://belgif.github.io//thematic/models/person#InternationalLegalStatusShape> a shacl:NodeShape;
   shacl:closed false;
+  shacl:property [
+    shacl:class <http://fixme.com#Country>;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:path <http://fixme.com#homeCountry>
+  ];
   shacl:targetClass <http://vocab.belgif.be/ns/person#InternationalProtectionStatus> .
 
 <https://belgif.github.io//thematic/models/person#MarriageShape> a shacl:NodeShape;
@@ -232,24 +214,24 @@
   shacl:closed false;
   shacl:targetClass <http://fixme.com#NobilityTitle> .
 
-<https://belgif.github.io//thematic/models/person#PersonRelationRoleShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:property [
-    shacl:class skos:Concept;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "role type"@en;
-    shacl:path <http://fixme.com#roleValue>
-  ];
-  shacl:targetClass <http://vocab.belgif.be/ns/person#PersonRelationRole> .
-
 <https://belgif.github.io//thematic/models/person#PersonRelationRoleValueShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://belgif.github.io//thematic/models/person#PersonRelationShape> a shacl:NodeShape;
+<https://belgif.github.io//thematic/models/person#PersonRelationshipShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:targetClass <http://vocab.belgif.be/ns/person#PersonRelation> .
+  shacl:property [
+    shacl:class <http://www.w3.org/ns/person#Person>;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:path <http://fixme.com#person>
+  ], [
+    shacl:class <http://www.w3.org/ns/person#Person>;
+    shacl:description "";
+    shacl:maxCount 1;
+    shacl:path <http://fixme.com#relative>
+  ];
+  shacl:targetClass <http://vocab.belgif.be/ns/person#PersonRelationRole> .
 
 <https://belgif.github.io//thematic/models/person#PersonShape> a shacl:NodeShape;
   shacl:closed false;
@@ -266,16 +248,21 @@
     shacl:name "birth"@en;
     shacl:path <http://purl.org/vocab/bio/0.1/birth>
   ], [
-    shacl:class <http://vocab.belgif.be/ns/person#CivilStatus>;
-    shacl:description "The civil status of the person."@en;
+    shacl:class skos:Concept;
+    shacl:description "";
     shacl:maxCount 1;
-    shacl:name "civil status"@en;
+    shacl:minCount 1;
     shacl:path <http://fixme.com#civilStatus>
   ], [
     shacl:class schemas:ContactPoint;
     shacl:description "Reference to the communication means through which the person can be contacted."@en;
     shacl:name "contact point"@en;
     shacl:path <http://data.europa.eu/m8g/contactPoint>
+  ], [
+    shacl:class <http://vocab.belgif.be/ns/person#CountryRelationship>;
+    shacl:description "Relations of the person with civil authorities."@en;
+    shacl:name "civil authority relation"@en;
+    shacl:path <http://vocab.belgif.be/ns/person#publicLegalStatus>
   ], [
     shacl:class <http://vocab.belgif.be/ns/person#Death>;
     shacl:description "Refers to the death details of the person."@en;
@@ -339,24 +326,8 @@
     shacl:minCount 1;
     shacl:name "preferred given name"@en;
     shacl:path <http://vocab.belgif.be/ns/person#preferredGivenName>
-  ], [
-    shacl:class <http://vocab.belgif.be/ns/person#PublicLegalStatus>;
-    shacl:description "The status of the person under public law."@en;
-    shacl:name "public legal status"@en;
-    shacl:path <http://vocab.belgif.be/ns/person#publicLegalStatus>
   ];
   shacl:targetClass <http://www.w3.org/ns/person#Person> .
-
-<https://belgif.github.io//thematic/models/person#PublicLegalStatusShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:property [
-    shacl:class <http://fixme.com#Country>;
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "jurisdiction"@en;
-    shacl:path <http://fixme.com#jurisdiction>
-  ];
-  shacl:targetClass <http://vocab.belgif.be/ns/person#PublicLegalStatus> .
 
 <https://belgif.github.io//thematic/models/person#RecordShape> a shacl:NodeShape;
   shacl:closed false;

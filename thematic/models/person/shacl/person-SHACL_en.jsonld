@@ -46,7 +46,7 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:class": "http://fixme.com#ContactMedium",
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
@@ -119,7 +119,6 @@
       "sh:property": [
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
-          "sh:minCount": "1",
           "sh:name": {
             "en": "identifier"
           },
@@ -170,24 +169,27 @@
       "sh:targetClass": "http://vocab.belgif.be/ns/person#Birth"
     },
     {
-      "@id": "https://belgif.github.io//thematic/models/person#CivilStatusShape",
+      "@id": "https://belgif.github.io//thematic/models/person#CountryRelationshipShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Value of civil status."
-          },
+          "sh:class": "http://fixme.com#Country",
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": {
-            "en": "civil status value"
+            "en": "jurisdiction"
           },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
+          "sh:path": "http://fixme.com#country"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/person#Person",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:path": "http://fixme.com#person"
         }
       ],
-      "sh:targetClass": "http://vocab.belgif.be/ns/person#CivilStatus"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#CountryRelationship"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#DeathShape",
@@ -225,28 +227,8 @@
       "@id": "https://belgif.github.io//thematic/models/person#DescentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": {
-            "en": "Type of descent."
-          },
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "descent type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        }
-      ],
-      "sh:targetClass": "http://vocab.belgif.be/ns/person#Descent"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#DiplomaticStatusShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
       "sh:property": [],
-      "sh:targetClass": "http://vocab.belgif.be/ns/person#DiplomaticStatus"
+      "sh:targetClass": "http://vocab.belgif.be/ns/person#Descent"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#DomesticResidenceShape",
@@ -254,13 +236,6 @@
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://vocab.belgif.be/ns/person#DomesticResidence"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#EUCitizenshipShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://vocab.belgif.be/ns/person#EUCitizenship"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#ForeignResidenceShape",
@@ -283,17 +258,7 @@
       "@id": "https://belgif.github.io//thematic/models/person#GuardianshipShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "guardianship type"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
-        }
-      ],
+      "sh:property": [],
       "sh:targetClass": "http://vocab.belgif.be/ns/person#Guardianship"
     },
     {
@@ -321,22 +286,27 @@
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:class": "http://www.w3.org/ns/person#Person",
+          "sh:description": "",
           "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "role value"
-          },
-          "sh:path": "http://purl.org/dc/elements/1.1/type"
+          "sh:path": "http://fixme.com#person"
         }
       ],
       "sh:targetClass": "http://vocab.belgif.be/ns/person#HouseholdRole"
     },
     {
-      "@id": "https://belgif.github.io//thematic/models/person#InternationalProtectionStatusShape",
+      "@id": "https://belgif.github.io//thematic/models/person#InternationalLegalStatusShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:class": "http://fixme.com#Country",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:path": "http://fixme.com#homeCountry"
+        }
+      ],
       "sh:targetClass": "http://vocab.belgif.be/ns/person#InternationalProtectionStatus"
     },
     {
@@ -347,45 +317,24 @@
       "sh:targetClass": "http://vocab.belgif.be/ns/person#Marriage"
     },
     {
-      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [],
-      "sh:targetClass": "http://vocab.belgif.be/ns/person#PersonRelation"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationRoleShape",
+      "@id": "https://belgif.github.io//thematic/models/person#PersonRelationshipShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
         {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:class": "http://www.w3.org/ns/person#Person",
+          "sh:description": "",
           "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "role type"
-          },
-          "sh:path": "http://fixme.com#roleValue"
+          "sh:path": "http://fixme.com#person"
+        },
+        {
+          "sh:class": "http://www.w3.org/ns/person#Person",
+          "sh:description": "",
+          "sh:maxCount": "1",
+          "sh:path": "http://fixme.com#relative"
         }
       ],
       "sh:targetClass": "http://vocab.belgif.be/ns/person#PersonRelationRole"
-    },
-    {
-      "@id": "https://belgif.github.io//thematic/models/person#PublicLegalStatusShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://fixme.com#Country",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": {
-            "en": "jurisdiction"
-          },
-          "sh:path": "http://fixme.com#jurisdiction"
-        }
-      ],
-      "sh:targetClass": "http://vocab.belgif.be/ns/person#PublicLegalStatus"
     },
     {
       "@id": "https://belgif.github.io//thematic/models/person#RecordShape",
@@ -540,14 +489,10 @@
           "sh:path": "http://purl.org/vocab/bio/0.1/birth"
         },
         {
-          "sh:class": "http://vocab.belgif.be/ns/person#CivilStatus",
-          "sh:description": {
-            "en": "The civil status of the person."
-          },
+          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
+          "sh:description": "",
           "sh:maxCount": "1",
-          "sh:name": {
-            "en": "civil status"
-          },
+          "sh:minCount": "1",
           "sh:path": "http://fixme.com#civilStatus"
         },
         {
@@ -559,6 +504,16 @@
             "en": "contact point"
           },
           "sh:path": "http://data.europa.eu/m8g/contactPoint"
+        },
+        {
+          "sh:class": "http://vocab.belgif.be/ns/person#CountryRelationship",
+          "sh:description": {
+            "en": "Relations of the person with civil authorities."
+          },
+          "sh:name": {
+            "en": "civil authority relation"
+          },
+          "sh:path": "http://vocab.belgif.be/ns/person#publicLegalStatus"
         },
         {
           "sh:class": "http://vocab.belgif.be/ns/person#Death",
@@ -673,16 +628,6 @@
             "en": "preferred given name"
           },
           "sh:path": "http://vocab.belgif.be/ns/person#preferredGivenName"
-        },
-        {
-          "sh:class": "http://vocab.belgif.be/ns/person#PublicLegalStatus",
-          "sh:description": {
-            "en": "The status of the person under public law."
-          },
-          "sh:name": {
-            "en": "public legal status"
-          },
-          "sh:path": "http://vocab.belgif.be/ns/person#publicLegalStatus"
         }
       ],
       "sh:targetClass": "http://www.w3.org/ns/person#Person"

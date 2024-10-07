@@ -164,9 +164,9 @@
               <div class="head" role="metainfo" id="metainfo">
                 <dl>
                   <dt>Source</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-person/tree/84b3ffd696919a9362da672d64380415d2700d43">https://github.com/belgif/ICEGthema-person/tree/84b3ffd696919a9362da672d64380415d2700d43</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-person/tree/d3b7774882b29dc77c67b368c81ebb3135d70ac1">https://github.com/belgif/ICEGthema-person/tree/d3b7774882b29dc77c67b368c81ebb3135d70ac1</a></dd>
                   <dt>Changelog</dt>
-                  <dd><a href="https://github.com/belgif/ICEGthema-person/blob/84b3ffd696919a9362da672d64380415d2700d43/CHANGELOG">https://github.com/belgif/ICEGthema-person/blob/84b3ffd696919a9362da672d64380415d2700d43/CHANGELOG</a></dd>
+                  <dd><a href="https://github.com/belgif/ICEGthema-person/blob/d3b7774882b29dc77c67b368c81ebb3135d70ac1/CHANGELOG">https://github.com/belgif/ICEGthema-person/blob/d3b7774882b29dc77c67b368c81ebb3135d70ac1/CHANGELOG</a></dd>
                   <dt>Feedback</dt>
                   <dd><a href="https://github.com/belgif/thematic/issues">https://github.com/belgif/thematic/issues</a></dd>
                   
@@ -245,14 +245,12 @@
                       |
                       <a href="#Birth">Birth</a> |
                       <a href="#Citizenship">Citizenship</a> |
-                      <a href="#CivilStatus">Civil Status</a> |
                       <a href="#ContactPoint">Contact Point</a> |
+                      <a href="#CountryRelationship">Country Relationship</a> |
                       <a href="#Death">Death</a> |
                       <a href="#Descent">Descent</a> |
                       <a href="#DiplomaticPost">Diplomatic Post</a> |
-                      <a href="#DiplomaticStatus">Diplomatic Status</a> |
                       <a href="#DomesticResidence">Domestic Residence</a> |
-                      <a href="#EuCitizenship">EU Citizenship</a> |
                       <a href="#ForeignResidence">Foreign Residence</a> |
                       <a href="#Guardianship">Guardianship</a> |
                       <a href="#Household">Household</a> |
@@ -260,8 +258,6 @@
                       <a href="#InternationalProtectionStatus">International Protection Status</a> |
                       <a href="#Marriage">Marriage</a> |
                       <a href="#Person">Person</a> |
-                      <a href="#PersonRelation">Person Relation</a> |
-                      <a href="#PublicLegalStatus">Public Legal Status</a> |
                       <a href="#Record">Record</a> |
                       <a href="#RegisteredPerson">Registered Person</a> |
                       <a href="#RelationRole">Relation Role</a> |
@@ -384,7 +380,7 @@
                   
                   <dt>Subclass of</dt>
                   <dd>
-                    <a href="#Public Legal Status">Public Legal Status</a>
+                    <a href="#Country Relationship">Country Relationship</a>
                   </dd>
                   
                   <dt>Properties</dt>
@@ -392,67 +388,6 @@
                   <dd>No properties have been defined for this entity.</dd>
                   
                 </dl>
-              </div>
-              
-            </div>
-            
-            <div class="region region--no-space-top">
-              <h3 class="h3" id="CivilStatus"><a href="http://vocab.belgif.be/ns/person#CivilStatus" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#CivilStatus" data-placement="right">Civil Status</a></h3>
-              <div class="region region--no-space-top">
-                <dl>
-                  <dt>Definition</dt>
-                  <dd>Status of a person according to civil law.</dd>
-                  
-                  <dt>Usage</dt>
-                  <dd>Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals.</dd>
-                  
-                  
-                  <dt>Properties</dt>
-                  
-                  <dd>For this entity the following properties are defined:
-                    <a href="#CivilStatus%3AcivilStatusValue">civil status value</a>.
-                  </dd>
-                  
-                </dl>
-              </div>
-              
-              <div class="u-table-overflow">
-                <table class="data-table">
-                  <thead>
-                    <tr class="data-table__header">
-                      <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
-                      <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
-                      <th class="data-table__header-title--sortable">Usage</th>
-                      <th class="data-table__header-title--sortable">Codelist</th>
-                    </tr>
-                  </thead>
-
-                  <tbody class="supertype">
-                    
-                    <tr id="CivilStatus%3AcivilStatusValue" typeof="rdfs:Property" resource="http://purl.org/dc/elements/1.1/type">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://purl.org/dc/elements/1.1/type" data-toggle="tooltip" data-content="http://purl.org/dc/elements/1.1/type" data-placement="right">
-                            civil status value</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Civil Status Value" data-placement="right">Civil Status Value</a>
-                        
-                        
-                      </td>
-                      <td>1</td>
-                      <td property="rdfs:comment">Value of civil status.</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                  </tbody>
-                </table>
               </div>
               
             </div>
@@ -500,7 +435,7 @@
                       <td>
                         
                         
-                        <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">ContactInformationType</a>
+                        <a href="#Contact Medium" data-placement="right">Contact Medium</a>
                         
                         
                       </td>
@@ -525,6 +460,85 @@
                         
                       </td>
                       <td>0..*</td>
+                      <td property="rdfs:comment"></td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              
+            </div>
+            
+            <div class="region region--no-space-top">
+              <h3 class="h3" id="CountryRelationship"><a href="http://vocab.belgif.be/ns/person#CountryRelationship" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#CountryRelationship" data-placement="right">Country Relationship</a></h3>
+              <div class="region region--no-space-top">
+                <dl>
+                  <dt>Definition</dt>
+                  <dd>Refers to the legal relationship that exist between a legal subject and a country or official body.</dd>
+                  
+                  
+                  <dt>Properties</dt>
+                  
+                  <dd>For this entity the following properties are defined:
+                    <a href="#CountryRelationship%3A"></a>, 
+                    <a href="#CountryRelationship%3Ajurisdiction">jurisdiction</a>.
+                  </dd>
+                  
+                </dl>
+              </div>
+              
+              <div class="u-table-overflow">
+                <table class="data-table">
+                  <thead>
+                    <tr class="data-table__header">
+                      <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Cardinality</th>
+                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Usage</th>
+                      <th class="data-table__header-title--sortable">Codelist</th>
+                    </tr>
+                  </thead>
+
+                  <tbody class="supertype">
+                    
+                    <tr id="CountryRelationship%3A" typeof="rdfs:Property" resource="http://fixme.com#person">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="http://fixme.com#person" data-toggle="tooltip" data-content="http://fixme.com#person" data-placement="right">
+                            </a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Person" data-placement="right">Person</a>
+                        
+                        
+                      </td>
+                      <td>0..1</td>
+                      <td property="rdfs:comment"></td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="CountryRelationship%3Ajurisdiction" typeof="rdfs:Property" resource="http://fixme.com#country">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="http://fixme.com#country" data-toggle="tooltip" data-content="http://fixme.com#country" data-placement="right">
+                            jurisdiction</a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="http://fixme.com#Country" data-toggle="tooltip" data-content="http://fixme.com#Country" data-placement="right">Country</a>
+                        
+                        
+                      </td>
+                      <td>1</td>
                       <td property="rdfs:comment"></td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
@@ -633,55 +647,14 @@
                   
                   <dt>Subclass of</dt>
                   <dd>
-                    <a href="#Person Relation">Person Relation</a>
+                    <a href="#Relation Role">Relation Role</a>
                   </dd>
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this entity the following properties are defined:
-                    <a href="#Descent%3AdescentType">descent type</a>.
-                  </dd>
+                  <dd>No properties have been defined for this entity.</dd>
                   
                 </dl>
-              </div>
-              
-              <div class="u-table-overflow">
-                <table class="data-table">
-                  <thead>
-                    <tr class="data-table__header">
-                      <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
-                      <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
-                      <th class="data-table__header-title--sortable">Usage</th>
-                      <th class="data-table__header-title--sortable">Codelist</th>
-                    </tr>
-                  </thead>
-
-                  <tbody class="supertype">
-                    
-                    <tr id="Descent%3AdescentType" typeof="rdfs:Property" resource="http://purl.org/dc/elements/1.1/type">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://purl.org/dc/elements/1.1/type" data-toggle="tooltip" data-content="http://purl.org/dc/elements/1.1/type" data-placement="right">
-                            descent type</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Descent Type" data-placement="right">Descent Type</a>
-                        
-                        
-                      </td>
-                      <td>1</td>
-                      <td property="rdfs:comment">Type of descent.</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                  </tbody>
-                </table>
               </div>
               
             </div>
@@ -733,7 +706,7 @@
                         
                         
                       </td>
-                      <td>1..*</td>
+                      <td>0..*</td>
                       <td property="rdfs:comment"></td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
@@ -766,28 +739,6 @@
             </div>
             
             <div class="region region--no-space-top">
-              <h3 class="h3" id="DiplomaticStatus"><a href="http://vocab.belgif.be/ns/person#DiplomaticStatus" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#DiplomaticStatus" data-placement="right">Diplomatic Status</a></h3>
-              <div class="region region--no-space-top">
-                <dl>
-                  <dt>Definition</dt>
-                  <dd>Legal designation granted to natural persons, including diplomats and personnel of international organizations, who represent their home country or organization in a foreign country.</dd>
-                  
-                  
-                  <dt>Subclass of</dt>
-                  <dd>
-                    <a href="#Public Legal Status">Public Legal Status</a>
-                  </dd>
-                  
-                  <dt>Properties</dt>
-                  
-                  <dd>No properties have been defined for this entity.</dd>
-                  
-                </dl>
-              </div>
-              
-            </div>
-            
-            <div class="region region--no-space-top">
               <h3 class="h3" id="DomesticResidence"><a href="http://vocab.belgif.be/ns/person#DomesticResidence" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#DomesticResidence" data-placement="right">Domestic Residence</a></h3>
               <div class="region region--no-space-top">
                 <dl>
@@ -798,28 +749,6 @@
                   <dt>Subclass of</dt>
                   <dd>
                     <a href="#Residence">Residence</a>
-                  </dd>
-                  
-                  <dt>Properties</dt>
-                  
-                  <dd>No properties have been defined for this entity.</dd>
-                  
-                </dl>
-              </div>
-              
-            </div>
-            
-            <div class="region region--no-space-top">
-              <h3 class="h3" id="EuCitizenship"><a href="http://vocab.belgif.be/ns/person#EUCitizenship" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#EUCitizenship" data-placement="right">EU Citizenship</a></h3>
-              <div class="region region--no-space-top">
-                <dl>
-                  <dt>Definition</dt>
-                  <dd>European Union citizenship is afforded to all nationals of member states of the European Union (EU).</dd>
-                  
-                  
-                  <dt>Subclass of</dt>
-                  <dd>
-                    <a href="#Citizenship">Citizenship</a>
                   </dd>
                   
                   <dt>Properties</dt>
@@ -907,55 +836,14 @@
                   
                   <dt>Subclass of</dt>
                   <dd>
-                    <a href="#Person Relation">Person Relation</a>
+                    <a href="#Relation Role">Relation Role</a>
                   </dd>
                   
                   <dt>Properties</dt>
                   
-                  <dd>For this entity the following properties are defined:
-                    <a href="#Guardianship%3AguardianshipType">guardianship type</a>.
-                  </dd>
+                  <dd>No properties have been defined for this entity.</dd>
                   
                 </dl>
-              </div>
-              
-              <div class="u-table-overflow">
-                <table class="data-table">
-                  <thead>
-                    <tr class="data-table__header">
-                      <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
-                      <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
-                      <th class="data-table__header-title--sortable">Usage</th>
-                      <th class="data-table__header-title--sortable">Codelist</th>
-                    </tr>
-                  </thead>
-
-                  <tbody class="supertype">
-                    
-                    <tr id="Guardianship%3AguardianshipType" typeof="rdfs:Property" resource="http://purl.org/dc/elements/1.1/type">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://purl.org/dc/elements/1.1/type" data-toggle="tooltip" data-content="http://purl.org/dc/elements/1.1/type" data-placement="right">
-                            guardianship type</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Guardianship Type" data-placement="right">Guardianship Type</a>
-                        
-                        
-                      </td>
-                      <td>1</td>
-                      <td property="rdfs:comment"></td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                  </tbody>
-                </table>
               </div>
               
             </div>
@@ -1037,7 +925,7 @@
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
-                    <a href="#HouseholdRole%3AroleValue">role value</a>.
+                    <a href="#HouseholdRole%3A"></a>.
                   </dd>
                   
                 </dl>
@@ -1058,21 +946,21 @@
 
                   <tbody class="supertype">
                     
-                    <tr id="HouseholdRole%3AroleValue" typeof="rdfs:Property" resource="http://purl.org/dc/elements/1.1/type">
+                    <tr id="HouseholdRole%3A" typeof="rdfs:Property" resource="http://fixme.com#person">
                       <td>
                         <code property="rdfs:label">
-                            <a href="http://purl.org/dc/elements/1.1/type" data-toggle="tooltip" data-content="http://purl.org/dc/elements/1.1/type" data-placement="right">
-                            role value</a>
+                            <a href="http://fixme.com#person" data-toggle="tooltip" data-content="http://fixme.com#person" data-placement="right">
+                            </a>
                           </code>
                       </td>
                       <td>
                         
                         
-                        <a href="#Household Role Value" data-placement="right">Household Role Value</a>
+                        <a href="#Person" data-placement="right">Person</a>
                         
                         
                       </td>
-                      <td>1</td>
+                      <td>0..1</td>
                       <td property="rdfs:comment"></td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
@@ -1094,14 +982,55 @@
                   
                   <dt>Subclass of</dt>
                   <dd>
-                    <a href="#Public Legal Status">Public Legal Status</a>
+                    <a href="#Country Relationship">Country Relationship</a>
                   </dd>
                   
                   <dt>Properties</dt>
                   
-                  <dd>No properties have been defined for this entity.</dd>
+                  <dd>For this entity the following properties are defined:
+                    <a href="#InternationalProtectionStatus%3A"></a>.
+                  </dd>
                   
                 </dl>
+              </div>
+              
+              <div class="u-table-overflow">
+                <table class="data-table">
+                  <thead>
+                    <tr class="data-table__header">
+                      <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                      <th class="data-table__header-title--sortable">Expected Range</th>
+                      <th class="data-table__header-title--sortable">Cardinality</th>
+                      <th class="data-table__header-title--sortable">Definition</th>
+                      <th class="data-table__header-title--sortable">Usage</th>
+                      <th class="data-table__header-title--sortable">Codelist</th>
+                    </tr>
+                  </thead>
+
+                  <tbody class="supertype">
+                    
+                    <tr id="InternationalProtectionStatus%3A" typeof="rdfs:Property" resource="http://fixme.com#homeCountry">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="http://fixme.com#homeCountry" data-toggle="tooltip" data-content="http://fixme.com#homeCountry" data-placement="right">
+                            </a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="http://fixme.com#Country" data-toggle="tooltip" data-content="http://fixme.com#Country" data-placement="right">Country</a>
+                        
+                        
+                      </td>
+                      <td>1</td>
+                      <td property="rdfs:comment"></td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
               </div>
               
             </div>
@@ -1119,7 +1048,7 @@
                   
                   <dt>Subclass of</dt>
                   <dd>
-                    <a href="#Person Relation">Person Relation</a>
+                    <a href="#Relation Role">Relation Role</a>
                   </dd>
                   
                   <dt>Properties</dt>
@@ -1151,9 +1080,10 @@
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
+                    <a href="#Person%3A"></a>, 
                     <a href="#Person%3AalternativeName">alternative name</a>, 
                     <a href="#Person%3Abirth">birth</a>, 
-                    <a href="#Person%3AcivilStatus">civil status</a>, 
+                    <a href="#Person%3AcivilAuthorityRelation">civil authority relation</a>, 
                     <a href="#Person%3AcontactPoint">contact point</a>, 
                     <a href="#Person%3Adeath">death</a>, 
                     <a href="#Person%3AfamilyName">family name</a>, 
@@ -1164,8 +1094,7 @@
                     <a href="#Person%3AmatronymicName">matronymic name</a>, 
                     <a href="#Person%3AnobilityTitle">nobility title</a>, 
                     <a href="#Person%3ApatronymicName">patronymic name</a>, 
-                    <a href="#Person%3ApreferredGivenName">preferred given name</a>, 
-                    <a href="#Person%3ApublicLegalStatus">public legal status</a>.
+                    <a href="#Person%3ApreferredGivenName">preferred given name</a>.
                   </dd>
                   
                 </dl>
@@ -1185,6 +1114,26 @@
                   </thead>
 
                   <tbody class="supertype">
+                    
+                    <tr id="Person%3A" typeof="rdfs:Property" resource="http://fixme.com#civilStatus">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="http://fixme.com#civilStatus" data-toggle="tooltip" data-content="http://fixme.com#civilStatus" data-placement="right">
+                            </a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Civil Status Value" data-placement="right">Civil Status Value</a>
+                        
+                        
+                      </td>
+                      <td>1</td>
+                      <td property="rdfs:comment"></td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
                     
                     <tr id="Person%3AalternativeName" typeof="rdfs:Property" resource="http://purl.org/dc/terms/alternative">
                       <td>
@@ -1226,22 +1175,22 @@
                       <td></td>
                     </tr>
                     
-                    <tr id="Person%3AcivilStatus" typeof="rdfs:Property" resource="http://fixme.com#civilStatus">
+                    <tr id="Person%3AcivilAuthorityRelation" typeof="rdfs:Property" resource="http://vocab.belgif.be/ns/person#publicLegalStatus">
                       <td>
                         <code property="rdfs:label">
-                            <a href="http://fixme.com#civilStatus" data-toggle="tooltip" data-content="http://fixme.com#civilStatus" data-placement="right">
-                            civil status</a>
+                            <a href="http://vocab.belgif.be/ns/person#publicLegalStatus" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#publicLegalStatus" data-placement="right">
+                            civil authority relation</a>
                           </code>
                       </td>
                       <td>
                         
                         
-                        <a href="#Civil Status" data-placement="right">Civil Status</a>
+                        <a href="#Country Relationship" data-placement="right">Country Relationship</a>
                         
                         
                       </td>
-                      <td>0..1</td>
-                      <td property="rdfs:comment">The civil status of the person.</td>
+                      <td>0..*</td>
+                      <td property="rdfs:comment">Relations of the person with civil authorities.</td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
                     </tr>
@@ -1466,104 +1415,6 @@
                       <td></td>
                     </tr>
                     
-                    <tr id="Person%3ApublicLegalStatus" typeof="rdfs:Property" resource="http://vocab.belgif.be/ns/person#publicLegalStatus">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://vocab.belgif.be/ns/person#publicLegalStatus" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#publicLegalStatus" data-placement="right">
-                            public legal status</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="#Public Legal Status" data-placement="right">Public Legal Status</a>
-                        
-                        
-                      </td>
-                      <td>0..*</td>
-                      <td property="rdfs:comment">The status of the person under public law.</td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
-                  </tbody>
-                </table>
-              </div>
-              
-            </div>
-            
-            <div class="region region--no-space-top">
-              <h3 class="h3" id="PersonRelation"><a href="http://vocab.belgif.be/ns/person#PersonRelation" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#PersonRelation" data-placement="right">Person Relation</a></h3>
-              <div class="region region--no-space-top">
-                <dl>
-                  <dt>Definition</dt>
-                  <dd>Relation between two or more natural persons.</dd>
-                  
-                  <dt>Usage</dt>
-                  <dd>Typically, these are civil law relationships but not necessarily limited thereto.</dd>
-                  
-                  
-                  <dt>Properties</dt>
-                  
-                  <dd>No properties have been defined for this entity.</dd>
-                  
-                </dl>
-              </div>
-              
-            </div>
-            
-            <div class="region region--no-space-top">
-              <h3 class="h3" id="PublicLegalStatus"><a href="http://vocab.belgif.be/ns/person#PublicLegalStatus" data-toggle="tooltip" data-content="http://vocab.belgif.be/ns/person#PublicLegalStatus" data-placement="right">Public Legal Status</a></h3>
-              <div class="region region--no-space-top">
-                <dl>
-                  <dt>Definition</dt>
-                  <dd>Refers to the legal relationship that exist between a legal subject and a country or official body.</dd>
-                  
-                  
-                  <dt>Properties</dt>
-                  
-                  <dd>For this entity the following properties are defined:
-                    <a href="#PublicLegalStatus%3Ajurisdiction">jurisdiction</a>.
-                  </dd>
-                  
-                </dl>
-              </div>
-              
-              <div class="u-table-overflow">
-                <table class="data-table">
-                  <thead>
-                    <tr class="data-table__header">
-                      <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
-                      <th class="data-table__header-title--sortable">Expected Range</th>
-                      <th class="data-table__header-title--sortable">Cardinality</th>
-                      <th class="data-table__header-title--sortable">Definition</th>
-                      <th class="data-table__header-title--sortable">Usage</th>
-                      <th class="data-table__header-title--sortable">Codelist</th>
-                    </tr>
-                  </thead>
-
-                  <tbody class="supertype">
-                    
-                    <tr id="PublicLegalStatus%3Ajurisdiction" typeof="rdfs:Property" resource="http://fixme.com#jurisdiction">
-                      <td>
-                        <code property="rdfs:label">
-                            <a href="http://fixme.com#jurisdiction" data-toggle="tooltip" data-content="http://fixme.com#jurisdiction" data-placement="right">
-                            jurisdiction</a>
-                          </code>
-                      </td>
-                      <td>
-                        
-                        
-                        <a href="http://fixme.com#Country" data-toggle="tooltip" data-content="http://fixme.com#Country" data-placement="right">Country</a>
-                        
-                        
-                      </td>
-                      <td>1</td>
-                      <td property="rdfs:comment"></td>
-                      <td property="skos:scopeNote"></td>
-                      <td></td>
-                    </tr>
-                    
                   </tbody>
                 </table>
               </div>
@@ -1729,7 +1580,8 @@
                   <dt>Properties</dt>
                   
                   <dd>For this entity the following properties are defined:
-                    <a href="#RelationRole%3AroleType">role type</a>.
+                    <a href="#RelationRole%3A"></a>, 
+                    <a href="#RelationRole%3A"></a>.
                   </dd>
                   
                 </dl>
@@ -1750,21 +1602,41 @@
 
                   <tbody class="supertype">
                     
-                    <tr id="RelationRole%3AroleType" typeof="rdfs:Property" resource="http://fixme.com#roleValue">
+                    <tr id="RelationRole%3A" typeof="rdfs:Property" resource="http://fixme.com#relative">
                       <td>
                         <code property="rdfs:label">
-                            <a href="http://fixme.com#roleValue" data-toggle="tooltip" data-content="http://fixme.com#roleValue" data-placement="right">
-                            role type</a>
+                            <a href="http://fixme.com#relative" data-toggle="tooltip" data-content="http://fixme.com#relative" data-placement="right">
+                            </a>
                           </code>
                       </td>
                       <td>
                         
                         
-                        <a href="#Person Relation Role Value" data-placement="right">Person Relation Role Value</a>
+                        <a href="#Person" data-placement="right">Person</a>
                         
                         
                       </td>
-                      <td>1</td>
+                      <td>0..1</td>
+                      <td property="rdfs:comment"></td>
+                      <td property="skos:scopeNote"></td>
+                      <td></td>
+                    </tr>
+                    
+                    <tr id="RelationRole%3A" typeof="rdfs:Property" resource="http://fixme.com#person">
+                      <td>
+                        <code property="rdfs:label">
+                            <a href="http://fixme.com#person" data-toggle="tooltip" data-content="http://fixme.com#person" data-placement="right">
+                            </a>
+                          </code>
+                      </td>
+                      <td>
+                        
+                        
+                        <a href="#Person" data-placement="right">Person</a>
+                        
+                        
+                      </td>
+                      <td>0..1</td>
                       <td property="rdfs:comment"></td>
                       <td property="skos:scopeNote"></td>
                       <td></td>
@@ -1865,7 +1737,7 @@
                   
                   <dt>Subclass of</dt>
                   <dd>
-                    <a href="#Public Legal Status">Public Legal Status</a>
+                    <a href="#Country Relationship">Country Relationship</a>
                   </dd>
                   
                   <dt>Properties</dt>
@@ -1931,7 +1803,7 @@
                   
                   <dt>Subclass of</dt>
                   <dd>
-                    <a href="#Person Relation">Person Relation</a>
+                    <a href="#Relation Role">Relation Role</a>
                   </dd>
                   
                   <dt>Properties</dt>

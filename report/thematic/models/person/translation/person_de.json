@@ -32,9 +32,9 @@
     },
     {
       "EA-Guid": "{802DA433-6EF8-40ae-A931-599DD24607B8}",
-      "name": "ContactInformationType",
+      "name": "ContactMedium",
       "label": {
-        "en": "Contact Information Type",
+        "en": "Contact Medium",
         "de": "Enter your translation here"
       }
     },
@@ -83,18 +83,14 @@
       }
     },
     {
-      "EA-Guid": "{E12D29AC-62A7-4b7a-A4B5-948D6FFDB40E}",
-      "name": "CivilStatus",
+      "EA-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
+      "name": "CountryRelationship",
       "label": {
-        "en": "Civil Status",
+        "en": "Country Relationship",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "Status of a person according to civil law.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Refers to marriage, statutory cohabitation, descent, guardianship, etc. It is, in other words, the condition of specific relationships between individuals.",
+        "en": "Refers to the legal relationship that exist between a legal subject and a country or official body.",
         "de": "Enter your translation here"
       }
     },
@@ -127,18 +123,6 @@
       }
     },
     {
-      "EA-Guid": "{F24E6DB6-BEC8-4319-BB3C-600F53305FCF}",
-      "name": "DiplomaticStatus",
-      "label": {
-        "en": "Diplomatic Status",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Legal designation granted to natural persons, including diplomats and personnel of international organizations, who represent their home country or organization in a foreign country.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{57DDEECB-14B7-46b7-B1D0-CA8494CA55D3}",
       "name": "DomesticResidence",
       "label": {
@@ -147,18 +131,6 @@
       },
       "definition": {
         "en": "Place within the jurisdiction of interest where a person lives or stays, either permanently or temporarily.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{2DDE3B9A-BED5-41f0-89C2-61DFE275B9AD}",
-      "name": "EuCitizenship",
-      "label": {
-        "en": "EU Citizenship",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "European Union citizenship is afforded to all nationals of member states of the European Union (EU).",
         "de": "Enter your translation here"
       }
     },
@@ -247,22 +219,6 @@
       }
     },
     {
-      "EA-Guid": "{BFF63A93-DCFC-468f-B259-203C4B4BE6C0}",
-      "name": "PersonRelation",
-      "label": {
-        "en": "Person Relation",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Relation between two or more natural persons.",
-        "de": "Enter your translation here"
-      },
-      "usage": {
-        "en": "Typically, these are civil law relationships but not necessarily limited thereto.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{B7FBECA6-E45A-4616-9393-70F13C7B5058}",
       "name": "RelationRole",
       "label": {
@@ -275,18 +231,6 @@
       },
       "usage": {
         "en": "When a person relation implies direction, the role is expressed from the source to the target person. For example, Homer (source) has the role father with respect to Lisa (target).",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{4FEA1F68-630A-41c7-9340-F5B6558B3B46}",
-      "name": "PublicLegalStatus",
-      "label": {
-        "en": "Public Legal Status",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Refers to the legal relationship that exist between a legal subject and a country or official body.",
         "de": "Enter your translation here"
       }
     },
@@ -530,13 +474,13 @@
     },
     {
       "EA-Guid": "{814A0319-2EB3-4b1d-B8A0-ADA3A3A15FB0}",
-      "name": "publicLegalStatus",
+      "name": "civilAuthorityRelation",
       "label": {
-        "en": "public legal status",
+        "en": "civil authority relation",
         "de": "Enter your translation here"
       },
       "definition": {
-        "en": "The status of the person under public law.",
+        "en": "Relations of the person with civil authorities.",
         "de": "Enter your translation here"
       }
     },
@@ -625,38 +569,10 @@
       }
     },
     {
-      "EA-Guid": "{8F2C3305-F7E7-4655-B420-E0DEE0407768}",
-      "name": "roleValue",
-      "label": {
-        "en": "role value",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{67F847F6-9619-4c66-9B5C-B4146572DA7B}",
       "name": "residenceType",
       "label": {
         "en": "residence type",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{5EEEE243-FE30-4510-8F7B-5897D8F9746D}",
-      "name": "guardianshipType",
-      "label": {
-        "en": "guardianship type",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{B7706C6B-B91D-4db9-A431-3335D953C00C}",
-      "name": "descentType",
-      "label": {
-        "en": "descent type",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Type of descent.",
         "de": "Enter your translation here"
       }
     },
@@ -669,32 +585,16 @@
       }
     },
     {
-      "EA-Guid": "{77F4819E-ABD2-4763-B152-8F344F31A0C6}",
-      "name": "civilStatusValue",
-      "label": {
-        "en": "civil status value",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "Value of civil status.",
-        "de": "Enter your translation here"
-      }
-    },
-    {
-      "EA-Guid": "{3F4E03B6-8C31-48ea-AC59-8828F0541EA5}",
-      "name": "roleType",
-      "label": {
-        "en": "role type",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{BC08CC5E-44C2-4a3b-88D0-27F372EFDA13}",
       "name": "residence",
       "label": {
         "en": "residence",
         "de": "Enter your translation here"
       }
+    },
+    {
+      "EA-Guid": "{98E806AD-CB37-4ca0-93C5-A42DD420D13B}",
+      "name": ""
     },
     {
       "EA-Guid": "{7A1B23E7-6B55-4110-AF4F-E73A1851805E}",
@@ -707,6 +607,18 @@
         "en": "Refers to the current state or condition of a record within the base registry.",
         "de": "Enter your translation here"
       }
+    },
+    {
+      "EA-Guid": "{D67753FE-154E-481c-B3D5-D9D4AB135D10}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{A4B31B8D-C887-4c1b-830C-E31B1C67CE62}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{814A0319-2EB3-4b1d-B8A0-ADA3A3A15FB0}",
+      "name": ""
     },
     {
       "EA-Guid": "{CCE9C781-3024-4bd7-82F5-09927A9A788E}",
@@ -729,14 +641,6 @@
       }
     },
     {
-      "EA-Guid": "{CCDE10A8-3FC6-49b4-9859-D1C8BD1FE49C}",
-      "name": "jurisdiction",
-      "label": {
-        "en": "jurisdiction",
-        "de": "Enter your translation here"
-      }
-    },
-    {
       "EA-Guid": "{FF10322C-3C80-4bcd-8AB4-79F5B5EDF661}",
       "name": "identifier",
       "label": {
@@ -749,16 +653,20 @@
       }
     },
     {
-      "EA-Guid": "{67AC03F6-A857-4222-8E25-DA7A74B07DFB}",
-      "name": "civilStatus",
+      "EA-Guid": "{4A28EB66-6204-4d6d-B85D-7D113C0308AC}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{CCDE10A8-3FC6-49b4-9859-D1C8BD1FE49C}",
+      "name": "jurisdiction",
       "label": {
-        "en": "civil status",
-        "de": "Enter your translation here"
-      },
-      "definition": {
-        "en": "The civil status of the person.",
+        "en": "jurisdiction",
         "de": "Enter your translation here"
       }
+    },
+    {
+      "EA-Guid": "{35CF47D3-434A-4315-9D06-6222D1825300}",
+      "name": ""
     },
     {
       "EA-Guid": "{D2AEE069-1764-43f4-BD00-1D0522CC6929}",
